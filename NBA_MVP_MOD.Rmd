@@ -1,0 +1,114 @@
+---
+title: "NBA MVP Mod"
+author: "Jacob Schauer"
+date: '2023-02-07'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE
+)
+library(readr)
+library(tidymodels)
+library(plyr)                                              
+library(dplyr)
+library(knitr)
+library(skimr)
+library(reactablefmtr)
+```
+
+```{r}
+NBA <- read.csv('NBA.csv', encoding = 'utf-8-sig') 
+
+NBA$winner[is.na(NBA$winner)] <- 'FALSE'
+NBA$share[is.na(NBA$share)] <- 0
+
+NBA <- NBA %>% 
+  mutate(wp = w / (w + l))
+```
+
+```{r}
+xgb_recipe <- recipe(share ~ ., data = NBA) %>%
+  update_role(player, winner, season, tm, w, l, new_role = "ID") %>% 
+  step_impute_knn(all_numeric_predictors()) %>% 
+  step_dummy(all_nominal_predictors())
+
+xgb_mod <-
+  boost_tree(tree_depth = 2,
+             trees = 1100,
+             learn_rate = .02,
+             sample_size = .8,
+             min_n = 3,
+             loss_reduction = 4.714143e-06,
+             stop_iter = 3) %>%
+  set_engine('xgboost') %>%
+  set_mode('regression')
+
+xgb_wkflow <- workflow() %>%
+    add_recipe(xgb_recipe) %>%
+    add_model(xgb_mod)
+
+set.seed(2013)
+```
+
+```{r}
+NBA23 <- read.csv('NBA_24.csv', encoding = 'UTF-8')
+
+colnames(NBA23)[1] <- 'player'
+
+NBA23 <- NBA23 %>% 
+ mutate(wp = w / (w + l), g = ifelse(tm != 'TOT', round((g / (w + l)) * 82), g), ws = ifelse(tm!= 'TOT', round((ws / (w + l)) * 82, 1), ws)) %>% 
+  filter(g >= 65)
+
+NBA23$winner <- as.character(NBA23$winner)
+
+xgb_final_fit_23 <- fit(xgb_wkflow, data = NBA)
+test_23 <- augment(xgb_final_fit_23, new_data = NBA23)
+```
+
+```{r}
+no_logo_23 <- test_23 %>% 
+  select(player, tm, g, ws, per, pts_per_game, trb_per_game, ast_per_game, wp, .pred)
+
+logos <- read.csv('nba_logos.csv')
+colnames(logos)[1] <- 'tm'
+
+table_23 <- left_join(no_logo_23, logos, by = 'tm') %>% 
+  relocate(logo, .after = tm) %>% 
+  arrange(desc(.pred))
+
+table_23$wp <- round(table_23$wp, 3)
+table_23$Rank <- as.numeric(rownames(table_23))
+
+table_23 <- table_23 %>% 
+  relocate(Rank, .before = player) %>% 
+  relocate(.pred, .before = g) %>% 
+  mutate(.pred = round(.pred * 1000))
+```
+
+
+```{r}
+reactable(
+  table_23,
+  theme = fivethirtyeight(centered = T),
+  pagination = F,
+  columns = list(
+    logo = colDef(align = 'center', name = "Team", cell = embed_img(height = 32.5, width = 32.5), maxWidth = 52, style = list(borderRight = "1px solid #777")),
+    Rank = colDef(style = cell_style(font_size = 15, font_weight = 'bolder'), maxWidth = 52, align = 'center', headerVAlign = 'center'),
+    player = colDef(minWidth = 175, style = cell_style(font_size = 15, font_weight = 'bolder'), headerVAlign = 'center'),
+    tm = colDef(show = F),
+    .pred = colDef(align = 'center', name = 'Voting Points', style = color_scales(bold_text = T, text_size = 15, table_23, colors = c('#eee1c6', 'white',  '#00471b'))),
+    g = colDef(align = 'center', name = 'Games', style = color_scales(text_size = 15, table_23, colors = c('#eee1c6', 'white',  '#00471b'))),
+    ws = colDef(align = 'center', name = 'Win Shares', style = color_scales(text_size = 15, table_23, colors = c('#eee1c6', 'white',  '#00471b'))),
+    per = colDef(align = 'center', style = color_scales(text_size = 15, table_23, colors = c('#eee1c6', 'white',  '#00471b'))),
+    pts_per_game = colDef(align = 'center', name = 'PPG', style = color_scales(text_size = 15, table_23, colors = c('#eee1c6', 'white',  '#00471b'))),
+    trb_per_game = colDef(align = 'center', name = 'RPG', style = color_scales(text_size = 15, table_23, colors = c('#eee1c6', 'white',  '#00471b'))),
+    ast_per_game = colDef(align = 'center', name = 'APG', style = color_scales(text_size = 15, table_23, colors = c('#eee1c6', 'white',  '#00471b'))),
+    wp = colDef(align = 'center', name = 'Team WP', style = color_scales(text_size = 15, table_23, colors = c('#eee1c6', 'white',  '#00471b'))))) %>% 
+  add_title('2024-25 NBA MVP Prediction', align = 'center') %>% 
+  add_subtitle(paste('Through games on ', Sys.Date() - 1,'| Data from Basketball Reference'), font_size = 14, font_weight = 'normal') %>%
+  google_font('Montserrat')
+```
