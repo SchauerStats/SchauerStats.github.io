@@ -1,0 +1,66 @@
+---
+title: "D3 Ratings Table"
+author: "Jacob Schauer"
+date: '2023-01-11'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE
+)
+library(readr)
+library(tidymodels)
+library(plyr)                                              
+library(dplyr)
+library(knitr)
+library(skimr)
+library(reactablefmtr)
+```
+
+```{r}
+d3rankings <- read.csv('d3_ratings.csv') %>% 
+  mutate_if(is.numeric, round, 1)
+
+d3future <- read.csv('future_games.csv') %>% 
+  mutate_if(is.numeric, round, 1)
+```
+
+```{r}
+reactable(
+  d3rankings, searchable = T,
+  theme = fivethirtyeight(centered = T, header_font_size = 14),
+  pagination = F,
+  columns = list(
+    rank = colDef(style = cell_style(font_size = 20), minWidth = 35, align = 'center', vAlign = 'center'),
+    ncaa_name = colDef(style = cell_style(font_size = 22), minWidth = 175, vAlign = 'center', name='Team'),
+    conference = colDef(style = cell_style(font_size = 20), minWidth = 75, vAlign = 'center'),
+    record = colDef(style = cell_style(font_size = 20), minWidth = 60, vAlign = 'center', name='D3 Record'),
+    rating = colDef(style = color_scales(d3rankings, colors = c('white', '#192C4E'), text_size = 18), minWidth = 60),
+    off = colDef(style = color_scales(d3rankings, colors = c('white', '#192C4E'),text_size = 18),minWidth = 60),
+    def = colDef(style = color_scales(d3rankings, colors = c('#192C4E', 'white'),text_size = 18),minWidth = 60)))%>% 
+  add_title("2024-25 D3 Men's Basketball Predictive Ratings", align = 'center', font_weight = 'normal', font_size = 37) %>% 
+  add_subtitle(paste('Through games on ', Sys.Date() - 1,' | Data from Massey Ratings | Analysis by Jacob Schauer'), font_size = 16, font_weight = 'normal') %>% 
+  google_font('Roboto')
+```
+
+```{r}
+reactable(
+  d3future, searchable = T,
+  theme = fivethirtyeight(centered = T, header_font_size = 14),
+  pagination = F,
+  columns = list(
+    date = colDef(style = cell_style(font_size = 18), align = 'center', vAlign = 'center', minWidth = 55),
+    team_1 = colDef(style = cell_style(font_size = 18), align = 'center', name = ''),
+    team_1_pred_score = colDef(style = cell_style(font_size = 18), align = 'center', name = '', minWidth = 30),
+    hfa = colDef(style = cell_style(font_size = 18), align = 'center', name = '', minWidth = 25),
+    team_2 = colDef(style = cell_style(font_size = 18), align = 'center', name = ''),
+    team_2_pred_score = colDef(style = cell_style(font_size = 18), align = 'center', name='', minWidth = 30),
+    spread = colDef(style = cell_style(font_size = 18), align = 'center', minWidth=50)))%>% 
+  add_title("D3 Men's Basketball Score Predictions", align = 'center', font_weight = 'normal', font_size = 37) %>% 
+  add_subtitle(paste('Through games on ', Sys.Date() - 1,' | Data from Massey Ratings | Analysis by Jacob Schauer'), font_size = 16, font_weight = 'normal') %>% 
+  google_font('Roboto')
+```
+
