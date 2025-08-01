@@ -1,7 +1,16 @@
 # Schauer Stats - Analytics By Jacob Schauer
 
-[D3 Men's Basketball Ratings](https://schauerstats.github.io/D3RatingsLogos)
+---
 
-[D3 Men's Basketball Score Predictions](https://schauerstats.github.io/D3RatingsLogos)
+## D3 Hoops
+Contains R and Python scripts that perform regular maintenance of my predictive Division 3 Men's Basketball model.
 
-[NBA MVP Predictions](https://schauerstats.github.io/MVP)
+---
+
+## NBA MVP
+Contains R and Python scripts that perform regular maintenance of my NBA MVP model.
+
+---
+
+## Wheaton Basketball
+Contains various code scripts used throughout the Wheaton Men's Basketball season.
