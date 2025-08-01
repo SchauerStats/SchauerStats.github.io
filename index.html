@@ -1,101 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Schauer Stats By Jacob Schauer">
-    <title>Schauer Stats</title>
-    
-    <!-- Add Bootstrap CSS (can be replaced with Bulma or custom CSS) -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Optional Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    
-    <!-- Optional custom CSS (you can also add this in a separate CSS file) -->
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-        }
-        .hero {
-            background-color: #192c4e;
-            color: white;
-            padding: 50px 0;
-        }
-        .card img {
-            height: 200px;
-            object-fit: cover;
-        }
-        .custom-btn {
-            background-color: #192c4e;  /* Background color */
-            color: #fff;  /* Text color */
-            font-size: 16px;  /* Font size */
-            padding: 12px 20px;  /* Padding for top/bottom and left/right */
-            border: none;  /* Remove border */
-            border-radius: 8px;  /* Rounded corners */
-            cursor: pointer;  /* Pointer cursor on hover */
-            transition: background-color 0.3s, transform 0.2s;  /* Smooth transition */
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Schauer Stats By Jacob Schauer" />
+  <title>Schauer Stats</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"/>
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    .navbar {
+      background-color: #192c4e;
+    }
+    .navbar-brand, .nav-link {
+      color: #fff !important;
+    }
+    .hero {
+      background-color: #192c4e;
+      color: white;
+      padding: 60px 0;
+      text-align: center;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      margin-top: 10px;
+    }
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    .custom-btn {
+      background-color: #192c4e;
+      color: #fff;
+      font-size: 16px;
+      padding: 10px 18px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.2s;
+      display: inline-block;
+    }
+    .custom-btn:hover {
+      background-color: #2a3f71;
+      transform: scale(1.05);
+    }
+    .card:hover {
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+      transition: box-shadow 0.3s ease;
+    }
+    footer {
+      background-color: #f8f9fa;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container text-center">
-            <h1 class="display-4">Schauer Stats</h1>
-        </div>
-    </section>
 
-    <!-- Featured Analyses Section (Grid of Cards) -->
-    <section id="latest-analyses" class="py-5">
-        <div class="container">
-            <div class="row">
-                <!-- Card 1 -->
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="https://media.gettyimages.com/id/184914535/photo/basketball.jpg?s=612x612&w=0&k=20&c=ShxJ2ibCS1ntI3Q6KTkv1O7VD6z5T5qgbhZyZCHoM1E=" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">D3 MBB Ratings</h5>
-                            <p class="card-text">Predictive, forward-looking ratings for Division III Men's Basketball.</p>
-                            <a href="D3Ratings.html" class="custom-btn">Click Here To Navigate</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card 2 -->
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="https://media.gettyimages.com/id/184914535/photo/basketball.jpg?s=612x612&w=0&k=20&c=ShxJ2ibCS1ntI3Q6KTkv1O7VD6z5T5qgbhZyZCHoM1E=" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">D3 MBB Predictions</h5>
-                            <p class="card-text">Division III Men's Basketball score predictions based on my ratings.</p>
-                            <a href="D3Predictions.html" class="custom-btn">Click Here To Navigate</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card 3 -->
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="https://media.gettyimages.com/id/184914535/photo/basketball.jpg?s=612x612&w=0&k=20&c=ShxJ2ibCS1ntI3Q6KTkv1O7VD6z5T5qgbhZyZCHoM1E=" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">NBA MVP Predictions</h5>
-                            <p class="card-text">Output from a machine learning model tuned to predict each year's NBA MVP.</p>
-                            <a href="MVP.html" class="custom-btn">Click Here To Navigate</a>
-                        </div>
-                    </div>
-                </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Schauer Stats</a>
+      <div class="collapse navbar-collapse justify-content-end">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="D3Ratings.html">D3 Ratings</a></li>
+          <li class="nav-item"><a class="nav-link" href="D3Predictions.html">Predictions</a></li>
+          <li class="nav-item"><a class="nav-link" href="MVP.html">MVP Model</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="display-4">Welcome to Schauer Stats</h1>
+      <p>Advanced basketball analytics & machine learning for NCAA D3 and the NBA.</p>
+    </div>
+  </section>
+
+  <!-- Cards Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Card 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1581574201740-33c9f3ef1f96?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="D3 Basketball Ratings">
+            <div class="card-body">
+              <h5 class="card-title">D3 Hoops Power Ratings</h5>
+              <p class="card-text">Forward-looking ratings based on team performance and schedule strength.</p>
+              <a href="D3Ratings.html" class="custom-btn">View Ratings</a>
             </div>
+          </div>
         </div>
-    </section>
+        <!-- Card 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1592271285340-62a6c984ad20?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="D3 Predictions">
+            <div class="card-body">
+              <h5 class="card-title">Game Score Predictions</h5>
+              <p class="card-text">Accurate D3 MBB score forecasts based on statistical modeling.</p>
+              <a href="D3Predictions.html" class="custom-btn">Explore Predictions</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1579989862230-507f1b2f4c92?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="NBA MVP Model">
+            <div class="card-body">
+              <h5 class="card-title">NBA MVP Predictor</h5>
+              <p class="card-text">Machine learning output for NBA MVP forecasting — updated regularly.</p>
+              <a href="MVP.html" class="custom-btn">See MVP Picks</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<!-- Footer Section -->
-<footer class="text-center py-4">
-        <a href="https://twitter.com/jacob_schauer" target="_blank">Follow Me On X (Twitter)</a>
-    </p>
-</footer>
+  <!-- Footer -->
+  <footer class="text-center">
+    <p class="mb-1">Created by Jacob Schauer — © 2025</p>
+    <a href="https://twitter.com/jacob_schauer" target="_blank">Follow Me on X (Twitter)</a>
+  </footer>
 
-
-    <!-- Add Bootstrap JS (optional) -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
