@@ -9,485 +9,444 @@
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
-
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --navy:       #1C2B4B;
-      --navy-mid:   #243460;
-      --navy-light: #344d8a;
-      --bg:         #F0F2F6;
-      --white:      #FFFFFF;
-      --border:     #DDE1EA;
-      --text:       #111827;
-      --muted:      #6B7280;
-      --accent:     #4A6CF7;
-      --win:        #16a34a;
-      --loss:       #dc2626;
-      --header-h:   56px;
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --navy:#1C2B4B;--navy2:#243460;--bg:#F0F2F6;--white:#fff;
+      --border:#DDE1EA;--text:#111827;--muted:#6B7280;
+      --accent:#3B5BDB;--win:#16a34a;--loss:#dc2626;--nav-h:52px;
     }
-    html, body { height: 100%; background: var(--bg); color: var(--text); }
-    body { font-family: 'IBM Plex Sans', sans-serif; font-size: 15px; }
-    #root { min-height: 100vh; display: flex; flex-direction: column; }
+    html,body{height:100%;background:var(--bg);color:var(--text);-webkit-text-size-adjust:100%}
+    body{font-family:'IBM Plex Sans',sans-serif;font-size:15px}
+    #root{min-height:100vh;display:flex;flex-direction:column}
 
-    /* NAV */
-    nav {
-      background: var(--navy); height: var(--header-h);
-      display: flex; align-items: center; padding: 0 2rem; gap: 2rem;
-      position: sticky; top: 0; z-index: 100;
-      box-shadow: 0 1px 12px rgba(0,0,0,.35);
+    nav{background:var(--navy);height:var(--nav-h);display:flex;align-items:center;
+        padding:0 1.5rem;position:sticky;top:0;z-index:200;box-shadow:0 1px 8px rgba(0,0,0,.3)}
+    .nav-brand{font-family:'Syne',sans-serif;font-weight:800;font-size:1rem;color:#fff;
+               cursor:pointer;white-space:nowrap;margin-right:auto;padding-right:1rem}
+    .nav-links{display:flex;gap:0}
+    .nav-link{color:rgba(255,255,255,.7);font-size:.74rem;font-weight:500;cursor:pointer;
+              padding:.45rem .7rem;border-radius:5px;letter-spacing:.04em;text-transform:uppercase;
+              white-space:nowrap;transition:color .12s,background .12s}
+    .nav-link:hover{color:#fff;background:rgba(255,255,255,.08)}
+    .nav-link.active{color:#fff}
+    .nav-toggle{display:none;background:none;border:none;cursor:pointer;padding:.25rem;color:#fff}
+    @media(max-width:680px){
+      .nav-links{display:none;flex-direction:column;position:absolute;top:var(--nav-h);
+                 left:0;right:0;background:var(--navy);padding:.5rem 0;z-index:199;
+                 box-shadow:0 4px 12px rgba(0,0,0,.3)}
+      .nav-links.open{display:flex}
+      .nav-link{padding:.7rem 1.5rem;border-radius:0;font-size:.8rem}
+      .nav-toggle{display:block}
     }
-    .nav-brand { font-family:'Syne',sans-serif; font-weight:700; font-size:1.1rem; color:#fff; margin-right:auto; cursor:pointer; }
-    .nav-link { color:rgba(255,255,255,.72); font-size:.8rem; font-weight:500; text-decoration:none; letter-spacing:.04em; cursor:pointer; transition:color .15s; white-space:nowrap; text-transform:uppercase; }
-    .nav-link:hover, .nav-link.active { color:#fff; }
 
-    /* LAYOUT */
-    .page { padding:2.5rem 2rem; max-width:1200px; margin:0 auto; width:100%; flex:1; }
-    .page-title { font-family:'Syne',sans-serif; font-size:1.75rem; font-weight:700; color:var(--navy); margin-bottom:.3rem; }
-    .page-subtitle { color:var(--muted); font-size:.875rem; margin-bottom:1.75rem; }
+    .page{padding:2rem 1.5rem;max-width:1200px;margin:0 auto;width:100%;flex:1}
+    .page-title{font-family:'Syne',sans-serif;font-size:1.5rem;font-weight:800;color:var(--navy);margin-bottom:.25rem}
+    .page-sub{color:var(--muted);font-size:.8rem;margin-bottom:1.5rem;line-height:1.5}
+    .back-btn{display:inline-flex;align-items:center;gap:.3rem;color:var(--muted);font-size:.8rem;
+              cursor:pointer;margin-bottom:1.25rem;background:none;border:none;padding:0}
+    .back-btn:hover{color:var(--navy)}
 
-    /* HOME CARDS */
-    .home-hero { padding:3rem 2rem 0; max-width:1200px; margin:0 auto; }
-    .hero-title { font-family:'Syne',sans-serif; font-size:2.25rem; font-weight:800; color:var(--navy); margin-bottom:.5rem; }
-    .hero-sub { color:var(--muted); font-size:1rem; margin-bottom:2.5rem; }
-    .card-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1.5rem; padding:0 2rem 3rem; max-width:1200px; margin:0 auto; }
-    .card { background:var(--white); border-radius:12px; border:1px solid var(--border); overflow:hidden; cursor:pointer; transition:transform .18s,box-shadow .18s; }
-    .card:hover { transform:translateY(-3px); box-shadow:0 8px 28px rgba(28,43,75,.12); }
-    .card-chart { height:150px; background:var(--bg); display:flex; align-items:center; justify-content:center; overflow:hidden; }
-    .card-chart svg { width:100%; height:100%; }
-    .card-body { padding:1.25rem 1.5rem 1.5rem; }
-    .card-body h3 { font-family:'Syne',sans-serif; font-weight:700; font-size:1rem; color:var(--navy); margin-bottom:.4rem; }
-    .card-body p { color:var(--muted); font-size:.875rem; line-height:1.5; margin-bottom:1.25rem; }
-    .card-btn { background:var(--navy); color:#fff; border:none; border-radius:8px; padding:.7rem 1.25rem; font-family:'IBM Plex Sans',sans-serif; font-weight:500; font-size:.875rem; cursor:pointer; width:100%; transition:background .15s; }
-    .card-btn:hover { background:var(--navy-mid); }
+    .table-wrap{background:var(--white);border-radius:10px;border:1px solid var(--border);overflow:hidden}
+    .toolbar{padding:.7rem 1rem;border-bottom:1px solid var(--border);display:flex;
+             align-items:center;gap:.6rem;flex-wrap:wrap}
+    .srch{border:1px solid var(--border);border-radius:6px;padding:.38rem .75rem;
+          font-family:'IBM Plex Sans',sans-serif;font-size:.82rem;outline:none;
+          width:185px;background:var(--bg);transition:border-color .15s}
+    .srch:focus{border-color:var(--accent);background:#fff}
+    .csel{border:1px solid var(--border);border-radius:6px;padding:.38rem .75rem;
+          font-family:'IBM Plex Sans',sans-serif;font-size:.82rem;background:var(--bg);
+          outline:none;cursor:pointer;max-width:155px}
+    .rcount{margin-left:auto;color:var(--muted);font-size:.74rem;white-space:nowrap}
+    .tscroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+    .shint{display:none;font-size:.7rem;color:var(--muted);padding:.3rem 1rem;border-bottom:1px solid var(--border)}
+    @media(max-width:680px){.shint{display:block}}
+    table{width:100%;border-collapse:collapse;min-width:500px}
+    thead tr{background:var(--navy)}
+    thead th{padding:.58rem .85rem;font-family:'Syne',sans-serif;font-size:.63rem;font-weight:700;
+             color:rgba(255,255,255,.8);letter-spacing:.08em;text-transform:uppercase;
+             text-align:left;white-space:nowrap;cursor:pointer;user-select:none}
+    thead th:hover{color:#fff}
+    thead th .si{margin-left:.2em;opacity:.5;font-size:.65em}
+    thead th.sorted .si{opacity:1}
+    tbody tr{border-bottom:1px solid var(--border);transition:background .08s}
+    tbody tr:last-child{border-bottom:none}
+    tbody tr:hover{background:#f5f7fc}
+    tbody td{padding:.52rem .85rem;font-size:.83rem}
+    .rc{color:var(--muted);font-family:'IBM Plex Mono',monospace;font-size:.75rem;width:42px}
+    .tl{color:var(--navy);font-weight:600;cursor:pointer}
+    .tl:hover{color:var(--accent);text-decoration:underline}
+    .cb{display:inline-block;background:#EEF1F9;color:var(--navy2);border-radius:4px;
+        padding:.11rem .42rem;font-size:.69rem;font-weight:600;cursor:pointer;white-space:nowrap}
+    .cb:hover{background:#dce2f4}
+    .hc{font-family:'IBM Plex Mono',monospace;font-size:.77rem;border-radius:3px;
+        padding:.22rem .48rem!important;text-align:right}
+    .mono{font-family:'IBM Plex Mono',monospace;font-size:.77rem}
+    .win{color:var(--win);font-weight:600}
+    .loss{color:var(--loss);font-weight:600}
 
-    /* TABLES */
-    .table-wrap { background:var(--white); border-radius:12px; border:1px solid var(--border); overflow:hidden; }
-    .table-toolbar { padding:.875rem 1.25rem; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:.75rem; flex-wrap:wrap; }
-    .search-input { border:1px solid var(--border); border-radius:7px; padding:.45rem .875rem; font-family:'IBM Plex Sans',sans-serif; font-size:.875rem; outline:none; width:200px; transition:border-color .15s; }
-    .search-input:focus { border-color:var(--accent); }
-    .conf-filter { border:1px solid var(--border); border-radius:7px; padding:.45rem .875rem; font-family:'IBM Plex Sans',sans-serif; font-size:.875rem; background:var(--white); outline:none; cursor:pointer; }
-    .results-count { margin-left:auto; color:var(--muted); font-size:.8rem; }
-    table { width:100%; border-collapse:collapse; }
-    thead tr { background:var(--navy); }
-    thead th { padding:.65rem 1rem; font-family:'Syne',sans-serif; font-size:.68rem; font-weight:600; color:rgba(255,255,255,.85); letter-spacing:.07em; text-transform:uppercase; text-align:left; white-space:nowrap; cursor:pointer; user-select:none; }
-    thead th:hover { color:#fff; }
-    thead th .si { margin-left:.3em; opacity:.6; font-size:.7em; }
-    thead th.sorted .si { opacity:1; }
-    tbody tr { border-bottom:1px solid var(--border); transition:background .1s; }
-    tbody tr:last-child { border-bottom:none; }
-    tbody tr:hover { background:#f6f8fd; }
-    tbody td { padding:.6rem 1rem; font-size:.875rem; }
-    .rank-cell { color:var(--muted); font-family:'IBM Plex Mono',monospace; font-size:.78rem; }
-    .team-link { color:var(--navy); font-weight:600; cursor:pointer; }
-    .team-link:hover { color:var(--accent); text-decoration:underline; }
-    .conf-badge { display:inline-block; background:#EEF1F9; color:var(--navy-mid); border-radius:5px; padding:.15rem .5rem; font-size:.72rem; font-weight:500; cursor:pointer; }
-    .conf-badge:hover { background:#dce2f4; }
-    .heat-cell { font-family:'IBM Plex Mono',monospace; font-size:.8rem; text-align:right; border-radius:4px; padding:.3rem .6rem !important; }
-    .mono { font-family:'IBM Plex Mono',monospace; font-size:.8rem; }
+    .home-wrap{padding:2.5rem 1.5rem 3rem;max-width:1200px;margin:0 auto}
+    .home-title{font-family:'Syne',sans-serif;font-size:2rem;font-weight:800;color:var(--navy);margin-bottom:.4rem}
+    .home-sub{color:var(--muted);margin-bottom:2.25rem;font-size:.9rem}
+    .card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:1.25rem}
+    .card{background:var(--white);border-radius:10px;border:1px solid var(--border);overflow:hidden;
+          cursor:pointer;transition:transform .15s,box-shadow .15s}
+    .card:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(28,43,75,.1)}
+    .card-img{height:125px;background:var(--bg);overflow:hidden}
+    .card-img svg{width:100%;height:100%}
+    .card-body{padding:1rem 1.2rem 1.3rem}
+    .card-body h3{font-family:'Syne',sans-serif;font-weight:700;font-size:.93rem;color:var(--navy);margin-bottom:.3rem}
+    .card-body p{color:var(--muted);font-size:.81rem;line-height:1.55;margin-bottom:1rem}
+    .card-btn{background:var(--navy);color:#fff;border:none;border-radius:7px;padding:.58rem 1rem;
+              font-family:'IBM Plex Sans',sans-serif;font-size:.81rem;font-weight:500;cursor:pointer;width:100%}
+    .card-btn:hover{background:var(--navy2)}
 
-    /* TEAM PAGE */
-    .team-header { background:var(--navy); color:#fff; border-radius:12px; padding:1.75rem 2rem; margin-bottom:1.5rem; display:flex; gap:2rem; flex-wrap:wrap; align-items:center; }
-    .team-header h1 { font-family:'Syne',sans-serif; font-size:1.9rem; font-weight:800; margin-bottom:.2rem; }
-    .team-header .conf-link { color:rgba(255,255,255,.65); font-size:.875rem; cursor:pointer; }
-    .team-header .conf-link:hover { color:#fff; text-decoration:underline; }
-    .stat-block { text-align:center; min-width:70px; }
-    .stat-block .val { font-family:'Syne',sans-serif; font-size:1.75rem; font-weight:800; line-height:1; }
-    .stat-block .lbl { font-size:.68rem; color:rgba(255,255,255,.6); letter-spacing:.06em; text-transform:uppercase; margin-top:.2rem; }
-    .stat-divider { width:1px; background:rgba(255,255,255,.15); align-self:stretch; flex-shrink:0; }
-    .stat-mini-row { display:flex; gap:1rem; margin-bottom:1.5rem; flex-wrap:wrap; }
-    .stat-mini { background:var(--white); border:1px solid var(--border); border-radius:10px; padding:.875rem 1.25rem; flex:1; min-width:110px; }
-    .stat-mini .val { font-family:'Syne',sans-serif; font-weight:700; font-size:1.4rem; color:var(--navy); line-height:1; }
-    .stat-mini .lbl { font-size:.7rem; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; margin-top:.2rem; }
-    .two-col { display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; }
-    @media(max-width:700px) { .two-col { grid-template-columns:1fr; } }
-    .section-card { background:var(--white); border-radius:12px; border:1px solid var(--border); overflow:hidden; }
-    .section-card-header { padding:.875rem 1.25rem; border-bottom:1px solid var(--border); font-family:'Syne',sans-serif; font-weight:700; font-size:.88rem; color:var(--navy); letter-spacing:.02em; display:flex; justify-content:space-between; align-items:center; }
-    .game-row { display:flex; align-items:center; padding:.55rem 1.25rem; border-bottom:1px solid var(--border); gap:.6rem; font-size:.82rem; }
-    .game-row:last-child { border-bottom:none; }
-    .game-date { color:var(--muted); font-family:'IBM Plex Mono',monospace; font-size:.74rem; width:68px; flex-shrink:0; }
-    .game-ha { font-size:.7rem; color:var(--muted); width:18px; flex-shrink:0; text-align:center; }
-    .game-opp { flex:1; font-weight:500; cursor:pointer; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-    .game-opp:hover { color:var(--accent); text-decoration:underline; }
-    .game-score { font-family:'IBM Plex Mono',monospace; font-size:.8rem; text-align:right; min-width:62px; }
-    .game-wab { font-family:'IBM Plex Mono',monospace; font-size:.74rem; text-align:right; min-width:54px; }
-    .win  { color:var(--win);  font-weight:600; }
-    .loss { color:var(--loss); font-weight:600; }
-    .pred { color:var(--muted); }
+    .team-banner{background:var(--navy);color:#fff;border-radius:10px;padding:1.4rem 1.5rem;margin-bottom:1.2rem}
+    .team-banner h1{font-family:'Syne',sans-serif;font-size:1.5rem;font-weight:800;margin-bottom:.2rem;line-height:1.2}
+    .team-banner .cl{color:rgba(255,255,255,.6);font-size:.8rem;cursor:pointer}
+    .team-banner .cl:hover{color:#fff;text-decoration:underline}
+    .banner-stats{display:flex;gap:1.5rem;margin-top:.9rem;flex-wrap:wrap}
+    .bstat .val{font-family:'IBM Plex Mono',monospace;font-size:1.25rem;color:#fff;line-height:1}
+    .bstat .lbl{font-size:.62rem;color:rgba(255,255,255,.55);letter-spacing:.07em;text-transform:uppercase;margin-top:.18rem}
 
-    /* RATING HISTORY CHART */
-    .chart-card { background:var(--white); border-radius:12px; border:1px solid var(--border); overflow:hidden; margin-bottom:1.5rem; }
-    .chart-card-header { padding:.875rem 1.25rem; border-bottom:1px solid var(--border); font-family:'Syne',sans-serif; font-weight:700; font-size:.88rem; color:var(--navy); }
-    .chart-inner { padding:1rem 1.25rem 1rem; }
+    .stat-row{display:flex;gap:.7rem;margin-bottom:1.2rem;flex-wrap:wrap}
+    .sbox{background:var(--white);border:1px solid var(--border);border-radius:8px;padding:.7rem .95rem;flex:1;min-width:95px}
+    .sbox .val{font-family:'IBM Plex Mono',monospace;font-size:1.15rem;color:var(--navy);line-height:1}
+    .sbox .lbl{font-size:.62rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-top:.18rem}
 
-    /* CONFERENCE PAGE */
-    .conf-header { background:var(--navy); border-radius:12px; padding:1.75rem 2rem; color:#fff; margin-bottom:1.5rem; display:flex; align-items:center; gap:2rem; flex-wrap:wrap; }
-    .conf-header h1 { font-family:'Syne',sans-serif; font-size:1.75rem; font-weight:800; flex:1; }
+    .cbox{background:var(--white);border-radius:10px;border:1px solid var(--border);overflow:hidden;margin-bottom:1.2rem}
+    .box-hdr{padding:.65rem 1rem;border-bottom:1px solid var(--border);font-size:.77rem;font-weight:600;color:var(--navy)}
+    .box-body{padding:.8rem 1rem}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}
+    @media(max-width:680px){.two-col{grid-template-columns:1fr}}
+    .scard{background:var(--white);border-radius:10px;border:1px solid var(--border);overflow:hidden}
 
-    /* CONFERENCES INDEX */
-    .conf-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(270px,1fr)); gap:1rem; }
-    .conf-card { background:var(--white); border:1px solid var(--border); border-radius:10px; padding:1.1rem 1.25rem; cursor:pointer; transition:transform .15s,box-shadow .15s; }
-    .conf-card:hover { transform:translateY(-2px); box-shadow:0 6px 20px rgba(28,43,75,.1); }
-    .conf-card h3 { font-family:'Syne',sans-serif; font-weight:700; color:var(--navy); margin-bottom:.5rem; font-size:.95rem; }
-    .conf-card .meta { font-size:.78rem; color:var(--muted); display:flex; gap:1rem; }
+    .grow{display:flex;align-items:center;padding:.48rem 1rem;border-bottom:1px solid var(--border);gap:.5rem;font-size:.79rem}
+    .grow:last-child{border-bottom:none}
+    .gdate{color:var(--muted);font-family:'IBM Plex Mono',monospace;font-size:.7rem;width:58px;flex-shrink:0}
+    .gha{font-size:.67rem;width:20px;flex-shrink:0;text-align:center;color:var(--muted)}
+    .gopp{flex:1;font-weight:500;cursor:pointer;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+    .gopp:hover{color:var(--accent);text-decoration:underline}
+    .gsc{font-family:'IBM Plex Mono',monospace;font-size:.77rem;text-align:right;white-space:nowrap;min-width:55px}
+    .gwab{font-family:'IBM Plex Mono',monospace;font-size:.7rem;text-align:right;min-width:48px;white-space:nowrap}
+    .muted{color:var(--muted)}
+    .empty{padding:1.2rem 1rem;color:var(--muted);font-size:.81rem}
 
-    /* PREDICTIONS PAGE */
-    .filter-btn { padding:.4rem .9rem; border-radius:7px; border:1px solid var(--border); background:var(--white); color:var(--text); font-size:.78rem; font-weight:500; cursor:pointer; text-transform:capitalize; }
-    .filter-btn.active { background:var(--navy); color:#fff; border-color:var(--navy); }
-    .pred-date-group { padding:.45rem 1.25rem; background:var(--bg); font-size:.72rem; font-weight:600; color:var(--muted); letter-spacing:.05em; text-transform:uppercase; }
-    .pred-row { display:flex; align-items:center; padding:.6rem 1.25rem; border-bottom:1px solid var(--border); gap:1rem; font-size:.875rem; }
-    .pred-row:last-child { border-bottom:none; }
-    .pred-team { flex:1; font-weight:500; cursor:pointer; }
-    .pred-team:hover { color:var(--accent); text-decoration:underline; }
-    .pred-score { font-family:'IBM Plex Mono',monospace; font-size:.82rem; text-align:right; min-width:50px; }
-    .final-badge   { font-size:.68rem; background:#e5e7eb; border-radius:4px; padding:.1rem .4rem; color:var(--muted); }
-    .upcoming-badge { font-size:.68rem; background:#dbeafe; border-radius:4px; padding:.1rem .4rem; color:#1d4ed8; }
+    .dhdr{padding:.38rem 1rem;background:var(--bg);font-size:.67rem;font-weight:600;
+          color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+    .prow{display:flex;align-items:center;padding:.52rem 1rem;border-bottom:1px solid var(--border);gap:.75rem;font-size:.83rem}
+    .prow:last-child{border-bottom:none}
+    .pmatch{flex:1;min-width:0}
+    .pline{display:flex;align-items:center;gap:.38rem;margin-bottom:.13rem}
+    .pline:last-child{margin-bottom:0}
+    .pha{font-size:.67rem;color:var(--muted);width:20px;flex-shrink:0}
+    .pteam{font-weight:500;cursor:pointer;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;min-width:0}
+    .pteam:hover{color:var(--accent);text-decoration:underline}
+    .ppts{font-family:'IBM Plex Mono',monospace;font-size:.79rem;color:var(--muted);white-space:nowrap}
 
-    /* ACCURACY PAGE */
-    .acc-summary { display:flex; gap:1rem; margin-bottom:1.5rem; flex-wrap:wrap; }
-    .acc-stat { background:var(--white); border:1px solid var(--border); border-radius:10px; padding:1rem 1.5rem; flex:1; min-width:130px; }
-    .acc-stat .val { font-family:'Syne',sans-serif; font-size:1.6rem; font-weight:700; color:var(--navy); }
-    .acc-stat .lbl { font-size:.72rem; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; }
-    .error-bar { height:10px; border-radius:3px; display:inline-block; vertical-align:middle; }
+    .acc-stats{display:flex;gap:.7rem;margin-bottom:1.4rem;flex-wrap:wrap}
+    .astat{background:var(--white);border:1px solid var(--border);border-radius:8px;padding:.8rem 1rem;flex:1;min-width:105px}
+    .astat .val{font-family:'Syne',sans-serif;font-size:1.4rem;font-weight:700;color:var(--navy);line-height:1}
+    .astat .lbl{font-size:.64rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-top:.18rem}
 
-    /* MISC */
-    .spinner { width:32px; height:32px; border:3px solid var(--border); border-top-color:var(--navy); border-radius:50%; animation:spin .7s linear infinite; margin:3rem auto; }
-    @keyframes spin { to { transform:rotate(360deg); } }
-    .loading { text-align:center; padding:4rem; color:var(--muted); font-size:.95rem; }
-    .back-btn { display:inline-flex; align-items:center; gap:.4rem; color:var(--navy); font-size:.82rem; font-weight:500; cursor:pointer; margin-bottom:1.25rem; background:none; border:none; padding:0; }
-    .back-btn:hover { color:var(--accent); }
-    .empty-msg { padding:1.5rem 1.25rem; color:var(--muted); font-size:.875rem; }
+    .chdr{background:var(--navy);border-radius:10px;padding:1.4rem 1.5rem;color:#fff;
+          margin-bottom:1.2rem;display:flex;align-items:center;gap:2rem;flex-wrap:wrap}
+    .chdr h1{font-family:'Syne',sans-serif;font-size:1.4rem;font-weight:800;flex:1}
+    .cbs .val{font-family:'IBM Plex Mono',monospace;font-size:1.25rem;color:#fff;line-height:1}
+    .cbs .lbl{font-size:.62rem;color:rgba(255,255,255,.55);text-transform:uppercase;letter-spacing:.07em;margin-top:.18rem}
+
+    .spinner{width:28px;height:28px;border:2.5px solid var(--border);border-top-color:var(--navy);
+             border-radius:50%;animation:spin .7s linear infinite;margin:3rem auto}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .errmsg{text-align:center;padding:3rem 1rem;color:var(--muted);font-size:.9rem;line-height:1.6}
   </style>
 </head>
 <body>
 <div id="root"></div>
-
 <script type="text/babel">
-const { useState, useEffect, useMemo, useCallback, useRef } = React;
+const {useState,useEffect,useMemo,useCallback}=React;
 
-// ─── DATA FETCHING ────────────────────────────────────────────────────────────
-const _cache = {};
-async function fetchJSON(file) {
-  if (_cache[file]) return _cache[file];
-  const res = await fetch(`data/${file}`);
-  if (!res.ok) throw new Error(`Failed to load ${file}`);
-  _cache[file] = await res.json();
-  return _cache[file];
-}
-function useData(...files) {
-  const [data, setData]     = useState(null);
-  const [error, setError]   = useState(null);
-  const [loading, setLoading] = useState(true);
-  const key = files.join(',');
-  useEffect(() => {
-    let cancelled = false;
-    setLoading(true);
-    Promise.all(files.map(f => fetchJSON(f)))
-      .then(r => { if (!cancelled) { setData(r); setLoading(false); } })
-      .catch(e => { if (!cancelled) { setError(e.message); setLoading(false); } });
-    return () => { cancelled = true; };
-  }, [key]);
-  return { data, error, loading };
+// DATA
+const _c={};
+async function fj(f){if(_c[f])return _c[f];const r=await fetch(f);if(!r.ok)throw new Error(`Could not load ${f} (${r.status})`);_c[f]=await r.json();return _c[f];}
+function useData(...files){
+  const[st,setSt]=useState({data:null,error:null,loading:true});
+  const key=files.join(',');
+  useEffect(()=>{
+    let dead=false;
+    setSt({data:null,error:null,loading:true});
+    Promise.all(files.map(fj))
+      .then(d=>{if(!dead)setSt({data:d,error:null,loading:false});})
+      .catch(e=>{if(!dead)setSt({data:null,error:e.message,loading:false});});
+    return()=>{dead=true;};
+  },[key]);
+  return st;
 }
 
-// ─── ROUTER ──────────────────────────────────────────────────────────────────
-function useRoute() {
-  const [hash, setHash] = useState(window.location.hash || '#/');
-  useEffect(() => {
-    const h = () => setHash(window.location.hash || '#/');
-    window.addEventListener('hashchange', h);
-    return () => window.removeEventListener('hashchange', h);
-  }, []);
-  const navigate = useCallback(path => { window.location.hash = path; }, []);
-  return { hash, navigate };
+// ROUTER
+function useRoute(){
+  const[hash,setHash]=useState(window.location.hash||'#/');
+  useEffect(()=>{
+    const h=()=>setHash(window.location.hash||'#/');
+    window.addEventListener('hashchange',h);
+    return()=>window.removeEventListener('hashchange',h);
+  },[]);
+  const nav=useCallback(p=>{window.location.hash=p;window.scrollTo(0,0);},[]);
+  return{hash,nav};
 }
-function parseRoute(hash) {
-  const path = hash.replace(/^#/, '') || '/';
-  if (path === '/' || path === '')     return { page: 'home' };
-  if (path === '/ratings')             return { page: 'ratings' };
-  if (path === '/predictions')         return { page: 'predictions' };
-  if (path === '/resume')              return { page: 'resume' };
-  if (path === '/conferences')         return { page: 'conferences' };
-  if (path === '/accuracy')            return { page: 'accuracy' };
-  if (path.startsWith('/team/'))       return { page: 'team',       id: path.slice(6) };
-  if (path.startsWith('/conference/')) return { page: 'conference', id: path.slice(13) };
-  return { page: 'home' };
+function parseRoute(hash){
+  const p=hash.replace(/^#/,'')||'/';
+  if(p==='/'||p==='')return{page:'home'};
+  if(p==='/ratings')return{page:'ratings'};
+  if(p==='/predictions')return{page:'predictions'};
+  if(p==='/accuracy')return{page:'accuracy'};
+  if(p==='/conferences')return{page:'conferences'};
+  if(p.startsWith('/team/'))return{page:'team',id:p.slice(6)};
+  if(p.startsWith('/conference/'))return{page:'conference',id:p.slice(13)};
+  return{page:'home'};
 }
 
-// ─── HELPERS ──────────────────────────────────────────────────────────────────
-function heatStyle(val, min, max, reverse = false) {
-  if (val == null) return {};
-  let t = max === min ? 0.5 : (val - min) / (max - min);
-  if (reverse) t = 1 - t;
-  t = Math.max(0, Math.min(1, t));
-  const r = Math.round(28  + (220 - 28)  * (1 - t));
-  const g = Math.round(43  + (230 - 43)  * (1 - t));
-  const b = Math.round(75  + (255 - 75)  * (1 - t));
-  return { background: `rgb(${r},${g},${b})`, color: t > 0.5 ? '#fff' : '#111827' };
+// HELPERS
+function hs(val,min,max,rev=false){
+  if(val==null||!isFinite(min)||!isFinite(max)||min===max)return{};
+  let t=(val-min)/(max-min);if(rev)t=1-t;t=Math.max(0,Math.min(1,t));
+  const r=Math.round(28+(220-28)*(1-t)),g=Math.round(43+(230-43)*(1-t)),b=Math.round(75+(255-75)*(1-t));
+  return{background:`rgb(${r},${g},${b})`,color:t>.5?'#fff':'#111827'};
 }
-function errorHeatStyle(val, maxVal) {
-  const t = Math.min(val / maxVal, 1);
-  const r = Math.round(22  + (220 - 22)  * t);
-  const g = Math.round(163 + (38  - 163) * t);
-  const b = Math.round(74  + (38  - 74)  * t);
-  return { background: `rgb(${r},${g},${b})`, color: '#fff' };
+function wabHs(val,min,max){
+  if(val==null||!isFinite(min)||!isFinite(max))return{};
+  const amax=Math.max(Math.abs(min),Math.abs(max),.01);
+  const t=Math.max(-1,Math.min(1,val/amax));
+  if(t>=0)return{background:`rgba(22,163,74,${.12+t*.7})`,color:t>.5?'#fff':'#14532d'};
+  return{background:`rgba(220,38,38,${.12+(-t)*.7})`,color:(-t)>.5?'#fff':'#7f1d1d'};
 }
-function useSort(defaultCol, defaultDir = 'asc') {
-  const [sortCol, setSortCol] = useState(defaultCol);
-  const [sortDir, setSortDir] = useState(defaultDir);
-  const toggleSort = col => {
-    if (col === sortCol) setSortDir(d => d === 'asc' ? 'desc' : 'asc');
-    else { setSortCol(col); setSortDir('asc'); }
-  };
-  const sortIcon = col => col === sortCol ? (sortDir === 'asc' ? '▲' : '▼') : '⇅';
-  return { sortCol, sortDir, toggleSort, sortIcon };
+function errHs(val,max){
+  const t=Math.min(val/(max||1),1);
+  return{background:`rgb(${Math.round(22+(220-22)*t)},${Math.round(163+(38-163)*t)},${Math.round(74+(38-74)*t)})`,color:'#fff'};
 }
-function sortedData(data, col, dir) {
-  return [...data].sort((a, b) => {
-    const av = a[col]; const bv = b[col];
-    if (av == null) return 1; if (bv == null) return -1;
-    const cmp = typeof av === 'string' ? av.localeCompare(bv) : av - bv;
-    return dir === 'asc' ? cmp : -cmp;
+function useSort(c0,d0='asc'){
+  const[sc,setSc]=useState(c0);const[sd,setSd]=useState(d0);
+  const tog=c=>{if(c===sc)setSd(d=>d==='asc'?'desc':'asc');else{setSc(c);setSd('asc');}};
+  const ico=c=>c===sc?(sd==='asc'?'▲':'▼'):'⇅';
+  return{sc,sd,tog,ico};
+}
+function srt(arr,c,d){
+  return[...arr].sort((a,b)=>{
+    const av=a[c],bv=b[c];
+    if(av==null)return 1;if(bv==null)return-1;
+    const cmp=typeof av==='string'?av.localeCompare(bv):av-bv;
+    return d==='asc'?cmp:-cmp;
   });
 }
-function fmtDate(d) {
-  try { return new Date(d + 'T12:00:00').toLocaleDateString('en-US', { month:'short', day:'numeric' }); }
-  catch { return d; }
-}
-function fmtDateLong(d) {
-  try { return new Date(d + 'T12:00:00').toLocaleDateString('en-US', { weekday:'long', month:'long', day:'numeric' }); }
-  catch { return d; }
-}
+function fmtS(d){try{return new Date(d+'T12:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric'});}catch{return d;}}
+function fmtL(d){try{return new Date(d+'T12:00:00').toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});}catch{return d;}}
+function Spin(){return<div className="spinner"/>;}
+function Err({m}){return<div className="errmsg">Could not load data: {m}<br/><small>Make sure data files are committed to your repo.</small></div>;}
 
-// ─── NAV ──────────────────────────────────────────────────────────────────────
-function Nav({ navigate, currentHash }) {
-  const links = [
-    ['#/ratings',     'D3 Ratings'],
-    ['#/predictions', 'Predictions'],
-    ['#/resume',      'Resume'],
-    ['#/conferences', 'Conferences'],
-    ['#/accuracy',    'Pred. Accuracy'],
-  ];
-  return (
+// NAV
+function Nav({nav,hash}){
+  const[open,setOpen]=useState(false);
+  const links=[['#/ratings','D3 Ratings'],['#/predictions','Predictions'],['#/accuracy','Pred. Accuracy'],['#/conferences','Conferences']];
+  const go=h=>{nav(h);setOpen(false);};
+  return(
     <nav>
-      <span className="nav-brand" onClick={() => navigate('#/')}>Schauer Stats</span>
-      {links.map(([href, label]) => (
-        <span key={href} className={`nav-link${currentHash === href ? ' active' : ''}`}
-          onClick={() => navigate(href)}>{label}</span>
-      ))}
+      <span className="nav-brand" onClick={()=>go('#/')}>Schauer Stats</span>
+      <button className="nav-toggle" onClick={()=>setOpen(o=>!o)} aria-label="Menu">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+          {open
+            ?<path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd"/>
+            :<path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"/>
+          }
+        </svg>
+      </button>
+      <div className={`nav-links${open?' open':''}`}>
+        {links.map(([h,l])=>(
+          <span key={h} className={`nav-link${hash===h?' active':''}`} onClick={()=>go(h)}>{l}</span>
+        ))}
+      </div>
     </nav>
   );
 }
 
-// ─── HOME ─────────────────────────────────────────────────────────────────────
-function BellCurve() {
-  const pts = [];
-  for (let x = -3.5; x <= 3.5; x += 0.08) pts.push([x, Math.exp(-0.5*x*x)/Math.sqrt(2*Math.PI)]);
-  const d = 'M ' + pts.map(([x,y]) => `${((x+3.5)/7)*220+10},${130-y*310}`).join(' L ');
-  return <svg viewBox="0 0 240 140" xmlns="http://www.w3.org/2000/svg">
-    <rect width="240" height="140" fill="#e8edf8"/>
-    <path d={d} fill="none" stroke="#4A6CF7" strokeWidth="2.2"/>
-  </svg>;
+// HOME
+function MChart({type}){
+  if(type==='bell'){
+    const pts=[];for(let x=-3.5;x<=3.5;x+=.1)pts.push([x,Math.exp(-.5*x*x)/Math.sqrt(2*Math.PI)]);
+    const d='M '+pts.map(([x,y])=>`${((x+3.5)/7)*230+10},${115-y*275}`).join(' L ');
+    return<svg viewBox="0 0 250 125" xmlns="http://www.w3.org/2000/svg"><rect width="250" height="125" fill="#eaecf4"/><path d={d} fill="none" stroke="#1C2B4B" strokeWidth="2.2"/></svg>;
+  }
+  if(type==='sigmoid'){
+    const sig=x=>1/(1+Math.exp(-x));
+    const lp=[];for(let x=-5;x<=5;x+=.2)lp.push(`${((x+5)/10)*230+10},${110-sig(x)*90-5}`);
+    const dots=[-4,-3,-2,-1.2,-.4,.4,1.2,2,3,4].map(x=>[((x+5)/10)*230+10,110-Math.min(1,Math.max(0,sig(x)+(Math.sin(x*5)*.03)))*90-5]);
+    return<svg viewBox="0 0 250 125" xmlns="http://www.w3.org/2000/svg"><rect width="250" height="125" fill="#eaecf4"/><path d={`M ${lp.join(' L ')}`} fill="none" stroke="#6b7280" strokeWidth="1.5" strokeDasharray="5,3"/>{dots.map(([cx,cy],i)=><circle key={i} cx={cx} cy={cy} r="3.5" fill="#1C2B4B" opacity=".8"/>)}</svg>;
+  }
+  if(type==='bars'){
+    const vs=[38,55,72,90,110,140,162,142,115,85,60];
+    return<svg viewBox="0 0 250 125" xmlns="http://www.w3.org/2000/svg"><rect width="250" height="125" fill="#eaecf4"/>{vs.map((h,i)=><rect key={i} x={10+i*21} y={120-h} width="16" height={h} rx="2" fill={`rgba(28,43,75,${.28+i/vs.length*.6})`}/>)}</svg>;
+  }
+  const pts2=[[30,88],[55,68],[80,102],[110,82],[140,58],[170,92],[200,72],[225,48],[55,38],[130,108]];
+  return<svg viewBox="0 0 250 125" xmlns="http://www.w3.org/2000/svg"><rect width="250" height="125" fill="#eaecf4"/><line x1="10" y1="10" x2="240" y2="115" stroke="#9ca3af" strokeWidth="1.5" strokeDasharray="4,3"/>{pts2.map(([x,y],i)=>{const e=Math.abs(y-(10+x*(105/230)));return<circle key={i} cx={x} cy={y} r="4" fill={e<25?'#16a34a':'#dc2626'} opacity=".8"/>})}</svg>;
 }
-function SigmoidChart() {
-  const sig = x => 1/(1+Math.exp(-x));
-  const xs = [-3.5,-2.5,-1.8,-.8,-.2,.4,1,1.6,2.2,2.8,3.2,3.7];
-  const linePts = [];
-  for (let x=-4.5; x<=4.5; x+=0.15) linePts.push(`${((x+4.5)/9)*220+10},${130-sig(x)*110-10}`);
-  return <svg viewBox="0 0 240 140" xmlns="http://www.w3.org/2000/svg">
-    <rect width="240" height="140" fill="#e8edf8"/>
-    <path d={`M ${linePts.join(' L ')}`} fill="none" stroke="#374151" strokeWidth="1.5" strokeDasharray="5,4"/>
-    {xs.map((x,i) => { const cy=130-Math.min(1,Math.max(0,sig(x)+(Math.sin(i*7)*.04)))*110-10; return <circle key={i} cx={((x+4.5)/9)*220+10} cy={cy} r="3.5" fill="#4A6CF7" opacity=".85"/>; })}
-  </svg>;
-}
-function BarChart() {
-  const hs = [40,60,80,100,120,155,170];
-  return <svg viewBox="0 0 240 140" xmlns="http://www.w3.org/2000/svg">
-    <rect width="240" height="140" fill="#e8edf8"/>
-    {hs.map((h,i) => <rect key={i} x={15+i*30} y={130-h} width="20" height={h} rx="3" fill={i<3?'#93c5fd':i<5?'#4A6CF7':'#1d3e8a'} opacity=".9"/>)}
-  </svg>;
-}
-function AccuracyChart() {
-  const pts = Array.from({length:12},(_,i)=>({ x:15+i*19, y:115-Math.abs(Math.sin(i*1.3)*40+Math.cos(i*0.7)*25) }));
-  const line = pts.map(p=>`${p.x},${p.y}`).join(' L ');
-  return <svg viewBox="0 0 240 140" xmlns="http://www.w3.org/2000/svg">
-    <rect width="240" height="140" fill="#e8edf8"/>
-    <path d={`M ${line}`} fill="none" stroke="#4A6CF7" strokeWidth="2"/>
-    {pts.map((p,i) => <circle key={i} cx={p.x} cy={p.y} r="3" fill={p.y > 80 ? '#16a34a' : '#dc2626'} opacity=".85"/>)}
-  </svg>;
-}
-function HomePage({ navigate }) {
-  const cards = [
-    { title:'D3 Basketball Predictive Ratings', desc:'Forward-looking team ratings based on opponent-adjusted performance.', btn:'View Ratings', href:'#/ratings', chart:<BellCurve/> },
-    { title:'D3 Basketball Score Predictions',  desc:'Game-by-game predictions based on each team\'s predictive rating.',   btn:'View Predictions', href:'#/predictions', chart:<SigmoidChart/> },
-    { title:'D3 Basketball Resume Quality',      desc:'Quantifying each team\'s record relative to a hypothetical bubble team.', btn:'View Resume Scores', href:'#/resume', chart:<BarChart/> },
-    { title:'Prediction Accuracy',              desc:'See which games were called well — and which weren\'t.',            btn:'View Accuracy', href:'#/accuracy', chart:<AccuracyChart/> },
+function HomePage({nav}){
+  const cards=[
+    {title:'D3 Predictive Ratings',desc:'Opponent-adjusted ratings covering offense, defense, and tempo for all 400+ D3 teams.',btn:'View Ratings',href:'#/ratings',type:'bell'},
+    {title:'Score Predictions',desc:'Pre-game score predictions for upcoming games based on team ratings.',btn:'View Predictions',href:'#/predictions',type:'sigmoid'},
+    {title:'Prediction Accuracy',desc:'Compare predicted vs. actual scores — see where the model excels and where it misses.',btn:'View Accuracy',href:'#/accuracy',type:'scatter'},
+    {title:'D3 Conferences',desc:'Conference standings ranked by average rating with links to each conference page.',btn:'View Conferences',href:'#/conferences',type:'bars'},
   ];
-  return (
-    <>
-      <div className="home-hero">
-        <h1 className="hero-title">D3 Men's Basketball Stats</h1>
-        <p className="hero-sub">Ratings, predictions, and resume scores for all Division III teams</p>
-      </div>
+  return(
+    <div className="home-wrap">
+      <h1 className="home-title">D3 Men's Basketball</h1>
+      <p className="home-sub">Ratings, predictions, and resume scores for all Division III teams</p>
       <div className="card-grid">
-        {cards.map(c => (
-          <div key={c.href} className="card" onClick={() => navigate(c.href)}>
-            <div className="card-chart">{c.chart}</div>
+        {cards.map(c=>(
+          <div key={c.href} className="card" onClick={()=>nav(c.href)}>
+            <div className="card-img"><MChart type={c.type}/></div>
             <div className="card-body">
               <h3>{c.title}</h3><p>{c.desc}</p>
-              <button className="card-btn" onClick={e=>{e.stopPropagation();navigate(c.href);}}>{c.btn}</button>
+              <button className="card-btn" onClick={e=>{e.stopPropagation();nav(c.href);}}>{c.btn}</button>
             </div>
           </div>
         ))}
-      </div>
-    </>
-  );
-}
-
-// ─── SHARED TABLE COMPONENTS ──────────────────────────────────────────────────
-function TeamTable({ teams, navigate, sortCol, sortDir, toggleSort, sortIcon, extraCols }) {
-  const ratings  = teams.map(t=>t.rating);
-  const offs     = teams.map(t=>t.off);
-  const defs     = teams.map(t=>t.def);
-  const [rMin,rMax] = [Math.min(...ratings),Math.max(...ratings)];
-  const [oMin,oMax] = [Math.min(...offs),   Math.max(...offs)];
-  const [dMin,dMax] = [Math.min(...defs),   Math.max(...defs)];
-  const Th = ({col,children}) => (
-    <th className={sortCol===col?'sorted':''} onClick={()=>toggleSort(col)}>
-      {children} <span className="si">{sortIcon(col)}</span>
-    </th>
-  );
-  return (
-    <table>
-      <thead><tr>
-        <Th col="rank">Rank</Th>
-        <Th col="full_team">Team</Th>
-        <Th col="conference">Conference</Th>
-        <Th col="record">Record</Th>
-        <Th col="rating">Rating</Th>
-        <Th col="off">Off</Th>
-        <Th col="def">Def</Th>
-        <Th col="pace">Tempo</Th>
-        {extraCols && extraCols.map(c => <Th key={c.col} col={c.col}>{c.label}</Th>)}
-      </tr></thead>
-      <tbody>
-        {teams.map(t => (
-          <tr key={t.team_id}>
-            <td className="rank-cell">{t.rank}</td>
-            <td><span className="team-link" onClick={()=>navigate(`#/team/${t.team_id}`)}>{t.full_team}</span></td>
-            <td><span className="conf-badge" onClick={()=>navigate(`#/conference/${t.conference_id}`)}>{t.conference}</span></td>
-            <td className="mono">{t.record}</td>
-            <td className="heat-cell" style={heatStyle(t.rating,rMin,rMax)}>{(+t.rating).toFixed(1)}</td>
-            <td className="heat-cell" style={heatStyle(t.off,oMin,oMax)}>{(+t.off).toFixed(1)}</td>
-            <td className="heat-cell" style={heatStyle(t.def,dMin,dMax,true)}>{(+t.def).toFixed(1)}</td>
-            <td className="mono">{(+t.pace).toFixed(1)}</td>
-            {extraCols && extraCols.map(c => <td key={c.col} className="mono">{c.render ? c.render(t) : t[c.col]}</td>)}
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  );
-}
-
-function TablePage({ title, subtitle, teams, navigate, defaultSort, extraCols }) {
-  const [search, setSearch] = useState('');
-  const [confFilter, setConfFilter] = useState('All');
-  const { sortCol, sortDir, toggleSort, sortIcon } = useSort(defaultSort || 'rank', 'asc');
-  const conferences = useMemo(() => ['All', ...[...new Set(teams.map(t=>t.conference))].sort()], [teams]);
-  const filtered = useMemo(() => {
-    let rows = teams;
-    if (search) rows = rows.filter(t => t.full_team.toLowerCase().includes(search.toLowerCase()));
-    if (confFilter !== 'All') rows = rows.filter(t => t.conference === confFilter);
-    return sortedData(rows, sortCol, sortDir);
-  }, [teams, search, confFilter, sortCol, sortDir]);
-  return (
-    <div className="page">
-      <h1 className="page-title">{title}</h1>
-      <p className="page-subtitle">{subtitle}</p>
-      <div className="table-wrap">
-        <div className="table-toolbar">
-          <input className="search-input" placeholder="Search teams…" value={search} onChange={e=>setSearch(e.target.value)}/>
-          <select className="conf-filter" value={confFilter} onChange={e=>setConfFilter(e.target.value)}>
-            {conferences.map(c=><option key={c}>{c}</option>)}
-          </select>
-          <span className="results-count">{filtered.length} teams</span>
-        </div>
-        <TeamTable teams={filtered} navigate={navigate} sortCol={sortCol} sortDir={sortDir} toggleSort={toggleSort} sortIcon={sortIcon} extraCols={extraCols}/>
       </div>
     </div>
   );
 }
 
-// ─── RATINGS PAGE ─────────────────────────────────────────────────────────────
-function RatingsPage({ navigate }) {
-  const { data, loading, error } = useData('teams.json');
-  if (loading) return <div className="spinner"/>;
-  if (error)   return <div className="loading">⚠ {error}<br/><small>Make sure data/teams.json is committed to your repo.</small></div>;
-  return <TablePage title="2025–26 D3 Men's Basketball Predictive Ratings" subtitle="Through latest update · Data from stats.ncaa.org · Click a team name for their full profile" teams={data[0]} navigate={navigate}/>;
+// SORTABLE TH
+function Th({col,sc,ico,tog,children,style}){
+  return<th className={sc===col?'sorted':''} onClick={()=>tog(col)} style={style}>{children} <span className="si">{ico(col)}</span></th>;
 }
 
-// ─── RESUME PAGE ──────────────────────────────────────────────────────────────
-function ResumePage({ navigate }) {
-  const { data, loading, error } = useData('teams.json');
-  if (loading) return <div className="spinner"/>;
-  if (error)   return <div className="loading">⚠ {error}</div>;
-  const teams = data[0].filter(t => t.resume_rank != null).map(t => ({...t, rank: t.resume_rank}));
-  const wabs  = teams.map(t=>t.wab).filter(Boolean);
-  const [wMin,wMax] = [Math.min(...wabs),Math.max(...wabs)];
-  const extraCols = [
-    { col:'wab',       label:'WAB',      render: t => t.wab != null ? (+t.wab).toFixed(2) : '–' },
-    { col:'win_qual',  label:'Win Qual', render: t => t.win_qual != null ? (+t.win_qual).toFixed(2) : '–' },
-    { col:'loss_qual', label:'Loss Qual',render: t => t.loss_qual != null ? (+t.loss_qual).toFixed(2) : '–' },
-  ];
-  return <TablePage title="2025–26 D3 Resume Quality (Wins Above Bubble)" subtitle="Quantifying each team's record vs. a hypothetical bubble team · Click a team name for their full profile" teams={teams} navigate={navigate} defaultSort="rank" extraCols={extraCols}/>;
+// RATINGS + RESUME COMBINED
+function RatingsPage({nav}){
+  const{data,loading,error}=useData('teams.json');
+  const[search,setSearch]=useState('');
+  const[cf,setCf]=useState('All');
+  const{sc,sd,tog,ico}=useSort('rank','asc');
+
+  // ALL hooks above — safe to early-return below
+  const teams=useMemo(()=>data?data[0]??[],[data]);
+  const confs=useMemo(()=>['All',...[...new Set(teams.map(t=>t.conference))].sort()],[teams]);
+  const rows=useMemo(()=>{
+    let r=teams;
+    if(search){const q=search.toLowerCase();r=r.filter(t=>t.full_team.toLowerCase().includes(q));}
+    if(cf!=='All')r=r.filter(t=>t.conference===cf);
+    return srt(r,sc,sd);
+  },[teams,search,cf,sc,sd]);
+
+  if(loading)return<Spin/>;
+  if(error)return<Err m={error}/>;
+
+  const ra=rows.map(t=>+t.rating).filter(isFinite);
+  const of=rows.map(t=>+t.off).filter(isFinite);
+  const df=rows.map(t=>+t.def).filter(isFinite);
+  const wb=rows.map(t=>t.wab!=null?+t.wab:null).filter(v=>v!=null&&isFinite(v));
+  const[rn,rx]=ra.length?[Math.min(...ra),Math.max(...ra)]:[0,1];
+  const[on,ox]=of.length?[Math.min(...of),Math.max(...of)]:[0,1];
+  const[dn,dx]=df.length?[Math.min(...df),Math.max(...df)]:[0,1];
+  const[wn,wx]=wb.length?[Math.min(...wb),Math.max(...wb)]:[-1,1];
+  const T=({col,ch})=><Th col={col} sc={sc} ico={ico} tog={tog}>{ch}</Th>;
+
+  return(
+    <div className="page">
+      <h1 className="page-title">2025–26 D3 Men's Basketball Ratings</h1>
+      <p className="page-sub">Predictive ratings and resume quality (wins above bubble) for all D3 teams · Click a team name for their full profile</p>
+      <div className="table-wrap">
+        <div className="toolbar">
+          <input className="srch" placeholder="Search teams…" value={search} onChange={e=>setSearch(e.target.value)}/>
+          <select className="csel" value={cf} onChange={e=>setCf(e.target.value)}>{confs.map(c=><option key={c}>{c}</option>)}</select>
+          <span className="rcount">{rows.length} teams</span>
+        </div>
+        <div className="shint">Scroll right to see all columns →</div>
+        <div className="tscroll">
+          <table>
+            <thead><tr>
+              <Th col="rank" sc={sc} ico={ico} tog={tog}>Rank</Th>
+              <Th col="full_team" sc={sc} ico={ico} tog={tog}>Team</Th>
+              <Th col="conference" sc={sc} ico={ico} tog={tog}>Conf.</Th>
+              <Th col="record" sc={sc} ico={ico} tog={tog}>Record</Th>
+              <Th col="rating" sc={sc} ico={ico} tog={tog}>Rating</Th>
+              <Th col="off" sc={sc} ico={ico} tog={tog}>Off</Th>
+              <Th col="def" sc={sc} ico={ico} tog={tog}>Def</Th>
+              <Th col="pace" sc={sc} ico={ico} tog={tog}>Tempo</Th>
+              <Th col="resume_rank" sc={sc} ico={ico} tog={tog}>Res. Rank</Th>
+              <Th col="wab" sc={sc} ico={ico} tog={tog}>WAB</Th>
+              <Th col="win_qual" sc={sc} ico={ico} tog={tog}>Win Qual</Th>
+              <Th col="loss_qual" sc={sc} ico={ico} tog={tog}>Loss Qual</Th>
+            </tr></thead>
+            <tbody>
+              {rows.map(t=>(
+                <tr key={t.team_id}>
+                  <td className="rc">{t.rank}</td>
+                  <td><span className="tl" onClick={()=>nav(`#/team/${t.team_id}`)}>{t.full_team}</span></td>
+                  <td><span className="cb" onClick={()=>nav(`#/conference/${t.conference_id}`)}>{t.conference}</span></td>
+                  <td className="mono">{t.record}</td>
+                  <td className="hc" style={hs(+t.rating,rn,rx)}>{(+t.rating).toFixed(1)}</td>
+                  <td className="hc" style={hs(+t.off,on,ox)}>{(+t.off).toFixed(1)}</td>
+                  <td className="hc" style={hs(+t.def,dn,dx,true)}>{(+t.def).toFixed(1)}</td>
+                  <td className="mono">{(+t.pace).toFixed(1)}</td>
+                  <td className="rc">{t.resume_rank?`#${t.resume_rank}`:'–'}</td>
+                  <td className="hc" style={t.wab!=null?wabHs(+t.wab,wn,wx):{}}>{t.wab!=null?(t.wab>=0?'+':'')+(+t.wab).toFixed(2):'–'}</td>
+                  <td className="mono">{t.win_qual!=null?(+t.win_qual).toFixed(2):'–'}</td>
+                  <td className="mono">{t.loss_qual!=null?(+t.loss_qual).toFixed(2):'–'}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  );
 }
 
-// ─── PREDICTIONS PAGE ─────────────────────────────────────────────────────────
-function PredictionsPage({ navigate }) {
-  const { data, loading, error } = useData('future_games.json');
-  const [search, setSearch] = useState('');
-  if (loading) return <div className="spinner"/>;
-  if (error)   return <div className="loading">⚠ {error}</div>;
-  const games = data[0] ?? [];
-  const filtered = useMemo(() => {
-    if (!search) return games;
-    const q = search.toLowerCase();
-    return games.filter(g => g.team_1.toLowerCase().includes(q) || g.team_2.toLowerCase().includes(q));
-  }, [games, search]);
-  const grouped = useMemo(() => {
-    const map = {};
-    for (const g of filtered) { const d = g.date?.split('T')[0] ?? 'Unknown'; if (!map[d]) map[d]=[]; map[d].push(g); }
-    return Object.entries(map).sort((a,b) => a[0].localeCompare(b[0]));
-  }, [filtered]);
-  return (
+// PREDICTIONS
+function PredictionsPage({nav}){
+  const{data,loading,error}=useData('future_games.json');
+  const[search,setSearch]=useState('');
+  const games=useMemo(()=>data?data[0]??[],[data]);
+  const filtered=useMemo(()=>{
+    if(!search)return games;
+    const q=search.toLowerCase();
+    return games.filter(g=>g.team_1.toLowerCase().includes(q)||g.team_2.toLowerCase().includes(q));
+  },[games,search]);
+  const grouped=useMemo(()=>{
+    const m={};
+    for(const g of filtered){const d=(g.date||'').split('T')[0]||'?';if(!m[d])m[d]=[];m[d].push(g);}
+    return Object.entries(m).sort((a,b)=>a[0].localeCompare(b[0]));
+  },[filtered]);
+  if(loading)return<Spin/>;
+  if(error)return<Err m={error}/>;
+  return(
     <div className="page">
       <h1 className="page-title">D3 Score Predictions</h1>
-      <p className="page-subtitle">Upcoming game predictions based on team ratings · {games.length} games scheduled</p>
+      <p className="page-sub">Upcoming games with pre-game score predictions · {games.length} games scheduled</p>
       <div className="table-wrap">
-        <div className="table-toolbar">
-          <input className="search-input" placeholder="Search teams…" value={search} onChange={e=>setSearch(e.target.value)}/>
-          <span className="results-count">{filtered.length} games</span>
+        <div className="toolbar">
+          <input className="srch" placeholder="Search teams…" value={search} onChange={e=>setSearch(e.target.value)}/>
+          <span className="rcount">{filtered.length} games</span>
         </div>
-        {grouped.length === 0 && <div className="empty-msg">No upcoming games found.</div>}
-        {grouped.map(([date, dayGames]) => (
+        {grouped.length===0&&<div className="empty">No upcoming games found.</div>}
+        {grouped.map(([date,dg])=>(
           <div key={date}>
-            <div className="pred-date-group">{fmtDateLong(date)}</div>
-            {dayGames.map((g,i) => (
-              <div key={i} className="pred-row">
-                <div style={{flex:1}}>
-                  <div style={{display:'flex',alignItems:'center',gap:'.5rem',marginBottom:'.2rem'}}>
-                    <span style={{color:'var(--muted)',fontSize:'.7rem',width:22}}>{g.hfa==='vs'?'vs':g.hfa==='@'?'@':'neu'}</span>
-                    <span className="pred-team" onClick={()=>navigate(`#/team/${g.team_1_id}`)}>{g.team_1}</span>
-                    <span className="pred-score pred">{Math.round(g.team_1_pred_score)}</span>
+            <div className="dhdr">{fmtL(date)}</div>
+            {dg.map((g,i)=>(
+              <div key={i} className="prow">
+                <div className="pmatch">
+                  <div className="pline">
+                    <span className="pha">{g.hfa==='vs'?'vs':'@'}</span>
+                    <span className="pteam" onClick={()=>nav(`#/team/${g.team_1_id}`)}>{g.team_1}</span>
+                    <span className="ppts">{Math.round(g.team_1_pred_score)}</span>
                   </div>
-                  <div style={{display:'flex',alignItems:'center',gap:'.5rem'}}>
-                    <span style={{color:'var(--muted)',fontSize:'.7rem',width:22}}></span>
-                    <span className="pred-team" onClick={()=>navigate(`#/team/${g.team_2_id}`)}>{g.team_2}</span>
-                    <span className="pred-score pred">{Math.round(g.team_2_pred_score)}</span>
+                  <div className="pline">
+                    <span className="pha"></span>
+                    <span className="pteam" onClick={()=>nav(`#/team/${g.team_2_id}`)}>{g.team_2}</span>
+                    <span className="ppts">{Math.round(g.team_2_pred_score)}</span>
                   </div>
                 </div>
-                <span className="upcoming-badge">UPCOMING</span>
+                <span style={{fontSize:'.66rem',background:'#dbeafe',borderRadius:3,padding:'.1rem .38rem',color:'#1d4ed8',whiteSpace:'nowrap',flexShrink:0}}>UPCOMING</span>
               </div>
             ))}
           </div>
@@ -497,162 +456,126 @@ function PredictionsPage({ navigate }) {
   );
 }
 
-// ─── PREDICTION ACCURACY PAGE ─────────────────────────────────────────────────
-function AccuracyPage({ navigate }) {
-  const { data, loading, error } = useData('games_2026.json');
-  const [search, setSearch]   = useState('');
-  const [sortMode, setSortMode] = useState('date');  // 'date' | 'best' | 'worst'
-  const { sortCol, sortDir, toggleSort, sortIcon } = useSort('date', 'desc');
+// ACCURACY — all hooks BEFORE early returns
+function AccuracyPage({nav}){
+  const{data,loading,error}=useData('games_2026.json');
+  const[search,setSearch]=useState('');
+  const{sc,sd,tog,ico}=useSort('date','desc');
 
-  if (loading) return <div className="spinner"/>;
-  if (error)   return <div className="loading">⚠ {error}</div>;
+  const allGames=useMemo(()=>{
+    if(!data)return[];
+    return(data[0]??[]).filter(g=>g.pred_score_1!=null&&g.pred_score_2!=null);
+  },[data]);
 
-  const games = (data[0] ?? []).filter(g => g.pred_score_1 != null);
+  const filtered=useMemo(()=>{
+    let r=allGames;
+    if(search){const q=search.toLowerCase();r=r.filter(g=>g.team_1.toLowerCase().includes(q)||g.team_2.toLowerCase().includes(q));}
+    return srt(r,sc,sd);
+  },[allGames,search,sc,sd]);
 
-  const filtered = useMemo(() => {
-    let rows = games;
-    if (search) { const q = search.toLowerCase(); rows = rows.filter(g => g.team_1.toLowerCase().includes(q) || g.team_2.toLowerCase().includes(q)); }
-    const sorted = sortedData(rows, sortCol, sortDir);
-    return sorted;
-  }, [games, search, sortCol, sortDir]);
+  const stats=useMemo(()=>{
+    const errs=allGames.map(g=>g.error).filter(e=>e!=null&&isFinite(e));
+    if(!errs.length)return{mae:'—',n:0,w5:0,w10:0,pct10:'—',maxErr:1};
+    return{
+      mae:(errs.reduce((s,e)=>s+e,0)/errs.length).toFixed(1),
+      n:errs.length,
+      w5:errs.filter(e=>e<=5).length,
+      w10:errs.filter(e=>e<=10).length,
+      pct10:(errs.filter(e=>e<=10).length/errs.length*100).toFixed(0)+'%',
+      maxErr:Math.max(...errs),
+    };
+  },[allGames]);
 
-  const errors = games.map(g => g.error).filter(e => e != null);
-  const mae    = errors.length ? (errors.reduce((s,e)=>s+e,0)/errors.length).toFixed(1) : '—';
-  const best5  = [...games].sort((a,b)=>a.error-b.error).slice(0,1);
-  const worst5 = [...games].sort((a,b)=>b.error-a.error).slice(0,1);
-  const maxErr = Math.max(...errors);
+  if(loading)return<Spin/>;
+  if(error)return<Err m={error}/>;
 
-  const Th = ({col,children}) => (
-    <th className={sortCol===col?'sorted':''} onClick={()=>toggleSort(col)}>
-      {children} <span className="si">{sortIcon(col)}</span>
-    </th>
-  );
-
-  return (
+  return(
     <div className="page">
       <h1 className="page-title">2025–26 Prediction Accuracy</h1>
-      <p className="page-subtitle">How our model's pre-game score predictions compared to final results · Click a team name to see their profile</p>
-
-      <div className="acc-summary">
-        <div className="acc-stat"><div className="val">{mae}</div><div className="lbl">Mean Abs. Error (pts)</div></div>
-        <div className="acc-stat"><div className="val">{games.length}</div><div className="lbl">Games Predicted</div></div>
-        <div className="acc-stat"><div className="val">{errors.filter(e=>e<=5).length}</div><div className="lbl">Within 5 pts</div></div>
-        <div className="acc-stat"><div className="val">{errors.filter(e=>e<=10).length}</div><div className="lbl">Within 10 pts</div></div>
-        <div className="acc-stat"><div className="val">{(errors.filter(e=>e<=10).length/errors.length*100).toFixed(0)}%</div><div className="lbl">Within 10 pts (%)</div></div>
+      <p className="page-sub">Predicted vs. actual scores for all completed games · Click a team name to see their profile</p>
+      <div className="acc-stats">
+        {[{val:stats.mae,lbl:'Mean Abs. Error'},{val:stats.n,lbl:'Games Predicted'},{val:stats.w5,lbl:'Within 5 pts'},{val:stats.w10,lbl:'Within 10 pts'},{val:stats.pct10,lbl:'Within 10 pts %'}].map(s=>(
+          <div key={s.lbl} className="astat"><div className="val">{s.val}</div><div className="lbl">{s.lbl}</div></div>
+        ))}
       </div>
-
       <div className="table-wrap">
-        <div className="table-toolbar">
-          <input className="search-input" placeholder="Search teams…" value={search} onChange={e=>setSearch(e.target.value)}/>
-          <span className="results-count">{filtered.length} games</span>
+        <div className="toolbar">
+          <input className="srch" placeholder="Search teams…" value={search} onChange={e=>setSearch(e.target.value)}/>
+          <span className="rcount">{filtered.length} games</span>
         </div>
-        <table>
-          <thead><tr>
-            <Th col="date">Date</Th>
-            <Th col="team_1">Team 1</Th>
-            <th style={{textAlign:'center',fontSize:'.65rem',color:'rgba(255,255,255,.7)',letterSpacing:'.05em'}}>HA</th>
-            <Th col="team_2">Team 2</Th>
-            <th style={{color:'rgba(255,255,255,.85)',fontSize:'.68rem',letterSpacing:'.07em',textTransform:'uppercase'}}>Predicted</th>
-            <th style={{color:'rgba(255,255,255,.85)',fontSize:'.68rem',letterSpacing:'.07em',textTransform:'uppercase'}}>Actual</th>
-            <Th col="error">Error</Th>
-          </tr></thead>
-          <tbody>
-            {filtered.map((g,i) => {
-              const hfa = g.team_1_hfa === 1 ? 'vs' : g.team_1_hfa === -1 ? '@' : 'neu';
-              const t1win = g.team_1_score > g.team_2_score;
-              const t2win = g.team_2_score > g.team_1_score;
-              const predSpread = ((g.pred_score_1||0) - (g.pred_score_2||0)).toFixed(1);
-              const actSpread  = (g.team_1_score - g.team_2_score);
-              return (
-                <tr key={i}>
-                  <td className="mono" style={{whiteSpace:'nowrap'}}>{fmtDate(g.date)}</td>
-                  <td>
-                    <span className={`team-link${t1win?' win':''}`} onClick={()=>navigate(`#/team/${g.team_1_id}`)}>{g.team_1}</span>
-                  </td>
-                  <td style={{textAlign:'center',color:'var(--muted)',fontSize:'.72rem'}}>{hfa}</td>
-                  <td>
-                    <span className={`team-link${t2win?' win':''}`} onClick={()=>navigate(`#/team/${g.team_2_id}`)}>{g.team_2}</span>
-                  </td>
-                  <td className="mono" style={{whiteSpace:'nowrap'}}>
-                    {Math.round(g.pred_score_1)}–{Math.round(g.pred_score_2)}
-                    <span style={{color:'var(--muted)',fontSize:'.72rem',marginLeft:'.4rem'}}>({predSpread > 0 ? '+' : ''}{predSpread})</span>
-                  </td>
-                  <td className="mono" style={{whiteSpace:'nowrap'}}>
-                    <span className={t1win?'win':t2win?'loss':''}>{g.team_1_score}</span>–<span className={t2win?'win':t1win?'loss':''}>{g.team_2_score}</span>
-                    <span style={{color:'var(--muted)',fontSize:'.72rem',marginLeft:'.4rem'}}>({actSpread > 0 ? '+' : ''}{actSpread})</span>
-                  </td>
-                  <td>
-                    <span className="heat-cell" style={{...errorHeatStyle(g.error, maxErr), padding:'.2rem .5rem', borderRadius:4, fontSize:'.78rem', fontFamily:"'IBM Plex Mono',monospace"}}>
-                      {g.error != null ? g.error.toFixed(1) : '—'}
-                    </span>
-                  </td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
+        <div className="shint">Scroll right to see all columns →</div>
+        <div className="tscroll">
+          <table>
+            <thead><tr>
+              <Th col="date" sc={sc} ico={ico} tog={tog}>Date</Th>
+              <Th col="team_1" sc={sc} ico={ico} tog={tog}>Team 1</Th>
+              <th style={{color:'rgba(255,255,255,.7)',fontSize:'.6rem',letterSpacing:'.06em',textTransform:'uppercase',padding:'.58rem .5rem'}}>HA</th>
+              <Th col="team_2" sc={sc} ico={ico} tog={tog}>Team 2</Th>
+              <th style={{color:'rgba(255,255,255,.78)',fontSize:'.63rem',letterSpacing:'.07em',textTransform:'uppercase',padding:'.58rem .85rem'}}>Predicted</th>
+              <th style={{color:'rgba(255,255,255,.78)',fontSize:'.63rem',letterSpacing:'.07em',textTransform:'uppercase',padding:'.58rem .85rem'}}>Actual</th>
+              <Th col="error" sc={sc} ico={ico} tog={tog}>Error</Th>
+            </tr></thead>
+            <tbody>
+              {filtered.map((g,i)=>{
+                const hfa=g.team_1_hfa===1?'vs':g.team_1_hfa===-1?'@':'neu';
+                const t1w=g.team_1_score>g.team_2_score,t2w=g.team_2_score>g.team_1_score;
+                const ps=((g.pred_score_1||0)-(g.pred_score_2||0)).toFixed(1);
+                const as_=g.team_1_score-g.team_2_score;
+                return(
+                  <tr key={i}>
+                    <td className="mono" style={{whiteSpace:'nowrap'}}>{fmtS(g.date)}</td>
+                    <td><span className={`tl${t1w?' win':''}`} onClick={()=>nav(`#/team/${g.team_1_id}`)}>{g.team_1}</span></td>
+                    <td style={{textAlign:'center',color:'var(--muted)',fontSize:'.7rem',padding:'.52rem .5rem'}}>{hfa}</td>
+                    <td><span className={`tl${t2w?' win':''}`} onClick={()=>nav(`#/team/${g.team_2_id}`)}>{g.team_2}</span></td>
+                    <td className="mono" style={{whiteSpace:'nowrap'}}>{Math.round(g.pred_score_1)}–{Math.round(g.pred_score_2)} <span style={{color:'var(--muted)',fontSize:'.69rem'}}>({+ps>0?'+':''}{ps})</span></td>
+                    <td className="mono" style={{whiteSpace:'nowrap'}}><span className={t1w?'win':t2w?'loss':''}>{g.team_1_score}</span>–<span className={t2w?'win':t1w?'loss':''}>{g.team_2_score}</span> <span style={{color:'var(--muted)',fontSize:'.69rem'}}>({as_>0?'+':''}{as_})</span></td>
+                    <td><span className="hc" style={{...errHs(g.error,stats.maxErr),padding:'.19rem .44rem',borderRadius:3,fontSize:'.74rem'}}>{g.error!=null?(+g.error).toFixed(1):'—'}</span></td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );
 }
 
-// ─── RATING HISTORY CHART ─────────────────────────────────────────────────────
-function RatingHistoryChart({ history }) {
-  if (!history || history.length < 2) return <div className="empty-msg">Not enough history to display chart.</div>;
-
-  const W = 580, H = 200, PAD = { top:16, right:20, bottom:28, left:44 };
-  const innerW = W - PAD.left - PAD.right;
-  const innerH = H - PAD.top  - PAD.bottom;
-
-  const seasons = history.map(h => h.season);
-  const ratings = history.map(h => h.rating);
-  const minS = Math.min(...seasons), maxS = Math.max(...seasons);
-  const minR = Math.min(...ratings, 0) - 3;
-  const maxR = Math.max(...ratings,  0) + 3;
-
-  const xScale = s => PAD.left + ((s - minS) / (maxS - minS || 1)) * innerW;
-  const yScale = r => PAD.top  + (1 - (r - minR) / (maxR - minR)) * innerH;
-
-  const pts = history.map(h => [xScale(h.season), yScale(h.rating)]);
-  const linePath = `M ${pts.map(p=>p.join(',')).join(' L ')}`;
-  const zeroY = yScale(0);
-
-  // Y axis ticks
-  const yTicks = [];
-  const tickStep = Math.ceil((maxR - minR) / 5 / 5) * 5;
-  for (let v = Math.ceil(minR/tickStep)*tickStep; v <= maxR; v += tickStep) yTicks.push(v);
-
-  return (
+// RATING HISTORY CHART
+function RHChart({history}){
+  if(!history||history.length<2)return<div className="empty">Not enough history to display.</div>;
+  const W=560,H=185,P={t:12,r:14,b:25,l:40};
+  const iW=W-P.l-P.r,iH=H-P.t-P.b;
+  const rats=history.map(h=>h.rating),seas=history.map(h=>h.season);
+  const minS=Math.min(...seas),maxS=Math.max(...seas);
+  const minR=-47,maxR=47;  // fixed global range so all teams are comparable
+  const xS=s=>P.l+((s-minS)/(maxS-minS||1))*iW;
+  const yS=r=>P.t+(1-(r-minR)/(maxR-minR))*iH;
+  const pts=history.map(h=>[xS(h.season),yS(h.rating)]);
+  const z=yS(0);
+  const ts=Math.max(5,Math.ceil((maxR-minR)/5/5)*5);
+  const yt=[];for(let v=Math.ceil(minR/ts)*ts;v<=maxR;v+=ts)yt.push(v);
+  return(
     <svg viewBox={`0 0 ${W} ${H}`} style={{width:'100%',display:'block'}} xmlns="http://www.w3.org/2000/svg">
-      {/* zero line */}
-      {zeroY >= PAD.top && zeroY <= H - PAD.bottom && (
-        <line x1={PAD.left} y1={zeroY} x2={W-PAD.right} y2={zeroY} stroke="#DDE1EA" strokeWidth="1" strokeDasharray="4,3"/>
-      )}
-      {/* Y ticks */}
-      {yTicks.map(v => (
+      {z>=P.t&&z<=H-P.b&&<line x1={P.l} y1={z} x2={W-P.r} y2={z} stroke="#DDE1EA" strokeWidth="1" strokeDasharray="4,3"/>}
+      {yt.map(v=>(
         <g key={v}>
-          <line x1={PAD.left-4} y1={yScale(v)} x2={PAD.left} y2={yScale(v)} stroke="#DDE1EA" strokeWidth="1"/>
-          <text x={PAD.left-6} y={yScale(v)+4} textAnchor="end" fontSize="10" fill="#9CA3AF">{v}</text>
+          <line x1={P.l-3} y1={yS(v)} x2={P.l} y2={yS(v)} stroke="#DDE1EA" strokeWidth="1"/>
+          <text x={P.l-5} y={yS(v)+3.5} textAnchor="end" fontSize="9" fill="#9CA3AF">{v}</text>
         </g>
       ))}
-      {/* X ticks */}
-      {history.map(h => (
+      {history.map(h=>(
         <g key={h.season}>
-          <line x1={xScale(h.season)} y1={H-PAD.bottom} x2={xScale(h.season)} y2={H-PAD.bottom+4} stroke="#DDE1EA" strokeWidth="1"/>
-          <text x={xScale(h.season)} y={H-PAD.bottom+14} textAnchor="middle" fontSize="9" fill="#9CA3AF">
-            {h.season === 2020 ? "'20" : String(h.season).slice(2)}
-          </text>
+          <line x1={xS(h.season)} y1={H-P.b} x2={xS(h.season)} y2={H-P.b+3} stroke="#DDE1EA" strokeWidth="1"/>
+          <text x={xS(h.season)} y={H-P.b+12} textAnchor="middle" fontSize="7.5" fill="#9CA3AF">{`${String(h.season-1).slice(2)}-${String(h.season).slice(2)}`}</text>
         </g>
       ))}
-      {/* axis lines */}
-      <line x1={PAD.left} y1={PAD.top} x2={PAD.left} y2={H-PAD.bottom} stroke="#DDE1EA" strokeWidth="1"/>
-      <line x1={PAD.left} y1={H-PAD.bottom} x2={W-PAD.right} y2={H-PAD.bottom} stroke="#DDE1EA" strokeWidth="1"/>
-      {/* line */}
-      <path d={linePath} fill="none" stroke="#1C2B4B" strokeWidth="2" strokeLinejoin="round"/>
-      {/* dots with tooltip */}
-      {pts.map(([x,y],i) => (
+      <line x1={P.l} y1={P.t} x2={P.l} y2={H-P.b} stroke="#DDE1EA" strokeWidth="1"/>
+      <line x1={P.l} y1={H-P.b} x2={W-P.r} y2={H-P.b} stroke="#DDE1EA" strokeWidth="1"/>
+      <path d={`M ${pts.map(p=>p.join(',')).join(' L ')}`} fill="none" stroke="#1C2B4B" strokeWidth="2" strokeLinejoin="round"/>
+      {pts.map(([x,y],i)=>(
         <g key={i}>
-          <circle cx={x} cy={y} r="4.5" fill="#4A6CF7" stroke="#fff" strokeWidth="1.5"/>
+          <circle cx={x} cy={y} r="3.8" fill="#3B5BDB" stroke="#fff" strokeWidth="1.5"/>
           <title>{history[i].season}: {history[i].rating} (Off {history[i].off} / Def {history[i].def})</title>
         </g>
       ))}
@@ -660,243 +583,229 @@ function RatingHistoryChart({ history }) {
   );
 }
 
-// ─── TEAM PAGE ────────────────────────────────────────────────────────────────
-function TeamPage({ teamId, navigate }) {
-  const { data, loading, error } = useData('teams.json', 'games_2026.json', 'future_games.json', 'rating_history.json');
+// TEAM PAGE
+function TeamPage({teamId,nav}){
+  const{data,loading,error}=useData('teams.json','games_2026.json','future_games.json','rating_history.json');
+  if(loading)return<Spin/>;
+  if(error)return<Err m={error}/>;
+  const[td,g26,fg,hd]=data;
+  const team=td.find(t=>t.team_id===teamId);
+  if(!team)return<div className="page"><button className="back-btn" onClick={()=>nav('#/ratings')}>← All Teams</button><div className="errmsg">Team not found.</div></div>;
+  const[gameSort,setGameSort]=useState('date');
+  const hist=hd.filter(h=>h.team_id===teamId).sort((a,b)=>a.season-b.season);
+  const pastBase=g26.filter(g=>g.team_1_id===teamId||g.team_2_id===teamId);
+  const past=pastBase.slice().sort((a,b)=>b.date.localeCompare(a.date));
+  const sortedPast=gameSort==='wab'
+    ?pastBase.slice().sort((a,b)=>{
+        const wa=teamId===a.team_1_id?a.t1_wab:a.t2_wab;
+        const wb_=teamId===b.team_1_id?b.t1_wab:b.t2_wab;
+        if(wa==null&&wb_==null)return 0;if(wa==null)return 1;if(wb_==null)return-1;
+        return wb_-wa;
+      })
+    :past;
+  const upcoming=fg.filter(g=>g.team_1_id===teamId||g.team_2_id===teamId).sort((a,b)=>a.date.localeCompare(b.date));
 
-  if (loading) return <div className="spinner"/>;
-  if (error)   return <div className="loading">⚠ {error}</div>;
-
-  const [teamsData, games2026, futureGames, historyData] = data;
-  const team = teamsData.find(t => t.team_id === teamId);
-
-  if (!team) return (
-    <div className="page">
-      <button className="back-btn" onClick={() => navigate('#/ratings')}>← All Teams</button>
-      <div className="loading">Team not found. Make sure the data files are up to date.</div>
-    </div>
-  );
-
-  // Rating history for this team
-  const history = historyData.filter(h => h.team_id === teamId).sort((a,b) => a.season - b.season);
-
-  // Past games (completed 2026 season)
-  const pastGames = games2026
-    .filter(g => g.team_1_id === teamId || g.team_2_id === teamId)
-    .sort((a,b) => b.date.localeCompare(a.date));  // most recent first
-
-  // Upcoming games
-  const upcoming = futureGames
-    .filter(g => g.team_1_id === teamId || g.team_2_id === teamId)
-    .sort((a,b) => a.date.localeCompare(b.date));
-
-  const GameRow = ({ g, isFuture }) => {
-    const isTeam1  = g.team_1_id === teamId;
-    const opp      = isTeam1 ? g.team_2     : g.team_1;
-    const oppId    = isTeam1 ? g.team_2_id  : g.team_1_id;
-    const myScore  = isTeam1 ? g.team_1_score : g.team_2_score;
-    const oppScore = isTeam1 ? g.team_2_score : g.team_1_score;
-    const myPred   = isTeam1 ? (g.team_1_pred_score ?? g.team_1_pred_score) : (g.team_2_pred_score ?? g.team_2_pred_score);
-    const oppPred  = isTeam1 ? (g.team_2_pred_score ?? g.team_2_pred_score) : (g.team_1_pred_score ?? g.team_1_pred_score);
-    // Home/away from the team's perspective
+  function GRow({g,fut}){
+    const it1=g.team_1_id===teamId;
+    const opp=it1?g.team_2:g.team_1,oppId=it1?g.team_2_id:g.team_1_id;
+    const ms=it1?g.team_1_score:g.team_2_score,os=it1?g.team_2_score:g.team_1_score;
+    const mp=it1?g.team_1_pred_score:g.team_2_pred_score,op=it1?g.team_2_pred_score:g.team_1_pred_score;
     let ha;
-    if (isFuture) {
-      ha = g.hfa === 'vs' ? (isTeam1 ? 'vs' : '@') : g.hfa === '@' ? (isTeam1 ? '@' : 'vs') : 'neu';
-    } else {
-      const hfaNum = g.team_1_hfa;
-      if (hfaNum === 0) ha = 'neu';
-      else if (isTeam1) ha = hfaNum === 1 ? 'vs' : '@';
-      else ha = hfaNum === 1 ? '@' : 'vs';
-    }
-    const won  = !isFuture && myScore  > oppScore;
-    const lost = !isFuture && myScore  < oppScore;
-    // WAB for this game
-    const wab = !isFuture ? (isTeam1 ? g.t1_wab : g.t2_wab) : null;
-
-    return (
-      <div className="game-row">
-        <span className="game-date">{fmtDate(g.date)}</span>
-        <span className="game-ha" style={{color: ha==='vs'?'#2563eb': ha==='@'?'#7c3aed':'var(--muted)'}}>{ha}</span>
-        <span className="game-opp" onClick={()=>navigate(`#/team/${oppId}`)}>{opp}</span>
-        {isFuture
-          ? <span className="game-score pred">{Math.round(myPred)}–{Math.round(oppPred)}</span>
-          : <span className={`game-score ${won?'win':lost?'loss':''}`}>{myScore}–{oppScore}</span>}
-        {!isFuture && (
-          <span className="game-wab" style={{color: wab == null ? 'var(--muted)' : wab >= 0 ? 'var(--win)' : 'var(--loss)'}}>
-            {wab != null ? (wab >= 0 ? '+' : '') + wab.toFixed(2) : '–'}
-          </span>
-        )}
+    if(fut){ha=g.hfa==='vs'?(it1?'vs':'@'):g.hfa==='@'?(it1?'@':'vs'):'n';}
+    else{const n=g.team_1_hfa;ha=n===0?'n':(it1?(n===1?'vs':'@'):(n===1?'@':'vs'));}
+    const won=!fut&&ms>os,lost=!fut&&ms<os;
+    const wab=!fut?(it1?g.t1_wab:g.t2_wab):null;
+    return(
+      <div className="grow">
+        <span className="gdate">{fmtS(g.date)}</span>
+        <span className="gha" style={{color:ha==='vs'?'#2563eb':ha==='@'?'#7c3aed':'var(--muted)'}}>{ha}</span>
+        <span className="gopp" onClick={()=>nav(`#/team/${oppId}`)}>{opp}</span>
+        {fut
+          ?<span className="gsc muted">{Math.round(mp)}–{Math.round(op)}</span>
+          :<span className={`gsc ${won?'win':lost?'loss':''}`}>{ms}–{os}</span>}
+        {!fut&&<span className="gwab" style={{color:wab==null?'var(--muted)':wab>=0?'var(--win)':'var(--loss)'}}>{wab!=null?(wab>=0?'+':'')+wab.toFixed(2):'–'}</span>}
       </div>
     );
-  };
+  }
 
-  return (
+  return(
     <div className="page">
-      <button className="back-btn" onClick={() => navigate('#/ratings')}>← All Teams</button>
-
-      {/* Header Banner */}
-      <div className="team-header">
-        <div style={{flex:1}}>
-          <h1>{team.full_team}</h1>
-          <span className="conf-link" onClick={() => navigate(`#/conference/${team.conference_id}`)}>
-            {team.conference} →
-          </span>
+      <button className="back-btn" onClick={()=>nav('#/ratings')}>← All Teams</button>
+      <div className="team-banner">
+        <h1>{team.full_team}</h1>
+        <span className="cl" onClick={()=>nav(`#/conference/${team.conference_id}`)}>{team.conference} →</span>
+        <div className="banner-stats">
+          {[
+            {val:`#${team.rank}`,lbl:'Rating Rank'},
+            {val:(+team.rating).toFixed(1),lbl:'Rating'},
+            {val:team.record,lbl:'Record'},
+            team.resume_rank&&{val:`#${team.resume_rank}`,lbl:'Resume Rank'},
+          ].filter(Boolean).map(s=>(
+            <div key={s.lbl} className="bstat"><div className="val">{s.val}</div><div className="lbl">{s.lbl}</div></div>
+          ))}
         </div>
-        <div className="stat-divider"/>
-        <div className="stat-block">
-          <div className="val">#{team.rank}</div>
-          <div className="lbl">Rating Rank</div>
-        </div>
-        <div className="stat-divider"/>
-        <div className="stat-block">
-          <div className="val">{(+team.rating).toFixed(1)}</div>
-          <div className="lbl">Rating</div>
-        </div>
-        <div className="stat-divider"/>
-        <div className="stat-block">
-          <div className="val">{team.record}</div>
-          <div className="lbl">D3 Record</div>
-        </div>
-        {team.resume_rank != null && <>
-          <div className="stat-divider"/>
-          <div className="stat-block">
-            <div className="val">#{team.resume_rank}</div>
-            <div className="lbl">Resume Rank</div>
-          </div>
-        </>}
       </div>
-
-      {/* Stat strip */}
-      <div className="stat-mini-row">
+      <div className="stat-row">
         {[
-          { label:'Offensive Rating', val: (+team.off).toFixed(1) },
-          { label:'Defensive Rating', val: (+team.def).toFixed(1) },
-          { label:'Tempo',            val: (+team.pace).toFixed(1) },
-          team.wab != null && { label:'Wins Above Bubble', val: (+team.wab).toFixed(2) },
-          team.win_qual != null && { label:'Win Quality', val: (+team.win_qual).toFixed(2) },
-          team.loss_qual != null && { label:'Loss Quality', val: (+team.loss_qual).toFixed(2) },
-          team.exp_bub_wins != null && { label:'Exp. Bubble Wins', val: (+team.exp_bub_wins).toFixed(2) },
-        ].filter(Boolean).map(s => (
-          <div key={s.label} className="stat-mini">
-            <div className="val">{s.val}</div>
-            <div className="lbl">{s.label}</div>
-          </div>
+          {val:(+team.off).toFixed(1),lbl:'Off Rating'},
+          {val:(+team.def).toFixed(1),lbl:'Def Rating'},
+          {val:(+team.pace).toFixed(1),lbl:'Tempo'},
+          team.wab!=null&&{val:(team.wab>=0?'+':'')+(+team.wab).toFixed(2),lbl:'Wins Above Bubble'},
+          team.win_qual!=null&&{val:(+team.win_qual).toFixed(2),lbl:'Win Quality'},
+          team.loss_qual!=null&&{val:(+team.loss_qual).toFixed(2),lbl:'Loss Quality'},
+        ].filter(Boolean).map(s=>(
+          <div key={s.lbl} className="sbox"><div className="val">{s.val}</div><div className="lbl">{s.lbl}</div></div>
         ))}
       </div>
-
-      {/* Rating History Chart */}
-      <div className="chart-card">
-        <div className="chart-card-header">📈 Rating History (End-of-Season, 2012–2026)</div>
-        <div className="chart-inner">
-          <RatingHistoryChart history={history}/>
-        </div>
+      <div className="cbox">
+        <div className="box-hdr">Rating History — End of Season, 2012–2026</div>
+        <div className="box-body"><RHChart history={hist}/></div>
       </div>
-
-      {/* Games */}
       <div className="two-col">
-        <div className="section-card">
-          <div className="section-card-header">
-            <span>📅 Upcoming Games ({upcoming.length})</span>
-          </div>
-          {upcoming.length === 0
-            ? <div className="empty-msg">No upcoming games scheduled.</div>
-            : upcoming.map((g,i) => <GameRow key={i} g={g} isFuture={true}/>)}
+        <div className="scard">
+          <div className="box-hdr">Upcoming Games ({upcoming.length})</div>
+          {upcoming.length===0?<div className="empty">No upcoming games scheduled.</div>:upcoming.map((g,i)=><GRow key={i} g={g} fut={true}/>)}
         </div>
-
-        <div className="section-card">
-          <div className="section-card-header">
-            <span>📊 2025–26 Results ({pastGames.length} games)</span>
-            <span style={{fontSize:'.75rem',color:'var(--muted)',fontWeight:400}}>Score · WAB</span>
-          </div>
-          {pastGames.length === 0
-            ? <div className="empty-msg">No completed games found.</div>
-            : pastGames.map((g,i) => <GameRow key={i} g={g} isFuture={false}/>)}
-        </div>
-      </div>
-    </div>
-  );
-}
-
-// ─── CONFERENCES INDEX ────────────────────────────────────────────────────────
-function ConferencesPage({ navigate }) {
-  const { data, loading, error } = useData('conferences.json');
-  if (loading) return <div className="spinner"/>;
-  if (error)   return <div className="loading">⚠ {error}</div>;
-  const conferences = [...(data[0] ?? [])].sort((a,b) => a.conference.localeCompare(b.conference));
-  return (
-    <div className="page">
-      <h1 className="page-title">D3 Conferences</h1>
-      <p className="page-subtitle">{conferences.length} conferences · Click any to see standings</p>
-      <div className="conf-grid">
-        {conferences.map(c => (
-          <div key={c.conference_id} className="conf-card" onClick={() => navigate(`#/conference/${c.conference_id}`)}>
-            <h3>{c.conference}</h3>
-            <div className="meta">
-              <span>{c.team_count} teams</span>
-              <span>Best: #{c.best_rank}</span>
-              <span>Avg: {c.avg_rating}</span>
+        <div className="scard">
+          <div className="box-hdr" style={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
+            <span>2025–26 Results ({past.length})</span>
+            <div style={{display:'flex',alignItems:'center',gap:'.5rem'}}>
+              <span style={{color:'var(--muted)',fontSize:'.7rem',fontWeight:400}}>Sort:</span>
+              <button onClick={()=>setGameSort('date')} style={{fontSize:'.68rem',padding:'.15rem .45rem',borderRadius:3,border:'1px solid var(--border)',background:gameSort==='date'?'var(--navy)':'transparent',color:gameSort==='date'?'#fff':'var(--muted)',cursor:'pointer'}}>Date</button>
+              <button onClick={()=>setGameSort('wab')} style={{fontSize:'.68rem',padding:'.15rem .45rem',borderRadius:3,border:'1px solid var(--border)',background:gameSort==='wab'?'var(--navy)':'transparent',color:gameSort==='wab'?'#fff':'var(--muted)',cursor:'pointer'}}>WAB</button>
             </div>
           </div>
+          {past.length===0?<div className="empty">No completed games found.</div>:sortedPast.map((g,i)=><GRow key={i} g={g} fut={false}/>)}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// CONFERENCES INDEX — table sorted by avg rating
+function ConferencesPage({nav}){
+  const{data,loading,error}=useData('conferences.json');
+  const{sc,sd,tog,ico}=useSort('avg_rating','desc');
+  const rows=useMemo(()=>data?srt(data[0]??[],sc,sd):[],[data,sc,sd]);
+  if(loading)return<Spin/>;
+  if(error)return<Err m={error}/>;
+  return(
+    <div className="page">
+      <h1 className="page-title">D3 Conferences</h1>
+      <p className="page-sub">{rows.length} conferences · Click a conference name to see team standings</p>
+      <div className="table-wrap">
+        <div className="tscroll">
+          <table>
+            <thead><tr>
+              <Th col="conference" sc={sc} ico={ico} tog={tog}>Conference</Th>
+              <Th col="team_count" sc={sc} ico={ico} tog={tog}>Teams</Th>
+              <Th col="best_rank" sc={sc} ico={ico} tog={tog}>Best Rank</Th>
+              <Th col="avg_rating" sc={sc} ico={ico} tog={tog}>Avg Rating</Th>
+            </tr></thead>
+            <tbody>
+              {rows.map(c=>(
+                <tr key={c.conference_id} style={{cursor:'pointer'}} onClick={()=>nav(`#/conference/${c.conference_id}`)}>
+                  <td><span className="tl">{c.conference}</span></td>
+                  <td className="mono">{c.team_count}</td>
+                  <td className="rc">#{c.best_rank}</td>
+                  <td className="mono">{c.avg_rating}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// CONFERENCE DETAIL — hooks BEFORE early returns
+function ConferencePage({confId,nav}){
+  const{data,loading,error}=useData('teams.json','conferences.json');
+  const{sc,sd,tog,ico}=useSort('rank','asc');
+
+  const conf=useMemo(()=>data?(data[1]??[]).find(c=>c.conference_id===confId):null,[data,confId]);
+  const confTeams=useMemo(()=>data?(data[0]??[]).filter(t=>t.conference_id===confId):[],[data,confId]);
+  const rows=useMemo(()=>srt(confTeams,sc,sd),[confTeams,sc,sd]);
+
+  if(loading)return<Spin/>;
+  if(error)return<Err m={error}/>;
+  if(!conf)return(
+    <div className="page">
+      <button className="back-btn" onClick={()=>nav('#/conferences')}>← Conferences</button>
+      <div className="errmsg">Conference not found.<br/><small>ID: "{confId}"</small></div>
+    </div>
+  );
+
+  const ra=rows.map(t=>+t.rating).filter(isFinite);
+  const of=rows.map(t=>+t.off).filter(isFinite);
+  const df=rows.map(t=>+t.def).filter(isFinite);
+  const wb=rows.map(t=>t.wab!=null?+t.wab:null).filter(v=>v!=null&&isFinite(v));
+  const[rn,rx]=ra.length>1?[Math.min(...ra),Math.max(...ra)]:[0,1];
+  const[on,ox]=of.length>1?[Math.min(...of),Math.max(...of)]:[0,1];
+  const[dn,dx]=df.length>1?[Math.min(...df),Math.max(...df)]:[0,1];
+  const[wn,wx]=wb.length?[Math.min(...wb),Math.max(...wb)]:[-1,1];
+
+  return(
+    <div className="page">
+      <button className="back-btn" onClick={()=>nav('#/conferences')}>← All Conferences</button>
+      <div className="chdr">
+        <h1>{conf.conference}</h1>
+        {[{val:conf.team_count,lbl:'Teams'},{val:`#${conf.best_rank}`,lbl:'Best Rank'},{val:conf.avg_rating,lbl:'Avg Rating'}].map(s=>(
+          <div key={s.lbl} className="cbs"><div className="val">{s.val}</div><div className="lbl">{s.lbl}</div></div>
         ))}
       </div>
-    </div>
-  );
-}
-
-// ─── CONFERENCE PAGE ──────────────────────────────────────────────────────────
-function ConferencePage({ confId, navigate }) {
-  const { data, loading, error } = useData('teams.json', 'conferences.json');
-  if (loading) return <div className="spinner"/>;
-  if (error)   return <div className="loading">⚠ {error}</div>;
-  const [teamsData, confsData] = data;
-  const conf      = confsData.find(c => c.conference_id === confId);
-  const confTeams = teamsData.filter(t => t.conference_id === confId);
-  const sorted    = [...confTeams].sort((a,b) => a.rank - b.rank);
-  if (!conf) return <div className="page"><button className="back-btn" onClick={()=>navigate('#/conferences')}>← Conferences</button><div className="loading">Conference not found.</div></div>;
-  const { sortCol, sortDir, toggleSort, sortIcon } = useSort('rank','asc');
-  return (
-    <div className="page">
-      <button className="back-btn" onClick={()=>navigate('#/conferences')}>← All Conferences</button>
-      <div className="conf-header">
-        <h1>{conf.conference}</h1>
-        <div className="stat-block"><div className="val">{conf.team_count}</div><div className="lbl">Teams</div></div>
-        <div className="stat-divider" style={{width:1,background:'rgba(255,255,255,.15)',alignSelf:'stretch'}}/>
-        <div className="stat-block"><div className="val">#{conf.best_rank}</div><div className="lbl">Best Rank</div></div>
-        <div className="stat-divider" style={{width:1,background:'rgba(255,255,255,.15)',alignSelf:'stretch'}}/>
-        <div className="stat-block"><div className="val">{conf.avg_rating}</div><div className="lbl">Avg Rating</div></div>
-      </div>
       <div className="table-wrap">
-        <TeamTable teams={sortedData(sorted,sortCol,sortDir)} navigate={navigate} sortCol={sortCol} sortDir={sortDir} toggleSort={toggleSort} sortIcon={sortIcon}
-          extraCols={[
-            { col:'resume_rank', label:'Resume Rank', render: t => t.resume_rank ? `#${t.resume_rank}` : '–' },
-            { col:'wab', label:'WAB', render: t => t.wab != null ? (+t.wab).toFixed(2) : '–' },
-          ]}
-        />
+        <div className="shint">Scroll right to see all columns →</div>
+        <div className="tscroll">
+          <table>
+            <thead><tr>
+              <Th col="rank" sc={sc} ico={ico} tog={tog}>Rank</Th>
+              <Th col="full_team" sc={sc} ico={ico} tog={tog}>Team</Th>
+              <Th col="record" sc={sc} ico={ico} tog={tog}>Record</Th>
+              <Th col="rating" sc={sc} ico={ico} tog={tog}>Rating</Th>
+              <Th col="off" sc={sc} ico={ico} tog={tog}>Off</Th>
+              <Th col="def" sc={sc} ico={ico} tog={tog}>Def</Th>
+              <Th col="pace" sc={sc} ico={ico} tog={tog}>Tempo</Th>
+              <Th col="resume_rank" sc={sc} ico={ico} tog={tog}>Res. Rank</Th>
+              <Th col="wab" sc={sc} ico={ico} tog={tog}>WAB</Th>
+            </tr></thead>
+            <tbody>
+              {rows.map(t=>(
+                <tr key={t.team_id}>
+                  <td className="rc">{t.rank}</td>
+                  <td><span className="tl" onClick={()=>nav(`#/team/${t.team_id}`)}>{t.full_team}</span></td>
+                  <td className="mono">{t.record}</td>
+                  <td className="hc" style={hs(+t.rating,rn,rx)}>{(+t.rating).toFixed(1)}</td>
+                  <td className="hc" style={hs(+t.off,on,ox)}>{(+t.off).toFixed(1)}</td>
+                  <td className="hc" style={hs(+t.def,dn,dx,true)}>{(+t.def).toFixed(1)}</td>
+                  <td className="mono">{(+t.pace).toFixed(1)}</td>
+                  <td className="rc">{t.resume_rank?`#${t.resume_rank}`:'–'}</td>
+                  <td className="hc" style={t.wab!=null?wabHs(+t.wab,wn,wx):{}}>{t.wab!=null?(t.wab>=0?'+':'')+(+t.wab).toFixed(2):'–'}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );
 }
 
-// ─── APP ──────────────────────────────────────────────────────────────────────
-function App() {
-  const { hash, navigate } = useRoute();
-  const route = parseRoute(hash);
-  const pageMap = {
-    home:        <HomePage navigate={navigate}/>,
-    ratings:     <RatingsPage navigate={navigate}/>,
-    predictions: <PredictionsPage navigate={navigate}/>,
-    resume:      <ResumePage navigate={navigate}/>,
-    conferences: <ConferencesPage navigate={navigate}/>,
-    accuracy:    <AccuracyPage navigate={navigate}/>,
-    team:        <TeamPage teamId={route.id} navigate={navigate}/>,
-    conference:  <ConferencePage confId={route.id} navigate={navigate}/>,
+// APP
+function App(){
+  const{hash,nav}=useRoute();
+  const route=parseRoute(hash);
+  const pages={
+    home:<HomePage nav={nav}/>,
+    ratings:<RatingsPage nav={nav}/>,
+    predictions:<PredictionsPage nav={nav}/>,
+    accuracy:<AccuracyPage nav={nav}/>,
+    conferences:<ConferencesPage nav={nav}/>,
+    team:<TeamPage teamId={route.id} nav={nav}/>,
+    conference:<ConferencePage confId={route.id} nav={nav}/>,
   };
-  return (
-    <>
-      <Nav navigate={navigate} currentHash={hash}/>
-      {pageMap[route.page] ?? <div className="loading">Page not found.</div>}
-    </>
-  );
+  return<><Nav nav={nav} hash={hash}/>{pages[route.page]??<div className="errmsg">Page not found.</div>}</>;
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
