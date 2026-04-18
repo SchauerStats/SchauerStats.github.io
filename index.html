@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Schauer Stats</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
     :root{
@@ -17,17 +20,18 @@
     html,body{height:100%;background:var(--bg);color:var(--text);-webkit-text-size-adjust:100%}
     body{font-family:'IBM Plex Sans',sans-serif;font-size:15px}
     #root{min-height:100vh;display:flex;flex-direction:column}
+
     nav{background:var(--navy);height:var(--nav-h);display:flex;align-items:center;
         padding:0 1.5rem;position:sticky;top:0;z-index:200;box-shadow:0 1px 8px rgba(0,0,0,.3)}
     .nav-brand{font-family:'Syne',sans-serif;font-weight:800;font-size:1rem;color:#fff;
                cursor:pointer;white-space:nowrap;margin-right:auto;padding-right:1rem}
-    .nav-links{display:flex}
+    .nav-links{display:flex;gap:0}
     .nav-link{color:rgba(255,255,255,.7);font-size:.74rem;font-weight:500;cursor:pointer;
               padding:.45rem .7rem;border-radius:5px;letter-spacing:.04em;text-transform:uppercase;
               white-space:nowrap;transition:color .12s,background .12s}
     .nav-link:hover{color:#fff;background:rgba(255,255,255,.08)}
     .nav-link.active{color:#fff}
-    .nav-toggle{display:none;background:none;border:none;cursor:pointer;padding:.25rem;color:#fff;line-height:1}
+    .nav-toggle{display:none;background:none;border:none;cursor:pointer;padding:.25rem;color:#fff}
     @media(max-width:680px){
       .nav-links{display:none;flex-direction:column;position:absolute;top:var(--nav-h);
                  left:0;right:0;background:var(--navy);padding:.5rem 0;z-index:199;
@@ -36,14 +40,17 @@
       .nav-link{padding:.7rem 1.5rem;border-radius:0;font-size:.8rem}
       .nav-toggle{display:block}
     }
+
     .page{padding:2rem 1.5rem;max-width:1200px;margin:0 auto;width:100%;flex:1}
     .page-title{font-family:'Syne',sans-serif;font-size:1.5rem;font-weight:800;color:var(--navy);margin-bottom:.25rem}
     .page-sub{color:var(--muted);font-size:.8rem;margin-bottom:1.5rem;line-height:1.5}
     .back-btn{display:inline-flex;align-items:center;gap:.3rem;color:var(--muted);font-size:.8rem;
               cursor:pointer;margin-bottom:1.25rem;background:none;border:none;padding:0}
     .back-btn:hover{color:var(--navy)}
+
     .table-wrap{background:var(--white);border-radius:10px;border:1px solid var(--border);overflow:hidden}
-    .toolbar{padding:.7rem 1rem;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:.6rem;flex-wrap:wrap}
+    .toolbar{padding:.7rem 1rem;border-bottom:1px solid var(--border);display:flex;
+             align-items:center;gap:.6rem;flex-wrap:wrap}
     .srch{border:1px solid var(--border);border-radius:6px;padding:.38rem .75rem;
           font-family:'IBM Plex Sans',sans-serif;font-size:.82rem;outline:none;
           width:185px;background:var(--bg);transition:border-color .15s}
@@ -73,15 +80,18 @@
     .cb{display:inline-block;background:#EEF1F9;color:var(--navy2);border-radius:4px;
         padding:.11rem .42rem;font-size:.69rem;font-weight:600;cursor:pointer;white-space:nowrap}
     .cb:hover{background:#dce2f4}
-    .hc{font-family:'IBM Plex Mono',monospace;font-size:.77rem;border-radius:3px;padding:.22rem .48rem!important;text-align:right}
+    .hc{font-family:'IBM Plex Mono',monospace;font-size:.77rem;border-radius:3px;
+        padding:.22rem .48rem!important;text-align:right}
     .mono{font-family:'IBM Plex Mono',monospace;font-size:.77rem}
     .win{color:var(--win);font-weight:600}
     .loss{color:var(--loss);font-weight:600}
+
     .home-wrap{padding:2.5rem 1.5rem 3rem;max-width:1200px;margin:0 auto}
     .home-title{font-family:'Syne',sans-serif;font-size:2rem;font-weight:800;color:var(--navy);margin-bottom:.4rem}
     .home-sub{color:var(--muted);margin-bottom:2.25rem;font-size:.9rem}
     .card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:1.25rem}
-    .card{background:var(--white);border-radius:10px;border:1px solid var(--border);overflow:hidden;cursor:pointer;transition:transform .15s,box-shadow .15s}
+    .card{background:var(--white);border-radius:10px;border:1px solid var(--border);overflow:hidden;
+          cursor:pointer;transition:transform .15s,box-shadow .15s}
     .card:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(28,43,75,.1)}
     .card-img{height:125px;background:var(--bg);overflow:hidden}
     .card-img svg{width:100%;height:100%}
@@ -91,23 +101,27 @@
     .card-btn{background:var(--navy);color:#fff;border:none;border-radius:7px;padding:.58rem 1rem;
               font-family:'IBM Plex Sans',sans-serif;font-size:.81rem;font-weight:500;cursor:pointer;width:100%}
     .card-btn:hover{background:var(--navy2)}
+
     .team-banner{background:var(--navy);color:#fff;border-radius:10px;padding:1.4rem 1.5rem;margin-bottom:1.2rem}
     .team-banner h1{font-family:'Syne',sans-serif;font-size:1.5rem;font-weight:800;margin-bottom:.2rem;line-height:1.2}
-    .conf-link{color:rgba(255,255,255,.6);font-size:.8rem;cursor:pointer}
-    .conf-link:hover{color:#fff;text-decoration:underline}
+    .team-banner .cl{color:rgba(255,255,255,.6);font-size:.8rem;cursor:pointer}
+    .team-banner .cl:hover{color:#fff;text-decoration:underline}
     .banner-stats{display:flex;gap:1.5rem;margin-top:.9rem;flex-wrap:wrap}
     .bstat .val{font-family:'IBM Plex Mono',monospace;font-size:1.25rem;color:#fff;line-height:1}
     .bstat .lbl{font-size:.62rem;color:rgba(255,255,255,.55);letter-spacing:.07em;text-transform:uppercase;margin-top:.18rem}
+
     .stat-row{display:flex;gap:.7rem;margin-bottom:1.2rem;flex-wrap:wrap}
     .sbox{background:var(--white);border:1px solid var(--border);border-radius:8px;padding:.7rem .95rem;flex:1;min-width:95px}
     .sbox .val{font-family:'IBM Plex Mono',monospace;font-size:1.15rem;color:var(--navy);line-height:1}
     .sbox .lbl{font-size:.62rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-top:.18rem}
+
     .cbox{background:var(--white);border-radius:10px;border:1px solid var(--border);overflow:hidden;margin-bottom:1.2rem}
-    .box-hdr{padding:.65rem 1rem;border-bottom:1px solid var(--border);font-size:.77rem;font-weight:600;color:var(--navy);display:flex;justify-content:space-between;align-items:center}
+    .box-hdr{padding:.65rem 1rem;border-bottom:1px solid var(--border);font-size:.77rem;font-weight:600;color:var(--navy)}
     .box-body{padding:.8rem 1rem}
     .two-col{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}
     @media(max-width:680px){.two-col{grid-template-columns:1fr}}
     .scard{background:var(--white);border-radius:10px;border:1px solid var(--border);overflow:hidden}
+
     .grow{display:flex;align-items:center;padding:.48rem 1rem;border-bottom:1px solid var(--border);gap:.5rem;font-size:.79rem}
     .grow:last-child{border-bottom:none}
     .gdate{color:var(--muted);font-family:'IBM Plex Mono',monospace;font-size:.7rem;width:58px;flex-shrink:0}
@@ -116,9 +130,11 @@
     .gopp:hover{color:var(--accent);text-decoration:underline}
     .gsc{font-family:'IBM Plex Mono',monospace;font-size:.77rem;text-align:right;white-space:nowrap;min-width:55px}
     .gwab{font-family:'IBM Plex Mono',monospace;font-size:.7rem;text-align:right;min-width:48px;white-space:nowrap}
-    .muted-color{color:var(--muted)}
+    .muted{color:var(--muted)}
     .empty{padding:1.2rem 1rem;color:var(--muted);font-size:.81rem}
-    .dhdr{padding:.38rem 1rem;background:var(--bg);font-size:.67rem;font-weight:600;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+
+    .dhdr{padding:.38rem 1rem;background:var(--bg);font-size:.67rem;font-weight:600;
+          color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
     .prow{display:flex;align-items:center;padding:.52rem 1rem;border-bottom:1px solid var(--border);gap:.75rem;font-size:.83rem}
     .prow:last-child{border-bottom:none}
     .pmatch{flex:1;min-width:0}
@@ -128,619 +144,657 @@
     .pteam{font-weight:500;cursor:pointer;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;min-width:0}
     .pteam:hover{color:var(--accent);text-decoration:underline}
     .ppts{font-family:'IBM Plex Mono',monospace;font-size:.79rem;color:var(--muted);white-space:nowrap}
+
     .acc-stats{display:flex;gap:.7rem;margin-bottom:1.4rem;flex-wrap:wrap}
     .astat{background:var(--white);border:1px solid var(--border);border-radius:8px;padding:.8rem 1rem;flex:1;min-width:105px}
     .astat .val{font-family:'Syne',sans-serif;font-size:1.4rem;font-weight:700;color:var(--navy);line-height:1}
     .astat .lbl{font-size:.64rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-top:.18rem}
-    .chdr{background:var(--navy);border-radius:10px;padding:1.4rem 1.5rem;color:#fff;margin-bottom:1.2rem;display:flex;align-items:center;gap:2rem;flex-wrap:wrap}
+
+    .chdr{background:var(--navy);border-radius:10px;padding:1.4rem 1.5rem;color:#fff;
+          margin-bottom:1.2rem;display:flex;align-items:center;gap:2rem;flex-wrap:wrap}
     .chdr h1{font-family:'Syne',sans-serif;font-size:1.4rem;font-weight:800;flex:1}
     .cbs .val{font-family:'IBM Plex Mono',monospace;font-size:1.25rem;color:#fff;line-height:1}
     .cbs .lbl{font-size:.62rem;color:rgba(255,255,255,.55);text-transform:uppercase;letter-spacing:.07em;margin-top:.18rem}
-    .sbtn{font-size:.68rem;padding:.15rem .45rem;border-radius:3px;border:1px solid var(--border);cursor:pointer;background:transparent;color:var(--muted)}
-    .sbtn.active{background:var(--navy);color:#fff;border-color:var(--navy)}
-    .spinner{width:28px;height:28px;border:2.5px solid var(--border);border-top-color:var(--navy);border-radius:50%;animation:spin .7s linear infinite;margin:3rem auto}
+
+    .spinner{width:28px;height:28px;border:2.5px solid var(--border);border-top-color:var(--navy);
+             border-radius:50%;animation:spin .7s linear infinite;margin:3rem auto}
     @keyframes spin{to{transform:rotate(360deg)}}
     .errmsg{text-align:center;padding:3rem 1rem;color:var(--muted);font-size:.9rem;line-height:1.6}
   </style>
 </head>
 <body>
 <div id="root"></div>
-<script type="module">
-import { h, render } from 'https://cdn.jsdelivr.net/npm/preact@10.22.0/dist/preact.module.js';
-import { useState, useEffect, useMemo, useCallback } from 'https://cdn.jsdelivr.net/npm/preact@10.22.0/hooks/dist/hooks.module.js';
-import htm from 'https://cdn.jsdelivr.net/npm/htm@3.1.1/dist/htm.module.js';
-const html = htm.bind(h);
+<script type="text/babel">
+const {useState,useEffect,useMemo,useCallback}=React;
 
-// ── DATA FETCHING ─────────────────────────────────────────────────────────────
-const _c = {};
-async function fj(f) {
-  if (_c[f]) return _c[f];
-  const r = await fetch(f);
-  if (!r.ok) throw new Error(`Could not load ${f} (${r.status})`);
-  _c[f] = await r.json();
-  return _c[f];
-}
-function useData(...files) {
-  const [st, setSt] = useState({ data: null, error: null, loading: true });
-  const key = files.join(',');
-  useEffect(() => {
-    let dead = false;
-    setSt({ data: null, error: null, loading: true });
+// DATA
+const _c={};
+async function fj(f){if(_c[f])return _c[f];const r=await fetch(f);if(!r.ok)throw new Error(`Could not load ${f} (${r.status})`);_c[f]=await r.json();return _c[f];}
+function useData(...files){
+  const[st,setSt]=useState({data:null,error:null,loading:true});
+  const key=files.join(',');
+  useEffect(()=>{
+    let dead=false;
+    setSt({data:null,error:null,loading:true});
     Promise.all(files.map(fj))
-      .then(data => { if (!dead) setSt({ data, error: null, loading: false }); })
-      .catch(err  => { if (!dead) setSt({ data: null, error: err.message, loading: false }); });
-    return () => { dead = true; };
-  }, [key]);
+      .then(d=>{if(!dead)setSt({data:d,error:null,loading:false});})
+      .catch(e=>{if(!dead)setSt({data:null,error:e.message,loading:false});});
+    return()=>{dead=true;};
+  },[key]);
   return st;
 }
 
-// ── ROUTER ────────────────────────────────────────────────────────────────────
-function useRoute() {
-  const [hash, setHash] = useState(window.location.hash || '#/');
-  useEffect(() => {
-    const h = () => setHash(window.location.hash || '#/');
-    window.addEventListener('hashchange', h);
-    return () => window.removeEventListener('hashchange', h);
-  }, []);
-  const nav = useCallback(p => { window.location.hash = p; window.scrollTo(0, 0); }, []);
-  return { hash, nav };
+// ROUTER
+function useRoute(){
+  const[hash,setHash]=useState(window.location.hash||'#/');
+  useEffect(()=>{
+    const h=()=>setHash(window.location.hash||'#/');
+    window.addEventListener('hashchange',h);
+    return()=>window.removeEventListener('hashchange',h);
+  },[]);
+  const nav=useCallback(p=>{window.location.hash=p;window.scrollTo(0,0);},[]);
+  return{hash,nav};
 }
-function parseRoute(hash) {
-  const p = hash.replace(/^#/, '') || '/';
-  if (p === '/' || p === '')        return { page: 'home' };
-  if (p === '/ratings')             return { page: 'ratings' };
-  if (p === '/predictions')         return { page: 'predictions' };
-  if (p === '/accuracy')            return { page: 'accuracy' };
-  if (p === '/conferences')         return { page: 'conferences' };
-  if (p.startsWith('/team/'))       return { page: 'team',       id: p.slice(6) };
-  if (p.startsWith('/conference/')) return { page: 'conference', id: p.slice(13) };
-  return { page: 'home' };
+function parseRoute(hash){
+  const p=hash.replace(/^#/,'')||'/';
+  if(p==='/'||p==='')return{page:'home'};
+  if(p==='/ratings')return{page:'ratings'};
+  if(p==='/predictions')return{page:'predictions'};
+  if(p==='/accuracy')return{page:'accuracy'};
+  if(p==='/conferences')return{page:'conferences'};
+  if(p.startsWith('/team/'))return{page:'team',id:p.slice(6)};
+  if(p.startsWith('/conference/'))return{page:'conference',id:p.slice(13)};
+  return{page:'home'};
 }
 
-// ── HELPERS ───────────────────────────────────────────────────────────────────
-function hs(val, min, max, rev = false) {
-  if (val == null || !isFinite(min) || !isFinite(max) || min === max) return {};
-  let t = (val - min) / (max - min);
-  if (rev) t = 1 - t;
-  t = Math.max(0, Math.min(1, t));
-  const r = Math.round(28  + (220 - 28)  * (1 - t));
-  const g = Math.round(43  + (230 - 43)  * (1 - t));
-  const b = Math.round(75  + (255 - 75)  * (1 - t));
-  return { background: `rgb(${r},${g},${b})`, color: t > .5 ? '#fff' : '#111827' };
+// HELPERS
+function hs(val,min,max,rev=false){
+  if(val==null||!isFinite(min)||!isFinite(max)||min===max)return{};
+  let t=(val-min)/(max-min);if(rev)t=1-t;t=Math.max(0,Math.min(1,t));
+  const r=Math.round(28+(220-28)*(1-t)),g=Math.round(43+(230-43)*(1-t)),b=Math.round(75+(255-75)*(1-t));
+  return{background:`rgb(${r},${g},${b})`,color:t>.5?'#fff':'#111827'};
 }
-function wabHs(val, min, max) {
-  if (val == null || !isFinite(min) || !isFinite(max)) return {};
-  const amax = Math.max(Math.abs(min), Math.abs(max), .01);
-  const t = Math.max(-1, Math.min(1, val / amax));
-  if (t >= 0) return { background: `rgba(22,163,74,${.12 + t * .7})`, color: t > .5 ? '#fff' : '#14532d' };
-  return { background: `rgba(220,38,38,${.12 + (-t) * .7})`, color: (-t) > .5 ? '#fff' : '#7f1d1d' };
+function wabHs(val,min,max){
+  if(val==null||!isFinite(min)||!isFinite(max))return{};
+  const amax=Math.max(Math.abs(min),Math.abs(max),.01);
+  const t=Math.max(-1,Math.min(1,val/amax));
+  if(t>=0)return{background:`rgba(22,163,74,${.12+t*.7})`,color:t>.5?'#fff':'#14532d'};
+  return{background:`rgba(220,38,38,${.12+(-t)*.7})`,color:(-t)>.5?'#fff':'#7f1d1d'};
 }
-function errHs(val, max) {
-  const t = Math.min(val / (max || 1), 1);
-  return { background: `rgb(${Math.round(22+(220-22)*t)},${Math.round(163+(38-163)*t)},${Math.round(74+(38-74)*t)})`, color: '#fff' };
+function errHs(val,max){
+  const t=Math.min(val/(max||1),1);
+  return{background:`rgb(${Math.round(22+(220-22)*t)},${Math.round(163+(38-163)*t)},${Math.round(74+(38-74)*t)})`,color:'#fff'};
 }
-function useSort(c0, d0 = 'asc') {
-  const [sc, setSc] = useState(c0);
-  const [sd, setSd] = useState(d0);
-  const tog = c => { if (c === sc) setSd(d => d === 'asc' ? 'desc' : 'asc'); else { setSc(c); setSd('asc'); } };
-  const ico = c => c === sc ? (sd === 'asc' ? '\u25b2' : '\u25bc') : '\u21c5';
-  return { sc, sd, tog, ico };
+function useSort(c0,d0='asc'){
+  const[sc,setSc]=useState(c0);const[sd,setSd]=useState(d0);
+  const tog=c=>{if(c===sc)setSd(d=>d==='asc'?'desc':'asc');else{setSc(c);setSd('asc');}};
+  const ico=c=>c===sc?(sd==='asc'?'▲':'▼'):'⇅';
+  return{sc,sd,tog,ico};
 }
-function srt(arr, c, d) {
-  return [...arr].sort((a, b) => {
-    const av = a[c], bv = b[c];
-    if (av == null) return 1; if (bv == null) return -1;
-    const cmp = typeof av === 'string' ? av.localeCompare(bv) : av - bv;
-    return d === 'asc' ? cmp : -cmp;
+function srt(arr,c,d){
+  return[...arr].sort((a,b)=>{
+    const av=a[c],bv=b[c];
+    if(av==null)return 1;if(bv==null)return-1;
+    const cmp=typeof av==='string'?av.localeCompare(bv):av-bv;
+    return d==='asc'?cmp:-cmp;
   });
 }
-function fmtS(d) { try { return new Date(d + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' }); } catch { return d; } }
-function fmtL(d) { try { return new Date(d + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' }); } catch { return d; } }
-const Spin = () => html`<div class="spinner"></div>`;
-const Err  = ({ m }) => html`<div class="errmsg">Could not load data: ${m}<br/><small>Make sure data files are committed to your repo.</small></div>`;
+function fmtS(d){try{return new Date(d+'T12:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric'});}catch{return d;}}
+function fmtL(d){try{return new Date(d+'T12:00:00').toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});}catch{return d;}}
+function Spin(){return<div className="spinner"/>;}
+function Err({m}){return<div className="errmsg">Could not load data: {m}<br/><small>Make sure data files are committed to your repo.</small></div>;}
 
-// ── SORTABLE TH ───────────────────────────────────────────────────────────────
-function Th({ col, sc, ico, tog, children, style }) {
-  return html`<th class=${sc === col ? 'sorted' : ''} onClick=${() => tog(col)} style=${style}>
-    ${children} <span class="si">${ico(col)}</span>
-  </th>`;
+// NAV
+function Nav({nav,hash}){
+  const[open,setOpen]=useState(false);
+  const links=[['#/ratings','D3 Ratings'],['#/predictions','Predictions'],['#/accuracy','Pred. Accuracy'],['#/conferences','Conferences']];
+  const go=h=>{nav(h);setOpen(false);};
+  return(
+    <nav>
+      <span className="nav-brand" onClick={()=>go('#/')}>Schauer Stats</span>
+      <button className="nav-toggle" onClick={()=>setOpen(o=>!o)} aria-label="Menu">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+          {open
+            ?<path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd"/>
+            :<path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"/>
+          }
+        </svg>
+      </button>
+      <div className={`nav-links${open?' open':''}`}>
+        {links.map(([h,l])=>(
+          <span key={h} className={`nav-link${hash===h?' active':''}`} onClick={()=>go(h)}>{l}</span>
+        ))}
+      </div>
+    </nav>
+  );
 }
 
-// ── NAV ───────────────────────────────────────────────────────────────────────
-function Nav({ nav, hash }) {
-  const [open, setOpen] = useState(false);
-  const links = [['#/ratings','D3 Ratings'],['#/predictions','Predictions'],['#/accuracy','Pred. Accuracy'],['#/conferences','Conferences']];
-  const go = href => { nav(href); setOpen(false); };
-  return html`<nav>
-    <span class="nav-brand" onClick=${() => go('#/')}>Schauer Stats</span>
-    <button class="nav-toggle" onClick=${() => setOpen(o => !o)} aria-label="Menu">
-      ${open ? html`<svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>`
-               : html`<svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"/></svg>`}
-    </button>
-    <div class=${`nav-links${open ? ' open' : ''}`}>
-      ${links.map(([href, label]) => html`<span key=${href} class=${`nav-link${hash === href ? ' active' : ''}`} onClick=${() => go(href)}>${label}</span>`)}
-    </div>
-  </nav>`;
+// HOME
+function MChart({type}){
+  if(type==='bell'){
+    const pts=[];for(let x=-3.5;x<=3.5;x+=.1)pts.push([x,Math.exp(-.5*x*x)/Math.sqrt(2*Math.PI)]);
+    const d='M '+pts.map(([x,y])=>`${((x+3.5)/7)*230+10},${115-y*275}`).join(' L ');
+    return<svg viewBox="0 0 250 125" xmlns="http://www.w3.org/2000/svg"><rect width="250" height="125" fill="#eaecf4"/><path d={d} fill="none" stroke="#1C2B4B" strokeWidth="2.2"/></svg>;
+  }
+  if(type==='sigmoid'){
+    const sig=x=>1/(1+Math.exp(-x));
+    const lp=[];for(let x=-5;x<=5;x+=.2)lp.push(`${((x+5)/10)*230+10},${110-sig(x)*90-5}`);
+    const dots=[-4,-3,-2,-1.2,-.4,.4,1.2,2,3,4].map(x=>[((x+5)/10)*230+10,110-Math.min(1,Math.max(0,sig(x)+(Math.sin(x*5)*.03)))*90-5]);
+    return<svg viewBox="0 0 250 125" xmlns="http://www.w3.org/2000/svg"><rect width="250" height="125" fill="#eaecf4"/><path d={`M ${lp.join(' L ')}`} fill="none" stroke="#6b7280" strokeWidth="1.5" strokeDasharray="5,3"/>{dots.map(([cx,cy],i)=><circle key={i} cx={cx} cy={cy} r="3.5" fill="#1C2B4B" opacity=".8"/>)}</svg>;
+  }
+  if(type==='bars'){
+    const vs=[38,55,72,90,110,140,162,142,115,85,60];
+    return<svg viewBox="0 0 250 125" xmlns="http://www.w3.org/2000/svg"><rect width="250" height="125" fill="#eaecf4"/>{vs.map((h,i)=><rect key={i} x={10+i*21} y={120-h} width="16" height={h} rx="2" fill={`rgba(28,43,75,${.28+i/vs.length*.6})`}/>)}</svg>;
+  }
+  const pts2=[[30,88],[55,68],[80,102],[110,82],[140,58],[170,92],[200,72],[225,48],[55,38],[130,108]];
+  return<svg viewBox="0 0 250 125" xmlns="http://www.w3.org/2000/svg"><rect width="250" height="125" fill="#eaecf4"/><line x1="10" y1="10" x2="240" y2="115" stroke="#9ca3af" strokeWidth="1.5" strokeDasharray="4,3"/>{pts2.map(([x,y],i)=>{const e=Math.abs(y-(10+x*(105/230)));return<circle key={i} cx={x} cy={y} r="4" fill={e<25?'#16a34a':'#dc2626'} opacity=".8"/>})}</svg>;
 }
-
-// ── HOME ──────────────────────────────────────────────────────────────────────
-function BellSVG() {
-  const pts = []; for (let x = -3.5; x <= 3.5; x += .1) pts.push([x, Math.exp(-.5*x*x)/Math.sqrt(2*Math.PI)]);
-  const d = 'M ' + pts.map(([x,y]) => `${((x+3.5)/7)*230+10},${115-y*275}`).join(' L ');
-  return html`<svg viewBox="0 0 250 125" xmlns="http://www.w3.org/2000/svg"><rect width="250" height="125" fill="#eaecf4"/><path d=${d} fill="none" stroke="#1C2B4B" stroke-width="2.2"/></svg>`;
-}
-function SigmoidSVG() {
-  const sig = x => 1/(1+Math.exp(-x));
-  const lp = []; for (let x=-5;x<=5;x+=.2) lp.push(`${((x+5)/10)*230+10},${110-sig(x)*90-5}`);
-  const dots = [-4,-3,-2,-1.2,-.4,.4,1.2,2,3,4];
-  return html`<svg viewBox="0 0 250 125" xmlns="http://www.w3.org/2000/svg">
-    <rect width="250" height="125" fill="#eaecf4"/>
-    <path d=${'M ' + lp.join(' L ')} fill="none" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="5,3"/>
-    ${dots.map((x,i) => { const cy=110-Math.min(1,Math.max(0,sig(x)+(Math.sin(x*5)*.03)))*90-5; return html`<circle key=${i} cx=${((x+5)/10)*230+10} cy=${cy} r="3.5" fill="#1C2B4B" opacity=".8"/>`; })}
-  </svg>`;
-}
-function BarsSVG() {
-  const vs=[38,55,72,90,110,140,162,142,115,85,60];
-  return html`<svg viewBox="0 0 250 125" xmlns="http://www.w3.org/2000/svg">
-    <rect width="250" height="125" fill="#eaecf4"/>
-    ${vs.map((h,i) => html`<rect key=${i} x=${10+i*21} y=${120-h} width="16" height=${h} rx="2" fill=${`rgba(28,43,75,${.28+i/vs.length*.6})`}/>`)}
-  </svg>`;
-}
-function ScatterSVG() {
-  const pts=[[30,88],[55,68],[80,102],[110,82],[140,58],[170,92],[200,72],[225,48],[55,38],[130,108]];
-  return html`<svg viewBox="0 0 250 125" xmlns="http://www.w3.org/2000/svg">
-    <rect width="250" height="125" fill="#eaecf4"/>
-    <line x1="10" y1="10" x2="240" y2="115" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="4,3"/>
-    ${pts.map(([x,y],i) => { const e=Math.abs(y-(10+x*(105/230))); return html`<circle key=${i} cx=${x} cy=${y} r="4" fill=${e<25?'#16a34a':'#dc2626'} opacity=".8"/>`; })}
-  </svg>`;
-}
-function HomePage({ nav }) {
-  const cards = [
-    { title:'D3 Predictive Ratings',  desc:'Opponent-adjusted ratings covering offense, defense, and tempo for all 400+ D3 teams.', btn:'View Ratings',     href:'#/ratings',     svg:BellSVG },
-    { title:'Score Predictions',       desc:'Pre-game score predictions for upcoming games based on team ratings.',                   btn:'View Predictions', href:'#/predictions', svg:SigmoidSVG },
-    { title:'Prediction Accuracy',     desc:'Compare predicted vs. actual scores \u2014 see where the model excels and where it misses.', btn:'View Accuracy',   href:'#/accuracy',    svg:ScatterSVG },
-    { title:'D3 Conferences',          desc:'Conference standings ranked by average rating with links to each conference page.',       btn:'View Conferences', href:'#/conferences', svg:BarsSVG },
+function HomePage({nav}){
+  const cards=[
+    {title:'D3 Predictive Ratings',desc:'Opponent-adjusted ratings covering offense, defense, and tempo for all 400+ D3 teams.',btn:'View Ratings',href:'#/ratings',type:'bell'},
+    {title:'Score Predictions',desc:'Pre-game score predictions for upcoming games based on team ratings.',btn:'View Predictions',href:'#/predictions',type:'sigmoid'},
+    {title:'Prediction Accuracy',desc:'Compare predicted vs. actual scores — see where the model excels and where it misses.',btn:'View Accuracy',href:'#/accuracy',type:'scatter'},
+    {title:'D3 Conferences',desc:'Conference standings ranked by average rating with links to each conference page.',btn:'View Conferences',href:'#/conferences',type:'bars'},
   ];
-  return html`<div class="home-wrap">
-    <h1 class="home-title">D3 Men's Basketball</h1>
-    <p class="home-sub">Ratings, predictions, and resume scores for all Division III teams</p>
-    <div class="card-grid">
-      ${cards.map(c => html`<div key=${c.href} class="card" onClick=${() => nav(c.href)}>
-        <div class="card-img"><${c.svg}/></div>
-        <div class="card-body">
-          <h3>${c.title}</h3><p>${c.desc}</p>
-          <button class="card-btn" onClick=${e => { e.stopPropagation(); nav(c.href); }}>${c.btn}</button>
-        </div>
-      </div>`)}
-    </div>
-  </div>`;
-}
-
-// ── RATINGS + RESUME PAGE ─────────────────────────────────────────────────────
-function RatingsPage({ nav }) {
-  const { data, loading, error } = useData('teams.json');
-  const [search, setSearch] = useState('');
-  const [cf, setCf] = useState('All');
-  const { sc, sd, tog, ico } = useSort('rank', 'asc');
-  const teams = useMemo(() => data ? data[0] || [] : [], [data]);
-  const confs = useMemo(() => ['All', ...[...new Set(teams.map(t => t.conference))].sort()], [teams]);
-  const rows = useMemo(() => {
-    let r = teams;
-    if (search) { const q = search.toLowerCase(); r = r.filter(t => t.full_team.toLowerCase().includes(q)); }
-    if (cf !== 'All') r = r.filter(t => t.conference === cf);
-    return srt(r, sc, sd);
-  }, [teams, search, cf, sc, sd]);
-  const ra = rows.map(t => +t.rating).filter(isFinite);
-  const of = rows.map(t => +t.off).filter(isFinite);
-  const df = rows.map(t => +t.def).filter(isFinite);
-  const wb = rows.map(t => t.wab != null ? +t.wab : null).filter(v => v != null && isFinite(v));
-  const [rn,rx]=ra.length?[Math.min(...ra),Math.max(...ra)]:[0,1];
-  const [on,ox]=of.length?[Math.min(...of),Math.max(...of)]:[0,1];
-  const [dn,dx]=df.length?[Math.min(...df),Math.max(...df)]:[0,1];
-  const [wn,wx]=wb.length?[Math.min(...wb),Math.max(...wb)]:[-1,1];
-  if (loading) return html`<${Spin}/>`;
-  if (error)   return html`<${Err} m=${error}/>`;
-  return html`<div class="page">
-    <h1 class="page-title">2025\u201326 D3 Men's Basketball Ratings</h1>
-    <p class="page-sub">Predictive ratings and resume quality (wins above bubble) for all D3 teams \u00b7 Click a team name for their full profile</p>
-    <div class="table-wrap">
-      <div class="toolbar">
-        <input class="srch" placeholder="Search teams\u2026" value=${search} onInput=${e => setSearch(e.target.value)}/>
-        <select class="csel" value=${cf} onChange=${e => setCf(e.target.value)}>
-          ${confs.map(c => html`<option key=${c} value=${c}>${c}</option>`)}
-        </select>
-        <span class="rcount">${rows.length} teams</span>
-      </div>
-      <div class="shint">Scroll right to see all columns \u2192</div>
-      <div class="tscroll"><table>
-        <thead><tr>
-          <${Th} col="rank" sc=${sc} ico=${ico} tog=${tog}>Rank</${Th}>
-          <${Th} col="full_team" sc=${sc} ico=${ico} tog=${tog}>Team</${Th}>
-          <${Th} col="conference" sc=${sc} ico=${ico} tog=${tog}>Conf.</${Th}>
-          <${Th} col="record" sc=${sc} ico=${ico} tog=${tog}>Record</${Th}>
-          <${Th} col="rating" sc=${sc} ico=${ico} tog=${tog}>Rating</${Th}>
-          <${Th} col="off" sc=${sc} ico=${ico} tog=${tog}>Off</${Th}>
-          <${Th} col="def" sc=${sc} ico=${ico} tog=${tog}>Def</${Th}>
-          <${Th} col="pace" sc=${sc} ico=${ico} tog=${tog}>Tempo</${Th}>
-          <${Th} col="resume_rank" sc=${sc} ico=${ico} tog=${tog}>Res. Rank</${Th}>
-          <${Th} col="wab" sc=${sc} ico=${ico} tog=${tog}>WAB</${Th}>
-          <${Th} col="win_qual" sc=${sc} ico=${ico} tog=${tog}>Win Qual</${Th}>
-          <${Th} col="loss_qual" sc=${sc} ico=${ico} tog=${tog}>Loss Qual</${Th}>
-        </tr></thead>
-        <tbody>
-          ${rows.map(t => html`<tr key=${t.team_id}>
-            <td class="rc">${t.rank}</td>
-            <td><span class="tl" onClick=${() => nav(`#/team/${t.team_id}`)}>${t.full_team}</span></td>
-            <td><span class="cb" onClick=${() => nav(`#/conference/${t.conference_id}`)}>${t.conference}</span></td>
-            <td class="mono">${t.record}</td>
-            <td class="hc" style=${hs(+t.rating,rn,rx)}>${(+t.rating).toFixed(1)}</td>
-            <td class="hc" style=${hs(+t.off,on,ox)}>${(+t.off).toFixed(1)}</td>
-            <td class="hc" style=${hs(+t.def,dn,dx,true)}>${(+t.def).toFixed(1)}</td>
-            <td class="mono">${(+t.pace).toFixed(1)}</td>
-            <td class="rc">${t.resume_rank ? `#${t.resume_rank}` : '\u2013'}</td>
-            <td class="hc" style=${t.wab != null ? wabHs(+t.wab,wn,wx) : {}}>${t.wab != null ? (t.wab >= 0 ? '+' : '') + (+t.wab).toFixed(2) : '\u2013'}</td>
-            <td class="mono">${t.win_qual != null ? (+t.win_qual).toFixed(2) : '\u2013'}</td>
-            <td class="mono">${t.loss_qual != null ? (+t.loss_qual).toFixed(2) : '\u2013'}</td>
-          </tr>`)}
-        </tbody>
-      </table></div>
-    </div>
-  </div>`;
-}
-
-// ── PREDICTIONS PAGE ──────────────────────────────────────────────────────────
-function PredictionsPage({ nav }) {
-  const { data, loading, error } = useData('future_games.json');
-  const [search, setSearch] = useState('');
-  const games = useMemo(() => data ? data[0] || [] : [], [data]);
-  const filtered = useMemo(() => {
-    if (!search) return games;
-    const q = search.toLowerCase();
-    return games.filter(g => g.team_1.toLowerCase().includes(q) || g.team_2.toLowerCase().includes(q));
-  }, [games, search]);
-  const grouped = useMemo(() => {
-    const m = {};
-    for (const g of filtered) { const d = (g.date || '').split('T')[0] || '?'; if (!m[d]) m[d] = []; m[d].push(g); }
-    return Object.entries(m).sort((a,b) => a[0].localeCompare(b[0]));
-  }, [filtered]);
-  if (loading) return html`<${Spin}/>`;
-  if (error)   return html`<${Err} m=${error}/>`;
-  return html`<div class="page">
-    <h1 class="page-title">D3 Score Predictions</h1>
-    <p class="page-sub">Upcoming games with pre-game score predictions \u00b7 ${games.length} games scheduled</p>
-    <div class="table-wrap">
-      <div class="toolbar">
-        <input class="srch" placeholder="Search teams\u2026" value=${search} onInput=${e => setSearch(e.target.value)}/>
-        <span class="rcount">${filtered.length} games</span>
-      </div>
-      ${grouped.length === 0 && html`<div class="empty">No upcoming games found.</div>`}
-      ${grouped.map(([date, dg]) => html`<div key=${date}>
-        <div class="dhdr">${fmtL(date)}</div>
-        ${dg.map((g,i) => html`<div key=${i} class="prow">
-          <div class="pmatch">
-            <div class="pline">
-              <span class="pha">${g.hfa === 'vs' ? 'vs' : '@'}</span>
-              <span class="pteam" onClick=${() => nav(`#/team/${g.team_1_id}`)}>${g.team_1}</span>
-              <span class="ppts">${Math.round(g.team_1_pred_score)}</span>
-            </div>
-            <div class="pline">
-              <span class="pha"></span>
-              <span class="pteam" onClick=${() => nav(`#/team/${g.team_2_id}`)}>${g.team_2}</span>
-              <span class="ppts">${Math.round(g.team_2_pred_score)}</span>
+  return(
+    <div className="home-wrap">
+      <h1 className="home-title">D3 Men's Basketball</h1>
+      <p className="home-sub">Ratings, predictions, and resume scores for all Division III teams</p>
+      <div className="card-grid">
+        {cards.map(c=>(
+          <div key={c.href} className="card" onClick={()=>nav(c.href)}>
+            <div className="card-img"><MChart type={c.type}/></div>
+            <div className="card-body">
+              <h3>{c.title}</h3><p>{c.desc}</p>
+              <button className="card-btn" onClick={e=>{e.stopPropagation();nav(c.href);}}>{c.btn}</button>
             </div>
           </div>
-          <span style="font-size:.66rem;background:#dbeafe;border-radius:3px;padding:.1rem .38rem;color:#1d4ed8;white-space:nowrap;flex-shrink:0">UPCOMING</span>
-        </div>`)}
-      </div>`)}
-    </div>
-  </div>`;
-}
-
-// ── ACCURACY PAGE ─────────────────────────────────────────────────────────────
-function AccuracyPage({ nav }) {
-  const { data, loading, error } = useData('games_2026.json');
-  const [search, setSearch] = useState('');
-  const { sc, sd, tog, ico } = useSort('date', 'desc');
-  const allGames = useMemo(() => {
-    if (!data) return [];
-    return (data[0] || []).filter(g => g.pred_score_1 != null && g.pred_score_2 != null);
-  }, [data]);
-  const filtered = useMemo(() => {
-    let r = allGames;
-    if (search) { const q = search.toLowerCase(); r = r.filter(g => g.team_1.toLowerCase().includes(q) || g.team_2.toLowerCase().includes(q)); }
-    return srt(r, sc, sd);
-  }, [allGames, search, sc, sd]);
-  const stats = useMemo(() => {
-    const errs = allGames.map(g => g.error).filter(e => e != null && isFinite(e));
-    if (!errs.length) return { mae: '\u2014', n: 0, w5: 0, w10: 0, pct10: '\u2014', maxErr: 1 };
-    return { mae: (errs.reduce((s,e) => s+e, 0)/errs.length).toFixed(1), n: errs.length, w5: errs.filter(e=>e<=5).length, w10: errs.filter(e=>e<=10).length, pct10: (errs.filter(e=>e<=10).length/errs.length*100).toFixed(0)+'%', maxErr: Math.max(...errs) };
-  }, [allGames]);
-  if (loading) return html`<${Spin}/>`;
-  if (error)   return html`<${Err} m=${error}/>`;
-  return html`<div class="page">
-    <h1 class="page-title">2025\u201326 Prediction Accuracy</h1>
-    <p class="page-sub">Predicted vs. actual scores for all completed games \u00b7 Click a team name to see their profile</p>
-    <div class="acc-stats">
-      ${[{val:stats.mae,lbl:'Mean Abs. Error'},{val:stats.n,lbl:'Games Predicted'},{val:stats.w5,lbl:'Within 5 pts'},{val:stats.w10,lbl:'Within 10 pts'},{val:stats.pct10,lbl:'Within 10 pts %'}].map(s => html`<div key=${s.lbl} class="astat"><div class="val">${s.val}</div><div class="lbl">${s.lbl}</div></div>`)}
-    </div>
-    <div class="table-wrap">
-      <div class="toolbar">
-        <input class="srch" placeholder="Search teams\u2026" value=${search} onInput=${e => setSearch(e.target.value)}/>
-        <span class="rcount">${filtered.length} games</span>
+        ))}
       </div>
-      <div class="shint">Scroll right to see all columns \u2192</div>
-      <div class="tscroll"><table>
-        <thead><tr>
-          <${Th} col="date" sc=${sc} ico=${ico} tog=${tog}>Date</${Th}>
-          <${Th} col="team_1" sc=${sc} ico=${ico} tog=${tog}>Team 1</${Th}>
-          <th style="color:rgba(255,255,255,.7);font-size:.6rem;letter-spacing:.06em;text-transform:uppercase;padding:.58rem .5rem">HA</th>
-          <${Th} col="team_2" sc=${sc} ico=${ico} tog=${tog}>Team 2</${Th}>
-          <th style="color:rgba(255,255,255,.78);font-size:.63rem;letter-spacing:.07em;text-transform:uppercase;padding:.58rem .85rem">Predicted</th>
-          <th style="color:rgba(255,255,255,.78);font-size:.63rem;letter-spacing:.07em;text-transform:uppercase;padding:.58rem .85rem">Actual</th>
-          <${Th} col="error" sc=${sc} ico=${ico} tog=${tog}>Error</${Th}>
-        </tr></thead>
-        <tbody>
-          ${filtered.map((g,i) => {
-            const hfa   = g.team_1_hfa === 1 ? 'vs' : g.team_1_hfa === -1 ? '@' : 'neu';
-            const t1w   = g.team_1_score > g.team_2_score;
-            const t2w   = g.team_2_score > g.team_1_score;
-            const ps    = ((g.pred_score_1||0)-(g.pred_score_2||0)).toFixed(1);
-            const as_   = g.team_1_score - g.team_2_score;
-            return html`<tr key=${i}>
-              <td class="mono" style="white-space:nowrap">${fmtS(g.date)}</td>
-              <td><span class=${`tl${t1w?' win':''}`} onClick=${() => nav(`#/team/${g.team_1_id}`)}>${g.team_1}</span></td>
-              <td style="text-align:center;color:var(--muted);font-size:.7rem;padding:.52rem .5rem">${hfa}</td>
-              <td><span class=${`tl${t2w?' win':''}`} onClick=${() => nav(`#/team/${g.team_2_id}`)}>${g.team_2}</span></td>
-              <td class="mono" style="white-space:nowrap">${Math.round(g.pred_score_1)}\u2013${Math.round(g.pred_score_2)} <span style="color:var(--muted);font-size:.69rem">(${+ps>0?'+':''}${ps})</span></td>
-              <td class="mono" style="white-space:nowrap"><span class=${t1w?'win':t2w?'loss':''}>${g.team_1_score}</span>\u2013<span class=${t2w?'win':t1w?'loss':''}>${g.team_2_score}</span> <span style="color:var(--muted);font-size:.69rem">(${as_>0?'+':''}${as_})</span></td>
-              <td><span class="hc" style=${{...errHs(g.error,stats.maxErr),padding:'.19rem .44rem',borderRadius:3,fontSize:'.74rem'}}>${g.error != null ? (+g.error).toFixed(1) : '\u2014'}</span></td>
-            </tr>`;
-          })}
-        </tbody>
-      </table></div>
     </div>
-  </div>`;
+  );
 }
 
-// ── RATING HISTORY CHART ──────────────────────────────────────────────────────
-function RHChart({ history }) {
-  if (!history || history.length < 2) return html`<div class="empty">Not enough history to display.</div>`;
-  const W=560,H=185,P={t:12,r:14,b:28,l:40};
-  const iW=W-P.l-P.r, iH=H-P.t-P.b;
-  const seas = history.map(h => h.season);
-  const minS = Math.min(...seas), maxS = Math.max(...seas);
-  const minR = -47, maxR = 47;
-  const xS = s => P.l + ((s-minS)/(maxS-minS||1))*iW;
-  const yS = r => P.t + (1-(r-minR)/(maxR-minR))*iH;
-  const pts = history.map(h => [xS(h.season), yS(h.rating)]);
-  const zeroY = yS(0);
-  const yTicks = [-40,-30,-20,-10,0,10,20,30,40];
-  return html`<svg viewBox="0 0 ${W} ${H}" style="width:100%;display:block" xmlns="http://www.w3.org/2000/svg">
-    ${zeroY>=P.t && zeroY<=H-P.b && html`<line x1=${P.l} y1=${zeroY} x2=${W-P.r} y2=${zeroY} stroke="#DDE1EA" stroke-width="1" stroke-dasharray="4,3"/>`}
-    ${yTicks.map(v => html`<g key=${v}>
-      <line x1=${P.l-3} y1=${yS(v)} x2=${P.l} y2=${yS(v)} stroke="#DDE1EA" stroke-width="1"/>
-      <text x=${P.l-5} y=${yS(v)+3.5} text-anchor="end" font-size="9" fill="#9CA3AF">${v}</text>
-    </g>`)}
-    ${history.map(h => {
-      const sy1 = String(h.season-1).slice(2);
-      const sy2 = String(h.season).slice(2);
-      return html`<g key=${h.season}>
-        <line x1=${xS(h.season)} y1=${H-P.b} x2=${xS(h.season)} y2=${H-P.b+3} stroke="#DDE1EA" stroke-width="1"/>
-        <text x=${xS(h.season)} y=${H-P.b+13} text-anchor="middle" font-size="7.5" fill="#9CA3AF">${sy1}-${sy2}</text>
-      </g>`;
-    })}
-    <line x1=${P.l} y1=${P.t} x2=${P.l} y2=${H-P.b} stroke="#DDE1EA" stroke-width="1"/>
-    <line x1=${P.l} y1=${H-P.b} x2=${W-P.r} y2=${H-P.b} stroke="#DDE1EA" stroke-width="1"/>
-    <path d=${'M ' + pts.map(p => p.join(',')).join(' L ')} fill="none" stroke="#1C2B4B" stroke-width="2" stroke-linejoin="round"/>
-    ${pts.map(([x,y],i) => html`<g key=${i}>
-      <circle cx=${x} cy=${y} r="4" fill="#3B5BDB" stroke="#fff" stroke-width="1.5"/>
-      <title>${history[i].season}: ${history[i].rating} (Off ${history[i].off} / Def ${history[i].def})</title>
-    </g>`)}
-  </svg>`;
+// SORTABLE TH
+function Th({col,sc,ico,tog,children,style}){
+  return<th className={sc===col?'sorted':''} onClick={()=>tog(col)} style={style}>{children} <span className="si">{ico(col)}</span></th>;
 }
 
-// ── TEAM PAGE ─────────────────────────────────────────────────────────────────
-function TeamPage({ teamId, nav }) {
-  const { data, loading, error } = useData('teams.json','games_2026.json','future_games.json','rating_history.json');
-  const [gameSort, setGameSort] = useState('date');
-  if (loading) return html`<${Spin}/>`;
-  if (error)   return html`<${Err} m=${error}/>`;
-  const [td, g26, fg, hd] = data;
-  const team = td.find(t => t.team_id === teamId);
-  if (!team) return html`<div class="page"><button class="back-btn" onClick=${() => nav('#/ratings')}>\u2190 All Teams</button><div class="errmsg">Team not found.</div></div>`;
-  const hist     = hd.filter(h => h.team_id === teamId).sort((a,b) => a.season-b.season);
-  const pastBase = g26.filter(g => g.team_1_id === teamId || g.team_2_id === teamId);
-  const past     = pastBase.slice().sort((a,b) => b.date.localeCompare(a.date));
-  const sortedPast = gameSort === 'wab'
-    ? pastBase.slice().sort((a,b) => {
-        const wa = teamId===a.team_1_id ? a.t1_wab : a.t2_wab;
-        const wb = teamId===b.team_1_id ? b.t1_wab : b.t2_wab;
-        if (wa==null&&wb==null) return 0; if (wa==null) return 1; if (wb==null) return -1;
-        return wb-wa;
-      })
-    : past;
-  const upcoming = fg.filter(g => g.team_1_id === teamId || g.team_2_id === teamId).sort((a,b) => a.date.localeCompare(b.date));
+// RATINGS + RESUME COMBINED
+function RatingsPage({nav}){
+  const{data,loading,error}=useData('teams.json');
+  const[search,setSearch]=useState('');
+  const[cf,setCf]=useState('All');
+  const{sc,sd,tog,ico}=useSort('rank','asc');
 
-  const GRow = ({ g, fut }) => {
-    const it1   = g.team_1_id === teamId;
-    const opp   = it1 ? g.team_2    : g.team_1;
-    const oppId = it1 ? g.team_2_id : g.team_1_id;
-    const ms = it1 ? g.team_1_score : g.team_2_score;
-    const os = it1 ? g.team_2_score : g.team_1_score;
-    const mp = it1 ? g.team_1_pred_score : g.team_2_pred_score;
-    const op = it1 ? g.team_2_pred_score : g.team_1_pred_score;
+  // ALL hooks above — safe to early-return below
+  const teams=useMemo(()=>data?data[0]??[],[data]);
+  const confs=useMemo(()=>['All',...[...new Set(teams.map(t=>t.conference))].sort()],[teams]);
+  const rows=useMemo(()=>{
+    let r=teams;
+    if(search){const q=search.toLowerCase();r=r.filter(t=>t.full_team.toLowerCase().includes(q));}
+    if(cf!=='All')r=r.filter(t=>t.conference===cf);
+    return srt(r,sc,sd);
+  },[teams,search,cf,sc,sd]);
+
+  if(loading)return<Spin/>;
+  if(error)return<Err m={error}/>;
+
+  const ra=rows.map(t=>+t.rating).filter(isFinite);
+  const of=rows.map(t=>+t.off).filter(isFinite);
+  const df=rows.map(t=>+t.def).filter(isFinite);
+  const wb=rows.map(t=>t.wab!=null?+t.wab:null).filter(v=>v!=null&&isFinite(v));
+  const[rn,rx]=ra.length?[Math.min(...ra),Math.max(...ra)]:[0,1];
+  const[on,ox]=of.length?[Math.min(...of),Math.max(...of)]:[0,1];
+  const[dn,dx]=df.length?[Math.min(...df),Math.max(...df)]:[0,1];
+  const[wn,wx]=wb.length?[Math.min(...wb),Math.max(...wb)]:[-1,1];
+  const T=({col,ch})=><Th col={col} sc={sc} ico={ico} tog={tog}>{ch}</Th>;
+
+  return(
+    <div className="page">
+      <h1 className="page-title">2025–26 D3 Men's Basketball Ratings</h1>
+      <p className="page-sub">Predictive ratings and resume quality (wins above bubble) for all D3 teams · Click a team name for their full profile</p>
+      <div className="table-wrap">
+        <div className="toolbar">
+          <input className="srch" placeholder="Search teams…" value={search} onChange={e=>setSearch(e.target.value)}/>
+          <select className="csel" value={cf} onChange={e=>setCf(e.target.value)}>{confs.map(c=><option key={c}>{c}</option>)}</select>
+          <span className="rcount">{rows.length} teams</span>
+        </div>
+        <div className="shint">Scroll right to see all columns →</div>
+        <div className="tscroll">
+          <table>
+            <thead><tr>
+              <Th col="rank" sc={sc} ico={ico} tog={tog}>Rank</Th>
+              <Th col="full_team" sc={sc} ico={ico} tog={tog}>Team</Th>
+              <Th col="conference" sc={sc} ico={ico} tog={tog}>Conf.</Th>
+              <Th col="record" sc={sc} ico={ico} tog={tog}>Record</Th>
+              <Th col="rating" sc={sc} ico={ico} tog={tog}>Rating</Th>
+              <Th col="off" sc={sc} ico={ico} tog={tog}>Off</Th>
+              <Th col="def" sc={sc} ico={ico} tog={tog}>Def</Th>
+              <Th col="pace" sc={sc} ico={ico} tog={tog}>Tempo</Th>
+              <Th col="resume_rank" sc={sc} ico={ico} tog={tog}>Res. Rank</Th>
+              <Th col="wab" sc={sc} ico={ico} tog={tog}>WAB</Th>
+              <Th col="win_qual" sc={sc} ico={ico} tog={tog}>Win Qual</Th>
+              <Th col="loss_qual" sc={sc} ico={ico} tog={tog}>Loss Qual</Th>
+            </tr></thead>
+            <tbody>
+              {rows.map(t=>(
+                <tr key={t.team_id}>
+                  <td className="rc">{t.rank}</td>
+                  <td><span className="tl" onClick={()=>nav(`#/team/${t.team_id}`)}>{t.full_team}</span></td>
+                  <td><span className="cb" onClick={()=>nav(`#/conference/${t.conference_id}`)}>{t.conference}</span></td>
+                  <td className="mono">{t.record}</td>
+                  <td className="hc" style={hs(+t.rating,rn,rx)}>{(+t.rating).toFixed(1)}</td>
+                  <td className="hc" style={hs(+t.off,on,ox)}>{(+t.off).toFixed(1)}</td>
+                  <td className="hc" style={hs(+t.def,dn,dx,true)}>{(+t.def).toFixed(1)}</td>
+                  <td className="mono">{(+t.pace).toFixed(1)}</td>
+                  <td className="rc">{t.resume_rank?`#${t.resume_rank}`:'–'}</td>
+                  <td className="hc" style={t.wab!=null?wabHs(+t.wab,wn,wx):{}}>{t.wab!=null?(t.wab>=0?'+':'')+(+t.wab).toFixed(2):'–'}</td>
+                  <td className="mono">{t.win_qual!=null?(+t.win_qual).toFixed(2):'–'}</td>
+                  <td className="mono">{t.loss_qual!=null?(+t.loss_qual).toFixed(2):'–'}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// PREDICTIONS
+function PredictionsPage({nav}){
+  const{data,loading,error}=useData('future_games.json');
+  const[search,setSearch]=useState('');
+  const games=useMemo(()=>data?data[0]??[],[data]);
+  const filtered=useMemo(()=>{
+    if(!search)return games;
+    const q=search.toLowerCase();
+    return games.filter(g=>g.team_1.toLowerCase().includes(q)||g.team_2.toLowerCase().includes(q));
+  },[games,search]);
+  const grouped=useMemo(()=>{
+    const m={};
+    for(const g of filtered){const d=(g.date||'').split('T')[0]||'?';if(!m[d])m[d]=[];m[d].push(g);}
+    return Object.entries(m).sort((a,b)=>a[0].localeCompare(b[0]));
+  },[filtered]);
+  if(loading)return<Spin/>;
+  if(error)return<Err m={error}/>;
+  return(
+    <div className="page">
+      <h1 className="page-title">D3 Score Predictions</h1>
+      <p className="page-sub">Upcoming games with pre-game score predictions · {games.length} games scheduled</p>
+      <div className="table-wrap">
+        <div className="toolbar">
+          <input className="srch" placeholder="Search teams…" value={search} onChange={e=>setSearch(e.target.value)}/>
+          <span className="rcount">{filtered.length} games</span>
+        </div>
+        {grouped.length===0&&<div className="empty">No upcoming games found.</div>}
+        {grouped.map(([date,dg])=>(
+          <div key={date}>
+            <div className="dhdr">{fmtL(date)}</div>
+            {dg.map((g,i)=>(
+              <div key={i} className="prow">
+                <div className="pmatch">
+                  <div className="pline">
+                    <span className="pha">{g.hfa==='vs'?'vs':'@'}</span>
+                    <span className="pteam" onClick={()=>nav(`#/team/${g.team_1_id}`)}>{g.team_1}</span>
+                    <span className="ppts">{Math.round(g.team_1_pred_score)}</span>
+                  </div>
+                  <div className="pline">
+                    <span className="pha"></span>
+                    <span className="pteam" onClick={()=>nav(`#/team/${g.team_2_id}`)}>{g.team_2}</span>
+                    <span className="ppts">{Math.round(g.team_2_pred_score)}</span>
+                  </div>
+                </div>
+                <span style={{fontSize:'.66rem',background:'#dbeafe',borderRadius:3,padding:'.1rem .38rem',color:'#1d4ed8',whiteSpace:'nowrap',flexShrink:0}}>UPCOMING</span>
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ACCURACY — all hooks BEFORE early returns
+function AccuracyPage({nav}){
+  const{data,loading,error}=useData('games_2026.json');
+  const[search,setSearch]=useState('');
+  const{sc,sd,tog,ico}=useSort('date','desc');
+
+  const allGames=useMemo(()=>{
+    if(!data)return[];
+    return(data[0]??[]).filter(g=>g.pred_score_1!=null&&g.pred_score_2!=null);
+  },[data]);
+
+  const filtered=useMemo(()=>{
+    let r=allGames;
+    if(search){const q=search.toLowerCase();r=r.filter(g=>g.team_1.toLowerCase().includes(q)||g.team_2.toLowerCase().includes(q));}
+    return srt(r,sc,sd);
+  },[allGames,search,sc,sd]);
+
+  const stats=useMemo(()=>{
+    const errs=allGames.map(g=>g.error).filter(e=>e!=null&&isFinite(e));
+    if(!errs.length)return{mae:'—',n:0,w5:0,w10:0,pct10:'—',maxErr:1};
+    return{
+      mae:(errs.reduce((s,e)=>s+e,0)/errs.length).toFixed(1),
+      n:errs.length,
+      w5:errs.filter(e=>e<=5).length,
+      w10:errs.filter(e=>e<=10).length,
+      pct10:(errs.filter(e=>e<=10).length/errs.length*100).toFixed(0)+'%',
+      maxErr:Math.max(...errs),
+    };
+  },[allGames]);
+
+  if(loading)return<Spin/>;
+  if(error)return<Err m={error}/>;
+
+  return(
+    <div className="page">
+      <h1 className="page-title">2025–26 Prediction Accuracy</h1>
+      <p className="page-sub">Predicted vs. actual scores for all completed games · Click a team name to see their profile</p>
+      <div className="acc-stats">
+        {[{val:stats.mae,lbl:'Mean Abs. Error'},{val:stats.n,lbl:'Games Predicted'},{val:stats.w5,lbl:'Within 5 pts'},{val:stats.w10,lbl:'Within 10 pts'},{val:stats.pct10,lbl:'Within 10 pts %'}].map(s=>(
+          <div key={s.lbl} className="astat"><div className="val">{s.val}</div><div className="lbl">{s.lbl}</div></div>
+        ))}
+      </div>
+      <div className="table-wrap">
+        <div className="toolbar">
+          <input className="srch" placeholder="Search teams…" value={search} onChange={e=>setSearch(e.target.value)}/>
+          <span className="rcount">{filtered.length} games</span>
+        </div>
+        <div className="shint">Scroll right to see all columns →</div>
+        <div className="tscroll">
+          <table>
+            <thead><tr>
+              <Th col="date" sc={sc} ico={ico} tog={tog}>Date</Th>
+              <Th col="team_1" sc={sc} ico={ico} tog={tog}>Team 1</Th>
+              <th style={{color:'rgba(255,255,255,.7)',fontSize:'.6rem',letterSpacing:'.06em',textTransform:'uppercase',padding:'.58rem .5rem'}}>HA</th>
+              <Th col="team_2" sc={sc} ico={ico} tog={tog}>Team 2</Th>
+              <th style={{color:'rgba(255,255,255,.78)',fontSize:'.63rem',letterSpacing:'.07em',textTransform:'uppercase',padding:'.58rem .85rem'}}>Predicted</th>
+              <th style={{color:'rgba(255,255,255,.78)',fontSize:'.63rem',letterSpacing:'.07em',textTransform:'uppercase',padding:'.58rem .85rem'}}>Actual</th>
+              <Th col="error" sc={sc} ico={ico} tog={tog}>Error</Th>
+            </tr></thead>
+            <tbody>
+              {filtered.map((g,i)=>{
+                const hfa=g.team_1_hfa===1?'vs':g.team_1_hfa===-1?'@':'neu';
+                const t1w=g.team_1_score>g.team_2_score,t2w=g.team_2_score>g.team_1_score;
+                const ps=((g.pred_score_1||0)-(g.pred_score_2||0)).toFixed(1);
+                const as_=g.team_1_score-g.team_2_score;
+                return(
+                  <tr key={i}>
+                    <td className="mono" style={{whiteSpace:'nowrap'}}>{fmtS(g.date)}</td>
+                    <td><span className={`tl${t1w?' win':''}`} onClick={()=>nav(`#/team/${g.team_1_id}`)}>{g.team_1}</span></td>
+                    <td style={{textAlign:'center',color:'var(--muted)',fontSize:'.7rem',padding:'.52rem .5rem'}}>{hfa}</td>
+                    <td><span className={`tl${t2w?' win':''}`} onClick={()=>nav(`#/team/${g.team_2_id}`)}>{g.team_2}</span></td>
+                    <td className="mono" style={{whiteSpace:'nowrap'}}>{Math.round(g.pred_score_1)}–{Math.round(g.pred_score_2)} <span style={{color:'var(--muted)',fontSize:'.69rem'}}>({+ps>0?'+':''}{ps})</span></td>
+                    <td className="mono" style={{whiteSpace:'nowrap'}}><span className={t1w?'win':t2w?'loss':''}>{g.team_1_score}</span>–<span className={t2w?'win':t1w?'loss':''}>{g.team_2_score}</span> <span style={{color:'var(--muted)',fontSize:'.69rem'}}>({as_>0?'+':''}{as_})</span></td>
+                    <td><span className="hc" style={{...errHs(g.error,stats.maxErr),padding:'.19rem .44rem',borderRadius:3,fontSize:'.74rem'}}>{g.error!=null?(+g.error).toFixed(1):'—'}</span></td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// RATING HISTORY CHART
+function RHChart({history}){
+  if(!history||history.length<2)return<div className="empty">Not enough history to display.</div>;
+  const W=560,H=185,P={t:12,r:14,b:25,l:40};
+  const iW=W-P.l-P.r,iH=H-P.t-P.b;
+  const rats=history.map(h=>h.rating),seas=history.map(h=>h.season);
+  const minS=Math.min(...seas),maxS=Math.max(...seas);
+  const minR=Math.min(...rats,0)-3,maxR=Math.max(...rats,0)+3;
+  const xS=s=>P.l+((s-minS)/(maxS-minS||1))*iW;
+  const yS=r=>P.t+(1-(r-minR)/(maxR-minR))*iH;
+  const pts=history.map(h=>[xS(h.season),yS(h.rating)]);
+  const z=yS(0);
+  const ts=Math.max(5,Math.ceil((maxR-minR)/5/5)*5);
+  const yt=[];for(let v=Math.ceil(minR/ts)*ts;v<=maxR;v+=ts)yt.push(v);
+  return(
+    <svg viewBox={`0 0 ${W} ${H}`} style={{width:'100%',display:'block'}} xmlns="http://www.w3.org/2000/svg">
+      {z>=P.t&&z<=H-P.b&&<line x1={P.l} y1={z} x2={W-P.r} y2={z} stroke="#DDE1EA" strokeWidth="1" strokeDasharray="4,3"/>}
+      {yt.map(v=>(
+        <g key={v}>
+          <line x1={P.l-3} y1={yS(v)} x2={P.l} y2={yS(v)} stroke="#DDE1EA" strokeWidth="1"/>
+          <text x={P.l-5} y={yS(v)+3.5} textAnchor="end" fontSize="9" fill="#9CA3AF">{v}</text>
+        </g>
+      ))}
+      {history.map(h=>(
+        <g key={h.season}>
+          <line x1={xS(h.season)} y1={H-P.b} x2={xS(h.season)} y2={H-P.b+3} stroke="#DDE1EA" strokeWidth="1"/>
+          <text x={xS(h.season)} y={H-P.b+12} textAnchor="middle" fontSize="8.5" fill="#9CA3AF">'{String(h.season).slice(2)}</text>
+        </g>
+      ))}
+      <line x1={P.l} y1={P.t} x2={P.l} y2={H-P.b} stroke="#DDE1EA" strokeWidth="1"/>
+      <line x1={P.l} y1={H-P.b} x2={W-P.r} y2={H-P.b} stroke="#DDE1EA" strokeWidth="1"/>
+      <path d={`M ${pts.map(p=>p.join(',')).join(' L ')}`} fill="none" stroke="#1C2B4B" strokeWidth="2" strokeLinejoin="round"/>
+      {pts.map(([x,y],i)=>(
+        <g key={i}>
+          <circle cx={x} cy={y} r="3.8" fill="#3B5BDB" stroke="#fff" strokeWidth="1.5"/>
+          <title>{history[i].season}: {history[i].rating} (Off {history[i].off} / Def {history[i].def})</title>
+        </g>
+      ))}
+    </svg>
+  );
+}
+
+// TEAM PAGE
+function TeamPage({teamId,nav}){
+  const{data,loading,error}=useData('teams.json','games_2026.json','future_games.json','rating_history.json');
+  if(loading)return<Spin/>;
+  if(error)return<Err m={error}/>;
+  const[td,g26,fg,hd]=data;
+  const team=td.find(t=>t.team_id===teamId);
+  if(!team)return<div className="page"><button className="back-btn" onClick={()=>nav('#/ratings')}>← All Teams</button><div className="errmsg">Team not found.</div></div>;
+  const hist=hd.filter(h=>h.team_id===teamId).sort((a,b)=>a.season-b.season);
+  const past=g26.filter(g=>g.team_1_id===teamId||g.team_2_id===teamId).sort((a,b)=>b.date.localeCompare(a.date));
+  const upcoming=fg.filter(g=>g.team_1_id===teamId||g.team_2_id===teamId).sort((a,b)=>a.date.localeCompare(b.date));
+
+  function GRow({g,fut}){
+    const it1=g.team_1_id===teamId;
+    const opp=it1?g.team_2:g.team_1,oppId=it1?g.team_2_id:g.team_1_id;
+    const ms=it1?g.team_1_score:g.team_2_score,os=it1?g.team_2_score:g.team_1_score;
+    const mp=it1?g.team_1_pred_score:g.team_2_pred_score,op=it1?g.team_2_pred_score:g.team_1_pred_score;
     let ha;
-    if (fut) { ha = g.hfa==='vs'?(it1?'vs':'@'):g.hfa==='@'?(it1?'@':'vs'):'n'; }
-    else { const n=g.team_1_hfa; ha=n===0?'n':(it1?(n===1?'vs':'@'):(n===1?'@':'vs')); }
-    const won  = !fut && ms > os;
-    const lost = !fut && ms < os;
-    const wab  = !fut ? (it1 ? g.t1_wab : g.t2_wab) : null;
-    const haColor = ha==='vs'?'#2563eb':ha==='@'?'#7c3aed':'var(--muted)';
-    return html`<div class="grow">
-      <span class="gdate">${fmtS(g.date)}</span>
-      <span class="gha" style=${{color:haColor}}>${ha}</span>
-      <span class="gopp" onClick=${() => nav(`#/team/${oppId}`)}>${opp}</span>
-      ${fut
-        ? html`<span class="gsc muted-color">${Math.round(mp)}\u2013${Math.round(op)}</span>`
-        : html`<span class=${`gsc ${won?'win':lost?'loss':''}`}>${ms}\u2013${os}</span>`}
-      ${!fut && html`<span class="gwab" style=${{color:wab==null?'var(--muted)':wab>=0?'var(--win)':'var(--loss)'}}>
-        ${wab!=null ? (wab>=0?'+':'') + wab.toFixed(2) : '\u2013'}
-      </span>`}
-    </div>`;
-  };
-
-  const statItems = [
-    { val: (+team.off).toFixed(1),  lbl: 'Off Rating' },
-    { val: (+team.def).toFixed(1),  lbl: 'Def Rating' },
-    { val: (+team.pace).toFixed(1), lbl: 'Tempo' },
-    team.wab      != null && { val: (team.wab>=0?'+':'')+(+team.wab).toFixed(2),   lbl: 'Wins Above Bubble' },
-    team.win_qual != null && { val: (+team.win_qual).toFixed(2),                    lbl: 'Win Quality' },
-    team.loss_qual!= null && { val: (+team.loss_qual).toFixed(2),                   lbl: 'Loss Quality' },
-  ].filter(Boolean);
-
-  return html`<div class="page">
-    <button class="back-btn" onClick=${() => nav('#/ratings')}>\u2190 All Teams</button>
-    <div class="team-banner">
-      <h1>${team.full_team}</h1>
-      <span class="conf-link" onClick=${() => nav(`#/conference/${team.conference_id}`)}>${team.conference} \u2192</span>
-      <div class="banner-stats">
-        <div class="bstat"><div class="val">#${team.rank}</div><div class="lbl">Rating Rank</div></div>
-        <div class="bstat"><div class="val">${(+team.rating).toFixed(1)}</div><div class="lbl">Rating</div></div>
-        <div class="bstat"><div class="val">${team.record}</div><div class="lbl">Record</div></div>
-        ${team.resume_rank != null && html`<div class="bstat"><div class="val">#${team.resume_rank}</div><div class="lbl">Resume Rank</div></div>`}
+    if(fut){ha=g.hfa==='vs'?(it1?'vs':'@'):g.hfa==='@'?(it1?'@':'vs'):'n';}
+    else{const n=g.team_1_hfa;ha=n===0?'n':(it1?(n===1?'vs':'@'):(n===1?'@':'vs'));}
+    const won=!fut&&ms>os,lost=!fut&&ms<os;
+    const wab=!fut?(it1?g.t1_wab:g.t2_wab):null;
+    return(
+      <div className="grow">
+        <span className="gdate">{fmtS(g.date)}</span>
+        <span className="gha" style={{color:ha==='vs'?'#2563eb':ha==='@'?'#7c3aed':'var(--muted)'}}>{ha}</span>
+        <span className="gopp" onClick={()=>nav(`#/team/${oppId}`)}>{opp}</span>
+        {fut
+          ?<span className="gsc muted">{Math.round(mp)}–{Math.round(op)}</span>
+          :<span className={`gsc ${won?'win':lost?'loss':''}`}>{ms}–{os}</span>}
+        {!fut&&<span className="gwab" style={{color:wab==null?'var(--muted)':wab>=0?'var(--win)':'var(--loss)'}}>{wab!=null?(wab>=0?'+':'')+wab.toFixed(2):'–'}</span>}
       </div>
-    </div>
-    <div class="stat-row">
-      ${statItems.map(s => html`<div key=${s.lbl} class="sbox"><div class="val">${s.val}</div><div class="lbl">${s.lbl}</div></div>`)}
-    </div>
-    <div class="cbox">
-      <div class="box-hdr">Rating History \u2014 End of Season, 2012\u20132026</div>
-      <div class="box-body"><${RHChart} history=${hist}/></div>
-    </div>
-    <div class="two-col">
-      <div class="scard">
-        <div class="box-hdr">Upcoming Games (${upcoming.length})</div>
-        ${upcoming.length===0 ? html`<div class="empty">No upcoming games scheduled.</div>` : upcoming.map((g,i)=>html`<${GRow} key=${i} g=${g} fut=${true}/>`)}
-      </div>
-      <div class="scard">
-        <div class="box-hdr">
-          <span>2025\u201326 Results (${past.length})</span>
-          <div style="display:flex;align-items:center;gap:.4rem">
-            <span style="color:var(--muted);font-size:.7rem;font-weight:400">Sort:</span>
-            <button class=${`sbtn${gameSort==='date'?' active':''}`} onClick=${()=>setGameSort('date')}>Date</button>
-            <button class=${`sbtn${gameSort==='wab'?' active':''}`} onClick=${()=>setGameSort('wab')}>WAB</button>
-          </div>
+    );
+  }
+
+  return(
+    <div className="page">
+      <button className="back-btn" onClick={()=>nav('#/ratings')}>← All Teams</button>
+      <div className="team-banner">
+        <h1>{team.full_team}</h1>
+        <span className="cl" onClick={()=>nav(`#/conference/${team.conference_id}`)}>{team.conference} →</span>
+        <div className="banner-stats">
+          {[
+            {val:`#${team.rank}`,lbl:'Rating Rank'},
+            {val:(+team.rating).toFixed(1),lbl:'Rating'},
+            {val:team.record,lbl:'Record'},
+            team.resume_rank&&{val:`#${team.resume_rank}`,lbl:'Resume Rank'},
+          ].filter(Boolean).map(s=>(
+            <div key={s.lbl} className="bstat"><div className="val">{s.val}</div><div className="lbl">{s.lbl}</div></div>
+          ))}
         </div>
-        ${sortedPast.length===0 ? html`<div class="empty">No completed games found.</div>` : sortedPast.map((g,i)=>html`<${GRow} key=${i} g=${g} fut=${false}/>`)}
+      </div>
+      <div className="stat-row">
+        {[
+          {val:(+team.off).toFixed(1),lbl:'Off Rating'},
+          {val:(+team.def).toFixed(1),lbl:'Def Rating'},
+          {val:(+team.pace).toFixed(1),lbl:'Tempo'},
+          team.wab!=null&&{val:(team.wab>=0?'+':'')+(+team.wab).toFixed(2),lbl:'Wins Above Bubble'},
+          team.win_qual!=null&&{val:(+team.win_qual).toFixed(2),lbl:'Win Quality'},
+          team.loss_qual!=null&&{val:(+team.loss_qual).toFixed(2),lbl:'Loss Quality'},
+        ].filter(Boolean).map(s=>(
+          <div key={s.lbl} className="sbox"><div className="val">{s.val}</div><div className="lbl">{s.lbl}</div></div>
+        ))}
+      </div>
+      <div className="cbox">
+        <div className="box-hdr">Rating History — End of Season, 2012–2026</div>
+        <div className="box-body"><RHChart history={hist}/></div>
+      </div>
+      <div className="two-col">
+        <div className="scard">
+          <div className="box-hdr">Upcoming Games ({upcoming.length})</div>
+          {upcoming.length===0?<div className="empty">No upcoming games scheduled.</div>:upcoming.map((g,i)=><GRow key={i} g={g} fut={true}/>)}
+        </div>
+        <div className="scard">
+          <div className="box-hdr" style={{display:'flex',justifyContent:'space-between'}}>
+            <span>2025–26 Results ({past.length})</span>
+            <span style={{color:'var(--muted)',fontWeight:400}}>Score · WAB</span>
+          </div>
+          {past.length===0?<div className="empty">No completed games found.</div>:past.map((g,i)=><GRow key={i} g={g} fut={false}/>)}
+        </div>
       </div>
     </div>
-  </div>`;
+  );
 }
 
-// ── CONFERENCES INDEX ─────────────────────────────────────────────────────────
-function ConferencesPage({ nav }) {
-  const { data, loading, error } = useData('conferences.json');
-  const { sc, sd, tog, ico } = useSort('avg_rating', 'desc');
-  const rows = useMemo(() => data ? srt(data[0] || [], sc, sd) : [], [data, sc, sd]);
-  if (loading) return html`<${Spin}/>`;
-  if (error)   return html`<${Err} m=${error}/>`;
-  return html`<div class="page">
-    <h1 class="page-title">D3 Conferences</h1>
-    <p class="page-sub">${rows.length} conferences \u00b7 Click a conference name to see team standings</p>
-    <div class="table-wrap">
-      <div class="tscroll"><table>
-        <thead><tr>
-          <${Th} col="conference" sc=${sc} ico=${ico} tog=${tog}>Conference</${Th}>
-          <${Th} col="team_count" sc=${sc} ico=${ico} tog=${tog}>Teams</${Th}>
-          <${Th} col="best_rank" sc=${sc} ico=${ico} tog=${tog}>Best Rank</${Th}>
-          <${Th} col="avg_rating" sc=${sc} ico=${ico} tog=${tog}>Avg Rating</${Th}>
-        </tr></thead>
-        <tbody>
-          ${rows.map(c => html`<tr key=${c.conference_id} style="cursor:pointer" onClick=${() => nav(`#/conference/${c.conference_id}`)}>
-            <td><span class="tl">${c.conference}</span></td>
-            <td class="mono">${c.team_count}</td>
-            <td class="rc">#${c.best_rank}</td>
-            <td class="mono">${c.avg_rating}</td>
-          </tr>`)}
-        </tbody>
-      </table></div>
+// CONFERENCES INDEX — table sorted by avg rating
+function ConferencesPage({nav}){
+  const{data,loading,error}=useData('conferences.json');
+  const{sc,sd,tog,ico}=useSort('avg_rating','desc');
+  const rows=useMemo(()=>data?srt(data[0]??[],sc,sd):[],[data,sc,sd]);
+  if(loading)return<Spin/>;
+  if(error)return<Err m={error}/>;
+  return(
+    <div className="page">
+      <h1 className="page-title">D3 Conferences</h1>
+      <p className="page-sub">{rows.length} conferences · Click a conference name to see team standings</p>
+      <div className="table-wrap">
+        <div className="tscroll">
+          <table>
+            <thead><tr>
+              <Th col="conference" sc={sc} ico={ico} tog={tog}>Conference</Th>
+              <Th col="team_count" sc={sc} ico={ico} tog={tog}>Teams</Th>
+              <Th col="best_rank" sc={sc} ico={ico} tog={tog}>Best Rank</Th>
+              <Th col="avg_rating" sc={sc} ico={ico} tog={tog}>Avg Rating</Th>
+            </tr></thead>
+            <tbody>
+              {rows.map(c=>(
+                <tr key={c.conference_id} style={{cursor:'pointer'}} onClick={()=>nav(`#/conference/${c.conference_id}`)}>
+                  <td><span className="tl">{c.conference}</span></td>
+                  <td className="mono">{c.team_count}</td>
+                  <td className="rc">#{c.best_rank}</td>
+                  <td className="mono">{c.avg_rating}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
-  </div>`;
+  );
 }
 
-// ── CONFERENCE DETAIL ─────────────────────────────────────────────────────────
-function ConferencePage({ confId, nav }) {
-  const { data, loading, error } = useData('teams.json','conferences.json');
-  const { sc, sd, tog, ico } = useSort('rank', 'asc');
-  const conf      = useMemo(() => data ? (data[1]||[]).find(c => c.conference_id === confId) : null, [data, confId]);
-  const confTeams = useMemo(() => data ? (data[0]||[]).filter(t => t.conference_id === confId) : [], [data, confId]);
-  const rows      = useMemo(() => srt(confTeams, sc, sd), [confTeams, sc, sd]);
-  if (loading) return html`<${Spin}/>`;
-  if (error)   return html`<${Err} m=${error}/>`;
-  if (!conf)   return html`<div class="page"><button class="back-btn" onClick=${()=>nav('#/conferences')}>\u2190 Conferences</button><div class="errmsg">Conference not found. ID: "${confId}"</div></div>`;
-  const ra=rows.map(t=>+t.rating).filter(isFinite), of=rows.map(t=>+t.off).filter(isFinite);
-  const df=rows.map(t=>+t.def).filter(isFinite), wb=rows.map(t=>t.wab!=null?+t.wab:null).filter(v=>v!=null&&isFinite(v));
-  const [rn,rx]=ra.length>1?[Math.min(...ra),Math.max(...ra)]:[0,1];
-  const [on,ox]=of.length>1?[Math.min(...of),Math.max(...of)]:[0,1];
-  const [dn,dx]=df.length>1?[Math.min(...df),Math.max(...df)]:[0,1];
-  const [wn,wx]=wb.length?[Math.min(...wb),Math.max(...wb)]:[-1,1];
-  return html`<div class="page">
-    <button class="back-btn" onClick=${() => nav('#/conferences')}>\u2190 All Conferences</button>
-    <div class="chdr">
-      <h1>${conf.conference}</h1>
-      <div class="cbs"><div class="val">${conf.team_count}</div><div class="lbl">Teams</div></div>
-      <div class="cbs"><div class="val">#${conf.best_rank}</div><div class="lbl">Best Rank</div></div>
-      <div class="cbs"><div class="val">${conf.avg_rating}</div><div class="lbl">Avg Rating</div></div>
+// CONFERENCE DETAIL — hooks BEFORE early returns
+function ConferencePage({confId,nav}){
+  const{data,loading,error}=useData('teams.json','conferences.json');
+  const{sc,sd,tog,ico}=useSort('rank','asc');
+
+  const conf=useMemo(()=>data?(data[1]??[]).find(c=>c.conference_id===confId):null,[data,confId]);
+  const confTeams=useMemo(()=>data?(data[0]??[]).filter(t=>t.conference_id===confId):[],[data,confId]);
+  const rows=useMemo(()=>srt(confTeams,sc,sd),[confTeams,sc,sd]);
+
+  if(loading)return<Spin/>;
+  if(error)return<Err m={error}/>;
+  if(!conf)return(
+    <div className="page">
+      <button className="back-btn" onClick={()=>nav('#/conferences')}>← Conferences</button>
+      <div className="errmsg">Conference not found.<br/><small>ID: "{confId}"</small></div>
     </div>
-    <div class="table-wrap">
-      <div class="shint">Scroll right to see all columns \u2192</div>
-      <div class="tscroll"><table>
-        <thead><tr>
-          <${Th} col="rank" sc=${sc} ico=${ico} tog=${tog}>Rank</${Th}>
-          <${Th} col="full_team" sc=${sc} ico=${ico} tog=${tog}>Team</${Th}>
-          <${Th} col="record" sc=${sc} ico=${ico} tog=${tog}>Record</${Th}>
-          <${Th} col="rating" sc=${sc} ico=${ico} tog=${tog}>Rating</${Th}>
-          <${Th} col="off" sc=${sc} ico=${ico} tog=${tog}>Off</${Th}>
-          <${Th} col="def" sc=${sc} ico=${ico} tog=${tog}>Def</${Th}>
-          <${Th} col="pace" sc=${sc} ico=${ico} tog=${tog}>Tempo</${Th}>
-          <${Th} col="resume_rank" sc=${sc} ico=${ico} tog=${tog}>Res. Rank</${Th}>
-          <${Th} col="wab" sc=${sc} ico=${ico} tog=${tog}>WAB</${Th}>
-        </tr></thead>
-        <tbody>
-          ${rows.map(t => html`<tr key=${t.team_id}>
-            <td class="rc">${t.rank}</td>
-            <td><span class="tl" onClick=${() => nav(`#/team/${t.team_id}`)}>${t.full_team}</span></td>
-            <td class="mono">${t.record}</td>
-            <td class="hc" style=${hs(+t.rating,rn,rx)}>${(+t.rating).toFixed(1)}</td>
-            <td class="hc" style=${hs(+t.off,on,ox)}>${(+t.off).toFixed(1)}</td>
-            <td class="hc" style=${hs(+t.def,dn,dx,true)}>${(+t.def).toFixed(1)}</td>
-            <td class="mono">${(+t.pace).toFixed(1)}</td>
-            <td class="rc">${t.resume_rank ? `#${t.resume_rank}` : '\u2013'}</td>
-            <td class="hc" style=${t.wab!=null?wabHs(+t.wab,wn,wx):{}}>${t.wab!=null?(t.wab>=0?'+':'')+(+t.wab).toFixed(2):'\u2013'}</td>
-          </tr>`)}
-        </tbody>
-      </table></div>
+  );
+
+  const ra=rows.map(t=>+t.rating).filter(isFinite);
+  const of=rows.map(t=>+t.off).filter(isFinite);
+  const df=rows.map(t=>+t.def).filter(isFinite);
+  const wb=rows.map(t=>t.wab!=null?+t.wab:null).filter(v=>v!=null&&isFinite(v));
+  const[rn,rx]=ra.length>1?[Math.min(...ra),Math.max(...ra)]:[0,1];
+  const[on,ox]=of.length>1?[Math.min(...of),Math.max(...of)]:[0,1];
+  const[dn,dx]=df.length>1?[Math.min(...df),Math.max(...df)]:[0,1];
+  const[wn,wx]=wb.length?[Math.min(...wb),Math.max(...wb)]:[-1,1];
+
+  return(
+    <div className="page">
+      <button className="back-btn" onClick={()=>nav('#/conferences')}>← All Conferences</button>
+      <div className="chdr">
+        <h1>{conf.conference}</h1>
+        {[{val:conf.team_count,lbl:'Teams'},{val:`#${conf.best_rank}`,lbl:'Best Rank'},{val:conf.avg_rating,lbl:'Avg Rating'}].map(s=>(
+          <div key={s.lbl} className="cbs"><div className="val">{s.val}</div><div className="lbl">{s.lbl}</div></div>
+        ))}
+      </div>
+      <div className="table-wrap">
+        <div className="shint">Scroll right to see all columns →</div>
+        <div className="tscroll">
+          <table>
+            <thead><tr>
+              <Th col="rank" sc={sc} ico={ico} tog={tog}>Rank</Th>
+              <Th col="full_team" sc={sc} ico={ico} tog={tog}>Team</Th>
+              <Th col="record" sc={sc} ico={ico} tog={tog}>Record</Th>
+              <Th col="rating" sc={sc} ico={ico} tog={tog}>Rating</Th>
+              <Th col="off" sc={sc} ico={ico} tog={tog}>Off</Th>
+              <Th col="def" sc={sc} ico={ico} tog={tog}>Def</Th>
+              <Th col="pace" sc={sc} ico={ico} tog={tog}>Tempo</Th>
+              <Th col="resume_rank" sc={sc} ico={ico} tog={tog}>Res. Rank</Th>
+              <Th col="wab" sc={sc} ico={ico} tog={tog}>WAB</Th>
+            </tr></thead>
+            <tbody>
+              {rows.map(t=>(
+                <tr key={t.team_id}>
+                  <td className="rc">{t.rank}</td>
+                  <td><span className="tl" onClick={()=>nav(`#/team/${t.team_id}`)}>{t.full_team}</span></td>
+                  <td className="mono">{t.record}</td>
+                  <td className="hc" style={hs(+t.rating,rn,rx)}>{(+t.rating).toFixed(1)}</td>
+                  <td className="hc" style={hs(+t.off,on,ox)}>{(+t.off).toFixed(1)}</td>
+                  <td className="hc" style={hs(+t.def,dn,dx,true)}>{(+t.def).toFixed(1)}</td>
+                  <td className="mono">{(+t.pace).toFixed(1)}</td>
+                  <td className="rc">{t.resume_rank?`#${t.resume_rank}`:'–'}</td>
+                  <td className="hc" style={t.wab!=null?wabHs(+t.wab,wn,wx):{}}>{t.wab!=null?(t.wab>=0?'+':'')+(+t.wab).toFixed(2):'–'}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
-  </div>`;
+  );
 }
 
-// ── APP ───────────────────────────────────────────────────────────────────────
-function App() {
-  const { hash, nav } = useRoute();
-  const route = parseRoute(hash);
-  const pages = {
-    home:        html`<${HomePage} nav=${nav}/>`,
-    ratings:     html`<${RatingsPage} nav=${nav}/>`,
-    predictions: html`<${PredictionsPage} nav=${nav}/>`,
-    accuracy:    html`<${AccuracyPage} nav=${nav}/>`,
-    conferences: html`<${ConferencesPage} nav=${nav}/>`,
-    team:        html`<${TeamPage} teamId=${route.id} nav=${nav}/>`,
-    conference:  html`<${ConferencePage} confId=${route.id} nav=${nav}/>`,
+// APP
+function App(){
+  const{hash,nav}=useRoute();
+  const route=parseRoute(hash);
+  const pages={
+    home:<HomePage nav={nav}/>,
+    ratings:<RatingsPage nav={nav}/>,
+    predictions:<PredictionsPage nav={nav}/>,
+    accuracy:<AccuracyPage nav={nav}/>,
+    conferences:<ConferencesPage nav={nav}/>,
+    team:<TeamPage teamId={route.id} nav={nav}/>,
+    conference:<ConferencePage confId={route.id} nav={nav}/>,
   };
-  return html`<><${Nav} nav=${nav} hash=${hash}/>${pages[route.page] || html`<div class="errmsg">Page not found.</div>`}</>`;
+  return<><Nav nav={nav} hash={hash}/>{pages[route.page]??<div className="errmsg">Page not found.</div>}</>;
 }
 
-render(html`<${App}/>`, document.getElementById('root'));
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
 </script>
 </body>
 </html>
