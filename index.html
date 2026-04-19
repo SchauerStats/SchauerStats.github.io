@@ -85,6 +85,27 @@
     tbody tr:hover { background:#f5f7fc; }
     tbody td { padding:.52rem .85rem; font-size:.83rem; }
     .rc { color:var(--muted); font-family:'IBM Plex Mono',monospace; font-size:.75rem; width:42px; }
+
+    /* Sticky first two columns in ratings table */
+    .sticky-rank {
+      position: sticky; left: 0; z-index: 1;
+      background: var(--white);
+    }
+    .sticky-team {
+      position: sticky; left: 48px; z-index: 1;
+      background: var(--white);
+      /* subtle right shadow to show content is scrolling under */
+      box-shadow: 2px 0 4px rgba(28,43,75,.06);
+    }
+    thead tr .sticky-rank,
+    thead tr .sticky-team {
+      background: var(--navy);
+      z-index: 2;
+    }
+    tbody tr:hover .sticky-rank,
+    tbody tr:hover .sticky-team {
+      background: #f5f7fc;
+    }
     .tl { color:var(--navy); font-weight:600; cursor:pointer; }
     .tl:hover { color:var(--accent); text-decoration:underline; }
     .cb { display:inline-block; background:#EEF1F9; color:var(--navy2); border-radius:4px;
@@ -410,31 +431,29 @@ function RatingsPage({ nav }) {
         <div className="tscroll">
           <table>
             <thead><tr>
-              <Th col="rank"        sc={sc} ico={ico} tog={tog}>Rank</Th>
-              <Th col="full_team"   sc={sc} ico={ico} tog={tog}>Team</Th>
-              <Th col="conference"  sc={sc} ico={ico} tog={tog}>Conf.</Th>
-              <Th col="record"      sc={sc} ico={ico} tog={tog}>Record</Th>
-              <Th col="rating"      sc={sc} ico={ico} tog={tog}>Rating</Th>
-              <Th col="off"         sc={sc} ico={ico} tog={tog}>Off</Th>
-              <Th col="def"         sc={sc} ico={ico} tog={tog}>Def</Th>
-              <Th col="pace"        sc={sc} ico={ico} tog={tog}>Tempo</Th>
-              <Th col="resume_rank" sc={sc} ico={ico} tog={tog}>Res. Rank</Th>
-              <Th col="wab"         sc={sc} ico={ico} tog={tog}>WAB</Th>
-              <Th col="win_qual"    sc={sc} ico={ico} tog={tog}>Win Qual</Th>
-              <Th col="loss_qual"   sc={sc} ico={ico} tog={tog}>Loss Qual</Th>
+              <Th col="rank"       sc={sc} ico={ico} tog={tog} style={{position:'sticky',left:0,zIndex:2,background:'var(--navy)'}}>Rank</Th>
+              <Th col="full_team"  sc={sc} ico={ico} tog={tog} style={{position:'sticky',left:48,zIndex:2,background:'var(--navy)',boxShadow:'2px 0 4px rgba(28,43,75,.12)'}}>Team</Th>
+              <Th col="conference" sc={sc} ico={ico} tog={tog}>Conf.</Th>
+              <Th col="record"     sc={sc} ico={ico} tog={tog}>Record</Th>
+              <Th col="rating"     sc={sc} ico={ico} tog={tog}>Rating</Th>
+              <Th col="off"        sc={sc} ico={ico} tog={tog}>Off</Th>
+              <Th col="def"        sc={sc} ico={ico} tog={tog}>Def</Th>
+              <Th col="pace"       sc={sc} ico={ico} tog={tog}>Tempo</Th>
+              <Th col="wab"        sc={sc} ico={ico} tog={tog}>WAB</Th>
+              <Th col="win_qual"   sc={sc} ico={ico} tog={tog}>Win Qual</Th>
+              <Th col="loss_qual"  sc={sc} ico={ico} tog={tog}>Loss Qual</Th>
             </tr></thead>
             <tbody>
-              {rows.map(t => (
+              {rows.map((t, idx) => (
                 <tr key={t.team_id}>
-                  <td className="rc">{t.rank}</td>
-                  <td><span className="tl" onClick={() => nav(`#/team/${t.team_id}`)}>{t.full_team}</span></td>
+                  <td className="rc sticky-rank">{idx + 1}</td>
+                  <td className="sticky-team"><span className="tl" onClick={() => nav(`#/team/${t.team_id}`)}>{t.full_team}</span></td>
                   <td><span className="cb" onClick={() => nav(`#/conference/${t.conference_id}`)}>{t.conference}</span></td>
                   <td className="mono">{t.record}</td>
                   <td className="hc" style={hs(+t.rating, rn, rx)}>{(+t.rating).toFixed(1)}</td>
                   <td className="hc" style={hs(+t.off,    on, ox)}>{(+t.off).toFixed(1)}</td>
                   <td className="hc" style={hs(+t.def,    dn, dx, true)}>{(+t.def).toFixed(1)}</td>
                   <td className="mono">{(+t.pace).toFixed(1)}</td>
-                  <td className="rc">{t.resume_rank ? `#${t.resume_rank}` : '-'}</td>
                   <td className="hc" style={t.wab != null ? wabHs(+t.wab, wn, wx) : {}}>
                     {t.wab != null ? (t.wab >= 0 ? '+' : '') + (+t.wab).toFixed(2) : '-'}
                   </td>
