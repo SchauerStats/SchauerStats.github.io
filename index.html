@@ -9,7 +9,7 @@
   <script src="https://unpkg.com/@babel/standalone@7.23.5/babel.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -32,7 +32,7 @@
     /* NAV */
     nav { background: var(--navy); height: var(--nav-h); display: flex; align-items: center;
           padding: 0 1.5rem; position: sticky; top: 0; z-index: 200; box-shadow: 0 1px 8px rgba(0,0,0,.3); }
-    .nav-brand { font-family:'Syne',sans-serif; font-weight:800; font-size:1rem; color:#fff;
+    .nav-brand { font-family:'Outfit',sans-serif; font-weight:800; font-size:1rem; color:#fff;
                  cursor:pointer; white-space:nowrap; margin-right:auto; padding-right:1rem; }
     .nav-links { display:flex; }
     .nav-link { color:rgba(255,255,255,.7); font-size:.74rem; font-weight:500; cursor:pointer;
@@ -52,7 +52,7 @@
 
     /* LAYOUT */
     .page { padding:2rem 1.5rem; max-width:1200px; margin:0 auto; width:100%; flex:1; }
-    .page-title { font-family:'Syne',sans-serif; font-size:1.5rem; font-weight:800; color:var(--navy); margin-bottom:.25rem; }
+    .page-title { font-family:'Outfit',sans-serif; font-size:1.5rem; font-weight:800; color:var(--navy); margin-bottom:.25rem; }
     .page-sub { color:var(--muted); font-size:.8rem; margin-bottom:1.5rem; line-height:1.5; }
     .back-btn { display:inline-flex; align-items:center; gap:.3rem; color:var(--muted); font-size:.8rem;
                 cursor:pointer; margin-bottom:1.25rem; background:none; border:none; padding:0; }
@@ -74,7 +74,7 @@
     @media(max-width:680px) { .shint { display:block; } }
     table { width:100%; border-collapse:collapse; min-width:520px; }
     thead tr { background:var(--navy); }
-    thead th { padding:.58rem .85rem; font-family:'Syne',sans-serif; font-size:.63rem; font-weight:700;
+    thead th { padding:.58rem .85rem; font-family:'Outfit',sans-serif; font-size:.63rem; font-weight:700;
                color:rgba(255,255,255,.8); letter-spacing:.08em; text-transform:uppercase;
                text-align:left; white-space:nowrap; cursor:pointer; user-select:none; }
     thead th:hover { color:#fff; }
@@ -98,7 +98,7 @@
 
     /* HOME */
     .home-wrap { padding:2.5rem 1.5rem 3rem; max-width:1200px; margin:0 auto; }
-    .home-title { font-family:'Syne',sans-serif; font-size:2rem; font-weight:800; color:var(--navy); margin-bottom:.4rem; }
+    .home-title { font-family:'Outfit',sans-serif; font-size:2rem; font-weight:800; color:var(--navy); margin-bottom:.4rem; }
     .home-sub { color:var(--muted); margin-bottom:2.25rem; font-size:.9rem; }
     .card-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(255px,1fr)); gap:1.25rem; }
     .card { background:var(--white); border-radius:10px; border:1px solid var(--border); overflow:hidden;
@@ -107,7 +107,7 @@
     .card-img { height:125px; background:var(--bg); overflow:hidden; }
     .card-img svg { width:100%; height:100%; }
     .card-body { padding:1rem 1.2rem 1.3rem; }
-    .card-body h3 { font-family:'Syne',sans-serif; font-weight:700; font-size:.93rem; color:var(--navy); margin-bottom:.3rem; }
+    .card-body h3 { font-family:'Outfit',sans-serif; font-weight:700; font-size:.93rem; color:var(--navy); margin-bottom:.3rem; }
     .card-body p { color:var(--muted); font-size:.81rem; line-height:1.55; margin-bottom:1rem; }
     .card-btn { background:var(--navy); color:#fff; border:none; border-radius:7px; padding:.58rem 1rem;
                 font-family:'IBM Plex Sans',sans-serif; font-size:.81rem; font-weight:500; cursor:pointer; width:100%; }
@@ -115,7 +115,7 @@
 
     /* TEAM PAGE */
     .team-banner { background:var(--navy); color:#fff; border-radius:10px; padding:1.4rem 1.5rem; margin-bottom:1.2rem; }
-    .team-banner h1 { font-family:'Syne',sans-serif; font-size:1.5rem; font-weight:800; margin-bottom:.2rem; line-height:1.2; }
+    .team-banner h1 { font-family:'Outfit',sans-serif; font-size:1.5rem; font-weight:800; margin-bottom:.2rem; line-height:1.2; }
     .conf-link { color:rgba(255,255,255,.6); font-size:.8rem; cursor:pointer; }
     .conf-link:hover { color:#fff; text-decoration:underline; }
     .banner-stats { display:flex; gap:1.5rem; margin-top:.9rem; flex-wrap:wrap; }
@@ -161,13 +161,13 @@
     /* ACCURACY */
     .acc-stats { display:flex; gap:.7rem; margin-bottom:1.4rem; flex-wrap:wrap; }
     .astat { background:var(--white); border:1px solid var(--border); border-radius:8px; padding:.8rem 1rem; flex:1; min-width:105px; }
-    .astat .val { font-family:'Syne',sans-serif; font-size:1.4rem; font-weight:700; color:var(--navy); line-height:1; }
+    .astat .val { font-family:'Outfit',sans-serif; font-size:1.4rem; font-weight:700; color:var(--navy); line-height:1; }
     .astat .lbl { font-size:.64rem; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; margin-top:.18rem; }
 
     /* CONFERENCES */
     .chdr { background:var(--navy); border-radius:10px; padding:1.4rem 1.5rem; color:#fff;
             margin-bottom:1.2rem; display:flex; align-items:center; gap:2rem; flex-wrap:wrap; }
-    .chdr h1 { font-family:'Syne',sans-serif; font-size:1.4rem; font-weight:800; flex:1; }
+    .chdr h1 { font-family:'Outfit',sans-serif; font-size:1.4rem; font-weight:800; flex:1; }
     .cbs .val { font-family:'IBM Plex Mono',monospace; font-size:1.25rem; color:#fff; line-height:1; }
     .cbs .lbl { font-size:.62rem; color:rgba(255,255,255,.55); text-transform:uppercase; letter-spacing:.07em; margin-top:.18rem; }
 
@@ -226,7 +226,7 @@ function parseRoute(hash) {
   if (p === '/accuracy')            return { page: 'accuracy' };
   if (p === '/conferences')         return { page: 'conferences' };
   if (p.startsWith('/team/'))       return { page: 'team',       id: p.slice(6) };
-  if (p.startsWith('/conference/')) return { page: 'conference', id: p.slice(13) };
+  if (p.startsWith('/conference/')) return { page: 'conference', id: p.slice(12) };
   return { page: 'home' };
 }
 
@@ -242,11 +242,15 @@ function hs(val, min, max, rev = false) {
   return { background: `rgb(${r},${g},${b})`, color: t > .5 ? '#fff' : '#111827' };
 }
 function wabHs(val, min, max) {
-  if (val == null || !isFinite(min) || !isFinite(max)) return {};
-  const amax = Math.max(Math.abs(min), Math.abs(max), .01);
-  const t = Math.max(-1, Math.min(1, val / amax));
-  if (t >= 0) return { background: `rgba(22,163,74,${.12+t*.7})`,    color: t > .5  ? '#fff' : '#14532d' };
-  return          { background: `rgba(220,38,38,${.12+(-t)*.7})`,   color: (-t)>.5 ? '#fff' : '#7f1d1d' };
+  // Same navy-blue scale as hs() but centered on zero:
+  // high positive WAB = dark navy, near-zero = mid, highly negative = light
+  if (val == null || !isFinite(min) || !isFinite(max) || min === max) return {};
+  let t = (val - min) / (max - min);
+  t = Math.max(0, Math.min(1, t));
+  const r = Math.round(28  + (220-28)  * (1-t));
+  const g = Math.round(43  + (230-43)  * (1-t));
+  const b = Math.round(75  + (255-75)  * (1-t));
+  return { background: `rgb(${r},${g},${b})`, color: t > .5 ? '#fff' : '#111827' };
 }
 function errHs(val, max) {
   const t = Math.min(val / (max||1), 1);
@@ -752,35 +756,76 @@ function TeamPage({ teamId, nav }) {
   );
 }
 
-// CONFERENCES INDEX — sortable table, defaults to avg rating desc
+// CONFERENCES INDEX — sortable table with full avg stats computed from teams
 function ConferencesPage({ nav }) {
-  const { data, loading, error } = useData('conferences.json');
+  const { data, loading, error } = useData('conferences.json', 'teams.json');
   const { sc, sd, tog, ico } = useSort('avg_rating', 'desc');
-  const rows = useMemo(() => data ? srt(data[0] || [], sc, sd) : [], [data, sc, sd]);
+
+  // Compute per-conference averages from the teams data
+  const rows = useMemo(() => {
+    if (!data) return [];
+    const confs = data[0] || [];
+    const teams = data[1] || [];
+
+    const enriched = confs.map(c => {
+      const ct = teams.filter(t => t.conference_id === c.conference_id);
+      const avg = arr => {
+        const vals = arr.filter(v => v != null && isFinite(v));
+        return vals.length ? +(vals.reduce((s,v) => s+v, 0) / vals.length).toFixed(1) : null;
+      };
+      return {
+        ...c,
+        avg_off:    avg(ct.map(t => +t.off)),
+        avg_def:    avg(ct.map(t => +t.def)),
+        avg_tempo:  avg(ct.map(t => +t.pace)),
+        avg_resume: avg(ct.map(t => t.wab != null ? +t.wab : null)),
+      };
+    });
+    return srt(enriched, sc, sd);
+  }, [data, sc, sd]);
 
   if (loading) return <Spin />;
   if (error)   return <ErrMsg m={error} />;
+
+  // Heat ranges across all conferences
+  const avgOff    = rows.map(r => r.avg_off).filter(v => v != null && isFinite(v));
+  const avgDef    = rows.map(r => r.avg_def).filter(v => v != null && isFinite(v));
+  const avgRat    = rows.map(r => r.avg_rating).filter(v => v != null && isFinite(v));
+  const avgTempo  = rows.map(r => r.avg_tempo).filter(v => v != null && isFinite(v));
+  const avgRes    = rows.map(r => r.avg_resume).filter(v => v != null && isFinite(v));
+  const [oLo,oHi]   = avgOff.length   ? [Math.min(...avgOff),   Math.max(...avgOff)]   : [0,1];
+  const [dLo,dHi]   = avgDef.length   ? [Math.min(...avgDef),   Math.max(...avgDef)]   : [0,1];
+  const [rLo,rHi]   = avgRat.length   ? [Math.min(...avgRat),   Math.max(...avgRat)]   : [0,1];
+  const [tLo,tHi]   = avgTempo.length ? [Math.min(...avgTempo), Math.max(...avgTempo)] : [0,1];
+  const [resLo,resHi] = avgRes.length ? [Math.min(...avgRes),   Math.max(...avgRes)]   : [0,1];
 
   return (
     <div className="page">
       <h1 className="page-title">D3 Conferences</h1>
       <p className="page-sub">{rows.length} conferences &middot; Click a conference name to see team standings</p>
       <div className="table-wrap">
+        <div className="shint">Scroll right to see all columns &rarr;</div>
         <div className="tscroll">
           <table>
             <thead><tr>
               <Th col="conference"  sc={sc} ico={ico} tog={tog}>Conference</Th>
               <Th col="team_count"  sc={sc} ico={ico} tog={tog}>Teams</Th>
-              <Th col="best_rank"   sc={sc} ico={ico} tog={tog}>Best Rank</Th>
               <Th col="avg_rating"  sc={sc} ico={ico} tog={tog}>Avg Rating</Th>
+              <Th col="avg_off"     sc={sc} ico={ico} tog={tog}>Avg Off</Th>
+              <Th col="avg_def"     sc={sc} ico={ico} tog={tog}>Avg Def</Th>
+              <Th col="avg_tempo"   sc={sc} ico={ico} tog={tog}>Avg Tempo</Th>
+              <Th col="avg_resume"  sc={sc} ico={ico} tog={tog}>Avg WAB</Th>
             </tr></thead>
             <tbody>
               {rows.map(c => (
                 <tr key={c.conference_id} style={{cursor:'pointer'}} onClick={() => nav(`#/conference/${c.conference_id}`)}>
                   <td><span className="tl">{c.conference}</span></td>
                   <td className="mono">{c.team_count}</td>
-                  <td className="rc">#{c.best_rank}</td>
-                  <td className="mono">{c.avg_rating}</td>
+                  <td className="hc" style={hs(c.avg_rating, rLo, rHi)}>{c.avg_rating ?? '-'}</td>
+                  <td className="hc" style={hs(c.avg_off,    oLo, oHi)}>{c.avg_off    ?? '-'}</td>
+                  <td className="hc" style={hs(c.avg_def,    dLo, dHi, true)}>{c.avg_def ?? '-'}</td>
+                  <td className="hc" style={hs(c.avg_tempo,  tLo, tHi)}>{c.avg_tempo  ?? '-'}</td>
+                  <td className="hc" style={c.avg_resume != null ? hs(c.avg_resume, resLo, resHi) : {}}>{c.avg_resume ?? '-'}</td>
                 </tr>
               ))}
             </tbody>
