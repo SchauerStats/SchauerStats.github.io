@@ -86,29 +86,26 @@
     tbody td { padding:.52rem .85rem; font-size:.83rem; }
     .rc { color:var(--muted); font-family:'IBM Plex Mono',monospace; font-size:.75rem; width:42px; }
 
-    /* show-mob: hidden on desktop, visible on mobile (for reordered columns) */
-    .show-mob { display:none !important; }
-
-    /* Mobile: compact numerics, full team names via wrapping */
+    /* Mobile: layout matching screenshot #2 — tight, single-line team names */
     @media(max-width:680px) {
       table        { min-width:0 !important; width:100%; }
-      tbody td     { padding:.22rem .24rem; font-size:.68rem; }
-      thead th     { padding:.34rem .24rem; font-size:.54rem; letter-spacing:.03em; }
+      tbody td     { padding:.2rem .2rem; font-size:.64rem; }
+      thead th     { padding:.32rem .2rem; font-size:.52rem; letter-spacing:.03em; }
       .hide-mob    { display:none !important; }
       .hide-mob-sm { display:none !important; }
-      .show-mob    { display:table-cell !important; }
-      /* Team column: no truncation, allow wrapping, take remaining space */
-      .sticky-team { left:26px !important; white-space:normal; min-width:90px; max-width:none;
-                     overflow:visible; text-overflow:clip; }
-      /* Rank column: narrow as possible */
+      /* Team: single line, truncate only the longest names */
+      .sticky-team { left:26px !important; white-space:nowrap; max-width:120px;
+                     overflow:hidden; text-overflow:ellipsis; }
+      /* Rank: as narrow as possible */
       .sticky-rank { width:24px; min-width:24px; }
-      .rc          { width:24px; min-width:24px; font-size:.64rem; }
-      /* Numeric columns: tight but readable */
-      .hc          { font-size:.64rem; padding:.18rem .2rem !important; white-space:nowrap; }
-      .mono        { font-size:.64rem; white-space:nowrap; }
-      /* Conf badge: compact */
-      .cb          { font-size:.62rem; padding:.08rem .3rem; }
-      .page        { padding:1.25rem 1rem; }
+      .rc          { width:24px; min-width:24px; font-size:.62rem; }
+      /* Numeric cells: very tight */
+      .hc          { font-size:.62rem; padding:.16rem .18rem !important; white-space:nowrap; }
+      .mono        { font-size:.62rem; white-space:nowrap; }
+      /* Conference badge: compact */
+      .cb          { font-size:.6rem; padding:.07rem .28rem; border-radius:3px; }
+      /* Reduce page side padding to gain ~10px each side */
+      .page        { padding:1.25rem .75rem; }
       .page-title  { font-size:1.25rem; }
       .team-banner h1 { font-size:1.25rem; }
       .sbox .val   { font-size:.95rem; }
@@ -132,7 +129,7 @@
       background: var(--white);
     }
     .sticky-team {
-      position: sticky; left: 48px; z-index: 1;
+      position: sticky; left: 42px; z-index: 1;
       background: var(--white);
       /* subtle right shadow to show content is scrolling under */
       box-shadow: 2px 0 4px rgba(28,43,75,.06);
@@ -473,9 +470,9 @@ function RatingsPage({ nav }) {
           <table>
             <thead><tr>
               <Th col="rank"       sc={sc} ico={ico} tog={tog} style={{position:'sticky',left:0,zIndex:2,background:'var(--navy)'}}>Rank</Th>
-              <Th col="full_team"  sc={sc} ico={ico} tog={tog} style={{position:'sticky',left:48,zIndex:2,background:'var(--navy)',boxShadow:'2px 0 4px rgba(28,43,75,.12)'}}>Team</Th>
-              <Th col="conference" sc={sc} ico={ico} tog={tog} className="hide-mob">Conf.</Th>
-              <Th col="record"     sc={sc} ico={ico} tog={tog} className="hide-mob">Record</Th>
+              <Th col="full_team"  sc={sc} ico={ico} tog={tog} style={{position:'sticky',zIndex:2,background:'var(--navy)',boxShadow:'2px 0 4px rgba(28,43,75,.12)'}}>Team</Th>
+              <Th col="conference" sc={sc} ico={ico} tog={tog}>Conf.</Th>
+              <Th col="record"     sc={sc} ico={ico} tog={tog}>Record</Th>
               <Th col="rating"     sc={sc} ico={ico} tog={tog}>Rating</Th>
               <Th col="off"        sc={sc} ico={ico} tog={tog}>Off</Th>
               <Th col="def"        sc={sc} ico={ico} tog={tog}>Def</Th>
@@ -483,27 +480,23 @@ function RatingsPage({ nav }) {
               <Th col="wab"        sc={sc} ico={ico} tog={tog}>WAB</Th>
               <Th col="win_qual"   sc={sc} ico={ico} tog={tog} className="hide-mob-sm">Win Qual</Th>
               <Th col="loss_qual"  sc={sc} ico={ico} tog={tog} className="hide-mob-sm">Loss Qual</Th>
-              <Th col="conference" sc={sc} ico={ico} tog={tog} className="show-mob">Conf.</Th>
-              <Th col="record"     sc={sc} ico={ico} tog={tog} className="show-mob">Record</Th>
             </tr></thead>
             <tbody>
               {rows.map((t, idx) => (
                 <tr key={t.team_id}>
                   <td className="rc sticky-rank">{idx + 1}</td>
                   <td className="sticky-team"><span className="tl" onClick={() => nav(`#/team/${t.team_id}`)}>{t.full_team}</span></td>
-                  <td className="hide-mob"><span className="cb" onClick={() => nav(`#/conference/${t.conference_id}`)}>{t.conference}</span></td>
-                  <td className="mono hide-mob">{t.record}</td>
+                  <td><span className="cb" onClick={() => nav(`#/conference/${t.conference_id}`)}>{t.conference}</span></td>
+                  <td className="mono">{t.record}</td>
                   <td className="hc" style={hs(+t.rating, rn, rx)}>{(+t.rating).toFixed(1)}</td>
                   <td className="hc" style={hs(+t.off,    on, ox)}>{(+t.off).toFixed(1)}</td>
                   <td className="hc" style={hs(+t.def,    dn, dx, true)}>{(+t.def).toFixed(1)}</td>
                   <td className="mono">{(+t.pace).toFixed(1)}</td>
                   <td className="hc" style={t.wab != null ? wabHs(+t.wab, wn, wx) : {}}>
-                    {t.wab != null ? (t.wab >= 0 ? '+' : '') + (+t.wab).toFixed(2) : '-'}
+                    {t.wab != null ? (t.wab >= 0 ? '+' : '') + (+t.wab).toFixed(1) : '-'}
                   </td>
-                  <td className="mono hide-mob-sm">{t.win_qual  != null ? (+t.win_qual).toFixed(2)  : '-'}</td>
-                  <td className="mono hide-mob-sm">{t.loss_qual != null ? (+t.loss_qual).toFixed(2) : '-'}</td>
-                  <td className="show-mob"><span className="cb" onClick={() => nav(`#/conference/${t.conference_id}`)}>{t.conference}</span></td>
-                  <td className="mono show-mob">{t.record}</td>
+                  <td className="mono hide-mob-sm">{t.win_qual  != null ? (+t.win_qual).toFixed(1)  : '-'}</td>
+                  <td className="mono hide-mob-sm">{t.loss_qual != null ? (+t.loss_qual).toFixed(1) : '-'}</td>
                 </tr>
               ))}
             </tbody>
@@ -1043,7 +1036,7 @@ function ConferencePage({ confId, nav }) {
           <table>
             <thead><tr>
               <Th col="rank"      sc={sc} ico={ico} tog={tog} style={{position:'sticky',left:0,zIndex:2,background:'var(--navy)'}}>Rank</Th>
-              <Th col="full_team" sc={sc} ico={ico} tog={tog} style={{position:'sticky',left:32,zIndex:2,background:'var(--navy)',boxShadow:'2px 0 4px rgba(28,43,75,.12)'}}>Team</Th>
+              <Th col="full_team" sc={sc} ico={ico} tog={tog} style={{position:'sticky',zIndex:2,background:'var(--navy)',boxShadow:'2px 0 4px rgba(28,43,75,.12)'}}>Team</Th>
               <Th col="record"    sc={sc} ico={ico} tog={tog}>Record</Th>
               <Th col="rating"    sc={sc} ico={ico} tog={tog}>Rating</Th>
               <Th col="off"       sc={sc} ico={ico} tog={tog}>Off</Th>
@@ -1061,7 +1054,7 @@ function ConferencePage({ confId, nav }) {
                   <td className="hc" style={hs(+t.off,    on, ox)}>{(+t.off).toFixed(1)}</td>
                   <td className="hc" style={hs(+t.def,    dn, dx, true)}>{(+t.def).toFixed(1)}</td>
                   <td className="mono">{(+t.pace).toFixed(1)}</td>
-                  <td className="hc" style={t.wab!=null?wabHs(+t.wab,wn,wx):{}}>{t.wab!=null?(t.wab>=0?'+':'')+(+t.wab).toFixed(2):'-'}</td>
+                  <td className="hc" style={t.wab!=null?wabHs(+t.wab,wn,wx):{}}>{t.wab!=null?(t.wab>=0?'+':'')+(+t.wab).toFixed(1):'-'}</td>
                 </tr>
               ))}
             </tbody>
