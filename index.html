@@ -86,22 +86,32 @@
     tbody td { padding:.52rem .85rem; font-size:.83rem; }
     .rc { color:var(--muted); font-family:'IBM Plex Mono',monospace; font-size:.75rem; width:42px; }
 
-    /* Mobile: compact table, hide non-essential columns, truncate team names */
+    /* show-mob: hidden on desktop, visible on mobile (for reordered columns) */
+    .show-mob { display:none !important; }
+
+    /* Mobile: compact numerics, full team names via wrapping */
     @media(max-width:680px) {
-      table       { min-width:0 !important; width:100%; }
-      tbody td    { padding:.28rem .38rem; font-size:.72rem; }
-      thead th    { padding:.38rem .38rem; font-size:.56rem; letter-spacing:.04em; }
-      .hide-mob   { display:none !important; }
-      .hide-mob-sm{ display:none !important; }
-      .sticky-team{ max-width:105px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; left:32px !important; }
-      .sticky-rank{ width:28px; min-width:28px; }
-      .rc         { width:28px; min-width:28px; font-size:.7rem; }
-      .hc         { font-size:.7rem; padding:.2rem .35rem !important; }
-      .mono       { font-size:.7rem; }
-      .page       { padding:1.25rem 1rem; }
-      .page-title { font-size:1.25rem; }
+      table        { min-width:0 !important; width:100%; }
+      tbody td     { padding:.22rem .24rem; font-size:.68rem; }
+      thead th     { padding:.34rem .24rem; font-size:.54rem; letter-spacing:.03em; }
+      .hide-mob    { display:none !important; }
+      .hide-mob-sm { display:none !important; }
+      .show-mob    { display:table-cell !important; }
+      /* Team column: no truncation, allow wrapping, take remaining space */
+      .sticky-team { left:26px !important; white-space:normal; min-width:90px; max-width:none;
+                     overflow:visible; text-overflow:clip; }
+      /* Rank column: narrow as possible */
+      .sticky-rank { width:24px; min-width:24px; }
+      .rc          { width:24px; min-width:24px; font-size:.64rem; }
+      /* Numeric columns: tight but readable */
+      .hc          { font-size:.64rem; padding:.18rem .2rem !important; white-space:nowrap; }
+      .mono        { font-size:.64rem; white-space:nowrap; }
+      /* Conf badge: compact */
+      .cb          { font-size:.62rem; padding:.08rem .3rem; }
+      .page        { padding:1.25rem 1rem; }
+      .page-title  { font-size:1.25rem; }
       .team-banner h1 { font-size:1.25rem; }
-      .sbox .val  { font-size:.95rem; }
+      .sbox .val   { font-size:.95rem; }
     }
 
     /* Team page: games left, charts stacked right */
@@ -473,6 +483,8 @@ function RatingsPage({ nav }) {
               <Th col="wab"        sc={sc} ico={ico} tog={tog}>WAB</Th>
               <Th col="win_qual"   sc={sc} ico={ico} tog={tog} className="hide-mob-sm">Win Qual</Th>
               <Th col="loss_qual"  sc={sc} ico={ico} tog={tog} className="hide-mob-sm">Loss Qual</Th>
+              <Th col="conference" sc={sc} ico={ico} tog={tog} className="show-mob">Conf.</Th>
+              <Th col="record"     sc={sc} ico={ico} tog={tog} className="show-mob">Record</Th>
             </tr></thead>
             <tbody>
               {rows.map((t, idx) => (
@@ -490,6 +502,8 @@ function RatingsPage({ nav }) {
                   </td>
                   <td className="mono hide-mob-sm">{t.win_qual  != null ? (+t.win_qual).toFixed(2)  : '-'}</td>
                   <td className="mono hide-mob-sm">{t.loss_qual != null ? (+t.loss_qual).toFixed(2) : '-'}</td>
+                  <td className="show-mob"><span className="cb" onClick={() => nav(`#/conference/${t.conference_id}`)}>{t.conference}</span></td>
+                  <td className="mono show-mob">{t.record}</td>
                 </tr>
               ))}
             </tbody>
