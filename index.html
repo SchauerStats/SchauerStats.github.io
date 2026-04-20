@@ -86,6 +86,32 @@
     tbody td { padding:.52rem .85rem; font-size:.83rem; }
     .rc { color:var(--muted); font-family:'IBM Plex Mono',monospace; font-size:.75rem; width:42px; }
 
+    /* Mobile: compact table, hide non-essential columns, truncate team names */
+    @media(max-width:680px) {
+      tbody td  { padding:.32rem .45rem; font-size:.76rem; }
+      thead th  { padding:.42rem .45rem; font-size:.58rem; }
+      .hide-mob { display:none; }
+      .sticky-team { max-width:115px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+      .sticky-team { left:34px; }
+      .rc         { width:30px; min-width:30px; }
+      .page       { padding:1.25rem 1rem; }
+      .page-title { font-size:1.25rem; }
+      .team-banner h1 { font-size:1.25rem; }
+      .sbox .val  { font-size:.95rem; }
+    }
+
+    /* Team page: games left, charts stacked right */
+    .team-layout { display:grid; grid-template-columns:1fr 1fr; gap:1.2rem; align-items:start; }
+    .team-charts-col { display:flex; flex-direction:column; gap:1.2rem; }
+    @media(max-width:680px) { .team-layout { grid-template-columns:1fr; } }
+
+    /* Section header inside games card */
+    .games-section-hdr {
+      padding:.32rem 1rem; background:var(--bg); font-size:.67rem; font-weight:600;
+      color:var(--muted); letter-spacing:.06em; text-transform:uppercase;
+      border-bottom:1px solid var(--border);
+    }
+
     /* Sticky first two columns in ratings table */
     .sticky-rank {
       position: sticky; left: 0; z-index: 1;
@@ -433,8 +459,8 @@ function RatingsPage({ nav }) {
             <thead><tr>
               <Th col="rank"       sc={sc} ico={ico} tog={tog} style={{position:'sticky',left:0,zIndex:2,background:'var(--navy)'}}>Rank</Th>
               <Th col="full_team"  sc={sc} ico={ico} tog={tog} style={{position:'sticky',left:48,zIndex:2,background:'var(--navy)',boxShadow:'2px 0 4px rgba(28,43,75,.12)'}}>Team</Th>
-              <Th col="conference" sc={sc} ico={ico} tog={tog}>Conf.</Th>
-              <Th col="record"     sc={sc} ico={ico} tog={tog}>Record</Th>
+              <Th col="conference" sc={sc} ico={ico} tog={tog} style={{}} className="hide-mob">Conf.</Th>
+              <Th col="record"     sc={sc} ico={ico} tog={tog} style={{}} className="hide-mob">Record</Th>
               <Th col="rating"     sc={sc} ico={ico} tog={tog}>Rating</Th>
               <Th col="off"        sc={sc} ico={ico} tog={tog}>Off</Th>
               <Th col="def"        sc={sc} ico={ico} tog={tog}>Def</Th>
@@ -448,8 +474,8 @@ function RatingsPage({ nav }) {
                 <tr key={t.team_id}>
                   <td className="rc sticky-rank">{idx + 1}</td>
                   <td className="sticky-team"><span className="tl" onClick={() => nav(`#/team/${t.team_id}`)}>{t.full_team}</span></td>
-                  <td><span className="cb" onClick={() => nav(`#/conference/${t.conference_id}`)}>{t.conference}</span></td>
-                  <td className="mono">{t.record}</td>
+                  <td className="hide-mob"><span className="cb" onClick={() => nav(`#/conference/${t.conference_id}`)}>{t.conference}</span></td>
+                  <td className="mono hide-mob">{t.record}</td>
                   <td className="hc" style={hs(+t.rating, rn, rx)}>{(+t.rating).toFixed(1)}</td>
                   <td className="hc" style={hs(+t.off,    on, ox)}>{(+t.off).toFixed(1)}</td>
                   <td className="hc" style={hs(+t.def,    dn, dx, true)}>{(+t.def).toFixed(1)}</td>
@@ -620,12 +646,12 @@ function RHChart({ history }) {
   const iW=W-P.l-P.r, iH=H-P.t-P.b;
   const seas = history.map(h => h.season);
   const minS=Math.min(...seas), maxS=Math.max(...seas);
-  const minR=-47, maxR=47;
+  const minR=-30, maxR=30;
   const xS = s => P.l + ((s-minS)/(maxS-minS||1))*iW;
   const yS = r => P.t + (1-(r-minR)/(maxR-minR))*iH;
   const pts = history.map(h => [xS(h.season), yS(h.rating)]);
   const zeroY = yS(0);
-  const yTicks = [-40,-30,-20,-10,0,10,20,30,40];
+  const yTicks = [-30,-20,-10,0,10,20,30];
   return (
     <svg viewBox={`0 0 ${W} ${H}`} style={{width:'100%',display:'block'}} xmlns="http://www.w3.org/2000/svg">
       {zeroY>=P.t && zeroY<=H-P.b && <line x1={P.l} y1={zeroY} x2={W-P.r} y2={zeroY} stroke="#DDE1EA" strokeWidth="1" strokeDasharray="4,3"/>}
@@ -653,6 +679,58 @@ function RHChart({ history }) {
         <g key={i}>
           <circle cx={x} cy={y} r="4" fill="#3B5BDB" stroke="#fff" strokeWidth="1.5"/>
           <title>{history[i].season}: {history[i].rating} (Off {history[i].off} / Def {history[i].def})</title>
+        </g>
+      ))}
+    </svg>
+  );
+}
+
+// WAB HISTORY CHART (per-season wins above bubble)
+function WABChart({ history }) {
+  const wabData = history.filter(h => h.wab != null);
+  if (!wabData || wabData.length < 2) return <div className="empty">Not enough WAB history to display.</div>;
+  const W=560, H=170, P={t:12,r:16,b:28,l:46};
+  const iW=W-P.l-P.r, iH=H-P.t-P.b;
+  const seas = wabData.map(h => h.season);
+  const wabs = wabData.map(h => h.wab);
+  const minS=Math.min(...seas), maxS=Math.max(...seas);
+  const rawMin=Math.min(...wabs), rawMax=Math.max(...wabs);
+  const pad = Math.max(2, (rawMax-rawMin)*0.12);
+  const minR=Math.min(0,rawMin)-pad, maxR=Math.max(0,rawMax)+pad;
+  const xS = s => P.l + ((s-minS)/(maxS-minS||1))*iW;
+  const yS = r => P.t + (1-(r-minR)/(maxR-minR))*iH;
+  const pts = wabData.map(h => [xS(h.season), yS(h.wab)]);
+  const zeroY = yS(0);
+  const range = maxR-minR;
+  const step = range < 8 ? 2 : range < 20 ? 4 : 6;
+  const yTicks = [];
+  for (let v=Math.ceil(minR/step)*step; v<=maxR; v+=step) yTicks.push(v);
+  return (
+    <svg viewBox={`0 0 ${W} ${H}`} style={{width:'100%',display:'block'}} xmlns="http://www.w3.org/2000/svg">
+      {zeroY>=P.t && zeroY<=H-P.b && <line x1={P.l} y1={zeroY} x2={W-P.r} y2={zeroY} stroke="#DDE1EA" strokeWidth="1" strokeDasharray="4,3"/>}
+      {yTicks.map(v => (
+        <g key={v}>
+          <line x1={P.l-3} y1={yS(v)} x2={P.l} y2={yS(v)} stroke="#DDE1EA" strokeWidth="1"/>
+          <text x={P.l-5} y={yS(v)+3.5} textAnchor="end" fontSize="9" fill="#9CA3AF">{v > 0 ? '+'+v : v}</text>
+        </g>
+      ))}
+      {wabData.map(h => {
+        const y1 = String(h.season-1).slice(2);
+        const y2 = String(h.season).slice(2);
+        return (
+          <g key={h.season}>
+            <line x1={xS(h.season)} y1={H-P.b} x2={xS(h.season)} y2={H-P.b+3} stroke="#DDE1EA" strokeWidth="1"/>
+            <text x={xS(h.season)} y={H-P.b+13} textAnchor="middle" fontSize="7.5" fill="#9CA3AF">{y1 + '-' + y2}</text>
+          </g>
+        );
+      })}
+      <line x1={P.l} y1={P.t} x2={P.l} y2={H-P.b} stroke="#DDE1EA" strokeWidth="1"/>
+      <line x1={P.l} y1={H-P.b} x2={W-P.r} y2={H-P.b} stroke="#DDE1EA" strokeWidth="1"/>
+      <path d={'M ' + pts.map(p => p.join(',')).join(' L ')} fill="none" stroke="#1C2B4B" strokeWidth="2" strokeLinejoin="round"/>
+      {pts.map(([x,y],i) => (
+        <g key={i}>
+          <circle cx={x} cy={y} r="4" fill="#3B5BDB" stroke="#fff" strokeWidth="1.5"/>
+          <title>{wabData[i].season}: {wabData[i].wab > 0 ? '+' : ''}{wabData[i].wab} WAB</title>
         </g>
       ))}
     </svg>
@@ -704,19 +782,24 @@ function TeamPage({ teamId, nav }) {
     const lost = !fut && ms < os;
     const wab  = !fut ? (it1 ? g.t1_wab : g.t2_wab) : null;
     const haColor = ha==='vs'?'#2563eb':ha==='@'?'#7c3aed':'var(--muted)';
+    // For upcoming: compute spread and win probability from team perspective
+    const mySpread = fut ? (it1 ? g.spread : -g.spread) : null;
+    const wp = fut && mySpread != null ? Math.round(1 / (1 + Math.exp(-0.152 * mySpread)) * 100) : null;
     return (
       <div className="grow">
         <span className="gdate">{fmtS(g.date)}</span>
         <span className="gha" style={{color:haColor}}>{ha}</span>
         <span className="gopp" onClick={() => nav(`#/team/${oppId}`)}>{opp}</span>
         {fut
-          ? <span className="gsc muted-c">{Math.round(mp)}-{Math.round(op)}</span>
+          ? <span className="gsc" style={{color: mySpread > 0 ? 'var(--win)' : mySpread < 0 ? 'var(--loss)' : 'var(--muted)', fontWeight:600}}>
+              {mySpread > 0 ? '+' : ''}{mySpread != null ? mySpread.toFixed(1) : '-'}
+            </span>
           : <span className={`gsc ${won?'win':lost?'loss':''}`}>{ms}-{os}</span>}
-        {!fut && (
-          <span className="gwab" style={{color:wab==null?'var(--muted)':wab>=0?'var(--win)':'var(--loss)'}}>
-            {wab!=null ? (wab>=0?'+':'') + wab.toFixed(2) : '-'}
-          </span>
-        )}
+        {fut
+          ? <span className="gwab muted-c">{wp != null ? wp+'%' : '-'}</span>
+          : <span className="gwab" style={{color:wab==null?'var(--muted)':wab>=0?'var(--win)':'var(--loss)'}}>
+              {wab!=null ? (wab>=0?'+':'') + wab.toFixed(2) : '-'}
+            </span>}
       </div>
     );
   }
@@ -725,9 +808,9 @@ function TeamPage({ teamId, nav }) {
     { val: (+team.off).toFixed(1),  lbl: 'Off Rating' },
     { val: (+team.def).toFixed(1),  lbl: 'Def Rating' },
     { val: (+team.pace).toFixed(1), lbl: 'Tempo' },
-    team.wab       != null && { val: (team.wab>=0?'+':'')     + (+team.wab).toFixed(2),      lbl: 'Wins Above Bubble' },
-    team.win_qual  != null && { val: (+team.win_qual).toFixed(2),                             lbl: 'Win Quality' },
-    team.loss_qual != null && { val: (+team.loss_qual).toFixed(2),                            lbl: 'Loss Quality' },
+    team.wab       != null && { val: (team.wab>=0?'+':'')     + (+team.wab).toFixed(2), lbl: 'Wins Above Bubble' },
+    team.win_qual  != null && { val: (+team.win_qual).toFixed(2),                        lbl: 'Win Quality' },
+    team.loss_qual != null && { val: (+team.loss_qual).toFixed(2),                       lbl: 'Loss Quality' },
   ].filter(Boolean);
 
   return (
@@ -746,34 +829,51 @@ function TeamPage({ teamId, nav }) {
       <div className="stat-row">
         {statItems.map(s => <div key={s.lbl} className="sbox"><div className="val">{s.val}</div><div className="lbl">{s.lbl}</div></div>)}
       </div>
-      <div className="cbox">
-        <div className="box-hdr">Rating History &mdash; End of Season, 2012-2026</div>
-        <div className="box-body"><RHChart history={hist} /></div>
-      </div>
-      <div className="two-col">
-        <div className="scard">
-          <div className="box-hdr">Upcoming Games ({upcoming.length})</div>
-          {upcoming.length === 0
-            ? <div className="empty">No upcoming games scheduled.</div>
-            : upcoming.map((g,i) => <GRow key={i} g={g} fut={true} />)}
-        </div>
+
+      <div className="team-layout">
+        {/* LEFT: combined games table */}
         <div className="scard">
           <div className="box-hdr">
-            <span>2025-26 Results ({past.length})</span>
-            <div style={{display:'flex',alignItems:'center',gap:'.4rem'}}>
-              <span style={{color:'var(--muted)',fontSize:'.7rem',fontWeight:400}}>Sort:</span>
-              <button className={`sbtn${gameSort==='date'?' active':''}`} onClick={() => setGameSort('date')}>Date</button>
-              <button className={`sbtn${gameSort==='wab'?' active':''}`}  onClick={() => setGameSort('wab')}>WAB</button>
-            </div>
+            <span>Games ({upcoming.length + past.length})</span>
+            {past.length > 0 && (
+              <div style={{display:'flex',alignItems:'center',gap:'.4rem'}}>
+                <span style={{color:'var(--muted)',fontSize:'.7rem',fontWeight:400}}>Sort:</span>
+                <button className={`sbtn${gameSort==='date'?' active':''}`} onClick={() => setGameSort('date')}>Date</button>
+                <button className={`sbtn${gameSort==='wab'?' active':''}`}  onClick={() => setGameSort('wab')}>WAB</button>
+              </div>
+            )}
+          </div>
+          {upcoming.length > 0 && (
+            <>
+              <div className="games-section-hdr">Upcoming ({upcoming.length}) &mdash; Spread &middot; Win Prob</div>
+              {upcoming.map((g,i) => <GRow key={'u'+i} g={g} fut={true} />)}
+            </>
+          )}
+          <div className="games-section-hdr">
+            {upcoming.length > 0 ? 'Results (' + past.length + ')' : 'Results (' + past.length + ')'}
+            {' '}&mdash; Score &middot; WAB
           </div>
           {sortedPast.length === 0
-            ? <div className="empty">No completed games found.</div>
-            : sortedPast.map((g,i) => <GRow key={i} g={g} fut={false} />)}
+            ? <div className="empty">No results yet.</div>
+            : sortedPast.map((g,i) => <GRow key={'p'+i} g={g} fut={false} />)}
+        </div>
+
+        {/* RIGHT: charts stacked */}
+        <div className="team-charts-col">
+          <div className="cbox">
+            <div className="box-hdr">Rating History &mdash; End of Season</div>
+            <div className="box-body"><RHChart history={hist} /></div>
+          </div>
+          <div className="cbox">
+            <div className="box-hdr">Wins Above Bubble &mdash; End of Season</div>
+            <div className="box-body"><WABChart history={hist} /></div>
+          </div>
         </div>
       </div>
     </div>
   );
 }
+
 
 // CONFERENCES INDEX — sortable table with full avg stats computed from teams
 function ConferencesPage({ nav }) {
@@ -896,21 +996,21 @@ function ConferencePage({ confId, nav }) {
         <div className="tscroll">
           <table>
             <thead><tr>
-              <Th col="rank"        sc={sc} ico={ico} tog={tog}>Rank</Th>
-              <Th col="full_team"   sc={sc} ico={ico} tog={tog}>Team</Th>
-              <Th col="record"      sc={sc} ico={ico} tog={tog}>Record</Th>
+              <Th col="rank"        sc={sc} ico={ico} tog={tog} style={{position:'sticky',left:0,zIndex:2,background:'var(--navy)'}}>Rank</Th>
+              <Th col="full_team"   sc={sc} ico={ico} tog={tog} style={{position:'sticky',left:34,zIndex:2,background:'var(--navy)',boxShadow:'2px 0 4px rgba(28,43,75,.12)'}}>Team</Th>
+              <Th col="record"      sc={sc} ico={ico} tog={tog} style={{minWidth:'60px'}}>Record</Th>
               <Th col="rating"      sc={sc} ico={ico} tog={tog}>Rating</Th>
               <Th col="off"         sc={sc} ico={ico} tog={tog}>Off</Th>
               <Th col="def"         sc={sc} ico={ico} tog={tog}>Def</Th>
               <Th col="pace"        sc={sc} ico={ico} tog={tog}>Tempo</Th>
-              <Th col="resume_rank" sc={sc} ico={ico} tog={tog}>Res. Rank</Th>
+              <Th col="resume_rank" sc={sc} ico={ico} tog={tog} style={{minWidth:'72px'}}>Res. Rank</Th>
               <Th col="wab"         sc={sc} ico={ico} tog={tog}>WAB</Th>
             </tr></thead>
             <tbody>
-              {rows.map(t => (
+              {rows.map((t, idx) => (
                 <tr key={t.team_id}>
-                  <td className="rc">{t.rank}</td>
-                  <td><span className="tl" onClick={() => nav(`#/team/${t.team_id}`)}>{t.full_team}</span></td>
+                  <td className="rc sticky-rank">{idx + 1}</td>
+                  <td className="sticky-team"><span className="tl" onClick={() => nav(`#/team/${t.team_id}`)}>{t.full_team}</span></td>
                   <td className="mono">{t.record}</td>
                   <td className="hc" style={hs(+t.rating, rn, rx)}>{(+t.rating).toFixed(1)}</td>
                   <td className="hc" style={hs(+t.off,    on, ox)}>{(+t.off).toFixed(1)}</td>
