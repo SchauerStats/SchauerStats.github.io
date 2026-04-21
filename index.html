@@ -100,8 +100,8 @@
       .sticky-rank { width:24px; min-width:24px; }
       .rc          { width:24px; min-width:24px; font-size:.62rem; }
       /* Numeric cells: very tight */
-      .hc          { font-size:.62rem; padding:.16rem .18rem !important; white-space:nowrap; }
-      .mono        { font-size:.62rem; white-space:nowrap; }
+      .hc          { font-size:.58rem; padding:.14rem .16rem !important; white-space:nowrap; }
+      .mono        { font-size:.58rem; white-space:nowrap; }
       /* Conference badge: compact */
       .cb          { font-size:.6rem; padding:.07rem .28rem; border-radius:3px; }
       /* Reduce page side padding to gain ~10px each side */
@@ -449,6 +449,10 @@ function RatingsPage({ nav }) {
   const [on,ox] = of.length ? [Math.min(...of), Math.max(...of)] : [0,1];
   const [dn,dx] = df.length ? [Math.min(...df), Math.max(...df)] : [0,1];
   const [wn,wx] = wb.length ? [Math.min(...wb), Math.max(...wb)] : [-1,1];
+  const wqa = rows.map(t => t.win_qual  != null ? +t.win_qual  : null).filter(v => v != null && isFinite(v));
+  const lqa = rows.map(t => t.loss_qual != null ? +t.loss_qual : null).filter(v => v != null && isFinite(v));
+  const [wqn,wqx] = wqa.length ? [Math.min(...wqa), Math.max(...wqa)] : [0,1];
+  const [lqn,lqx] = lqa.length ? [Math.min(...lqa), Math.max(...lqa)] : [-1,0];
 
   if (loading) return <Spin />;
   if (error)   return <ErrMsg m={error} />;
@@ -478,8 +482,8 @@ function RatingsPage({ nav }) {
               <Th col="def"        sc={sc} ico={ico} tog={tog}>Def</Th>
               <Th col="pace"       sc={sc} ico={ico} tog={tog}>Tempo</Th>
               <Th col="wab"        sc={sc} ico={ico} tog={tog}>WAB</Th>
-              <Th col="win_qual"   sc={sc} ico={ico} tog={tog} className="hide-mob-sm">Win Qual</Th>
-              <Th col="loss_qual"  sc={sc} ico={ico} tog={tog} className="hide-mob-sm">Loss Qual</Th>
+              <Th col="win_qual"   sc={sc} ico={ico} tog={tog}>Win Qual</Th>
+              <Th col="loss_qual"  sc={sc} ico={ico} tog={tog}>Loss Qual</Th>
             </tr></thead>
             <tbody>
               {rows.map((t, idx) => (
@@ -495,8 +499,8 @@ function RatingsPage({ nav }) {
                   <td className="hc" style={t.wab != null ? wabHs(+t.wab, wn, wx) : {}}>
                     {t.wab != null ? (t.wab >= 0 ? '+' : '') + (+t.wab).toFixed(1) : '-'}
                   </td>
-                  <td className="mono hide-mob-sm">{t.win_qual  != null ? (+t.win_qual).toFixed(1)  : '-'}</td>
-                  <td className="mono hide-mob-sm">{t.loss_qual != null ? (+t.loss_qual).toFixed(1) : '-'}</td>
+                  <td className="hc" style={t.win_qual  != null ? hs(+t.win_qual,  wqn, wqx)       : {}}>{t.win_qual  != null ? (+t.win_qual).toFixed(1)  : '-'}</td>
+                  <td className="hc" style={t.loss_qual != null ? hs(+t.loss_qual, lqn, lqx)       : {}}>{t.loss_qual != null ? (+t.loss_qual).toFixed(1) : '-'}</td>
                 </tr>
               ))}
             </tbody>
