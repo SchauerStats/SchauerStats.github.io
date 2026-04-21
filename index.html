@@ -100,8 +100,8 @@
       .sticky-rank { width:24px; min-width:24px; }
       .rc          { width:24px; min-width:24px; font-size:.62rem; }
       /* Numeric cells: very tight */
-      .hc          { font-size:.58rem; padding:.14rem .16rem !important; white-space:nowrap; }
-      .mono        { font-size:.58rem; white-space:nowrap; }
+      .hc          { font-size:.54rem; padding:.12rem .14rem !important; white-space:nowrap; }
+      .mono        { font-size:.54rem; white-space:nowrap; }
       /* Conference badge: compact */
       .cb          { font-size:.6rem; padding:.07rem .28rem; border-radius:3px; }
       /* Reduce page side padding to gain ~10px each side */
@@ -636,9 +636,9 @@ function AccuracyPage({ nav }) {
                 return (
                   <tr key={i}>
                     <td className="mono" style={{whiteSpace:'nowrap'}}>{fmtS(g.date)}</td>
-                    <td><span className={`tl${t1w?' win':''}`} onClick={() => nav(`#/team/${g.team_1_id}`)}>{g.team_1}</span></td>
+                    <td><span className="tl" onClick={() => nav(`#/team/${g.team_1_id}`)}>{g.team_1}</span></td>
                     <td style={{textAlign:'center',color:'var(--muted)',fontSize:'.7rem',padding:'.52rem .5rem'}}>{hfa}</td>
-                    <td><span className={`tl${t2w?' win':''}`} onClick={() => nav(`#/team/${g.team_2_id}`)}>{g.team_2}</span></td>
+                    <td><span className="tl" onClick={() => nav(`#/team/${g.team_2_id}`)}>{g.team_2}</span></td>
                     <td className="mono" style={{whiteSpace:'nowrap'}}>{Math.round(g.pred_score_1)}-{Math.round(g.pred_score_2)} <span style={{color:'var(--muted)',fontSize:'.69rem'}}>({+ps>0?'+':''}{ps})</span></td>
                     <td className="mono" style={{whiteSpace:'nowrap'}}><span className={t1w?'win':t2w?'loss':''}>{g.team_1_score}</span>-<span className={t2w?'win':t1w?'loss':''}>{g.team_2_score}</span> <span style={{color:'var(--muted)',fontSize:'.69rem'}}>({as_>0?'+':''}{as_})</span></td>
                     <td><span className="hc" style={{...errHs(g.error,stats.maxErr),padding:'.19rem .44rem',borderRadius:3,fontSize:'.74rem'}}>{g.error!=null?(+g.error).toFixed(1):'-'}</span></td>
@@ -1006,6 +1006,13 @@ function ConferencePage({ confId, nav }) {
     const idx = sorted.findIndex(c => c.conference_id === confId);
     return idx >= 0 ? idx + 1 : null;
   }, [data, confId]);
+  // Best national resume rank among teams in this conference
+  const bestResRank = useMemo(() => {
+    if (!data) return null;
+    const teams = (data[0]||[]).filter(t => t.conference_id === confId);
+    const ranks = teams.map(t => t.resume_rank).filter(v => v != null && isFinite(+v)).map(Number);
+    return ranks.length ? Math.min(...ranks) : null;
+  }, [data, confId]);
 
   const ra = rows.map(t => +t.rating).filter(isFinite);
   const of = rows.map(t => +t.off).filter(isFinite);
@@ -1033,6 +1040,8 @@ function ConferencePage({ confId, nav }) {
         <div className="cbs"><div className="val">{conf.team_count}</div><div className="lbl">Teams</div></div>
         <div className="cbs"><div className="val">#{confRank}</div><div className="lbl">Conf. Rank</div></div>
         <div className="cbs"><div className="val">{conf.avg_rating}</div><div className="lbl">Avg Rating</div></div>
+        <div className="cbs"><div className="val">#{conf.best_rank}</div><div className="lbl">Best Rtg Rank</div></div>
+        {bestResRank != null && <div className="cbs"><div className="val">#{bestResRank}</div><div className="lbl">Best Res. Rank</div></div>}
       </div>
       <div className="table-wrap">
         <div className="shint">Scroll right to see all columns &rarr;</div>
