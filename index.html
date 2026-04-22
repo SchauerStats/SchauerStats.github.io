@@ -341,11 +341,11 @@ function fmtL(d) { try { return new Date(d+'T12:00:00').toLocaleDateString('en-U
 function Spin()      { return <div className="spinner" />; }
 function ErrMsg({m}) { return <div className="errmsg">Could not load data: {m}<br/><small>Make sure data files are committed to your repo.</small></div>; }
 
-// SORTABLE TH
-function Th({ col, sc, ico, tog, children, style, className }) {
+// SORTABLE TH — 'tip' prop renders a native browser tooltip on hover
+function Th({ col, sc, ico, tog, children, style, className, tip }) {
   const cls = [sc===col ? 'sorted' : '', className||''].filter(Boolean).join(' ');
   return (
-    <th className={cls} onClick={() => tog(col)} style={style}>
+    <th className={cls} onClick={() => tog(col)} style={style} title={tip || undefined}>
       {children} <span className="si">{ico(col)}</span>
     </th>
   );
@@ -480,17 +480,17 @@ function RatingsPage({ nav }) {
         <div className="tscroll">
           <table>
             <thead><tr>
-              <Th col="rank"       sc={sc} ico={ico} tog={tog} style={{position:'sticky',left:0,zIndex:2,background:'var(--navy)'}}>Rank</Th>
-              <Th col="full_team"  sc={sc} ico={ico} tog={tog} style={{position:'sticky',zIndex:2,background:'var(--navy)',boxShadow:'2px 0 4px rgba(28,43,75,.12)'}}>Team</Th>
-              <Th col="conference" sc={sc} ico={ico} tog={tog}>Conf.</Th>
-              <Th col="record"     sc={sc} ico={ico} tog={tog}>Record</Th>
-              <Th col="rating"     sc={sc} ico={ico} tog={tog}>Rating</Th>
-              <Th col="off"        sc={sc} ico={ico} tog={tog}>Off</Th>
-              <Th col="def"        sc={sc} ico={ico} tog={tog}>Def</Th>
-              <Th col="pace"       sc={sc} ico={ico} tog={tog}>Tempo</Th>
-              <Th col="wab"        sc={sc} ico={ico} tog={tog}>WAB</Th>
-              <Th col="win_qual"   sc={sc} ico={ico} tog={tog}>Win Qual</Th>
-              <Th col="loss_qual"  sc={sc} ico={ico} tog={tog}>Loss Qual</Th>
+              <Th col="rank"       sc={sc} ico={ico} tog={tog} style={{position:'sticky',left:0,zIndex:2,background:'var(--navy)'}} tip="Rank for the current sort column">Rank</Th>
+              <Th col="full_team"  sc={sc} ico={ico} tog={tog} style={{position:'sticky',zIndex:2,background:'var(--navy)',boxShadow:'2px 0 4px rgba(28,43,75,.12)'}} tip="Team name — click to view team profile">Team</Th>
+              <Th col="conference" sc={sc} ico={ico} tog={tog} tip="Conference — click to view conference standings">Conf.</Th>
+              <Th col="record"     sc={sc} ico={ico} tog={tog} tip="Win-loss record for D3 games this season">Record</Th>
+              <Th col="rating"     sc={sc} ico={ico} tog={tog} tip="Predictive rating: opponent-adjusted net points per 100 possessions. Higher is better.">Rating</Th>
+              <Th col="off"        sc={sc} ico={ico} tog={tog} tip="Offensive rating: opponent-adjusted points scored per 100 possessions. Higher is better.">Off</Th>
+              <Th col="def"        sc={sc} ico={ico} tog={tog} tip="Defensive rating: opponent-adjusted points allowed per 100 possessions. Lower is better.">Def</Th>
+              <Th col="pace"       sc={sc} ico={ico} tog={tog} tip="Tempo: estimated possessions per 40 minutes">Tempo</Th>
+              <Th col="wab"        sc={sc} ico={ico} tog={tog} tip="Wins Above Bubble: how many more wins this team has than a hypothetical bubble-caliber team would earn against the same schedule">WAB</Th>
+              <Th col="win_qual"   sc={sc} ico={ico} tog={tog} tip="Win Quality: total WAB credit earned from wins only">Win Qual</Th>
+              <Th col="loss_qual"  sc={sc} ico={ico} tog={tog} tip="Loss Quality: total WAB penalty from losses (negative values are worse)">Loss Qual</Th>
             </tr></thead>
             <tbody>
               {rows.map((t, idx) => (
@@ -970,13 +970,13 @@ function ConferencesPage({ nav }) {
         <div className="tscroll">
           <table>
             <thead><tr>
-              <Th col="conference"  sc={sc} ico={ico} tog={tog}>Conference</Th>
-              <Th col="team_count"  sc={sc} ico={ico} tog={tog}>Teams</Th>
-              <Th col="avg_rating"  sc={sc} ico={ico} tog={tog}>Avg Rating</Th>
-              <Th col="avg_off"     sc={sc} ico={ico} tog={tog}>Avg Off</Th>
-              <Th col="avg_def"     sc={sc} ico={ico} tog={tog}>Avg Def</Th>
-              <Th col="avg_tempo"   sc={sc} ico={ico} tog={tog}>Avg Tempo</Th>
-              <Th col="avg_resume"  sc={sc} ico={ico} tog={tog}>Avg WAB</Th>
+              <Th col="conference"  sc={sc} ico={ico} tog={tog} tip="Conference name — click to view team standings">Conference</Th>
+              <Th col="team_count"  sc={sc} ico={ico} tog={tog} tip="Number of D3 teams in this conference">Teams</Th>
+              <Th col="avg_rating"  sc={sc} ico={ico} tog={tog} tip="Average predictive rating across all teams in the conference">Avg Rating</Th>
+              <Th col="avg_off"     sc={sc} ico={ico} tog={tog} tip="Average offensive rating: opponent-adjusted points scored per 100 possessions">Avg Off</Th>
+              <Th col="avg_def"     sc={sc} ico={ico} tog={tog} tip="Average defensive rating: opponent-adjusted points allowed per 100 possessions (lower is better)">Avg Def</Th>
+              <Th col="avg_tempo"   sc={sc} ico={ico} tog={tog} tip="Average tempo: estimated possessions per 40 minutes">Avg Tempo</Th>
+              <Th col="avg_resume"  sc={sc} ico={ico} tog={tog} tip="Average Wins Above Bubble across all teams in the conference">Avg WAB</Th>
             </tr></thead>
             <tbody>
               {rows.map(c => (
@@ -1053,16 +1053,16 @@ function ConferencePage({ confId, nav }) {
         <div className="tscroll">
           <table>
             <thead><tr>
-              <Th col="rank"        sc={sc} ico={ico} tog={tog} style={{position:'sticky',left:0,zIndex:2,background:'var(--navy)'}}>Rank</Th>
-              <Th col="full_team"   sc={sc} ico={ico} tog={tog} style={{position:'sticky',zIndex:2,background:'var(--navy)',boxShadow:'2px 0 4px rgba(28,43,75,.12)'}}>Team</Th>
-              <Th col="record"      sc={sc} ico={ico} tog={tog}>Record</Th>
-              <Th col="rating"      sc={sc} ico={ico} tog={tog}>Rating</Th>
-              <Th col="rank"        sc={sc} ico={ico} tog={tog}>Natl. Rtg</Th>
-              <Th col="resume_rank" sc={sc} ico={ico} tog={tog}>Natl. Res.</Th>
-              <Th col="off"         sc={sc} ico={ico} tog={tog}>Off</Th>
-              <Th col="def"         sc={sc} ico={ico} tog={tog}>Def</Th>
-              <Th col="pace"        sc={sc} ico={ico} tog={tog}>Tempo</Th>
-              <Th col="wab"         sc={sc} ico={ico} tog={tog}>WAB</Th>
+              <Th col="rank"        sc={sc} ico={ico} tog={tog} style={{position:'sticky',left:0,zIndex:2,background:'var(--navy)'}} tip="This team's rank within this conference for the current sort column">Rank</Th>
+              <Th col="full_team"   sc={sc} ico={ico} tog={tog} style={{position:'sticky',zIndex:2,background:'var(--navy)',boxShadow:'2px 0 4px rgba(28,43,75,.12)'}} tip="Team name">Team</Th>
+              <Th col="record"      sc={sc} ico={ico} tog={tog} tip="Win-loss record for D3 games this season">Record</Th>
+              <Th col="rating"      sc={sc} ico={ico} tog={tog} tip="Predictive rating: opponent-adjusted net points per 100 possessions. Higher is better.">Rating</Th>
+              <Th col="off"         sc={sc} ico={ico} tog={tog} tip="Offensive rating: opponent-adjusted points scored per 100 possessions. Higher is better.">Off</Th>
+              <Th col="def"         sc={sc} ico={ico} tog={tog} tip="Defensive rating: opponent-adjusted points allowed per 100 possessions. Lower is better.">Def</Th>
+              <Th col="pace"        sc={sc} ico={ico} tog={tog} tip="Tempo: estimated possessions per 40 minutes">Tempo</Th>
+              <Th col="wab"         sc={sc} ico={ico} tog={tog} tip="Wins Above Bubble: how many more wins this team has than a hypothetical bubble-caliber team would earn against the same schedule">WAB</Th>
+              <Th col="rank"        sc={sc} ico={ico} tog={tog} tip="National predictive rating rank among all D3 teams">Natl. Rtg</Th>
+              <Th col="resume_rank" sc={sc} ico={ico} tog={tog} tip="National resume rank (Wins Above Bubble) among all D3 teams">Natl. Res.</Th>
             </tr></thead>
             <tbody>
               {rows.map((t, idx) => (
@@ -1071,12 +1071,12 @@ function ConferencePage({ confId, nav }) {
                   <td className="sticky-team"><span className="tl" onClick={() => nav(`#/team/${t.team_id}`)}>{t.full_team}</span></td>
                   <td className="mono">{t.record}</td>
                   <td className="hc" style={hs(+t.rating, rn, rx)}>{(+t.rating).toFixed(1)}</td>
-                  <td className="rc">#{t.rank}</td>
-                  <td className="rc">{t.resume_rank ? `#${t.resume_rank}` : '-'}</td>
                   <td className="hc" style={hs(+t.off,    on, ox)}>{(+t.off).toFixed(1)}</td>
                   <td className="hc" style={hs(+t.def,    dn, dx, true)}>{(+t.def).toFixed(1)}</td>
                   <td className="mono">{(+t.pace).toFixed(1)}</td>
                   <td className="hc" style={t.wab!=null?wabHs(+t.wab,wn,wx):{}}>{t.wab!=null?(t.wab>=0?'+':'')+(+t.wab).toFixed(1):'-'}</td>
+                  <td className="rc">#{t.rank}</td>
+                  <td className="rc">{t.resume_rank ? `#${t.resume_rank}` : '-'}</td>
                 </tr>
               ))}
             </tbody>
