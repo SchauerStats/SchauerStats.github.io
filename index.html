@@ -158,17 +158,21 @@
     .home-wrap { padding:2.5rem 1.5rem 3rem; max-width:1200px; margin:0 auto; }
     .home-title { font-family:'Outfit',sans-serif; font-size:2rem; font-weight:800; color:var(--navy); margin-bottom:.4rem; }
     .home-sub { color:var(--muted); margin-bottom:2.25rem; font-size:.9rem; }
-    .card-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(255px,1fr)); gap:1.25rem; }
+    /* Desktop: 4 cards in one row. Mobile: 2x2. */
+    .card-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1.25rem; }
+    @media(max-width:680px) { .card-grid { grid-template-columns:repeat(2,1fr); } }
     .card { background:var(--white); border-radius:10px; border:1px solid var(--border); overflow:hidden;
             cursor:pointer; transition:transform .15s, box-shadow .15s; }
     .card:hover { transform:translateY(-2px); box-shadow:0 6px 20px rgba(28,43,75,.1); }
-    .card-img { height:125px; background:var(--bg); overflow:hidden; }
-    .card-img svg { width:100%; height:100%; }
-    .card-body { padding:1rem 1.2rem 1.3rem; }
-    .card-body h3 { font-family:'Outfit',sans-serif; font-weight:700; font-size:.93rem; color:var(--navy); margin-bottom:.3rem; }
-    .card-body p { color:var(--muted); font-size:.81rem; line-height:1.55; margin-bottom:1rem; }
-    .card-btn { background:var(--navy); color:#fff; border:none; border-radius:7px; padding:.58rem 1rem;
-                font-family:'IBM Plex Sans',sans-serif; font-size:.81rem; font-weight:500; cursor:pointer; width:100%; }
+    /* Icon area: solid navy panel, centered white icon */
+    .card-icon { height:100px; background:var(--navy); display:flex; align-items:center; justify-content:center; }
+    .card-icon svg { width:44px; height:44px; }
+    @media(max-width:680px) { .card-icon { height:80px; } .card-icon svg { width:36px; height:36px; } }
+    .card-body { padding:.875rem 1rem 1.1rem; }
+    .card-body h3 { font-family:'Outfit',sans-serif; font-weight:700; font-size:.88rem; color:var(--navy); margin-bottom:.25rem; }
+    .card-body p { color:var(--muted); font-size:.76rem; line-height:1.5; margin-bottom:.875rem; }
+    .card-btn { background:var(--navy); color:#fff; border:none; border-radius:7px; padding:.52rem .875rem;
+                font-family:'IBM Plex Sans',sans-serif; font-size:.78rem; font-weight:500; cursor:pointer; width:100%; }
     .card-btn:hover { background:var(--navy2); }
 
     /* TEAM PAGE */
@@ -380,48 +384,85 @@ function Nav({ nav, hash }) {
 }
 
 // HOME
-function BellSVG() {
-  const pts = []; for (let x=-3.5; x<=3.5; x+=.1) pts.push([x, Math.exp(-.5*x*x)/Math.sqrt(2*Math.PI)]);
-  const d = 'M ' + pts.map(([x,y]) => `${((x+3.5)/7)*230+10},${115-y*275}`).join(' L ');
-  return <svg viewBox="0 0 250 125" xmlns="http://www.w3.org/2000/svg"><rect width="250" height="125" fill="#eaecf4"/><path d={d} fill="none" stroke="#1C2B4B" strokeWidth="2.2"/></svg>;
-}
-function SigmoidSVG() {
-  const sig = x => 1/(1+Math.exp(-x));
-  const lp = []; for (let x=-5; x<=5; x+=.2) lp.push(`${((x+5)/10)*230+10},${110-sig(x)*90-5}`);
-  const dots = [-4,-3,-2,-1.2,-.4,.4,1.2,2,3,4];
-  return (
-    <svg viewBox="0 0 250 125" xmlns="http://www.w3.org/2000/svg">
-      <rect width="250" height="125" fill="#eaecf4"/>
-      <path d={'M ' + lp.join(' L ')} fill="none" stroke="#6b7280" strokeWidth="1.5" strokeDasharray="5,3"/>
-      {dots.map((x,i) => { const cy=110-Math.min(1,Math.max(0,sig(x)+(Math.sin(x*5)*.03)))*90-5; return <circle key={i} cx={((x+5)/10)*230+10} cy={cy} r="3.5" fill="#1C2B4B" opacity=".8"/>; })}
-    </svg>
-  );
-}
-function BarsSVG() {
-  const vs=[38,55,72,90,110,140,162,142,115,85,60];
-  return <svg viewBox="0 0 250 125" xmlns="http://www.w3.org/2000/svg"><rect width="250" height="125" fill="#eaecf4"/>{vs.map((h,i)=><rect key={i} x={10+i*21} y={120-h} width="16" height={h} rx="2" fill={`rgba(28,43,75,${.28+i/vs.length*.6})`}/>)}</svg>;
-}
-function ScatterSVG() {
-  const pts=[[30,88],[55,68],[80,102],[110,82],[140,58],[170,92],[200,72],[225,48],[55,38],[130,108]];
-  return <svg viewBox="0 0 250 125" xmlns="http://www.w3.org/2000/svg"><rect width="250" height="125" fill="#eaecf4"/><line x1="10" y1="10" x2="240" y2="115" stroke="#9ca3af" strokeWidth="1.5" strokeDasharray="4,3"/>{pts.map(([x,y],i)=>{const e=Math.abs(y-(10+x*(105/230)));return <circle key={i} cx={x} cy={y} r="4" fill={e<25?'#16a34a':'#dc2626'} opacity=".8"/>;})}</svg>;
-}
+// Clean white-on-navy SVG icons, no charts
 function HomePage({ nav }) {
   const cards = [
-    { title:'D3 Predictive Ratings',  desc:'Opponent-adjusted ratings covering offense, defense, and tempo for all 400+ D3 teams.', btn:'View Ratings',     href:'#/ratings',     Svg:BellSVG },
-    { title:'Score Predictions',       desc:'Pre-game score predictions for upcoming games based on team ratings.',                   btn:'View Predictions', href:'#/predictions', Svg:SigmoidSVG },
-    { title:'Prediction Accuracy',     desc:'Compare predicted vs. actual scores — see where the model excels and misses.',          btn:'View Accuracy',   href:'#/accuracy',    Svg:ScatterSVG },
-    { title:'D3 Conferences',          desc:'Conference standings ranked by average rating with links to each conference page.',      btn:'View Conferences', href:'#/conferences', Svg:BarsSVG },
+    {
+      title: 'D3 Predictive Ratings',
+      desc:  'Opponent-adjusted ratings for all 400+ D3 teams — offense, defense, and tempo.',
+      btn:   'View Ratings',
+      href:  '#/ratings',
+      // Icon: ranked list with medal/trophy bars
+      icon: (
+        <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="6"  y="24" width="8" height="14" rx="1.5" fill="white" opacity=".55"/>
+          <rect x="18" y="16" width="8" height="22" rx="1.5" fill="white"/>
+          <rect x="30" y="20" width="8" height="18" rx="1.5" fill="white" opacity=".7"/>
+          <rect x="8"  y="8"  width="28" height="1.5" rx=".75" fill="white" opacity=".25"/>
+        </svg>
+      ),
+    },
+    {
+      title: 'Score Predictions',
+      desc:  'Pre-game score predictions for upcoming games based on team ratings.',
+      btn:   'View Predictions',
+      href:  '#/predictions',
+      // Icon: two columns with an arrow between them (home vs away scores)
+      icon: (
+        <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="4"  y="12" width="15" height="20" rx="2" stroke="white" strokeWidth="1.75" opacity=".8"/>
+          <rect x="25" y="12" width="15" height="20" rx="2" stroke="white" strokeWidth="1.75" opacity=".8"/>
+          <text x="11.5" y="26" textAnchor="middle" fontSize="9" fontWeight="700" fill="white" fontFamily="monospace">72</text>
+          <text x="32.5" y="26" textAnchor="middle" fontSize="9" fontWeight="700" fill="white" fontFamily="monospace" opacity=".6">65</text>
+          <line x1="21" y1="22" x2="23" y2="22" stroke="white" strokeWidth="1.5" opacity=".5"/>
+        </svg>
+      ),
+    },
+    {
+      title: 'Prediction Accuracy',
+      desc:  'Compare predicted vs. actual scores and see how well the model performs.',
+      btn:   'View Accuracy',
+      href:  '#/accuracy',
+      // Icon: target / bullseye
+      icon: (
+        <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="22" cy="22" r="15" stroke="white" strokeWidth="1.75" opacity=".4"/>
+          <circle cx="22" cy="22" r="9"  stroke="white" strokeWidth="1.75" opacity=".7"/>
+          <circle cx="22" cy="22" r="3.5" fill="white"/>
+          <line x1="30" y1="8" x2="25.2" y2="19.5" stroke="white" strokeWidth="1.5" opacity=".6"/>
+          <polygon points="30,6 34,12 28,11" fill="white" opacity=".6"/>
+        </svg>
+      ),
+    },
+    {
+      title: 'D3 Conferences',
+      desc:  'Conference standings ranked by average rating with links to each conference.',
+      btn:   'View Conferences',
+      href:  '#/conferences',
+      // Icon: simple org/group — three nodes connected
+      icon: (
+        <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="22" cy="10" r="4"   fill="white"/>
+          <circle cx="10" cy="32" r="4"   fill="white" opacity=".7"/>
+          <circle cx="34" cy="32" r="4"   fill="white" opacity=".7"/>
+          <line x1="22" y1="14" x2="12"  y2="28" stroke="white" strokeWidth="1.5" opacity=".5"/>
+          <line x1="22" y1="14" x2="32"  y2="28" stroke="white" strokeWidth="1.5" opacity=".5"/>
+          <line x1="14" y1="32" x2="30"  y2="32" stroke="white" strokeWidth="1.5" opacity=".4"/>
+        </svg>
+      ),
+    },
   ];
   return (
     <div className="home-wrap">
-      <h1 className="home-title">D3 Men's Basketball</h1>
-      <p className="home-sub">Ratings, predictions, and resume scores for all Division III teams</p>
+      <h1 className="home-title">Schauer Stats</h1>
+      <p className="home-sub">D3 men's basketball ratings, predictions, and resume scores</p>
       <div className="card-grid">
         {cards.map(c => (
           <div key={c.href} className="card" onClick={() => nav(c.href)}>
-            <div className="card-img"><c.Svg/></div>
+            <div className="card-icon">{c.icon}</div>
             <div className="card-body">
-              <h3>{c.title}</h3><p>{c.desc}</p>
+              <h3>{c.title}</h3>
+              <p>{c.desc}</p>
               <button className="card-btn" onClick={e => { e.stopPropagation(); nav(c.href); }}>{c.btn}</button>
             </div>
           </div>
@@ -958,7 +999,7 @@ function ConferencesPage({ nav }) {
   const [oLo,oHi]   = avgOff.length   ? [Math.min(...avgOff),   Math.max(...avgOff)]   : [0,1];
   const [dLo,dHi]   = avgDef.length   ? [Math.min(...avgDef),   Math.max(...avgDef)]   : [0,1];
   const [rLo,rHi]   = avgRat.length   ? [Math.min(...avgRat),   Math.max(...avgRat)]   : [0,1];
-  const [tLo,tHi]   = avgTempo.length ? [Math.min(...avgTempo), Math.max(...avgTempo)] : [0,1];
+  // tLo/tHi removed — tempo column no longer uses conditional formatting
   const [resLo,resHi] = avgRes.length ? [Math.min(...avgRes),   Math.max(...avgRes)]   : [0,1];
 
   return (
@@ -986,7 +1027,7 @@ function ConferencesPage({ nav }) {
                   <td className="hc" style={hs(c.avg_rating, rLo, rHi)}>{c.avg_rating ?? '-'}</td>
                   <td className="hc" style={hs(c.avg_off,    oLo, oHi)}>{c.avg_off    ?? '-'}</td>
                   <td className="hc" style={hs(c.avg_def,    dLo, dHi, true)}>{c.avg_def ?? '-'}</td>
-                  <td className="hc" style={hs(c.avg_tempo,  tLo, tHi)}>{c.avg_tempo  ?? '-'}</td>
+                  <td className="mono">{c.avg_tempo ?? '-'}</td>
                   <td className="hc" style={c.avg_resume != null ? hs(c.avg_resume, resLo, resHi) : {}}>{c.avg_resume ?? '-'}</td>
                 </tr>
               ))}
