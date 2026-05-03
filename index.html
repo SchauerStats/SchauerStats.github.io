@@ -538,7 +538,7 @@ function RatingsPage({ nav }) {
           <table>
             <thead><tr>
               <Th col="rank"       sc={sc} ico={ico} tog={tog} style={{position:'sticky',left:0,zIndex:2,background:'var(--navy)'}} tip="Rank for the current sort column">Rank</Th>
-              <Th col="full_team"  sc={sc} ico={ico} tog={tog} style={{position:'sticky',zIndex:2,background:'var(--navy)',boxShadow:'2px 0 4px rgba(28,43,75,.12)'}} tip="Team name — click to view team profile">Team</Th>
+              <Th col="full_team"  sc={sc} ico={ico} tog={tog} className="sticky-team" style={{zIndex:2,background:'var(--navy)',boxShadow:'2px 0 4px rgba(28,43,75,.12)'}} tip="Team name — click to view team profile">Team</Th>
               <Th col="conference" sc={sc} ico={ico} tog={tog} tip="Conference — click to view conference standings">Conf.</Th>
               <Th col="record"     sc={sc} ico={ico} tog={tog} tip="Win-loss record for D3 games this season">Record</Th>
               <Th col="rating"     sc={sc} ico={ico} tog={tog} tip="Predictive rating: opponent-adjusted net points per 100 possessions. Higher is better.">Rating</Th>
@@ -1111,7 +1111,7 @@ function ConferencePage({ confId, nav }) {
           <table>
             <thead><tr>
               <Th col="rank"        sc={sc} ico={ico} tog={tog} style={{position:'sticky',left:0,zIndex:2,background:'var(--navy)'}} tip="This team's rank within this conference for the current sort column">Rank</Th>
-              <Th col="full_team"   sc={sc} ico={ico} tog={tog} style={{position:'sticky',zIndex:2,background:'var(--navy)',boxShadow:'2px 0 4px rgba(28,43,75,.12)'}} tip="Team name">Team</Th>
+              <Th col="full_team"   sc={sc} ico={ico} tog={tog} className="sticky-team" style={{zIndex:2,background:'var(--navy)',boxShadow:'2px 0 4px rgba(28,43,75,.12)'}} tip="Team name">Team</Th>
               <Th col="record"      sc={sc} ico={ico} tog={tog} tip="Win-loss record for D3 games this season">Record</Th>
               <Th col="rating"      sc={sc} ico={ico} tog={tog} tip="Predictive rating: opponent-adjusted net points per 100 possessions. Higher is better.">Rating</Th>
               <Th col="off"         sc={sc} ico={ico} tog={tog} tip="Offensive rating: opponent-adjusted points scored per 100 possessions. Higher is better.">Off</Th>
