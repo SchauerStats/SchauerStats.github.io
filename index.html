@@ -29,14 +29,15 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --navy:      #1C2B4B;
-      --navy2:     #243460;
-      --bg:        #F0F2F6;
+      --navy:      #081F2C;
+      --navy2:     #0F3249;
+      --bg:        #EEF3F7;
       --white:     #FFFFFF;
-      --border:    #DDE1EA;
-      --text:      #111827;
-      --muted:     #6B7280;
-      --accent:    #3B5BDB;
+      --border:    #D0D9E3;
+      --text:      #0D1B26;
+      --muted:     #5A7080;
+      --accent:    #00AEEF;
+      --cyan:      #00AEEF;
       --win:       #16a34a;
       --loss:      #dc2626;
       --nav-h:     52px;
@@ -55,7 +56,7 @@
                 padding:.45rem .7rem; border-radius:5px; letter-spacing:.04em; text-transform:uppercase;
                 white-space:nowrap; transition:color .12s, background .12s; }
     .nav-link:hover { color:#fff; background:rgba(255,255,255,.08); }
-    .nav-link.active { color:#fff; }
+    .nav-link.active { color:#fff; border-bottom:2px solid var(--cyan); padding-bottom:calc(.45rem - 2px); }
     .nav-toggle { display:none; background:none; border:none; cursor:pointer; padding:.25rem; color:#fff; line-height:1; }
     @media (max-width:680px) {
       .nav-links { display:none; flex-direction:column; position:absolute; top:var(--nav-h);
@@ -98,7 +99,7 @@
     thead th.sorted .si { opacity:1; }
     tbody tr { border-bottom:1px solid var(--border); transition:background .08s; }
     tbody tr:last-child { border-bottom:none; }
-    tbody tr:hover { background:#f5f7fc; }
+    tbody tr:hover { background:#EBF4FA; }
     tbody td { padding:.52rem .85rem; font-size:.83rem; }
     .rc { color:var(--muted); font-family:'IBM Plex Mono',monospace; font-size:.75rem; width:42px; }
 
@@ -148,7 +149,7 @@
       position: sticky; left: 42px; z-index: 1;
       background: var(--white);
       /* subtle right shadow to show content is scrolling under */
-      box-shadow: 2px 0 4px rgba(28,43,75,.06);
+      box-shadow: 2px 0 4px rgba(8,31,44,.06);
     }
     thead tr .sticky-rank,
     thead tr .sticky-team {
@@ -157,11 +158,11 @@
     }
     tbody tr:hover .sticky-rank,
     tbody tr:hover .sticky-team {
-      background: #f5f7fc;
+      background: #EBF4FA;
     }
     .tl { color:var(--navy); font-weight:600; cursor:pointer; }
     .tl:hover { color:var(--accent); text-decoration:underline; }
-    .cb { display:inline-block; background:#EEF1F9; color:var(--navy2); border-radius:4px;
+    .cb { display:inline-block; background:#E0EDF5; color:var(--navy2); border-radius:4px;
           padding:.11rem .42rem; font-size:.69rem; font-weight:600; cursor:pointer; white-space:nowrap; }
     .cb:hover { background:#dce2f4; }
     .hc { font-family:'IBM Plex Mono',monospace; font-size:.77rem; border-radius:3px;
@@ -179,7 +180,7 @@
     @media(max-width:680px) { .card-grid { grid-template-columns:repeat(2,1fr); } }
     .card { background:var(--white); border-radius:10px; border:1px solid var(--border); overflow:hidden;
             cursor:pointer; transition:transform .15s, box-shadow .15s; }
-    .card:hover { transform:translateY(-2px); box-shadow:0 6px 20px rgba(28,43,75,.1); }
+    .card:hover { transform:translateY(-2px); box-shadow:0 6px 20px rgba(8,31,44,.1); }
     /* Icon area: solid navy panel, centered white icon */
     .card-icon { height:100px; background:var(--navy); display:flex; align-items:center; justify-content:center; }
     .card-icon svg { width:44px; height:44px; }
@@ -237,10 +238,7 @@
     .ppts { font-family:'IBM Plex Mono',monospace; font-size:.79rem; color:var(--muted); white-space:nowrap; }
 
     /* ACCURACY */
-    .acc-stats { display:flex; gap:.7rem; margin-bottom:1.4rem; flex-wrap:wrap; }
-    .astat { background:var(--white); border:1px solid var(--border); border-radius:8px; padding:.8rem 1rem; flex:1; min-width:105px; }
-    .astat .val { font-family:'Outfit',sans-serif; font-size:1.4rem; font-weight:700; color:var(--navy); line-height:1; }
-    .astat .lbl { font-size:.64rem; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; margin-top:.18rem; }
+
 
     /* CONFERENCES */
     .chdr { background:var(--navy); border-radius:10px; padding:1.4rem 1.5rem; color:#fff;
@@ -257,7 +255,7 @@
     footer a { color:var(--navy); font-weight:500; text-decoration:none; }
     footer a:hover { color:var(--accent); text-decoration:underline; }
 
-    .spinner { width:28px; height:28px; border:2.5px solid var(--border); border-top-color:var(--navy);
+    .spinner { width:28px; height:28px; border:2.5px solid var(--border); border-top-color:var(--cyan);
                border-radius:50%; animation:spin .7s linear infinite; margin:3rem auto; }
     @keyframes spin { to { transform:rotate(360deg); } }
     .errmsg { text-align:center; padding:3rem 1rem; color:var(--muted); font-size:.9rem; line-height:1.6; }
@@ -321,10 +319,10 @@ function hs(val, min, max, rev = false) {
   let t = (val - min) / (max - min);
   if (rev) t = 1 - t;
   t = Math.max(0, Math.min(1, t));
-  const r = Math.round(28  + (220-28)  * (1-t));
-  const g = Math.round(43  + (230-43)  * (1-t));
-  const b = Math.round(75  + (255-75)  * (1-t));
-  return { background: `rgb(${r},${g},${b})`, color: t > .5 ? '#fff' : '#111827' };
+  const r = Math.round(8   + (200-8)   * (1-t));
+  const g = Math.round(31  + (225-31)  * (1-t));
+  const b = Math.round(44  + (255-44)  * (1-t));
+  return { background: `rgb(${r},${g},${b})`, color: t > .5 ? '#fff' : '#0D1B26' };
 }
 function wabHs(val, min, max) {
   // Same navy-blue scale as hs() but centered on zero:
@@ -538,7 +536,7 @@ function RatingsPage({ nav }) {
           <table>
             <thead><tr>
               <Th col="rank"       sc={sc} ico={ico} tog={tog} style={{position:'sticky',left:0,zIndex:2,background:'var(--navy)'}} tip="Rank for the current sort column"></Th>
-              <Th col="full_team"  sc={sc} ico={ico} tog={tog} className="sticky-team" style={{zIndex:2,background:'var(--navy)',boxShadow:'2px 0 4px rgba(28,43,75,.12)'}} tip="Team name — click to view team profile">Team</Th>
+              <Th col="full_team"  sc={sc} ico={ico} tog={tog} className="sticky-team" style={{zIndex:2,background:'var(--navy)',boxShadow:'2px 0 4px rgba(8,31,44,.12)'}} tip="Team name — click to view team profile">Team</Th>
               <Th col="conference" sc={sc} ico={ico} tog={tog} tip="Conference — click to view conference standings">Conf.</Th>
               <Th col="record"     sc={sc} ico={ico} tog={tog} tip="Win-loss record for D3 games this season">Record</Th>
               <Th col="rating"     sc={sc} ico={ico} tog={tog} tip="Predictive rating: opponent-adjusted net points per 100 possessions. Higher is better.">Rating</Th>
@@ -672,11 +670,6 @@ function AccuracyPage({ nav }) {
     <div className="page">
       <h1 className="page-title">2025-26 Prediction Accuracy</h1>
       <p className="page-sub">Predicted vs. actual scores for all completed games &middot; Click a team name to see their profile</p>
-      <div className="acc-stats">
-        {[{val:stats.mae,lbl:'Mean Abs. Error'},{val:stats.n,lbl:'Games Predicted'},{val:stats.w5,lbl:'Within 5 pts'},{val:stats.w10,lbl:'Within 10 pts'},{val:stats.pct10,lbl:'Within 10 pts %'}].map(s => (
-          <div key={s.lbl} className="astat"><div className="val">{s.val}</div><div className="lbl">{s.lbl}</div></div>
-        ))}
-      </div>
       <div className="table-wrap">
         <div className="toolbar">
           <input className="srch" placeholder="Search teams..." value={search} onChange={e => setSearch(e.target.value)} />
@@ -761,10 +754,10 @@ function RHChart({ history }) {
       })}
       <line x1={P.l} y1={P.t} x2={P.l} y2={H-P.b} stroke="#DDE1EA" strokeWidth="1"/>
       <line x1={P.l} y1={H-P.b} x2={W-P.r} y2={H-P.b} stroke="#DDE1EA" strokeWidth="1"/>
-      <path d={'M ' + pts.map(p => p.join(',')).join(' L ')} fill="none" stroke="#1C2B4B" strokeWidth="2" strokeLinejoin="round"/>
+      <path d={'M ' + pts.map(p => p.join(',')).join(' L ')} fill="none" stroke="#081F2C" strokeWidth="2" strokeLinejoin="round"/>
       {pts.map(([x,y],i) => (
         <g key={i}>
-          <circle cx={x} cy={y} r="4" fill="#3B5BDB" stroke="#fff" strokeWidth="1.5"/>
+          <circle cx={x} cy={y} r="4" fill="#00AEEF" stroke="#fff" strokeWidth="1.5"/>
           <title>{history[i].season}: {history[i].rating} (Off {history[i].off} / Def {history[i].def})</title>
         </g>
       ))}
@@ -812,10 +805,10 @@ function WABChart({ history }) {
       })}
       <line x1={P.l} y1={P.t} x2={P.l} y2={H-P.b} stroke="#DDE1EA" strokeWidth="1"/>
       <line x1={P.l} y1={H-P.b} x2={W-P.r} y2={H-P.b} stroke="#DDE1EA" strokeWidth="1"/>
-      <path d={'M ' + pts.map(p => p.join(',')).join(' L ')} fill="none" stroke="#1C2B4B" strokeWidth="2" strokeLinejoin="round"/>
+      <path d={'M ' + pts.map(p => p.join(',')).join(' L ')} fill="none" stroke="#081F2C" strokeWidth="2" strokeLinejoin="round"/>
       {pts.map(([x,y],i) => (
         <g key={i}>
-          <circle cx={x} cy={y} r="4" fill="#3B5BDB" stroke="#fff" strokeWidth="1.5"/>
+          <circle cx={x} cy={y} r="4" fill="#00AEEF" stroke="#fff" strokeWidth="1.5"/>
           <title>{wabData[i].season}: {wabData[i].wab > 0 ? '+' : ''}{wabData[i].wab} WAB</title>
         </g>
       ))}
@@ -1115,7 +1108,7 @@ function ConferencePage({ confId, nav }) {
           <table>
             <thead><tr>
               <Th col="rank"        sc={sc} ico={ico} tog={tog} style={{position:'sticky',left:0,zIndex:2,background:'var(--navy)'}} tip="This team's rank within this conference for the current sort column">Rank</Th>
-              <Th col="full_team"   sc={sc} ico={ico} tog={tog} className="sticky-team" style={{zIndex:2,background:'var(--navy)',boxShadow:'2px 0 4px rgba(28,43,75,.12)'}} tip="Team name">Team</Th>
+              <Th col="full_team"   sc={sc} ico={ico} tog={tog} className="sticky-team" style={{zIndex:2,background:'var(--navy)',boxShadow:'2px 0 4px rgba(8,31,44,.12)'}} tip="Team name">Team</Th>
               <Th col="record"      sc={sc} ico={ico} tog={tog} tip="Win-loss record for D3 games this season">Record</Th>
               <Th col="rating"      sc={sc} ico={ico} tog={tog} tip="Predictive rating: opponent-adjusted net points per 100 possessions. Higher is better.">Rating</Th>
               <Th col="off"         sc={sc} ico={ico} tog={tog} tip="Offensive rating: opponent-adjusted points scored per 100 possessions. Higher is better.">Off</Th>
