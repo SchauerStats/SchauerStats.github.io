@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Schauer Stats | D3 Men's Basketball Ratings</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231C2B4B'/%3E%3Crect x='5'  y='20' width='6' height='8' rx='1' fill='white' opacity='.55'/%3E%3Crect x='13' y='13' width='6' height='15' rx='1' fill='white'/%3E%3Crect x='21' y='16' width='6' height='12' rx='1' fill='white' opacity='.75'/%3E%3C/svg%3E" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23081F2C'/%3E%3Crect x='5'  y='20' width='6' height='8' rx='1' fill='white' opacity='.55'/%3E%3Crect x='13' y='13' width='6' height='15' rx='1' fill='white'/%3E%3Crect x='21' y='16' width='6' height='12' rx='1' fill='white' opacity='.75'/%3E%3C/svg%3E" />
   <meta name="description" content="Schauer Stats — computer ratings, score predictions, and resume quality (wins above bubble) for all NCAA Division III men's basketball teams. Opponent-adjusted predictive ratings updated throughout the season." />
   <meta name="keywords" content="D3 basketball ratings, Division III men's basketball, D3 computer ratings, NCAA D3 basketball rankings, D3 basketball predictions, wins above bubble D3, D3 basketball analytics, predictive ratings D3, D3 mens basketball computer ratings" />
   <meta name="author" content="Jacob Schauer" />
@@ -49,7 +49,7 @@
     /* NAV */
     nav { background: var(--navy); height: var(--nav-h); display: flex; align-items: center;
           padding: 0 1.5rem; position: sticky; top: 0; z-index: 200; box-shadow: 0 1px 8px rgba(0,0,0,.3); }
-    .nav-brand { font-family:'Outfit',sans-serif; font-weight:800; font-size:1rem; color:#fff;
+    .nav-brand { font-family:'Outfit',sans-serif; font-weight:800; font-size:1rem; color:var(--cyan);
                  cursor:pointer; white-space:nowrap; margin-right:auto; padding-right:1rem; }
     .nav-links { display:flex; }
     .nav-link { color:rgba(255,255,255,.7); font-size:.74rem; font-weight:500; cursor:pointer;
@@ -73,10 +73,10 @@
     .page-sub { color:var(--muted); font-size:.8rem; margin-bottom:1.5rem; line-height:1.5; }
     .back-btn { display:inline-flex; align-items:center; gap:.3rem; color:var(--muted); font-size:.8rem;
                 cursor:pointer; margin-bottom:1.25rem; background:none; border:none; padding:0; }
-    .back-btn:hover { color:var(--navy); }
+    .back-btn:hover { color:var(--cyan); }
 
     /* TABLES */
-    .table-wrap { background:var(--white); border-radius:10px; border:1px solid var(--border); overflow:hidden; }
+    .table-wrap { background:var(--white); border-radius:10px; border:1px solid var(--border); border-top:2px solid var(--cyan); overflow:hidden; }
     .toolbar { padding:.7rem 1rem; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
     .srch { border:1px solid var(--border); border-radius:6px; padding:.38rem .75rem;
             font-family:'IBM Plex Sans',sans-serif; font-size:.82rem; outline:none;
@@ -96,7 +96,7 @@
                text-align:left; white-space:nowrap; cursor:pointer; user-select:none; }
     thead th:hover { color:#fff; }
     thead th .si { margin-left:.2em; opacity:.5; font-size:.65em; }
-    thead th.sorted .si { opacity:1; }
+    thead th.sorted .si { opacity:1; color:var(--cyan); }
     tbody tr { border-bottom:1px solid var(--border); transition:background .08s; }
     tbody tr:last-child { border-bottom:none; }
     tbody tr:hover { background:#EBF4FA; }
@@ -135,9 +135,9 @@
 
     /* Section header inside games card */
     .games-section-hdr {
-      padding:.32rem 1rem; background:var(--bg); font-size:.67rem; font-weight:600;
+      padding:.32rem 1rem .32rem 1.2rem; background:var(--bg); font-size:.67rem; font-weight:600;
       color:var(--muted); letter-spacing:.06em; text-transform:uppercase;
-      border-bottom:1px solid var(--border);
+      border-bottom:1px solid var(--border); border-left:2px solid var(--cyan);
     }
 
     /* Sticky first two columns in ratings table */
@@ -180,7 +180,7 @@
     @media(max-width:680px) { .card-grid { grid-template-columns:repeat(2,1fr); } }
     .card { background:var(--white); border-radius:10px; border:1px solid var(--border); overflow:hidden;
             cursor:pointer; transition:transform .15s, box-shadow .15s; }
-    .card:hover { transform:translateY(-2px); box-shadow:0 6px 20px rgba(8,31,44,.1); }
+    .card:hover { transform:translateY(-2px); box-shadow:0 6px 20px rgba(8,31,44,.1); border-color:var(--cyan); }
     /* Icon area: solid navy panel, centered white icon */
     .card-icon { height:100px; background:var(--navy); display:flex; align-items:center; justify-content:center; border-bottom:2px solid var(--cyan); }
     .card-icon svg { width:44px; height:44px; }
@@ -189,8 +189,8 @@
     .card-body h3 { font-family:'Outfit',sans-serif; font-weight:700; font-size:.88rem; color:var(--navy); margin-bottom:.25rem; }
     .card-body p { color:var(--muted); font-size:.76rem; line-height:1.5; margin-bottom:.875rem; }
     .card-btn { background:var(--navy); color:#fff; border:none; border-radius:7px; padding:.52rem .875rem;
-                font-family:'IBM Plex Sans',sans-serif; font-size:.78rem; font-weight:500; cursor:pointer; width:100%; }
-    .card-btn:hover { background:var(--navy2); }
+                font-family:'IBM Plex Sans',sans-serif; font-size:.78rem; font-weight:500; cursor:pointer; width:100%; transition:background .15s, color .15s; }
+    .card-btn:hover { background:var(--cyan); color:var(--navy); }
 
     /* TEAM PAGE */
     .team-banner { background:var(--navy); color:#fff; border-radius:10px; padding:1.4rem 1.5rem; margin-bottom:1.2rem; border-bottom:2px solid var(--cyan); }
@@ -202,7 +202,7 @@
     .bstat .lbl { font-size:.62rem; color:rgba(255,255,255,.55); letter-spacing:.07em; text-transform:uppercase; margin-top:.18rem; }
     .stat-row { display:flex; gap:.7rem; margin-bottom:1.2rem; flex-wrap:wrap; }
     .sbox { background:var(--white); border:1px solid var(--border); border-radius:8px; padding:.7rem .95rem; flex:1; min-width:95px; }
-    .sbox .val { font-family:'IBM Plex Mono',monospace; font-size:1.15rem; color:var(--navy); line-height:1; }
+    .sbox .val { font-family:'IBM Plex Mono',monospace; font-size:1.15rem; color:var(--cyan); line-height:1; }
     .sbox .lbl { font-size:.62rem; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; margin-top:.18rem; }
     .cbox { background:var(--white); border-radius:10px; border:1px solid var(--border); overflow:hidden; margin-bottom:1.2rem; }
     .box-hdr { padding:.65rem 1rem; border-bottom:1px solid var(--border); font-size:.77rem; font-weight:600; color:var(--navy); border-left:2px solid var(--cyan); padding-left:.875rem;
@@ -222,7 +222,7 @@
     .muted-c { color:var(--muted); }
     .empty { padding:1.2rem 1rem; color:var(--muted); font-size:.81rem; }
     .sbtn { font-size:.68rem; padding:.15rem .45rem; border-radius:3px; border:1px solid var(--border); cursor:pointer; background:transparent; color:var(--muted); }
-    .sbtn.active { background:var(--navy); color:#fff; border-color:var(--navy); }
+    .sbtn.active { background:var(--cyan); color:var(--navy); border-color:var(--cyan); font-weight:600; }
 
     /* PREDICTIONS */
     .dhdr { padding:.38rem 1rem; background:var(--bg); font-size:.67rem; font-weight:600;
@@ -252,7 +252,7 @@
       text-align:center; padding:1.5rem 1rem; font-size:.78rem; color:var(--muted);
       border-top:1px solid var(--border); background:var(--bg);
     }
-    footer a { color:var(--navy); font-weight:500; text-decoration:none; }
+    footer a { color:var(--cyan); font-weight:500; text-decoration:none; }
     footer a:hover { color:var(--accent); text-decoration:underline; }
 
     .spinner { width:28px; height:28px; border:2.5px solid var(--border); border-top-color:var(--cyan);
