@@ -69,7 +69,7 @@
 
     /* LAYOUT */
     .page { padding:2rem 1.5rem; max-width:1200px; margin:0 auto; width:100%; flex:1; }
-    .page-title { font-family:'Outfit',sans-serif; font-size:1.5rem; font-weight:800; color:var(--navy); margin-bottom:.25rem; }
+    .page-title { font-family:'Outfit',sans-serif; font-size:1.5rem; font-weight:800; color:var(--navy); margin-bottom:.25rem; padding-left:.75rem; border-left:3px solid var(--cyan); }
     .page-sub { color:var(--muted); font-size:.8rem; margin-bottom:1.5rem; line-height:1.5; }
     .back-btn { display:inline-flex; align-items:center; gap:.3rem; color:var(--muted); font-size:.8rem;
                 cursor:pointer; margin-bottom:1.25rem; background:none; border:none; padding:0; }
@@ -90,7 +90,7 @@
     .shint { display:none; font-size:.7rem; color:var(--muted); padding:.3rem 1rem; border-bottom:1px solid var(--border); }
     @media(max-width:680px) { .shint { display:block; } }
     table { width:100%; border-collapse:collapse; min-width:520px; }
-    thead tr { background:var(--navy); }
+    thead tr { background:var(--navy); border-bottom:2px solid var(--cyan); }
     thead th { padding:.58rem .85rem; font-family:'Outfit',sans-serif; font-size:.63rem; font-weight:700;
                color:rgba(255,255,255,.8); letter-spacing:.08em; text-transform:uppercase;
                text-align:left; white-space:nowrap; cursor:pointer; user-select:none; }
@@ -173,7 +173,7 @@
 
     /* HOME */
     .home-wrap { padding:2.5rem 1.5rem 3rem; max-width:1200px; margin:0 auto; }
-    .home-title { font-family:'Outfit',sans-serif; font-size:2rem; font-weight:800; color:var(--navy); margin-bottom:.4rem; }
+    .home-title { font-family:'Outfit',sans-serif; font-size:2rem; font-weight:800; color:var(--navy); margin-bottom:.4rem; padding-bottom:.5rem; border-bottom:3px solid var(--cyan); display:inline-block; }
     .home-sub { color:var(--muted); margin-bottom:2.25rem; font-size:.9rem; }
     /* Desktop: 4 cards in one row. Mobile: 2x2. */
     .card-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1.25rem; }
@@ -182,7 +182,7 @@
             cursor:pointer; transition:transform .15s, box-shadow .15s; }
     .card:hover { transform:translateY(-2px); box-shadow:0 6px 20px rgba(8,31,44,.1); }
     /* Icon area: solid navy panel, centered white icon */
-    .card-icon { height:100px; background:var(--navy); display:flex; align-items:center; justify-content:center; }
+    .card-icon { height:100px; background:var(--navy); display:flex; align-items:center; justify-content:center; border-bottom:2px solid var(--cyan); }
     .card-icon svg { width:44px; height:44px; }
     @media(max-width:680px) { .card-icon { height:80px; } .card-icon svg { width:36px; height:36px; } }
     .card-body { padding:.875rem 1rem 1.1rem; }
@@ -193,19 +193,19 @@
     .card-btn:hover { background:var(--navy2); }
 
     /* TEAM PAGE */
-    .team-banner { background:var(--navy); color:#fff; border-radius:10px; padding:1.4rem 1.5rem; margin-bottom:1.2rem; }
+    .team-banner { background:var(--navy); color:#fff; border-radius:10px; padding:1.4rem 1.5rem; margin-bottom:1.2rem; border-bottom:2px solid var(--cyan); }
     .team-banner h1 { font-family:'Outfit',sans-serif; font-size:1.5rem; font-weight:800; margin-bottom:.2rem; line-height:1.2; }
     .conf-link { color:rgba(255,255,255,.6); font-size:.8rem; cursor:pointer; }
     .conf-link:hover { color:#fff; text-decoration:underline; }
     .banner-stats { display:flex; gap:1.5rem; margin-top:.9rem; flex-wrap:wrap; }
-    .bstat .val { font-family:'IBM Plex Mono',monospace; font-size:1.25rem; color:#fff; line-height:1; }
+    .bstat .val { font-family:'IBM Plex Mono',monospace; font-size:1.25rem; color:var(--cyan); line-height:1; }
     .bstat .lbl { font-size:.62rem; color:rgba(255,255,255,.55); letter-spacing:.07em; text-transform:uppercase; margin-top:.18rem; }
     .stat-row { display:flex; gap:.7rem; margin-bottom:1.2rem; flex-wrap:wrap; }
     .sbox { background:var(--white); border:1px solid var(--border); border-radius:8px; padding:.7rem .95rem; flex:1; min-width:95px; }
     .sbox .val { font-family:'IBM Plex Mono',monospace; font-size:1.15rem; color:var(--navy); line-height:1; }
     .sbox .lbl { font-size:.62rem; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; margin-top:.18rem; }
     .cbox { background:var(--white); border-radius:10px; border:1px solid var(--border); overflow:hidden; margin-bottom:1.2rem; }
-    .box-hdr { padding:.65rem 1rem; border-bottom:1px solid var(--border); font-size:.77rem; font-weight:600; color:var(--navy);
+    .box-hdr { padding:.65rem 1rem; border-bottom:1px solid var(--border); font-size:.77rem; font-weight:600; color:var(--navy); border-left:2px solid var(--cyan); padding-left:.875rem;
                display:flex; justify-content:space-between; align-items:center; }
     .box-body { padding:.8rem 1rem; }
     .two-col { display:grid; grid-template-columns:1fr 1fr; gap:1.2rem; }
@@ -241,10 +241,10 @@
 
 
     /* CONFERENCES */
-    .chdr { background:var(--navy); border-radius:10px; padding:1.4rem 1.5rem; color:#fff;
+    .chdr { background:var(--navy); border-radius:10px; padding:1.4rem 1.5rem; color:#fff; border-bottom:2px solid var(--cyan);
             margin-bottom:1.2rem; display:flex; align-items:center; gap:2rem; flex-wrap:wrap; }
     .chdr h1 { font-family:'Outfit',sans-serif; font-size:1.4rem; font-weight:800; flex:1; }
-    .cbs .val { font-family:'IBM Plex Mono',monospace; font-size:1.25rem; color:#fff; line-height:1; }
+    .cbs .val { font-family:'IBM Plex Mono',monospace; font-size:1.25rem; color:var(--cyan); line-height:1; }
     .cbs .lbl { font-size:.62rem; color:rgba(255,255,255,.55); text-transform:uppercase; letter-spacing:.07em; margin-top:.18rem; }
 
     /* MISC */
@@ -325,15 +325,14 @@ function hs(val, min, max, rev = false) {
   return { background: `rgb(${r},${g},${b})`, color: t > .5 ? '#fff' : '#0D1B26' };
 }
 function wabHs(val, min, max) {
-  // Same navy-blue scale as hs() but centered on zero:
-  // high positive WAB = dark navy, near-zero = mid, highly negative = light
+  // Navy-to-light scale matching hs(), updated to new palette (dark=#081F2C)
   if (val == null || !isFinite(min) || !isFinite(max) || min === max) return {};
   let t = (val - min) / (max - min);
   t = Math.max(0, Math.min(1, t));
-  const r = Math.round(28  + (220-28)  * (1-t));
-  const g = Math.round(43  + (230-43)  * (1-t));
-  const b = Math.round(75  + (255-75)  * (1-t));
-  return { background: `rgb(${r},${g},${b})`, color: t > .5 ? '#fff' : '#111827' };
+  const r = Math.round(8   + (200-8)   * (1-t));
+  const g = Math.round(31  + (225-31)  * (1-t));
+  const b = Math.round(44  + (255-44)  * (1-t));
+  return { background: `rgb(${r},${g},${b})`, color: t > .5 ? '#fff' : '#0D1B26' };
 }
 function errHs(val, max) {
   const t = Math.min(val / (max||1), 1);
