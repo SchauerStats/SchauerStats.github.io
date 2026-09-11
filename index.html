@@ -173,22 +173,27 @@
     .loss { color:var(--loss); font-weight:600; }
 
     /* HOME */
-    .home-wrap { padding:2.5rem 1.5rem 3rem; max-width:1200px; margin:0 auto; }
+    .home-wrap { padding:2.5rem 1.5rem 2rem; max-width:1200px; margin:0 auto; width:100%; }
     .home-title { font-family:'Outfit',sans-serif; font-size:2rem; font-weight:800; color:var(--navy); margin-bottom:.4rem; padding-bottom:.5rem; border-bottom:3px solid var(--cyan); display:inline-block; }
     .home-sub { color:var(--muted); margin-bottom:2.25rem; font-size:.9rem; }
     /* Desktop: 4 cards in one row. Mobile: 2x2. */
     .card-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1.25rem; }
     @media(max-width:680px) { .card-grid { grid-template-columns:repeat(2,1fr); } }
+    @media(min-width:681px) {
+      /* Make home page fill the full viewport height on desktop */
+      .home-wrap { display:flex; flex-direction:column; flex:1; }
+      .card-grid  { flex:1; align-content:stretch; }
+    }
     .card { background:var(--white); border-radius:10px; border:1px solid var(--border); overflow:hidden;
-            cursor:pointer; transition:transform .15s, box-shadow .15s; }
+            cursor:pointer; transition:transform .15s, box-shadow .15s; display:flex; flex-direction:column; }
     .card:hover { transform:translateY(-2px); box-shadow:0 6px 20px rgba(8,31,44,.1); border-color:var(--cyan); }
     /* Icon area: solid navy panel, centered white icon */
     .card-icon { height:100px; background:var(--navy); display:flex; align-items:center; justify-content:center; border-bottom:2px solid var(--cyan); }
     .card-icon svg { width:44px; height:44px; }
     @media(max-width:680px) { .card-icon { height:80px; } .card-icon svg { width:36px; height:36px; } }
-    .card-body { padding:.875rem 1rem 1.1rem; }
+    .card-body { padding:.875rem 1rem 1.1rem; flex:1; display:flex; flex-direction:column; }
     .card-body h3 { font-family:'Outfit',sans-serif; font-weight:700; font-size:.88rem; color:var(--navy); margin-bottom:.25rem; }
-    .card-body p { color:var(--muted); font-size:.76rem; line-height:1.5; margin-bottom:.875rem; }
+    .card-body p { color:var(--muted); font-size:.76rem; line-height:1.5; margin-bottom:.875rem; flex:1; }
     .card-btn { background:var(--navy); color:#fff; border:none; border-radius:7px; padding:.52rem .875rem;
                 font-family:'IBM Plex Sans',sans-serif; font-size:.78rem; font-weight:500; cursor:pointer; width:100%; transition:background .15s, color .15s; }
     .card-btn:hover { background:var(--cyan); color:var(--navy); }
@@ -521,7 +526,7 @@ function RatingsPage({ nav }) {
 
   return (
     <div className="page">
-      <h1 className="page-title">D3 Men's Basketball Ratings</h1>
+      <h1 className="page-title">2025-26 D3 Men's Basketball Ratings</h1>
       <p className="page-sub">Predictive ratings and resume quality (wins above bubble) for all D3 teams &middot; Click a team name for their full profile &middot; Data from stats.ncaa.org</p>
       <div className="table-wrap">
         <div className="toolbar">
@@ -668,7 +673,7 @@ function AccuracyPage({ nav }) {
 
   return (
     <div className="page">
-      <h1 className="page-title">Prediction Accuracy</h1>
+      <h1 className="page-title">2025-26 Prediction Accuracy</h1>
       <p className="page-sub">Predicted vs. actual scores for all completed games &middot; Click a team name to see their profile</p>
       <div className="table-wrap">
         <div className="toolbar">
