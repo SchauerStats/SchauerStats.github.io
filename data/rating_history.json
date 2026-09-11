@@ -147,7 +147,7 @@
     "def":99.12,
     "rating":13.05,
     "pace":75.84,
-    "wab":0.992
+    "wab":1.207
   },
   {
     "team_id":"albertus-magnus",
@@ -157,7 +157,7 @@
     "def":104.15,
     "rating":5.44,
     "pace":78.8,
-    "wab":-1.526
+    "wab":-1.477
   },
   {
     "team_id":"albertus-magnus",
@@ -167,7 +167,7 @@
     "def":101.34,
     "rating":12.29,
     "pace":77.05,
-    "wab":2.242
+    "wab":2.387
   },
   {
     "team_id":"albertus-magnus",
@@ -177,7 +177,7 @@
     "def":97.7,
     "rating":12.67,
     "pace":80.82,
-    "wab":2.087
+    "wab":2.179
   },
   {
     "team_id":"albertus-magnus",
@@ -187,7 +187,7 @@
     "def":105.76,
     "rating":1.55,
     "pace":78.75,
-    "wab":-2.357
+    "wab":-2.216
   },
   {
     "team_id":"albertus-magnus",
@@ -197,7 +197,7 @@
     "def":102.73,
     "rating":4.97,
     "pace":78.67,
-    "wab":-1.38
+    "wab":-1.338
   },
   {
     "team_id":"albertus-magnus",
@@ -207,7 +207,7 @@
     "def":101.4,
     "rating":4.76,
     "pace":76.73,
-    "wab":-2.381
+    "wab":-2.263
   },
   {
     "team_id":"albertus-magnus",
@@ -217,7 +217,7 @@
     "def":105.46,
     "rating":2.77,
     "pace":77.51,
-    "wab":-3.23
+    "wab":-3.285
   },
   {
     "team_id":"albertus-magnus",
@@ -227,7 +227,7 @@
     "def":100.22,
     "rating":7.54,
     "pace":79.18,
-    "wab":-0.428
+    "wab":-0.282
   },
   {
     "team_id":"albertus-magnus",
@@ -237,7 +237,7 @@
     "def":101.99,
     "rating":3.31,
     "pace":76.07,
-    "wab":-3.526
+    "wab":-3.464
   },
   {
     "team_id":"albertus-magnus",
@@ -247,7 +247,7 @@
     "def":98.18,
     "rating":8.6,
     "pace":79.23,
-    "wab":-2.912
+    "wab":-2.782
   },
   {
     "team_id":"albertus-magnus",
@@ -257,7 +257,7 @@
     "def":94.5,
     "rating":10.19,
     "pace":78.29,
-    "wab":-0.667
+    "wab":-0.602
   },
   {
     "team_id":"albertus-magnus",
@@ -267,7 +267,7 @@
     "def":100.53,
     "rating":4.85,
     "pace":75.59,
-    "wab":-4.562
+    "wab":-4.422
   },
   {
     "team_id":"albertus-magnus",
@@ -497,7 +497,7 @@
     "def":95.27,
     "rating":1.25,
     "pace":73.47,
-    "wab":-11.367
+    "wab":-11.364
   },
   {
     "team_id":"albright",
@@ -527,7 +527,7 @@
     "def":101.1,
     "rating":-0.89,
     "pace":75.63,
-    "wab":-10.61
+    "wab":-10.435
   },
   {
     "team_id":"albright",
@@ -597,7 +597,7 @@
     "def":103.29,
     "rating":-0.42,
     "pace":71.0,
-    "wab":-4.762
+    "wab":-4.667
   },
   {
     "team_id":"alfred",
@@ -1127,7 +1127,7 @@
     "def":94.34,
     "rating":8.22,
     "pace":68.77,
-    "wab":-2.72
+    "wab":-2.87
   },
   {
     "team_id":"alvernia",
@@ -1197,7 +1197,7 @@
     "def":103.7,
     "rating":-1.45,
     "pace":65.9,
-    "wab":-10.27
+    "wab":-10.18
   },
   {
     "team_id":"alvernia",
@@ -1207,7 +1207,7 @@
     "def":99.63,
     "rating":3.87,
     "pace":71.03,
-    "wab":-8.555
+    "wab":-8.386
   },
   {
     "team_id":"alvernia",
@@ -1217,7 +1217,7 @@
     "def":98.6,
     "rating":5.77,
     "pace":75.09,
-    "wab":-3.225
+    "wab":-3.293
   },
   {
     "team_id":"alvernia",
@@ -1247,7 +1247,7 @@
     "def":103.14,
     "rating":2.01,
     "pace":71.86,
-    "wab":-7.32
+    "wab":-7.343
   },
   {
     "team_id":"alvernia",
@@ -1267,7 +1267,7 @@
     "def":92.7,
     "rating":24.74,
     "pace":70.55,
-    "wab":4.951
+    "wab":5.007
   },
   {
     "team_id":"amherst",
@@ -1277,7 +1277,7 @@
     "def":94.22,
     "rating":26.67,
     "pace":72.35,
-    "wab":6.998
+    "wab":7.023
   },
   {
     "team_id":"amherst",
@@ -1287,7 +1287,7 @@
     "def":96.18,
     "rating":23.46,
     "pace":71.59,
-    "wab":5.687
+    "wab":5.759
   },
   {
     "team_id":"amherst",
@@ -1297,7 +1297,7 @@
     "def":95.17,
     "rating":17.17,
     "pace":70.84,
-    "wab":-0.435
+    "wab":-0.323
   },
   {
     "team_id":"amherst",
@@ -1307,7 +1307,7 @@
     "def":93.26,
     "rating":20.57,
     "pace":71.34,
-    "wab":2.835
+    "wab":2.885
   },
   {
     "team_id":"amherst",
@@ -1317,7 +1317,7 @@
     "def":94.75,
     "rating":16.79,
     "pace":70.14,
-    "wab":-1.001
+    "wab":-0.845
   },
   {
     "team_id":"amherst",
@@ -1327,7 +1327,7 @@
     "def":88.79,
     "rating":18.97,
     "pace":71.25,
-    "wab":-1.169
+    "wab":-1.1
   },
   {
     "team_id":"amherst",
@@ -1337,7 +1337,7 @@
     "def":86.64,
     "rating":24.28,
     "pace":71.26,
-    "wab":3.774
+    "wab":3.922
   },
   {
     "team_id":"amherst",
@@ -1357,7 +1357,7 @@
     "def":89.19,
     "rating":15.6,
     "pace":69.89,
-    "wab":-2.623
+    "wab":-2.504
   },
   {
     "team_id":"amherst",
@@ -1377,7 +1377,7 @@
     "def":92.74,
     "rating":8.54,
     "pace":68.34,
-    "wab":-3.762
+    "wab":-3.697
   },
   {
     "team_id":"amherst",
@@ -1540,146 +1540,6 @@
     "wab":-3.867
   },
   {
-    "team_id":"anna-maria",
-    "full_team":"Anna Maria",
-    "season":2012,
-    "off":94.67,
-    "def":103.5,
-    "rating":-8.83,
-    "pace":67.32,
-    "wab":-10.804
-  },
-  {
-    "team_id":"anna-maria",
-    "full_team":"Anna Maria",
-    "season":2013,
-    "off":99.24,
-    "def":100.84,
-    "rating":-1.59,
-    "pace":71.71,
-    "wab":-5.83
-  },
-  {
-    "team_id":"anna-maria",
-    "full_team":"Anna Maria",
-    "season":2014,
-    "off":97.43,
-    "def":111.48,
-    "rating":-14.04,
-    "pace":69.13,
-    "wab":-12.942
-  },
-  {
-    "team_id":"anna-maria",
-    "full_team":"Anna Maria",
-    "season":2015,
-    "off":99.59,
-    "def":109.6,
-    "rating":-10.01,
-    "pace":71.04,
-    "wab":-9.723
-  },
-  {
-    "team_id":"anna-maria",
-    "full_team":"Anna Maria",
-    "season":2016,
-    "off":100.83,
-    "def":108.18,
-    "rating":-7.35,
-    "pace":77.27,
-    "wab":-8.029
-  },
-  {
-    "team_id":"anna-maria",
-    "full_team":"Anna Maria",
-    "season":2017,
-    "off":93.88,
-    "def":114.22,
-    "rating":-20.33,
-    "pace":71.26,
-    "wab":-16.986
-  },
-  {
-    "team_id":"anna-maria",
-    "full_team":"Anna Maria",
-    "season":2018,
-    "off":96.07,
-    "def":108.97,
-    "rating":-12.9,
-    "pace":73.07,
-    "wab":-12.255
-  },
-  {
-    "team_id":"anna-maria",
-    "full_team":"Anna Maria",
-    "season":2019,
-    "off":94.28,
-    "def":110.82,
-    "rating":-16.54,
-    "pace":71.82,
-    "wab":-14.416
-  },
-  {
-    "team_id":"anna-maria",
-    "full_team":"Anna Maria",
-    "season":2020,
-    "off":101.49,
-    "def":109.26,
-    "rating":-7.77,
-    "pace":71.74,
-    "wab":-11.119
-  },
-  {
-    "team_id":"anna-maria",
-    "full_team":"Anna Maria",
-    "season":2022,
-    "off":92.54,
-    "def":102.99,
-    "rating":-10.45,
-    "pace":76.61,
-    "wab":-7.803
-  },
-  {
-    "team_id":"anna-maria",
-    "full_team":"Anna Maria",
-    "season":2023,
-    "off":90.61,
-    "def":103.6,
-    "rating":-12.99,
-    "pace":73.58,
-    "wab":-13.49
-  },
-  {
-    "team_id":"anna-maria",
-    "full_team":"Anna Maria",
-    "season":2024,
-    "off":91.83,
-    "def":103.36,
-    "rating":-11.52,
-    "pace":76.25,
-    "wab":-12.887
-  },
-  {
-    "team_id":"anna-maria",
-    "full_team":"Anna Maria",
-    "season":2025,
-    "off":94.79,
-    "def":110.04,
-    "rating":-15.25,
-    "pace":71.01,
-    "wab":-13.006
-  },
-  {
-    "team_id":"anna-maria",
-    "full_team":"Anna Maria",
-    "season":2026,
-    "off":90.69,
-    "def":111.53,
-    "rating":-20.84,
-    "pace":73.1,
-    "wab":-16.776
-  },
-  {
     "team_id":"arcadia",
     "full_team":"Arcadia",
     "season":2012,
@@ -1687,7 +1547,7 @@
     "def":104.7,
     "rating":-4.13,
     "pace":67.49,
-    "wab":-11.147
+    "wab":-11.082
   },
   {
     "team_id":"arcadia",
@@ -1717,7 +1577,7 @@
     "def":101.84,
     "rating":8.37,
     "pace":69.07,
-    "wab":-7.04
+    "wab":-7.01
   },
   {
     "team_id":"arcadia",
@@ -1737,7 +1597,7 @@
     "def":105.05,
     "rating":0.62,
     "pace":74.91,
-    "wab":-11.003
+    "wab":-10.99
   },
   {
     "team_id":"arcadia",
@@ -1747,7 +1607,7 @@
     "def":98.6,
     "rating":5.68,
     "pace":72.29,
-    "wab":-7.542
+    "wab":-7.618
   },
   {
     "team_id":"arcadia",
@@ -1757,7 +1617,7 @@
     "def":95.32,
     "rating":13.16,
     "pace":71.77,
-    "wab":-0.151
+    "wab":-0.381
   },
   {
     "team_id":"arcadia",
@@ -2847,7 +2707,7 @@
     "def":96.5,
     "rating":14.66,
     "pace":71.76,
-    "wab":-0.295
+    "wab":-0.246
   },
   {
     "team_id":"babson",
@@ -2857,7 +2717,7 @@
     "def":90.05,
     "rating":23.43,
     "pace":72.32,
-    "wab":5.724
+    "wab":5.806
   },
   {
     "team_id":"babson",
@@ -2887,7 +2747,7 @@
     "def":96.43,
     "rating":16.52,
     "pace":72.32,
-    "wab":-0.17
+    "wab":-0.119
   },
   {
     "team_id":"babson",
@@ -2997,7 +2857,7 @@
     "def":101.33,
     "rating":11.09,
     "pace":68.98,
-    "wab":-4.332
+    "wab":-4.566
   },
   {
     "team_id":"baldwin-wallace",
@@ -3267,7 +3127,7 @@
     "def":104.36,
     "rating":-1.34,
     "pace":69.58,
-    "wab":-10.518
+    "wab":-10.749
   },
   {
     "team_id":"baruch",
@@ -3287,7 +3147,7 @@
     "def":97.22,
     "rating":2.18,
     "pace":66.87,
-    "wab":-8.363
+    "wab":-8.485
   },
   {
     "team_id":"baruch",
@@ -3307,7 +3167,7 @@
     "def":96.9,
     "rating":-0.88,
     "pace":71.77,
-    "wab":-7.977
+    "wab":-8.052
   },
   {
     "team_id":"baruch",
@@ -3327,7 +3187,7 @@
     "def":101.64,
     "rating":-0.65,
     "pace":69.37,
-    "wab":-3.767
+    "wab":-3.695
   },
   {
     "team_id":"baruch",
@@ -3337,7 +3197,7 @@
     "def":102.53,
     "rating":0.18,
     "pace":70.51,
-    "wab":-5.424
+    "wab":-5.263
   },
   {
     "team_id":"baruch",
@@ -3347,7 +3207,7 @@
     "def":107.27,
     "rating":-4.56,
     "pace":70.28,
-    "wab":-8.506
+    "wab":-8.42
   },
   {
     "team_id":"baruch",
@@ -3497,7 +3357,7 @@
     "def":95.05,
     "rating":15.93,
     "pace":71.07,
-    "wab":0.659
+    "wab":0.774
   },
   {
     "team_id":"batten",
@@ -4567,7 +4427,7 @@
     "def":104.74,
     "rating":5.54,
     "pace":77.87,
-    "wab":-3.415
+    "wab":-3.326
   },
   {
     "team_id":"bethany-lutheran",
@@ -5097,7 +4957,7 @@
     "def":102.9,
     "rating":3.04,
     "pace":69.66,
-    "wab":-5.209
+    "wab":-5.127
   },
   {
     "team_id":"bowdoin",
@@ -5107,7 +4967,7 @@
     "def":101.24,
     "rating":6.81,
     "pace":69.01,
-    "wab":-3.499
+    "wab":-3.369
   },
   {
     "team_id":"bowdoin",
@@ -5117,7 +4977,7 @@
     "def":99.71,
     "rating":7.61,
     "pace":68.29,
-    "wab":-2.992
+    "wab":-2.916
   },
   {
     "team_id":"bowdoin",
@@ -5127,7 +4987,7 @@
     "def":105.65,
     "rating":-2.53,
     "pace":69.46,
-    "wab":-9.964
+    "wab":-9.869
   },
   {
     "team_id":"bowdoin",
@@ -5467,7 +5327,7 @@
     "def":98.7,
     "rating":-0.12,
     "pace":69.12,
-    "wab":-7.024
+    "wab":-6.968
   },
   {
     "team_id":"bridgewater-state",
@@ -5477,7 +5337,7 @@
     "def":101.66,
     "rating":-2.25,
     "pace":72.65,
-    "wab":-10.254
+    "wab":-10.23
   },
   {
     "team_id":"bridgewater-state",
@@ -5487,7 +5347,7 @@
     "def":102.28,
     "rating":0.99,
     "pace":70.86,
-    "wab":-7.332
+    "wab":-7.26
   },
   {
     "team_id":"bridgewater-state",
@@ -5497,7 +5357,7 @@
     "def":103.7,
     "rating":2.81,
     "pace":70.85,
-    "wab":-3.625
+    "wab":-3.728
   },
   {
     "team_id":"bridgewater-state",
@@ -5507,7 +5367,7 @@
     "def":102.05,
     "rating":-6.49,
     "pace":69.89,
-    "wab":-9.032
+    "wab":-8.964
   },
   {
     "team_id":"bridgewater-state",
@@ -5557,7 +5417,7 @@
     "def":108.92,
     "rating":-19.69,
     "pace":74.52,
-    "wab":-15.711
+    "wab":-15.65
   },
   {
     "team_id":"bridgewater-state",
@@ -5577,7 +5437,7 @@
     "def":100.44,
     "rating":2.36,
     "pace":76.57,
-    "wab":-7.743
+    "wab":-7.621
   },
   {
     "team_id":"bridgewater-state",
@@ -5587,7 +5447,7 @@
     "def":108.97,
     "rating":-8.32,
     "pace":73.3,
-    "wab":-11.502
+    "wab":-11.399
   },
   {
     "team_id":"bridgewater-state",
@@ -5597,7 +5457,7 @@
     "def":114.71,
     "rating":-13.39,
     "pace":78.09,
-    "wab":-15.081
+    "wab":-14.842
   },
   {
     "team_id":"bridgewater-va",
@@ -5677,7 +5537,7 @@
     "def":97.24,
     "rating":0.56,
     "pace":76.24,
-    "wab":-7.641
+    "wab":-7.875
   },
   {
     "team_id":"bridgewater-va",
@@ -5887,7 +5747,7 @@
     "def":94.93,
     "rating":2.74,
     "pace":77.01,
-    "wab":-6.149
+    "wab":-6.299
   },
   {
     "team_id":"brooklyn",
@@ -5917,7 +5777,7 @@
     "def":98.86,
     "rating":5.64,
     "pace":75.61,
-    "wab":-3.569
+    "wab":-3.698
   },
   {
     "team_id":"brooklyn",
@@ -5927,7 +5787,7 @@
     "def":100.83,
     "rating":3.89,
     "pace":76.19,
-    "wab":-3.605
+    "wab":-3.791
   },
   {
     "team_id":"brooklyn",
@@ -5957,7 +5817,7 @@
     "def":99.78,
     "rating":-8.44,
     "pace":71.67,
-    "wab":-10.742
+    "wab":-10.57
   },
   {
     "team_id":"brooklyn",
@@ -5987,7 +5847,7 @@
     "def":108.01,
     "rating":-24.72,
     "pace":71.49,
-    "wab":-17.281
+    "wab":-17.154
   },
   {
     "team_id":"brooklyn",
@@ -5997,7 +5857,7 @@
     "def":108.62,
     "rating":-23.36,
     "pace":68.31,
-    "wab":-15.947
+    "wab":-15.93
   },
   {
     "team_id":"brooklyn",
@@ -6007,7 +5867,7 @@
     "def":106.9,
     "rating":-17.99,
     "pace":66.24,
-    "wab":-12.113
+    "wab":-12.135
   },
   {
     "team_id":"brooklyn",
@@ -6017,7 +5877,7 @@
     "def":107.66,
     "rating":-23.85,
     "pace":69.0,
-    "wab":-13.584
+    "wab":-13.583
   },
   {
     "team_id":"buena-vista",
@@ -6207,7 +6067,7 @@
     "def":99.0,
     "rating":7.0,
     "pace":78.95,
-    "wab":-4.736
+    "wab":-4.968
   },
   {
     "team_id":"buffalo-state",
@@ -6307,7 +6167,7 @@
     "def":113.35,
     "rating":-28.57,
     "pace":72.4,
-    "wab":-16.037
+    "wab":-15.853
   },
   {
     "team_id":"cairn",
@@ -6317,7 +6177,7 @@
     "def":115.87,
     "rating":-34.09,
     "pace":72.78,
-    "wab":-19.821
+    "wab":-19.622
   },
   {
     "team_id":"cairn",
@@ -6327,7 +6187,7 @@
     "def":116.7,
     "rating":-26.85,
     "pace":73.07,
-    "wab":-20.082
+    "wab":-19.928
   },
   {
     "team_id":"cairn",
@@ -6337,7 +6197,7 @@
     "def":108.37,
     "rating":-24.7,
     "pace":67.86,
-    "wab":-18.635
+    "wab":-18.422
   },
   {
     "team_id":"cairn",
@@ -6347,7 +6207,7 @@
     "def":109.07,
     "rating":-15.26,
     "pace":72.47,
-    "wab":-12.18
+    "wab":-11.976
   },
   {
     "team_id":"cairn",
@@ -6357,7 +6217,7 @@
     "def":108.18,
     "rating":-15.45,
     "pace":69.44,
-    "wab":-14.91
+    "wab":-14.768
   },
   {
     "team_id":"cairn",
@@ -6367,7 +6227,7 @@
     "def":112.2,
     "rating":-14.72,
     "pace":70.81,
-    "wab":-13.969
+    "wab":-14.092
   },
   {
     "team_id":"cairn",
@@ -6377,7 +6237,7 @@
     "def":111.18,
     "rating":-8.59,
     "pace":73.17,
-    "wab":-7.117
+    "wab":-7.019
   },
   {
     "team_id":"cairn",
@@ -6387,7 +6247,7 @@
     "def":108.37,
     "rating":-5.68,
     "pace":75.83,
-    "wab":-7.324
+    "wab":-6.851
   },
   {
     "team_id":"cairn",
@@ -6397,7 +6257,7 @@
     "def":108.57,
     "rating":-13.59,
     "pace":68.91,
-    "wab":-8.755
+    "wab":-8.196
   },
   {
     "team_id":"cairn",
@@ -6407,7 +6267,7 @@
     "def":105.71,
     "rating":-10.01,
     "pace":69.9,
-    "wab":-6.281
+    "wab":-5.806
   },
   {
     "team_id":"cairn",
@@ -6417,7 +6277,7 @@
     "def":112.54,
     "rating":-16.22,
     "pace":75.08,
-    "wab":-9.827
+    "wab":-9.329
   },
   {
     "team_id":"cairn",
@@ -6427,7 +6287,7 @@
     "def":110.78,
     "rating":-12.77,
     "pace":72.44,
-    "wab":-11.522
+    "wab":-11.182
   },
   {
     "team_id":"cairn",
@@ -6437,7 +6297,7 @@
     "def":105.27,
     "rating":-0.36,
     "pace":74.69,
-    "wab":-3.98
+    "wab":-3.723
   },
   {
     "team_id":"cal-lutheran",
@@ -6527,7 +6387,7 @@
     "def":108.16,
     "rating":-16.62,
     "pace":67.56,
-    "wab":-14.565
+    "wab":-14.501
   },
   {
     "team_id":"cal-lutheran",
@@ -7957,7 +7817,7 @@
     "def":109.24,
     "rating":-15.87,
     "pace":68.92,
-    "wab":-14.014
+    "wab":-13.949
   },
   {
     "team_id":"castleton",
@@ -7967,7 +7827,7 @@
     "def":107.17,
     "rating":-14.38,
     "pace":76.49,
-    "wab":-15.874
+    "wab":-15.733
   },
   {
     "team_id":"castleton",
@@ -8407,7 +8267,7 @@
     "def":107.07,
     "rating":-12.3,
     "pace":78.23,
-    "wab":-10.574
+    "wab":-10.389
   },
   {
     "team_id":"centenary-n-j",
@@ -8417,7 +8277,7 @@
     "def":105.29,
     "rating":-11.01,
     "pace":70.91,
-    "wab":-10.073
+    "wab":-9.875
   },
   {
     "team_id":"centenary-n-j",
@@ -8427,7 +8287,7 @@
     "def":104.99,
     "rating":-15.37,
     "pace":67.89,
-    "wab":-15.325
+    "wab":-15.171
   },
   {
     "team_id":"centenary-n-j",
@@ -8437,7 +8297,7 @@
     "def":101.28,
     "rating":-4.99,
     "pace":69.16,
-    "wab":-8.759
+    "wab":-8.676
   },
   {
     "team_id":"centenary-n-j",
@@ -8447,7 +8307,7 @@
     "def":103.67,
     "rating":-7.94,
     "pace":73.49,
-    "wab":-9.586
+    "wab":-9.658
   },
   {
     "team_id":"centenary-n-j",
@@ -8457,7 +8317,7 @@
     "def":104.25,
     "rating":-9.2,
     "pace":74.57,
-    "wab":-9.608
+    "wab":-9.587
   },
   {
     "team_id":"centenary-n-j",
@@ -8467,7 +8327,7 @@
     "def":103.6,
     "rating":-13.63,
     "pace":69.83,
-    "wab":-14.831
+    "wab":-15.03
   },
   {
     "team_id":"centenary-n-j",
@@ -8477,7 +8337,7 @@
     "def":104.97,
     "rating":-11.72,
     "pace":74.67,
-    "wab":-11.086
+    "wab":-11.08
   },
   {
     "team_id":"centenary-n-j",
@@ -8487,7 +8347,7 @@
     "def":109.61,
     "rating":-9.66,
     "pace":77.35,
-    "wab":-7.514
+    "wab":-7.33
   },
   {
     "team_id":"centenary-n-j",
@@ -8497,7 +8357,7 @@
     "def":111.3,
     "rating":-11.46,
     "pace":76.06,
-    "wab":-10.277
+    "wab":-10.126
   },
   {
     "team_id":"centenary-n-j",
@@ -8627,7 +8487,7 @@
     "def":107.76,
     "rating":-4.5,
     "pace":75.54,
-    "wab":-13.187
+    "wab":-13.262
   },
   {
     "team_id":"central",
@@ -9357,7 +9217,7 @@
     "def":88.01,
     "rating":17.36,
     "pace":72.45,
-    "wab":3.484
+    "wab":3.568
   },
   {
     "team_id":"christopher-newport",
@@ -9527,7 +9387,7 @@
     "def":96.94,
     "rating":5.16,
     "pace":65.53,
-    "wab":-7.103
+    "wab":-7.047
   },
   {
     "team_id":"clark",
@@ -9537,7 +9397,7 @@
     "def":99.82,
     "rating":1.12,
     "pace":65.06,
-    "wab":-7.732
+    "wab":-7.707
   },
   {
     "team_id":"clark",
@@ -9547,7 +9407,7 @@
     "def":107.28,
     "rating":-6.59,
     "pace":68.46,
-    "wab":-8.793
+    "wab":-8.721
   },
   {
     "team_id":"clark",
@@ -9557,7 +9417,7 @@
     "def":104.8,
     "rating":-3.83,
     "pace":67.64,
-    "wab":-10.659
+    "wab":-10.546
   },
   {
     "team_id":"clark",
@@ -9567,7 +9427,7 @@
     "def":107.05,
     "rating":-9.88,
     "pace":68.73,
-    "wab":-14.915
+    "wab":-14.866
   },
   {
     "team_id":"clark",
@@ -9577,7 +9437,7 @@
     "def":104.33,
     "rating":-2.66,
     "pace":69.47,
-    "wab":-7.507
+    "wab":-7.351
   },
   {
     "team_id":"clark",
@@ -9587,7 +9447,7 @@
     "def":111.76,
     "rating":-11.76,
     "pace":73.79,
-    "wab":-15.794
+    "wab":-15.725
   },
   {
     "team_id":"clark",
@@ -9597,7 +9457,7 @@
     "def":110.79,
     "rating":-14.08,
     "pace":73.24,
-    "wab":-15.402
+    "wab":-15.257
   },
   {
     "team_id":"clark",
@@ -9607,7 +9467,7 @@
     "def":109.6,
     "rating":-13.21,
     "pace":74.49,
-    "wab":-11.268
+    "wab":-11.217
   },
   {
     "team_id":"clark",
@@ -9617,7 +9477,7 @@
     "def":96.59,
     "rating":1.74,
     "pace":76.4,
-    "wab":-3.377
+    "wab":-3.262
   },
   {
     "team_id":"clark",
@@ -9627,7 +9487,7 @@
     "def":101.96,
     "rating":5.05,
     "pace":72.41,
-    "wab":-5.58
+    "wab":-5.511
   },
   {
     "team_id":"clark",
@@ -9637,7 +9497,7 @@
     "def":98.34,
     "rating":13.3,
     "pace":72.69,
-    "wab":-1.074
+    "wab":-0.952
   },
   {
     "team_id":"clark",
@@ -10107,7 +9967,7 @@
     "def":100.02,
     "rating":3.85,
     "pace":70.12,
-    "wab":-5.321
+    "wab":-5.221
   },
   {
     "team_id":"colby",
@@ -10167,7 +10027,7 @@
     "def":96.4,
     "rating":16.94,
     "pace":73.65,
-    "wab":3.027
+    "wab":3.003
   },
   {
     "team_id":"colby",
@@ -10267,7 +10127,7 @@
     "def":105.29,
     "rating":-6.02,
     "pace":74.07,
-    "wab":-6.389
+    "wab":-6.339
   },
   {
     "team_id":"colby-sawyer",
@@ -10297,7 +10157,7 @@
     "def":106.39,
     "rating":-5.35,
     "pace":76.69,
-    "wab":-10.056
+    "wab":-9.911
   },
   {
     "team_id":"colby-sawyer",
@@ -10307,7 +10167,7 @@
     "def":106.88,
     "rating":-9.28,
     "pace":74.44,
-    "wab":-11.95
+    "wab":-11.898
   },
   {
     "team_id":"colby-sawyer",
@@ -10317,7 +10177,7 @@
     "def":110.5,
     "rating":-19.26,
     "pace":70.64,
-    "wab":-12.101
+    "wab":-11.924
   },
   {
     "team_id":"colby-sawyer",
@@ -10327,7 +10187,7 @@
     "def":110.15,
     "rating":-15.71,
     "pace":72.47,
-    "wab":-11.915
+    "wab":-11.716
   },
   {
     "team_id":"colby-sawyer",
@@ -10337,7 +10197,7 @@
     "def":109.3,
     "rating":-19.4,
     "pace":74.86,
-    "wab":-12.962
+    "wab":-12.897
   },
   {
     "team_id":"colby-sawyer",
@@ -10347,7 +10207,7 @@
     "def":110.62,
     "rating":-20.97,
     "pace":72.53,
-    "wab":-17.322
+    "wab":-17.182
   },
   {
     "team_id":"colby-sawyer",
@@ -11147,7 +11007,7 @@
     "def":109.17,
     "rating":-13.63,
     "pace":69.12,
-    "wab":-13.136
+    "wab":-13.085
   },
   {
     "team_id":"connecticut-college",
@@ -11197,7 +11057,7 @@
     "def":99.41,
     "rating":13.5,
     "pace":70.6,
-    "wab":-1.695
+    "wab":-1.613
   },
   {
     "team_id":"cornell",
@@ -11997,7 +11857,7 @@
     "def":109.97,
     "rating":-18.8,
     "pace":74.42,
-    "wab":-14.575
+    "wab":-14.46
   },
   {
     "team_id":"dean",
@@ -12007,7 +11867,7 @@
     "def":103.88,
     "rating":-7.54,
     "pace":74.11,
-    "wab":-7.692
+    "wab":-7.623
   },
   {
     "team_id":"dean",
@@ -12017,7 +11877,7 @@
     "def":113.28,
     "rating":-18.52,
     "pace":73.91,
-    "wab":-13.783
+    "wab":-13.662
   },
   {
     "team_id":"dean",
@@ -12027,7 +11887,7 @@
     "def":108.18,
     "rating":-8.69,
     "pace":73.77,
-    "wab":-8.672
+    "wab":-8.524
   },
   {
     "team_id":"dean",
@@ -12037,7 +11897,7 @@
     "def":107.66,
     "rating":-9.21,
     "pace":75.12,
-    "wab":-8.468
+    "wab":-8.386
   },
   {
     "team_id":"delaware-valley",
@@ -12097,7 +11957,7 @@
     "def":97.5,
     "rating":3.98,
     "pace":70.74,
-    "wab":-4.97
+    "wab":-4.96
   },
   {
     "team_id":"delaware-valley",
@@ -12147,7 +12007,7 @@
     "def":95.46,
     "rating":-5.97,
     "pace":74.09,
-    "wab":-10.437
+    "wab":-10.393
   },
   {
     "team_id":"delaware-valley",
@@ -12167,7 +12027,7 @@
     "def":100.57,
     "rating":-1.38,
     "pace":67.35,
-    "wab":-8.538
+    "wab":-8.56
   },
   {
     "team_id":"delaware-valley",
@@ -12177,7 +12037,7 @@
     "def":103.36,
     "rating":-2.98,
     "pace":69.13,
-    "wab":-12.233
+    "wab":-12.143
   },
   {
     "team_id":"denison",
@@ -12507,7 +12367,7 @@
     "def":104.23,
     "rating":4.01,
     "pace":69.45,
-    "wab":-3.364
+    "wab":-3.285
   },
   {
     "team_id":"desales",
@@ -12517,7 +12377,7 @@
     "def":102.14,
     "rating":6.92,
     "pace":70.72,
-    "wab":-5.453
+    "wab":-5.445
   },
   {
     "team_id":"desales",
@@ -12527,7 +12387,7 @@
     "def":97.92,
     "rating":4.29,
     "pace":70.67,
-    "wab":-3.755
+    "wab":-3.878
   },
   {
     "team_id":"desales",
@@ -12537,7 +12397,7 @@
     "def":98.14,
     "rating":7.67,
     "pace":70.97,
-    "wab":-2.156
+    "wab":-2.153
   },
   {
     "team_id":"desales",
@@ -12547,7 +12407,7 @@
     "def":101.05,
     "rating":3.84,
     "pace":70.18,
-    "wab":-5.434
+    "wab":-5.313
   },
   {
     "team_id":"desales",
@@ -12557,7 +12417,7 @@
     "def":95.26,
     "rating":12.97,
     "pace":66.88,
-    "wab":-1.903
+    "wab":-1.84
   },
   {
     "team_id":"desales",
@@ -12567,7 +12427,7 @@
     "def":97.24,
     "rating":10.73,
     "pace":65.37,
-    "wab":-2.715
+    "wab":-2.578
   },
   {
     "team_id":"desales",
@@ -12577,7 +12437,7 @@
     "def":97.7,
     "rating":17.34,
     "pace":64.63,
-    "wab":0.876
+    "wab":0.96
   },
   {
     "team_id":"desales",
@@ -12587,7 +12447,7 @@
     "def":104.69,
     "rating":5.31,
     "pace":67.11,
-    "wab":-7.905
+    "wab":-7.738
   },
   {
     "team_id":"desales",
@@ -12637,7 +12497,7 @@
     "def":93.35,
     "rating":16.6,
     "pace":68.84,
-    "wab":1.344
+    "wab":1.44
   },
   {
     "team_id":"dickinson",
@@ -12947,7 +12807,7 @@
     "def":105.8,
     "rating":2.78,
     "pace":73.4,
-    "wab":-6.998
+    "wab":-7.078
   },
   {
     "team_id":"drew",
@@ -13447,7 +13307,7 @@
     "def":102.64,
     "rating":0.69,
     "pace":70.71,
-    "wab":-7.72
+    "wab":-7.656
   },
   {
     "team_id":"eastern",
@@ -13457,7 +13317,7 @@
     "def":105.35,
     "rating":-12.16,
     "pace":69.59,
-    "wab":-15.632
+    "wab":-15.502
   },
   {
     "team_id":"eastern",
@@ -13467,7 +13327,7 @@
     "def":105.69,
     "rating":-4.41,
     "pace":71.29,
-    "wab":-11.017
+    "wab":-10.963
   },
   {
     "team_id":"eastern",
@@ -13477,7 +13337,7 @@
     "def":106.3,
     "rating":-7.08,
     "pace":75.38,
-    "wab":-12.192
+    "wab":-12.138
   },
   {
     "team_id":"eastern",
@@ -13487,7 +13347,7 @@
     "def":104.37,
     "rating":-0.35,
     "pace":75.38,
-    "wab":-9.472
+    "wab":-9.429
   },
   {
     "team_id":"eastern",
@@ -13597,7 +13457,7 @@
     "def":98.87,
     "rating":11.49,
     "pace":66.23,
-    "wab":-3.452
+    "wab":-3.433
   },
   {
     "team_id":"eastern-connecticut",
@@ -13687,7 +13547,7 @@
     "def":95.34,
     "rating":5.97,
     "pace":70.98,
-    "wab":-6.062
+    "wab":-6.014
   },
   {
     "team_id":"eastern-connecticut",
@@ -13707,7 +13567,7 @@
     "def":97.58,
     "rating":-1.25,
     "pace":68.36,
-    "wab":-7.178
+    "wab":-7.104
   },
   {
     "team_id":"eastern-connecticut",
@@ -13797,7 +13657,7 @@
     "def":98.86,
     "rating":-2.86,
     "pace":71.52,
-    "wab":-10.132
+    "wab":-10.321
   },
   {
     "team_id":"eastern-mennonite",
@@ -14037,7 +13897,7 @@
     "def":99.3,
     "rating":-5.94,
     "pace":69.18,
-    "wab":-11.377
+    "wab":-11.481
   },
   {
     "team_id":"elizabethtown",
@@ -14077,7 +13937,7 @@
     "def":101.73,
     "rating":-5.56,
     "pace":70.92,
-    "wab":-10.779
+    "wab":-10.607
   },
   {
     "team_id":"elizabethtown",
@@ -14087,7 +13947,7 @@
     "def":108.11,
     "rating":-8.96,
     "pace":71.57,
-    "wab":-8.926
+    "wab":-8.838
   },
   {
     "team_id":"elizabethtown",
@@ -14097,7 +13957,7 @@
     "def":109.47,
     "rating":-11.52,
     "pace":75.23,
-    "wab":-11.799
+    "wab":-11.629
   },
   {
     "team_id":"elizabethtown",
@@ -14107,7 +13967,7 @@
     "def":103.87,
     "rating":-10.47,
     "pace":73.77,
-    "wab":-10.615
+    "wab":-10.524
   },
   {
     "team_id":"elizabethtown",
@@ -14137,7 +13997,7 @@
     "def":101.86,
     "rating":6.67,
     "pace":72.03,
-    "wab":-3.618
+    "wab":-3.528
   },
   {
     "team_id":"elmhurst",
@@ -14427,7 +14287,7 @@
     "def":94.78,
     "rating":-0.74,
     "pace":71.59,
-    "wab":-7.175
+    "wab":-7.119
   },
   {
     "team_id":"elms",
@@ -14447,7 +14307,7 @@
     "def":103.82,
     "rating":-5.21,
     "pace":76.61,
-    "wab":-8.765
+    "wab":-8.666
   },
   {
     "team_id":"elms",
@@ -14517,7 +14377,7 @@
     "def":112.55,
     "rating":-25.36,
     "pace":75.65,
-    "wab":-18.072
+    "wab":-17.957
   },
   {
     "team_id":"elms",
@@ -14527,7 +14387,7 @@
     "def":109.6,
     "rating":-22.31,
     "pace":72.13,
-    "wab":-17.891
+    "wab":-17.822
   },
   {
     "team_id":"elms",
@@ -14537,7 +14397,7 @@
     "def":107.85,
     "rating":-20.93,
     "pace":71.61,
-    "wab":-17.095
+    "wab":-16.973
   },
   {
     "team_id":"elms",
@@ -14547,7 +14407,7 @@
     "def":111.7,
     "rating":-21.64,
     "pace":69.36,
-    "wab":-16.48
+    "wab":-16.406
   },
   {
     "team_id":"elms",
@@ -14567,7 +14427,7 @@
     "def":101.98,
     "rating":-13.65,
     "pace":67.58,
-    "wab":-15.188
+    "wab":-15.029
   },
   {
     "team_id":"emerson",
@@ -14577,7 +14437,7 @@
     "def":99.18,
     "rating":-9.82,
     "pace":71.39,
-    "wab":-9.159
+    "wab":-9.121
   },
   {
     "team_id":"emerson",
@@ -14707,7 +14567,7 @@
     "def":103.04,
     "rating":-8.48,
     "pace":69.73,
-    "wab":-10.238
+    "wab":-10.183
   },
   {
     "team_id":"emmanuel",
@@ -14717,7 +14577,7 @@
     "def":105.73,
     "rating":-12.25,
     "pace":72.0,
-    "wab":-14.403
+    "wab":-14.34
   },
   {
     "team_id":"emmanuel",
@@ -14727,7 +14587,7 @@
     "def":109.23,
     "rating":-17.61,
     "pace":72.35,
-    "wab":-15.882
+    "wab":-15.676
   },
   {
     "team_id":"emmanuel",
@@ -14737,7 +14597,7 @@
     "def":102.78,
     "rating":-15.59,
     "pace":72.34,
-    "wab":-11.689
+    "wab":-11.405
   },
   {
     "team_id":"emmanuel",
@@ -14747,7 +14607,7 @@
     "def":105.04,
     "rating":-9.09,
     "pace":73.31,
-    "wab":-12.353
+    "wab":-12.121
   },
   {
     "team_id":"emmanuel",
@@ -14757,7 +14617,7 @@
     "def":108.58,
     "rating":-17.92,
     "pace":74.24,
-    "wab":-14.483
+    "wab":-14.245
   },
   {
     "team_id":"emmanuel",
@@ -14767,7 +14627,7 @@
     "def":110.9,
     "rating":-17.37,
     "pace":73.67,
-    "wab":-17.28
+    "wab":-17.082
   },
   {
     "team_id":"emmanuel",
@@ -14777,7 +14637,7 @@
     "def":107.15,
     "rating":-1.92,
     "pace":73.01,
-    "wab":-5.594
+    "wab":-5.518
   },
   {
     "team_id":"emmanuel",
@@ -14787,7 +14647,7 @@
     "def":105.6,
     "rating":-2.32,
     "pace":74.88,
-    "wab":-4.376
+    "wab":-4.281
   },
   {
     "team_id":"emmanuel",
@@ -14797,7 +14657,7 @@
     "def":102.39,
     "rating":-4.66,
     "pace":70.77,
-    "wab":-8.266
+    "wab":-7.974
   },
   {
     "team_id":"emmanuel",
@@ -14807,7 +14667,7 @@
     "def":102.23,
     "rating":-0.06,
     "pace":72.82,
-    "wab":-4.852
+    "wab":-4.653
   },
   {
     "team_id":"emmanuel",
@@ -14817,7 +14677,7 @@
     "def":103.85,
     "rating":-1.05,
     "pace":71.63,
-    "wab":-9.123
+    "wab":-9.001
   },
   {
     "team_id":"emmanuel",
@@ -14827,7 +14687,7 @@
     "def":110.12,
     "rating":-15.35,
     "pace":71.72,
-    "wab":-15.426
+    "wab":-15.352
   },
   {
     "team_id":"emmanuel",
@@ -15037,7 +14897,7 @@
     "def":95.08,
     "rating":12.66,
     "pace":73.05,
-    "wab":-1.698
+    "wab":-1.584
   },
   {
     "team_id":"endicott",
@@ -15327,7 +15187,7 @@
     "def":98.75,
     "rating":-0.14,
     "pace":71.4,
-    "wab":-5.344
+    "wab":-5.424
   },
   {
     "team_id":"farmingdale-state",
@@ -15337,7 +15197,7 @@
     "def":103.75,
     "rating":3.76,
     "pace":73.6,
-    "wab":-4.801
+    "wab":-5.077
   },
   {
     "team_id":"farmingdale-state",
@@ -15347,7 +15207,7 @@
     "def":107.11,
     "rating":-4.36,
     "pace":71.41,
-    "wab":-9.263
+    "wab":-9.32
   },
   {
     "team_id":"farmingdale-state",
@@ -15357,7 +15217,7 @@
     "def":103.3,
     "rating":1.08,
     "pace":72.18,
-    "wab":-4.566
+    "wab":-4.653
   },
   {
     "team_id":"farmingdale-state",
@@ -15367,7 +15227,7 @@
     "def":98.05,
     "rating":3.72,
     "pace":73.97,
-    "wab":-4.21
+    "wab":-4.246
   },
   {
     "team_id":"farmingdale-state",
@@ -15377,7 +15237,7 @@
     "def":99.46,
     "rating":8.84,
     "pace":75.07,
-    "wab":-0.09
+    "wab":-0.073
   },
   {
     "team_id":"farmingdale-state",
@@ -15387,7 +15247,7 @@
     "def":100.26,
     "rating":3.76,
     "pace":71.11,
-    "wab":-5.62
+    "wab":-5.633
   },
   {
     "team_id":"farmingdale-state",
@@ -15397,7 +15257,7 @@
     "def":101.78,
     "rating":8.04,
     "pace":72.52,
-    "wab":-0.534
+    "wab":-0.532
   },
   {
     "team_id":"fdu-florham",
@@ -15407,7 +15267,7 @@
     "def":97.57,
     "rating":-2.57,
     "pace":68.97,
-    "wab":-8.828
+    "wab":-8.764
   },
   {
     "team_id":"fdu-florham",
@@ -15417,7 +15277,7 @@
     "def":95.86,
     "rating":-1.98,
     "pace":67.69,
-    "wab":-10.131
+    "wab":-10.002
   },
   {
     "team_id":"fdu-florham",
@@ -15547,7 +15407,7 @@
     "def":99.9,
     "rating":-5.97,
     "pace":79.58,
-    "wab":-8.187
+    "wab":-8.084
   },
   {
     "team_id":"fitchburg-state",
@@ -15557,7 +15417,7 @@
     "def":96.44,
     "rating":-0.69,
     "pace":75.76,
-    "wab":-7.001
+    "wab":-6.987
   },
   {
     "team_id":"fitchburg-state",
@@ -15567,7 +15427,7 @@
     "def":111.14,
     "rating":-20.33,
     "pace":73.62,
-    "wab":-18.414
+    "wab":-18.28
   },
   {
     "team_id":"fitchburg-state",
@@ -15677,7 +15537,7 @@
     "def":112.52,
     "rating":-13.85,
     "pace":71.93,
-    "wab":-12.08
+    "wab":-11.841
   },
   {
     "team_id":"framingham-state",
@@ -15717,7 +15577,7 @@
     "def":99.05,
     "rating":-9.68,
     "pace":62.34,
-    "wab":-12.407
+    "wab":-12.324
   },
   {
     "team_id":"framingham-state",
@@ -15727,7 +15587,7 @@
     "def":102.51,
     "rating":-15.62,
     "pace":64.18,
-    "wab":-16.814
+    "wab":-16.755
   },
   {
     "team_id":"framingham-state",
@@ -15767,7 +15627,7 @@
     "def":108.23,
     "rating":-24.34,
     "pace":73.74,
-    "wab":-20.537
+    "wab":-20.486
   },
   {
     "team_id":"framingham-state",
@@ -15777,7 +15637,7 @@
     "def":105.29,
     "rating":-25.81,
     "pace":69.38,
-    "wab":-18.543
+    "wab":-18.428
   },
   {
     "team_id":"framingham-state",
@@ -15817,7 +15677,7 @@
     "def":104.71,
     "rating":-13.11,
     "pace":71.36,
-    "wab":-9.857
+    "wab":-9.617
   },
   {
     "team_id":"franciscan-ohio",
@@ -15957,7 +15817,7 @@
     "def":100.3,
     "rating":4.66,
     "pace":71.12,
-    "wab":-3.819
+    "wab":-3.817
   },
   {
     "team_id":"franklin",
@@ -16137,7 +15997,7 @@
     "def":92.98,
     "rating":14.24,
     "pace":68.33,
-    "wab":-1.118
+    "wab":-1.198
   },
   {
     "team_id":"franklin-and-marshall",
@@ -16147,7 +16007,7 @@
     "def":94.1,
     "rating":12.51,
     "pace":69.66,
-    "wab":-0.788
+    "wab":-1.02
   },
   {
     "team_id":"franklin-and-marshall",
@@ -16297,7 +16157,7 @@
     "def":100.48,
     "rating":-6.05,
     "pace":69.7,
-    "wab":-9.016
+    "wab":-9.005
   },
   {
     "team_id":"fredonia",
@@ -16317,7 +16177,7 @@
     "def":108.0,
     "rating":-20.78,
     "pace":73.76,
-    "wab":-18.633
+    "wab":-18.527
   },
   {
     "team_id":"fredonia",
@@ -16427,7 +16287,7 @@
     "def":98.93,
     "rating":-3.54,
     "pace":72.6,
-    "wab":-4.972
+    "wab":-4.89
   },
   {
     "team_id":"gallaudet",
@@ -16447,7 +16307,7 @@
     "def":106.13,
     "rating":-15.37,
     "pace":71.81,
-    "wab":-12.51
+    "wab":-12.435
   },
   {
     "team_id":"gallaudet",
@@ -16517,7 +16377,7 @@
     "def":116.84,
     "rating":-31.93,
     "pace":72.45,
-    "wab":-11.913
+    "wab":-11.738
   },
   {
     "team_id":"geneva",
@@ -16587,7 +16447,7 @@
     "def":104.92,
     "rating":-7.51,
     "pace":70.75,
-    "wab":-12.259
+    "wab":-12.184
   },
   {
     "team_id":"geneva",
@@ -16597,7 +16457,7 @@
     "def":104.0,
     "rating":-11.25,
     "pace":71.85,
-    "wab":-14.761
+    "wab":-14.672
   },
   {
     "team_id":"geneva",
@@ -16607,7 +16467,7 @@
     "def":111.74,
     "rating":-9.34,
     "pace":69.95,
-    "wab":-11.303
+    "wab":-11.134
   },
   {
     "team_id":"geneva",
@@ -16857,7 +16717,7 @@
     "def":95.44,
     "rating":2.37,
     "pace":68.17,
-    "wab":-10.676
+    "wab":-10.91
   },
   {
     "team_id":"gettysburg",
@@ -17057,7 +16917,7 @@
     "def":112.94,
     "rating":-17.27,
     "pace":73.45,
-    "wab":-17.15
+    "wab":-17.085
   },
   {
     "team_id":"gordon",
@@ -17067,7 +16927,7 @@
     "def":112.24,
     "rating":-10.12,
     "pace":73.17,
-    "wab":-10.695
+    "wab":-10.555
   },
   {
     "team_id":"gordon",
@@ -17077,7 +16937,7 @@
     "def":111.0,
     "rating":-14.48,
     "pace":71.81,
-    "wab":-15.35
+    "wab":-15.268
   },
   {
     "team_id":"goucher",
@@ -17157,7 +17017,7 @@
     "def":106.18,
     "rating":-20.33,
     "pace":72.28,
-    "wab":-16.577
+    "wab":-16.488
   },
   {
     "team_id":"goucher",
@@ -17167,7 +17027,7 @@
     "def":105.98,
     "rating":-17.99,
     "pace":72.09,
-    "wab":-14.837
+    "wab":-14.668
   },
   {
     "team_id":"goucher",
@@ -17707,7 +17567,7 @@
     "def":97.88,
     "rating":-2.15,
     "pace":67.37,
-    "wab":-7.957
+    "wab":-7.852
   },
   {
     "team_id":"grove-city",
@@ -18067,7 +17927,7 @@
     "def":103.59,
     "rating":1.3,
     "pace":75.39,
-    "wab":-6.994
+    "wab":-6.81
   },
   {
     "team_id":"gwynedd-mercy",
@@ -18077,7 +17937,7 @@
     "def":103.54,
     "rating":0.0,
     "pace":69.64,
-    "wab":-8.131
+    "wab":-7.932
   },
   {
     "team_id":"gwynedd-mercy",
@@ -18087,7 +17947,7 @@
     "def":99.74,
     "rating":6.37,
     "pace":74.37,
-    "wab":-3.839
+    "wab":-3.685
   },
   {
     "team_id":"gwynedd-mercy",
@@ -18097,7 +17957,7 @@
     "def":100.94,
     "rating":10.75,
     "pace":71.25,
-    "wab":-6.033
+    "wab":-5.92
   },
   {
     "team_id":"gwynedd-mercy",
@@ -18107,7 +17967,7 @@
     "def":103.66,
     "rating":8.53,
     "pace":73.63,
-    "wab":-1.865
+    "wab":-1.7
   },
   {
     "team_id":"gwynedd-mercy",
@@ -18117,7 +17977,7 @@
     "def":102.76,
     "rating":4.77,
     "pace":72.7,
-    "wab":-3.189
+    "wab":-3.168
   },
   {
     "team_id":"gwynedd-mercy",
@@ -18127,7 +17987,7 @@
     "def":102.14,
     "rating":6.68,
     "pace":73.4,
-    "wab":-2.446
+    "wab":-2.749
   },
   {
     "team_id":"gwynedd-mercy",
@@ -18177,7 +18037,7 @@
     "def":101.75,
     "rating":3.32,
     "pace":74.47,
-    "wab":-6.836
+    "wab":-6.675
   },
   {
     "team_id":"gwynedd-mercy",
@@ -18187,7 +18047,7 @@
     "def":102.59,
     "rating":3.83,
     "pace":72.5,
-    "wab":-2.839
+    "wab":-2.665
   },
   {
     "team_id":"gwynedd-mercy",
@@ -18197,7 +18057,7 @@
     "def":99.72,
     "rating":-1.18,
     "pace":74.24,
-    "wab":-5.916
+    "wab":-5.58
   },
   {
     "team_id":"hamilton",
@@ -18527,7 +18387,7 @@
     "def":97.43,
     "rating":6.36,
     "pace":69.0,
-    "wab":-4.858
+    "wab":-4.799
   },
   {
     "team_id":"hampden-sydney",
@@ -19257,7 +19117,7 @@
     "def":99.88,
     "rating":-0.93,
     "pace":72.61,
-    "wab":-10.42
+    "wab":-10.417
   },
   {
     "team_id":"haverford",
@@ -19267,7 +19127,7 @@
     "def":98.84,
     "rating":0.59,
     "pace":72.09,
-    "wab":-4.685
+    "wab":-4.564
   },
   {
     "team_id":"haverford",
@@ -19277,7 +19137,7 @@
     "def":98.03,
     "rating":-1.34,
     "pace":70.55,
-    "wab":-6.318
+    "wab":-6.254
   },
   {
     "team_id":"haverford",
@@ -19287,7 +19147,7 @@
     "def":97.03,
     "rating":1.68,
     "pace":67.46,
-    "wab":-8.794
+    "wab":-8.657
   },
   {
     "team_id":"haverford",
@@ -19297,7 +19157,7 @@
     "def":107.87,
     "rating":-16.78,
     "pace":68.77,
-    "wab":-15.537
+    "wab":-15.453
   },
   {
     "team_id":"haverford",
@@ -19307,7 +19167,7 @@
     "def":109.48,
     "rating":-15.37,
     "pace":75.16,
-    "wab":-16.409
+    "wab":-16.242
   },
   {
     "team_id":"haverford",
@@ -19317,7 +19177,7 @@
     "def":103.59,
     "rating":-5.51,
     "pace":71.98,
-    "wab":-11.749
+    "wab":-11.574
   },
   {
     "team_id":"heidelberg",
@@ -19987,7 +19847,7 @@
     "def":100.02,
     "rating":10.4,
     "pace":67.26,
-    "wab":-4.962
+    "wab":-4.867
   },
   {
     "team_id":"hobart",
@@ -20147,7 +20007,7 @@
     "def":107.49,
     "rating":10.43,
     "pace":74.15,
-    "wab":-4.91
+    "wab":-4.927
   },
   {
     "team_id":"hood",
@@ -20707,7 +20567,7 @@
     "def":115.18,
     "rating":-27.76,
     "pace":74.65,
-    "wab":-18.783
+    "wab":-18.68
   },
   {
     "team_id":"hunter",
@@ -21427,7 +21287,7 @@
     "def":105.48,
     "rating":-8.6,
     "pace":68.92,
-    "wab":-12.858
+    "wab":-12.674
   },
   {
     "team_id":"immaculata",
@@ -21437,7 +21297,7 @@
     "def":102.78,
     "rating":-8.86,
     "pace":65.25,
-    "wab":-10.829
+    "wab":-10.63
   },
   {
     "team_id":"immaculata",
@@ -21447,7 +21307,7 @@
     "def":106.91,
     "rating":-9.33,
     "pace":67.85,
-    "wab":-11.018
+    "wab":-10.81
   },
   {
     "team_id":"immaculata",
@@ -21457,7 +21317,7 @@
     "def":104.73,
     "rating":-3.4,
     "pace":67.25,
-    "wab":-8.792
+    "wab":-8.709
   },
   {
     "team_id":"immaculata",
@@ -21467,7 +21327,7 @@
     "def":106.65,
     "rating":-9.95,
     "pace":68.4,
-    "wab":-12.611
+    "wab":-12.489
   },
   {
     "team_id":"immaculata",
@@ -21477,7 +21337,7 @@
     "def":102.3,
     "rating":-6.83,
     "pace":76.75,
-    "wab":-10.616
+    "wab":-10.582
   },
   {
     "team_id":"immaculata",
@@ -21487,7 +21347,7 @@
     "def":101.15,
     "rating":-3.25,
     "pace":75.84,
-    "wab":-8.599
+    "wab":-8.798
   },
   {
     "team_id":"immaculata",
@@ -21497,7 +21357,7 @@
     "def":103.69,
     "rating":-6.84,
     "pace":72.59,
-    "wab":-11.538
+    "wab":-11.446
   },
   {
     "team_id":"immaculata",
@@ -21507,7 +21367,7 @@
     "def":106.16,
     "rating":-7.97,
     "pace":73.64,
-    "wab":-13.551
+    "wab":-13.262
   },
   {
     "team_id":"immaculata",
@@ -21527,7 +21387,7 @@
     "def":98.26,
     "rating":-9.48,
     "pace":72.75,
-    "wab":-13.174
+    "wab":-13.083
   },
   {
     "team_id":"immaculata",
@@ -21537,7 +21397,7 @@
     "def":101.11,
     "rating":-7.82,
     "pace":75.54,
-    "wab":-10.024
+    "wab":-9.858
   },
   {
     "team_id":"immaculata",
@@ -21547,7 +21407,7 @@
     "def":104.33,
     "rating":-12.68,
     "pace":71.92,
-    "wab":-14.257
+    "wab":-14.274
   },
   {
     "team_id":"immaculata",
@@ -21567,7 +21427,7 @@
     "def":106.64,
     "rating":4.89,
     "pace":71.27,
-    "wab":-8.335
+    "wab":-8.456
   },
   {
     "team_id":"ithaca",
@@ -21607,7 +21467,7 @@
     "def":110.07,
     "rating":-4.85,
     "pace":77.04,
-    "wab":-8.163
+    "wab":-8.394
   },
   {
     "team_id":"ithaca",
@@ -21847,7 +21707,7 @@
     "def":109.39,
     "rating":-10.07,
     "pace":75.26,
-    "wab":-10.638
+    "wab":-10.787
   },
   {
     "team_id":"john-jay",
@@ -21857,7 +21717,7 @@
     "def":102.32,
     "rating":-5.46,
     "pace":75.94,
-    "wab":-10.384
+    "wab":-10.476
   },
   {
     "team_id":"john-jay",
@@ -21867,7 +21727,7 @@
     "def":101.73,
     "rating":-11.3,
     "pace":72.66,
-    "wab":-13.697
+    "wab":-13.759
   },
   {
     "team_id":"john-jay",
@@ -21917,7 +21777,7 @@
     "def":101.3,
     "rating":-9.29,
     "pace":68.53,
-    "wab":-10.108
+    "wab":-9.936
   },
   {
     "team_id":"john-jay",
@@ -21927,7 +21787,7 @@
     "def":101.1,
     "rating":-5.66,
     "pace":69.85,
-    "wab":-5.624
+    "wab":-5.681
   },
   {
     "team_id":"john-jay",
@@ -22047,7 +21907,7 @@
     "def":89.43,
     "rating":14.72,
     "pace":67.65,
-    "wab":1.703
+    "wab":1.598
   },
   {
     "team_id":"johns-hopkins",
@@ -22127,7 +21987,7 @@
     "def":108.01,
     "rating":-4.5,
     "pace":73.01,
-    "wab":-8.925
+    "wab":-8.71
   },
   {
     "team_id":"johnson-and-wales",
@@ -22137,7 +21997,7 @@
     "def":102.25,
     "rating":-5.85,
     "pace":70.19,
-    "wab":-9.273
+    "wab":-9.234
   },
   {
     "team_id":"johnson-and-wales",
@@ -22147,7 +22007,7 @@
     "def":99.67,
     "rating":8.61,
     "pace":70.46,
-    "wab":-3.777
+    "wab":-3.5
   },
   {
     "team_id":"johnson-and-wales",
@@ -22157,7 +22017,7 @@
     "def":94.87,
     "rating":14.93,
     "pace":70.26,
-    "wab":-1.309
+    "wab":-1.137
   },
   {
     "team_id":"johnson-and-wales",
@@ -22167,7 +22027,7 @@
     "def":89.81,
     "rating":23.27,
     "pace":75.23,
-    "wab":0.599
+    "wab":0.739
   },
   {
     "team_id":"johnson-and-wales",
@@ -22177,7 +22037,7 @@
     "def":98.7,
     "rating":0.09,
     "pace":72.26,
-    "wab":-7.524
+    "wab":-7.286
   },
   {
     "team_id":"johnson-and-wales",
@@ -22187,7 +22047,7 @@
     "def":97.21,
     "rating":3.61,
     "pace":73.55,
-    "wab":-6.153
+    "wab":-5.955
   },
   {
     "team_id":"johnson-and-wales",
@@ -22197,7 +22057,7 @@
     "def":98.01,
     "rating":3.65,
     "pace":72.07,
-    "wab":-7.113
+    "wab":-7.037
   },
   {
     "team_id":"johnson-and-wales",
@@ -22207,7 +22067,7 @@
     "def":104.23,
     "rating":-2.55,
     "pace":71.54,
-    "wab":-7.925
+    "wab":-7.831
   },
   {
     "team_id":"johnson-and-wales",
@@ -22217,7 +22077,7 @@
     "def":103.66,
     "rating":-8.81,
     "pace":70.76,
-    "wab":-11.944
+    "wab":-11.829
   },
   {
     "team_id":"johnson-and-wales",
@@ -22227,7 +22087,7 @@
     "def":101.07,
     "rating":-3.62,
     "pace":71.24,
-    "wab":-8.136
+    "wab":-8.067
   },
   {
     "team_id":"johnson-and-wales",
@@ -22237,7 +22097,7 @@
     "def":99.72,
     "rating":-13.09,
     "pace":69.39,
-    "wab":-13.18
+    "wab":-13.058
   },
   {
     "team_id":"johnson-and-wales",
@@ -22247,7 +22107,7 @@
     "def":102.53,
     "rating":-17.66,
     "pace":71.32,
-    "wab":-14.435
+    "wab":-14.361
   },
   {
     "team_id":"johnson-and-wales",
@@ -22687,7 +22547,7 @@
     "def":99.6,
     "rating":-4.39,
     "pace":60.81,
-    "wab":-14.875
+    "wab":-14.968
   },
   {
     "team_id":"kean",
@@ -22697,7 +22557,7 @@
     "def":106.5,
     "rating":-6.67,
     "pace":63.34,
-    "wab":-12.664
+    "wab":-12.904
   },
   {
     "team_id":"kean",
@@ -22707,7 +22567,7 @@
     "def":102.38,
     "rating":6.29,
     "pace":67.43,
-    "wab":-6.437
+    "wab":-6.572
   },
   {
     "team_id":"kean",
@@ -22717,7 +22577,7 @@
     "def":108.5,
     "rating":-7.55,
     "pace":67.55,
-    "wab":-13.695
+    "wab":-13.903
   },
   {
     "team_id":"kean",
@@ -22727,7 +22587,7 @@
     "def":107.26,
     "rating":-15.34,
     "pace":71.17,
-    "wab":-14.573
+    "wab":-15.033
   },
   {
     "team_id":"kean",
@@ -22737,7 +22597,7 @@
     "def":108.13,
     "rating":-18.32,
     "pace":69.08,
-    "wab":-18.191
+    "wab":-18.657
   },
   {
     "team_id":"kean",
@@ -22747,7 +22607,7 @@
     "def":105.21,
     "rating":-7.99,
     "pace":68.72,
-    "wab":-13.364
+    "wab":-13.575
   },
   {
     "team_id":"kean",
@@ -22757,7 +22617,7 @@
     "def":103.42,
     "rating":-6.57,
     "pace":72.11,
-    "wab":-12.876
+    "wab":-13.341
   },
   {
     "team_id":"kean",
@@ -22767,7 +22627,7 @@
     "def":107.27,
     "rating":-11.36,
     "pace":73.03,
-    "wab":-13.649
+    "wab":-13.801
   },
   {
     "team_id":"kean",
@@ -22777,7 +22637,7 @@
     "def":105.07,
     "rating":-1.16,
     "pace":72.33,
-    "wab":-5.25
+    "wab":-5.272
   },
   {
     "team_id":"kean",
@@ -22787,7 +22647,7 @@
     "def":98.3,
     "rating":9.78,
     "pace":75.26,
-    "wab":-3.436
+    "wab":-3.42
   },
   {
     "team_id":"kean",
@@ -22797,7 +22657,7 @@
     "def":96.15,
     "rating":4.28,
     "pace":72.81,
-    "wab":-8.123
+    "wab":-8.01
   },
   {
     "team_id":"kean",
@@ -22807,7 +22667,7 @@
     "def":100.56,
     "rating":8.78,
     "pace":72.34,
-    "wab":-4.487
+    "wab":-4.523
   },
   {
     "team_id":"kean",
@@ -22817,7 +22677,7 @@
     "def":98.42,
     "rating":2.23,
     "pace":69.44,
-    "wab":-8.453
+    "wab":-8.45
   },
   {
     "team_id":"keene-state",
@@ -22957,7 +22817,7 @@
     "def":95.88,
     "rating":11.65,
     "pace":75.27,
-    "wab":-3.523
+    "wab":-3.522
   },
   {
     "team_id":"kenyon",
@@ -23247,7 +23107,7 @@
     "def":105.51,
     "rating":6.79,
     "pace":76.17,
-    "wab":-3.257
+    "wab":-3.073
   },
   {
     "team_id":"keystone",
@@ -23257,7 +23117,7 @@
     "def":106.6,
     "rating":2.86,
     "pace":75.13,
-    "wab":-6.631
+    "wab":-6.433
   },
   {
     "team_id":"keystone",
@@ -23267,7 +23127,7 @@
     "def":108.67,
     "rating":-6.65,
     "pace":75.79,
-    "wab":-11.281
+    "wab":-11.127
   },
   {
     "team_id":"keystone",
@@ -23277,7 +23137,7 @@
     "def":109.07,
     "rating":-5.17,
     "pace":75.84,
-    "wab":-11.643
+    "wab":-11.56
   },
   {
     "team_id":"keystone",
@@ -23287,7 +23147,7 @@
     "def":109.97,
     "rating":-15.71,
     "pace":75.72,
-    "wab":-15.601
+    "wab":-15.479
   },
   {
     "team_id":"keystone",
@@ -23297,7 +23157,7 @@
     "def":110.94,
     "rating":-14.76,
     "pace":77.88,
-    "wab":-13.349
+    "wab":-13.328
   },
   {
     "team_id":"keystone",
@@ -23307,7 +23167,7 @@
     "def":106.12,
     "rating":-9.68,
     "pace":77.08,
-    "wab":-10.937
+    "wab":-11.136
   },
   {
     "team_id":"keystone",
@@ -23317,7 +23177,7 @@
     "def":107.05,
     "rating":-17.0,
     "pace":76.05,
-    "wab":-15.824
+    "wab":-15.818
   },
   {
     "team_id":"keystone",
@@ -23327,7 +23187,7 @@
     "def":113.16,
     "rating":-14.27,
     "pace":73.82,
-    "wab":-11.664
+    "wab":-11.48
   },
   {
     "team_id":"keystone",
@@ -23337,7 +23197,7 @@
     "def":115.04,
     "rating":-18.96,
     "pace":69.89,
-    "wab":-14.105
+    "wab":-13.665
   },
   {
     "team_id":"keystone",
@@ -23347,7 +23207,7 @@
     "def":113.5,
     "rating":-12.28,
     "pace":70.65,
-    "wab":-11.267
+    "wab":-10.792
   },
   {
     "team_id":"keystone",
@@ -23357,7 +23217,7 @@
     "def":115.68,
     "rating":-17.68,
     "pace":74.78,
-    "wab":-11.305
+    "wab":-10.806
   },
   {
     "team_id":"keystone",
@@ -23367,7 +23227,7 @@
     "def":111.29,
     "rating":-15.06,
     "pace":74.22,
-    "wab":-9.456
+    "wab":-8.949
   },
   {
     "team_id":"keystone",
@@ -23377,7 +23237,7 @@
     "def":109.74,
     "rating":-18.65,
     "pace":75.5,
-    "wab":-14.117
+    "wab":-13.781
   },
   {
     "team_id":"king-s",
@@ -24367,7 +24227,7 @@
     "def":105.72,
     "rating":-22.47,
     "pace":72.94,
-    "wab":-14.54
+    "wab":-14.42
   },
   {
     "team_id":"lancaster-bible",
@@ -24377,7 +24237,7 @@
     "def":106.13,
     "rating":-21.8,
     "pace":68.89,
-    "wab":-18.17
+    "wab":-18.101
   },
   {
     "team_id":"lancaster-bible",
@@ -24397,7 +24257,7 @@
     "def":98.53,
     "rating":0.13,
     "pace":69.48,
-    "wab":-1.589
+    "wab":-1.451
   },
   {
     "team_id":"lancaster-bible",
@@ -24407,7 +24267,7 @@
     "def":96.57,
     "rating":10.27,
     "pace":78.54,
-    "wab":1.299
+    "wab":1.455
   },
   {
     "team_id":"lancaster-bible",
@@ -24487,7 +24347,7 @@
     "def":101.92,
     "rating":-2.01,
     "pace":78.68,
-    "wab":-5.314
+    "wab":-5.061
   },
   {
     "team_id":"lancaster-bible",
@@ -24497,7 +24357,7 @@
     "def":97.3,
     "rating":9.21,
     "pace":80.11,
-    "wab":-3.762
+    "wab":-3.426
   },
   {
     "team_id":"lasell",
@@ -24507,7 +24367,7 @@
     "def":105.21,
     "rating":-7.22,
     "pace":73.26,
-    "wab":-9.222
+    "wab":-9.063
   },
   {
     "team_id":"lasell",
@@ -24517,7 +24377,7 @@
     "def":106.96,
     "rating":-14.09,
     "pace":69.8,
-    "wab":-14.961
+    "wab":-14.923
   },
   {
     "team_id":"lasell",
@@ -24527,7 +24387,7 @@
     "def":104.5,
     "rating":-2.36,
     "pace":73.58,
-    "wab":-6.564
+    "wab":-6.357
   },
   {
     "team_id":"lasell",
@@ -24537,7 +24397,7 @@
     "def":109.52,
     "rating":-6.65,
     "pace":66.97,
-    "wab":-11.166
+    "wab":-10.994
   },
   {
     "team_id":"lasell",
@@ -24547,7 +24407,7 @@
     "def":106.04,
     "rating":-1.43,
     "pace":72.2,
-    "wab":-4.695
+    "wab":-4.555
   },
   {
     "team_id":"lasell",
@@ -24557,7 +24417,7 @@
     "def":101.84,
     "rating":2.01,
     "pace":74.81,
-    "wab":-4.909
+    "wab":-4.671
   },
   {
     "team_id":"lasell",
@@ -24567,7 +24427,7 @@
     "def":108.07,
     "rating":-9.18,
     "pace":71.23,
-    "wab":-9.955
+    "wab":-9.757
   },
   {
     "team_id":"lasell",
@@ -24577,7 +24437,7 @@
     "def":111.72,
     "rating":-12.39,
     "pace":72.15,
-    "wab":-14.497
+    "wab":-14.352
   },
   {
     "team_id":"lasell",
@@ -24587,7 +24447,7 @@
     "def":109.78,
     "rating":-7.81,
     "pace":73.9,
-    "wab":-12.52
+    "wab":-12.469
   },
   {
     "team_id":"lasell",
@@ -24597,7 +24457,7 @@
     "def":101.7,
     "rating":-4.5,
     "pace":72.62,
-    "wab":-7.175
+    "wab":-7.114
   },
   {
     "team_id":"lasell",
@@ -24607,7 +24467,7 @@
     "def":103.11,
     "rating":-3.91,
     "pace":71.98,
-    "wab":-8.98
+    "wab":-8.85
   },
   {
     "team_id":"lasell",
@@ -24617,7 +24477,7 @@
     "def":101.21,
     "rating":-3.54,
     "pace":71.53,
-    "wab":-6.548
+    "wab":-6.483
   },
   {
     "team_id":"lasell",
@@ -24627,7 +24487,7 @@
     "def":98.97,
     "rating":4.12,
     "pace":74.52,
-    "wab":-3.27
+    "wab":-3.129
   },
   {
     "team_id":"lasell",
@@ -24637,7 +24497,7 @@
     "def":99.8,
     "rating":3.74,
     "pace":74.46,
-    "wab":-6.91
+    "wab":-6.828
   },
   {
     "team_id":"lawrence",
@@ -24927,7 +24787,7 @@
     "def":101.24,
     "rating":-11.11,
     "pace":68.98,
-    "wab":-11.631
+    "wab":-11.781
   },
   {
     "team_id":"lehman",
@@ -24987,7 +24847,7 @@
     "def":97.4,
     "rating":7.07,
     "pace":74.04,
-    "wab":-3.271
+    "wab":-3.196
   },
   {
     "team_id":"lehman",
@@ -24997,7 +24857,7 @@
     "def":108.72,
     "rating":-15.14,
     "pace":71.28,
-    "wab":-15.487
+    "wab":-15.315
   },
   {
     "team_id":"lehman",
@@ -25137,7 +24997,7 @@
     "def":118.09,
     "rating":-37.35,
     "pace":78.25,
-    "wab":-20.292
+    "wab":-20.215
   },
   {
     "team_id":"lesley",
@@ -25387,7 +25247,7 @@
     "def":100.82,
     "rating":6.69,
     "pace":69.62,
-    "wab":-7.037
+    "wab":-6.956
   },
   {
     "team_id":"lewis-and-clark",
@@ -25527,7 +25387,7 @@
     "def":104.15,
     "rating":-2.42,
     "pace":65.75,
-    "wab":-6.833
+    "wab":-6.719
   },
   {
     "team_id":"linfield",
@@ -25987,7 +25847,7 @@
     "def":99.49,
     "rating":4.56,
     "pace":69.27,
-    "wab":-4.111
+    "wab":-4.047
   },
   {
     "team_id":"lycoming",
@@ -26807,7 +26667,7 @@
     "def":100.81,
     "rating":-13.53,
     "pace":68.86,
-    "wab":-6.558
+    "wab":-6.453
   },
   {
     "team_id":"maine-presque-isle",
@@ -27067,7 +26927,7 @@
     "def":102.4,
     "rating":-4.92,
     "pace":75.36,
-    "wab":-9.134
+    "wab":-9.052
   },
   {
     "team_id":"manhattanville",
@@ -28117,7 +27977,7 @@
     "def":88.84,
     "rating":18.06,
     "pace":65.84,
-    "wab":-0.627
+    "wab":-0.46
   },
   {
     "team_id":"mary-washington",
@@ -28427,7 +28287,7 @@
     "def":104.45,
     "rating":-15.3,
     "pace":67.39,
-    "wab":-13.291
+    "wab":-13.106
   },
   {
     "team_id":"marywood",
@@ -28437,7 +28297,7 @@
     "def":110.77,
     "rating":-19.83,
     "pace":68.97,
-    "wab":-15.824
+    "wab":-15.625
   },
   {
     "team_id":"marywood",
@@ -28447,7 +28307,7 @@
     "def":109.67,
     "rating":-12.59,
     "pace":66.68,
-    "wab":-12.162
+    "wab":-12.008
   },
   {
     "team_id":"marywood",
@@ -28457,7 +28317,7 @@
     "def":106.15,
     "rating":-5.87,
     "pace":68.13,
-    "wab":-8.378
+    "wab":-8.294
   },
   {
     "team_id":"marywood",
@@ -28467,7 +28327,7 @@
     "def":109.91,
     "rating":-17.6,
     "pace":67.96,
-    "wab":-16.619
+    "wab":-16.497
   },
   {
     "team_id":"marywood",
@@ -28477,7 +28337,7 @@
     "def":106.79,
     "rating":-17.38,
     "pace":68.59,
-    "wab":-15.981
+    "wab":-15.96
   },
   {
     "team_id":"marywood",
@@ -28487,7 +28347,7 @@
     "def":105.69,
     "rating":-6.65,
     "pace":66.77,
-    "wab":-7.55
+    "wab":-7.871
   },
   {
     "team_id":"marywood",
@@ -28557,7 +28417,7 @@
     "def":110.94,
     "rating":-11.69,
     "pace":72.17,
-    "wab":-10.849
+    "wab":-10.76
   },
   {
     "team_id":"mass-boston",
@@ -28957,7 +28817,7 @@
     "def":108.16,
     "rating":-12.57,
     "pace":69.43,
-    "wab":-9.145
+    "wab":-9.023
   },
   {
     "team_id":"massachusetts-college",
@@ -28977,7 +28837,7 @@
     "def":113.49,
     "rating":-17.93,
     "pace":72.48,
-    "wab":-13.682
+    "wab":-13.442
   },
   {
     "team_id":"mcdaniel",
@@ -29017,7 +28877,7 @@
     "def":98.59,
     "rating":2.48,
     "pace":62.88,
-    "wab":-7.61
+    "wab":-7.583
   },
   {
     "team_id":"mcdaniel",
@@ -29027,7 +28887,7 @@
     "def":99.93,
     "rating":-0.55,
     "pace":61.51,
-    "wab":-7.275
+    "wab":-7.193
   },
   {
     "team_id":"mcdaniel",
@@ -29267,7 +29127,7 @@
     "def":97.54,
     "rating":-0.01,
     "pace":74.82,
-    "wab":-7.764
+    "wab":-7.913
   },
   {
     "team_id":"medgar-evers",
@@ -29317,7 +29177,7 @@
     "def":112.59,
     "rating":-25.64,
     "pace":75.85,
-    "wab":-17.611
+    "wab":-17.49
   },
   {
     "team_id":"medgar-evers",
@@ -29327,7 +29187,7 @@
     "def":108.24,
     "rating":-19.54,
     "pace":78.05,
-    "wab":-15.753
+    "wab":-15.61
   },
   {
     "team_id":"medgar-evers",
@@ -29337,7 +29197,7 @@
     "def":112.01,
     "rating":-19.06,
     "pace":77.57,
-    "wab":-14.074
+    "wab":-13.985
   },
   {
     "team_id":"medgar-evers",
@@ -29347,7 +29207,7 @@
     "def":117.28,
     "rating":-25.12,
     "pace":80.47,
-    "wab":-17.229
+    "wab":-17.06
   },
   {
     "team_id":"medgar-evers",
@@ -29357,7 +29217,7 @@
     "def":109.32,
     "rating":-24.27,
     "pace":83.36,
-    "wab":-15.444
+    "wab":-15.355
   },
   {
     "team_id":"medgar-evers",
@@ -29367,7 +29227,7 @@
     "def":113.87,
     "rating":-34.44,
     "pace":80.08,
-    "wab":-19.055
+    "wab":-18.88
   },
   {
     "team_id":"medgar-evers",
@@ -29377,7 +29237,7 @@
     "def":114.68,
     "rating":-36.61,
     "pace":79.57,
-    "wab":-21.973
+    "wab":-21.886
   },
   {
     "team_id":"medgar-evers",
@@ -29387,7 +29247,7 @@
     "def":110.5,
     "rating":-30.9,
     "pace":77.5,
-    "wab":-18.948
+    "wab":-18.782
   },
   {
     "team_id":"medgar-evers",
@@ -29397,7 +29257,7 @@
     "def":116.95,
     "rating":-42.32,
     "pace":74.96,
-    "wab":-22.452
+    "wab":-22.367
   },
   {
     "team_id":"merchant-marine",
@@ -29537,7 +29397,7 @@
     "def":110.01,
     "rating":-24.24,
     "pace":70.55,
-    "wab":-16.128
+    "wab":-15.955
   },
   {
     "team_id":"messiah",
@@ -29547,7 +29407,7 @@
     "def":93.61,
     "rating":12.79,
     "pace":61.82,
-    "wab":-1.965
+    "wab":-2.058
   },
   {
     "team_id":"messiah",
@@ -29567,7 +29427,7 @@
     "def":98.5,
     "rating":11.04,
     "pace":69.26,
-    "wab":-0.982
+    "wab":-0.928
   },
   {
     "team_id":"messiah",
@@ -29587,7 +29447,7 @@
     "def":97.87,
     "rating":-4.76,
     "pace":68.79,
-    "wab":-14.427
+    "wab":-14.613
   },
   {
     "team_id":"messiah",
@@ -29607,7 +29467,7 @@
     "def":98.84,
     "rating":1.17,
     "pace":67.5,
-    "wab":-7.34
+    "wab":-7.264
   },
   {
     "team_id":"messiah",
@@ -29917,7 +29777,7 @@
     "def":95.62,
     "rating":11.56,
     "pace":72.2,
-    "wab":-0.209
+    "wab":-0.124
   },
   {
     "team_id":"middlebury",
@@ -30437,7 +30297,7 @@
     "def":98.99,
     "rating":9.73,
     "pace":75.55,
-    "wab":-2.954
+    "wab":-3.124
   },
   {
     "team_id":"misericordia",
@@ -30447,7 +30307,7 @@
     "def":98.81,
     "rating":3.54,
     "pace":73.88,
-    "wab":-6.19
+    "wab":-6.123
   },
   {
     "team_id":"misericordia",
@@ -30457,7 +30317,7 @@
     "def":99.13,
     "rating":-0.01,
     "pace":73.77,
-    "wab":-8.701
+    "wab":-8.697
   },
   {
     "team_id":"misericordia",
@@ -30487,7 +30347,7 @@
     "def":109.65,
     "rating":-4.78,
     "pace":70.16,
-    "wab":-10.054
+    "wab":-10.075
   },
   {
     "team_id":"misericordia",
@@ -30497,7 +30357,7 @@
     "def":108.11,
     "rating":0.87,
     "pace":70.72,
-    "wab":-8.282
+    "wab":-8.251
   },
   {
     "team_id":"misericordia",
@@ -30737,7 +30597,7 @@
     "def":103.13,
     "rating":-6.34,
     "pace":73.35,
-    "wab":-5.397
+    "wab":-5.321
   },
   {
     "team_id":"mitchell",
@@ -30747,7 +30607,7 @@
     "def":103.27,
     "rating":-4.87,
     "pace":75.12,
-    "wab":-9.535
+    "wab":-9.44
   },
   {
     "team_id":"mitchell",
@@ -30757,7 +30617,7 @@
     "def":107.28,
     "rating":-6.07,
     "pace":77.71,
-    "wab":-6.297
+    "wab":-6.235
   },
   {
     "team_id":"mitchell",
@@ -30767,7 +30627,7 @@
     "def":102.78,
     "rating":0.67,
     "pace":77.32,
-    "wab":-1.935
+    "wab":-1.806
   },
   {
     "team_id":"mitchell",
@@ -30777,7 +30637,7 @@
     "def":105.04,
     "rating":-13.94,
     "pace":74.86,
-    "wab":-13.566
+    "wab":-13.379
   },
   {
     "team_id":"mitchell",
@@ -30787,7 +30647,7 @@
     "def":108.35,
     "rating":-10.78,
     "pace":76.34,
-    "wab":-8.853
+    "wab":-8.639
   },
   {
     "team_id":"mitchell",
@@ -30797,7 +30657,7 @@
     "def":107.53,
     "rating":-10.15,
     "pace":76.07,
-    "wab":-12.565
+    "wab":-12.483
   },
   {
     "team_id":"monmouth",
@@ -30947,7 +30807,7 @@
     "def":98.28,
     "rating":5.31,
     "pace":71.88,
-    "wab":-4.407
+    "wab":-4.651
   },
   {
     "team_id":"montclair-state",
@@ -30957,7 +30817,7 @@
     "def":101.75,
     "rating":-4.53,
     "pace":74.78,
-    "wab":-12.327
+    "wab":-12.567
   },
   {
     "team_id":"montclair-state",
@@ -30967,7 +30827,7 @@
     "def":102.35,
     "rating":1.53,
     "pace":71.71,
-    "wab":-8.924
+    "wab":-9.022
   },
   {
     "team_id":"montclair-state",
@@ -30977,7 +30837,7 @@
     "def":106.23,
     "rating":-6.86,
     "pace":74.12,
-    "wab":-12.273
+    "wab":-12.482
   },
   {
     "team_id":"montclair-state",
@@ -30987,7 +30847,7 @@
     "def":103.26,
     "rating":-2.33,
     "pace":73.15,
-    "wab":-9.764
+    "wab":-10.224
   },
   {
     "team_id":"montclair-state",
@@ -30997,7 +30857,7 @@
     "def":97.08,
     "rating":-0.71,
     "pace":69.48,
-    "wab":-8.466
+    "wab":-8.932
   },
   {
     "team_id":"montclair-state",
@@ -31007,7 +30867,7 @@
     "def":100.12,
     "rating":5.57,
     "pace":70.88,
-    "wab":-4.274
+    "wab":-4.485
   },
   {
     "team_id":"montclair-state",
@@ -31017,7 +30877,7 @@
     "def":99.36,
     "rating":6.91,
     "pace":69.81,
-    "wab":-4.282
+    "wab":-4.747
   },
   {
     "team_id":"montclair-state",
@@ -31027,7 +30887,7 @@
     "def":105.92,
     "rating":1.66,
     "pace":76.23,
-    "wab":-8.452
+    "wab":-8.604
   },
   {
     "team_id":"montclair-state",
@@ -31037,7 +30897,7 @@
     "def":97.4,
     "rating":6.69,
     "pace":74.43,
-    "wab":-5.292
+    "wab":-5.343
   },
   {
     "team_id":"montclair-state",
@@ -31047,7 +30907,7 @@
     "def":99.3,
     "rating":13.81,
     "pace":72.43,
-    "wab":-0.367
+    "wab":-0.372
   },
   {
     "team_id":"montclair-state",
@@ -31057,7 +30917,7 @@
     "def":99.92,
     "rating":9.87,
     "pace":76.89,
-    "wab":-3.702
+    "wab":-3.653
   },
   {
     "team_id":"montclair-state",
@@ -31067,7 +30927,7 @@
     "def":99.26,
     "rating":13.7,
     "pace":74.14,
-    "wab":0.212
+    "wab":0.176
   },
   {
     "team_id":"montclair-state",
@@ -31077,7 +30937,7 @@
     "def":99.27,
     "rating":18.09,
     "pace":77.93,
-    "wab":2.125
+    "wab":2.127
   },
   {
     "team_id":"moravian",
@@ -31097,7 +30957,7 @@
     "def":100.55,
     "rating":2.27,
     "pace":72.61,
-    "wab":-6.867
+    "wab":-6.96
   },
   {
     "team_id":"moravian",
@@ -31277,7 +31137,7 @@
     "def":105.06,
     "rating":-4.77,
     "pace":71.89,
-    "wab":-3.327
+    "wab":-3.238
   },
   {
     "team_id":"morrisville-state",
@@ -31647,7 +31507,7 @@
     "def":98.19,
     "rating":8.38,
     "pace":71.44,
-    "wab":-3.612
+    "wab":-3.706
   },
   {
     "team_id":"mount-st-mary",
@@ -31697,7 +31557,7 @@
     "def":103.81,
     "rating":-12.93,
     "pace":70.15,
-    "wab":-10.601
+    "wab":-10.512
   },
   {
     "team_id":"mount-st-mary",
@@ -31867,7 +31727,7 @@
     "def":103.37,
     "rating":-9.9,
     "pace":75.4,
-    "wab":-12.719
+    "wab":-12.814
   },
   {
     "team_id":"mount-st-vincent",
@@ -31997,7 +31857,7 @@
     "def":96.1,
     "rating":19.13,
     "pace":69.21,
-    "wab":2.463
+    "wab":2.588
   },
   {
     "team_id":"mount-union",
@@ -32317,7 +32177,7 @@
     "def":106.52,
     "rating":-3.6,
     "pace":70.11,
-    "wab":-11.596
+    "wab":-11.434
   },
   {
     "team_id":"muhlenberg",
@@ -32327,7 +32187,7 @@
     "def":107.88,
     "rating":-4.15,
     "pace":68.71,
-    "wab":-9.735
+    "wab":-9.648
   },
   {
     "team_id":"muhlenberg",
@@ -32337,7 +32197,7 @@
     "def":101.56,
     "rating":-3.36,
     "pace":64.09,
-    "wab":-8.204
+    "wab":-8.203
   },
   {
     "team_id":"muskingum",
@@ -32767,7 +32627,7 @@
     "def":102.33,
     "rating":6.99,
     "pace":67.22,
-    "wab":-3.154
+    "wab":-3.303
   },
   {
     "team_id":"nazareth",
@@ -32777,7 +32637,7 @@
     "def":106.94,
     "rating":0.56,
     "pace":67.35,
-    "wab":-4.723
+    "wab":-4.816
   },
   {
     "team_id":"nazareth",
@@ -32867,7 +32727,7 @@
     "def":95.18,
     "rating":12.48,
     "pace":70.74,
-    "wab":-1.689
+    "wab":-1.594
   },
   {
     "team_id":"nazareth",
@@ -33047,7 +32907,7 @@
     "def":98.76,
     "rating":-4.76,
     "pace":74.31,
-    "wab":-10.145
+    "wab":-9.841
   },
   {
     "team_id":"neumann",
@@ -33057,7 +32917,7 @@
     "def":97.04,
     "rating":-1.23,
     "pace":69.17,
-    "wab":-11.006
+    "wab":-10.807
   },
   {
     "team_id":"neumann",
@@ -33067,7 +32927,7 @@
     "def":98.42,
     "rating":4.7,
     "pace":69.7,
-    "wab":-5.062
+    "wab":-4.908
   },
   {
     "team_id":"neumann",
@@ -33077,7 +32937,7 @@
     "def":97.6,
     "rating":0.45,
     "pace":68.96,
-    "wab":-7.475
+    "wab":-7.391
   },
   {
     "team_id":"neumann",
@@ -33087,7 +32947,7 @@
     "def":99.33,
     "rating":7.32,
     "pace":75.21,
-    "wab":-3.628
+    "wab":-3.392
   },
   {
     "team_id":"neumann",
@@ -33097,7 +32957,7 @@
     "def":96.93,
     "rating":15.64,
     "pace":74.51,
-    "wab":0.245
+    "wab":0.362
   },
   {
     "team_id":"neumann",
@@ -33107,7 +32967,7 @@
     "def":102.5,
     "rating":9.12,
     "pace":73.4,
-    "wab":-4.754
+    "wab":-4.809
   },
   {
     "team_id":"neumann",
@@ -33117,7 +32977,7 @@
     "def":100.47,
     "rating":1.57,
     "pace":71.15,
-    "wab":-9.035
+    "wab":-8.943
   },
   {
     "team_id":"neumann",
@@ -33147,7 +33007,7 @@
     "def":98.68,
     "rating":5.28,
     "pace":69.1,
-    "wab":-4.116
+    "wab":-4.072
   },
   {
     "team_id":"neumann",
@@ -33157,7 +33017,7 @@
     "def":106.36,
     "rating":-5.09,
     "pace":67.35,
-    "wab":-13.051
+    "wab":-12.964
   },
   {
     "team_id":"neumann",
@@ -33167,7 +33027,7 @@
     "def":104.4,
     "rating":1.31,
     "pace":72.32,
-    "wab":-4.945
+    "wab":-4.778
   },
   {
     "team_id":"neumann",
@@ -33297,7 +33157,7 @@
     "def":109.46,
     "rating":-24.22,
     "pace":72.64,
-    "wab":-18.427
+    "wab":-18.362
   },
   {
     "team_id":"new-england-college",
@@ -33307,7 +33167,7 @@
     "def":116.17,
     "rating":-28.22,
     "pace":68.83,
-    "wab":-17.95
+    "wab":-17.809
   },
   {
     "team_id":"new-england-college",
@@ -33318,146 +33178,6 @@
     "rating":-26.99,
     "pace":70.74,
     "wab":-14.653
-  },
-  {
-    "team_id":"new-jersey-city",
-    "full_team":"New Jersey City",
-    "season":2012,
-    "off":100.79,
-    "def":93.57,
-    "rating":7.22,
-    "pace":68.0,
-    "wab":-3.257
-  },
-  {
-    "team_id":"new-jersey-city",
-    "full_team":"New Jersey City",
-    "season":2013,
-    "off":95.48,
-    "def":88.32,
-    "rating":7.15,
-    "pace":66.95,
-    "wab":-7.359
-  },
-  {
-    "team_id":"new-jersey-city",
-    "full_team":"New Jersey City",
-    "season":2014,
-    "off":94.12,
-    "def":90.78,
-    "rating":3.33,
-    "pace":68.73,
-    "wab":-7.719
-  },
-  {
-    "team_id":"new-jersey-city",
-    "full_team":"New Jersey City",
-    "season":2015,
-    "off":99.56,
-    "def":93.2,
-    "rating":6.36,
-    "pace":70.34,
-    "wab":-8.072
-  },
-  {
-    "team_id":"new-jersey-city",
-    "full_team":"New Jersey City",
-    "season":2016,
-    "off":104.62,
-    "def":92.73,
-    "rating":11.89,
-    "pace":73.42,
-    "wab":-3.4
-  },
-  {
-    "team_id":"new-jersey-city",
-    "full_team":"New Jersey City",
-    "season":2017,
-    "off":101.64,
-    "def":89.63,
-    "rating":12.01,
-    "pace":72.0,
-    "wab":-2.388
-  },
-  {
-    "team_id":"new-jersey-city",
-    "full_team":"New Jersey City",
-    "season":2018,
-    "off":107.01,
-    "def":100.58,
-    "rating":6.42,
-    "pace":70.46,
-    "wab":-2.944
-  },
-  {
-    "team_id":"new-jersey-city",
-    "full_team":"New Jersey City",
-    "season":2019,
-    "off":107.18,
-    "def":95.19,
-    "rating":11.99,
-    "pace":72.23,
-    "wab":-2.718
-  },
-  {
-    "team_id":"new-jersey-city",
-    "full_team":"New Jersey City",
-    "season":2020,
-    "off":103.68,
-    "def":98.8,
-    "rating":4.89,
-    "pace":74.49,
-    "wab":-7.953
-  },
-  {
-    "team_id":"new-jersey-city",
-    "full_team":"New Jersey City",
-    "season":2022,
-    "off":102.57,
-    "def":98.02,
-    "rating":4.55,
-    "pace":73.39,
-    "wab":-8.664
-  },
-  {
-    "team_id":"new-jersey-city",
-    "full_team":"New Jersey City",
-    "season":2023,
-    "off":98.24,
-    "def":96.22,
-    "rating":2.02,
-    "pace":70.57,
-    "wab":-8.348
-  },
-  {
-    "team_id":"new-jersey-city",
-    "full_team":"New Jersey City",
-    "season":2024,
-    "off":101.65,
-    "def":103.71,
-    "rating":-2.06,
-    "pace":72.96,
-    "wab":-11.878
-  },
-  {
-    "team_id":"new-jersey-city",
-    "full_team":"New Jersey City",
-    "season":2025,
-    "off":100.86,
-    "def":99.56,
-    "rating":1.3,
-    "pace":70.0,
-    "wab":-7.278
-  },
-  {
-    "team_id":"new-jersey-city",
-    "full_team":"New Jersey City",
-    "season":2026,
-    "off":98.14,
-    "def":98.25,
-    "rating":-0.11,
-    "pace":69.79,
-    "wab":-7.196
   },
   {
     "team_id":"new-york-university",
@@ -33477,7 +33197,7 @@
     "def":96.61,
     "rating":7.58,
     "pace":67.24,
-    "wab":-3.323
+    "wab":-3.509
   },
   {
     "team_id":"new-york-university",
@@ -33537,7 +33257,7 @@
     "def":99.61,
     "rating":-2.34,
     "pace":69.37,
-    "wab":-11.142
+    "wab":-11.14
   },
   {
     "team_id":"new-york-university",
@@ -33547,7 +33267,7 @@
     "def":105.96,
     "rating":-3.23,
     "pace":68.48,
-    "wab":-10.162
+    "wab":-10.041
   },
   {
     "team_id":"new-york-university",
@@ -33607,7 +33327,7 @@
     "def":107.42,
     "rating":-10.56,
     "pace":77.19,
-    "wab":-11.234
+    "wab":-11.131
   },
   {
     "team_id":"nichols",
@@ -33647,7 +33367,7 @@
     "def":101.05,
     "rating":10.89,
     "pace":77.53,
-    "wab":-1.518
+    "wab":-1.45
   },
   {
     "team_id":"nichols",
@@ -33657,7 +33377,7 @@
     "def":107.22,
     "rating":7.36,
     "pace":74.96,
-    "wab":-2.128
+    "wab":-2.046
   },
   {
     "team_id":"nichols",
@@ -33667,7 +33387,7 @@
     "def":104.08,
     "rating":12.64,
     "pace":74.0,
-    "wab":0.192
+    "wab":0.321
   },
   {
     "team_id":"nichols",
@@ -33677,7 +33397,7 @@
     "def":95.72,
     "rating":15.11,
     "pace":74.7,
-    "wab":3.251
+    "wab":3.327
   },
   {
     "team_id":"nichols",
@@ -33687,7 +33407,7 @@
     "def":98.71,
     "rating":6.25,
     "pace":74.64,
-    "wab":-3.567
+    "wab":-3.472
   },
   {
     "team_id":"nichols",
@@ -33697,7 +33417,7 @@
     "def":100.24,
     "rating":7.61,
     "pace":77.84,
-    "wab":0.984
+    "wab":1.045
   },
   {
     "team_id":"nichols",
@@ -33707,7 +33427,7 @@
     "def":94.61,
     "rating":14.34,
     "pace":78.91,
-    "wab":0.255
+    "wab":0.385
   },
   {
     "team_id":"nichols",
@@ -33717,7 +33437,7 @@
     "def":101.98,
     "rating":7.4,
     "pace":72.01,
-    "wab":-0.748
+    "wab":-0.684
   },
   {
     "team_id":"nichols",
@@ -34307,7 +34027,7 @@
     "def":110.24,
     "rating":-24.87,
     "pace":70.3,
-    "wab":-17.044
+    "wab":-16.885
   },
   {
     "team_id":"norwich",
@@ -34317,7 +34037,7 @@
     "def":111.35,
     "rating":-22.16,
     "pace":66.77,
-    "wab":-16.891
+    "wab":-16.852
   },
   {
     "team_id":"norwich",
@@ -34327,7 +34047,7 @@
     "def":109.25,
     "rating":-18.62,
     "pace":66.14,
-    "wab":-16.658
+    "wab":-16.452
   },
   {
     "team_id":"norwich",
@@ -34337,7 +34057,7 @@
     "def":113.1,
     "rating":-25.01,
     "pace":68.31,
-    "wab":-12.834
+    "wab":-12.662
   },
   {
     "team_id":"norwich",
@@ -34347,7 +34067,7 @@
     "def":107.25,
     "rating":-21.64,
     "pace":70.5,
-    "wab":-15.17
+    "wab":-15.029
   },
   {
     "team_id":"norwich",
@@ -34357,7 +34077,7 @@
     "def":113.11,
     "rating":-18.96,
     "pace":66.95,
-    "wab":-15.196
+    "wab":-14.958
   },
   {
     "team_id":"norwich",
@@ -34367,7 +34087,7 @@
     "def":111.44,
     "rating":-12.19,
     "pace":68.06,
-    "wab":-13.871
+    "wab":-13.741
   },
   {
     "team_id":"norwich",
@@ -34377,7 +34097,7 @@
     "def":110.22,
     "rating":-21.44,
     "pace":70.99,
-    "wab":-15.203
+    "wab":-15.126
   },
   {
     "team_id":"norwich",
@@ -34387,7 +34107,7 @@
     "def":112.53,
     "rating":-27.5,
     "pace":72.79,
-    "wab":-15.938
+    "wab":-15.843
   },
   {
     "team_id":"norwich",
@@ -34397,7 +34117,7 @@
     "def":104.86,
     "rating":-13.6,
     "pace":71.07,
-    "wab":-10.26
+    "wab":-10.083
   },
   {
     "team_id":"norwich",
@@ -34407,7 +34127,7 @@
     "def":103.9,
     "rating":-12.1,
     "pace":72.43,
-    "wab":-10.891
+    "wab":-10.692
   },
   {
     "team_id":"norwich",
@@ -34417,7 +34137,7 @@
     "def":101.32,
     "rating":-1.87,
     "pace":72.51,
-    "wab":-5.628
+    "wab":-5.506
   },
   {
     "team_id":"norwich",
@@ -34427,7 +34147,7 @@
     "def":102.81,
     "rating":-3.13,
     "pace":70.73,
-    "wab":-5.643
+    "wab":-5.569
   },
   {
     "team_id":"norwich",
@@ -34437,7 +34157,7 @@
     "def":103.62,
     "rating":-9.43,
     "pace":70.32,
-    "wab":-13.045
+    "wab":-12.887
   },
   {
     "team_id":"notre-dame-md",
@@ -34557,7 +34277,7 @@
     "def":112.0,
     "rating":-24.84,
     "pace":70.04,
-    "wab":-17.768
+    "wab":-17.27
   },
   {
     "team_id":"notre-dame-md",
@@ -34577,7 +34297,7 @@
     "def":106.82,
     "rating":-2.95,
     "pace":76.63,
-    "wab":-4.793
+    "wab":-4.457
   },
   {
     "team_id":"nvu-johnson",
@@ -36347,7 +36067,7 @@
     "def":115.61,
     "rating":-22.6,
     "pace":75.0,
-    "wab":-16.898
+    "wab":-16.665
   },
   {
     "team_id":"penn-college",
@@ -36387,7 +36107,7 @@
     "def":111.13,
     "rating":-16.7,
     "pace":75.62,
-    "wab":-15.563
+    "wab":-15.31
   },
   {
     "team_id":"penn-college",
@@ -36397,7 +36117,7 @@
     "def":113.45,
     "rating":-26.49,
     "pace":78.17,
-    "wab":-15.835
+    "wab":-15.66
   },
   {
     "team_id":"penn-state-abington",
@@ -36407,7 +36127,7 @@
     "def":117.61,
     "rating":-20.08,
     "pace":78.15,
-    "wab":-13.606
+    "wab":-13.486
   },
   {
     "team_id":"penn-state-abington",
@@ -36417,7 +36137,7 @@
     "def":116.19,
     "rating":-16.17,
     "pace":75.66,
-    "wab":-10.977
+    "wab":-10.908
   },
   {
     "team_id":"penn-state-abington",
@@ -36437,7 +36157,7 @@
     "def":111.69,
     "rating":-18.12,
     "pace":77.11,
-    "wab":-14.222
+    "wab":-14.181
   },
   {
     "team_id":"penn-state-abington",
@@ -36527,7 +36247,7 @@
     "def":116.09,
     "rating":-35.27,
     "pace":75.57,
-    "wab":-19.413
+    "wab":-19.159
   },
   {
     "team_id":"penn-state-abington",
@@ -36537,7 +36257,7 @@
     "def":114.02,
     "rating":-19.27,
     "pace":72.81,
-    "wab":-15.522
+    "wab":-15.347
   },
   {
     "team_id":"penn-state-altoona",
@@ -36907,7 +36627,7 @@
     "def":120.08,
     "rating":-30.87,
     "pace":75.03,
-    "wab":-20.012
+    "wab":-19.843
   },
   {
     "team_id":"penn-state-berks",
@@ -36927,7 +36647,7 @@
     "def":111.99,
     "rating":-23.27,
     "pace":76.3,
-    "wab":-13.957
+    "wab":-13.782
   },
   {
     "team_id":"penn-state-berks",
@@ -36947,7 +36667,7 @@
     "def":115.9,
     "rating":-26.73,
     "pace":77.94,
-    "wab":-14.611
+    "wab":-14.104
   },
   {
     "team_id":"penn-state-berks",
@@ -36957,7 +36677,7 @@
     "def":115.65,
     "rating":-28.48,
     "pace":76.59,
-    "wab":-13.242
+    "wab":-13.067
   },
   {
     "team_id":"penn-state-brandywine",
@@ -37227,7 +36947,7 @@
     "def":102.8,
     "rating":0.12,
     "pace":66.78,
-    "wab":-6.04
+    "wab":-5.953
   },
   {
     "team_id":"penn-state-harrisburg",
@@ -37237,7 +36957,7 @@
     "def":98.76,
     "rating":4.07,
     "pace":65.89,
-    "wab":-4.887
+    "wab":-4.712
   },
   {
     "team_id":"pfeiffer",
@@ -37727,7 +37447,7 @@
     "def":109.64,
     "rating":-20.91,
     "pace":70.02,
-    "wab":-14.848
+    "wab":-14.705
   },
   {
     "team_id":"pitt-greensburg",
@@ -37797,7 +37517,7 @@
     "def":101.18,
     "rating":8.32,
     "pace":72.43,
-    "wab":-2.788
+    "wab":-2.786
   },
   {
     "team_id":"plattsburgh-state",
@@ -38307,7 +38027,7 @@
     "def":117.58,
     "rating":-34.56,
     "pace":73.04,
-    "wab":-6.165
+    "wab":-6.077
   },
   {
     "team_id":"pratt",
@@ -38327,7 +38047,7 @@
     "def":108.92,
     "rating":-29.2,
     "pace":73.34,
-    "wab":-16.861
+    "wab":-16.686
   },
   {
     "team_id":"pratt",
@@ -38337,7 +38057,7 @@
     "def":113.19,
     "rating":-27.11,
     "pace":71.79,
-    "wab":-15.73
+    "wab":-15.644
   },
   {
     "team_id":"pratt",
@@ -38347,7 +38067,7 @@
     "def":111.23,
     "rating":-30.29,
     "pace":72.99,
-    "wab":-19.343
+    "wab":-19.176
   },
   {
     "team_id":"pratt",
@@ -38357,7 +38077,7 @@
     "def":105.18,
     "rating":-17.06,
     "pace":73.49,
-    "wab":-11.325
+    "wab":-11.323
   },
   {
     "team_id":"principia",
@@ -38647,7 +38367,7 @@
     "def":95.57,
     "rating":8.9,
     "pace":76.08,
-    "wab":-4.187
+    "wab":-4.43
   },
   {
     "team_id":"ramapo",
@@ -38657,7 +38377,7 @@
     "def":93.66,
     "rating":14.02,
     "pace":74.21,
-    "wab":0.067
+    "wab":-0.174
   },
   {
     "team_id":"ramapo",
@@ -38667,7 +38387,7 @@
     "def":103.57,
     "rating":0.92,
     "pace":74.41,
-    "wab":-11.069
+    "wab":-11.167
   },
   {
     "team_id":"ramapo",
@@ -38677,7 +38397,7 @@
     "def":99.37,
     "rating":0.77,
     "pace":76.58,
-    "wab":-7.322
+    "wab":-7.53
   },
   {
     "team_id":"ramapo",
@@ -38687,7 +38407,7 @@
     "def":100.08,
     "rating":4.18,
     "pace":77.97,
-    "wab":-5.781
+    "wab":-6.24
   },
   {
     "team_id":"ramapo",
@@ -38697,7 +38417,7 @@
     "def":96.08,
     "rating":14.61,
     "pace":74.89,
-    "wab":1.579
+    "wab":0.924
   },
   {
     "team_id":"ramapo",
@@ -38707,7 +38427,7 @@
     "def":92.27,
     "rating":13.54,
     "pace":71.55,
-    "wab":0.152
+    "wab":-0.059
   },
   {
     "team_id":"ramapo",
@@ -38717,7 +38437,7 @@
     "def":97.64,
     "rating":5.45,
     "pace":72.27,
-    "wab":-4.265
+    "wab":-5.007
   },
   {
     "team_id":"ramapo",
@@ -38727,7 +38447,7 @@
     "def":97.18,
     "rating":7.85,
     "pace":68.86,
-    "wab":-6.157
+    "wab":-6.31
   },
   {
     "team_id":"ramapo",
@@ -38737,7 +38457,7 @@
     "def":103.49,
     "rating":-4.31,
     "pace":68.59,
-    "wab":-12.214
+    "wab":-12.354
   },
   {
     "team_id":"ramapo",
@@ -38747,7 +38467,7 @@
     "def":101.37,
     "rating":-3.53,
     "pace":68.78,
-    "wab":-9.922
+    "wab":-9.979
   },
   {
     "team_id":"ramapo",
@@ -38757,7 +38477,7 @@
     "def":100.93,
     "rating":6.99,
     "pace":68.61,
-    "wab":-3.714
+    "wab":-3.665
   },
   {
     "team_id":"ramapo",
@@ -38767,7 +38487,7 @@
     "def":95.73,
     "rating":13.4,
     "pace":69.09,
-    "wab":-0.638
+    "wab":-0.674
   },
   {
     "team_id":"ramapo",
@@ -38777,7 +38497,7 @@
     "def":100.49,
     "rating":-7.07,
     "pace":69.63,
-    "wab":-12.334
+    "wab":-12.331
   },
   {
     "team_id":"randolph",
@@ -38807,7 +38527,7 @@
     "def":95.1,
     "rating":8.28,
     "pace":64.79,
-    "wab":-4.787
+    "wab":-4.835
   },
   {
     "team_id":"randolph",
@@ -39017,7 +38737,7 @@
     "def":87.58,
     "rating":36.72,
     "pace":64.55,
-    "wab":11.133
+    "wab":11.064
   },
   {
     "team_id":"randolph-macon",
@@ -39407,7 +39127,7 @@
     "def":104.65,
     "rating":-10.42,
     "pace":72.02,
-    "wab":-11.408
+    "wab":-11.339
   },
   {
     "team_id":"regis-mass",
@@ -39417,7 +39137,7 @@
     "def":103.7,
     "rating":-12.74,
     "pace":74.01,
-    "wab":-13.783
+    "wab":-13.638
   },
   {
     "team_id":"regis-mass",
@@ -39427,7 +39147,7 @@
     "def":113.23,
     "rating":-17.0,
     "pace":71.48,
-    "wab":-14.63
+    "wab":-14.578
   },
   {
     "team_id":"regis-mass",
@@ -39437,7 +39157,7 @@
     "def":102.01,
     "rating":-11.45,
     "pace":73.68,
-    "wab":-9.339
+    "wab":-9.223
   },
   {
     "team_id":"regis-mass",
@@ -39447,7 +39167,7 @@
     "def":103.46,
     "rating":-9.26,
     "pace":72.71,
-    "wab":-8.309
+    "wab":-8.24
   },
   {
     "team_id":"regis-mass",
@@ -39457,7 +39177,7 @@
     "def":103.12,
     "rating":-8.41,
     "pace":70.58,
-    "wab":-9.47
+    "wab":-9.349
   },
   {
     "team_id":"regis-mass",
@@ -39467,7 +39187,7 @@
     "def":109.89,
     "rating":-13.02,
     "pace":70.38,
-    "wab":-10.038
+    "wab":-9.964
   },
   {
     "team_id":"regis-mass",
@@ -39477,7 +39197,7 @@
     "def":106.1,
     "rating":-13.51,
     "pace":69.18,
-    "wab":-8.758
+    "wab":-8.6
   },
   {
     "team_id":"rhode-island-college",
@@ -39907,7 +39627,7 @@
     "def":108.9,
     "rating":-18.7,
     "pace":68.79,
-    "wab":-17.782
+    "wab":-17.623
   },
   {
     "team_id":"rivier",
@@ -39917,7 +39637,7 @@
     "def":100.48,
     "rating":-14.71,
     "pace":64.18,
-    "wab":-13.27
+    "wab":-13.231
   },
   {
     "team_id":"rivier",
@@ -39927,7 +39647,7 @@
     "def":105.17,
     "rating":-12.01,
     "pace":67.46,
-    "wab":-12.949
+    "wab":-12.791
   },
   {
     "team_id":"rivier",
@@ -39937,7 +39657,7 @@
     "def":120.12,
     "rating":-27.18,
     "pace":64.59,
-    "wab":-16.871
+    "wab":-16.699
   },
   {
     "team_id":"rivier",
@@ -39947,7 +39667,7 @@
     "def":113.89,
     "rating":-23.68,
     "pace":71.12,
-    "wab":-17.083
+    "wab":-16.942
   },
   {
     "team_id":"rivier",
@@ -39957,7 +39677,7 @@
     "def":118.99,
     "rating":-35.05,
     "pace":74.45,
-    "wab":-19.276
+    "wab":-19.038
   },
   {
     "team_id":"rivier",
@@ -39967,7 +39687,7 @@
     "def":121.83,
     "rating":-35.05,
     "pace":74.57,
-    "wab":-20.295
+    "wab":-20.097
   },
   {
     "team_id":"rivier",
@@ -39977,7 +39697,7 @@
     "def":125.78,
     "rating":-35.83,
     "pace":74.26,
-    "wab":-22.012
+    "wab":-21.936
   },
   {
     "team_id":"rivier",
@@ -39987,7 +39707,7 @@
     "def":119.17,
     "rating":-29.07,
     "pace":74.75,
-    "wab":-17.561
+    "wab":-17.466
   },
   {
     "team_id":"rivier",
@@ -39997,7 +39717,7 @@
     "def":108.39,
     "rating":-16.53,
     "pace":72.61,
-    "wab":-12.768
+    "wab":-12.592
   },
   {
     "team_id":"rivier",
@@ -40007,7 +39727,7 @@
     "def":111.44,
     "rating":-27.86,
     "pace":74.04,
-    "wab":-20.691
+    "wab":-20.492
   },
   {
     "team_id":"rivier",
@@ -40017,7 +39737,7 @@
     "def":107.2,
     "rating":-11.86,
     "pace":70.95,
-    "wab":-8.292
+    "wab":-8.227
   },
   {
     "team_id":"rivier",
@@ -40027,7 +39747,7 @@
     "def":104.37,
     "rating":-5.46,
     "pace":73.83,
-    "wab":-7.814
+    "wab":-7.674
   },
   {
     "team_id":"rivier",
@@ -40037,7 +39757,7 @@
     "def":107.47,
     "rating":-8.44,
     "pace":70.88,
-    "wab":-10.186
+    "wab":-10.103
   },
   {
     "team_id":"roanoke",
@@ -40677,7 +40397,7 @@
     "def":105.85,
     "rating":-0.81,
     "pace":71.65,
-    "wab":-8.214
+    "wab":-8.138
   },
   {
     "team_id":"roger-williams",
@@ -40737,7 +40457,7 @@
     "def":107.65,
     "rating":-3.83,
     "pace":73.4,
-    "wab":-10.676
+    "wab":-10.519
   },
   {
     "team_id":"rose-hulman",
@@ -40880,146 +40600,6 @@
     "wab":-3.961
   },
   {
-    "team_id":"rosemont",
-    "full_team":"Rosemont",
-    "season":2012,
-    "off":91.62,
-    "def":102.87,
-    "rating":-11.25,
-    "pace":70.5,
-    "wab":-10.522
-  },
-  {
-    "team_id":"rosemont",
-    "full_team":"Rosemont",
-    "season":2013,
-    "off":96.84,
-    "def":109.8,
-    "rating":-12.96,
-    "pace":74.12,
-    "wab":-12.121
-  },
-  {
-    "team_id":"rosemont",
-    "full_team":"Rosemont",
-    "season":2014,
-    "off":100.52,
-    "def":108.89,
-    "rating":-8.38,
-    "pace":69.9,
-    "wab":-11.618
-  },
-  {
-    "team_id":"rosemont",
-    "full_team":"Rosemont",
-    "season":2015,
-    "off":102.26,
-    "def":106.02,
-    "rating":-3.76,
-    "pace":67.37,
-    "wab":-9.557
-  },
-  {
-    "team_id":"rosemont",
-    "full_team":"Rosemont",
-    "season":2016,
-    "off":105.31,
-    "def":111.37,
-    "rating":-6.06,
-    "pace":74.01,
-    "wab":-10.717
-  },
-  {
-    "team_id":"rosemont",
-    "full_team":"Rosemont",
-    "season":2017,
-    "off":106.19,
-    "def":107.04,
-    "rating":-0.85,
-    "pace":74.82,
-    "wab":-6.935
-  },
-  {
-    "team_id":"rosemont",
-    "full_team":"Rosemont",
-    "season":2018,
-    "off":107.35,
-    "def":101.25,
-    "rating":6.11,
-    "pace":69.89,
-    "wab":-6.228
-  },
-  {
-    "team_id":"rosemont",
-    "full_team":"Rosemont",
-    "season":2019,
-    "off":102.75,
-    "def":103.0,
-    "rating":-0.25,
-    "pace":74.69,
-    "wab":-7.619
-  },
-  {
-    "team_id":"rosemont",
-    "full_team":"Rosemont",
-    "season":2020,
-    "off":97.02,
-    "def":108.28,
-    "rating":-11.26,
-    "pace":72.5,
-    "wab":-13.784
-  },
-  {
-    "team_id":"rosemont",
-    "full_team":"Rosemont",
-    "season":2022,
-    "off":91.53,
-    "def":102.54,
-    "rating":-11.0,
-    "pace":70.28,
-    "wab":-9.309
-  },
-  {
-    "team_id":"rosemont",
-    "full_team":"Rosemont",
-    "season":2023,
-    "off":90.85,
-    "def":105.3,
-    "rating":-14.45,
-    "pace":75.37,
-    "wab":-11.039
-  },
-  {
-    "team_id":"rosemont",
-    "full_team":"Rosemont",
-    "season":2024,
-    "off":89.04,
-    "def":111.89,
-    "rating":-22.85,
-    "pace":71.14,
-    "wab":-16.171
-  },
-  {
-    "team_id":"rosemont",
-    "full_team":"Rosemont",
-    "season":2025,
-    "off":82.53,
-    "def":108.89,
-    "rating":-26.35,
-    "pace":71.4,
-    "wab":-18.237
-  },
-  {
-    "team_id":"rosemont",
-    "full_team":"Rosemont",
-    "season":2026,
-    "off":78.48,
-    "def":111.79,
-    "rating":-33.32,
-    "pace":65.24,
-    "wab":-14.096
-  },
-  {
     "team_id":"rowan",
     "full_team":"Rowan",
     "season":2012,
@@ -41027,7 +40607,7 @@
     "def":103.4,
     "rating":-1.08,
     "pace":69.84,
-    "wab":-10.315
+    "wab":-10.4
   },
   {
     "team_id":"rowan",
@@ -41037,7 +40617,7 @@
     "def":101.01,
     "rating":6.13,
     "pace":70.83,
-    "wab":-4.372
+    "wab":-4.612
   },
   {
     "team_id":"rowan",
@@ -41047,7 +40627,7 @@
     "def":105.19,
     "rating":-3.13,
     "pace":72.9,
-    "wab":-8.693
+    "wab":-8.717
   },
   {
     "team_id":"rowan",
@@ -41057,7 +40637,7 @@
     "def":98.52,
     "rating":2.77,
     "pace":72.22,
-    "wab":-4.429
+    "wab":-4.467
   },
   {
     "team_id":"rowan",
@@ -41067,7 +40647,7 @@
     "def":103.9,
     "rating":-0.89,
     "pace":74.9,
-    "wab":-10.282
+    "wab":-10.742
   },
   {
     "team_id":"rowan",
@@ -41077,7 +40657,7 @@
     "def":102.76,
     "rating":2.88,
     "pace":83.91,
-    "wab":-3.984
+    "wab":-4.44
   },
   {
     "team_id":"rowan",
@@ -41087,7 +40667,7 @@
     "def":99.59,
     "rating":2.53,
     "pace":79.87,
-    "wab":-7.541
+    "wab":-7.752
   },
   {
     "team_id":"rowan",
@@ -41097,7 +40677,7 @@
     "def":95.43,
     "rating":9.77,
     "pace":80.73,
-    "wab":-1.505
+    "wab":-2.244
   },
   {
     "team_id":"rowan",
@@ -41107,7 +40687,7 @@
     "def":98.74,
     "rating":9.14,
     "pace":79.32,
-    "wab":-5.74
+    "wab":-5.892
   },
   {
     "team_id":"rowan",
@@ -41117,7 +40697,7 @@
     "def":92.93,
     "rating":12.24,
     "pace":88.14,
-    "wab":-0.006
+    "wab":-0.199
   },
   {
     "team_id":"rowan",
@@ -41127,7 +40707,7 @@
     "def":95.28,
     "rating":16.67,
     "pace":82.71,
-    "wab":1.15
+    "wab":1.094
   },
   {
     "team_id":"rowan",
@@ -41137,7 +40717,7 @@
     "def":97.98,
     "rating":16.61,
     "pace":77.72,
-    "wab":1.215
+    "wab":1.264
   },
   {
     "team_id":"rowan",
@@ -41147,7 +40727,7 @@
     "def":103.2,
     "rating":6.85,
     "pace":74.44,
-    "wab":-5.536
+    "wab":-5.572
   },
   {
     "team_id":"rowan",
@@ -41157,7 +40737,7 @@
     "def":105.06,
     "rating":2.89,
     "pace":73.91,
-    "wab":-9.683
+    "wab":-9.679
   },
   {
     "team_id":"rpi",
@@ -41247,7 +40827,7 @@
     "def":93.57,
     "rating":11.02,
     "pace":66.57,
-    "wab":-0.054
+    "wab":0.017
   },
   {
     "team_id":"rpi",
@@ -41307,7 +40887,7 @@
     "def":109.53,
     "rating":-17.0,
     "pace":70.5,
-    "wab":-15.568
+    "wab":-15.597
   },
   {
     "team_id":"rutgers-camden",
@@ -41317,7 +40897,7 @@
     "def":97.86,
     "rating":-7.36,
     "pace":70.87,
-    "wab":-9.55
+    "wab":-9.661
   },
   {
     "team_id":"rutgers-camden",
@@ -41327,7 +40907,7 @@
     "def":101.51,
     "rating":-9.44,
     "pace":71.42,
-    "wab":-14.283
+    "wab":-14.381
   },
   {
     "team_id":"rutgers-camden",
@@ -41337,7 +40917,7 @@
     "def":100.08,
     "rating":-0.33,
     "pace":72.59,
-    "wab":-6.809
+    "wab":-7.017
   },
   {
     "team_id":"rutgers-camden",
@@ -41347,7 +40927,7 @@
     "def":104.46,
     "rating":-15.31,
     "pace":71.51,
-    "wab":-17.173
+    "wab":-17.59
   },
   {
     "team_id":"rutgers-camden",
@@ -41357,7 +40937,7 @@
     "def":107.46,
     "rating":-11.34,
     "pace":69.13,
-    "wab":-14.222
+    "wab":-14.675
   },
   {
     "team_id":"rutgers-camden",
@@ -41367,7 +40947,7 @@
     "def":110.96,
     "rating":-12.63,
     "pace":69.92,
-    "wab":-16.548
+    "wab":-16.758
   },
   {
     "team_id":"rutgers-camden",
@@ -41377,7 +40957,7 @@
     "def":113.28,
     "rating":-21.88,
     "pace":69.98,
-    "wab":-17.315
+    "wab":-17.78
   },
   {
     "team_id":"rutgers-camden",
@@ -41387,7 +40967,7 @@
     "def":104.57,
     "rating":-12.1,
     "pace":71.88,
-    "wab":-12.092
+    "wab":-12.155
   },
   {
     "team_id":"rutgers-camden",
@@ -41397,7 +40977,7 @@
     "def":107.35,
     "rating":-23.29,
     "pace":69.77,
-    "wab":-16.593
+    "wab":-16.82
   },
   {
     "team_id":"rutgers-camden",
@@ -41407,7 +40987,7 @@
     "def":102.85,
     "rating":-14.61,
     "pace":71.32,
-    "wab":-15.796
+    "wab":-15.852
   },
   {
     "team_id":"rutgers-camden",
@@ -41417,7 +40997,7 @@
     "def":101.41,
     "rating":-2.45,
     "pace":69.81,
-    "wab":-7.404
+    "wab":-7.194
   },
   {
     "team_id":"rutgers-camden",
@@ -41427,7 +41007,7 @@
     "def":98.51,
     "rating":-6.56,
     "pace":71.42,
-    "wab":-9.868
+    "wab":-9.904
   },
   {
     "team_id":"rutgers-camden",
@@ -41437,7 +41017,7 @@
     "def":97.92,
     "rating":-3.04,
     "pace":68.19,
-    "wab":-6.68
+    "wab":-6.677
   },
   {
     "team_id":"rutgers-newark",
@@ -41447,7 +41027,7 @@
     "def":96.68,
     "rating":5.82,
     "pace":71.94,
-    "wab":-8.437
+    "wab":-8.681
   },
   {
     "team_id":"rutgers-newark",
@@ -41457,7 +41037,7 @@
     "def":90.43,
     "rating":11.11,
     "pace":70.43,
-    "wab":-1.933
+    "wab":-2.174
   },
   {
     "team_id":"rutgers-newark",
@@ -41467,7 +41047,7 @@
     "def":96.82,
     "rating":9.67,
     "pace":67.29,
-    "wab":-3.64
+    "wab":-3.738
   },
   {
     "team_id":"rutgers-newark",
@@ -41477,7 +41057,7 @@
     "def":96.53,
     "rating":9.18,
     "pace":67.05,
-    "wab":-3.58
+    "wab":-3.789
   },
   {
     "team_id":"rutgers-newark",
@@ -41487,7 +41067,7 @@
     "def":95.68,
     "rating":7.55,
     "pace":68.91,
-    "wab":-3.089
+    "wab":-3.549
   },
   {
     "team_id":"rutgers-newark",
@@ -41497,7 +41077,7 @@
     "def":98.66,
     "rating":-7.8,
     "pace":65.59,
-    "wab":-13.577
+    "wab":-14.043
   },
   {
     "team_id":"rutgers-newark",
@@ -41507,7 +41087,7 @@
     "def":97.92,
     "rating":-4.39,
     "pace":68.83,
-    "wab":-11.733
+    "wab":-11.943
   },
   {
     "team_id":"rutgers-newark",
@@ -41517,7 +41097,7 @@
     "def":98.22,
     "rating":1.82,
     "pace":64.53,
-    "wab":-8.342
+    "wab":-8.807
   },
   {
     "team_id":"rutgers-newark",
@@ -41527,7 +41107,7 @@
     "def":93.71,
     "rating":5.72,
     "pace":62.96,
-    "wab":-6.676
+    "wab":-6.885
   },
   {
     "team_id":"rutgers-newark",
@@ -41537,7 +41117,7 @@
     "def":88.81,
     "rating":10.31,
     "pace":64.85,
-    "wab":-3.8
+    "wab":-3.939
   },
   {
     "team_id":"rutgers-newark",
@@ -41547,7 +41127,7 @@
     "def":98.91,
     "rating":-4.39,
     "pace":66.41,
-    "wab":-10.909
+    "wab":-10.966
   },
   {
     "team_id":"rutgers-newark",
@@ -41557,7 +41137,7 @@
     "def":94.21,
     "rating":-2.39,
     "pace":68.58,
-    "wab":-8.206
+    "wab":-8.157
   },
   {
     "team_id":"rutgers-newark",
@@ -41567,7 +41147,7 @@
     "def":101.1,
     "rating":-6.57,
     "pace":66.64,
-    "wab":-12.23
+    "wab":-12.266
   },
   {
     "team_id":"rutgers-newark",
@@ -41577,7 +41157,7 @@
     "def":102.79,
     "rating":-11.2,
     "pace":70.14,
-    "wab":-14.793
+    "wab":-14.79
   },
   {
     "team_id":"sage",
@@ -41807,7 +41387,7 @@
     "def":110.0,
     "rating":-14.04,
     "pace":76.7,
-    "wab":-16.703
+    "wab":-16.632
   },
   {
     "team_id":"salem-state",
@@ -41857,7 +41437,7 @@
     "def":107.01,
     "rating":-8.07,
     "pace":73.43,
-    "wab":-8.338
+    "wab":-8.099
   },
   {
     "team_id":"salisbury",
@@ -41947,7 +41527,7 @@
     "def":100.87,
     "rating":3.87,
     "pace":71.2,
-    "wab":-8.528
+    "wab":-8.44
   },
   {
     "team_id":"salisbury",
@@ -41987,7 +41567,7 @@
     "def":98.98,
     "rating":5.6,
     "pace":68.31,
-    "wab":-2.643
+    "wab":-2.665
   },
   {
     "team_id":"salisbury",
@@ -42067,7 +41647,7 @@
     "def":107.14,
     "rating":-10.48,
     "pace":68.65,
-    "wab":-12.827
+    "wab":-12.732
   },
   {
     "team_id":"salve-regina",
@@ -42447,7 +42027,7 @@
     "def":100.39,
     "rating":11.92,
     "pace":69.86,
-    "wab":0.134
+    "wab":0.188
   },
   {
     "team_id":"scranton",
@@ -42767,7 +42347,7 @@
     "def":103.47,
     "rating":-5.03,
     "pace":75.38,
-    "wab":-12.478
+    "wab":-12.583
   },
   {
     "team_id":"shenandoah",
@@ -43037,7 +42617,7 @@
     "def":99.38,
     "rating":11.67,
     "pace":71.26,
-    "wab":-2.173
+    "wab":-2.407
   },
   {
     "team_id":"skidmore",
@@ -43137,7 +42717,7 @@
     "def":96.59,
     "rating":-0.08,
     "pace":74.63,
-    "wab":-8.356
+    "wab":-8.331
   },
   {
     "team_id":"southern-maine",
@@ -43157,7 +42737,7 @@
     "def":102.53,
     "rating":-10.37,
     "pace":69.54,
-    "wab":-14.736
+    "wab":-14.653
   },
   {
     "team_id":"southern-maine",
@@ -43597,7 +43177,7 @@
     "def":106.67,
     "rating":-9.45,
     "pace":67.6,
-    "wab":-14.23
+    "wab":-14.464
   },
   {
     "team_id":"spalding",
@@ -43907,7 +43487,7 @@
     "def":105.01,
     "rating":-15.91,
     "pace":77.43,
-    "wab":-9.429
+    "wab":-9.157
   },
   {
     "team_id":"st-elizabeth",
@@ -43917,7 +43497,7 @@
     "def":108.48,
     "rating":-24.9,
     "pace":72.46,
-    "wab":-13.582
+    "wab":-13.142
   },
   {
     "team_id":"st-elizabeth",
@@ -43927,7 +43507,7 @@
     "def":107.67,
     "rating":-21.42,
     "pace":73.17,
-    "wab":-13.487
+    "wab":-13.012
   },
   {
     "team_id":"st-elizabeth",
@@ -43937,7 +43517,7 @@
     "def":105.37,
     "rating":-12.5,
     "pace":75.9,
-    "wab":-8.94
+    "wab":-8.324
   },
   {
     "team_id":"st-elizabeth",
@@ -43947,7 +43527,7 @@
     "def":110.74,
     "rating":-21.03,
     "pace":77.07,
-    "wab":-13.409
+    "wab":-13.169
   },
   {
     "team_id":"st-elizabeth",
@@ -44457,7 +44037,7 @@
     "def":104.93,
     "rating":-2.28,
     "pace":73.64,
-    "wab":-9.457
+    "wab":-9.312
   },
   {
     "team_id":"st-joseph-conn",
@@ -44467,7 +44047,7 @@
     "def":98.27,
     "rating":13.34,
     "pace":75.75,
-    "wab":0.755
+    "wab":0.858
   },
   {
     "team_id":"st-joseph-conn",
@@ -44477,7 +44057,7 @@
     "def":86.25,
     "rating":21.03,
     "pace":75.07,
-    "wab":1.541
+    "wab":1.664
   },
   {
     "team_id":"st-joseph-conn",
@@ -44487,7 +44067,7 @@
     "def":83.34,
     "rating":27.26,
     "pace":74.1,
-    "wab":4.087
+    "wab":4.286
   },
   {
     "team_id":"st-joseph-conn",
@@ -44497,7 +44077,7 @@
     "def":95.67,
     "rating":18.85,
     "pace":73.55,
-    "wab":0.574
+    "wab":0.639
   },
   {
     "team_id":"st-joseph-conn",
@@ -44507,7 +44087,7 @@
     "def":96.57,
     "rating":12.02,
     "pace":69.9,
-    "wab":-3.318
+    "wab":-3.178
   },
   {
     "team_id":"st-joseph-conn",
@@ -44557,7 +44137,7 @@
     "def":101.22,
     "rating":-1.69,
     "pace":71.43,
-    "wab":-4.236
+    "wab":-4.167
   },
   {
     "team_id":"st-joseph-s-bklyn",
@@ -44677,7 +44257,7 @@
     "def":113.77,
     "rating":-26.91,
     "pace":75.99,
-    "wab":-15.411
+    "wab":-15.504
   },
   {
     "team_id":"st-joseph-s-l-i",
@@ -44697,7 +44277,7 @@
     "def":102.87,
     "rating":-7.33,
     "pace":71.81,
-    "wab":-8.441
+    "wab":-8.401
   },
   {
     "team_id":"st-joseph-s-l-i",
@@ -44807,7 +44387,7 @@
     "def":99.27,
     "rating":-0.97,
     "pace":66.62,
-    "wab":-5.529
+    "wab":-5.314
   },
   {
     "team_id":"st-joseph-s-maine",
@@ -44817,7 +44397,7 @@
     "def":100.08,
     "rating":-1.05,
     "pace":63.61,
-    "wab":-7.199
+    "wab":-7.16
   },
   {
     "team_id":"st-joseph-s-maine",
@@ -44827,7 +44407,7 @@
     "def":105.43,
     "rating":0.82,
     "pace":62.92,
-    "wab":-5.682
+    "wab":-5.476
   },
   {
     "team_id":"st-joseph-s-maine",
@@ -44837,7 +44417,7 @@
     "def":107.2,
     "rating":-5.63,
     "pace":65.5,
-    "wab":-10.211
+    "wab":-10.039
   },
   {
     "team_id":"st-joseph-s-maine",
@@ -44847,7 +44427,7 @@
     "def":110.88,
     "rating":-20.81,
     "pace":65.25,
-    "wab":-13.979
+    "wab":-13.838
   },
   {
     "team_id":"st-joseph-s-maine",
@@ -44857,7 +44437,7 @@
     "def":106.72,
     "rating":-13.54,
     "pace":70.9,
-    "wab":-10.662
+    "wab":-10.424
   },
   {
     "team_id":"st-joseph-s-maine",
@@ -44867,7 +44447,7 @@
     "def":100.01,
     "rating":-3.76,
     "pace":69.84,
-    "wab":-7.305
+    "wab":-7.237
   },
   {
     "team_id":"st-joseph-s-maine",
@@ -44877,7 +44457,7 @@
     "def":108.6,
     "rating":1.64,
     "pace":76.77,
-    "wab":-5.637
+    "wab":-5.385
   },
   {
     "team_id":"st-joseph-s-maine",
@@ -44887,7 +44467,7 @@
     "def":111.24,
     "rating":-8.37,
     "pace":73.95,
-    "wab":-10.721
+    "wab":-10.575
   },
   {
     "team_id":"st-joseph-s-maine",
@@ -44897,7 +44477,7 @@
     "def":112.2,
     "rating":-13.61,
     "pace":72.7,
-    "wab":-14.543
+    "wab":-14.366
   },
   {
     "team_id":"st-joseph-s-maine",
@@ -44907,7 +44487,7 @@
     "def":105.38,
     "rating":-4.81,
     "pace":74.36,
-    "wab":-8.105
+    "wab":-7.907
   },
   {
     "team_id":"st-joseph-s-maine",
@@ -44917,7 +44497,7 @@
     "def":99.52,
     "rating":3.01,
     "pace":74.75,
-    "wab":-4.774
+    "wab":-4.652
   },
   {
     "team_id":"st-joseph-s-maine",
@@ -44927,7 +44507,7 @@
     "def":97.91,
     "rating":14.44,
     "pace":77.9,
-    "wab":-0.491
+    "wab":-0.417
   },
   {
     "team_id":"st-joseph-s-maine",
@@ -45197,7 +44777,7 @@
     "def":101.11,
     "rating":-6.8,
     "pace":72.35,
-    "wab":-8.231
+    "wab":-8.064
   },
   {
     "team_id":"st-mary-s-md",
@@ -45207,7 +44787,7 @@
     "def":108.49,
     "rating":-9.65,
     "pace":69.84,
-    "wab":-10.427
+    "wab":-9.92
   },
   {
     "team_id":"st-mary-s-md",
@@ -45217,7 +44797,7 @@
     "def":105.98,
     "rating":-14.26,
     "pace":70.84,
-    "wab":-10.881
+    "wab":-10.628
   },
   {
     "team_id":"st-mary-s-minn",
@@ -46087,7 +45667,7 @@
     "def":98.69,
     "rating":7.77,
     "pace":71.31,
-    "wab":-5.27
+    "wab":-5.318
   },
   {
     "team_id":"stevens",
@@ -46127,7 +45707,7 @@
     "def":98.55,
     "rating":4.42,
     "pace":73.34,
-    "wab":-4.306
+    "wab":-4.436
   },
   {
     "team_id":"stevens",
@@ -46137,7 +45717,7 @@
     "def":96.72,
     "rating":1.03,
     "pace":72.18,
-    "wab":-6.519
+    "wab":-6.707
   },
   {
     "team_id":"stevens",
@@ -46147,7 +45727,7 @@
     "def":92.26,
     "rating":10.34,
     "pace":72.54,
-    "wab":-0.539
+    "wab":-0.633
   },
   {
     "team_id":"stevens",
@@ -46157,7 +45737,7 @@
     "def":91.0,
     "rating":5.12,
     "pace":72.34,
-    "wab":-3.94
+    "wab":-3.993
   },
   {
     "team_id":"stevens",
@@ -46167,7 +45747,7 @@
     "def":98.56,
     "rating":-3.25,
     "pace":68.42,
-    "wab":-9.682
+    "wab":-9.718
   },
   {
     "team_id":"stevens",
@@ -46177,7 +45757,7 @@
     "def":95.55,
     "rating":8.09,
     "pace":70.69,
-    "wab":-0.842
+    "wab":-0.824
   },
   {
     "team_id":"stevens",
@@ -46187,7 +45767,7 @@
     "def":93.82,
     "rating":11.06,
     "pace":71.3,
-    "wab":-4.232
+    "wab":-4.255
   },
   {
     "team_id":"stevens",
@@ -46197,7 +45777,7 @@
     "def":104.89,
     "rating":3.73,
     "pace":70.47,
-    "wab":-5.331
+    "wab":-5.33
   },
   {
     "team_id":"stevenson",
@@ -46317,7 +45897,7 @@
     "def":104.89,
     "rating":-3.25,
     "pace":70.91,
-    "wab":-10.247
+    "wab":-10.223
   },
   {
     "team_id":"stevenson",
@@ -46347,7 +45927,7 @@
     "def":97.68,
     "rating":8.12,
     "pace":68.67,
-    "wab":-3.702
+    "wab":-3.796
   },
   {
     "team_id":"stockton",
@@ -46357,7 +45937,7 @@
     "def":91.45,
     "rating":11.91,
     "pace":67.71,
-    "wab":-2.661
+    "wab":-2.994
   },
   {
     "team_id":"stockton",
@@ -46367,7 +45947,7 @@
     "def":97.2,
     "rating":15.26,
     "pace":66.47,
-    "wab":0.689
+    "wab":0.592
   },
   {
     "team_id":"stockton",
@@ -46377,7 +45957,7 @@
     "def":90.53,
     "rating":12.87,
     "pace":66.67,
-    "wab":-0.11
+    "wab":-0.318
   },
   {
     "team_id":"stockton",
@@ -46387,7 +45967,7 @@
     "def":91.99,
     "rating":14.38,
     "pace":70.13,
-    "wab":-1.47
+    "wab":-1.93
   },
   {
     "team_id":"stockton",
@@ -46397,7 +45977,7 @@
     "def":97.95,
     "rating":8.83,
     "pace":72.46,
-    "wab":-5.765
+    "wab":-6.508
   },
   {
     "team_id":"stockton",
@@ -46407,7 +45987,7 @@
     "def":102.66,
     "rating":2.09,
     "pace":71.18,
-    "wab":-5.383
+    "wab":-5.594
   },
   {
     "team_id":"stockton",
@@ -46417,7 +45997,7 @@
     "def":102.64,
     "rating":-0.66,
     "pace":71.31,
-    "wab":-9.771
+    "wab":-10.236
   },
   {
     "team_id":"stockton",
@@ -46427,7 +46007,7 @@
     "def":93.46,
     "rating":7.73,
     "pace":74.24,
-    "wab":-2.828
+    "wab":-2.98
   },
   {
     "team_id":"stockton",
@@ -46437,7 +46017,7 @@
     "def":96.09,
     "rating":14.93,
     "pace":71.73,
-    "wab":2.014
+    "wab":1.993
   },
   {
     "team_id":"stockton",
@@ -46447,7 +46027,7 @@
     "def":98.29,
     "rating":12.73,
     "pace":72.67,
-    "wab":1.846
+    "wab":1.861
   },
   {
     "team_id":"stockton",
@@ -46457,7 +46037,7 @@
     "def":97.79,
     "rating":8.1,
     "pace":73.15,
-    "wab":-3.696
+    "wab":-3.647
   },
   {
     "team_id":"stockton",
@@ -46467,7 +46047,7 @@
     "def":99.89,
     "rating":11.16,
     "pace":74.73,
-    "wab":-1.304
+    "wab":-1.34
   },
   {
     "team_id":"stockton",
@@ -46477,7 +46057,7 @@
     "def":98.91,
     "rating":10.44,
     "pace":72.45,
-    "wab":-4.829
+    "wab":-4.826
   },
   {
     "team_id":"suffolk",
@@ -46487,7 +46067,7 @@
     "def":110.9,
     "rating":-17.94,
     "pace":75.68,
-    "wab":-12.73
+    "wab":-12.626
   },
   {
     "team_id":"suffolk",
@@ -46497,7 +46077,7 @@
     "def":106.07,
     "rating":-11.92,
     "pace":76.33,
-    "wab":-13.751
+    "wab":-13.712
   },
   {
     "team_id":"suffolk",
@@ -46507,7 +46087,7 @@
     "def":118.16,
     "rating":-19.28,
     "pace":73.77,
-    "wab":-13.977
+    "wab":-13.77
   },
   {
     "team_id":"suffolk",
@@ -46517,7 +46097,7 @@
     "def":113.16,
     "rating":-19.64,
     "pace":74.35,
-    "wab":-14.38
+    "wab":-14.207
   },
   {
     "team_id":"suffolk",
@@ -46527,7 +46107,7 @@
     "def":110.15,
     "rating":-18.93,
     "pace":67.58,
-    "wab":-14.912
+    "wab":-14.771
   },
   {
     "team_id":"suffolk",
@@ -46537,7 +46117,7 @@
     "def":111.18,
     "rating":-18.15,
     "pace":66.63,
-    "wab":-16.548
+    "wab":-16.31
   },
   {
     "team_id":"suffolk",
@@ -46547,7 +46127,7 @@
     "def":106.36,
     "rating":-7.39,
     "pace":66.01,
-    "wab":-9.401
+    "wab":-9.202
   },
   {
     "team_id":"suffolk",
@@ -46557,7 +46137,7 @@
     "def":106.09,
     "rating":-0.19,
     "pace":68.56,
-    "wab":-5.498
+    "wab":-5.352
   },
   {
     "team_id":"suffolk",
@@ -46567,7 +46147,7 @@
     "def":101.21,
     "rating":1.94,
     "pace":70.31,
-    "wab":-7.88
+    "wab":-7.809
   },
   {
     "team_id":"suffolk",
@@ -46977,7 +46557,7 @@
     "def":107.48,
     "rating":-8.64,
     "pace":74.23,
-    "wab":-6.629
+    "wab":-6.457
   },
   {
     "team_id":"suny-delhi",
@@ -46987,7 +46567,7 @@
     "def":100.77,
     "rating":-1.08,
     "pace":74.85,
-    "wab":-4.917
+    "wab":-4.829
   },
   {
     "team_id":"suny-delhi",
@@ -47027,7 +46607,7 @@
     "def":105.05,
     "rating":-17.42,
     "pace":70.62,
-    "wab":-12.905
+    "wab":-12.802
   },
   {
     "team_id":"suny-delhi",
@@ -47197,7 +46777,7 @@
     "def":112.88,
     "rating":-30.06,
     "pace":69.82,
-    "wab":-16.384
+    "wab":-16.365
   },
   {
     "team_id":"suny-maritime",
@@ -47427,7 +47007,7 @@
     "def":99.41,
     "rating":3.82,
     "pace":75.42,
-    "wab":-7.458
+    "wab":-7.486
   },
   {
     "team_id":"suny-new-paltz",
@@ -47477,7 +47057,7 @@
     "def":101.93,
     "rating":4.26,
     "pace":77.82,
-    "wab":-0.642
+    "wab":-0.762
   },
   {
     "team_id":"suny-old-westbury",
@@ -47577,7 +47157,7 @@
     "def":112.65,
     "rating":-28.32,
     "pace":70.76,
-    "wab":-20.359
+    "wab":-20.335
   },
   {
     "team_id":"suny-old-westbury",
@@ -48167,7 +47747,7 @@
     "def":105.03,
     "rating":0.7,
     "pace":66.72,
-    "wab":-5.306
+    "wab":-5.4
   },
   {
     "team_id":"susquehanna",
@@ -48177,7 +47757,7 @@
     "def":104.23,
     "rating":-3.54,
     "pace":67.87,
-    "wab":-11.674
+    "wab":-11.822
   },
   {
     "team_id":"susquehanna",
@@ -48317,7 +47897,7 @@
     "def":104.81,
     "rating":-6.49,
     "pace":71.14,
-    "wab":-13.545
+    "wab":-13.415
   },
   {
     "team_id":"swarthmore",
@@ -48447,7 +48027,7 @@
     "def":101.09,
     "rating":-5.0,
     "pace":70.91,
-    "wab":-11.102
+    "wab":-11.251
   },
   {
     "team_id":"tcnj",
@@ -48457,7 +48037,7 @@
     "def":104.74,
     "rating":-9.18,
     "pace":69.81,
-    "wab":-14.355
+    "wab":-14.596
   },
   {
     "team_id":"tcnj",
@@ -48467,7 +48047,7 @@
     "def":106.93,
     "rating":-10.94,
     "pace":71.55,
-    "wab":-12.191
+    "wab":-12.289
   },
   {
     "team_id":"tcnj",
@@ -48477,7 +48057,7 @@
     "def":98.94,
     "rating":3.6,
     "pace":69.62,
-    "wab":-5.447
+    "wab":-5.734
   },
   {
     "team_id":"tcnj",
@@ -48487,7 +48067,7 @@
     "def":99.58,
     "rating":1.51,
     "pace":73.26,
-    "wab":-6.658
+    "wab":-7.392
   },
   {
     "team_id":"tcnj",
@@ -48497,7 +48077,7 @@
     "def":101.37,
     "rating":7.99,
     "pace":70.22,
-    "wab":-3.419
+    "wab":-4.074
   },
   {
     "team_id":"tcnj",
@@ -48507,7 +48087,7 @@
     "def":102.8,
     "rating":7.56,
     "pace":71.37,
-    "wab":-2.853
+    "wab":-3.063
   },
   {
     "team_id":"tcnj",
@@ -48517,7 +48097,7 @@
     "def":102.9,
     "rating":2.5,
     "pace":72.29,
-    "wab":-7.394
+    "wab":-7.859
   },
   {
     "team_id":"tcnj",
@@ -48527,7 +48107,7 @@
     "def":95.18,
     "rating":16.13,
     "pace":72.81,
-    "wab":-1.963
+    "wab":-2.115
   },
   {
     "team_id":"tcnj",
@@ -48537,7 +48117,7 @@
     "def":98.94,
     "rating":-1.34,
     "pace":70.53,
-    "wab":-8.02
+    "wab":-8.16
   },
   {
     "team_id":"tcnj",
@@ -48547,7 +48127,7 @@
     "def":104.7,
     "rating":0.14,
     "pace":67.55,
-    "wab":-10.144
+    "wab":-10.2
   },
   {
     "team_id":"tcnj",
@@ -48557,7 +48137,7 @@
     "def":100.4,
     "rating":8.2,
     "pace":71.14,
-    "wab":-2.034
+    "wab":-1.985
   },
   {
     "team_id":"tcnj",
@@ -48567,7 +48147,7 @@
     "def":99.51,
     "rating":11.79,
     "pace":70.91,
-    "wab":-1.581
+    "wab":-1.617
   },
   {
     "team_id":"tcnj",
@@ -48577,7 +48157,7 @@
     "def":96.38,
     "rating":14.43,
     "pace":69.46,
-    "wab":0.914
+    "wab":0.917
   },
   {
     "team_id":"texas-lutheran",
@@ -48797,7 +48377,7 @@
     "def":101.73,
     "rating":-13.99,
     "pace":72.16,
-    "wab":-13.444
+    "wab":-13.678
   },
   {
     "team_id":"thiel",
@@ -49327,7 +48907,7 @@
     "def":92.12,
     "rating":16.02,
     "pace":71.22,
-    "wab":-1.556
+    "wab":-1.506
   },
   {
     "team_id":"trinity-conn",
@@ -49357,7 +48937,7 @@
     "def":91.62,
     "rating":6.79,
     "pace":70.35,
-    "wab":-1.711
+    "wab":-1.566
   },
   {
     "team_id":"trinity-conn",
@@ -49367,7 +48947,7 @@
     "def":92.23,
     "rating":12.49,
     "pace":77.06,
-    "wab":-2.609
+    "wab":-2.557
   },
   {
     "team_id":"trinity-conn",
@@ -49387,7 +48967,7 @@
     "def":92.39,
     "rating":12.37,
     "pace":71.41,
-    "wab":-2.596
+    "wab":-2.527
   },
   {
     "team_id":"trinity-conn",
@@ -49397,7 +48977,7 @@
     "def":85.77,
     "rating":27.85,
     "pace":68.55,
-    "wab":6.643
+    "wab":6.765
   },
   {
     "team_id":"trinity-conn",
@@ -49407,7 +48987,7 @@
     "def":81.89,
     "rating":35.86,
     "pace":68.05,
-    "wab":8.177
+    "wab":8.251
   },
   {
     "team_id":"trinity-conn",
@@ -49417,7 +48997,7 @@
     "def":81.47,
     "rating":37.07,
     "pace":70.48,
-    "wab":8.722
+    "wab":8.879
   },
   {
     "team_id":"trinity-texas",
@@ -49907,7 +49487,7 @@
     "def":96.76,
     "rating":7.14,
     "pace":73.65,
-    "wab":-4.819
+    "wab":-4.923
   },
   {
     "team_id":"union",
@@ -50157,7 +49737,7 @@
     "def":105.45,
     "rating":-17.18,
     "pace":69.86,
-    "wab":-15.107
+    "wab":-15.024
   },
   {
     "team_id":"university-of-new-england",
@@ -50427,7 +50007,7 @@
     "def":108.96,
     "rating":-7.26,
     "pace":72.65,
-    "wab":-13.378
+    "wab":-13.304
   },
   {
     "team_id":"ursinus",
@@ -50437,7 +50017,7 @@
     "def":104.05,
     "rating":-8.11,
     "pace":69.75,
-    "wab":-9.814
+    "wab":-9.784
   },
   {
     "team_id":"ursinus",
@@ -50447,7 +50027,7 @@
     "def":102.43,
     "rating":0.44,
     "pace":72.74,
-    "wab":-8.263
+    "wab":-8.184
   },
   {
     "team_id":"ursinus",
@@ -50457,7 +50037,7 @@
     "def":102.3,
     "rating":6.51,
     "pace":73.22,
-    "wab":-7.022
+    "wab":-7.014
   },
   {
     "team_id":"ursinus",
@@ -50467,7 +50047,7 @@
     "def":101.17,
     "rating":6.01,
     "pace":72.85,
-    "wab":-3.981
+    "wab":-4.104
   },
   {
     "team_id":"ursinus",
@@ -50477,7 +50057,7 @@
     "def":103.67,
     "rating":5.07,
     "pace":74.36,
-    "wab":-5.211
+    "wab":-5.208
   },
   {
     "team_id":"ursinus",
@@ -50487,7 +50067,7 @@
     "def":102.45,
     "rating":1.96,
     "pace":72.9,
-    "wab":-7.117
+    "wab":-6.997
   },
   {
     "team_id":"ursinus",
@@ -50497,7 +50077,7 @@
     "def":106.64,
     "rating":2.73,
     "pace":73.42,
-    "wab":-6.902
+    "wab":-6.838
   },
   {
     "team_id":"ursinus",
@@ -50507,7 +50087,7 @@
     "def":102.45,
     "rating":3.87,
     "pace":72.55,
-    "wab":-4.738
+    "wab":-4.601
   },
   {
     "team_id":"ursinus",
@@ -50517,7 +50097,7 @@
     "def":100.78,
     "rating":3.1,
     "pace":72.1,
-    "wab":-6.143
+    "wab":-6.059
   },
   {
     "team_id":"ursinus",
@@ -50527,7 +50107,7 @@
     "def":106.12,
     "rating":4.76,
     "pace":73.76,
-    "wab":-4.761
+    "wab":-4.595
   },
   {
     "team_id":"ursinus",
@@ -50537,7 +50117,7 @@
     "def":102.45,
     "rating":10.26,
     "pace":74.07,
-    "wab":-4.435
+    "wab":-4.345
   },
   {
     "team_id":"utica",
@@ -50607,7 +50187,7 @@
     "def":98.34,
     "rating":-0.66,
     "pace":69.78,
-    "wab":-5.565
+    "wab":-5.496
   },
   {
     "team_id":"utica",
@@ -50627,7 +50207,7 @@
     "def":102.69,
     "rating":4.88,
     "pace":70.94,
-    "wab":-4.495
+    "wab":-4.443
   },
   {
     "team_id":"utica",
@@ -51327,7 +50907,7 @@
     "def":99.91,
     "rating":10.27,
     "pace":70.9,
-    "wab":-3.107
+    "wab":-3.182
   },
   {
     "team_id":"uw-river-falls",
@@ -51940,146 +51520,6 @@
     "wab":3.12
   },
   {
-    "team_id":"valley-forge",
-    "full_team":"Valley Forge",
-    "season":2012,
-    "off":90.5,
-    "def":105.2,
-    "rating":-14.7,
-    "pace":69.5,
-    "wab":null
-  },
-  {
-    "team_id":"valley-forge",
-    "full_team":"Valley Forge",
-    "season":2013,
-    "off":90.5,
-    "def":105.2,
-    "rating":-14.7,
-    "pace":69.5,
-    "wab":null
-  },
-  {
-    "team_id":"valley-forge",
-    "full_team":"Valley Forge",
-    "season":2014,
-    "off":90.5,
-    "def":105.2,
-    "rating":-14.7,
-    "pace":69.5,
-    "wab":null
-  },
-  {
-    "team_id":"valley-forge",
-    "full_team":"Valley Forge",
-    "season":2015,
-    "off":90.78,
-    "def":103.83,
-    "rating":-13.05,
-    "pace":73.4,
-    "wab":-5.331
-  },
-  {
-    "team_id":"valley-forge",
-    "full_team":"Valley Forge",
-    "season":2016,
-    "off":87.34,
-    "def":107.69,
-    "rating":-20.36,
-    "pace":74.01,
-    "wab":-7.017
-  },
-  {
-    "team_id":"valley-forge",
-    "full_team":"Valley Forge",
-    "season":2017,
-    "off":91.78,
-    "def":103.15,
-    "rating":-11.37,
-    "pace":73.6,
-    "wab":-3.469
-  },
-  {
-    "team_id":"valley-forge",
-    "full_team":"Valley Forge",
-    "season":2018,
-    "off":94.9,
-    "def":110.82,
-    "rating":-15.92,
-    "pace":72.57,
-    "wab":-9.363
-  },
-  {
-    "team_id":"valley-forge",
-    "full_team":"Valley Forge",
-    "season":2019,
-    "off":80.06,
-    "def":112.42,
-    "rating":-32.36,
-    "pace":73.39,
-    "wab":-13.358
-  },
-  {
-    "team_id":"valley-forge",
-    "full_team":"Valley Forge",
-    "season":2020,
-    "off":88.98,
-    "def":117.89,
-    "rating":-28.91,
-    "pace":80.9,
-    "wab":-10.167
-  },
-  {
-    "team_id":"valley-forge",
-    "full_team":"Valley Forge",
-    "season":2022,
-    "off":88.33,
-    "def":118.08,
-    "rating":-29.74,
-    "pace":80.28,
-    "wab":-14.452
-  },
-  {
-    "team_id":"valley-forge",
-    "full_team":"Valley Forge",
-    "season":2023,
-    "off":79.31,
-    "def":119.58,
-    "rating":-40.27,
-    "pace":78.34,
-    "wab":-19.597
-  },
-  {
-    "team_id":"valley-forge",
-    "full_team":"Valley Forge",
-    "season":2024,
-    "off":82.43,
-    "def":108.61,
-    "rating":-26.18,
-    "pace":75.47,
-    "wab":-16.477
-  },
-  {
-    "team_id":"valley-forge",
-    "full_team":"Valley Forge",
-    "season":2025,
-    "off":82.17,
-    "def":108.72,
-    "rating":-26.55,
-    "pace":76.95,
-    "wab":-12.971
-  },
-  {
-    "team_id":"valley-forge",
-    "full_team":"Valley Forge",
-    "season":2026,
-    "off":87.72,
-    "def":111.88,
-    "rating":-24.16,
-    "pace":75.14,
-    "wab":-9.929
-  },
-  {
     "team_id":"vassar",
     "full_team":"Vassar",
     "season":2012,
@@ -52157,7 +51597,7 @@
     "def":103.78,
     "rating":-7.1,
     "pace":70.42,
-    "wab":-10.503
+    "wab":-10.396
   },
   {
     "team_id":"vassar",
@@ -52807,7 +52247,7 @@
     "def":98.71,
     "rating":0.12,
     "pace":69.07,
-    "wab":-12.161
+    "wab":-12.087
   },
   {
     "team_id":"washington-and-lee",
@@ -53047,7 +52487,7 @@
     "def":103.1,
     "rating":-19.5,
     "pace":67.0,
-    "wab":-13.686
+    "wab":-13.513
   },
   {
     "team_id":"washington-college",
@@ -53057,7 +52497,7 @@
     "def":104.72,
     "rating":-10.99,
     "pace":72.09,
-    "wab":-11.562
+    "wab":-11.304
   },
   {
     "team_id":"washington-u",
@@ -53687,7 +53127,7 @@
     "def":88.27,
     "rating":18.11,
     "pace":71.46,
-    "wab":1.344
+    "wab":1.413
   },
   {
     "team_id":"wesleyan",
@@ -53747,7 +53187,7 @@
     "def":87.43,
     "rating":30.51,
     "pace":67.97,
-    "wab":8.874
+    "wab":8.948
   },
   {
     "team_id":"wesleyan",
@@ -53807,7 +53247,7 @@
     "def":101.69,
     "rating":3.12,
     "pace":74.26,
-    "wab":-6.655
+    "wab":-6.886
   },
   {
     "team_id":"western-connecticut",
@@ -53897,7 +53337,7 @@
     "def":93.04,
     "rating":11.7,
     "pace":74.02,
-    "wab":-2.052
+    "wab":-2.051
   },
   {
     "team_id":"western-new-england",
@@ -54157,7 +53597,7 @@
     "def":99.61,
     "rating":3.92,
     "pace":77.61,
-    "wab":-3.567
+    "wab":-3.502
   },
   {
     "team_id":"westfield-state",
@@ -54167,7 +53607,7 @@
     "def":104.01,
     "rating":-0.98,
     "pace":78.24,
-    "wab":-4.844
+    "wab":-4.704
   },
   {
     "team_id":"westfield-state",
@@ -54177,7 +53617,7 @@
     "def":103.31,
     "rating":-0.71,
     "pace":72.16,
-    "wab":-3.916
+    "wab":-3.676
   },
   {
     "team_id":"westminster-mo",
@@ -54637,7 +54077,7 @@
     "def":106.14,
     "rating":-14.73,
     "pace":74.39,
-    "wab":-14.217
+    "wab":-14.134
   },
   {
     "team_id":"wheaton-mass",
@@ -54727,7 +54167,7 @@
     "def":98.59,
     "rating":-0.74,
     "pace":71.36,
-    "wab":-9.138
+    "wab":-9.064
   },
   {
     "team_id":"wheaton-mass",
@@ -55217,7 +54657,7 @@
     "def":98.92,
     "rating":6.87,
     "pace":71.2,
-    "wab":-5.817
+    "wab":-5.696
   },
   {
     "team_id":"widener",
@@ -55227,7 +54667,7 @@
     "def":97.25,
     "rating":9.46,
     "pace":72.34,
-    "wab":-4.805
+    "wab":-4.881
   },
   {
     "team_id":"widener",
@@ -55237,7 +54677,7 @@
     "def":96.64,
     "rating":7.89,
     "pace":70.97,
-    "wab":-5.89
+    "wab":-5.887
   },
   {
     "team_id":"widener",
@@ -55267,7 +54707,7 @@
     "def":98.72,
     "rating":6.78,
     "pace":71.21,
-    "wab":-2.649
+    "wab":-2.576
   },
   {
     "team_id":"widener",
@@ -55327,7 +54767,7 @@
     "def":103.11,
     "rating":-9.46,
     "pace":69.39,
-    "wab":-13.222
+    "wab":-13.122
   },
   {
     "team_id":"wilkes",
@@ -55337,7 +54777,7 @@
     "def":108.82,
     "rating":-4.59,
     "pace":70.41,
-    "wab":-9.455
+    "wab":-9.425
   },
   {
     "team_id":"wilkes",
@@ -55587,7 +55027,7 @@
     "def":93.27,
     "rating":10.18,
     "pace":70.09,
-    "wab":0.405
+    "wab":0.161
   },
   {
     "team_id":"william-paterson",
@@ -55597,7 +55037,7 @@
     "def":92.51,
     "rating":6.05,
     "pace":67.09,
-    "wab":-4.562
+    "wab":-4.803
   },
   {
     "team_id":"william-paterson",
@@ -55607,7 +55047,7 @@
     "def":93.46,
     "rating":13.8,
     "pace":70.53,
-    "wab":-0.909
+    "wab":-1.007
   },
   {
     "team_id":"william-paterson",
@@ -55617,7 +55057,7 @@
     "def":98.45,
     "rating":11.71,
     "pace":68.32,
-    "wab":-2.069
+    "wab":-2.357
   },
   {
     "team_id":"william-paterson",
@@ -55627,7 +55067,7 @@
     "def":99.82,
     "rating":3.98,
     "pace":72.15,
-    "wab":-7.447
+    "wab":-7.848
   },
   {
     "team_id":"william-paterson",
@@ -55637,7 +55077,7 @@
     "def":101.07,
     "rating":-3.21,
     "pace":73.83,
-    "wab":-9.544
+    "wab":-10.01
   },
   {
     "team_id":"william-paterson",
@@ -55647,7 +55087,7 @@
     "def":101.45,
     "rating":1.4,
     "pace":73.41,
-    "wab":-7.774
+    "wab":-8.115
   },
   {
     "team_id":"william-paterson",
@@ -55657,7 +55097,7 @@
     "def":97.44,
     "rating":4.69,
     "pace":74.0,
-    "wab":-4.942
+    "wab":-5.407
   },
   {
     "team_id":"william-paterson",
@@ -55667,7 +55107,7 @@
     "def":99.31,
     "rating":-3.51,
     "pace":75.03,
-    "wab":-11.232
+    "wab":-11.384
   },
   {
     "team_id":"william-paterson",
@@ -55677,7 +55117,7 @@
     "def":99.63,
     "rating":0.72,
     "pace":75.34,
-    "wab":-7.382
+    "wab":-7.522
   },
   {
     "team_id":"william-paterson",
@@ -55687,7 +55127,7 @@
     "def":101.78,
     "rating":-4.96,
     "pace":74.55,
-    "wab":-10.48
+    "wab":-10.536
   },
   {
     "team_id":"william-paterson",
@@ -55697,7 +55137,7 @@
     "def":107.0,
     "rating":-7.94,
     "pace":73.19,
-    "wab":-13.834
+    "wab":-13.785
   },
   {
     "team_id":"william-paterson",
@@ -55707,7 +55147,7 @@
     "def":107.06,
     "rating":-13.49,
     "pace":75.99,
-    "wab":-14.099
+    "wab":-14.134
   },
   {
     "team_id":"william-paterson",
@@ -55717,7 +55157,7 @@
     "def":104.41,
     "rating":-15.32,
     "pace":73.53,
-    "wab":-12.855
+    "wab":-12.852
   },
   {
     "team_id":"william-peace",
@@ -55967,7 +55407,7 @@
     "def":89.34,
     "rating":23.8,
     "pace":66.49,
-    "wab":2.603
+    "wab":2.699
   },
   {
     "team_id":"williams",
@@ -56217,7 +55657,7 @@
     "def":106.22,
     "rating":-6.39,
     "pace":78.58,
-    "wab":-7.546
+    "wab":-7.448
   },
   {
     "team_id":"wilson",
@@ -56227,7 +55667,7 @@
     "def":103.46,
     "rating":-15.0,
     "pace":73.8,
-    "wab":-12.259
+    "wab":-12.075
   },
   {
     "team_id":"wilson",
@@ -56237,7 +55677,7 @@
     "def":101.32,
     "rating":-10.18,
     "pace":70.5,
-    "wab":-5.052
+    "wab":-4.612
   },
   {
     "team_id":"wilson",
@@ -56247,7 +55687,7 @@
     "def":99.94,
     "rating":-1.41,
     "pace":68.98,
-    "wab":-5.975
+    "wab":-5.428
   },
   {
     "team_id":"wilson",
@@ -56257,7 +55697,7 @@
     "def":106.93,
     "rating":-11.73,
     "pace":66.81,
-    "wab":-7.712
+    "wab":-7.214
   },
   {
     "team_id":"wilson",
@@ -56267,7 +55707,7 @@
     "def":111.43,
     "rating":-14.76,
     "pace":71.31,
-    "wab":-10.536
+    "wab":-10.283
   },
   {
     "team_id":"wilson",
@@ -56277,7 +55717,7 @@
     "def":110.68,
     "rating":-12.59,
     "pace":77.52,
-    "wab":-11.306
+    "wab":-10.97
   },
   {
     "team_id":"wisconsin-lutheran",
@@ -56637,7 +56077,7 @@
     "def":94.91,
     "rating":20.5,
     "pace":71.08,
-    "wab":1.481
+    "wab":1.292
   },
   {
     "team_id":"wooster",
@@ -56707,7 +56147,7 @@
     "def":106.13,
     "rating":-13.11,
     "pace":68.92,
-    "wab":-14.593
+    "wab":-14.537
   },
   {
     "team_id":"worcester-state",
@@ -56837,7 +56277,7 @@
     "def":106.97,
     "rating":-5.41,
     "pace":74.8,
-    "wab":-7.344
+    "wab":-7.105
   },
   {
     "team_id":"wpi",
@@ -57067,7 +56507,7 @@
     "def":98.37,
     "rating":16.88,
     "pace":74.7,
-    "wab":2.603
+    "wab":2.545
   },
   {
     "team_id":"yeshiva",
@@ -57077,7 +56517,7 @@
     "def":94.54,
     "rating":18.94,
     "pace":71.92,
-    "wab":-0.558
+    "wab":-0.645
   },
   {
     "team_id":"yeshiva",
@@ -57127,7 +56567,7 @@
     "def":104.36,
     "rating":-6.01,
     "pace":67.95,
-    "wab":-12.748
+    "wab":-12.842
   },
   {
     "team_id":"york-n-y",
@@ -57167,7 +56607,7 @@
     "def":101.97,
     "rating":-8.06,
     "pace":71.34,
-    "wab":-12.496
+    "wab":-12.769
   },
   {
     "team_id":"york-n-y",
@@ -57177,7 +56617,7 @@
     "def":106.05,
     "rating":-19.77,
     "pace":75.9,
-    "wab":-17.633
+    "wab":-17.822
   },
   {
     "team_id":"york-n-y",
@@ -57187,7 +56627,7 @@
     "def":106.79,
     "rating":-16.08,
     "pace":75.22,
-    "wab":-13.691
+    "wab":-13.789
   },
   {
     "team_id":"york-n-y",
@@ -57287,7 +56727,7 @@
     "def":100.14,
     "rating":-7.35,
     "pace":70.36,
-    "wab":-14.147
+    "wab":-14.183
   },
   {
     "team_id":"york-pa",

@@ -445,8 +445,8 @@
   {
     "conference_id":"njac",
     "conference":"NJAC",
-    "team_count":11,
-    "avg_rating":0.9,
+    "team_count":10,
+    "avg_rating":1.1,
     "best_rank":49,
     "team_ids":[
       "stockton",
@@ -454,7 +454,6 @@
       "tcnj",
       "kean",
       "rowan",
-      "new-jersey-city",
       "suny-new-paltz",
       "rutgers-newark",
       "rutgers-camden",
@@ -521,8 +520,8 @@
   {
     "conference_id":"uec",
     "conference":"UEC",
-    "team_count":14,
-    "avg_rating":-14.9,
+    "team_count":12,
+    "avg_rating":-12.6,
     "best_rank":92,
     "team_ids":[
       "lancaster-bible",
@@ -535,10 +534,8 @@
       "wilson",
       "penn-state-abington",
       "penn-college",
-      "valley-forge",
       "gallaudet",
-      "penn-state-berks",
-      "rosemont"
+      "penn-state-berks"
     ]
   },
   {
@@ -764,8 +761,8 @@
   {
     "conference_id":"mascac",
     "conference":"MASCAC",
-    "team_count":8,
-    "avg_rating":-10.4,
+    "team_count":7,
+    "avg_rating":-9.6,
     "best_rank":200,
     "team_ids":[
       "westfield-state",
@@ -774,7 +771,6 @@
       "framingham-state",
       "bridgewater-state",
       "fitchburg-state",
-      "anna-maria",
       "massachusetts-college"
     ]
   },
@@ -783,7 +779,7 @@
     "conference":"CUNYAC",
     "team_count":8,
     "avg_rating":-22.6,
-    "best_rank":268,
+    "best_rank":267,
     "team_ids":[
       "lehman",
       "baruch",
@@ -800,7 +796,7 @@
     "conference":"IND",
     "team_count":1,
     "avg_rating":-39.9,
-    "best_rank":409,
+    "best_rank":405,
     "team_ids":[
       "maranatha-baptist"
     ]
