@@ -102,7 +102,7 @@
     tbody tr:last-child { border-bottom:none; }
     tbody tr:hover { background:#EBF4FA; }
     tbody td { padding:.52rem .85rem; font-size:.83rem; }
-    .rc { color:var(--muted); font-family:'IBM Plex Mono',monospace; font-size:.75rem; width:42px; }
+    .rc { color:var(--cyan); opacity:.7; font-family:'IBM Plex Mono',monospace; font-size:.75rem; width:42px; }
 
     /* Mobile: layout matching screenshot #2 — tight, single-line team names */
     @media(max-width:680px) {
@@ -161,7 +161,7 @@
     tbody tr:hover .sticky-team {
       background: #EBF4FA;
     }
-    .tl { color:var(--navy); font-weight:600; cursor:pointer; }
+    .tl { color:var(--cyan); font-weight:600; cursor:pointer; }
     .tl:hover { color:var(--accent); text-decoration:underline; }
     .cb { display:inline-block; background:#E0EDF5; color:var(--navy2); border-radius:4px;
           padding:.11rem .42rem; font-size:.69rem; font-weight:600; cursor:pointer; white-space:nowrap; }
@@ -201,7 +201,7 @@
     /* TEAM PAGE */
     .team-banner { background:var(--navy); color:#fff; border-radius:10px; padding:1.4rem 1.5rem; margin-bottom:1.2rem; border-bottom:2px solid var(--cyan); }
     .team-banner h1 { font-family:'Outfit',sans-serif; font-size:1.5rem; font-weight:800; margin-bottom:.2rem; line-height:1.2; }
-    .conf-link { color:rgba(255,255,255,.6); font-size:.8rem; cursor:pointer; }
+    .conf-link { color:var(--cyan); font-size:.8rem; cursor:pointer; opacity:.85; }
     .conf-link:hover { color:#fff; text-decoration:underline; }
     .banner-stats { display:flex; gap:1.5rem; margin-top:.9rem; flex-wrap:wrap; }
     .bstat .val { font-family:'IBM Plex Mono',monospace; font-size:1.25rem; color:var(--cyan); line-height:1; }
@@ -210,6 +210,7 @@
     .sbox { background:var(--white); border:1px solid var(--border); border-radius:8px; padding:.7rem .95rem; flex:1; min-width:95px; }
     .sbox .val { font-family:'IBM Plex Mono',monospace; font-size:1.15rem; color:var(--cyan); line-height:1; }
     .sbox .lbl { font-size:.62rem; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; margin-top:.18rem; }
+    .sbox:hover { border-color:var(--cyan); transition:border-color .15s; }
     .cbox { background:var(--white); border-radius:10px; border:1px solid var(--border); overflow:hidden; margin-bottom:1.2rem; }
     .box-hdr { padding:.65rem 1rem; border-bottom:1px solid var(--border); font-size:.77rem; font-weight:600; color:var(--navy); border-left:2px solid var(--cyan); padding-left:.875rem;
                display:flex; justify-content:space-between; align-items:center; }
@@ -231,8 +232,8 @@
     .sbtn.active { background:var(--cyan); color:var(--navy); border-color:var(--cyan); font-weight:600; }
 
     /* PREDICTIONS */
-    .dhdr { padding:.38rem 1rem; background:var(--bg); font-size:.67rem; font-weight:600;
-            color:var(--muted); letter-spacing:.06em; text-transform:uppercase; }
+    .dhdr { padding:.38rem 1rem .38rem 1.2rem; background:var(--bg); font-size:.67rem; font-weight:600;
+            color:var(--muted); letter-spacing:.06em; text-transform:uppercase; border-left:2px solid var(--cyan); }
     .prow { display:flex; align-items:center; padding:.52rem 1rem; border-bottom:1px solid var(--border); gap:.75rem; font-size:.83rem; }
     .prow:last-child { border-bottom:none; }
     .pmatch { flex:1; min-width:0; }
@@ -474,7 +475,7 @@ function HomePage({ nav }) {
   return (
     <div className="home-wrap">
       <h1 className="home-title">Schauer Stats</h1>
-      <p className="home-sub">D3 men's basketball ratings, predictions, and resume scores</p>
+      <p className="home-sub">A D3 men's basketball site</p>
       <div className="card-grid">
         {cards.map(c => (
           <div key={c.href} className="card" onClick={() => nav(c.href)}>
@@ -526,7 +527,7 @@ function RatingsPage({ nav }) {
 
   return (
     <div className="page">
-      <h1 className="page-title">2025-26 D3 Men's Basketball Ratings</h1>
+      <h1 className="page-title">D3 Men's Basketball Ratings</h1>
       <p className="page-sub">Predictive ratings and resume quality (wins above bubble) for all D3 teams &middot; Click a team name for their full profile &middot; Data from stats.ncaa.org</p>
       <div className="table-wrap">
         <div className="toolbar">
