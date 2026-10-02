@@ -611,12 +611,12 @@ function PredictionsPage({ nav }) {
               <th style={{color:'rgba(255,255,255,.7)',fontSize:'.6rem',letterSpacing:'.06em',textTransform:'uppercase',padding:'.58rem .5rem'}}>HA</th>
               <Th col="team_2" sc={sc} ico={ico} tog={tog}>Team 2</Th>
               <th style={{color:'rgba(255,255,255,.78)',fontSize:'.63rem',letterSpacing:'.07em',textTransform:'uppercase',padding:'.58rem .85rem'}}>Pred Score</th>
-              <Th col="spread" sc={sc} ico={ico} tog={tog}>T2 Spread</Th>
+              <Th col="spread" sc={sc} ico={ico} tog={tog}>Spread</Th>
             </tr></thead>
             <tbody>
               {filtered.map((g,i) => {
                 const hfa = g.hfa === 'vs' ? 'vs' : g.hfa === '@' ? '@' : 'neu';
-                const t2spread = g.spread != null ? -g.spread : null;
+                const t2spread = g.spread != null ? g.spread : null; // Vegas: team 2's spread (positive = underdog)
                 return (
                   <tr key={i}>
                     <td className="mono" style={{whiteSpace:'nowrap'}}>{fmtS(g.date)}</td>
@@ -628,7 +628,7 @@ function PredictionsPage({ nav }) {
                         ? g.team_1_pred_score.toFixed(1) + '–' + g.team_2_pred_score.toFixed(1)
                         : '-'}
                     </td>
-                    <td className="mono" style={{whiteSpace:'nowrap',color:t2spread>0?'var(--win)':t2spread<0?'var(--loss)':'var(--muted)',fontWeight:600}}>
+                    <td className="mono" style={{whiteSpace:'nowrap'}}>
                       {t2spread != null ? (t2spread > 0 ? '+' : '') + t2spread.toFixed(1) : '-'}
                     </td>
                   </tr>
@@ -888,8 +888,9 @@ function TeamPage({ teamId, nav }) {
     const wab  = !fut ? (it1 ? g.t1_wab : g.t2_wab) : null;
     const haColor = ha==='vs'?'#2563eb':ha==='@'?'#7c3aed':'var(--muted)';
     // For upcoming: compute spread and win probability from team perspective
-    const mySpread = fut ? (it1 ? g.spread : -g.spread) : null;
-    const wp = fut && mySpread != null ? Math.round(1 / (1 + Math.exp(-0.152 * mySpread)) * 100) : null;
+    const margin   = fut ? (it1 ? g.spread : -g.spread) : null;  // positive = my team favored
+    const mySpread = margin != null ? -margin : null;             // Vegas: favored = negative
+    const wp = fut && margin != null ? Math.round(1 / (1 + Math.exp(-0.152 * margin)) * 100) : null;
     return (
       <div className="grow">
         <span className="gdate">{fmtS(g.date)}</span>
@@ -899,8 +900,8 @@ function TeamPage({ teamId, nav }) {
           ? <span className="gsc muted-c" style={{fontSize:'.75rem'}}>{mp != null && op != null ? mp.toFixed(1)+'–'+op.toFixed(1) : '-'}</span>
           : <span className={`gsc ${won?'win':lost?'loss':''}`}>{ms}-{os}</span>}
         {fut
-          ? <span className="gwab" style={{color: mySpread > 0 ? 'var(--win)' : mySpread < 0 ? 'var(--loss)' : 'var(--muted)', fontWeight:600}}>
-              {mySpread > 0 ? '+' : ''}{mySpread != null ? mySpread.toFixed(1) : '-'}
+          ? <span className="gwab" style={{fontWeight:600}}>
+              {mySpread != null ? (mySpread > 0 ? '+' : '') + mySpread.toFixed(1) : '-'}
             </span>
           : null}
         {fut
