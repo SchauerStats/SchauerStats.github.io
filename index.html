@@ -102,7 +102,7 @@
     tbody tr:last-child { border-bottom:none; }
     tbody tr:hover { background:#EBF4FA; }
     tbody td { padding:.52rem .85rem; font-size:.83rem; }
-    .rc { color:var(--navy); font-family:'IBM Plex Mono',monospace; font-size:.75rem; width:42px; }
+    .rc { color:var(--muted); font-family:'IBM Plex Mono',monospace; font-size:.75rem; width:42px; }
 
     /* Mobile: layout matching screenshot #2 — tight, single-line team names */
     @media(max-width:680px) {
@@ -173,27 +173,22 @@
     .loss { color:var(--loss); font-weight:600; }
 
     /* HOME */
-    .home-wrap { padding:2.5rem 1.5rem 2rem; max-width:1200px; margin:0 auto; width:100%; }
+    .home-wrap { padding:2.5rem 1.5rem 3rem; max-width:1200px; margin:0 auto; }
     .home-title { font-family:'Outfit',sans-serif; font-size:2rem; font-weight:800; color:var(--navy); margin-bottom:.4rem; padding-bottom:.5rem; border-bottom:3px solid var(--cyan); display:inline-block; }
     .home-sub { color:var(--muted); margin-bottom:2.25rem; font-size:.9rem; }
     /* Desktop: 4 cards in one row. Mobile: 2x2. */
     .card-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1.25rem; }
     @media(max-width:680px) { .card-grid { grid-template-columns:repeat(2,1fr); } }
-    @media(min-width:681px) {
-      /* Make home page fill the full viewport height on desktop */
-      .home-wrap { display:flex; flex-direction:column; flex:1; }
-      .card-grid  { flex:1; align-content:stretch; }
-    }
     .card { background:var(--white); border-radius:10px; border:1px solid var(--border); overflow:hidden;
-            cursor:pointer; transition:transform .15s, box-shadow .15s; display:flex; flex-direction:column; }
+            cursor:pointer; transition:transform .15s, box-shadow .15s; }
     .card:hover { transform:translateY(-2px); box-shadow:0 6px 20px rgba(8,31,44,.1); border-color:var(--cyan); }
     /* Icon area: solid navy panel, centered white icon */
     .card-icon { height:100px; background:var(--navy); display:flex; align-items:center; justify-content:center; border-bottom:2px solid var(--cyan); }
     .card-icon svg { width:44px; height:44px; }
     @media(max-width:680px) { .card-icon { height:80px; } .card-icon svg { width:36px; height:36px; } }
-    .card-body { padding:.875rem 1rem 1.1rem; flex:1; display:flex; flex-direction:column; }
+    .card-body { padding:.875rem 1rem 1.1rem; }
     .card-body h3 { font-family:'Outfit',sans-serif; font-weight:700; font-size:.88rem; color:var(--navy); margin-bottom:.25rem; }
-    .card-body p { color:var(--muted); font-size:.76rem; line-height:1.5; margin-bottom:.875rem; flex:1; }
+    .card-body p { color:var(--muted); font-size:.76rem; line-height:1.5; margin-bottom:.875rem; }
     .card-btn { background:var(--navy); color:#fff; border:none; border-radius:7px; padding:.52rem .875rem;
                 font-family:'IBM Plex Sans',sans-serif; font-size:.78rem; font-weight:500; cursor:pointer; width:100%; transition:background .15s, color .15s; }
     .card-btn:hover { background:var(--cyan); color:var(--navy); }
@@ -210,7 +205,6 @@
     .sbox { background:var(--white); border:1px solid var(--border); border-radius:8px; padding:.7rem .95rem; flex:1; min-width:95px; }
     .sbox .val { font-family:'IBM Plex Mono',monospace; font-size:1.15rem; color:var(--cyan); line-height:1; }
     .sbox .lbl { font-size:.62rem; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; margin-top:.18rem; }
-    .sbox:hover { border-color:var(--cyan); transition:border-color .15s; }
     .cbox { background:var(--white); border-radius:10px; border:1px solid var(--border); overflow:hidden; margin-bottom:1.2rem; }
     .box-hdr { padding:.65rem 1rem; border-bottom:1px solid var(--border); font-size:.77rem; font-weight:600; color:var(--navy); border-left:2px solid var(--cyan); padding-left:.875rem;
                display:flex; justify-content:space-between; align-items:center; }
@@ -232,8 +226,8 @@
     .sbtn.active { background:var(--cyan); color:var(--navy); border-color:var(--cyan); font-weight:600; }
 
     /* PREDICTIONS */
-    .dhdr { padding:.38rem 1rem .38rem 1.2rem; background:var(--bg); font-size:.67rem; font-weight:600;
-            color:var(--muted); letter-spacing:.06em; text-transform:uppercase; border-left:2px solid var(--cyan); }
+    .dhdr { padding:.38rem 1rem; background:var(--bg); font-size:.67rem; font-weight:600;
+            color:var(--muted); letter-spacing:.06em; text-transform:uppercase; }
     .prow { display:flex; align-items:center; padding:.52rem 1rem; border-bottom:1px solid var(--border); gap:.75rem; font-size:.83rem; }
     .prow:last-child { border-bottom:none; }
     .pmatch { flex:1; min-width:0; }
@@ -475,7 +469,7 @@ function HomePage({ nav }) {
   return (
     <div className="home-wrap">
       <h1 className="home-title">Schauer Stats</h1>
-      <p className="home-sub">A D3 men's basketball site</p>
+      <p className="home-sub">D3 men's basketball ratings, predictions, and resume scores</p>
       <div className="card-grid">
         {cards.map(c => (
           <div key={c.href} className="card" onClick={() => nav(c.href)}>
@@ -587,17 +581,14 @@ function RatingsPage({ nav }) {
 function PredictionsPage({ nav }) {
   const { data, loading, error } = useData('future_games.json');
   const [search, setSearch] = useState('');
-  const games    = useMemo(() => (data ? data[0] : null) || [], [data]);
+  const { sc, sd, tog, ico } = useSort('date', 'asc');
+
+  const games   = useMemo(() => (data ? data[0] : null) || [], [data]);
   const filtered = useMemo(() => {
-    if (!search) return games;
-    const q = search.toLowerCase();
-    return games.filter(g => g.team_1.toLowerCase().includes(q) || g.team_2.toLowerCase().includes(q));
-  }, [games, search]);
-  const grouped  = useMemo(() => {
-    const m = {};
-    for (const g of filtered) { const d = (g.date || '').split('T')[0] || '?'; if (!m[d]) m[d]=[]; m[d].push(g); }
-    return Object.entries(m).sort((a,b) => a[0].localeCompare(b[0]));
-  }, [filtered]);
+    let r = games;
+    if (search) { const q = search.toLowerCase(); r = r.filter(g => g.team_1.toLowerCase().includes(q) || g.team_2.toLowerCase().includes(q)); }
+    return srt(r, sc, sd);
+  }, [games, search, sc, sd]);
 
   if (loading) return <Spin />;
   if (error)   return <ErrMsg m={error} />;
@@ -611,29 +602,42 @@ function PredictionsPage({ nav }) {
           <input className="srch" placeholder="Search teams..." value={search} onChange={e => setSearch(e.target.value)} />
           <span className="rcount">{filtered.length} games</span>
         </div>
-        {grouped.length === 0 && <div className="empty">No upcoming games found.</div>}
-        {grouped.map(([date, dg]) => (
-          <div key={date}>
-            <div className="dhdr">{fmtL(date)}</div>
-            {dg.map((g,i) => (
-              <div key={i} className="prow">
-                <div className="pmatch">
-                  <div className="pline">
-                    <span className="pha">{g.hfa === 'vs' ? 'vs' : '@'}</span>
-                    <span className="pteam" onClick={() => nav(`#/team/${g.team_1_id}`)}>{g.team_1}</span>
-                    <span className="ppts">{Math.round(g.team_1_pred_score)}</span>
-                  </div>
-                  <div className="pline">
-                    <span className="pha"></span>
-                    <span className="pteam" onClick={() => nav(`#/team/${g.team_2_id}`)}>{g.team_2}</span>
-                    <span className="ppts">{Math.round(g.team_2_pred_score)}</span>
-                  </div>
-                </div>
-                <span style={{fontSize:'.66rem',background:'#dbeafe',borderRadius:3,padding:'.1rem .38rem',color:'#1d4ed8',whiteSpace:'nowrap',flexShrink:0}}>UPCOMING</span>
-              </div>
-            ))}
-          </div>
-        ))}
+        <div className="shint">Scroll right to see all columns &rarr;</div>
+        <div className="tscroll">
+          <table>
+            <thead><tr>
+              <Th col="date"   sc={sc} ico={ico} tog={tog}>Date</Th>
+              <Th col="team_1" sc={sc} ico={ico} tog={tog}>Team 1</Th>
+              <th style={{color:'rgba(255,255,255,.7)',fontSize:'.6rem',letterSpacing:'.06em',textTransform:'uppercase',padding:'.58rem .5rem'}}>HA</th>
+              <Th col="team_2" sc={sc} ico={ico} tog={tog}>Team 2</Th>
+              <th style={{color:'rgba(255,255,255,.78)',fontSize:'.63rem',letterSpacing:'.07em',textTransform:'uppercase',padding:'.58rem .85rem'}}>Pred Score</th>
+              <Th col="spread" sc={sc} ico={ico} tog={tog}>T2 Spread</Th>
+            </tr></thead>
+            <tbody>
+              {filtered.map((g,i) => {
+                const hfa = g.hfa === 'vs' ? 'vs' : g.hfa === '@' ? '@' : 'neu';
+                const t2spread = g.spread != null ? -g.spread : null;
+                return (
+                  <tr key={i}>
+                    <td className="mono" style={{whiteSpace:'nowrap'}}>{fmtS(g.date)}</td>
+                    <td><span className="tl" onClick={() => nav(`#/team/${g.team_1_id}`)}>{g.team_1}</span></td>
+                    <td style={{textAlign:'center',color:'var(--muted)',fontSize:'.7rem',padding:'.52rem .5rem'}}>{hfa}</td>
+                    <td><span className="tl" onClick={() => nav(`#/team/${g.team_2_id}`)}>{g.team_2}</span></td>
+                    <td className="mono" style={{whiteSpace:'nowrap'}}>
+                      {g.team_1_pred_score != null && g.team_2_pred_score != null
+                        ? g.team_1_pred_score.toFixed(1) + '–' + g.team_2_pred_score.toFixed(1)
+                        : '-'}
+                    </td>
+                    <td className="mono" style={{whiteSpace:'nowrap',color:t2spread>0?'var(--win)':t2spread<0?'var(--loss)':'var(--muted)',fontWeight:600}}>
+                      {t2spread != null ? (t2spread > 0 ? '+' : '') + t2spread.toFixed(1) : '-'}
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+        {filtered.length === 0 && <div className="empty">No upcoming games found.</div>}
       </div>
     </div>
   );
@@ -674,7 +678,7 @@ function AccuracyPage({ nav }) {
 
   return (
     <div className="page">
-      <h1 className="page-title">2025-26 Prediction Accuracy</h1>
+      <h1 className="page-title">Prediction Accuracy</h1>
       <p className="page-sub">Predicted vs. actual scores for all completed games &middot; Click a team name to see their profile</p>
       <div className="table-wrap">
         <div className="toolbar">
@@ -892,10 +896,13 @@ function TeamPage({ teamId, nav }) {
         <span className="gha" style={{color:haColor}}>{ha}</span>
         <span className="gopp" onClick={() => nav(`#/team/${oppId}`)}>{opp}</span>
         {fut
-          ? <span className="gsc" style={{color: mySpread > 0 ? 'var(--win)' : mySpread < 0 ? 'var(--loss)' : 'var(--muted)', fontWeight:600}}>
+          ? <span className="gsc muted-c" style={{fontSize:'.75rem'}}>{mp != null && op != null ? mp.toFixed(1)+'–'+op.toFixed(1) : '-'}</span>
+          : <span className={`gsc ${won?'win':lost?'loss':''}`}>{ms}-{os}</span>}
+        {fut
+          ? <span className="gwab" style={{color: mySpread > 0 ? 'var(--win)' : mySpread < 0 ? 'var(--loss)' : 'var(--muted)', fontWeight:600}}>
               {mySpread > 0 ? '+' : ''}{mySpread != null ? mySpread.toFixed(1) : '-'}
             </span>
-          : <span className={`gsc ${won?'win':lost?'loss':''}`}>{ms}-{os}</span>}
+          : null}
         {fut
           ? <span className="gwab muted-c">{wp != null ? wp+'%' : '-'}</span>
           : <span className="gwab" style={{color:wab==null?'var(--muted)':wab>=0?'var(--win)':'var(--loss)'}}>
@@ -948,7 +955,7 @@ function TeamPage({ teamId, nav }) {
           </div>
           {upcoming.length > 0 && (
             <>
-              <div className="games-section-hdr">Upcoming ({upcoming.length}) &mdash; Spread &middot; Win Prob</div>
+              <div className="games-section-hdr">Upcoming ({upcoming.length}) &mdash; Pred Score &middot; Spread &middot; Win Prob</div>
               {upcoming.map((g,i) => <GRow key={'u'+i} g={g} fut={true} />)}
             </>
           )}
@@ -1165,7 +1172,7 @@ function App() {
       <Nav nav={nav} hash={hash} />
       {pages[route.page] || <div className="errmsg">Page not found.</div>}
       <footer>
-        Follow on X &mdash; <a href="https://x.com/jacob_schauer" target="_blank" rel="noopener noreferrer">Jacob Schauer (@jacob_schauer)</a>
+        Follow along on X &mdash; <a href="https://x.com/jacob_schauer" target="_blank" rel="noopener noreferrer">Jacob Schauer (@jacob_schauer)</a>
       </footer>
     </>
   );
