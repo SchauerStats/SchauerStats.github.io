@@ -174,24 +174,24 @@
     .loss { color:var(--loss); font-weight:600; }
 
     /* HOME */
-    .home-wrap { padding:2.5rem 1.5rem 3rem; max-width:1200px; margin:0 auto; }
-    .home-title { font-family:'Outfit',sans-serif; font-size:2rem; font-weight:800; color:var(--navy); margin-bottom:.4rem; padding-bottom:.5rem; border-bottom:3px solid var(--cyan); display:inline-block; }
+    .home-wrap { padding:4rem 2rem; max-width:1300px; margin:0 auto; display:flex; flex-direction:column; justify-content:center; min-height:calc(100vh - var(--nav-h) - 60px); }
+    .home-title { font-family:'Outfit',sans-serif; font-size:2.6rem; font-weight:800; color:var(--navy); margin-bottom:2.5rem; padding-bottom:.6rem; border-bottom:3px solid var(--cyan); display:inline-block; }
     .home-sub { color:var(--muted); margin-bottom:2.25rem; font-size:.9rem; }
     /* Desktop: 4 cards in one row. Mobile: 2x2. */
-    .card-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1.25rem; }
+    .card-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1.5rem; }
     @media(max-width:680px) { .card-grid { grid-template-columns:repeat(2,1fr); } }
-    .card { background:var(--white); border-radius:10px; border:1px solid var(--border); overflow:hidden;
+    .card { background:var(--white); border-radius:12px; border:1px solid var(--border); overflow:hidden;
             cursor:pointer; transition:transform .15s, box-shadow .15s; }
-    .card:hover { transform:translateY(-2px); box-shadow:0 6px 20px rgba(8,31,44,.1); border-color:var(--cyan); }
+    .card:hover { transform:translateY(-3px); box-shadow:0 8px 28px rgba(8,31,44,.12); border-color:var(--cyan); }
     /* Icon area: solid navy panel, centered white icon */
-    .card-icon { height:100px; background:var(--navy); display:flex; align-items:center; justify-content:center; border-bottom:2px solid var(--cyan); }
-    .card-icon svg { width:44px; height:44px; }
-    @media(max-width:680px) { .card-icon { height:80px; } .card-icon svg { width:36px; height:36px; } }
-    .card-body { padding:.875rem 1rem 1.1rem; }
-    .card-body h3 { font-family:'Outfit',sans-serif; font-weight:700; font-size:.88rem; color:var(--navy); margin-bottom:.25rem; }
-    .card-body p { color:var(--muted); font-size:.76rem; line-height:1.5; margin-bottom:.875rem; }
-    .card-btn { background:var(--navy); color:#fff; border:none; border-radius:7px; padding:.52rem .875rem;
-                font-family:'IBM Plex Sans',sans-serif; font-size:.78rem; font-weight:500; cursor:pointer; width:100%; transition:background .15s, color .15s; }
+    .card-icon { height:160px; background:var(--navy); display:flex; align-items:center; justify-content:center; border-bottom:2px solid var(--cyan); }
+    .card-icon svg { width:60px; height:60px; }
+    @media(max-width:680px) { .card-icon { height:100px; } .card-icon svg { width:44px; height:44px; } }
+    .card-body { padding:1.25rem 1.25rem 1.5rem; }
+    .card-body h3 { font-family:'Outfit',sans-serif; font-weight:700; font-size:1rem; color:var(--navy); margin-bottom:.4rem; }
+    .card-body p { color:var(--muted); font-size:.82rem; line-height:1.6; margin-bottom:1.1rem; }
+    .card-btn { background:var(--navy); color:#fff; border:none; border-radius:8px; padding:.65rem 1rem;
+                font-family:'IBM Plex Sans',sans-serif; font-size:.82rem; font-weight:500; cursor:pointer; width:100%; transition:background .15s, color .15s; }
     .card-btn:hover { background:var(--cyan); color:var(--navy); }
 
     /* TEAM PAGE */
@@ -357,7 +357,7 @@ function srt(arr, c, d) {
 }
 function fmtS(d) { try { return new Date(d+'T12:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric'}); } catch { return d; } }
 function fmtL(d) { try { return new Date(d+'T12:00:00').toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'}); } catch { return d; } }
-function Spin()      { return <div className="spinner" />; }
+function Spin()      { return null; }
 function ErrMsg({m}) { return <div className="errmsg">Could not load data: {m}<br/><small>Make sure data files are committed to your repo.</small></div>; }
 
 // SORTABLE TH — 'tip' prop renders a native browser tooltip on hover
