@@ -45,6 +45,7 @@
     html, body { height: 100%; background: var(--bg); color: var(--text); -webkit-text-size-adjust: 100%; }
     body { font-family: 'IBM Plex Sans', sans-serif; font-size: 15px; }
     #root { min-height: 100vh; display: flex; flex-direction: column; }
+    #root > *:not(nav):not(footer) { flex: 1; }
 
     /* NAV */
     nav { background: var(--navy); height: var(--nav-h); display: flex; align-items: center;
@@ -469,7 +470,6 @@ function HomePage({ nav }) {
   return (
     <div className="home-wrap">
       <h1 className="home-title">Schauer Stats</h1>
-      <p className="home-sub">D3 men's basketball ratings, predictions, and resume scores</p>
       <div className="card-grid">
         {cards.map(c => (
           <div key={c.href} className="card" onClick={() => nav(c.href)}>
