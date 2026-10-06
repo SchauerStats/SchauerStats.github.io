@@ -608,15 +608,18 @@ function PredictionsPage({ nav }) {
             <thead><tr>
               <Th col="date"   sc={sc} ico={ico} tog={tog}>Date</Th>
               <Th col="team_1" sc={sc} ico={ico} tog={tog}>Team 1</Th>
-              <th style={{color:'rgba(255,255,255,.7)',fontSize:'.6rem',letterSpacing:'.06em',textTransform:'uppercase',padding:'.58rem .5rem'}}>HA</th>
+              <th style={{color:'rgba(255,255,255,.7)',fontSize:'.6rem',letterSpacing:'.06em',textTransform:'uppercase',padding:'.58rem .5rem',textAlign:'center'}}>HA</th>
               <Th col="team_2" sc={sc} ico={ico} tog={tog}>Team 2</Th>
               <th style={{color:'rgba(255,255,255,.78)',fontSize:'.63rem',letterSpacing:'.07em',textTransform:'uppercase',padding:'.58rem .85rem'}}>Pred Score</th>
               <Th col="spread" sc={sc} ico={ico} tog={tog}>Spread</Th>
+              <th style={{color:'rgba(255,255,255,.78)',fontSize:'.63rem',letterSpacing:'.07em',textTransform:'uppercase',padding:'.58rem .85rem'}}>T2 Win%</th>
             </tr></thead>
             <tbody>
               {filtered.map((g,i) => {
                 const hfa = g.hfa === 'vs' ? 'vs' : g.hfa === '@' ? '@' : 'neu';
                 const t2spread = g.spread != null ? g.spread : null; // Vegas: team 2's spread (positive = underdog)
+                // Win% for team 2: team 2 is favored when g.spread < 0 (team 1 margin is negative)
+                const t2wp = g.spread != null ? Math.round(1 / (1 + Math.exp(-0.152 * (-g.spread))) * 100) : null;
                 return (
                   <tr key={i}>
                     <td className="mono" style={{whiteSpace:'nowrap'}}>{fmtS(g.date)}</td>
@@ -631,6 +634,7 @@ function PredictionsPage({ nav }) {
                     <td className="mono" style={{whiteSpace:'nowrap'}}>
                       {t2spread != null ? (t2spread > 0 ? '+' : '') + t2spread.toFixed(1) : '-'}
                     </td>
+                    <td className="mono">{t2wp != null ? t2wp + '%' : '-'}</td>
                   </tr>
                 );
               })}
