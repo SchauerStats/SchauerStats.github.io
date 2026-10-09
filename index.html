@@ -863,7 +863,7 @@ function TeamPage({ teamId, nav }) {
     </div>
   );
 
-  const hist     = hd.filter(h => h.team_id === teamId).sort((a,b) => a.season-b.season);
+  const hist     = hd.filter(h => h.team_id === teamId && h.wab != null).sort((a,b) => a.season-b.season);
   const pastBase = g26.filter(g => g.team_1_id===teamId || g.team_2_id===teamId);
   const past     = pastBase.slice().sort((a,b) => b.date.localeCompare(a.date));
   const sortedPast = gameSort === 'wab'
