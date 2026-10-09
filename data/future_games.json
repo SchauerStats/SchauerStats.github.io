@@ -34,6 +34,17 @@
   },
   {
     "date":"2026-11-06",
+    "team_1":"Johns Hopkins",
+    "team_1_pred_score":66.6,
+    "hfa":"@",
+    "team_2":"Marymount",
+    "team_2_pred_score":62.3,
+    "spread":4.3,
+    "team_1_id":"johns-hopkins",
+    "team_2_id":"marymount"
+  },
+  {
+    "date":"2026-11-06",
     "team_1":"Maryville (Tenn.)",
     "team_1_pred_score":72.7,
     "hfa":"neu",
@@ -64,6 +75,17 @@
     "spread":-5.9,
     "team_1_id":"franklin-and-marshall",
     "team_2_id":"mount-union"
+  },
+  {
+    "date":"2026-11-06",
+    "team_1":"Wilkes",
+    "team_1_pred_score":81.3,
+    "hfa":"@",
+    "team_2":"Rowan",
+    "team_2_pred_score":81.3,
+    "spread":0.0,
+    "team_1_id":"wilkes",
+    "team_2_id":"rowan"
   },
   {
     "date":"2026-11-06",
@@ -188,6 +210,17 @@
   },
   {
     "date":"2026-11-06",
+    "team_1":"Widener",
+    "team_1_pred_score":72.6,
+    "hfa":"@",
+    "team_2":"Scranton",
+    "team_2_pred_score":79.5,
+    "spread":-6.9,
+    "team_1_id":"widener",
+    "team_2_id":"scranton"
+  },
+  {
+    "date":"2026-11-06",
     "team_1":"Covenant",
     "team_1_pred_score":128.3,
     "hfa":"@",
@@ -276,6 +309,17 @@
   },
   {
     "date":"2026-11-06",
+    "team_1":"Elmira",
+    "team_1_pred_score":77.0,
+    "hfa":"@",
+    "team_2":"Waynesburg",
+    "team_2_pred_score":78.8,
+    "spread":-1.8,
+    "team_1_id":"elmira",
+    "team_2_id":"waynesburg"
+  },
+  {
+    "date":"2026-11-06",
     "team_1":"Marian",
     "team_1_pred_score":76.0,
     "hfa":"@",
@@ -306,6 +350,17 @@
     "spread":16.8,
     "team_1_id":"hampden-sydney",
     "team_2_id":"william-peace"
+  },
+  {
+    "date":"2026-11-06",
+    "team_1":"Buffalo State",
+    "team_1_pred_score":61.1,
+    "hfa":"neu",
+    "team_2":"Springfield",
+    "team_2_pred_score":71.3,
+    "spread":-10.2,
+    "team_1_id":"buffalo-state",
+    "team_2_id":"springfield"
   },
   {
     "date":"2026-11-06",
@@ -375,6 +430,17 @@
   },
   {
     "date":"2026-11-06",
+    "team_1":"SUNY-Purchase",
+    "team_1_pred_score":59.3,
+    "hfa":"@",
+    "team_2":"Kean",
+    "team_2_pred_score":75.2,
+    "spread":-15.9,
+    "team_1_id":"suny-purchase",
+    "team_2_id":"kean"
+  },
+  {
+    "date":"2026-11-06",
     "team_1":"Massachusetts College",
     "team_1_pred_score":69.2,
     "hfa":"@",
@@ -408,6 +474,17 @@
   },
   {
     "date":"2026-11-06",
+    "team_1":"Penn College",
+    "team_1_pred_score":70.0,
+    "hfa":"@",
+    "team_2":"Hilbert",
+    "team_2_pred_score":87.7,
+    "spread":-17.7,
+    "team_1_id":"penn-college",
+    "team_2_id":"hilbert"
+  },
+  {
+    "date":"2026-11-06",
     "team_1":"Penn State-Berks",
     "team_1_pred_score":64.1,
     "hfa":"@",
@@ -427,6 +504,17 @@
     "spread":19.2,
     "team_1_id":"maine-maritime",
     "team_2_id":"medgar-evers"
+  },
+  {
+    "date":"2026-11-07",
+    "team_1":"Gettysburg",
+    "team_1_pred_score":69.2,
+    "hfa":"@",
+    "team_2":"Hobart",
+    "team_2_pred_score":67.2,
+    "spread":2.0,
+    "team_1_id":"gettysburg",
+    "team_2_id":"hobart"
   },
   {
     "date":"2026-11-07",
@@ -537,6 +625,17 @@
     "spread":-4.4,
     "team_1_id":"maine-farmington",
     "team_2_id":"suffolk"
+  },
+  {
+    "date":"2026-11-07",
+    "team_1":"Hampden-Sydney",
+    "team_1_pred_score":78.4,
+    "hfa":"neu",
+    "team_2":"N.C. Wesleyan",
+    "team_2_pred_score":69.9,
+    "spread":8.5,
+    "team_1_id":"hampden-sydney",
+    "team_2_id":"n-c-wesleyan"
   },
   {
     "date":"2026-11-07",
@@ -658,6 +757,17 @@
     "spread":-9.5,
     "team_1_id":"delaware-valley",
     "team_2_id":"swarthmore"
+  },
+  {
+    "date":"2026-11-07",
+    "team_1":"Marywood",
+    "team_1_pred_score":79.0,
+    "hfa":"neu",
+    "team_2":"Widener",
+    "team_2_pred_score":86.0,
+    "spread":-7.0,
+    "team_1_id":"marywood",
+    "team_2_id":"widener"
   },
   {
     "date":"2026-11-07",
@@ -902,6 +1012,17 @@
     "team_2_id":"hendrix"
   },
   {
+    "date":"2026-11-07",
+    "team_1":"Caltech",
+    "team_1_pred_score":70.4,
+    "hfa":"@",
+    "team_2":"Occidental",
+    "team_2_pred_score":90.8,
+    "spread":-20.4,
+    "team_1_id":"caltech",
+    "team_2_id":"occidental"
+  },
+  {
     "date":"2026-11-08",
     "team_1":"Eastern",
     "team_1_pred_score":63.8,
@@ -1013,6 +1134,17 @@
   },
   {
     "date":"2026-11-09",
+    "team_1":"Earlham",
+    "team_1_pred_score":70.4,
+    "hfa":"@",
+    "team_2":"Wilmington",
+    "team_2_pred_score":82.9,
+    "spread":-12.5,
+    "team_1_id":"earlham",
+    "team_2_id":"wilmington"
+  },
+  {
+    "date":"2026-11-09",
     "team_1":"Mary Baldwin",
     "team_1_pred_score":59.6,
     "hfa":"@",
@@ -1068,6 +1200,28 @@
   },
   {
     "date":"2026-11-10",
+    "team_1":"Gettysburg",
+    "team_1_pred_score":65.0,
+    "hfa":"@",
+    "team_2":"Shenandoah",
+    "team_2_pred_score":60.1,
+    "spread":4.9,
+    "team_1_id":"gettysburg",
+    "team_2_id":"shenandoah"
+  },
+  {
+    "date":"2026-11-10",
+    "team_1":"Oswego State",
+    "team_1_pred_score":68.8,
+    "hfa":"@",
+    "team_2":"St. Lawrence",
+    "team_2_pred_score":62.7,
+    "spread":6.0,
+    "team_1_id":"oswego-state",
+    "team_2_id":"st-lawrence"
+  },
+  {
+    "date":"2026-11-10",
     "team_1":"UW-River Falls",
     "team_1_pred_score":66.8,
     "hfa":"@",
@@ -1109,6 +1263,17 @@
     "spread":2.3,
     "team_1_id":"stevenson",
     "team_2_id":"goucher"
+  },
+  {
+    "date":"2026-11-10",
+    "team_1":"Marymount",
+    "team_1_pred_score":68.8,
+    "hfa":"@",
+    "team_2":"Salisbury",
+    "team_2_pred_score":62.1,
+    "spread":6.7,
+    "team_1_id":"marymount",
+    "team_2_id":"salisbury"
   },
   {
     "date":"2026-11-10",
@@ -1321,6 +1486,28 @@
   },
   {
     "date":"2026-11-11",
+    "team_1":"Transylvania",
+    "team_1_pred_score":73.2,
+    "hfa":"@",
+    "team_2":"Centre",
+    "team_2_pred_score":69.3,
+    "spread":3.9,
+    "team_1_id":"transylvania",
+    "team_2_id":"centre"
+  },
+  {
+    "date":"2026-11-11",
+    "team_1":"Case Western Reserve",
+    "team_1_pred_score":86.2,
+    "hfa":"@",
+    "team_2":"St. Vincent",
+    "team_2_pred_score":83.0,
+    "spread":3.2,
+    "team_1_id":"case-western-reserve",
+    "team_2_id":"st-vincent"
+  },
+  {
+    "date":"2026-11-11",
     "team_1":"Lyon",
     "team_1_pred_score":67.4,
     "hfa":"@",
@@ -1362,6 +1549,28 @@
     "spread":-8.7,
     "team_1_id":"n-c-wesleyan",
     "team_2_id":"guilford"
+  },
+  {
+    "date":"2026-11-11",
+    "team_1":"Western New England",
+    "team_1_pred_score":68.4,
+    "hfa":"@",
+    "team_2":"Springfield",
+    "team_2_pred_score":64.5,
+    "spread":3.8,
+    "team_1_id":"western-new-england",
+    "team_2_id":"springfield"
+  },
+  {
+    "date":"2026-11-11",
+    "team_1":"Baldwin Wallace",
+    "team_1_pred_score":75.7,
+    "hfa":"@",
+    "team_2":"Chatham",
+    "team_2_pred_score":73.0,
+    "spread":2.7,
+    "team_1_id":"baldwin-wallace",
+    "team_2_id":"chatham"
   },
   {
     "date":"2026-11-11",
@@ -1541,6 +1750,17 @@
   },
   {
     "date":"2026-11-11",
+    "team_1":"Cairn",
+    "team_1_pred_score":81.1,
+    "hfa":"@",
+    "team_2":"Montclair State",
+    "team_2_pred_score":100.6,
+    "spread":-19.5,
+    "team_1_id":"cairn",
+    "team_2_id":"montclair-state"
+  },
+  {
+    "date":"2026-11-11",
     "team_1":"Sage",
     "team_1_pred_score":81.5,
     "hfa":"@",
@@ -1637,6 +1857,17 @@
     "spread":-12.9,
     "team_1_id":"penn-college",
     "team_2_id":"penn-state-altoona"
+  },
+  {
+    "date":"2026-11-11",
+    "team_1":"Mount St. Vincent",
+    "team_1_pred_score":67.9,
+    "hfa":"@",
+    "team_2":"Lehman",
+    "team_2_pred_score":83.1,
+    "spread":-15.2,
+    "team_1_id":"mount-st-vincent",
+    "team_2_id":"lehman"
   },
   {
     "date":"2026-11-11",
@@ -1816,6 +2047,17 @@
   },
   {
     "date":"2026-11-13",
+    "team_1":"Marymount",
+    "team_1_pred_score":73.3,
+    "hfa":"@",
+    "team_2":"Hood",
+    "team_2_pred_score":84.6,
+    "spread":-11.4,
+    "team_1_id":"marymount",
+    "team_2_id":"hood"
+  },
+  {
+    "date":"2026-11-13",
     "team_1":"Schreiner",
     "team_1_pred_score":78.1,
     "hfa":"@",
@@ -1970,6 +2212,17 @@
   },
   {
     "date":"2026-11-13",
+    "team_1":"SUNY-Old Westbury",
+    "team_1_pred_score":66.2,
+    "hfa":"@",
+    "team_2":"William Paterson",
+    "team_2_pred_score":73.6,
+    "spread":-7.4,
+    "team_1_id":"suny-old-westbury",
+    "team_2_id":"william-paterson"
+  },
+  {
+    "date":"2026-11-13",
     "team_1":"Regis (Mass.)",
     "team_1_pred_score":65.6,
     "hfa":"@",
@@ -1989,6 +2242,28 @@
     "spread":-19.2,
     "team_1_id":"geneva",
     "team_2_id":"lancaster-bible"
+  },
+  {
+    "date":"2026-11-13",
+    "team_1":"Waynesburg",
+    "team_1_pred_score":70.7,
+    "hfa":"@",
+    "team_2":"Marietta",
+    "team_2_pred_score":86.8,
+    "spread":-16.1,
+    "team_1_id":"waynesburg",
+    "team_2_id":"marietta"
+  },
+  {
+    "date":"2026-11-13",
+    "team_1":"CCNY",
+    "team_1_pred_score":60.9,
+    "hfa":"@",
+    "team_2":"TCNJ",
+    "team_2_pred_score":84.5,
+    "spread":-23.7,
+    "team_1_id":"ccny",
+    "team_2_id":"tcnj"
   },
   {
     "date":"2026-11-13",
@@ -2091,6 +2366,17 @@
   },
   {
     "date":"2026-11-14",
+    "team_1":"St. Lawrence",
+    "team_1_pred_score":61.9,
+    "hfa":"@",
+    "team_2":"Clarkson",
+    "team_2_pred_score":63.8,
+    "spread":-1.9,
+    "team_1_id":"st-lawrence",
+    "team_2_id":"clarkson"
+  },
+  {
+    "date":"2026-11-14",
     "team_1":"Hobart",
     "team_1_pred_score":71.0,
     "hfa":"@",
@@ -2099,6 +2385,17 @@
     "spread":-8.8,
     "team_1_id":"hobart",
     "team_2_id":"mount-union"
+  },
+  {
+    "date":"2026-11-14",
+    "team_1":"Washington and Lee",
+    "team_1_pred_score":61.8,
+    "hfa":"@",
+    "team_2":"Gettysburg",
+    "team_2_pred_score":68.9,
+    "spread":-7.1,
+    "team_1_id":"washington-and-lee",
+    "team_2_id":"gettysburg"
   },
   {
     "date":"2026-11-14",
@@ -2132,6 +2429,17 @@
     "spread":-6.2,
     "team_1_id":"wooster",
     "team_2_id":"muskingum"
+  },
+  {
+    "date":"2026-11-14",
+    "team_1":"Ohio Wesleyan",
+    "team_1_pred_score":68.2,
+    "hfa":"@",
+    "team_2":"Baldwin Wallace",
+    "team_2_pred_score":72.7,
+    "spread":-4.5,
+    "team_1_id":"ohio-wesleyan",
+    "team_2_id":"baldwin-wallace"
   },
   {
     "date":"2026-11-14",
@@ -2242,6 +2550,17 @@
     "spread":-14.7,
     "team_1_id":"mass-dartmouth",
     "team_2_id":"babson"
+  },
+  {
+    "date":"2026-11-14",
+    "team_1":"Gwynedd Mercy",
+    "team_1_pred_score":77.1,
+    "hfa":"neu",
+    "team_2":"Ursinus",
+    "team_2_pred_score":87.1,
+    "spread":-10.1,
+    "team_1_id":"gwynedd-mercy",
+    "team_2_id":"ursinus"
   },
   {
     "date":"2026-11-14",
@@ -2421,6 +2740,17 @@
   },
   {
     "date":"2026-11-14",
+    "team_1":"Castleton",
+    "team_1_pred_score":72.2,
+    "hfa":"neu",
+    "team_2":"Thomas",
+    "team_2_pred_score":74.1,
+    "spread":-1.9,
+    "team_1_id":"castleton",
+    "team_2_id":"thomas"
+  },
+  {
+    "date":"2026-11-14",
     "team_1":"UW-Stevens Point",
     "team_1_pred_score":84.7,
     "hfa":"@",
@@ -2476,6 +2806,17 @@
   },
   {
     "date":"2026-11-14",
+    "team_1":"Wilson",
+    "team_1_pred_score":80.4,
+    "hfa":"@",
+    "team_2":"Marywood",
+    "team_2_pred_score":86.7,
+    "spread":-6.3,
+    "team_1_id":"wilson",
+    "team_2_id":"marywood"
+  },
+  {
+    "date":"2026-11-14",
     "team_1":"Drew",
     "team_1_pred_score":89.0,
     "hfa":"@",
@@ -2506,17 +2847,6 @@
     "spread":13.8,
     "team_1_id":"bethany-lutheran",
     "team_2_id":"st-mary-s-minn"
-  },
-  {
-    "date":"2026-11-14",
-    "team_1":"SUNY-Purchase",
-    "team_1_pred_score":62.6,
-    "hfa":"@",
-    "team_2":"Skidmore",
-    "team_2_pred_score":74.7,
-    "spread":-12.0,
-    "team_1_id":"suny-purchase",
-    "team_2_id":"skidmore"
   },
   {
     "date":"2026-11-14",
@@ -2916,6 +3246,28 @@
   },
   {
     "date":"2026-11-17",
+    "team_1":"Springfield",
+    "team_1_pred_score":54.4,
+    "hfa":"@",
+    "team_2":"Amherst",
+    "team_2_pred_score":71.3,
+    "spread":-16.9,
+    "team_1_id":"springfield",
+    "team_2_id":"amherst"
+  },
+  {
+    "date":"2026-11-17",
+    "team_1":"Penn State-Abington",
+    "team_1_pred_score":79.1,
+    "hfa":"@",
+    "team_2":"Mount St. Vincent",
+    "team_2_pred_score":78.8,
+    "spread":0.2,
+    "team_1_id":"penn-state-abington",
+    "team_2_id":"mount-st-vincent"
+  },
+  {
+    "date":"2026-11-17",
     "team_1":"Penn State-Altoona",
     "team_1_pred_score":70.0,
     "hfa":"@",
@@ -2949,6 +3301,17 @@
   },
   {
     "date":"2026-11-17",
+    "team_1":"CCNY",
+    "team_1_pred_score":56.6,
+    "hfa":"@",
+    "team_2":"Kean",
+    "team_2_pred_score":79.0,
+    "spread":-22.5,
+    "team_1_id":"ccny",
+    "team_2_id":"kean"
+  },
+  {
+    "date":"2026-11-17",
     "team_1":"Hendrix",
     "team_1_pred_score":56.3,
     "hfa":"@",
@@ -2970,6 +3333,17 @@
     "team_2_id":"eastern"
   },
   {
+    "date":"2026-11-17",
+    "team_1":"Maranatha Baptist",
+    "team_1_pred_score":61.2,
+    "hfa":"@",
+    "team_2":"Wisconsin Lutheran",
+    "team_2_pred_score":91.4,
+    "spread":-30.2,
+    "team_1_id":"maranatha-baptist",
+    "team_2_id":"wisconsin-lutheran"
+  },
+  {
     "date":"2026-11-18",
     "team_1":"Williams",
     "team_1_pred_score":64.6,
@@ -2979,17 +3353,6 @@
     "spread":0.0,
     "team_1_id":"williams",
     "team_2_id":"vassar"
-  },
-  {
-    "date":"2026-11-18",
-    "team_1":"UW-Whitewater",
-    "team_1_pred_score":71.9,
-    "hfa":"@",
-    "team_2":"Elmhurst",
-    "team_2_pred_score":75.0,
-    "spread":-3.1,
-    "team_1_id":"uw-whitewater",
-    "team_2_id":"elmhurst"
   },
   {
     "date":"2026-11-18",
@@ -3023,6 +3386,17 @@
     "spread":-2.6,
     "team_1_id":"millikin",
     "team_2_id":"wabash"
+  },
+  {
+    "date":"2026-11-18",
+    "team_1":"Lancaster Bible",
+    "team_1_pred_score":71.6,
+    "hfa":"@",
+    "team_2":"Gettysburg",
+    "team_2_pred_score":78.8,
+    "spread":-7.2,
+    "team_1_id":"lancaster-bible",
+    "team_2_id":"gettysburg"
   },
   {
     "date":"2026-11-18",
@@ -3092,6 +3466,17 @@
   },
   {
     "date":"2026-11-18",
+    "team_1":"Chatham",
+    "team_1_pred_score":79.7,
+    "hfa":"@",
+    "team_2":"Widener",
+    "team_2_pred_score":82.1,
+    "spread":-2.4,
+    "team_1_id":"chatham",
+    "team_2_id":"widener"
+  },
+  {
+    "date":"2026-11-18",
     "team_1":"Stevenson",
     "team_1_pred_score":71.4,
     "hfa":"@",
@@ -3133,6 +3518,17 @@
     "spread":-7.6,
     "team_1_id":"roger-williams",
     "team_2_id":"endicott"
+  },
+  {
+    "date":"2026-11-18",
+    "team_1":"Albright",
+    "team_1_pred_score":78.0,
+    "hfa":"@",
+    "team_2":"Ursinus",
+    "team_2_pred_score":87.1,
+    "spread":-9.1,
+    "team_1_id":"albright",
+    "team_2_id":"ursinus"
   },
   {
     "date":"2026-11-18",
@@ -3210,6 +3606,17 @@
     "spread":3.2,
     "team_1_id":"asbury",
     "team_2_id":"earlham"
+  },
+  {
+    "date":"2026-11-18",
+    "team_1":"Delaware Valley",
+    "team_1_pred_score":73.6,
+    "hfa":"@",
+    "team_2":"Rowan",
+    "team_2_pred_score":82.2,
+    "spread":-8.6,
+    "team_1_id":"delaware-valley",
+    "team_2_id":"rowan"
   },
   {
     "date":"2026-11-18",
@@ -3356,6 +3763,17 @@
   },
   {
     "date":"2026-11-18",
+    "team_1":"Lehman",
+    "team_1_pred_score":71.2,
+    "hfa":"@",
+    "team_2":"Merchant Marine",
+    "team_2_pred_score":65.6,
+    "spread":5.6,
+    "team_1_id":"lehman",
+    "team_2_id":"merchant-marine"
+  },
+  {
+    "date":"2026-11-18",
     "team_1":"William Peace",
     "team_1_pred_score":76.2,
     "hfa":"@",
@@ -3430,6 +3848,17 @@
     "spread":-6.9,
     "team_1_id":"bard",
     "team_2_id":"hartwick"
+  },
+  {
+    "date":"2026-11-18",
+    "team_1":"Wilson",
+    "team_1_pred_score":75.8,
+    "hfa":"@",
+    "team_2":"Gwynedd Mercy",
+    "team_2_pred_score":88.6,
+    "spread":-12.8,
+    "team_1_id":"wilson",
+    "team_2_id":"gwynedd-mercy"
   },
   {
     "date":"2026-11-18",
@@ -3708,6 +4137,17 @@
   },
   {
     "date":"2026-11-20",
+    "team_1":"John Carroll",
+    "team_1_pred_score":95.7,
+    "hfa":"neu",
+    "team_2":"Wilmington",
+    "team_2_pred_score":83.7,
+    "spread":12.1,
+    "team_1_id":"john-carroll",
+    "team_2_id":"wilmington"
+  },
+  {
+    "date":"2026-11-20",
     "team_1":"Marietta",
     "team_1_pred_score":79.2,
     "hfa":"neu",
@@ -3917,6 +4357,17 @@
   },
   {
     "date":"2026-11-21",
+    "team_1":"Montclair State",
+    "team_1_pred_score":77.2,
+    "hfa":"@",
+    "team_2":"Cortland",
+    "team_2_pred_score":79.7,
+    "spread":-2.5,
+    "team_1_id":"montclair-state",
+    "team_2_id":"cortland"
+  },
+  {
+    "date":"2026-11-21",
     "team_1":"Illinois Wesleyan",
     "team_1_pred_score":77.0,
     "hfa":"neu",
@@ -3936,6 +4387,17 @@
     "spread":-2.4,
     "team_1_id":"uw-eau-claire",
     "team_2_id":"north-park"
+  },
+  {
+    "date":"2026-11-21",
+    "team_1":"LeTourneau",
+    "team_1_pred_score":85.9,
+    "hfa":"@",
+    "team_2":"Belhaven",
+    "team_2_pred_score":86.7,
+    "spread":-0.8,
+    "team_1_id":"letourneau",
+    "team_2_id":"belhaven"
   },
   {
     "date":"2026-11-21",
@@ -3969,6 +4431,17 @@
     "spread":2.1,
     "team_1_id":"north-central-ill",
     "team_2_id":"webster"
+  },
+  {
+    "date":"2026-11-21",
+    "team_1":"St. Lawrence",
+    "team_1_pred_score":61.8,
+    "hfa":"@",
+    "team_2":"SUNY Geneseo",
+    "team_2_pred_score":64.3,
+    "spread":-2.5,
+    "team_1_id":"st-lawrence",
+    "team_2_id":"suny-geneseo"
   },
   {
     "date":"2026-11-21",
@@ -4192,6 +4665,17 @@
   },
   {
     "date":"2026-11-21",
+    "team_1":"Mary Washington",
+    "team_1_pred_score":85.8,
+    "hfa":"@",
+    "team_2":"Rowan",
+    "team_2_pred_score":68.2,
+    "spread":17.7,
+    "team_1_id":"mary-washington",
+    "team_2_id":"rowan"
+  },
+  {
+    "date":"2026-11-21",
     "team_1":"Grove City",
     "team_1_pred_score":69.4,
     "hfa":"@",
@@ -4255,6 +4739,17 @@
     "spread":-4.5,
     "team_1_id":"spalding",
     "team_2_id":"asbury"
+  },
+  {
+    "date":"2026-11-21",
+    "team_1":"Widener",
+    "team_1_pred_score":79.4,
+    "hfa":"@",
+    "team_2":"Ursinus",
+    "team_2_pred_score":91.3,
+    "spread":-11.9,
+    "team_1_id":"widener",
+    "team_2_id":"ursinus"
   },
   {
     "date":"2026-11-21",
@@ -4379,6 +4874,17 @@
   },
   {
     "date":"2026-11-21",
+    "team_1":"Cairn",
+    "team_1_pred_score":65.5,
+    "hfa":"@",
+    "team_2":"Marymount",
+    "team_2_pred_score":80.2,
+    "spread":-14.7,
+    "team_1_id":"cairn",
+    "team_2_id":"marymount"
+  },
+  {
+    "date":"2026-11-21",
     "team_1":"Brockport",
     "team_1_pred_score":75.9,
     "hfa":"@",
@@ -4409,6 +4915,17 @@
     "spread":-10.1,
     "team_1_id":"regent",
     "team_2_id":"randolph"
+  },
+  {
+    "date":"2026-11-21",
+    "team_1":"Wilson",
+    "team_1_pred_score":73.0,
+    "hfa":"@",
+    "team_2":"Delaware Valley",
+    "team_2_pred_score":83.6,
+    "spread":-10.6,
+    "team_1_id":"wilson",
+    "team_2_id":"delaware-valley"
   },
   {
     "date":"2026-11-21",
@@ -4478,6 +4995,17 @@
   },
   {
     "date":"2026-11-21",
+    "team_1":"Washington and Jefferson",
+    "team_1_pred_score":83.9,
+    "hfa":"@",
+    "team_2":"Waynesburg",
+    "team_2_pred_score":66.1,
+    "spread":17.9,
+    "team_1_id":"washington-and-jefferson",
+    "team_2_id":"waynesburg"
+  },
+  {
+    "date":"2026-11-21",
     "team_1":"Warren Wilson",
     "team_1_pred_score":76.0,
     "hfa":"@",
@@ -4508,6 +5036,17 @@
     "spread":12.9,
     "team_1_id":"plymouth-state",
     "team_2_id":"colby-sawyer"
+  },
+  {
+    "date":"2026-11-21",
+    "team_1":"Penn State-Berks",
+    "team_1_pred_score":76.5,
+    "hfa":"@",
+    "team_2":"Mount St. Vincent",
+    "team_2_pred_score":85.0,
+    "spread":-8.5,
+    "team_1_id":"penn-state-berks",
+    "team_2_id":"mount-st-vincent"
   },
   {
     "date":"2026-11-21",
@@ -4544,6 +5083,17 @@
   },
   {
     "date":"2026-11-21",
+    "team_1":"RPI",
+    "team_1_pred_score":74.5,
+    "hfa":"@",
+    "team_2":"John Jay",
+    "team_2_pred_score":53.0,
+    "spread":21.4,
+    "team_1_id":"rpi",
+    "team_2_id":"john-jay"
+  },
+  {
+    "date":"2026-11-21",
     "team_1":"Rhodes",
     "team_1_pred_score":83.8,
     "hfa":"@",
@@ -4574,6 +5124,17 @@
     "spread":-26.4,
     "team_1_id":"nvu-lyndon",
     "team_2_id":"skidmore"
+  },
+  {
+    "date":"2026-11-21",
+    "team_1":"Johnson and Wales",
+    "team_1_pred_score":52.8,
+    "hfa":"@",
+    "team_2":"Hampden-Sydney",
+    "team_2_pred_score":83.7,
+    "spread":-30.9,
+    "team_1_id":"johnson-and-wales",
+    "team_2_id":"hampden-sydney"
   },
   {
     "date":"2026-11-21",
@@ -4720,6 +5281,17 @@
   },
   {
     "date":"2026-11-23",
+    "team_1":"Colby",
+    "team_1_pred_score":73.6,
+    "hfa":"@",
+    "team_2":"Kean",
+    "team_2_pred_score":72.1,
+    "spread":1.4,
+    "team_1_id":"colby",
+    "team_2_id":"kean"
+  },
+  {
+    "date":"2026-11-23",
     "team_1":"TCNJ",
     "team_1_pred_score":79.7,
     "hfa":"@",
@@ -4728,6 +5300,17 @@
     "spread":5.4,
     "team_1_id":"tcnj",
     "team_2_id":"gwynedd-mercy"
+  },
+  {
+    "date":"2026-11-23",
+    "team_1":"Centenary (N.J.)",
+    "team_1_pred_score":75.1,
+    "hfa":"@",
+    "team_2":"John Jay",
+    "team_2_pred_score":73.0,
+    "spread":2.0,
+    "team_1_id":"centenary-n-j",
+    "team_2_id":"john-jay"
   },
   {
     "date":"2026-11-23",
@@ -4750,6 +5333,17 @@
     "spread":8.8,
     "team_1_id":"linfield",
     "team_2_id":"caltech"
+  },
+  {
+    "date":"2026-11-23",
+    "team_1":"Penn State-Berks",
+    "team_1_pred_score":65.9,
+    "hfa":"@",
+    "team_2":"Washington College",
+    "team_2_pred_score":84.2,
+    "spread":-18.3,
+    "team_1_id":"penn-state-berks",
+    "team_2_id":"washington-college"
   },
   {
     "date":"2026-11-24",
@@ -4852,6 +5446,17 @@
   },
   {
     "date":"2026-11-24",
+    "team_1":"Chapman",
+    "team_1_pred_score":74.8,
+    "hfa":"@",
+    "team_2":"Occidental",
+    "team_2_pred_score":73.6,
+    "spread":1.2,
+    "team_1_id":"chapman",
+    "team_2_id":"occidental"
+  },
+  {
+    "date":"2026-11-24",
     "team_1":"Mass-Dartmouth",
     "team_1_pred_score":76.5,
     "hfa":"@",
@@ -4926,6 +5531,17 @@
     "spread":-1.8,
     "team_1_id":"albright",
     "team_2_id":"eastern"
+  },
+  {
+    "date":"2026-11-24",
+    "team_1":"Shenandoah",
+    "team_1_pred_score":73.4,
+    "hfa":"@",
+    "team_2":"Lancaster Bible",
+    "team_2_pred_score":79.9,
+    "spread":-6.4,
+    "team_1_id":"shenandoah",
+    "team_2_id":"lancaster-bible"
   },
   {
     "date":"2026-11-24",
@@ -5303,6 +5919,28 @@
   },
   {
     "date":"2026-11-24",
+    "team_1":"University of New England",
+    "team_1_pred_score":80.9,
+    "hfa":"@",
+    "team_2":"Dean",
+    "team_2_pred_score":88.1,
+    "spread":-7.2,
+    "team_1_id":"university-of-new-england",
+    "team_2_id":"dean"
+  },
+  {
+    "date":"2026-11-24",
+    "team_1":"Chatham",
+    "team_1_pred_score":79.4,
+    "hfa":"@",
+    "team_2":"Waynesburg",
+    "team_2_pred_score":69.4,
+    "spread":10.0,
+    "team_1_id":"chatham",
+    "team_2_id":"waynesburg"
+  },
+  {
+    "date":"2026-11-24",
     "team_1":"Baruch",
     "team_1_pred_score":65.9,
     "hfa":"@",
@@ -5399,6 +6037,17 @@
     "spread":-18.6,
     "team_1_id":"suny-potsdam",
     "team_2_id":"clarkson"
+  },
+  {
+    "date":"2026-11-24",
+    "team_1":"Penn State-Abington",
+    "team_1_pred_score":73.2,
+    "hfa":"@",
+    "team_2":"Rowan",
+    "team_2_pred_score":92.4,
+    "spread":-19.2,
+    "team_1_id":"penn-state-abington",
+    "team_2_id":"rowan"
   },
   {
     "date":"2026-11-24",
@@ -5710,6 +6359,28 @@
   },
   {
     "date":"2026-11-29",
+    "team_1":"Lyon",
+    "team_1_pred_score":73.1,
+    "hfa":"@",
+    "team_2":"Belhaven",
+    "team_2_pred_score":77.5,
+    "spread":-4.4,
+    "team_1_id":"lyon",
+    "team_2_id":"belhaven"
+  },
+  {
+    "date":"2026-11-29",
+    "team_1":"John Carroll",
+    "team_1_pred_score":91.0,
+    "hfa":"@",
+    "team_2":"St. Vincent",
+    "team_2_pred_score":83.0,
+    "spread":8.0,
+    "team_1_id":"john-carroll",
+    "team_2_id":"st-vincent"
+  },
+  {
+    "date":"2026-11-29",
     "team_1":"Middlebury",
     "team_1_pred_score":61.2,
     "hfa":"@",
@@ -5743,6 +6414,17 @@
   },
   {
     "date":"2026-11-29",
+    "team_1":"Roger Williams",
+    "team_1_pred_score":74.1,
+    "hfa":"@",
+    "team_2":"Connecticut College",
+    "team_2_pred_score":84.0,
+    "spread":-9.9,
+    "team_1_id":"roger-williams",
+    "team_2_id":"connecticut-college"
+  },
+  {
+    "date":"2026-11-29",
     "team_1":"Berry",
     "team_1_pred_score":84.1,
     "hfa":"@",
@@ -5751,6 +6433,17 @@
     "spread":9.0,
     "team_1_id":"berry",
     "team_2_id":"piedmont"
+  },
+  {
+    "date":"2026-11-29",
+    "team_1":"Pfeiffer",
+    "team_1_pred_score":87.8,
+    "hfa":"neu",
+    "team_2":"Regent",
+    "team_2_pred_score":76.1,
+    "spread":11.7,
+    "team_1_id":"pfeiffer",
+    "team_2_id":"regent"
   },
   {
     "date":"2026-11-29",
@@ -6083,6 +6776,17 @@
     "team_2_id":"colby-sawyer"
   },
   {
+    "date":"2026-12-01",
+    "team_1":"Mount St. Vincent",
+    "team_1_pred_score":81.6,
+    "hfa":"@",
+    "team_2":"Medgar Evers",
+    "team_2_pred_score":69.1,
+    "spread":12.5,
+    "team_1_id":"mount-st-vincent",
+    "team_2_id":"medgar-evers"
+  },
+  {
     "date":"2026-12-02",
     "team_1":"Illinois Wesleyan",
     "team_1_pred_score":68.5,
@@ -6161,6 +6865,28 @@
   },
   {
     "date":"2026-12-02",
+    "team_1":"Gettysburg",
+    "team_1_pred_score":58.7,
+    "hfa":"@",
+    "team_2":"Mary Washington",
+    "team_2_pred_score":71.1,
+    "spread":-12.4,
+    "team_1_id":"gettysburg",
+    "team_2_id":"mary-washington"
+  },
+  {
+    "date":"2026-12-02",
+    "team_1":"Connecticut College",
+    "team_1_pred_score":72.7,
+    "hfa":"@",
+    "team_2":"Salve Regina",
+    "team_2_pred_score":69.7,
+    "spread":3.0,
+    "team_1_id":"connecticut-college",
+    "team_2_id":"salve-regina"
+  },
+  {
+    "date":"2026-12-02",
     "team_1":"Mount Union",
     "team_1_pred_score":76.5,
     "hfa":"@",
@@ -6191,6 +6917,17 @@
     "spread":-5.2,
     "team_1_id":"augustana",
     "team_2_id":"north-central-ill"
+  },
+  {
+    "date":"2026-12-02",
+    "team_1":"St. Vincent",
+    "team_1_pred_score":79.4,
+    "hfa":"@",
+    "team_2":"Chatham",
+    "team_2_pred_score":78.6,
+    "spread":0.8,
+    "team_1_id":"st-vincent",
+    "team_2_id":"chatham"
   },
   {
     "date":"2026-12-02",
@@ -6257,6 +6994,17 @@
     "spread":-4.8,
     "team_1_id":"susquehanna",
     "team_2_id":"wilkes"
+  },
+  {
+    "date":"2026-12-02",
+    "team_1":"Marymount",
+    "team_1_pred_score":59.3,
+    "hfa":"@",
+    "team_2":"Christopher Newport",
+    "team_2_pred_score":71.2,
+    "spread":-11.9,
+    "team_1_id":"marymount",
+    "team_2_id":"christopher-newport"
   },
   {
     "date":"2026-12-02",
@@ -6634,6 +7382,17 @@
   },
   {
     "date":"2026-12-02",
+    "team_1":"William Paterson",
+    "team_1_pred_score":72.0,
+    "hfa":"@",
+    "team_2":"Montclair State",
+    "team_2_pred_score":93.9,
+    "spread":-21.9,
+    "team_1_id":"william-paterson",
+    "team_2_id":"montclair-state"
+  },
+  {
+    "date":"2026-12-02",
     "team_1":"Caltech",
     "team_1_pred_score":63.5,
     "hfa":"@",
@@ -6920,6 +7679,17 @@
   },
   {
     "date":"2026-12-05",
+    "team_1":"Gettysburg",
+    "team_1_pred_score":62.1,
+    "hfa":"@",
+    "team_2":"Marymount",
+    "team_2_pred_score":60.4,
+    "spread":1.7,
+    "team_1_id":"gettysburg",
+    "team_2_id":"marymount"
+  },
+  {
+    "date":"2026-12-05",
     "team_1":"Vassar",
     "team_1_pred_score":70.8,
     "hfa":"@",
@@ -6964,6 +7734,17 @@
   },
   {
     "date":"2026-12-05",
+    "team_1":"Montclair State",
+    "team_1_pred_score":81.8,
+    "hfa":"@",
+    "team_2":"Kean",
+    "team_2_pred_score":79.3,
+    "spread":2.5,
+    "team_1_id":"montclair-state",
+    "team_2_id":"kean"
+  },
+  {
+    "date":"2026-12-05",
     "team_1":"North Central (Ill.)",
     "team_1_pred_score":70.1,
     "hfa":"@",
@@ -7005,6 +7786,17 @@
     "spread":-1.4,
     "team_1_id":"wooster",
     "team_2_id":"ohio-wesleyan"
+  },
+  {
+    "date":"2026-12-05",
+    "team_1":"RPI",
+    "team_1_pred_score":58.2,
+    "hfa":"@",
+    "team_2":"St. Lawrence",
+    "team_2_pred_score":53.1,
+    "spread":5.1,
+    "team_1_id":"rpi",
+    "team_2_id":"st-lawrence"
   },
   {
     "date":"2026-12-05",
@@ -7305,6 +8097,17 @@
   },
   {
     "date":"2026-12-05",
+    "team_1":"Shenandoah",
+    "team_1_pred_score":69.4,
+    "hfa":"@",
+    "team_2":"Mary Baldwin",
+    "team_2_pred_score":63.3,
+    "spread":6.1,
+    "team_1_id":"shenandoah",
+    "team_2_id":"mary-baldwin"
+  },
+  {
+    "date":"2026-12-05",
     "team_1":"Knox",
     "team_1_pred_score":72.5,
     "hfa":"@",
@@ -7379,6 +8182,17 @@
     "spread":0.1,
     "team_1_id":"gordon",
     "team_2_id":"curry"
+  },
+  {
+    "date":"2026-12-05",
+    "team_1":"Ramapo",
+    "team_1_pred_score":70.6,
+    "hfa":"@",
+    "team_2":"Rowan",
+    "team_2_pred_score":79.1,
+    "spread":-8.5,
+    "team_1_id":"ramapo",
+    "team_2_id":"rowan"
   },
   {
     "date":"2026-12-05",
@@ -7525,6 +8339,28 @@
   },
   {
     "date":"2026-12-05",
+    "team_1":"Mount Aloysius",
+    "team_1_pred_score":76.7,
+    "hfa":"@",
+    "team_2":"Waynesburg",
+    "team_2_pred_score":78.4,
+    "spread":-1.7,
+    "team_1_id":"mount-aloysius",
+    "team_2_id":"waynesburg"
+  },
+  {
+    "date":"2026-12-05",
+    "team_1":"Nichols",
+    "team_1_pred_score":92.1,
+    "hfa":"@",
+    "team_2":"University of New England",
+    "team_2_pred_score":84.1,
+    "spread":7.9,
+    "team_1_id":"nichols",
+    "team_2_id":"university-of-new-england"
+  },
+  {
+    "date":"2026-12-05",
     "team_1":"Greensboro",
     "team_1_pred_score":79.8,
     "hfa":"neu",
@@ -7544,6 +8380,17 @@
     "spread":-7.7,
     "team_1_id":"thiel",
     "team_2_id":"grove-city"
+  },
+  {
+    "date":"2026-12-05",
+    "team_1":"Wilson",
+    "team_1_pred_score":74.5,
+    "hfa":"@",
+    "team_2":"St. Mary's (Md.)",
+    "team_2_pred_score":81.0,
+    "spread":-6.5,
+    "team_1_id":"wilson",
+    "team_2_id":"st-mary-s-md"
   },
   {
     "date":"2026-12-05",
@@ -7577,6 +8424,17 @@
     "spread":-21.3,
     "team_1_id":"la-verne",
     "team_2_id":"redlands"
+  },
+  {
+    "date":"2026-12-05",
+    "team_1":"Lehman",
+    "team_1_pred_score":77.1,
+    "hfa":"@",
+    "team_2":"John Jay",
+    "team_2_pred_score":68.9,
+    "spread":8.2,
+    "team_1_id":"lehman",
+    "team_2_id":"john-jay"
   },
   {
     "date":"2026-12-05",
@@ -7635,6 +8493,17 @@
   },
   {
     "date":"2026-12-05",
+    "team_1":"Dean",
+    "team_1_pred_score":70.3,
+    "hfa":"@",
+    "team_2":"St. Joseph's (Maine)",
+    "team_2_pred_score":91.5,
+    "spread":-21.2,
+    "team_1_id":"dean",
+    "team_2_id":"st-joseph-s-maine"
+  },
+  {
+    "date":"2026-12-05",
     "team_1":"Messiah",
     "team_1_pred_score":66.9,
     "hfa":"@",
@@ -7676,6 +8545,28 @@
     "spread":19.9,
     "team_1_id":"suny-oneonta",
     "team_2_id":"fredonia"
+  },
+  {
+    "date":"2026-12-05",
+    "team_1":"Penn State-Berks",
+    "team_1_pred_score":76.1,
+    "hfa":"@",
+    "team_2":"Penn State-Abington",
+    "team_2_pred_score":87.1,
+    "spread":-11.1,
+    "team_1_id":"penn-state-berks",
+    "team_2_id":"penn-state-abington"
+  },
+  {
+    "date":"2026-12-05",
+    "team_1":"SUNY-Old Westbury",
+    "team_1_pred_score":60.8,
+    "hfa":"@",
+    "team_2":"Connecticut College",
+    "team_2_pred_score":82.8,
+    "spread":-21.9,
+    "team_1_id":"suny-old-westbury",
+    "team_2_id":"connecticut-college"
   },
   {
     "date":"2026-12-05",
@@ -7764,6 +8655,28 @@
     "spread":2.2,
     "team_1_id":"colby",
     "team_2_id":"bowdoin"
+  },
+  {
+    "date":"2026-12-08",
+    "team_1":"St. Lawrence",
+    "team_1_pred_score":65.0,
+    "hfa":"@",
+    "team_2":"Brockport",
+    "team_2_pred_score":67.2,
+    "spread":-2.1,
+    "team_1_id":"st-lawrence",
+    "team_2_id":"brockport"
+  },
+  {
+    "date":"2026-12-08",
+    "team_1":"Shenandoah",
+    "team_1_pred_score":72.4,
+    "hfa":"@",
+    "team_2":"Gwynedd Mercy",
+    "team_2_pred_score":69.3,
+    "spread":3.1,
+    "team_1_id":"shenandoah",
+    "team_2_id":"gwynedd-mercy"
   },
   {
     "date":"2026-12-08",
@@ -8020,6 +8933,17 @@
   },
   {
     "date":"2026-12-09",
+    "team_1":"Kean",
+    "team_1_pred_score":68.0,
+    "hfa":"@",
+    "team_2":"Ramapo",
+    "team_2_pred_score":62.6,
+    "spread":5.4,
+    "team_1_id":"kean",
+    "team_2_id":"ramapo"
+  },
+  {
+    "date":"2026-12-09",
     "team_1":"Macalester",
     "team_1_pred_score":82.6,
     "hfa":"@",
@@ -8217,6 +9141,17 @@
     "team_2_id":"keene-state"
   },
   {
+    "date":"2026-12-10",
+    "team_1":"CCNY",
+    "team_1_pred_score":64.1,
+    "hfa":"@",
+    "team_2":"SUNY-Purchase",
+    "team_2_pred_score":73.6,
+    "spread":-9.5,
+    "team_1_id":"ccny",
+    "team_2_id":"suny-purchase"
+  },
+  {
     "date":"2026-12-11",
     "team_1":"Maryville (Tenn.)",
     "team_1_pred_score":75.2,
@@ -8394,6 +9329,17 @@
   },
   {
     "date":"2026-12-12",
+    "team_1":"Montclair State",
+    "team_1_pred_score":86.7,
+    "hfa":"@",
+    "team_2":"TCNJ",
+    "team_2_pred_score":85.1,
+    "spread":1.6,
+    "team_1_id":"montclair-state",
+    "team_2_id":"tcnj"
+  },
+  {
+    "date":"2026-12-12",
     "team_1":"Wabash",
     "team_1_pred_score":70.4,
     "hfa":"@",
@@ -8493,6 +9439,17 @@
   },
   {
     "date":"2026-12-12",
+    "team_1":"Baldwin Wallace",
+    "team_1_pred_score":79.7,
+    "hfa":"@",
+    "team_2":"Marietta",
+    "team_2_pred_score":77.6,
+    "spread":2.1,
+    "team_1_id":"baldwin-wallace",
+    "team_2_id":"marietta"
+  },
+  {
+    "date":"2026-12-12",
     "team_1":"Muskingum",
     "team_1_pred_score":72.7,
     "hfa":"@",
@@ -8523,6 +9480,17 @@
     "spread":1.7,
     "team_1_id":"brockport",
     "team_2_id":"hilbert"
+  },
+  {
+    "date":"2026-12-12",
+    "team_1":"Mary Hardin-Baylor",
+    "team_1_pred_score":84.7,
+    "hfa":"@",
+    "team_2":"Belhaven",
+    "team_2_pred_score":89.2,
+    "spread":-4.5,
+    "team_1_id":"mary-hardin-baylor",
+    "team_2_id":"belhaven"
   },
   {
     "date":"2026-12-12",
@@ -8559,6 +9527,17 @@
   },
   {
     "date":"2026-12-12",
+    "team_1":"Claremont-Mudd-Scripps",
+    "team_1_pred_score":79.1,
+    "hfa":"@",
+    "team_2":"Occidental",
+    "team_2_pred_score":70.1,
+    "spread":9.0,
+    "team_1_id":"claremont-mudd-scripps",
+    "team_2_id":"occidental"
+  },
+  {
+    "date":"2026-12-12",
     "team_1":"Middlebury",
     "team_1_pred_score":72.7,
     "hfa":"@",
@@ -8567,6 +9546,17 @@
     "spread":-7.9,
     "team_1_id":"middlebury",
     "team_2_id":"union"
+  },
+  {
+    "date":"2026-12-12",
+    "team_1":"St. Vincent",
+    "team_1_pred_score":72.9,
+    "hfa":"@",
+    "team_2":"Grove City",
+    "team_2_pred_score":70.4,
+    "spread":2.5,
+    "team_1_id":"st-vincent",
+    "team_2_id":"grove-city"
   },
   {
     "date":"2026-12-12",
@@ -8680,6 +9670,17 @@
   },
   {
     "date":"2026-12-12",
+    "team_1":"Hood",
+    "team_1_pred_score":99.9,
+    "hfa":"@",
+    "team_2":"Widener",
+    "team_2_pred_score":83.3,
+    "spread":16.7,
+    "team_1_id":"hood",
+    "team_2_id":"widener"
+  },
+  {
+    "date":"2026-12-12",
     "team_1":"Cairn",
     "team_1_pred_score":81.2,
     "hfa":"@",
@@ -8699,6 +9700,17 @@
     "spread":-14.3,
     "team_1_id":"concordia-wis",
     "team_2_id":"st-norbert"
+  },
+  {
+    "date":"2026-12-12",
+    "team_1":"Springfield",
+    "team_1_pred_score":58.5,
+    "hfa":"@",
+    "team_2":"Williams",
+    "team_2_pred_score":71.5,
+    "spread":-13.0,
+    "team_1_id":"springfield",
+    "team_2_id":"williams"
   },
   {
     "date":"2026-12-12",
@@ -8878,6 +9890,17 @@
   },
   {
     "date":"2026-12-12",
+    "team_1":"Transylvania",
+    "team_1_pred_score":84.4,
+    "hfa":"@",
+    "team_2":"Manchester",
+    "team_2_pred_score":69.0,
+    "spread":15.3,
+    "team_1_id":"transylvania",
+    "team_2_id":"manchester"
+  },
+  {
+    "date":"2026-12-12",
     "team_1":"Immaculata",
     "team_1_pred_score":79.4,
     "hfa":"@",
@@ -8941,6 +9964,17 @@
     "spread":-20.2,
     "team_1_id":"lehman",
     "team_2_id":"johns-hopkins"
+  },
+  {
+    "date":"2026-12-12",
+    "team_1":"William Paterson",
+    "team_1_pred_score":60.8,
+    "hfa":"@",
+    "team_2":"Kean",
+    "team_2_pred_score":75.8,
+    "spread":-15.0,
+    "team_1_id":"william-paterson",
+    "team_2_id":"kean"
   },
   {
     "date":"2026-12-12",
@@ -9131,6 +10165,17 @@
   },
   {
     "date":"2026-12-14",
+    "team_1":"Shenandoah",
+    "team_1_pred_score":64.3,
+    "hfa":"@",
+    "team_2":"Washington and Lee",
+    "team_2_pred_score":68.8,
+    "spread":-4.5,
+    "team_1_id":"shenandoah",
+    "team_2_id":"washington-and-lee"
+  },
+  {
+    "date":"2026-12-14",
     "team_1":"Connecticut College",
     "team_1_pred_score":80.5,
     "hfa":"@",
@@ -9172,6 +10217,17 @@
     "spread":-0.8,
     "team_1_id":"illinois-wesleyan",
     "team_2_id":"chicago"
+  },
+  {
+    "date":"2026-12-15",
+    "team_1":"Transylvania",
+    "team_1_pred_score":71.3,
+    "hfa":"@",
+    "team_2":"Hanover",
+    "team_2_pred_score":70.1,
+    "spread":1.1,
+    "team_1_id":"transylvania",
+    "team_2_id":"hanover"
   },
   {
     "date":"2026-12-15",
@@ -9329,6 +10385,17 @@
   },
   {
     "date":"2026-12-16",
+    "team_1":"Capital",
+    "team_1_pred_score":75.9,
+    "hfa":"@",
+    "team_2":"Baldwin Wallace",
+    "team_2_pred_score":76.7,
+    "spread":-0.8,
+    "team_1_id":"capital",
+    "team_2_id":"baldwin-wallace"
+  },
+  {
+    "date":"2026-12-16",
     "team_1":"North Park",
     "team_1_pred_score":78.5,
     "hfa":"@",
@@ -9337,6 +10404,17 @@
     "spread":-4.1,
     "team_1_id":"north-park",
     "team_2_id":"depauw"
+  },
+  {
+    "date":"2026-12-16",
+    "team_1":"TCNJ",
+    "team_1_pred_score":81.1,
+    "hfa":"@",
+    "team_2":"Rowan",
+    "team_2_pred_score":80.5,
+    "spread":0.6,
+    "team_1_id":"tcnj",
+    "team_2_id":"rowan"
   },
   {
     "date":"2026-12-16",
@@ -9414,6 +10492,17 @@
     "spread":-0.4,
     "team_1_id":"allegheny",
     "team_2_id":"hiram"
+  },
+  {
+    "date":"2026-12-16",
+    "team_1":"Ramapo",
+    "team_1_pred_score":68.5,
+    "hfa":"@",
+    "team_2":"William Paterson",
+    "team_2_pred_score":66.5,
+    "spread":2.0,
+    "team_1_id":"ramapo",
+    "team_2_id":"william-paterson"
   },
   {
     "date":"2026-12-16",
@@ -9604,6 +10693,28 @@
   },
   {
     "date":"2026-12-18",
+    "team_1":"Augustana",
+    "team_1_pred_score":66.2,
+    "hfa":"neu",
+    "team_2":"Gettysburg",
+    "team_2_pred_score":72.5,
+    "spread":-6.3,
+    "team_1_id":"augustana",
+    "team_2_id":"gettysburg"
+  },
+  {
+    "date":"2026-12-18",
+    "team_1":"Marymount",
+    "team_1_pred_score":59.8,
+    "hfa":"neu",
+    "team_2":"Roanoke",
+    "team_2_pred_score":70.1,
+    "spread":-10.3,
+    "team_1_id":"marymount",
+    "team_2_id":"roanoke"
+  },
+  {
+    "date":"2026-12-18",
     "team_1":"Monmouth",
     "team_1_pred_score":65.2,
     "hfa":"@",
@@ -9656,6 +10767,17 @@
     "spread":8.4,
     "team_1_id":"salve-regina",
     "team_2_id":"suny-purchase"
+  },
+  {
+    "date":"2026-12-18",
+    "team_1":"Marywood",
+    "team_1_pred_score":74.2,
+    "hfa":"neu",
+    "team_2":"Merchant Marine",
+    "team_2_pred_score":70.0,
+    "spread":4.3,
+    "team_1_id":"marywood",
+    "team_2_id":"merchant-marine"
   },
   {
     "date":"2026-12-18",
@@ -9714,6 +10836,17 @@
   },
   {
     "date":"2026-12-19",
+    "team_1":"Gettysburg",
+    "team_1_pred_score":61.8,
+    "hfa":"neu",
+    "team_2":"Roanoke",
+    "team_2_pred_score":68.3,
+    "spread":-6.5,
+    "team_1_id":"gettysburg",
+    "team_2_id":"roanoke"
+  },
+  {
+    "date":"2026-12-19",
     "team_1":"Hope",
     "team_1_pred_score":66.6,
     "hfa":"@",
@@ -9733,6 +10866,28 @@
     "spread":5.6,
     "team_1_id":"christopher-newport",
     "team_2_id":"averett"
+  },
+  {
+    "date":"2026-12-19",
+    "team_1":"Augustana",
+    "team_1_pred_score":68.2,
+    "hfa":"neu",
+    "team_2":"Marymount",
+    "team_2_pred_score":70.3,
+    "spread":-2.2,
+    "team_1_id":"augustana",
+    "team_2_id":"marymount"
+  },
+  {
+    "date":"2026-12-19",
+    "team_1":"Illinois College",
+    "team_1_pred_score":72.4,
+    "hfa":"@",
+    "team_2":"Occidental",
+    "team_2_pred_score":70.8,
+    "spread":1.6,
+    "team_1_id":"illinois-college",
+    "team_2_id":"occidental"
   },
   {
     "date":"2026-12-19",
@@ -9766,6 +10921,17 @@
     "spread":1.3,
     "team_1_id":"juniata",
     "team_2_id":"bethany"
+  },
+  {
+    "date":"2026-12-19",
+    "team_1":"Marietta",
+    "team_1_pred_score":84.2,
+    "hfa":"@",
+    "team_2":"Wilmington",
+    "team_2_pred_score":88.7,
+    "spread":-4.5,
+    "team_1_id":"marietta",
+    "team_2_id":"wilmington"
   },
   {
     "date":"2026-12-19",
@@ -9912,6 +11078,28 @@
   },
   {
     "date":"2026-12-19",
+    "team_1":"Allegheny",
+    "team_1_pred_score":73.0,
+    "hfa":"@",
+    "team_2":"Waynesburg",
+    "team_2_pred_score":68.1,
+    "spread":4.9,
+    "team_1_id":"allegheny",
+    "team_2_id":"waynesburg"
+  },
+  {
+    "date":"2026-12-19",
+    "team_1":"Merchant Marine",
+    "team_1_pred_score":60.0,
+    "hfa":"@",
+    "team_2":"York (Pa.)",
+    "team_2_pred_score":76.8,
+    "spread":-16.8,
+    "team_1_id":"merchant-marine",
+    "team_2_id":"york-pa"
+  },
+  {
+    "date":"2026-12-19",
     "team_1":"St. Mary's (Minn.)",
     "team_1_pred_score":65.5,
     "hfa":"@",
@@ -9964,6 +11152,17 @@
     "spread":3.2,
     "team_1_id":"nebraska-wesleyan",
     "team_2_id":"concordia-moorhead"
+  },
+  {
+    "date":"2026-12-20",
+    "team_1":"Baldwin Wallace",
+    "team_1_pred_score":77.2,
+    "hfa":"neu",
+    "team_2":"Ursinus",
+    "team_2_pred_score":80.2,
+    "spread":-3.1,
+    "team_1_id":"baldwin-wallace",
+    "team_2_id":"ursinus"
   },
   {
     "date":"2026-12-20",
@@ -10077,6 +11276,17 @@
   },
   {
     "date":"2026-12-20",
+    "team_1":"Salisbury",
+    "team_1_pred_score":59.8,
+    "hfa":"@",
+    "team_2":"Hampden-Sydney",
+    "team_2_pred_score":78.2,
+    "spread":-18.3,
+    "team_1_id":"salisbury",
+    "team_2_id":"hampden-sydney"
+  },
+  {
+    "date":"2026-12-20",
     "team_1":"Regent",
     "team_1_pred_score":75.6,
     "hfa":"@",
@@ -10085,6 +11295,17 @@
     "spread":-8.4,
     "team_1_id":"regent",
     "team_2_id":"penn-state-altoona"
+  },
+  {
+    "date":"2026-12-20",
+    "team_1":"Buffalo State",
+    "team_1_pred_score":56.2,
+    "hfa":"neu",
+    "team_2":"Transylvania",
+    "team_2_pred_score":76.4,
+    "spread":-20.2,
+    "team_1_id":"buffalo-state",
+    "team_2_id":"transylvania"
   },
   {
     "date":"2026-12-21",
@@ -10162,6 +11383,17 @@
     "spread":3.2,
     "team_1_id":"albion",
     "team_2_id":"penn-state-altoona"
+  },
+  {
+    "date":"2026-12-21",
+    "team_1":"Baldwin Wallace",
+    "team_1_pred_score":83.1,
+    "hfa":"neu",
+    "team_2":"Husson",
+    "team_2_pred_score":74.9,
+    "spread":8.1,
+    "team_1_id":"baldwin-wallace",
+    "team_2_id":"husson"
   },
   {
     "date":"2026-12-21",
@@ -10407,6 +11639,17 @@
   },
   {
     "date":"2026-12-29",
+    "team_1":"Wilkes",
+    "team_1_pred_score":78.6,
+    "hfa":"@",
+    "team_2":"Occidental",
+    "team_2_pred_score":78.0,
+    "spread":0.6,
+    "team_1_id":"wilkes",
+    "team_2_id":"occidental"
+  },
+  {
+    "date":"2026-12-29",
     "team_1":"Hamline",
     "team_1_pred_score":64.2,
     "hfa":"@",
@@ -10506,6 +11749,17 @@
   },
   {
     "date":"2026-12-29",
+    "team_1":"Marietta",
+    "team_1_pred_score":82.2,
+    "hfa":"neu",
+    "team_2":"St. Vincent",
+    "team_2_pred_score":84.7,
+    "spread":-2.5,
+    "team_1_id":"marietta",
+    "team_2_id":"st-vincent"
+  },
+  {
+    "date":"2026-12-29",
     "team_1":"Hamilton",
     "team_1_pred_score":67.3,
     "hfa":"neu",
@@ -10514,6 +11768,17 @@
     "spread":-9.2,
     "team_1_id":"hamilton",
     "team_2_id":"mount-union"
+  },
+  {
+    "date":"2026-12-29",
+    "team_1":"Wilmington",
+    "team_1_pred_score":72.3,
+    "hfa":"@",
+    "team_2":"Oberlin",
+    "team_2_pred_score":77.9,
+    "spread":-5.6,
+    "team_1_id":"wilmington",
+    "team_2_id":"oberlin"
   },
   {
     "date":"2026-12-29",
@@ -10547,6 +11812,17 @@
     "spread":-3.5,
     "team_1_id":"ramapo",
     "team_2_id":"worcester-state"
+  },
+  {
+    "date":"2026-12-29",
+    "team_1":"Belhaven",
+    "team_1_pred_score":82.0,
+    "hfa":"neu",
+    "team_2":"MUW",
+    "team_2_pred_score":74.3,
+    "spread":7.7,
+    "team_1_id":"belhaven",
+    "team_2_id":"muw"
   },
   {
     "date":"2026-12-29",
@@ -10660,6 +11936,17 @@
   },
   {
     "date":"2026-12-29",
+    "team_1":"Shenandoah",
+    "team_1_pred_score":81.0,
+    "hfa":"@",
+    "team_2":"Wilson",
+    "team_2_pred_score":68.7,
+    "spread":12.3,
+    "team_1_id":"shenandoah",
+    "team_2_id":"wilson"
+  },
+  {
+    "date":"2026-12-29",
     "team_1":"Edgewood",
     "team_1_pred_score":67.2,
     "hfa":"@",
@@ -10725,6 +12012,17 @@
     "team_2_id":"penn-college"
   },
   {
+    "date":"2026-12-29",
+    "team_1":"SUNY Potsdam",
+    "team_1_pred_score":60.2,
+    "hfa":"neu",
+    "team_2":"Wesleyan",
+    "team_2_pred_score":90.3,
+    "spread":-30.1,
+    "team_1_id":"suny-potsdam",
+    "team_2_id":"wesleyan"
+  },
+  {
     "date":"2026-12-30",
     "team_1":"Illinois Wesleyan",
     "team_1_pred_score":75.8,
@@ -10756,6 +12054,17 @@
     "spread":0.9,
     "team_1_id":"cortland",
     "team_2_id":"vassar"
+  },
+  {
+    "date":"2026-12-30",
+    "team_1":"Calvin",
+    "team_1_pred_score":68.3,
+    "hfa":"neu",
+    "team_2":"Hampden-Sydney",
+    "team_2_pred_score":73.0,
+    "spread":-4.6,
+    "team_1_id":"calvin",
+    "team_2_id":"hampden-sydney"
   },
   {
     "date":"2026-12-30",
@@ -10792,6 +12101,17 @@
   },
   {
     "date":"2026-12-30",
+    "team_1":"Augustana",
+    "team_1_pred_score":83.1,
+    "hfa":"@",
+    "team_2":"Mary Hardin-Baylor",
+    "team_2_pred_score":83.3,
+    "spread":-0.2,
+    "team_1_id":"augustana",
+    "team_2_id":"mary-hardin-baylor"
+  },
+  {
+    "date":"2026-12-30",
     "team_1":"Ithaca",
     "team_1_pred_score":80.8,
     "hfa":"@",
@@ -10811,6 +12131,17 @@
     "spread":-2.2,
     "team_1_id":"endicott",
     "team_2_id":"stevens"
+  },
+  {
+    "date":"2026-12-30",
+    "team_1":"Baldwin Wallace",
+    "team_1_pred_score":73.2,
+    "hfa":"@",
+    "team_2":"Washington and Jefferson",
+    "team_2_pred_score":77.2,
+    "spread":-4.0,
+    "team_1_id":"baldwin-wallace",
+    "team_2_id":"washington-and-jefferson"
   },
   {
     "date":"2026-12-30",
@@ -10866,6 +12197,17 @@
     "spread":0.1,
     "team_1_id":"lebanon-valley",
     "team_2_id":"lycoming"
+  },
+  {
+    "date":"2026-12-30",
+    "team_1":"Colby",
+    "team_1_pred_score":87.7,
+    "hfa":"@",
+    "team_2":"Nichols",
+    "team_2_pred_score":78.4,
+    "spread":9.2,
+    "team_1_id":"colby",
+    "team_2_id":"nichols"
   },
   {
     "date":"2026-12-30",
@@ -11108,6 +12450,17 @@
     "spread":18.1,
     "team_1_id":"wilkes",
     "team_2_id":"caltech"
+  },
+  {
+    "date":"2026-12-30",
+    "team_1":"Wilson",
+    "team_1_pred_score":58.9,
+    "hfa":"@",
+    "team_2":"Mary Washington",
+    "team_2_pred_score":95.9,
+    "spread":-37.0,
+    "team_1_id":"wilson",
+    "team_2_id":"mary-washington"
   },
   {
     "date":"2026-12-31",
@@ -11353,6 +12706,17 @@
   },
   {
     "date":"2027-01-02",
+    "team_1":"Rowan",
+    "team_1_pred_score":70.7,
+    "hfa":"neu",
+    "team_2":"Batten",
+    "team_2_pred_score":80.3,
+    "spread":-9.7,
+    "team_1_id":"rowan",
+    "team_2_id":"batten"
+  },
+  {
+    "date":"2027-01-02",
     "team_1":"UW-Stout",
     "team_1_pred_score":62.5,
     "hfa":"@",
@@ -11372,6 +12736,17 @@
     "spread":0.8,
     "team_1_id":"minnesota-morris",
     "team_2_id":"uw-superior"
+  },
+  {
+    "date":"2027-01-02",
+    "team_1":"Occidental",
+    "team_1_pred_score":73.4,
+    "hfa":"@",
+    "team_2":"Cal Lutheran",
+    "team_2_pred_score":81.7,
+    "spread":-8.2,
+    "team_1_id":"occidental",
+    "team_2_id":"cal-lutheran"
   },
   {
     "date":"2027-01-02",
@@ -11617,6 +12992,17 @@
   },
   {
     "date":"2027-01-02",
+    "team_1":"Thiel",
+    "team_1_pred_score":63.8,
+    "hfa":"@",
+    "team_2":"St. Vincent",
+    "team_2_pred_score":77.0,
+    "spread":-13.2,
+    "team_1_id":"thiel",
+    "team_2_id":"st-vincent"
+  },
+  {
+    "date":"2027-01-02",
     "team_1":"St. Joseph's (Bklyn.)",
     "team_1_pred_score":67.0,
     "hfa":"@",
@@ -11826,6 +13212,17 @@
   },
   {
     "date":"2027-01-03",
+    "team_1":"Mount St. Vincent",
+    "team_1_pred_score":68.0,
+    "hfa":"@",
+    "team_2":"SUNY-Purchase",
+    "team_2_pred_score":78.0,
+    "spread":-10.0,
+    "team_1_id":"mount-st-vincent",
+    "team_2_id":"suny-purchase"
+  },
+  {
+    "date":"2027-01-03",
     "team_1":"Merchant Marine",
     "team_1_pred_score":62.3,
     "hfa":"@",
@@ -11856,6 +13253,17 @@
     "spread":-3.0,
     "team_1_id":"salisbury",
     "team_2_id":"notre-dame-md"
+  },
+  {
+    "date":"2027-01-04",
+    "team_1":"Washington College",
+    "team_1_pred_score":59.9,
+    "hfa":"@",
+    "team_2":"Shenandoah",
+    "team_2_pred_score":71.0,
+    "spread":-11.0,
+    "team_1_id":"washington-college",
+    "team_2_id":"shenandoah"
   },
   {
     "date":"2027-01-04",
@@ -11900,6 +13308,17 @@
     "spread":2.1,
     "team_1_id":"southern-maine",
     "team_2_id":"rhode-island-college"
+  },
+  {
+    "date":"2027-01-05",
+    "team_1":"Clarkson",
+    "team_1_pred_score":61.6,
+    "hfa":"@",
+    "team_2":"St. Lawrence",
+    "team_2_pred_score":64.1,
+    "spread":-2.5,
+    "team_1_id":"clarkson",
+    "team_2_id":"st-lawrence"
   },
   {
     "date":"2027-01-05",
@@ -11958,6 +13377,17 @@
   },
   {
     "date":"2027-01-05",
+    "team_1":"LaGrange",
+    "team_1_pred_score":77.3,
+    "hfa":"@",
+    "team_2":"Belhaven",
+    "team_2_pred_score":87.7,
+    "spread":-10.4,
+    "team_1_id":"lagrange",
+    "team_2_id":"belhaven"
+  },
+  {
+    "date":"2027-01-05",
     "team_1":"Southern Virginia",
     "team_1_pred_score":83.5,
     "hfa":"@",
@@ -11977,6 +13407,17 @@
     "spread":-13.1,
     "team_1_id":"mass-boston",
     "team_2_id":"western-connecticut"
+  },
+  {
+    "date":"2027-01-05",
+    "team_1":"Nichols",
+    "team_1_pred_score":69.5,
+    "hfa":"@",
+    "team_2":"Western New England",
+    "team_2_pred_score":80.8,
+    "spread":-11.2,
+    "team_1_id":"nichols",
+    "team_2_id":"western-new-england"
   },
   {
     "date":"2027-01-05",
@@ -12133,6 +13574,28 @@
     "team_2_id":"endicott"
   },
   {
+    "date":"2027-01-05",
+    "team_1":"Wilson",
+    "team_1_pred_score":60.9,
+    "hfa":"@",
+    "team_2":"Gettysburg",
+    "team_2_pred_score":86.1,
+    "spread":-25.2,
+    "team_1_id":"wilson",
+    "team_2_id":"gettysburg"
+  },
+  {
+    "date":"2027-01-05",
+    "team_1":"Penn State-Abington",
+    "team_1_pred_score":70.8,
+    "hfa":"@",
+    "team_2":"Ursinus",
+    "team_2_pred_score":95.0,
+    "spread":-24.2,
+    "team_1_id":"penn-state-abington",
+    "team_2_id":"ursinus"
+  },
+  {
     "date":"2027-01-06",
     "team_1":"Christopher Newport",
     "team_1_pred_score":68.8,
@@ -12142,17 +13605,6 @@
     "spread":0.5,
     "team_1_id":"christopher-newport",
     "team_2_id":"johns-hopkins"
-  },
-  {
-    "date":"2027-01-06",
-    "team_1":"UW-Stevens Point",
-    "team_1_pred_score":75.2,
-    "hfa":"@",
-    "team_2":"UW-Oshkosh",
-    "team_2_pred_score":74.1,
-    "spread":1.1,
-    "team_1_id":"uw-stevens-point",
-    "team_2_id":"uw-oshkosh"
   },
   {
     "date":"2027-01-06",
@@ -12244,6 +13696,17 @@
   },
   {
     "date":"2027-01-06",
+    "team_1":"Batten",
+    "team_1_pred_score":67.5,
+    "hfa":"@",
+    "team_2":"Shenandoah",
+    "team_2_pred_score":61.7,
+    "spread":5.8,
+    "team_1_id":"batten",
+    "team_2_id":"shenandoah"
+  },
+  {
+    "date":"2027-01-06",
     "team_1":"Stevens",
     "team_1_pred_score":65.3,
     "hfa":"@",
@@ -12277,6 +13740,17 @@
   },
   {
     "date":"2027-01-06",
+    "team_1":"Rowan",
+    "team_1_pred_score":73.4,
+    "hfa":"@",
+    "team_2":"Kean",
+    "team_2_pred_score":78.0,
+    "spread":-4.6,
+    "team_1_id":"rowan",
+    "team_2_id":"kean"
+  },
+  {
+    "date":"2027-01-06",
     "team_1":"Eastern",
     "team_1_pred_score":74.7,
     "hfa":"@",
@@ -12288,6 +13762,28 @@
   },
   {
     "date":"2027-01-06",
+    "team_1":"Springfield",
+    "team_1_pred_score":69.9,
+    "hfa":"@",
+    "team_2":"MIT",
+    "team_2_pred_score":70.3,
+    "spread":-0.4,
+    "team_1_id":"springfield",
+    "team_2_id":"mit"
+  },
+  {
+    "date":"2027-01-06",
+    "team_1":"Washington and Lee",
+    "team_1_pred_score":63.8,
+    "hfa":"@",
+    "team_2":"Hampden-Sydney",
+    "team_2_pred_score":73.8,
+    "spread":-10.0,
+    "team_1_id":"washington-and-lee",
+    "team_2_id":"hampden-sydney"
+  },
+  {
+    "date":"2027-01-06",
     "team_1":"Elizabethtown",
     "team_1_pred_score":71.8,
     "hfa":"@",
@@ -12296,6 +13792,17 @@
     "spread":-3.9,
     "team_1_id":"elizabethtown",
     "team_2_id":"scranton"
+  },
+  {
+    "date":"2027-01-06",
+    "team_1":"Baldwin Wallace",
+    "team_1_pred_score":65.0,
+    "hfa":"@",
+    "team_2":"Otterbein",
+    "team_2_pred_score":72.9,
+    "spread":-7.8,
+    "team_1_id":"baldwin-wallace",
+    "team_2_id":"otterbein"
   },
   {
     "date":"2027-01-06",
@@ -12629,6 +14136,17 @@
   },
   {
     "date":"2027-01-06",
+    "team_1":"TCNJ",
+    "team_1_pred_score":78.9,
+    "hfa":"@",
+    "team_2":"William Paterson",
+    "team_2_pred_score":67.7,
+    "spread":11.2,
+    "team_1_id":"tcnj",
+    "team_2_id":"william-paterson"
+  },
+  {
+    "date":"2027-01-06",
     "team_1":"Penn State-Altoona",
     "team_1_pred_score":80.0,
     "hfa":"@",
@@ -12637,6 +14155,28 @@
     "spread":4.4,
     "team_1_id":"penn-state-altoona",
     "team_2_id":"carlow"
+  },
+  {
+    "date":"2027-01-06",
+    "team_1":"Ramapo",
+    "team_1_pred_score":71.6,
+    "hfa":"@",
+    "team_2":"Montclair State",
+    "team_2_pred_score":87.7,
+    "spread":-16.1,
+    "team_1_id":"ramapo",
+    "team_2_id":"montclair-state"
+  },
+  {
+    "date":"2027-01-06",
+    "team_1":"Widener",
+    "team_1_pred_score":85.2,
+    "hfa":"@",
+    "team_2":"Messiah",
+    "team_2_pred_score":76.8,
+    "spread":8.4,
+    "team_1_id":"widener",
+    "team_2_id":"messiah"
   },
   {
     "date":"2027-01-06",
@@ -12692,6 +14232,17 @@
     "spread":10.5,
     "team_1_id":"worcester-state",
     "team_2_id":"massachusetts-college"
+  },
+  {
+    "date":"2027-01-06",
+    "team_1":"Grove City",
+    "team_1_pred_score":71.2,
+    "hfa":"@",
+    "team_2":"Waynesburg",
+    "team_2_pred_score":63.6,
+    "spread":7.6,
+    "team_1_id":"grove-city",
+    "team_2_id":"waynesburg"
   },
   {
     "date":"2027-01-06",
@@ -12802,6 +14353,17 @@
     "spread":1.5,
     "team_1_id":"mass-dartmouth",
     "team_2_id":"mass-boston"
+  },
+  {
+    "date":"2027-01-07",
+    "team_1":"Norwich",
+    "team_1_pred_score":72.7,
+    "hfa":"@",
+    "team_2":"Dean",
+    "team_2_pred_score":73.7,
+    "spread":-1.0,
+    "team_1_id":"norwich",
+    "team_2_id":"dean"
   },
   {
     "date":"2027-01-07",
@@ -13080,6 +14642,17 @@
   },
   {
     "date":"2027-01-08",
+    "team_1":"Bard",
+    "team_1_pred_score":54.6,
+    "hfa":"@",
+    "team_2":"St. Lawrence",
+    "team_2_pred_score":70.9,
+    "spread":-16.3,
+    "team_1_id":"bard",
+    "team_2_id":"st-lawrence"
+  },
+  {
+    "date":"2027-01-08",
     "team_1":"Buffalo State",
     "team_1_pred_score":53.1,
     "hfa":"@",
@@ -13168,6 +14741,17 @@
   },
   {
     "date":"2027-01-09",
+    "team_1":"Colby",
+    "team_1_pred_score":76.4,
+    "hfa":"@",
+    "team_2":"Connecticut College",
+    "team_2_pred_score":78.2,
+    "spread":-1.8,
+    "team_1_id":"colby",
+    "team_2_id":"connecticut-college"
+  },
+  {
+    "date":"2027-01-09",
     "team_1":"Otterbein",
     "team_1_pred_score":74.8,
     "hfa":"@",
@@ -13190,6 +14774,17 @@
   },
   {
     "date":"2027-01-09",
+    "team_1":"Vassar",
+    "team_1_pred_score":63.2,
+    "hfa":"@",
+    "team_2":"St. Lawrence",
+    "team_2_pred_score":60.4,
+    "spread":2.9,
+    "team_1_id":"vassar",
+    "team_2_id":"st-lawrence"
+  },
+  {
+    "date":"2027-01-09",
     "team_1":"North Central (Ill.)",
     "team_1_pred_score":64.3,
     "hfa":"@",
@@ -13198,6 +14793,17 @@
     "spread":-7.2,
     "team_1_id":"north-central-ill",
     "team_2_id":"elmhurst"
+  },
+  {
+    "date":"2027-01-09",
+    "team_1":"Kean",
+    "team_1_pred_score":69.3,
+    "hfa":"@",
+    "team_2":"TCNJ",
+    "team_2_pred_score":72.5,
+    "spread":-3.2,
+    "team_1_id":"kean",
+    "team_2_id":"tcnj"
   },
   {
     "date":"2027-01-09",
@@ -13245,6 +14851,17 @@
   },
   {
     "date":"2027-01-09",
+    "team_1":"Ursinus",
+    "team_1_pred_score":72.0,
+    "hfa":"@",
+    "team_2":"Johns Hopkins",
+    "team_2_pred_score":81.5,
+    "spread":-9.5,
+    "team_1_id":"ursinus",
+    "team_2_id":"johns-hopkins"
+  },
+  {
+    "date":"2027-01-09",
     "team_1":"Nebraska Wesleyan",
     "team_1_pred_score":73.9,
     "hfa":"@",
@@ -13253,6 +14870,17 @@
     "spread":4.7,
     "team_1_id":"nebraska-wesleyan",
     "team_2_id":"wartburg"
+  },
+  {
+    "date":"2027-01-09",
+    "team_1":"Occidental",
+    "team_1_pred_score":74.2,
+    "hfa":"@",
+    "team_2":"Pomona-Pitzer",
+    "team_2_pred_score":75.6,
+    "spread":-1.5,
+    "team_1_id":"occidental",
+    "team_2_id":"pomona-pitzer"
   },
   {
     "date":"2027-01-09",
@@ -13278,14 +14906,14 @@
   },
   {
     "date":"2027-01-09",
-    "team_1":"Heidelberg",
-    "team_1_pred_score":86.0,
+    "team_1":"Hampden-Sydney",
+    "team_1_pred_score":69.8,
     "hfa":"@",
-    "team_2":"Marietta",
-    "team_2_pred_score":83.1,
-    "spread":2.8,
-    "team_1_id":"heidelberg",
-    "team_2_id":"marietta"
+    "team_2":"Shenandoah",
+    "team_2_pred_score":62.0,
+    "spread":7.7,
+    "team_1_id":"hampden-sydney",
+    "team_2_id":"shenandoah"
   },
   {
     "date":"2027-01-09",
@@ -13451,6 +15079,17 @@
     "spread":7.3,
     "team_1_id":"averett",
     "team_2_id":"bridgewater-va"
+  },
+  {
+    "date":"2027-01-09",
+    "team_1":"Marymount",
+    "team_1_pred_score":56.7,
+    "hfa":"@",
+    "team_2":"Mary Washington",
+    "team_2_pred_score":72.8,
+    "spread":-16.1,
+    "team_1_id":"marymount",
+    "team_2_id":"mary-washington"
   },
   {
     "date":"2027-01-09",
@@ -13773,6 +15412,17 @@
   },
   {
     "date":"2027-01-09",
+    "team_1":"Merchant Marine",
+    "team_1_pred_score":65.8,
+    "hfa":"@",
+    "team_2":"SUNY-Old Westbury",
+    "team_2_pred_score":67.4,
+    "spread":-1.6,
+    "team_1_id":"merchant-marine",
+    "team_2_id":"suny-old-westbury"
+  },
+  {
+    "date":"2027-01-09",
     "team_1":"Washington College",
     "team_1_pred_score":62.8,
     "hfa":"@",
@@ -13850,6 +15500,17 @@
   },
   {
     "date":"2027-01-09",
+    "team_1":"Geneva",
+    "team_1_pred_score":68.6,
+    "hfa":"@",
+    "team_2":"St. Vincent",
+    "team_2_pred_score":80.9,
+    "spread":-12.2,
+    "team_1_id":"geneva",
+    "team_2_id":"st-vincent"
+  },
+  {
+    "date":"2027-01-09",
     "team_1":"Augsburg",
     "team_1_pred_score":85.6,
     "hfa":"@",
@@ -13869,6 +15530,17 @@
     "spread":-15.6,
     "team_1_id":"wentworth",
     "team_2_id":"endicott"
+  },
+  {
+    "date":"2027-01-09",
+    "team_1":"Waynesburg",
+    "team_1_pred_score":62.8,
+    "hfa":"@",
+    "team_2":"Thiel",
+    "team_2_pred_score":69.3,
+    "spread":-6.6,
+    "team_1_id":"waynesburg",
+    "team_2_id":"thiel"
   },
   {
     "date":"2027-01-09",
@@ -14069,6 +15741,28 @@
     "team_2_id":"cortland"
   },
   {
+    "date":"2027-01-09",
+    "team_1":"Penn State-Berks",
+    "team_1_pred_score":68.6,
+    "hfa":"@",
+    "team_2":"Lancaster Bible",
+    "team_2_pred_score":104.6,
+    "spread":-35.9,
+    "team_1_id":"penn-state-berks",
+    "team_2_id":"lancaster-bible"
+  },
+  {
+    "date":"2027-01-09",
+    "team_1":"Maranatha Baptist",
+    "team_1_pred_score":58.3,
+    "hfa":"@",
+    "team_2":"Rockford",
+    "team_2_pred_score":84.6,
+    "spread":-26.2,
+    "team_1_id":"maranatha-baptist",
+    "team_2_id":"rockford"
+  },
+  {
     "date":"2027-01-10",
     "team_1":"Trinity (Texas)",
     "team_1_pred_score":80.0,
@@ -14111,6 +15805,17 @@
     "spread":-3.1,
     "team_1_id":"susquehanna",
     "team_2_id":"scranton"
+  },
+  {
+    "date":"2027-01-10",
+    "team_1":"Nichols",
+    "team_1_pred_score":72.7,
+    "hfa":"@",
+    "team_2":"Hamilton",
+    "team_2_pred_score":81.6,
+    "spread":-9.0,
+    "team_1_id":"nichols",
+    "team_2_id":"hamilton"
   },
   {
     "date":"2027-01-10",
@@ -14166,6 +15871,17 @@
     "spread":-16.5,
     "team_1_id":"oglethorpe",
     "team_2_id":"berry"
+  },
+  {
+    "date":"2027-01-10",
+    "team_1":"Mount St. Vincent",
+    "team_1_pred_score":69.4,
+    "hfa":"@",
+    "team_2":"Yeshiva",
+    "team_2_pred_score":91.3,
+    "spread":-21.9,
+    "team_1_id":"mount-st-vincent",
+    "team_2_id":"yeshiva"
   },
   {
     "date":"2027-01-11",
@@ -14276,6 +15992,17 @@
     "spread":-4.2,
     "team_1_id":"hartwick",
     "team_2_id":"keuka"
+  },
+  {
+    "date":"2027-01-12",
+    "team_1":"Springfield",
+    "team_1_pred_score":59.6,
+    "hfa":"@",
+    "team_2":"Babson",
+    "team_2_pred_score":76.5,
+    "spread":-16.8,
+    "team_1_id":"springfield",
+    "team_2_id":"babson"
   },
   {
     "date":"2027-01-12",
@@ -14411,6 +16138,17 @@
   },
   {
     "date":"2027-01-13",
+    "team_1":"Heidelberg",
+    "team_1_pred_score":76.2,
+    "hfa":"@",
+    "team_2":"Baldwin Wallace",
+    "team_2_pred_score":77.8,
+    "spread":-1.7,
+    "team_1_id":"heidelberg",
+    "team_2_id":"baldwin-wallace"
+  },
+  {
+    "date":"2027-01-13",
     "team_1":"Loras",
     "team_1_pred_score":78.5,
     "hfa":"@",
@@ -14474,6 +16212,17 @@
     "spread":-8.7,
     "team_1_id":"chapman",
     "team_2_id":"redlands"
+  },
+  {
+    "date":"2027-01-13",
+    "team_1":"Ursinus",
+    "team_1_pred_score":73.9,
+    "hfa":"@",
+    "team_2":"Muhlenberg",
+    "team_2_pred_score":69.8,
+    "spread":4.1,
+    "team_1_id":"ursinus",
+    "team_2_id":"muhlenberg"
   },
   {
     "date":"2027-01-13",
@@ -14697,6 +16446,17 @@
   },
   {
     "date":"2027-01-13",
+    "team_1":"MUW",
+    "team_1_pred_score":73.0,
+    "hfa":"@",
+    "team_2":"Belhaven",
+    "team_2_pred_score":83.3,
+    "spread":-10.3,
+    "team_1_id":"muw",
+    "team_2_id":"belhaven"
+  },
+  {
+    "date":"2027-01-13",
     "team_1":"Scranton",
     "team_1_pred_score":72.7,
     "hfa":"@",
@@ -14895,6 +16655,17 @@
   },
   {
     "date":"2027-01-13",
+    "team_1":"William Paterson",
+    "team_1_pred_score":71.3,
+    "hfa":"@",
+    "team_2":"Rowan",
+    "team_2_pred_score":84.9,
+    "spread":-13.7,
+    "team_1_id":"william-paterson",
+    "team_2_id":"rowan"
+  },
+  {
+    "date":"2027-01-13",
     "team_1":"Neumann",
     "team_1_pred_score":74.2,
     "hfa":"@",
@@ -14914,6 +16685,17 @@
     "spread":-18.2,
     "team_1_id":"alma",
     "team_2_id":"olivet"
+  },
+  {
+    "date":"2027-01-13",
+    "team_1":"Sarah Lawrence",
+    "team_1_pred_score":74.6,
+    "hfa":"@",
+    "team_2":"Mount St. Vincent",
+    "team_2_pred_score":68.0,
+    "spread":6.6,
+    "team_1_id":"sarah-lawrence",
+    "team_2_id":"mount-st-vincent"
   },
   {
     "date":"2027-01-13",
@@ -14950,6 +16732,17 @@
   },
   {
     "date":"2027-01-13",
+    "team_1":"Penn College",
+    "team_1_pred_score":81.1,
+    "hfa":"@",
+    "team_2":"Wilson",
+    "team_2_pred_score":88.3,
+    "spread":-7.2,
+    "team_1_id":"penn-college",
+    "team_2_id":"wilson"
+  },
+  {
+    "date":"2027-01-13",
     "team_1":"St. Mary's (Minn.)",
     "team_1_pred_score":67.7,
     "hfa":"@",
@@ -14958,6 +16751,17 @@
     "spread":-14.5,
     "team_1_id":"st-mary-s-minn",
     "team_2_id":"st-olaf"
+  },
+  {
+    "date":"2027-01-13",
+    "team_1":"Earlham",
+    "team_1_pred_score":57.7,
+    "hfa":"@",
+    "team_2":"Transylvania",
+    "team_2_pred_score":78.1,
+    "spread":-20.3,
+    "team_1_id":"earlham",
+    "team_2_id":"transylvania"
   },
   {
     "date":"2027-01-13",
@@ -14983,6 +16787,28 @@
   },
   {
     "date":"2027-01-13",
+    "team_1":"CCNY",
+    "team_1_pred_score":63.9,
+    "hfa":"@",
+    "team_2":"Lehman",
+    "team_2_pred_score":78.4,
+    "spread":-14.4,
+    "team_1_id":"ccny",
+    "team_2_id":"lehman"
+  },
+  {
+    "date":"2027-01-13",
+    "team_1":"Waynesburg",
+    "team_1_pred_score":67.2,
+    "hfa":"@",
+    "team_2":"St. Vincent",
+    "team_2_pred_score":85.1,
+    "spread":-18.0,
+    "team_1_id":"waynesburg",
+    "team_2_id":"st-vincent"
+  },
+  {
+    "date":"2027-01-13",
     "team_1":"Kalamazoo",
     "team_1_pred_score":64.3,
     "hfa":"@",
@@ -15005,6 +16831,17 @@
   },
   {
     "date":"2027-01-13",
+    "team_1":"Cairn",
+    "team_1_pred_score":91.6,
+    "hfa":"@",
+    "team_2":"Penn State-Berks",
+    "team_2_pred_score":77.5,
+    "spread":14.2,
+    "team_1_id":"cairn",
+    "team_2_id":"penn-state-berks"
+  },
+  {
+    "date":"2027-01-13",
     "team_1":"Penn State-Abington",
     "team_1_pred_score":55.2,
     "hfa":"@",
@@ -15013,6 +16850,17 @@
     "spread":-37.7,
     "team_1_id":"penn-state-abington",
     "team_2_id":"mary-washington"
+  },
+  {
+    "date":"2027-01-14",
+    "team_1":"Springfield",
+    "team_1_pred_score":65.9,
+    "hfa":"@",
+    "team_2":"Salve Regina",
+    "team_2_pred_score":70.5,
+    "spread":-4.6,
+    "team_1_id":"springfield",
+    "team_2_id":"salve-regina"
   },
   {
     "date":"2027-01-14",
@@ -15068,6 +16916,28 @@
     "spread":0.3,
     "team_1_id":"case-western-reserve",
     "team_2_id":"brandeis"
+  },
+  {
+    "date":"2027-01-15",
+    "team_1":"Connecticut College",
+    "team_1_pred_score":65.7,
+    "hfa":"@",
+    "team_2":"Williams",
+    "team_2_pred_score":70.8,
+    "spread":-5.1,
+    "team_1_id":"connecticut-college",
+    "team_2_id":"williams"
+  },
+  {
+    "date":"2027-01-15",
+    "team_1":"St. Lawrence",
+    "team_1_pred_score":62.5,
+    "hfa":"@",
+    "team_2":"Skidmore",
+    "team_2_pred_score":62.7,
+    "spread":-0.2,
+    "team_1_id":"st-lawrence",
+    "team_2_id":"skidmore"
   },
   {
     "date":"2027-01-15",
@@ -15225,6 +17095,17 @@
   },
   {
     "date":"2027-01-15",
+    "team_1":"Houghton",
+    "team_1_pred_score":82.2,
+    "hfa":"@",
+    "team_2":"Elmira",
+    "team_2_pred_score":79.2,
+    "spread":3.0,
+    "team_1_id":"houghton",
+    "team_2_id":"elmira"
+  },
+  {
+    "date":"2027-01-15",
     "team_1":"Hartwick",
     "team_1_pred_score":71.3,
     "hfa":"@",
@@ -15367,15 +17248,26 @@
     "team_2_id":"letourneau"
   },
   {
-    "date":"2027-01-16",
-    "team_1":"UW-La Crosse",
-    "team_1_pred_score":80.7,
+    "date":"2027-01-15",
+    "team_1":"John Jay",
+    "team_1_pred_score":79.8,
     "hfa":"@",
-    "team_2":"UW-Oshkosh",
-    "team_2_pred_score":79.6,
-    "spread":1.1,
-    "team_1_id":"uw-la-crosse",
-    "team_2_id":"uw-oshkosh"
+    "team_2":"Medgar Evers",
+    "team_2_pred_score":66.6,
+    "spread":13.2,
+    "team_1_id":"john-jay",
+    "team_2_id":"medgar-evers"
+  },
+  {
+    "date":"2027-01-16",
+    "team_1":"Johns Hopkins",
+    "team_1_pred_score":64.8,
+    "hfa":"@",
+    "team_2":"Gettysburg",
+    "team_2_pred_score":64.3,
+    "spread":0.4,
+    "team_1_id":"johns-hopkins",
+    "team_2_id":"gettysburg"
   },
   {
     "date":"2027-01-16",
@@ -15409,6 +17301,17 @@
     "spread":-0.4,
     "team_1_id":"dubuque",
     "team_2_id":"nebraska-wesleyan"
+  },
+  {
+    "date":"2027-01-16",
+    "team_1":"Transylvania",
+    "team_1_pred_score":70.0,
+    "hfa":"@",
+    "team_2":"Franklin",
+    "team_2_pred_score":69.4,
+    "spread":0.7,
+    "team_1_id":"transylvania",
+    "team_2_id":"franklin"
   },
   {
     "date":"2027-01-16",
@@ -15643,6 +17546,17 @@
   },
   {
     "date":"2027-01-16",
+    "team_1":"St. Lawrence",
+    "team_1_pred_score":62.5,
+    "hfa":"@",
+    "team_2":"Hobart",
+    "team_2_pred_score":68.7,
+    "spread":-6.2,
+    "team_1_id":"st-lawrence",
+    "team_2_id":"hobart"
+  },
+  {
+    "date":"2027-01-16",
     "team_1":"Shenandoah",
     "team_1_pred_score":61.2,
     "hfa":"@",
@@ -15662,6 +17576,17 @@
     "spread":0.7,
     "team_1_id":"pacific-lutheran",
     "team_2_id":"linfield"
+  },
+  {
+    "date":"2027-01-16",
+    "team_1":"Widener",
+    "team_1_pred_score":78.0,
+    "hfa":"@",
+    "team_2":"Neumann",
+    "team_2_pred_score":79.1,
+    "spread":-1.1,
+    "team_1_id":"widener",
+    "team_2_id":"neumann"
   },
   {
     "date":"2027-01-16",
@@ -15706,6 +17631,17 @@
     "spread":7.5,
     "team_1_id":"calvin",
     "team_2_id":"albion"
+  },
+  {
+    "date":"2027-01-16",
+    "team_1":"Rowan",
+    "team_1_pred_score":85.9,
+    "hfa":"@",
+    "team_2":"Montclair State",
+    "team_2_pred_score":96.3,
+    "spread":-10.4,
+    "team_1_id":"rowan",
+    "team_2_id":"montclair-state"
   },
   {
     "date":"2027-01-16",
@@ -15761,6 +17697,17 @@
     "spread":4.5,
     "team_1_id":"mass-dartmouth",
     "team_2_id":"plymouth-state"
+  },
+  {
+    "date":"2027-01-16",
+    "team_1":"Western New England",
+    "team_1_pred_score":78.3,
+    "hfa":"@",
+    "team_2":"Nichols",
+    "team_2_pred_score":71.9,
+    "spread":6.4,
+    "team_1_id":"western-new-england",
+    "team_2_id":"nichols"
   },
   {
     "date":"2027-01-16",
@@ -15885,6 +17832,17 @@
   },
   {
     "date":"2027-01-16",
+    "team_1":"Maine Maritime",
+    "team_1_pred_score":71.4,
+    "hfa":"@",
+    "team_2":"Thomas",
+    "team_2_pred_score":70.9,
+    "spread":0.5,
+    "team_1_id":"maine-maritime",
+    "team_2_id":"thomas"
+  },
+  {
+    "date":"2027-01-16",
     "team_1":"Sage",
     "team_1_pred_score":77.3,
     "hfa":"@",
@@ -15929,6 +17887,17 @@
   },
   {
     "date":"2027-01-16",
+    "team_1":"Belhaven",
+    "team_1_pred_score":91.2,
+    "hfa":"@",
+    "team_2":"Piedmont",
+    "team_2_pred_score":81.3,
+    "spread":9.9,
+    "team_1_id":"belhaven",
+    "team_2_id":"piedmont"
+  },
+  {
+    "date":"2027-01-16",
     "team_1":"Grove City",
     "team_1_pred_score":65.4,
     "hfa":"@",
@@ -15948,6 +17917,17 @@
     "spread":5.8,
     "team_1_id":"gwynedd-mercy",
     "team_2_id":"immaculata"
+  },
+  {
+    "date":"2027-01-16",
+    "team_1":"Houghton",
+    "team_1_pred_score":72.1,
+    "hfa":"@",
+    "team_2":"Keuka",
+    "team_2_pred_score":76.6,
+    "spread":-4.5,
+    "team_1_id":"houghton",
+    "team_2_id":"keuka"
   },
   {
     "date":"2027-01-16",
@@ -16138,6 +18118,17 @@
   },
   {
     "date":"2027-01-16",
+    "team_1":"Eastern Mennonite",
+    "team_1_pred_score":56.6,
+    "hfa":"@",
+    "team_2":"Hampden-Sydney",
+    "team_2_pred_score":74.6,
+    "spread":-18.0,
+    "team_1_id":"eastern-mennonite",
+    "team_2_id":"hampden-sydney"
+  },
+  {
+    "date":"2027-01-16",
     "team_1":"Keystone",
     "team_1_pred_score":76.4,
     "hfa":"@",
@@ -16226,6 +18217,17 @@
   },
   {
     "date":"2027-01-16",
+    "team_1":"Mount St. Vincent",
+    "team_1_pred_score":67.7,
+    "hfa":"@",
+    "team_2":"Merchant Marine",
+    "team_2_pred_score":74.1,
+    "spread":-6.4,
+    "team_1_id":"mount-st-vincent",
+    "team_2_id":"merchant-marine"
+  },
+  {
+    "date":"2027-01-16",
     "team_1":"Randolph-Macon",
     "team_1_pred_score":83.4,
     "hfa":"@",
@@ -16311,6 +18313,28 @@
     "spread":-11.2,
     "team_1_id":"nvu-johnson",
     "team_2_id":"maine-presque-isle"
+  },
+  {
+    "date":"2027-01-16",
+    "team_1":"Caltech",
+    "team_1_pred_score":70.4,
+    "hfa":"@",
+    "team_2":"Occidental",
+    "team_2_pred_score":90.8,
+    "spread":-20.4,
+    "team_1_id":"caltech",
+    "team_2_id":"occidental"
+  },
+  {
+    "date":"2027-01-16",
+    "team_1":"Penn State-Berks",
+    "team_1_pred_score":78.4,
+    "hfa":"@",
+    "team_2":"Wilson",
+    "team_2_pred_score":91.8,
+    "spread":-13.4,
+    "team_1_id":"penn-state-berks",
+    "team_2_id":"wilson"
   },
   {
     "date":"2027-01-16",
@@ -16413,6 +18437,17 @@
   },
   {
     "date":"2027-01-18",
+    "team_1":"Cal Lutheran",
+    "team_1_pred_score":79.2,
+    "hfa":"@",
+    "team_2":"Occidental",
+    "team_2_pred_score":75.8,
+    "spread":3.4,
+    "team_1_id":"cal-lutheran",
+    "team_2_id":"occidental"
+  },
+  {
+    "date":"2027-01-18",
     "team_1":"Redlands",
     "team_1_pred_score":94.0,
     "hfa":"@",
@@ -16465,6 +18500,17 @@
     "spread":-7.4,
     "team_1_id":"maine-farmington",
     "team_2_id":"bates"
+  },
+  {
+    "date":"2027-01-19",
+    "team_1":"Roger Williams",
+    "team_1_pred_score":85.3,
+    "hfa":"@",
+    "team_2":"Nichols",
+    "team_2_pred_score":84.5,
+    "spread":0.8,
+    "team_1_id":"roger-williams",
+    "team_2_id":"nichols"
   },
   {
     "date":"2027-01-19",
@@ -16600,6 +18646,17 @@
   },
   {
     "date":"2027-01-19",
+    "team_1":"St. Mary's (Md.)",
+    "team_1_pred_score":82.0,
+    "hfa":"@",
+    "team_2":"Penn State-Berks",
+    "team_2_pred_score":70.5,
+    "spread":11.5,
+    "team_1_id":"st-mary-s-md",
+    "team_2_id":"penn-state-berks"
+  },
+  {
+    "date":"2027-01-19",
     "team_1":"Albertus Magnus",
     "team_1_pred_score":87.4,
     "hfa":"@",
@@ -16608,6 +18665,17 @@
     "spread":22.2,
     "team_1_id":"albertus-magnus",
     "team_2_id":"elms"
+  },
+  {
+    "date":"2027-01-19",
+    "team_1":"Colby-Sawyer",
+    "team_1_pred_score":70.4,
+    "hfa":"@",
+    "team_2":"Dean",
+    "team_2_pred_score":84.0,
+    "spread":-13.6,
+    "team_1_id":"colby-sawyer",
+    "team_2_id":"dean"
   },
   {
     "date":"2027-01-20",
@@ -16864,6 +18932,17 @@
   },
   {
     "date":"2027-01-20",
+    "team_1":"St. Vincent",
+    "team_1_pred_score":76.6,
+    "hfa":"@",
+    "team_2":"Washington and Jefferson",
+    "team_2_pred_score":83.0,
+    "spread":-6.4,
+    "team_1_id":"st-vincent",
+    "team_2_id":"washington-and-jefferson"
+  },
+  {
+    "date":"2027-01-20",
     "team_1":"Minnesota-Morris",
     "team_1_pred_score":82.5,
     "hfa":"@",
@@ -16985,6 +19064,17 @@
   },
   {
     "date":"2027-01-20",
+    "team_1":"Wilmington",
+    "team_1_pred_score":70.7,
+    "hfa":"@",
+    "team_2":"Otterbein",
+    "team_2_pred_score":82.1,
+    "spread":-11.4,
+    "team_1_id":"wilmington",
+    "team_2_id":"otterbein"
+  },
+  {
+    "date":"2027-01-20",
     "team_1":"Elizabethtown",
     "team_1_pred_score":69.5,
     "hfa":"@",
@@ -17004,6 +19094,17 @@
     "spread":8.0,
     "team_1_id":"n-c-wesleyan",
     "team_2_id":"greensboro"
+  },
+  {
+    "date":"2027-01-20",
+    "team_1":"Eastern Mennonite",
+    "team_1_pred_score":59.4,
+    "hfa":"@",
+    "team_2":"Shenandoah",
+    "team_2_pred_score":67.2,
+    "spread":-7.8,
+    "team_1_id":"eastern-mennonite",
+    "team_2_id":"shenandoah"
   },
   {
     "date":"2027-01-20",
@@ -17048,6 +19149,17 @@
     "spread":12.0,
     "team_1_id":"st-norbert",
     "team_2_id":"rockford"
+  },
+  {
+    "date":"2027-01-20",
+    "team_1":"Ursinus",
+    "team_1_pred_score":81.9,
+    "hfa":"@",
+    "team_2":"Washington College",
+    "team_2_pred_score":70.9,
+    "spread":11.0,
+    "team_1_id":"ursinus",
+    "team_2_id":"washington-college"
   },
   {
     "date":"2027-01-20",
@@ -17117,6 +19229,17 @@
   },
   {
     "date":"2027-01-20",
+    "team_1":"Hampden-Sydney",
+    "team_1_pred_score":81.6,
+    "hfa":"@",
+    "team_2":"Randolph",
+    "team_2_pred_score":65.5,
+    "spread":16.2,
+    "team_1_id":"hampden-sydney",
+    "team_2_id":"randolph"
+  },
+  {
+    "date":"2027-01-20",
     "team_1":"Aurora",
     "team_1_pred_score":84.6,
     "hfa":"@",
@@ -17158,6 +19281,17 @@
     "spread":-14.3,
     "team_1_id":"st-scholastica",
     "team_2_id":"augsburg"
+  },
+  {
+    "date":"2027-01-20",
+    "team_1":"Montclair State",
+    "team_1_pred_score":91.3,
+    "hfa":"@",
+    "team_2":"William Paterson",
+    "team_2_pred_score":74.7,
+    "spread":16.5,
+    "team_1_id":"montclair-state",
+    "team_2_id":"william-paterson"
   },
   {
     "date":"2027-01-20",
@@ -17301,6 +19435,17 @@
     "spread":-23.2,
     "team_1_id":"kalamazoo",
     "team_2_id":"hope"
+  },
+  {
+    "date":"2027-01-20",
+    "team_1":"Medgar Evers",
+    "team_1_pred_score":63.0,
+    "hfa":"@",
+    "team_2":"CCNY",
+    "team_2_pred_score":79.6,
+    "spread":-16.6,
+    "team_1_id":"medgar-evers",
+    "team_2_id":"ccny"
   },
   {
     "date":"2027-01-21",
@@ -17546,6 +19691,17 @@
   },
   {
     "date":"2027-01-22",
+    "team_1":"John Jay",
+    "team_1_pred_score":70.8,
+    "hfa":"@",
+    "team_2":"CCNY",
+    "team_2_pred_score":71.8,
+    "spread":-1.0,
+    "team_1_id":"john-jay",
+    "team_2_id":"ccny"
+  },
+  {
+    "date":"2027-01-22",
     "team_1":"SUNY Delhi",
     "team_1_pred_score":72.3,
     "hfa":"@",
@@ -17645,6 +19801,17 @@
   },
   {
     "date":"2027-01-23",
+    "team_1":"Hampden-Sydney",
+    "team_1_pred_score":65.6,
+    "hfa":"@",
+    "team_2":"Roanoke",
+    "team_2_pred_score":71.5,
+    "spread":-6.0,
+    "team_1_id":"hampden-sydney",
+    "team_2_id":"roanoke"
+  },
+  {
+    "date":"2027-01-23",
     "team_1":"Johns Hopkins",
     "team_1_pred_score":65.4,
     "hfa":"@",
@@ -17719,6 +19886,17 @@
     "spread":-2.7,
     "team_1_id":"nebraska-wesleyan",
     "team_2_id":"loras"
+  },
+  {
+    "date":"2027-01-23",
+    "team_1":"Tufts",
+    "team_1_pred_score":75.9,
+    "hfa":"@",
+    "team_2":"Connecticut College",
+    "team_2_pred_score":70.0,
+    "spread":5.9,
+    "team_1_id":"tufts",
+    "team_2_id":"connecticut-college"
   },
   {
     "date":"2027-01-23",
@@ -17832,6 +20010,28 @@
   },
   {
     "date":"2027-01-23",
+    "team_1":"Swarthmore",
+    "team_1_pred_score":75.2,
+    "hfa":"@",
+    "team_2":"Ursinus",
+    "team_2_pred_score":81.2,
+    "spread":-6.1,
+    "team_1_id":"swarthmore",
+    "team_2_id":"ursinus"
+  },
+  {
+    "date":"2027-01-23",
+    "team_1":"Kean",
+    "team_1_pred_score":76.7,
+    "hfa":"@",
+    "team_2":"Montclair State",
+    "team_2_pred_score":84.4,
+    "spread":-7.6,
+    "team_1_id":"kean",
+    "team_2_id":"montclair-state"
+  },
+  {
+    "date":"2027-01-23",
     "team_1":"Millikin",
     "team_1_pred_score":63.7,
     "hfa":"@",
@@ -17840,6 +20040,17 @@
     "spread":-9.1,
     "team_1_id":"millikin",
     "team_2_id":"elmhurst"
+  },
+  {
+    "date":"2027-01-23",
+    "team_1":"St. Lawrence",
+    "team_1_pred_score":67.0,
+    "hfa":"@",
+    "team_2":"Ithaca",
+    "team_2_pred_score":72.5,
+    "spread":-5.5,
+    "team_1_id":"st-lawrence",
+    "team_2_id":"ithaca"
   },
   {
     "date":"2027-01-23",
@@ -17898,6 +20109,17 @@
   },
   {
     "date":"2027-01-23",
+    "team_1":"Gettysburg",
+    "team_1_pred_score":63.7,
+    "hfa":"@",
+    "team_2":"Muhlenberg",
+    "team_2_pred_score":56.4,
+    "spread":7.3,
+    "team_1_id":"gettysburg",
+    "team_2_id":"muhlenberg"
+  },
+  {
+    "date":"2027-01-23",
     "team_1":"Clarkson",
     "team_1_pred_score":72.5,
     "hfa":"@",
@@ -17928,6 +20150,17 @@
     "spread":-5.0,
     "team_1_id":"east-texas-baptist",
     "team_2_id":"mary-hardin-baylor"
+  },
+  {
+    "date":"2027-01-23",
+    "team_1":"Rowan",
+    "team_1_pred_score":76.7,
+    "hfa":"@",
+    "team_2":"Ramapo",
+    "team_2_pred_score":73.0,
+    "spread":3.6,
+    "team_1_id":"rowan",
+    "team_2_id":"ramapo"
   },
   {
     "date":"2027-01-23",
@@ -18005,6 +20238,17 @@
     "spread":-12.6,
     "team_1_id":"uw-river-falls",
     "team_2_id":"uw-oshkosh"
+  },
+  {
+    "date":"2027-01-23",
+    "team_1":"Occidental",
+    "team_1_pred_score":81.5,
+    "hfa":"@",
+    "team_2":"La Verne",
+    "team_2_pred_score":77.0,
+    "spread":4.5,
+    "team_1_id":"occidental",
+    "team_2_id":"la-verne"
   },
   {
     "date":"2027-01-23",
@@ -18151,6 +20395,17 @@
   },
   {
     "date":"2027-01-23",
+    "team_1":"Westminster (Pa.)",
+    "team_1_pred_score":75.0,
+    "hfa":"@",
+    "team_2":"St. Vincent",
+    "team_2_pred_score":82.2,
+    "spread":-7.2,
+    "team_1_id":"westminster-pa",
+    "team_2_id":"st-vincent"
+  },
+  {
+    "date":"2027-01-23",
     "team_1":"Simpson",
     "team_1_pred_score":67.5,
     "hfa":"@",
@@ -18294,6 +20549,17 @@
   },
   {
     "date":"2027-01-23",
+    "team_1":"Husson",
+    "team_1_pred_score":84.0,
+    "hfa":"@",
+    "team_2":"Thomas",
+    "team_2_pred_score":79.2,
+    "spread":4.8,
+    "team_1_id":"husson",
+    "team_2_id":"thomas"
+  },
+  {
+    "date":"2027-01-23",
     "team_1":"Piedmont",
     "team_1_pred_score":77.2,
     "hfa":"@",
@@ -18313,6 +20579,17 @@
     "spread":3.3,
     "team_1_id":"sarah-lawrence",
     "team_2_id":"suny-old-westbury"
+  },
+  {
+    "date":"2027-01-23",
+    "team_1":"Geneva",
+    "team_1_pred_score":71.7,
+    "hfa":"@",
+    "team_2":"Waynesburg",
+    "team_2_pred_score":69.3,
+    "spread":2.4,
+    "team_1_id":"geneva",
+    "team_2_id":"waynesburg"
   },
   {
     "date":"2027-01-23",
@@ -18448,6 +20725,17 @@
   },
   {
     "date":"2027-01-23",
+    "team_1":"Wilson",
+    "team_1_pred_score":81.6,
+    "hfa":"@",
+    "team_2":"Cairn",
+    "team_2_pred_score":90.5,
+    "spread":-8.9,
+    "team_1_id":"wilson",
+    "team_2_id":"cairn"
+  },
+  {
+    "date":"2027-01-23",
     "team_1":"York (Pa.)",
     "team_1_pred_score":81.7,
     "hfa":"@",
@@ -18467,6 +20755,17 @@
     "spread":-18.5,
     "team_1_id":"randolph",
     "team_2_id":"batten"
+  },
+  {
+    "date":"2027-01-23",
+    "team_1":"Marymount",
+    "team_1_pred_score":74.9,
+    "hfa":"@",
+    "team_2":"Centenary (N.J.)",
+    "team_2_pred_score":60.9,
+    "spread":14.0,
+    "team_1_id":"marymount",
+    "team_2_id":"centenary-n-j"
   },
   {
     "date":"2027-01-23",
@@ -18932,6 +21231,17 @@
   },
   {
     "date":"2027-01-27",
+    "team_1":"Otterbein",
+    "team_1_pred_score":70.7,
+    "hfa":"@",
+    "team_2":"Baldwin Wallace",
+    "team_2_pred_score":67.2,
+    "spread":3.4,
+    "team_1_id":"otterbein",
+    "team_2_id":"baldwin-wallace"
+  },
+  {
+    "date":"2027-01-27",
     "team_1":"Denison",
     "team_1_pred_score":69.3,
     "hfa":"@",
@@ -18962,6 +21272,17 @@
     "spread":-0.1,
     "team_1_id":"mass-dartmouth",
     "team_2_id":"rhode-island-college"
+  },
+  {
+    "date":"2027-01-27",
+    "team_1":"Hanover",
+    "team_1_pred_score":67.8,
+    "hfa":"@",
+    "team_2":"Transylvania",
+    "team_2_pred_score":73.5,
+    "spread":-5.7,
+    "team_1_id":"hanover",
+    "team_2_id":"transylvania"
   },
   {
     "date":"2027-01-27",
@@ -19152,6 +21473,17 @@
   },
   {
     "date":"2027-01-27",
+    "team_1":"Chatham",
+    "team_1_pred_score":76.2,
+    "hfa":"@",
+    "team_2":"St. Vincent",
+    "team_2_pred_score":81.8,
+    "spread":-5.6,
+    "team_1_id":"chatham",
+    "team_2_id":"st-vincent"
+  },
+  {
+    "date":"2027-01-27",
     "team_1":"Mount Union",
     "team_1_pred_score":86.3,
     "hfa":"@",
@@ -19160,6 +21492,28 @@
     "spread":11.3,
     "team_1_id":"mount-union",
     "team_2_id":"marietta"
+  },
+  {
+    "date":"2027-01-27",
+    "team_1":"MIT",
+    "team_1_pred_score":67.9,
+    "hfa":"@",
+    "team_2":"Springfield",
+    "team_2_pred_score":72.4,
+    "spread":-4.4,
+    "team_1_id":"mit",
+    "team_2_id":"springfield"
+  },
+  {
+    "date":"2027-01-27",
+    "team_1":"Muhlenberg",
+    "team_1_pred_score":67.5,
+    "hfa":"@",
+    "team_2":"Ursinus",
+    "team_2_pred_score":76.2,
+    "spread":-8.7,
+    "team_1_id":"muhlenberg",
+    "team_2_id":"ursinus"
   },
   {
     "date":"2027-01-27",
@@ -19204,6 +21558,17 @@
     "spread":-7.3,
     "team_1_id":"moravian",
     "team_2_id":"elizabethtown"
+  },
+  {
+    "date":"2027-01-27",
+    "team_1":"Occidental",
+    "team_1_pred_score":67.7,
+    "hfa":"@",
+    "team_2":"Claremont-Mudd-Scripps",
+    "team_2_pred_score":81.4,
+    "spread":-13.7,
+    "team_1_id":"occidental",
+    "team_2_id":"claremont-mudd-scripps"
   },
   {
     "date":"2027-01-27",
@@ -19262,6 +21627,17 @@
   },
   {
     "date":"2027-01-27",
+    "team_1":"Gwynedd Mercy",
+    "team_1_pred_score":63.8,
+    "hfa":"@",
+    "team_2":"Marymount",
+    "team_2_pred_score":75.2,
+    "spread":-11.4,
+    "team_1_id":"gwynedd-mercy",
+    "team_2_id":"marymount"
+  },
+  {
+    "date":"2027-01-27",
     "team_1":"Eastern Mennonite",
     "team_1_pred_score":61.1,
     "hfa":"@",
@@ -19292,6 +21668,17 @@
     "spread":-10.9,
     "team_1_id":"hartford",
     "team_2_id":"suffolk"
+  },
+  {
+    "date":"2027-01-27",
+    "team_1":"Ramapo",
+    "team_1_pred_score":60.3,
+    "hfa":"@",
+    "team_2":"Kean",
+    "team_2_pred_score":70.3,
+    "spread":-10.0,
+    "team_1_id":"ramapo",
+    "team_2_id":"kean"
   },
   {
     "date":"2027-01-27",
@@ -19358,6 +21745,17 @@
     "spread":13.8,
     "team_1_id":"lancaster-bible",
     "team_2_id":"st-mary-s-md"
+  },
+  {
+    "date":"2027-01-27",
+    "team_1":"Notre Dame (Md.)",
+    "team_1_pred_score":90.1,
+    "hfa":"@",
+    "team_2":"Wilson",
+    "team_2_pred_score":82.7,
+    "spread":7.5,
+    "team_1_id":"notre-dame-md",
+    "team_2_id":"wilson"
   },
   {
     "date":"2027-01-27",
@@ -19446,6 +21844,17 @@
     "spread":-13.0,
     "team_1_id":"marywood",
     "team_2_id":"desales"
+  },
+  {
+    "date":"2027-01-27",
+    "team_1":"Merchant Marine",
+    "team_1_pred_score":60.7,
+    "hfa":"@",
+    "team_2":"Sarah Lawrence",
+    "team_2_pred_score":67.9,
+    "spread":-7.2,
+    "team_1_id":"merchant-marine",
+    "team_2_id":"sarah-lawrence"
   },
   {
     "date":"2027-01-27",
@@ -19658,6 +22067,17 @@
   },
   {
     "date":"2027-01-29",
+    "team_1":"Connecticut College",
+    "team_1_pred_score":66.9,
+    "hfa":"@",
+    "team_2":"Wesleyan",
+    "team_2_pred_score":77.2,
+    "spread":-10.4,
+    "team_1_id":"connecticut-college",
+    "team_2_id":"wesleyan"
+  },
+  {
+    "date":"2027-01-29",
     "team_1":"SUNY Geneseo",
     "team_1_pred_score":72.6,
     "hfa":"@",
@@ -19768,6 +22188,17 @@
   },
   {
     "date":"2027-01-29",
+    "team_1":"Thomas",
+    "team_1_pred_score":68.4,
+    "hfa":"@",
+    "team_2":"Maine Maritime",
+    "team_2_pred_score":73.8,
+    "spread":-5.4,
+    "team_1_id":"thomas",
+    "team_2_id":"maine-maritime"
+  },
+  {
+    "date":"2027-01-29",
     "team_1":"Baruch",
     "team_1_pred_score":67.3,
     "hfa":"@",
@@ -19787,17 +22218,6 @@
     "spread":-6.6,
     "team_1_id":"alfred-state",
     "team_2_id":"plattsburgh-state"
-  },
-  {
-    "date":"2027-01-29",
-    "team_1":"Clarkson",
-    "team_1_pred_score":75.3,
-    "hfa":"@",
-    "team_2":"Bard",
-    "team_2_pred_score":63.6,
-    "spread":11.7,
-    "team_1_id":"clarkson",
-    "team_2_id":"bard"
   },
   {
     "date":"2027-01-29",
@@ -19966,6 +22386,17 @@
   },
   {
     "date":"2027-01-30",
+    "team_1":"Washington and Lee",
+    "team_1_pred_score":66.6,
+    "hfa":"@",
+    "team_2":"Shenandoah",
+    "team_2_pred_score":66.5,
+    "spread":0.1,
+    "team_1_id":"washington-and-lee",
+    "team_2_id":"shenandoah"
+  },
+  {
+    "date":"2027-01-30",
     "team_1":"Randolph-Macon",
     "team_1_pred_score":86.4,
     "hfa":"@",
@@ -19996,6 +22427,17 @@
     "spread":-0.1,
     "team_1_id":"scranton",
     "team_2_id":"juniata"
+  },
+  {
+    "date":"2027-01-30",
+    "team_1":"TCNJ",
+    "team_1_pred_score":82.5,
+    "hfa":"@",
+    "team_2":"Montclair State",
+    "team_2_pred_score":89.3,
+    "spread":-6.8,
+    "team_1_id":"tcnj",
+    "team_2_id":"montclair-state"
   },
   {
     "date":"2027-01-30",
@@ -20109,6 +22551,17 @@
   },
   {
     "date":"2027-01-30",
+    "team_1":"Connecticut College",
+    "team_1_pred_score":65.9,
+    "hfa":"@",
+    "team_2":"Trinity (Conn.)",
+    "team_2_pred_score":78.8,
+    "spread":-12.9,
+    "team_1_id":"connecticut-college",
+    "team_2_id":"trinity-conn"
+  },
+  {
+    "date":"2027-01-30",
     "team_1":"SUNY Geneseo",
     "team_1_pred_score":71.8,
     "hfa":"@",
@@ -20117,6 +22570,17 @@
     "spread":2.5,
     "team_1_id":"suny-geneseo",
     "team_2_id":"st-john-fisher"
+  },
+  {
+    "date":"2027-01-30",
+    "team_1":"Pomona-Pitzer",
+    "team_1_pred_score":73.4,
+    "hfa":"@",
+    "team_2":"Occidental",
+    "team_2_pred_score":76.4,
+    "spread":-3.1,
+    "team_1_id":"pomona-pitzer",
+    "team_2_id":"occidental"
   },
   {
     "date":"2027-01-30",
@@ -20205,6 +22669,17 @@
     "spread":-5.7,
     "team_1_id":"mass-boston",
     "team_2_id":"eastern-connecticut"
+  },
+  {
+    "date":"2027-01-30",
+    "team_1":"Marietta",
+    "team_1_pred_score":75.2,
+    "hfa":"@",
+    "team_2":"Baldwin Wallace",
+    "team_2_pred_score":82.1,
+    "spread":-6.9,
+    "team_1_id":"marietta",
+    "team_2_id":"baldwin-wallace"
   },
   {
     "date":"2027-01-30",
@@ -20516,6 +22991,17 @@
   },
   {
     "date":"2027-01-30",
+    "team_1":"Kean",
+    "team_1_pred_score":73.4,
+    "hfa":"@",
+    "team_2":"William Paterson",
+    "team_2_pred_score":63.3,
+    "spread":10.1,
+    "team_1_id":"kean",
+    "team_2_id":"william-paterson"
+  },
+  {
+    "date":"2027-01-30",
     "team_1":"Berea",
     "team_1_pred_score":61.4,
     "hfa":"@",
@@ -20557,6 +23043,17 @@
     "spread":-4.4,
     "team_1_id":"wilson",
     "team_2_id":"keystone"
+  },
+  {
+    "date":"2027-01-30",
+    "team_1":"Widener",
+    "team_1_pred_score":80.6,
+    "hfa":"@",
+    "team_2":"Hood",
+    "team_2_pred_score":102.7,
+    "spread":-22.1,
+    "team_1_id":"widener",
+    "team_2_id":"hood"
   },
   {
     "date":"2027-01-30",
@@ -20656,6 +23153,17 @@
     "spread":-17.6,
     "team_1_id":"alma",
     "team_2_id":"trine"
+  },
+  {
+    "date":"2027-01-30",
+    "team_1":"St. Lawrence",
+    "team_1_pred_score":68.6,
+    "hfa":"@",
+    "team_2":"Bard",
+    "team_2_pred_score":56.9,
+    "spread":11.7,
+    "team_1_id":"st-lawrence",
+    "team_2_id":"bard"
   },
   {
     "date":"2027-01-30",
@@ -20889,6 +23397,17 @@
     "team_2_id":"emory"
   },
   {
+    "date":"2027-01-31",
+    "team_1":"Yeshiva",
+    "team_1_pred_score":78.7,
+    "hfa":"@",
+    "team_2":"Merchant Marine",
+    "team_2_pred_score":67.2,
+    "spread":11.5,
+    "team_1_id":"yeshiva",
+    "team_2_id":"merchant-marine"
+  },
+  {
     "date":"2027-02-01",
     "team_1":"Martin Luther",
     "team_1_pred_score":87.1,
@@ -21022,6 +23541,17 @@
   },
   {
     "date":"2027-02-02",
+    "team_1":"Lehman",
+    "team_1_pred_score":75.9,
+    "hfa":"@",
+    "team_2":"CCNY",
+    "team_2_pred_score":66.4,
+    "spread":9.5,
+    "team_1_id":"lehman",
+    "team_2_id":"ccny"
+  },
+  {
+    "date":"2027-02-02",
     "team_1":"John Jay",
     "team_1_pred_score":67.4,
     "hfa":"@",
@@ -21041,6 +23571,17 @@
     "spread":-9.3,
     "team_1_id":"elms",
     "team_2_id":"dean"
+  },
+  {
+    "date":"2027-02-02",
+    "team_1":"Notre Dame (Md.)",
+    "team_1_pred_score":94.0,
+    "hfa":"@",
+    "team_2":"Penn State-Berks",
+    "team_2_pred_score":75.7,
+    "spread":18.3,
+    "team_1_id":"notre-dame-md",
+    "team_2_id":"penn-state-berks"
   },
   {
     "date":"2027-02-02",
@@ -21297,6 +23838,17 @@
   },
   {
     "date":"2027-02-03",
+    "team_1":"Rowan",
+    "team_1_pred_score":78.0,
+    "hfa":"@",
+    "team_2":"TCNJ",
+    "team_2_pred_score":83.6,
+    "spread":-5.5,
+    "team_1_id":"rowan",
+    "team_2_id":"tcnj"
+  },
+  {
+    "date":"2027-02-03",
     "team_1":"Catholic",
     "team_1_pred_score":70.1,
     "hfa":"@",
@@ -21404,6 +23956,17 @@
     "spread":-7.2,
     "team_1_id":"rhode-island-college",
     "team_2_id":"southern-maine"
+  },
+  {
+    "date":"2027-02-03",
+    "team_1":"Shenandoah",
+    "team_1_pred_score":59.6,
+    "hfa":"@",
+    "team_2":"Batten",
+    "team_2_pred_score":69.6,
+    "spread":-10.0,
+    "team_1_id":"shenandoah",
+    "team_2_id":"batten"
   },
   {
     "date":"2027-02-03",
@@ -21627,6 +24190,17 @@
   },
   {
     "date":"2027-02-03",
+    "team_1":"William Paterson",
+    "team_1_pred_score":64.1,
+    "hfa":"@",
+    "team_2":"Ramapo",
+    "team_2_pred_score":70.9,
+    "spread":-6.8,
+    "team_1_id":"william-paterson",
+    "team_2_id":"ramapo"
+  },
+  {
+    "date":"2027-02-03",
     "team_1":"Neumann",
     "team_1_pred_score":78.6,
     "hfa":"@",
@@ -21682,6 +24256,17 @@
   },
   {
     "date":"2027-02-03",
+    "team_1":"SUNY-Old Westbury",
+    "team_1_pred_score":73.9,
+    "hfa":"@",
+    "team_2":"Mount St. Vincent",
+    "team_2_pred_score":73.5,
+    "spread":0.4,
+    "team_1_id":"suny-old-westbury",
+    "team_2_id":"mount-st-vincent"
+  },
+  {
+    "date":"2027-02-03",
     "team_1":"Geneva",
     "team_1_pred_score":68.9,
     "hfa":"@",
@@ -21690,6 +24275,17 @@
     "spread":-7.8,
     "team_1_id":"geneva",
     "team_2_id":"westminster-pa"
+  },
+  {
+    "date":"2027-02-03",
+    "team_1":"Merchant Marine",
+    "team_1_pred_score":63.4,
+    "hfa":"@",
+    "team_2":"SUNY-Purchase",
+    "team_2_pred_score":68.9,
+    "spread":-5.5,
+    "team_1_id":"merchant-marine",
+    "team_2_id":"suny-purchase"
   },
   {
     "date":"2027-02-03",
@@ -21704,6 +24300,28 @@
   },
   {
     "date":"2027-02-03",
+    "team_1":"Washington College",
+    "team_1_pred_score":68.4,
+    "hfa":"@",
+    "team_2":"Ursinus",
+    "team_2_pred_score":84.4,
+    "spread":-16.0,
+    "team_1_id":"washington-college",
+    "team_2_id":"ursinus"
+  },
+  {
+    "date":"2027-02-03",
+    "team_1":"Transylvania",
+    "team_1_pred_score":75.7,
+    "hfa":"@",
+    "team_2":"Earlham",
+    "team_2_pred_score":60.1,
+    "spread":15.6,
+    "team_1_id":"transylvania",
+    "team_2_id":"earlham"
+  },
+  {
+    "date":"2027-02-03",
     "team_1":"Lakeland",
     "team_1_pred_score":82.2,
     "hfa":"@",
@@ -21715,14 +24333,14 @@
   },
   {
     "date":"2027-02-03",
-    "team_1":"Hope",
-    "team_1_pred_score":84.4,
+    "team_1":"Waynesburg",
+    "team_1_pred_score":63.5,
     "hfa":"@",
-    "team_2":"Kalamazoo",
-    "team_2_pred_score":66.1,
-    "spread":18.3,
-    "team_1_id":"hope",
-    "team_2_id":"kalamazoo"
+    "team_2":"Washington and Jefferson",
+    "team_2_pred_score":86.5,
+    "spread":-23.0,
+    "team_1_id":"waynesburg",
+    "team_2_id":"washington-and-jefferson"
   },
   {
     "date":"2027-02-04",
@@ -21758,6 +24376,17 @@
     "team_2_id":"baruch"
   },
   {
+    "date":"2027-02-04",
+    "team_1":"Gwynedd Mercy",
+    "team_1_pred_score":89.7,
+    "hfa":"@",
+    "team_2":"Penn State-Berks",
+    "team_2_pred_score":71.7,
+    "spread":18.0,
+    "team_1_id":"gwynedd-mercy",
+    "team_2_id":"penn-state-berks"
+  },
+  {
     "date":"2027-02-05",
     "team_1":"Oswego State",
     "team_1_pred_score":68.7,
@@ -21778,6 +24407,28 @@
     "spread":2.0,
     "team_1_id":"rpi",
     "team_2_id":"hobart"
+  },
+  {
+    "date":"2027-02-05",
+    "team_1":"Amherst",
+    "team_1_pred_score":68.2,
+    "hfa":"@",
+    "team_2":"Connecticut College",
+    "team_2_pred_score":63.7,
+    "spread":4.5,
+    "team_1_id":"amherst",
+    "team_2_id":"connecticut-college"
+  },
+  {
+    "date":"2027-02-05",
+    "team_1":"Ithaca",
+    "team_1_pred_score":70.1,
+    "hfa":"@",
+    "team_2":"St. Lawrence",
+    "team_2_pred_score":69.4,
+    "spread":0.7,
+    "team_1_id":"ithaca",
+    "team_2_id":"st-lawrence"
   },
   {
     "date":"2027-02-05",
@@ -22055,6 +24706,17 @@
     "team_2_id":"vassar"
   },
   {
+    "date":"2027-02-05",
+    "team_1":"Medgar Evers",
+    "team_1_pred_score":63.9,
+    "hfa":"@",
+    "team_2":"John Jay",
+    "team_2_pred_score":82.4,
+    "spread":-18.4,
+    "team_1_id":"medgar-evers",
+    "team_2_id":"john-jay"
+  },
+  {
     "date":"2027-02-06",
     "team_1":"Amherst",
     "team_1_pred_score":62.7,
@@ -22177,6 +24839,17 @@
   },
   {
     "date":"2027-02-06",
+    "team_1":"TCNJ",
+    "team_1_pred_score":70.2,
+    "hfa":"@",
+    "team_2":"Kean",
+    "team_2_pred_score":71.7,
+    "spread":-1.5,
+    "team_1_id":"tcnj",
+    "team_2_id":"kean"
+  },
+  {
+    "date":"2027-02-06",
     "team_1":"Ithaca",
     "team_1_pred_score":77.2,
     "hfa":"@",
@@ -22210,6 +24883,17 @@
   },
   {
     "date":"2027-02-06",
+    "team_1":"Gettysburg",
+    "team_1_pred_score":68.4,
+    "hfa":"@",
+    "team_2":"Swarthmore",
+    "team_2_pred_score":63.4,
+    "spread":4.9,
+    "team_1_id":"gettysburg",
+    "team_2_id":"swarthmore"
+  },
+  {
+    "date":"2027-02-06",
     "team_1":"Bates",
     "team_1_pred_score":77.4,
     "hfa":"@",
@@ -22240,6 +24924,17 @@
     "spread":-6.1,
     "team_1_id":"millikin",
     "team_2_id":"wheaton-ill"
+  },
+  {
+    "date":"2027-02-06",
+    "team_1":"Baldwin Wallace",
+    "team_1_pred_score":74.3,
+    "hfa":"@",
+    "team_2":"Capital",
+    "team_2_pred_score":78.2,
+    "spread":-3.9,
+    "team_1_id":"baldwin-wallace",
+    "team_2_id":"capital"
   },
   {
     "date":"2027-02-06",
@@ -22298,6 +24993,17 @@
   },
   {
     "date":"2027-02-06",
+    "team_1":"Hamilton",
+    "team_1_pred_score":68.5,
+    "hfa":"@",
+    "team_2":"Connecticut College",
+    "team_2_pred_score":74.8,
+    "spread":-6.3,
+    "team_1_id":"hamilton",
+    "team_2_id":"connecticut-college"
+  },
+  {
+    "date":"2027-02-06",
     "team_1":"Hood",
     "team_1_pred_score":90.5,
     "hfa":"@",
@@ -22342,6 +25048,17 @@
   },
   {
     "date":"2027-02-06",
+    "team_1":"Occidental",
+    "team_1_pred_score":71.3,
+    "hfa":"@",
+    "team_2":"Chapman",
+    "team_2_pred_score":77.1,
+    "spread":-5.8,
+    "team_1_id":"occidental",
+    "team_2_id":"chapman"
+  },
+  {
+    "date":"2027-02-06",
     "team_1":"Misericordia",
     "team_1_pred_score":70.6,
     "hfa":"@",
@@ -22383,6 +25100,17 @@
     "spread":8.0,
     "team_1_id":"hardin-simmons",
     "team_2_id":"east-texas-baptist"
+  },
+  {
+    "date":"2027-02-06",
+    "team_1":"Belhaven",
+    "team_1_pred_score":84.9,
+    "hfa":"@",
+    "team_2":"LaGrange",
+    "team_2_pred_score":80.1,
+    "spread":4.8,
+    "team_1_id":"belhaven",
+    "team_2_id":"lagrange"
   },
   {
     "date":"2027-02-06",
@@ -22496,6 +25224,17 @@
   },
   {
     "date":"2027-02-06",
+    "team_1":"Shenandoah",
+    "team_1_pred_score":73.8,
+    "hfa":"@",
+    "team_2":"Randolph",
+    "team_2_pred_score":68.6,
+    "spread":5.2,
+    "team_1_id":"shenandoah",
+    "team_2_id":"randolph"
+  },
+  {
+    "date":"2027-02-06",
     "team_1":"Keuka",
     "team_1_pred_score":65.7,
     "hfa":"@",
@@ -22548,6 +25287,28 @@
     "spread":-7.4,
     "team_1_id":"mcmurry",
     "team_2_id":"mary-hardin-baylor"
+  },
+  {
+    "date":"2027-02-06",
+    "team_1":"Nichols",
+    "team_1_pred_score":81.9,
+    "hfa":"@",
+    "team_2":"Roger Williams",
+    "team_2_pred_score":87.9,
+    "spread":-6.0,
+    "team_1_id":"nichols",
+    "team_2_id":"roger-williams"
+  },
+  {
+    "date":"2027-02-06",
+    "team_1":"Babson",
+    "team_1_pred_score":74.2,
+    "hfa":"@",
+    "team_2":"Springfield",
+    "team_2_pred_score":61.9,
+    "spread":12.3,
+    "team_1_id":"babson",
+    "team_2_id":"springfield"
   },
   {
     "date":"2027-02-06",
@@ -22691,6 +25452,17 @@
     "spread":-9.5,
     "team_1_id":"lebanon-valley",
     "team_2_id":"desales"
+  },
+  {
+    "date":"2027-02-06",
+    "team_1":"Buffalo State",
+    "team_1_pred_score":72.0,
+    "hfa":"@",
+    "team_2":"SUNY Potsdam",
+    "team_2_pred_score":72.5,
+    "spread":-0.4,
+    "team_1_id":"buffalo-state",
+    "team_2_id":"suny-potsdam"
   },
   {
     "date":"2027-02-06",
@@ -22980,6 +25752,17 @@
   },
   {
     "date":"2027-02-06",
+    "team_1":"Messiah",
+    "team_1_pred_score":74.1,
+    "hfa":"@",
+    "team_2":"Widener",
+    "team_2_pred_score":87.9,
+    "spread":-13.8,
+    "team_1_id":"messiah",
+    "team_2_id":"widener"
+  },
+  {
+    "date":"2027-02-06",
     "team_1":"Calvin",
     "team_1_pred_score":85.2,
     "hfa":"@",
@@ -22999,6 +25782,17 @@
     "spread":-14.7,
     "team_1_id":"bard",
     "team_2_id":"skidmore"
+  },
+  {
+    "date":"2027-02-06",
+    "team_1":"Thomas",
+    "team_1_pred_score":92.3,
+    "hfa":"@",
+    "team_2":"NVU-Lyndon",
+    "team_2_pred_score":84.3,
+    "spread":8.0,
+    "team_1_id":"thomas",
+    "team_2_id":"nvu-lyndon"
   },
   {
     "date":"2027-02-06",
@@ -23222,6 +26016,17 @@
   },
   {
     "date":"2027-02-09",
+    "team_1":"SUNY-Purchase",
+    "team_1_pred_score":75.4,
+    "hfa":"@",
+    "team_2":"Mount St. Vincent",
+    "team_2_pred_score":70.7,
+    "spread":4.7,
+    "team_1_id":"suny-purchase",
+    "team_2_id":"mount-st-vincent"
+  },
+  {
+    "date":"2027-02-09",
     "team_1":"Farmingdale State",
     "team_1_pred_score":79.7,
     "hfa":"@",
@@ -23310,6 +26115,17 @@
   },
   {
     "date":"2027-02-10",
+    "team_1":"Ursinus",
+    "team_1_pred_score":78.7,
+    "hfa":"@",
+    "team_2":"Swarthmore",
+    "team_2_pred_score":77.7,
+    "spread":1.1,
+    "team_1_id":"ursinus",
+    "team_2_id":"swarthmore"
+  },
+  {
+    "date":"2027-02-10",
     "team_1":"UW-Stout",
     "team_1_pred_score":67.7,
     "hfa":"@",
@@ -23332,6 +26148,17 @@
   },
   {
     "date":"2027-02-10",
+    "team_1":"Kean",
+    "team_1_pred_score":75.5,
+    "hfa":"@",
+    "team_2":"Rowan",
+    "team_2_pred_score":75.9,
+    "spread":-0.3,
+    "team_1_id":"kean",
+    "team_2_id":"rowan"
+  },
+  {
+    "date":"2027-02-10",
     "team_1":"Franklin and Marshall",
     "team_1_pred_score":60.8,
     "hfa":"@",
@@ -23340,6 +26167,17 @@
     "spread":-6.8,
     "team_1_id":"franklin-and-marshall",
     "team_2_id":"johns-hopkins"
+  },
+  {
+    "date":"2027-02-10",
+    "team_1":"Franklin",
+    "team_1_pred_score":67.0,
+    "hfa":"@",
+    "team_2":"Transylvania",
+    "team_2_pred_score":72.4,
+    "spread":-5.4,
+    "team_1_id":"franklin",
+    "team_2_id":"transylvania"
   },
   {
     "date":"2027-02-10",
@@ -23384,6 +26222,17 @@
     "spread":-7.8,
     "team_1_id":"uw-eau-claire",
     "team_2_id":"uw-oshkosh"
+  },
+  {
+    "date":"2027-02-10",
+    "team_1":"Salve Regina",
+    "team_1_pred_score":68.2,
+    "hfa":"@",
+    "team_2":"Springfield",
+    "team_2_pred_score":68.2,
+    "spread":0.0,
+    "team_1_id":"salve-regina",
+    "team_2_id":"springfield"
   },
   {
     "date":"2027-02-10",
@@ -23439,6 +26288,17 @@
     "spread":-7.8,
     "team_1_id":"wilkes",
     "team_2_id":"drew"
+  },
+  {
+    "date":"2027-02-10",
+    "team_1":"Otterbein",
+    "team_1_pred_score":79.7,
+    "hfa":"@",
+    "team_2":"Wilmington",
+    "team_2_pred_score":73.1,
+    "spread":6.6,
+    "team_1_id":"otterbein",
+    "team_2_id":"wilmington"
   },
   {
     "date":"2027-02-10",
@@ -23593,6 +26453,17 @@
     "spread":2.7,
     "team_1_id":"berea",
     "team_2_id":"earlham"
+  },
+  {
+    "date":"2027-02-10",
+    "team_1":"Montclair State",
+    "team_1_pred_score":85.2,
+    "hfa":"@",
+    "team_2":"Ramapo",
+    "team_2_pred_score":74.2,
+    "spread":11.0,
+    "team_1_id":"montclair-state",
+    "team_2_id":"ramapo"
   },
   {
     "date":"2027-02-10",
@@ -23805,6 +26676,17 @@
   },
   {
     "date":"2027-02-10",
+    "team_1":"William Paterson",
+    "team_1_pred_score":65.3,
+    "hfa":"@",
+    "team_2":"TCNJ",
+    "team_2_pred_score":81.4,
+    "spread":-16.1,
+    "team_1_id":"william-paterson",
+    "team_2_id":"tcnj"
+  },
+  {
+    "date":"2027-02-10",
     "team_1":"Penn State-Abington",
     "team_1_pred_score":77.2,
     "hfa":"@",
@@ -23882,6 +26764,17 @@
   },
   {
     "date":"2027-02-10",
+    "team_1":"CCNY",
+    "team_1_pred_score":77.0,
+    "hfa":"@",
+    "team_2":"Medgar Evers",
+    "team_2_pred_score":65.6,
+    "spread":11.4,
+    "team_1_id":"ccny",
+    "team_2_id":"medgar-evers"
+  },
+  {
+    "date":"2027-02-10",
     "team_1":"Caltech",
     "team_1_pred_score":59.4,
     "hfa":"@",
@@ -23945,6 +26838,17 @@
     "spread":-6.1,
     "team_1_id":"williams",
     "team_2_id":"amherst"
+  },
+  {
+    "date":"2027-02-12",
+    "team_1":"Hobart",
+    "team_1_pred_score":66.3,
+    "hfa":"@",
+    "team_2":"St. Lawrence",
+    "team_2_pred_score":64.8,
+    "spread":1.5,
+    "team_1_id":"hobart",
+    "team_2_id":"st-lawrence"
   },
   {
     "date":"2027-02-12",
@@ -24154,6 +27058,28 @@
     "spread":-3.7,
     "team_1_id":"alfred-state",
     "team_2_id":"buffalo-state"
+  },
+  {
+    "date":"2027-02-12",
+    "team_1":"Thomas",
+    "team_1_pred_score":76.6,
+    "hfa":"@",
+    "team_2":"Husson",
+    "team_2_pred_score":86.6,
+    "spread":-10.0,
+    "team_1_id":"thomas",
+    "team_2_id":"husson"
+  },
+  {
+    "date":"2027-02-12",
+    "team_1":"CCNY",
+    "team_1_pred_score":69.3,
+    "hfa":"@",
+    "team_2":"John Jay",
+    "team_2_pred_score":73.3,
+    "spread":-4.0,
+    "team_1_id":"ccny",
+    "team_2_id":"john-jay"
   },
   {
     "date":"2027-02-12",
@@ -24454,6 +27380,17 @@
   },
   {
     "date":"2027-02-13",
+    "team_1":"Montclair State",
+    "team_1_pred_score":93.6,
+    "hfa":"@",
+    "team_2":"Rowan",
+    "team_2_pred_score":88.6,
+    "spread":5.0,
+    "team_1_id":"montclair-state",
+    "team_2_id":"rowan"
+  },
+  {
+    "date":"2027-02-13",
     "team_1":"Capital",
     "team_1_pred_score":70.4,
     "hfa":"@",
@@ -24583,6 +27520,17 @@
     "spread":9.8,
     "team_1_id":"mount-union",
     "team_2_id":"wilmington"
+  },
+  {
+    "date":"2027-02-13",
+    "team_1":"Skidmore",
+    "team_1_pred_score":60.4,
+    "hfa":"@",
+    "team_2":"St. Lawrence",
+    "team_2_pred_score":64.7,
+    "spread":-4.3,
+    "team_1_id":"skidmore",
+    "team_2_id":"st-lawrence"
   },
   {
     "date":"2027-02-13",
@@ -24839,6 +27787,17 @@
   },
   {
     "date":"2027-02-13",
+    "team_1":"Shenandoah",
+    "team_1_pred_score":58.3,
+    "hfa":"@",
+    "team_2":"Roanoke",
+    "team_2_pred_score":74.2,
+    "spread":-15.9,
+    "team_1_id":"shenandoah",
+    "team_2_id":"roanoke"
+  },
+  {
+    "date":"2027-02-13",
     "team_1":"Covenant",
     "team_1_pred_score":93.3,
     "hfa":"@",
@@ -24949,6 +27908,17 @@
   },
   {
     "date":"2027-02-13",
+    "team_1":"La Verne",
+    "team_1_pred_score":74.6,
+    "hfa":"@",
+    "team_2":"Occidental",
+    "team_2_pred_score":84.0,
+    "spread":-9.5,
+    "team_1_id":"la-verne",
+    "team_2_id":"occidental"
+  },
+  {
+    "date":"2027-02-13",
     "team_1":"Hiram",
     "team_1_pred_score":69.3,
     "hfa":"@",
@@ -24993,6 +27963,17 @@
   },
   {
     "date":"2027-02-13",
+    "team_1":"Thomas",
+    "team_1_pred_score":70.9,
+    "hfa":"@",
+    "team_2":"Maine-Presque Isle",
+    "team_2_pred_score":73.6,
+    "spread":-2.7,
+    "team_1_id":"thomas",
+    "team_2_id":"maine-presque-isle"
+  },
+  {
+    "date":"2027-02-13",
     "team_1":"Penn State-Altoona",
     "team_1_pred_score":73.9,
     "hfa":"@",
@@ -25004,6 +27985,17 @@
   },
   {
     "date":"2027-02-13",
+    "team_1":"Gettysburg",
+    "team_1_pred_score":71.2,
+    "hfa":"@",
+    "team_2":"Washington College",
+    "team_2_pred_score":57.2,
+    "spread":14.0,
+    "team_1_id":"gettysburg",
+    "team_2_id":"washington-college"
+  },
+  {
+    "date":"2027-02-13",
     "team_1":"Concordia-Chicago",
     "team_1_pred_score":64.5,
     "hfa":"@",
@@ -25012,17 +28004,6 @@
     "spread":-10.4,
     "team_1_id":"concordia-chicago",
     "team_2_id":"marian"
-  },
-  {
-    "date":"2027-02-13",
-    "team_1":"Albion",
-    "team_1_pred_score":79.7,
-    "hfa":"@",
-    "team_2":"Kalamazoo",
-    "team_2_pred_score":71.9,
-    "spread":7.8,
-    "team_1_id":"albion",
-    "team_2_id":"kalamazoo"
   },
   {
     "date":"2027-02-13",
@@ -25169,6 +28150,17 @@
   },
   {
     "date":"2027-02-13",
+    "team_1":"Manchester",
+    "team_1_pred_score":66.7,
+    "hfa":"@",
+    "team_2":"Transylvania",
+    "team_2_pred_score":86.8,
+    "spread":-20.1,
+    "team_1_id":"manchester",
+    "team_2_id":"transylvania"
+  },
+  {
+    "date":"2027-02-13",
     "team_1":"Mount Aloysius",
     "team_1_pred_score":72.0,
     "hfa":"@",
@@ -25180,6 +28172,28 @@
   },
   {
     "date":"2027-02-13",
+    "team_1":"Centenary (N.J.)",
+    "team_1_pred_score":58.6,
+    "hfa":"@",
+    "team_2":"Marymount",
+    "team_2_pred_score":77.2,
+    "spread":-18.6,
+    "team_1_id":"centenary-n-j",
+    "team_2_id":"marymount"
+  },
+  {
+    "date":"2027-02-13",
+    "team_1":"Waynesburg",
+    "team_1_pred_score":67.0,
+    "hfa":"@",
+    "team_2":"Chatham",
+    "team_2_pred_score":81.8,
+    "spread":-14.8,
+    "team_1_id":"waynesburg",
+    "team_2_id":"chatham"
+  },
+  {
+    "date":"2027-02-13",
     "team_1":"Castleton",
     "team_1_pred_score":62.9,
     "hfa":"@",
@@ -25188,6 +28202,17 @@
     "spread":-17.1,
     "team_1_id":"castleton",
     "team_2_id":"eastern-connecticut"
+  },
+  {
+    "date":"2027-02-13",
+    "team_1":"Wilson",
+    "team_1_pred_score":76.0,
+    "hfa":"@",
+    "team_2":"Lancaster Bible",
+    "team_2_pred_score":100.6,
+    "spread":-24.5,
+    "team_1_id":"wilson",
+    "team_2_id":"lancaster-bible"
   },
   {
     "date":"2027-02-13",
@@ -25210,6 +28235,17 @@
     "spread":-30.6,
     "team_1_id":"randolph",
     "team_2_id":"randolph-macon"
+  },
+  {
+    "date":"2027-02-13",
+    "team_1":"Penn State-Berks",
+    "team_1_pred_score":78.4,
+    "hfa":"@",
+    "team_2":"Penn College",
+    "team_2_pred_score":87.6,
+    "spread":-9.2,
+    "team_1_id":"penn-state-berks",
+    "team_2_id":"penn-college"
   },
   {
     "date":"2027-02-13",
@@ -25454,6 +28490,28 @@
     "team_2_id":"keuka"
   },
   {
+    "date":"2027-02-16",
+    "team_1":"John Jay",
+    "team_1_pred_score":66.4,
+    "hfa":"@",
+    "team_2":"Lehman",
+    "team_2_pred_score":79.6,
+    "spread":-13.2,
+    "team_1_id":"john-jay",
+    "team_2_id":"lehman"
+  },
+  {
+    "date":"2027-02-16",
+    "team_1":"Maranatha Baptist",
+    "team_1_pred_score":72.3,
+    "hfa":"@",
+    "team_2":"Lakeland",
+    "team_2_pred_score":93.6,
+    "spread":-21.3,
+    "team_1_id":"maranatha-baptist",
+    "team_2_id":"lakeland"
+  },
+  {
     "date":"2027-02-17",
     "team_1":"Denison",
     "team_1_pred_score":71.7,
@@ -25518,6 +28576,17 @@
     "spread":0.6,
     "team_1_id":"nebraska-wesleyan",
     "team_2_id":"central"
+  },
+  {
+    "date":"2027-02-17",
+    "team_1":"Gettysburg",
+    "team_1_pred_score":62.1,
+    "hfa":"@",
+    "team_2":"Johns Hopkins",
+    "team_2_pred_score":67.0,
+    "spread":-4.9,
+    "team_1_id":"gettysburg",
+    "team_2_id":"johns-hopkins"
   },
   {
     "date":"2027-02-17",
@@ -25595,6 +28664,17 @@
     "spread":0.8,
     "team_1_id":"swarthmore",
     "team_2_id":"muhlenberg"
+  },
+  {
+    "date":"2027-02-17",
+    "team_1":"Baldwin Wallace",
+    "team_1_pred_score":75.5,
+    "hfa":"@",
+    "team_2":"Heidelberg",
+    "team_2_pred_score":78.5,
+    "spread":-3.0,
+    "team_1_id":"baldwin-wallace",
+    "team_2_id":"heidelberg"
   },
   {
     "date":"2027-02-17",
@@ -25705,6 +28785,17 @@
     "spread":-6.5,
     "team_1_id":"ohio-wesleyan",
     "team_2_id":"wabash"
+  },
+  {
+    "date":"2027-02-17",
+    "team_1":"Marymount",
+    "team_1_pred_score":72.8,
+    "hfa":"@",
+    "team_2":"Gwynedd Mercy",
+    "team_2_pred_score":66.1,
+    "spread":6.7,
+    "team_1_id":"marymount",
+    "team_2_id":"gwynedd-mercy"
   },
   {
     "date":"2027-02-17",
@@ -25862,6 +28953,17 @@
   },
   {
     "date":"2027-02-17",
+    "team_1":"Rowan",
+    "team_1_pred_score":82.4,
+    "hfa":"@",
+    "team_2":"William Paterson",
+    "team_2_pred_score":73.8,
+    "spread":8.5,
+    "team_1_id":"rowan",
+    "team_2_id":"william-paterson"
+  },
+  {
+    "date":"2027-02-17",
     "team_1":"Geneva",
     "team_1_pred_score":69.9,
     "hfa":"@",
@@ -26016,6 +29118,17 @@
   },
   {
     "date":"2027-02-17",
+    "team_1":"SUNY-Old Westbury",
+    "team_1_pred_score":65.1,
+    "hfa":"@",
+    "team_2":"Merchant Marine",
+    "team_2_pred_score":68.1,
+    "spread":-3.1,
+    "team_1_id":"suny-old-westbury",
+    "team_2_id":"merchant-marine"
+  },
+  {
+    "date":"2027-02-17",
     "team_1":"Brevard",
     "team_1_pred_score":78.1,
     "hfa":"@",
@@ -26082,6 +29195,17 @@
   },
   {
     "date":"2027-02-17",
+    "team_1":"Randolph",
+    "team_1_pred_score":63.1,
+    "hfa":"@",
+    "team_2":"Hampden-Sydney",
+    "team_2_pred_score":84.0,
+    "spread":-20.9,
+    "team_1_id":"randolph",
+    "team_2_id":"hampden-sydney"
+  },
+  {
+    "date":"2027-02-17",
     "team_1":"Mount Aloysius",
     "team_1_pred_score":78.2,
     "hfa":"@",
@@ -26112,6 +29236,17 @@
     "spread":18.4,
     "team_1_id":"cortland",
     "team_2_id":"alfred-state"
+  },
+  {
+    "date":"2027-02-17",
+    "team_1":"Yeshiva",
+    "team_1_pred_score":88.7,
+    "hfa":"@",
+    "team_2":"Mount St. Vincent",
+    "team_2_pred_score":72.1,
+    "spread":16.6,
+    "team_1_id":"yeshiva",
+    "team_2_id":"mount-st-vincent"
   },
   {
     "date":"2027-02-17",
@@ -26222,6 +29357,17 @@
     "spread":3.9,
     "team_1_id":"puget-sound",
     "team_2_id":"whitman"
+  },
+  {
+    "date":"2027-02-19",
+    "team_1":"St. Lawrence",
+    "team_1_pred_score":51.1,
+    "hfa":"@",
+    "team_2":"RPI",
+    "team_2_pred_score":60.2,
+    "spread":-9.1,
+    "team_1_id":"st-lawrence",
+    "team_2_id":"rpi"
   },
   {
     "date":"2027-02-19",
@@ -26387,6 +29533,28 @@
     "spread":-2.0,
     "team_1_id":"puget-sound",
     "team_2_id":"whitworth"
+  },
+  {
+    "date":"2027-02-20",
+    "team_1":"Washington and Jefferson",
+    "team_1_pred_score":80.4,
+    "hfa":"@",
+    "team_2":"St. Vincent",
+    "team_2_pred_score":79.2,
+    "spread":1.2,
+    "team_1_id":"washington-and-jefferson",
+    "team_2_id":"st-vincent"
+  },
+  {
+    "date":"2027-02-20",
+    "team_1":"Ursinus",
+    "team_1_pred_score":70.0,
+    "hfa":"@",
+    "team_2":"Gettysburg",
+    "team_2_pred_score":76.5,
+    "spread":-6.5,
+    "team_1_id":"ursinus",
+    "team_2_id":"gettysburg"
   },
   {
     "date":"2027-02-20",
@@ -26640,6 +29808,17 @@
     "spread":-11.1,
     "team_1_id":"uw-river-falls",
     "team_2_id":"uw-whitewater"
+  },
+  {
+    "date":"2027-02-20",
+    "team_1":"Neumann",
+    "team_1_pred_score":76.6,
+    "hfa":"@",
+    "team_2":"Widener",
+    "team_2_pred_score":80.6,
+    "spread":-4.0,
+    "team_1_id":"neumann",
+    "team_2_id":"widener"
   },
   {
     "date":"2027-02-20",
@@ -26962,6 +30141,17 @@
   },
   {
     "date":"2027-02-20",
+    "team_1":"Piedmont",
+    "team_1_pred_score":78.5,
+    "hfa":"@",
+    "team_2":"Belhaven",
+    "team_2_pred_score":94.0,
+    "spread":-15.5,
+    "team_1_id":"piedmont",
+    "team_2_id":"belhaven"
+  },
+  {
+    "date":"2027-02-20",
     "team_1":"Warren Wilson",
     "team_1_pred_score":78.9,
     "hfa":"@",
@@ -27028,17 +30218,6 @@
   },
   {
     "date":"2027-02-20",
-    "team_1":"Hobart",
-    "team_1_pred_score":80.6,
-    "hfa":"@",
-    "team_2":"Bard",
-    "team_2_pred_score":63.8,
-    "spread":16.8,
-    "team_1_id":"hobart",
-    "team_2_id":"bard"
-  },
-  {
-    "date":"2027-02-20",
     "team_1":"Southern Maine",
     "team_1_pred_score":85.4,
     "hfa":"@",
@@ -27061,6 +30240,17 @@
   },
   {
     "date":"2027-02-20",
+    "team_1":"Occidental",
+    "team_1_pred_score":88.2,
+    "hfa":"@",
+    "team_2":"Caltech",
+    "team_2_pred_score":72.9,
+    "spread":15.3,
+    "team_1_id":"occidental",
+    "team_2_id":"caltech"
+  },
+  {
+    "date":"2027-02-20",
     "team_1":"Plattsburgh State",
     "team_1_pred_score":68.6,
     "hfa":"@",
@@ -27069,6 +30259,17 @@
     "spread":-23.1,
     "team_1_id":"plattsburgh-state",
     "team_2_id":"oswego-state"
+  },
+  {
+    "date":"2027-02-20",
+    "team_1":"Mount St. Vincent",
+    "team_1_pred_score":65.5,
+    "hfa":"@",
+    "team_2":"Sarah Lawrence",
+    "team_2_pred_score":77.1,
+    "spread":-11.6,
+    "team_1_id":"mount-st-vincent",
+    "team_2_id":"sarah-lawrence"
   },
   {
     "date":"2027-02-20",
@@ -27124,6 +30325,17 @@
     "spread":-3.9,
     "team_1_id":"carnegie-mellon",
     "team_2_id":"rochester"
+  },
+  {
+    "date":"2027-02-21",
+    "team_1":"Case Western Reserve",
+    "team_1_pred_score":83.5,
+    "hfa":"@",
+    "team_2":"Emory",
+    "team_2_pred_score":94.1,
+    "spread":-10.6,
+    "team_1_id":"case-western-reserve",
+    "team_2_id":"emory"
   },
   {
     "date":"2027-02-21",
