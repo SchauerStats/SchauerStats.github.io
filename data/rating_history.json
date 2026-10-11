@@ -702,26 +702,6 @@
   {
     "team_id":"alfred-state",
     "full_team":"Alfred State",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"alfred-state",
-    "full_team":"Alfred State",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"alfred-state",
-    "full_team":"Alfred State",
     "season":2014,
     "off":82.55,
     "def":115.89,
@@ -1540,6 +1520,146 @@
     "wab":-4.246
   },
   {
+    "team_id":"anna-maria",
+    "full_team":"Anna Maria",
+    "season":2012,
+    "off":95.13,
+    "def":103.54,
+    "rating":-8.41,
+    "pace":69.0,
+    "wab":-10.605
+  },
+  {
+    "team_id":"anna-maria",
+    "full_team":"Anna Maria",
+    "season":2013,
+    "off":99.5,
+    "def":101.07,
+    "rating":-1.56,
+    "pace":71.34,
+    "wab":-6.394
+  },
+  {
+    "team_id":"anna-maria",
+    "full_team":"Anna Maria",
+    "season":2014,
+    "off":98.04,
+    "def":111.59,
+    "rating":-13.55,
+    "pace":69.89,
+    "wab":-13.036
+  },
+  {
+    "team_id":"anna-maria",
+    "full_team":"Anna Maria",
+    "season":2015,
+    "off":100.16,
+    "def":109.31,
+    "rating":-9.14,
+    "pace":71.2,
+    "wab":-9.778
+  },
+  {
+    "team_id":"anna-maria",
+    "full_team":"Anna Maria",
+    "season":2016,
+    "off":101.34,
+    "def":108.24,
+    "rating":-6.9,
+    "pace":76.0,
+    "wab":-7.763
+  },
+  {
+    "team_id":"anna-maria",
+    "full_team":"Anna Maria",
+    "season":2017,
+    "off":94.77,
+    "def":113.89,
+    "rating":-19.12,
+    "pace":71.09,
+    "wab":-16.899
+  },
+  {
+    "team_id":"anna-maria",
+    "full_team":"Anna Maria",
+    "season":2018,
+    "off":96.94,
+    "def":108.81,
+    "rating":-11.87,
+    "pace":72.09,
+    "wab":-12.442
+  },
+  {
+    "team_id":"anna-maria",
+    "full_team":"Anna Maria",
+    "season":2019,
+    "off":95.21,
+    "def":110.49,
+    "rating":-15.27,
+    "pace":72.43,
+    "wab":-14.685
+  },
+  {
+    "team_id":"anna-maria",
+    "full_team":"Anna Maria",
+    "season":2020,
+    "off":102.34,
+    "def":108.8,
+    "rating":-6.45,
+    "pace":71.28,
+    "wab":-11.116
+  },
+  {
+    "team_id":"anna-maria",
+    "full_team":"Anna Maria",
+    "season":2022,
+    "off":93.38,
+    "def":102.83,
+    "rating":-9.45,
+    "pace":76.71,
+    "wab":-8.035
+  },
+  {
+    "team_id":"anna-maria",
+    "full_team":"Anna Maria",
+    "season":2023,
+    "off":91.41,
+    "def":103.48,
+    "rating":-12.07,
+    "pace":74.87,
+    "wab":-13.595
+  },
+  {
+    "team_id":"anna-maria",
+    "full_team":"Anna Maria",
+    "season":2024,
+    "off":92.71,
+    "def":103.01,
+    "rating":-10.31,
+    "pace":76.54,
+    "wab":-13.292
+  },
+  {
+    "team_id":"anna-maria",
+    "full_team":"Anna Maria",
+    "season":2025,
+    "off":95.64,
+    "def":109.63,
+    "rating":-13.99,
+    "pace":73.45,
+    "wab":-13.132
+  },
+  {
+    "team_id":"anna-maria",
+    "full_team":"Anna Maria",
+    "season":2026,
+    "off":91.82,
+    "def":111.04,
+    "rating":-19.22,
+    "pace":73.39,
+    "wab":-16.866
+  },
+  {
     "team_id":"arcadia",
     "full_team":"Arcadia",
     "season":2012,
@@ -1678,96 +1798,6 @@
     "rating":8.18,
     "pace":69.1,
     "wab":-4.847
-  },
-  {
-    "team_id":"asbury",
-    "full_team":"Asbury",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"asbury",
-    "full_team":"Asbury",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"asbury",
-    "full_team":"Asbury",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"asbury",
-    "full_team":"Asbury",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"asbury",
-    "full_team":"Asbury",
-    "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"asbury",
-    "full_team":"Asbury",
-    "season":2017,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"asbury",
-    "full_team":"Asbury",
-    "season":2018,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"asbury",
-    "full_team":"Asbury",
-    "season":2019,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"asbury",
-    "full_team":"Asbury",
-    "season":2020,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
   },
   {
     "team_id":"asbury",
@@ -2518,146 +2548,6 @@
     "rating":10.32,
     "pace":67.45,
     "wab":-3.02
-  },
-  {
-    "team_id":"azusa-pacific",
-    "full_team":"Azusa Pacific",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"azusa-pacific",
-    "full_team":"Azusa Pacific",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"azusa-pacific",
-    "full_team":"Azusa Pacific",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"azusa-pacific",
-    "full_team":"Azusa Pacific",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"azusa-pacific",
-    "full_team":"Azusa Pacific",
-    "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"azusa-pacific",
-    "full_team":"Azusa Pacific",
-    "season":2017,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"azusa-pacific",
-    "full_team":"Azusa Pacific",
-    "season":2018,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"azusa-pacific",
-    "full_team":"Azusa Pacific",
-    "season":2019,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"azusa-pacific",
-    "full_team":"Azusa Pacific",
-    "season":2020,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"azusa-pacific",
-    "full_team":"Azusa Pacific",
-    "season":2022,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"azusa-pacific",
-    "full_team":"Azusa Pacific",
-    "season":2023,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"azusa-pacific",
-    "full_team":"Azusa Pacific",
-    "season":2024,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"azusa-pacific",
-    "full_team":"Azusa Pacific",
-    "season":2025,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"azusa-pacific",
-    "full_team":"Azusa Pacific",
-    "season":2026,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
   },
   {
     "team_id":"babson",
@@ -3500,44 +3390,94 @@
     "wab":1.254
   },
   {
-    "team_id":"belhaven",
-    "full_team":"Belhaven",
+    "team_id":"becker",
+    "full_team":"Becker",
     "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":104.74,
+    "def":90.99,
+    "rating":13.76,
+    "pace":69.44,
+    "wab":-1.41
   },
   {
-    "team_id":"belhaven",
-    "full_team":"Belhaven",
+    "team_id":"becker",
+    "full_team":"Becker",
     "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":99.92,
+    "def":102.55,
+    "rating":-2.63,
+    "pace":67.35,
+    "wab":-10.33
   },
   {
-    "team_id":"belhaven",
-    "full_team":"Belhaven",
+    "team_id":"becker",
+    "full_team":"Becker",
     "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":95.38,
+    "def":97.37,
+    "rating":-1.99,
+    "pace":66.58,
+    "wab":-9.023
   },
   {
-    "team_id":"belhaven",
-    "full_team":"Belhaven",
+    "team_id":"becker",
+    "full_team":"Becker",
     "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":97.88,
+    "def":99.73,
+    "rating":-1.84,
+    "pace":67.79,
+    "wab":-7.963
+  },
+  {
+    "team_id":"becker",
+    "full_team":"Becker",
+    "season":2016,
+    "off":101.95,
+    "def":102.71,
+    "rating":-0.76,
+    "pace":70.24,
+    "wab":-6.964
+  },
+  {
+    "team_id":"becker",
+    "full_team":"Becker",
+    "season":2017,
+    "off":104.82,
+    "def":107.74,
+    "rating":-2.92,
+    "pace":68.83,
+    "wab":-5.078
+  },
+  {
+    "team_id":"becker",
+    "full_team":"Becker",
+    "season":2018,
+    "off":98.94,
+    "def":104.46,
+    "rating":-5.52,
+    "pace":70.87,
+    "wab":-9.47
+  },
+  {
+    "team_id":"becker",
+    "full_team":"Becker",
+    "season":2019,
+    "off":97.57,
+    "def":112.93,
+    "rating":-15.36,
+    "pace":69.89,
+    "wab":-15.706
+  },
+  {
+    "team_id":"becker",
+    "full_team":"Becker",
+    "season":2020,
+    "off":92.52,
+    "def":106.74,
+    "rating":-14.23,
+    "pace":67.66,
+    "wab":-12.664
   },
   {
     "team_id":"belhaven",
@@ -3918,66 +3858,6 @@
     "rating":-5.16,
     "pace":70.2,
     "wab":-11.448
-  },
-  {
-    "team_id":"berea",
-    "full_team":"Berea",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"berea",
-    "full_team":"Berea",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"berea",
-    "full_team":"Berea",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"berea",
-    "full_team":"Berea",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"berea",
-    "full_team":"Berea",
-    "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"berea",
-    "full_team":"Berea",
-    "season":2017,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
   },
   {
     "team_id":"berea",
@@ -4620,6 +4500,126 @@
     "wab":-8.829
   },
   {
+    "team_id":"birmingham-so",
+    "full_team":"Birmingham-So.",
+    "season":2012,
+    "off":111.88,
+    "def":96.25,
+    "rating":15.63,
+    "pace":72.52,
+    "wab":0.81
+  },
+  {
+    "team_id":"birmingham-so",
+    "full_team":"Birmingham-So.",
+    "season":2013,
+    "off":105.83,
+    "def":97.1,
+    "rating":8.73,
+    "pace":71.35,
+    "wab":-3.554
+  },
+  {
+    "team_id":"birmingham-so",
+    "full_team":"Birmingham-So.",
+    "season":2014,
+    "off":107.93,
+    "def":99.23,
+    "rating":8.7,
+    "pace":70.4,
+    "wab":-3.749
+  },
+  {
+    "team_id":"birmingham-so",
+    "full_team":"Birmingham-So.",
+    "season":2015,
+    "off":111.34,
+    "def":103.87,
+    "rating":7.47,
+    "pace":69.75,
+    "wab":-5.258
+  },
+  {
+    "team_id":"birmingham-so",
+    "full_team":"Birmingham-So.",
+    "season":2016,
+    "off":109.59,
+    "def":99.92,
+    "rating":9.66,
+    "pace":69.49,
+    "wab":-0.99
+  },
+  {
+    "team_id":"birmingham-so",
+    "full_team":"Birmingham-So.",
+    "season":2017,
+    "off":101.9,
+    "def":103.25,
+    "rating":-1.36,
+    "pace":69.6,
+    "wab":-8.913
+  },
+  {
+    "team_id":"birmingham-so",
+    "full_team":"Birmingham-So.",
+    "season":2018,
+    "off":106.3,
+    "def":112.05,
+    "rating":-5.75,
+    "pace":71.92,
+    "wab":-11.462
+  },
+  {
+    "team_id":"birmingham-so",
+    "full_team":"Birmingham-So.",
+    "season":2019,
+    "off":105.23,
+    "def":110.55,
+    "rating":-5.32,
+    "pace":70.03,
+    "wab":-9.633
+  },
+  {
+    "team_id":"birmingham-so",
+    "full_team":"Birmingham-So.",
+    "season":2020,
+    "off":106.14,
+    "def":110.46,
+    "rating":-4.33,
+    "pace":70.63,
+    "wab":-12.661
+  },
+  {
+    "team_id":"birmingham-so",
+    "full_team":"Birmingham-So.",
+    "season":2022,
+    "off":105.57,
+    "def":103.93,
+    "rating":1.64,
+    "pace":74.7,
+    "wab":-8.815
+  },
+  {
+    "team_id":"birmingham-so",
+    "full_team":"Birmingham-So.",
+    "season":2023,
+    "off":104.6,
+    "def":102.62,
+    "rating":1.97,
+    "pace":75.99,
+    "wab":-8.048
+  },
+  {
+    "team_id":"birmingham-so",
+    "full_team":"Birmingham-So.",
+    "season":2024,
+    "off":99.37,
+    "def":100.56,
+    "rating":-1.19,
+    "pace":75.5,
+    "wab":-8.073
+  },
+  {
     "team_id":"blackburn",
     "full_team":"Blackburn",
     "season":2012,
@@ -4900,6 +4900,26 @@
     "wab":-12.121
   },
   {
+    "team_id":"bob-jones",
+    "full_team":"Bob Jones",
+    "season":2022,
+    "off":96.42,
+    "def":108.51,
+    "rating":-12.09,
+    "pace":73.21,
+    "wab":-2.54
+  },
+  {
+    "team_id":"bob-jones",
+    "full_team":"Bob Jones",
+    "season":2023,
+    "off":98.2,
+    "def":110.22,
+    "rating":-12.02,
+    "pace":73.87,
+    "wab":-3.552
+  },
+  {
     "team_id":"bowdoin",
     "full_team":"Bowdoin",
     "season":2012,
@@ -5178,66 +5198,6 @@
     "rating":15.03,
     "pace":69.64,
     "wab":-2.035
-  },
-  {
-    "team_id":"brevard",
-    "full_team":"Brevard",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"brevard",
-    "full_team":"Brevard",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"brevard",
-    "full_team":"Brevard",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"brevard",
-    "full_team":"Brevard",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"brevard",
-    "full_team":"Brevard",
-    "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"brevard",
-    "full_team":"Brevard",
-    "season":2017,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
   },
   {
     "team_id":"brevard",
@@ -5880,6 +5840,116 @@
     "wab":-13.618
   },
   {
+    "team_id":"bryn-athyn",
+    "full_team":"Bryn Athyn",
+    "season":2014,
+    "off":94.44,
+    "def":108.68,
+    "rating":-14.24,
+    "pace":70.15,
+    "wab":-7.624
+  },
+  {
+    "team_id":"bryn-athyn",
+    "full_team":"Bryn Athyn",
+    "season":2015,
+    "off":91.03,
+    "def":113.81,
+    "rating":-22.78,
+    "pace":69.13,
+    "wab":-16.861
+  },
+  {
+    "team_id":"bryn-athyn",
+    "full_team":"Bryn Athyn",
+    "season":2016,
+    "off":92.04,
+    "def":115.26,
+    "rating":-23.22,
+    "pace":70.43,
+    "wab":-13.853
+  },
+  {
+    "team_id":"bryn-athyn",
+    "full_team":"Bryn Athyn",
+    "season":2017,
+    "off":90.5,
+    "def":109.79,
+    "rating":-19.29,
+    "pace":69.59,
+    "wab":-13.15
+  },
+  {
+    "team_id":"bryn-athyn",
+    "full_team":"Bryn Athyn",
+    "season":2018,
+    "off":91.07,
+    "def":111.32,
+    "rating":-20.25,
+    "pace":71.59,
+    "wab":-12.867
+  },
+  {
+    "team_id":"bryn-athyn",
+    "full_team":"Bryn Athyn",
+    "season":2019,
+    "off":88.85,
+    "def":109.36,
+    "rating":-20.51,
+    "pace":76.66,
+    "wab":-15.869
+  },
+  {
+    "team_id":"bryn-athyn",
+    "full_team":"Bryn Athyn",
+    "season":2020,
+    "off":87.23,
+    "def":108.48,
+    "rating":-21.24,
+    "pace":73.69,
+    "wab":-17.907
+  },
+  {
+    "team_id":"bryn-athyn",
+    "full_team":"Bryn Athyn",
+    "season":2022,
+    "off":94.87,
+    "def":111.74,
+    "rating":-16.87,
+    "pace":75.87,
+    "wab":-14.927
+  },
+  {
+    "team_id":"bryn-athyn",
+    "full_team":"Bryn Athyn",
+    "season":2023,
+    "off":96.97,
+    "def":112.06,
+    "rating":-15.1,
+    "pace":75.93,
+    "wab":-12.109
+  },
+  {
+    "team_id":"bryn-athyn",
+    "full_team":"Bryn Athyn",
+    "season":2024,
+    "off":93.59,
+    "def":107.39,
+    "rating":-13.8,
+    "pace":73.4,
+    "wab":-7.456
+  },
+  {
+    "team_id":"bryn-athyn",
+    "full_team":"Bryn Athyn",
+    "season":2025,
+    "off":96.34,
+    "def":105.34,
+    "rating":-9.01,
+    "pace":71.48,
+    "wab":-6.17
+  },
+  {
     "team_id":"buena-vista",
     "full_team":"Buena Vista",
     "season":2012,
@@ -6158,6 +6228,126 @@
     "rating":-16.59,
     "pace":69.25,
     "wab":-12.904
+  },
+  {
+    "team_id":"cabrini",
+    "full_team":"Cabrini",
+    "season":2012,
+    "off":113.71,
+    "def":99.14,
+    "rating":14.57,
+    "pace":73.73,
+    "wab":3.901
+  },
+  {
+    "team_id":"cabrini",
+    "full_team":"Cabrini",
+    "season":2013,
+    "off":115.29,
+    "def":100.36,
+    "rating":14.93,
+    "pace":71.98,
+    "wab":-0.045
+  },
+  {
+    "team_id":"cabrini",
+    "full_team":"Cabrini",
+    "season":2014,
+    "off":118.29,
+    "def":104.76,
+    "rating":13.54,
+    "pace":74.66,
+    "wab":2.266
+  },
+  {
+    "team_id":"cabrini",
+    "full_team":"Cabrini",
+    "season":2015,
+    "off":114.94,
+    "def":104.63,
+    "rating":10.31,
+    "pace":77.78,
+    "wab":-4.696
+  },
+  {
+    "team_id":"cabrini",
+    "full_team":"Cabrini",
+    "season":2016,
+    "off":110.79,
+    "def":107.37,
+    "rating":3.41,
+    "pace":76.16,
+    "wab":-6.418
+  },
+  {
+    "team_id":"cabrini",
+    "full_team":"Cabrini",
+    "season":2017,
+    "off":104.32,
+    "def":96.22,
+    "rating":8.1,
+    "pace":77.12,
+    "wab":-2.504
+  },
+  {
+    "team_id":"cabrini",
+    "full_team":"Cabrini",
+    "season":2018,
+    "off":110.4,
+    "def":98.2,
+    "rating":12.19,
+    "pace":77.91,
+    "wab":0.604
+  },
+  {
+    "team_id":"cabrini",
+    "full_team":"Cabrini",
+    "season":2019,
+    "off":102.23,
+    "def":106.6,
+    "rating":-4.37,
+    "pace":78.63,
+    "wab":-15.721
+  },
+  {
+    "team_id":"cabrini",
+    "full_team":"Cabrini",
+    "season":2020,
+    "off":101.18,
+    "def":109.74,
+    "rating":-8.56,
+    "pace":78.38,
+    "wab":-12.554
+  },
+  {
+    "team_id":"cabrini",
+    "full_team":"Cabrini",
+    "season":2022,
+    "off":92.48,
+    "def":103.53,
+    "rating":-11.05,
+    "pace":75.86,
+    "wab":-13.668
+  },
+  {
+    "team_id":"cabrini",
+    "full_team":"Cabrini",
+    "season":2023,
+    "off":92.26,
+    "def":99.85,
+    "rating":-7.6,
+    "pace":74.59,
+    "wab":-11.848
+  },
+  {
+    "team_id":"cabrini",
+    "full_team":"Cabrini",
+    "season":2024,
+    "off":91.1,
+    "def":102.02,
+    "rating":-10.92,
+    "pace":73.55,
+    "wab":-16.005
   },
   {
     "team_id":"cairn",
@@ -6998,116 +7188,6 @@
     "rating":5.16,
     "pace":69.84,
     "wab":-5.772
-  },
-  {
-    "team_id":"carlow",
-    "full_team":"Carlow",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"carlow",
-    "full_team":"Carlow",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"carlow",
-    "full_team":"Carlow",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"carlow",
-    "full_team":"Carlow",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"carlow",
-    "full_team":"Carlow",
-    "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"carlow",
-    "full_team":"Carlow",
-    "season":2017,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"carlow",
-    "full_team":"Carlow",
-    "season":2018,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"carlow",
-    "full_team":"Carlow",
-    "season":2019,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"carlow",
-    "full_team":"Carlow",
-    "season":2020,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"carlow",
-    "full_team":"Carlow",
-    "season":2022,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"carlow",
-    "full_team":"Carlow",
-    "season":2023,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
   },
   {
     "team_id":"carlow",
@@ -7980,6 +8060,116 @@
     "wab":-0.333
   },
   {
+    "team_id":"cazenovia",
+    "full_team":"Cazenovia",
+    "season":2012,
+    "off":90.33,
+    "def":111.23,
+    "rating":-20.9,
+    "pace":72.91,
+    "wab":-14.11
+  },
+  {
+    "team_id":"cazenovia",
+    "full_team":"Cazenovia",
+    "season":2013,
+    "off":83.58,
+    "def":108.16,
+    "rating":-24.58,
+    "pace":72.06,
+    "wab":-16.779
+  },
+  {
+    "team_id":"cazenovia",
+    "full_team":"Cazenovia",
+    "season":2014,
+    "off":91.47,
+    "def":112.54,
+    "rating":-21.07,
+    "pace":72.95,
+    "wab":-15.402
+  },
+  {
+    "team_id":"cazenovia",
+    "full_team":"Cazenovia",
+    "season":2015,
+    "off":96.65,
+    "def":110.1,
+    "rating":-13.44,
+    "pace":74.23,
+    "wab":-11.448
+  },
+  {
+    "team_id":"cazenovia",
+    "full_team":"Cazenovia",
+    "season":2016,
+    "off":98.78,
+    "def":112.98,
+    "rating":-14.2,
+    "pace":75.56,
+    "wab":-11.436
+  },
+  {
+    "team_id":"cazenovia",
+    "full_team":"Cazenovia",
+    "season":2017,
+    "off":92.82,
+    "def":109.63,
+    "rating":-16.82,
+    "pace":75.02,
+    "wab":-13.017
+  },
+  {
+    "team_id":"cazenovia",
+    "full_team":"Cazenovia",
+    "season":2018,
+    "off":92.21,
+    "def":103.84,
+    "rating":-11.63,
+    "pace":72.84,
+    "wab":-13.848
+  },
+  {
+    "team_id":"cazenovia",
+    "full_team":"Cazenovia",
+    "season":2019,
+    "off":95.54,
+    "def":105.43,
+    "rating":-9.88,
+    "pace":75.29,
+    "wab":-9.66
+  },
+  {
+    "team_id":"cazenovia",
+    "full_team":"Cazenovia",
+    "season":2020,
+    "off":98.72,
+    "def":112.29,
+    "rating":-13.57,
+    "pace":76.25,
+    "wab":-13.134
+  },
+  {
+    "team_id":"cazenovia",
+    "full_team":"Cazenovia",
+    "season":2022,
+    "off":90.8,
+    "def":113.67,
+    "rating":-22.87,
+    "pace":73.49,
+    "wab":-15.633
+  },
+  {
+    "team_id":"cazenovia",
+    "full_team":"Cazenovia",
+    "season":2023,
+    "off":101.66,
+    "def":113.86,
+    "rating":-12.2,
+    "pace":72.5,
+    "wab":-9.626
+  },
+  {
     "team_id":"ccny",
     "full_team":"CCNY",
     "season":2012,
@@ -8822,46 +9012,6 @@
   {
     "team_id":"chatham",
     "full_team":"Chatham",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"chatham",
-    "full_team":"Chatham",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"chatham",
-    "full_team":"Chatham",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"chatham",
-    "full_team":"Chatham",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"chatham",
-    "full_team":"Chatham",
     "season":2016,
     "off":89.39,
     "def":106.99,
@@ -9518,6 +9668,126 @@
     "rating":5.84,
     "pace":69.17,
     "wab":-7.264
+  },
+  {
+    "team_id":"clarks-summit",
+    "full_team":"Clarks Summit",
+    "season":2012,
+    "off":89.57,
+    "def":110.45,
+    "rating":-20.88,
+    "pace":66.77,
+    "wab":-17.975
+  },
+  {
+    "team_id":"clarks-summit",
+    "full_team":"Clarks Summit",
+    "season":2013,
+    "off":99.32,
+    "def":114.81,
+    "rating":-15.49,
+    "pace":67.91,
+    "wab":-14.766
+  },
+  {
+    "team_id":"clarks-summit",
+    "full_team":"Clarks Summit",
+    "season":2014,
+    "off":102.17,
+    "def":113.3,
+    "rating":-11.13,
+    "pace":71.43,
+    "wab":-11.998
+  },
+  {
+    "team_id":"clarks-summit",
+    "full_team":"Clarks Summit",
+    "season":2015,
+    "off":86.92,
+    "def":114.42,
+    "rating":-27.5,
+    "pace":72.52,
+    "wab":-18.429
+  },
+  {
+    "team_id":"clarks-summit",
+    "full_team":"Clarks Summit",
+    "season":2016,
+    "off":88.94,
+    "def":113.19,
+    "rating":-24.25,
+    "pace":74.04,
+    "wab":-16.974
+  },
+  {
+    "team_id":"clarks-summit",
+    "full_team":"Clarks Summit",
+    "season":2017,
+    "off":86.33,
+    "def":116.88,
+    "rating":-30.55,
+    "pace":72.98,
+    "wab":-19.195
+  },
+  {
+    "team_id":"clarks-summit",
+    "full_team":"Clarks Summit",
+    "season":2018,
+    "off":84.49,
+    "def":113.25,
+    "rating":-28.76,
+    "pace":72.4,
+    "wab":-18.838
+  },
+  {
+    "team_id":"clarks-summit",
+    "full_team":"Clarks Summit",
+    "season":2019,
+    "off":82.84,
+    "def":119.28,
+    "rating":-36.44,
+    "pace":74.09,
+    "wab":-22.977
+  },
+  {
+    "team_id":"clarks-summit",
+    "full_team":"Clarks Summit",
+    "season":2020,
+    "off":82.71,
+    "def":113.59,
+    "rating":-30.88,
+    "pace":76.23,
+    "wab":-20.587
+  },
+  {
+    "team_id":"clarks-summit",
+    "full_team":"Clarks Summit",
+    "season":2022,
+    "off":83.28,
+    "def":108.49,
+    "rating":-25.22,
+    "pace":76.24,
+    "wab":-15.166
+  },
+  {
+    "team_id":"clarks-summit",
+    "full_team":"Clarks Summit",
+    "season":2023,
+    "off":86.61,
+    "def":105.8,
+    "rating":-19.19,
+    "pace":78.57,
+    "wab":-15.003
+  },
+  {
+    "team_id":"clarks-summit",
+    "full_team":"Clarks Summit",
+    "season":2024,
+    "off":87.19,
+    "def":108.74,
+    "rating":-21.56,
+    "pace":73.46,
+    "wab":-17.191
   },
   {
     "team_id":"clarkson",
@@ -11760,54 +12030,154 @@
     "wab":-15.511
   },
   {
-    "team_id":"dean",
-    "full_team":"Dean",
+    "team_id":"d-youville",
+    "full_team":"D'Youville",
     "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":93.21,
+    "def":106.47,
+    "rating":-13.26,
+    "pace":79.76,
+    "wab":-12.373
   },
   {
-    "team_id":"dean",
-    "full_team":"Dean",
+    "team_id":"d-youville",
+    "full_team":"D'Youville",
     "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":80.37,
+    "def":106.81,
+    "rating":-26.44,
+    "pace":83.02,
+    "wab":-18.928
   },
   {
-    "team_id":"dean",
-    "full_team":"Dean",
+    "team_id":"d-youville",
+    "full_team":"D'Youville",
     "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":82.23,
+    "def":106.96,
+    "rating":-24.72,
+    "pace":83.5,
+    "wab":-19.911
   },
   {
-    "team_id":"dean",
-    "full_team":"Dean",
+    "team_id":"d-youville",
+    "full_team":"D'Youville",
     "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":90.02,
+    "def":103.48,
+    "rating":-13.46,
+    "pace":78.92,
+    "wab":-11.409
   },
   {
-    "team_id":"dean",
-    "full_team":"Dean",
+    "team_id":"d-youville",
+    "full_team":"D'Youville",
     "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":93.66,
+    "def":107.32,
+    "rating":-13.65,
+    "pace":80.07,
+    "wab":-12.333
+  },
+  {
+    "team_id":"d-youville",
+    "full_team":"D'Youville",
+    "season":2017,
+    "off":88.44,
+    "def":106.42,
+    "rating":-17.98,
+    "pace":80.26,
+    "wab":-16.018
+  },
+  {
+    "team_id":"d-youville",
+    "full_team":"D'Youville",
+    "season":2018,
+    "off":92.0,
+    "def":110.99,
+    "rating":-18.99,
+    "pace":78.33,
+    "wab":-16.066
+  },
+  {
+    "team_id":"d-youville",
+    "full_team":"D'Youville",
+    "season":2019,
+    "off":98.83,
+    "def":107.43,
+    "rating":-8.6,
+    "pace":76.92,
+    "wab":-11.888
+  },
+  {
+    "team_id":"d-youville",
+    "full_team":"D'Youville",
+    "season":2020,
+    "off":91.6,
+    "def":110.98,
+    "rating":-19.38,
+    "pace":79.88,
+    "wab":-18.167
+  },
+  {
+    "team_id":"daniel-webster",
+    "full_team":"Daniel Webster",
+    "season":2012,
+    "off":90.97,
+    "def":108.22,
+    "rating":-17.25,
+    "pace":71.19,
+    "wab":-13.117
+  },
+  {
+    "team_id":"daniel-webster",
+    "full_team":"Daniel Webster",
+    "season":2013,
+    "off":91.09,
+    "def":103.17,
+    "rating":-12.08,
+    "pace":71.68,
+    "wab":-12.123
+  },
+  {
+    "team_id":"daniel-webster",
+    "full_team":"Daniel Webster",
+    "season":2014,
+    "off":100.17,
+    "def":108.31,
+    "rating":-8.14,
+    "pace":73.84,
+    "wab":-6.667
+  },
+  {
+    "team_id":"daniel-webster",
+    "full_team":"Daniel Webster",
+    "season":2015,
+    "off":94.69,
+    "def":111.62,
+    "rating":-16.92,
+    "pace":72.14,
+    "wab":-11.973
+  },
+  {
+    "team_id":"daniel-webster",
+    "full_team":"Daniel Webster",
+    "season":2016,
+    "off":95.58,
+    "def":106.85,
+    "rating":-11.28,
+    "pace":70.51,
+    "wab":-9.413
+  },
+  {
+    "team_id":"daniel-webster",
+    "full_team":"Daniel Webster",
+    "season":2017,
+    "off":103.66,
+    "def":108.96,
+    "rating":-5.29,
+    "pace":70.0,
+    "wab":-7.602
   },
   {
     "team_id":"dean",
@@ -11898,6 +12268,126 @@
     "rating":-7.74,
     "pace":73.25,
     "wab":-8.574
+  },
+  {
+    "team_id":"defiance",
+    "full_team":"Defiance",
+    "season":2012,
+    "off":111.45,
+    "def":107.89,
+    "rating":3.56,
+    "pace":69.51,
+    "wab":-5.342
+  },
+  {
+    "team_id":"defiance",
+    "full_team":"Defiance",
+    "season":2013,
+    "off":112.36,
+    "def":103.09,
+    "rating":9.27,
+    "pace":67.73,
+    "wab":-4.76
+  },
+  {
+    "team_id":"defiance",
+    "full_team":"Defiance",
+    "season":2014,
+    "off":110.22,
+    "def":94.95,
+    "rating":15.27,
+    "pace":63.89,
+    "wab":0.675
+  },
+  {
+    "team_id":"defiance",
+    "full_team":"Defiance",
+    "season":2015,
+    "off":121.04,
+    "def":98.43,
+    "rating":22.61,
+    "pace":64.75,
+    "wab":-0.2
+  },
+  {
+    "team_id":"defiance",
+    "full_team":"Defiance",
+    "season":2016,
+    "off":109.2,
+    "def":105.01,
+    "rating":4.19,
+    "pace":66.85,
+    "wab":-5.54
+  },
+  {
+    "team_id":"defiance",
+    "full_team":"Defiance",
+    "season":2017,
+    "off":101.81,
+    "def":106.86,
+    "rating":-5.04,
+    "pace":68.17,
+    "wab":-12.629
+  },
+  {
+    "team_id":"defiance",
+    "full_team":"Defiance",
+    "season":2018,
+    "off":96.07,
+    "def":112.86,
+    "rating":-16.79,
+    "pace":70.37,
+    "wab":-16.061
+  },
+  {
+    "team_id":"defiance",
+    "full_team":"Defiance",
+    "season":2019,
+    "off":98.09,
+    "def":112.12,
+    "rating":-14.03,
+    "pace":70.92,
+    "wab":-18.557
+  },
+  {
+    "team_id":"defiance",
+    "full_team":"Defiance",
+    "season":2020,
+    "off":104.46,
+    "def":110.5,
+    "rating":-6.05,
+    "pace":71.78,
+    "wab":-10.108
+  },
+  {
+    "team_id":"defiance",
+    "full_team":"Defiance",
+    "season":2022,
+    "off":100.48,
+    "def":101.33,
+    "rating":-0.85,
+    "pace":68.97,
+    "wab":-4.913
+  },
+  {
+    "team_id":"defiance",
+    "full_team":"Defiance",
+    "season":2023,
+    "off":98.23,
+    "def":111.44,
+    "rating":-13.21,
+    "pace":70.23,
+    "wab":-14.241
+  },
+  {
+    "team_id":"defiance",
+    "full_team":"Defiance",
+    "season":2024,
+    "off":93.65,
+    "def":119.87,
+    "rating":-26.22,
+    "pace":70.11,
+    "wab":-19.335
   },
   {
     "team_id":"delaware-valley",
@@ -13720,6 +14210,126 @@
     "wab":-9.299
   },
   {
+    "team_id":"eastern-nazarene",
+    "full_team":"Eastern Nazarene",
+    "season":2012,
+    "off":89.01,
+    "def":109.16,
+    "rating":-20.15,
+    "pace":73.79,
+    "wab":-19.804
+  },
+  {
+    "team_id":"eastern-nazarene",
+    "full_team":"Eastern Nazarene",
+    "season":2013,
+    "off":98.64,
+    "def":100.22,
+    "rating":-1.58,
+    "pace":73.49,
+    "wab":-7.17
+  },
+  {
+    "team_id":"eastern-nazarene",
+    "full_team":"Eastern Nazarene",
+    "season":2014,
+    "off":102.3,
+    "def":103.42,
+    "rating":-1.12,
+    "pace":71.6,
+    "wab":-4.244
+  },
+  {
+    "team_id":"eastern-nazarene",
+    "full_team":"Eastern Nazarene",
+    "season":2015,
+    "off":104.25,
+    "def":99.94,
+    "rating":4.31,
+    "pace":72.37,
+    "wab":-2.022
+  },
+  {
+    "team_id":"eastern-nazarene",
+    "full_team":"Eastern Nazarene",
+    "season":2016,
+    "off":101.76,
+    "def":99.46,
+    "rating":2.3,
+    "pace":74.37,
+    "wab":-4.829
+  },
+  {
+    "team_id":"eastern-nazarene",
+    "full_team":"Eastern Nazarene",
+    "season":2017,
+    "off":98.3,
+    "def":104.93,
+    "rating":-6.63,
+    "pace":70.66,
+    "wab":-9.664
+  },
+  {
+    "team_id":"eastern-nazarene",
+    "full_team":"Eastern Nazarene",
+    "season":2018,
+    "off":99.68,
+    "def":110.03,
+    "rating":-10.35,
+    "pace":70.54,
+    "wab":-12.564
+  },
+  {
+    "team_id":"eastern-nazarene",
+    "full_team":"Eastern Nazarene",
+    "season":2019,
+    "off":101.34,
+    "def":106.15,
+    "rating":-4.81,
+    "pace":69.71,
+    "wab":-9.664
+  },
+  {
+    "team_id":"eastern-nazarene",
+    "full_team":"Eastern Nazarene",
+    "season":2020,
+    "off":101.11,
+    "def":106.34,
+    "rating":-5.23,
+    "pace":69.5,
+    "wab":-8.56
+  },
+  {
+    "team_id":"eastern-nazarene",
+    "full_team":"Eastern Nazarene",
+    "season":2022,
+    "off":100.11,
+    "def":106.29,
+    "rating":-6.19,
+    "pace":70.71,
+    "wab":-9.605
+  },
+  {
+    "team_id":"eastern-nazarene",
+    "full_team":"Eastern Nazarene",
+    "season":2023,
+    "off":98.05,
+    "def":107.06,
+    "rating":-9.01,
+    "pace":71.21,
+    "wab":-11.915
+  },
+  {
+    "team_id":"eastern-nazarene",
+    "full_team":"Eastern Nazarene",
+    "season":2024,
+    "off":92.45,
+    "def":111.11,
+    "rating":-18.65,
+    "pace":72.04,
+    "wab":-15.828
+  },
+  {
     "team_id":"edgewood",
     "full_team":"Edgewood",
     "season":2012,
@@ -14840,6 +15450,96 @@
     "wab":8.651
   },
   {
+    "team_id":"emory-henry",
+    "full_team":"Emory & Henry",
+    "season":2012,
+    "off":97.88,
+    "def":100.15,
+    "rating":-2.27,
+    "pace":70.42,
+    "wab":-6.753
+  },
+  {
+    "team_id":"emory-henry",
+    "full_team":"Emory & Henry",
+    "season":2013,
+    "off":94.78,
+    "def":102.6,
+    "rating":-7.82,
+    "pace":72.19,
+    "wab":-14.388
+  },
+  {
+    "team_id":"emory-henry",
+    "full_team":"Emory & Henry",
+    "season":2014,
+    "off":96.33,
+    "def":105.6,
+    "rating":-9.27,
+    "pace":73.72,
+    "wab":-12.355
+  },
+  {
+    "team_id":"emory-henry",
+    "full_team":"Emory & Henry",
+    "season":2015,
+    "off":99.54,
+    "def":108.57,
+    "rating":-9.03,
+    "pace":71.32,
+    "wab":-12.654
+  },
+  {
+    "team_id":"emory-henry",
+    "full_team":"Emory & Henry",
+    "season":2016,
+    "off":110.15,
+    "def":103.79,
+    "rating":6.36,
+    "pace":71.09,
+    "wab":-5.47
+  },
+  {
+    "team_id":"emory-henry",
+    "full_team":"Emory & Henry",
+    "season":2017,
+    "off":113.64,
+    "def":99.29,
+    "rating":14.35,
+    "pace":69.9,
+    "wab":-1.354
+  },
+  {
+    "team_id":"emory-henry",
+    "full_team":"Emory & Henry",
+    "season":2018,
+    "off":112.87,
+    "def":98.83,
+    "rating":14.04,
+    "pace":72.47,
+    "wab":0.439
+  },
+  {
+    "team_id":"emory-henry",
+    "full_team":"Emory & Henry",
+    "season":2019,
+    "off":109.85,
+    "def":98.53,
+    "rating":11.32,
+    "pace":71.76,
+    "wab":-2.87
+  },
+  {
+    "team_id":"emory-henry",
+    "full_team":"Emory & Henry",
+    "season":2020,
+    "off":103.69,
+    "def":108.29,
+    "rating":-4.6,
+    "pace":76.45,
+    "wab":-12.182
+  },
+  {
     "team_id":"endicott",
     "full_team":"Endicott",
     "season":2012,
@@ -15400,6 +16100,246 @@
     "wab":-12.981
   },
   {
+    "team_id":"ferrum",
+    "full_team":"Ferrum",
+    "season":2012,
+    "off":103.94,
+    "def":104.45,
+    "rating":-0.51,
+    "pace":72.21,
+    "wab":-7.5
+  },
+  {
+    "team_id":"ferrum",
+    "full_team":"Ferrum",
+    "season":2013,
+    "off":101.29,
+    "def":101.65,
+    "rating":-0.35,
+    "pace":70.01,
+    "wab":-6.329
+  },
+  {
+    "team_id":"ferrum",
+    "full_team":"Ferrum",
+    "season":2014,
+    "off":104.61,
+    "def":110.85,
+    "rating":-6.24,
+    "pace":70.21,
+    "wab":-11.562
+  },
+  {
+    "team_id":"ferrum",
+    "full_team":"Ferrum",
+    "season":2015,
+    "off":98.37,
+    "def":103.46,
+    "rating":-5.09,
+    "pace":68.95,
+    "wab":-11.93
+  },
+  {
+    "team_id":"ferrum",
+    "full_team":"Ferrum",
+    "season":2016,
+    "off":98.69,
+    "def":96.73,
+    "rating":1.96,
+    "pace":68.08,
+    "wab":-6.65
+  },
+  {
+    "team_id":"ferrum",
+    "full_team":"Ferrum",
+    "season":2017,
+    "off":99.99,
+    "def":103.95,
+    "rating":-3.96,
+    "pace":66.4,
+    "wab":-10.341
+  },
+  {
+    "team_id":"ferrum",
+    "full_team":"Ferrum",
+    "season":2018,
+    "off":99.46,
+    "def":109.02,
+    "rating":-9.56,
+    "pace":67.17,
+    "wab":-14.012
+  },
+  {
+    "team_id":"ferrum",
+    "full_team":"Ferrum",
+    "season":2019,
+    "off":98.07,
+    "def":106.27,
+    "rating":-8.2,
+    "pace":68.76,
+    "wab":-13.742
+  },
+  {
+    "team_id":"ferrum",
+    "full_team":"Ferrum",
+    "season":2020,
+    "off":104.47,
+    "def":100.91,
+    "rating":3.56,
+    "pace":69.01,
+    "wab":-5.66
+  },
+  {
+    "team_id":"ferrum",
+    "full_team":"Ferrum",
+    "season":2022,
+    "off":99.29,
+    "def":105.77,
+    "rating":-6.48,
+    "pace":70.66,
+    "wab":-12.714
+  },
+  {
+    "team_id":"ferrum",
+    "full_team":"Ferrum",
+    "season":2023,
+    "off":106.06,
+    "def":104.62,
+    "rating":1.44,
+    "pace":70.79,
+    "wab":-10.208
+  },
+  {
+    "team_id":"ferrum",
+    "full_team":"Ferrum",
+    "season":2024,
+    "off":110.79,
+    "def":98.34,
+    "rating":12.45,
+    "pace":69.08,
+    "wab":-3.385
+  },
+  {
+    "team_id":"ferrum",
+    "full_team":"Ferrum",
+    "season":2025,
+    "off":114.73,
+    "def":98.91,
+    "rating":15.83,
+    "pace":68.49,
+    "wab":-2.652
+  },
+  {
+    "team_id":"finlandia",
+    "full_team":"Finlandia",
+    "season":2012,
+    "off":99.21,
+    "def":105.76,
+    "rating":-6.55,
+    "pace":77.42,
+    "wab":-7.022
+  },
+  {
+    "team_id":"finlandia",
+    "full_team":"Finlandia",
+    "season":2013,
+    "off":95.87,
+    "def":113.01,
+    "rating":-17.14,
+    "pace":76.49,
+    "wab":-8.874
+  },
+  {
+    "team_id":"finlandia",
+    "full_team":"Finlandia",
+    "season":2014,
+    "off":90.62,
+    "def":111.08,
+    "rating":-20.46,
+    "pace":77.25,
+    "wab":-9.14
+  },
+  {
+    "team_id":"finlandia",
+    "full_team":"Finlandia",
+    "season":2015,
+    "off":92.75,
+    "def":110.62,
+    "rating":-17.87,
+    "pace":75.64,
+    "wab":-3.974
+  },
+  {
+    "team_id":"finlandia",
+    "full_team":"Finlandia",
+    "season":2016,
+    "off":98.42,
+    "def":112.0,
+    "rating":-13.57,
+    "pace":72.6,
+    "wab":-11.573
+  },
+  {
+    "team_id":"finlandia",
+    "full_team":"Finlandia",
+    "season":2017,
+    "off":97.0,
+    "def":111.51,
+    "rating":-14.51,
+    "pace":72.3,
+    "wab":-13.563
+  },
+  {
+    "team_id":"finlandia",
+    "full_team":"Finlandia",
+    "season":2018,
+    "off":90.54,
+    "def":113.01,
+    "rating":-22.47,
+    "pace":73.33,
+    "wab":-10.183
+  },
+  {
+    "team_id":"finlandia",
+    "full_team":"Finlandia",
+    "season":2019,
+    "off":85.07,
+    "def":111.27,
+    "rating":-26.2,
+    "pace":75.02,
+    "wab":-9.913
+  },
+  {
+    "team_id":"finlandia",
+    "full_team":"Finlandia",
+    "season":2020,
+    "off":88.12,
+    "def":117.87,
+    "rating":-29.75,
+    "pace":80.19,
+    "wab":-12.178
+  },
+  {
+    "team_id":"finlandia",
+    "full_team":"Finlandia",
+    "season":2022,
+    "off":84.31,
+    "def":113.99,
+    "rating":-29.69,
+    "pace":81.97,
+    "wab":-12.084
+  },
+  {
+    "team_id":"finlandia",
+    "full_team":"Finlandia",
+    "season":2023,
+    "off":82.69,
+    "def":112.26,
+    "rating":-29.57,
+    "pace":82.62,
+    "wab":-12.577
+  },
+  {
     "team_id":"fitchburg-state",
     "full_team":"Fitchburg State",
     "season":2012,
@@ -15538,6 +16478,136 @@
     "rating":-12.2,
     "pace":72.22,
     "wab":-12.129
+  },
+  {
+    "team_id":"fontbonne",
+    "full_team":"Fontbonne",
+    "season":2012,
+    "off":90.78,
+    "def":109.49,
+    "rating":-18.72,
+    "pace":70.04,
+    "wab":-15.016
+  },
+  {
+    "team_id":"fontbonne",
+    "full_team":"Fontbonne",
+    "season":2013,
+    "off":98.82,
+    "def":106.95,
+    "rating":-8.13,
+    "pace":71.79,
+    "wab":-12.62
+  },
+  {
+    "team_id":"fontbonne",
+    "full_team":"Fontbonne",
+    "season":2014,
+    "off":99.01,
+    "def":108.4,
+    "rating":-9.4,
+    "pace":73.09,
+    "wab":-12.449
+  },
+  {
+    "team_id":"fontbonne",
+    "full_team":"Fontbonne",
+    "season":2015,
+    "off":97.31,
+    "def":103.34,
+    "rating":-6.03,
+    "pace":71.12,
+    "wab":-9.599
+  },
+  {
+    "team_id":"fontbonne",
+    "full_team":"Fontbonne",
+    "season":2016,
+    "off":95.08,
+    "def":108.94,
+    "rating":-13.86,
+    "pace":73.43,
+    "wab":-12.914
+  },
+  {
+    "team_id":"fontbonne",
+    "full_team":"Fontbonne",
+    "season":2017,
+    "off":90.11,
+    "def":109.41,
+    "rating":-19.3,
+    "pace":75.38,
+    "wab":-14.378
+  },
+  {
+    "team_id":"fontbonne",
+    "full_team":"Fontbonne",
+    "season":2018,
+    "off":97.84,
+    "def":113.38,
+    "rating":-15.55,
+    "pace":74.18,
+    "wab":-16.142
+  },
+  {
+    "team_id":"fontbonne",
+    "full_team":"Fontbonne",
+    "season":2019,
+    "off":96.39,
+    "def":107.63,
+    "rating":-11.24,
+    "pace":76.19,
+    "wab":-9.949
+  },
+  {
+    "team_id":"fontbonne",
+    "full_team":"Fontbonne",
+    "season":2020,
+    "off":100.89,
+    "def":106.09,
+    "rating":-5.2,
+    "pace":76.98,
+    "wab":-7.196
+  },
+  {
+    "team_id":"fontbonne",
+    "full_team":"Fontbonne",
+    "season":2022,
+    "off":99.25,
+    "def":98.92,
+    "rating":0.33,
+    "pace":75.37,
+    "wab":-3.401
+  },
+  {
+    "team_id":"fontbonne",
+    "full_team":"Fontbonne",
+    "season":2023,
+    "off":94.94,
+    "def":99.14,
+    "rating":-4.2,
+    "pace":73.38,
+    "wab":-7.211
+  },
+  {
+    "team_id":"fontbonne",
+    "full_team":"Fontbonne",
+    "season":2024,
+    "off":103.08,
+    "def":102.15,
+    "rating":0.93,
+    "pace":74.56,
+    "wab":-5.746
+  },
+  {
+    "team_id":"fontbonne",
+    "full_team":"Fontbonne",
+    "season":2025,
+    "off":95.34,
+    "def":109.75,
+    "rating":-14.42,
+    "pace":76.23,
+    "wab":-13.225
   },
   {
     "team_id":"framingham-state",
@@ -16238,6 +17308,86 @@
     "rating":-24.05,
     "pace":72.57,
     "wab":-19.049
+  },
+  {
+    "team_id":"frostburg-st",
+    "full_team":"Frostburg St.",
+    "season":2012,
+    "off":103.16,
+    "def":100.24,
+    "rating":2.92,
+    "pace":72.55,
+    "wab":-7.587
+  },
+  {
+    "team_id":"frostburg-st",
+    "full_team":"Frostburg St.",
+    "season":2013,
+    "off":102.26,
+    "def":104.35,
+    "rating":-2.08,
+    "pace":70.8,
+    "wab":-9.871
+  },
+  {
+    "team_id":"frostburg-st",
+    "full_team":"Frostburg St.",
+    "season":2014,
+    "off":93.88,
+    "def":108.53,
+    "rating":-14.65,
+    "pace":73.76,
+    "wab":-14.592
+  },
+  {
+    "team_id":"frostburg-st",
+    "full_team":"Frostburg St.",
+    "season":2015,
+    "off":96.54,
+    "def":102.37,
+    "rating":-5.83,
+    "pace":73.5,
+    "wab":-8.898
+  },
+  {
+    "team_id":"frostburg-st",
+    "full_team":"Frostburg St.",
+    "season":2016,
+    "off":96.98,
+    "def":102.66,
+    "rating":-5.68,
+    "pace":74.14,
+    "wab":-11.637
+  },
+  {
+    "team_id":"frostburg-st",
+    "full_team":"Frostburg St.",
+    "season":2017,
+    "off":97.78,
+    "def":103.2,
+    "rating":-5.42,
+    "pace":73.88,
+    "wab":-12.083
+  },
+  {
+    "team_id":"frostburg-st",
+    "full_team":"Frostburg St.",
+    "season":2018,
+    "off":105.03,
+    "def":102.21,
+    "rating":2.83,
+    "pace":73.78,
+    "wab":-8.233
+  },
+  {
+    "team_id":"frostburg-st",
+    "full_team":"Frostburg St.",
+    "season":2019,
+    "off":103.61,
+    "def":102.13,
+    "rating":1.48,
+    "pace":74.86,
+    "wab":-7.184
   },
   {
     "team_id":"gallaudet",
@@ -17078,6 +18228,76 @@
     "rating":-12.02,
     "pace":71.4,
     "wab":-15.138
+  },
+  {
+    "team_id":"green-mountain",
+    "full_team":"Green Mountain",
+    "season":2012,
+    "off":77.1,
+    "def":119.93,
+    "rating":-42.82,
+    "pace":73.22,
+    "wab":-17.497
+  },
+  {
+    "team_id":"green-mountain",
+    "full_team":"Green Mountain",
+    "season":2013,
+    "off":84.31,
+    "def":115.08,
+    "rating":-30.76,
+    "pace":75.67,
+    "wab":-17.541
+  },
+  {
+    "team_id":"green-mountain",
+    "full_team":"Green Mountain",
+    "season":2014,
+    "off":80.99,
+    "def":118.74,
+    "rating":-37.74,
+    "pace":76.42,
+    "wab":-15.262
+  },
+  {
+    "team_id":"green-mountain",
+    "full_team":"Green Mountain",
+    "season":2015,
+    "off":87.52,
+    "def":115.78,
+    "rating":-28.26,
+    "pace":76.19,
+    "wab":-14.579
+  },
+  {
+    "team_id":"green-mountain",
+    "full_team":"Green Mountain",
+    "season":2016,
+    "off":104.54,
+    "def":108.18,
+    "rating":-3.65,
+    "pace":79.81,
+    "wab":-2.468
+  },
+  {
+    "team_id":"green-mountain",
+    "full_team":"Green Mountain",
+    "season":2017,
+    "off":91.44,
+    "def":105.87,
+    "rating":-14.43,
+    "pace":74.92,
+    "wab":-11.233
+  },
+  {
+    "team_id":"green-mountain",
+    "full_team":"Green Mountain",
+    "season":2018,
+    "off":85.82,
+    "def":109.28,
+    "rating":-23.46,
+    "pace":71.9,
+    "wab":-13.728
   },
   {
     "team_id":"greensboro",
@@ -18762,116 +19982,6 @@
   {
     "team_id":"hartford",
     "full_team":"Hartford",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"hartford",
-    "full_team":"Hartford",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"hartford",
-    "full_team":"Hartford",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"hartford",
-    "full_team":"Hartford",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"hartford",
-    "full_team":"Hartford",
-    "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"hartford",
-    "full_team":"Hartford",
-    "season":2017,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"hartford",
-    "full_team":"Hartford",
-    "season":2018,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"hartford",
-    "full_team":"Hartford",
-    "season":2019,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"hartford",
-    "full_team":"Hartford",
-    "season":2020,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"hartford",
-    "full_team":"Hartford",
-    "season":2022,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"hartford",
-    "full_team":"Hartford",
-    "season":2023,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"hartford",
-    "full_team":"Hartford",
     "season":2024,
     "off":88.11,
     "def":100.01,
@@ -20162,16 +21272,6 @@
   {
     "team_id":"houghton",
     "full_team":"Houghton",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"houghton",
-    "full_team":"Houghton",
     "season":2013,
     "off":87.26,
     "def":110.38,
@@ -21002,46 +22102,6 @@
   {
     "team_id":"illinois-tech",
     "full_team":"Illinois Tech",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"illinois-tech",
-    "full_team":"Illinois Tech",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"illinois-tech",
-    "full_team":"Illinois Tech",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"illinois-tech",
-    "full_team":"Illinois Tech",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"illinois-tech",
-    "full_team":"Illinois Tech",
     "season":2016,
     "off":92.12,
     "def":106.37,
@@ -21418,6 +22478,76 @@
     "rating":-14.56,
     "pace":78.57,
     "wab":-17.494
+  },
+  {
+    "team_id":"iowa-wesleyan",
+    "full_team":"Iowa Wesleyan",
+    "season":2014,
+    "off":84.75,
+    "def":111.8,
+    "rating":-27.05,
+    "pace":68.98,
+    "wab":-13.862
+  },
+  {
+    "team_id":"iowa-wesleyan",
+    "full_team":"Iowa Wesleyan",
+    "season":2015,
+    "off":92.75,
+    "def":105.93,
+    "rating":-13.18,
+    "pace":69.93,
+    "wab":-8.717
+  },
+  {
+    "team_id":"iowa-wesleyan",
+    "full_team":"Iowa Wesleyan",
+    "season":2016,
+    "off":96.08,
+    "def":109.84,
+    "rating":-13.76,
+    "pace":74.83,
+    "wab":-8.705
+  },
+  {
+    "team_id":"iowa-wesleyan",
+    "full_team":"Iowa Wesleyan",
+    "season":2017,
+    "off":112.12,
+    "def":108.3,
+    "rating":3.82,
+    "pace":74.78,
+    "wab":-4.684
+  },
+  {
+    "team_id":"iowa-wesleyan",
+    "full_team":"Iowa Wesleyan",
+    "season":2018,
+    "off":102.69,
+    "def":117.36,
+    "rating":-14.68,
+    "pace":74.78,
+    "wab":-15.475
+  },
+  {
+    "team_id":"iowa-wesleyan",
+    "full_team":"Iowa Wesleyan",
+    "season":2019,
+    "off":92.42,
+    "def":108.75,
+    "rating":-16.34,
+    "pace":75.06,
+    "wab":-15.811
+  },
+  {
+    "team_id":"iowa-wesleyan",
+    "full_team":"Iowa Wesleyan",
+    "season":2020,
+    "off":97.75,
+    "def":108.52,
+    "rating":-10.77,
+    "pace":75.88,
+    "wab":-14.807
   },
   {
     "team_id":"ithaca",
@@ -22122,136 +23252,6 @@
   {
     "team_id":"johnson-and-wales-n-c",
     "full_team":"Johnson and Wales (N.C.)",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"johnson-and-wales-n-c",
-    "full_team":"Johnson and Wales (N.C.)",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"johnson-and-wales-n-c",
-    "full_team":"Johnson and Wales (N.C.)",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"johnson-and-wales-n-c",
-    "full_team":"Johnson and Wales (N.C.)",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"johnson-and-wales-n-c",
-    "full_team":"Johnson and Wales (N.C.)",
-    "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"johnson-and-wales-n-c",
-    "full_team":"Johnson and Wales (N.C.)",
-    "season":2017,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"johnson-and-wales-n-c",
-    "full_team":"Johnson and Wales (N.C.)",
-    "season":2018,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"johnson-and-wales-n-c",
-    "full_team":"Johnson and Wales (N.C.)",
-    "season":2019,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"johnson-and-wales-n-c",
-    "full_team":"Johnson and Wales (N.C.)",
-    "season":2020,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"johnson-and-wales-n-c",
-    "full_team":"Johnson and Wales (N.C.)",
-    "season":2022,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"johnson-and-wales-n-c",
-    "full_team":"Johnson and Wales (N.C.)",
-    "season":2023,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"johnson-and-wales-n-c",
-    "full_team":"Johnson and Wales (N.C.)",
-    "season":2024,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"johnson-and-wales-n-c",
-    "full_team":"Johnson and Wales (N.C.)",
-    "season":2025,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"johnson-and-wales-n-c",
-    "full_team":"Johnson and Wales (N.C.)",
     "season":2026,
     "off":97.18,
     "def":112.23,
@@ -22398,6 +23398,26 @@
     "rating":-2.64,
     "pace":70.32,
     "wab":-10.451
+  },
+  {
+    "team_id":"jwu-denver",
+    "full_team":"JWU (Denver)",
+    "season":2019,
+    "off":105.39,
+    "def":104.16,
+    "rating":1.23,
+    "pace":73.1,
+    "wab":-5.097
+  },
+  {
+    "team_id":"jwu-denver",
+    "full_team":"JWU (Denver)",
+    "season":2020,
+    "off":91.6,
+    "def":108.81,
+    "rating":-17.21,
+    "pace":72.24,
+    "wab":-18.611
   },
   {
     "team_id":"kalamazoo",
@@ -25620,6 +26640,96 @@
     "wab":-2.192
   },
   {
+    "team_id":"louisiana-col",
+    "full_team":"Louisiana Col.",
+    "season":2012,
+    "off":100.43,
+    "def":100.68,
+    "rating":-0.25,
+    "pace":73.53,
+    "wab":-7.642
+  },
+  {
+    "team_id":"louisiana-col",
+    "full_team":"Louisiana Col.",
+    "season":2013,
+    "off":104.28,
+    "def":103.08,
+    "rating":1.2,
+    "pace":73.8,
+    "wab":-8.137
+  },
+  {
+    "team_id":"louisiana-col",
+    "full_team":"Louisiana Col.",
+    "season":2014,
+    "off":105.28,
+    "def":101.36,
+    "rating":3.93,
+    "pace":73.1,
+    "wab":-6.543
+  },
+  {
+    "team_id":"louisiana-col",
+    "full_team":"Louisiana Col.",
+    "season":2015,
+    "off":108.4,
+    "def":99.07,
+    "rating":9.33,
+    "pace":72.02,
+    "wab":-1.876
+  },
+  {
+    "team_id":"louisiana-col",
+    "full_team":"Louisiana Col.",
+    "season":2016,
+    "off":104.11,
+    "def":94.97,
+    "rating":9.14,
+    "pace":69.76,
+    "wab":-3.181
+  },
+  {
+    "team_id":"louisiana-col",
+    "full_team":"Louisiana Col.",
+    "season":2017,
+    "off":102.08,
+    "def":101.29,
+    "rating":0.79,
+    "pace":69.24,
+    "wab":-8.672
+  },
+  {
+    "team_id":"louisiana-col",
+    "full_team":"Louisiana Col.",
+    "season":2018,
+    "off":100.94,
+    "def":103.18,
+    "rating":-2.24,
+    "pace":70.91,
+    "wab":-11.645
+  },
+  {
+    "team_id":"louisiana-col",
+    "full_team":"Louisiana Col.",
+    "season":2019,
+    "off":110.43,
+    "def":96.96,
+    "rating":13.47,
+    "pace":70.56,
+    "wab":-1.969
+  },
+  {
+    "team_id":"louisiana-col",
+    "full_team":"Louisiana Col.",
+    "season":2020,
+    "off":103.45,
+    "def":98.8,
+    "rating":4.65,
+    "pace":70.08,
+    "wab":-7.056
+  },
+  {
     "team_id":"luther",
     "full_team":"Luther",
     "season":2012,
@@ -26042,116 +27152,6 @@
   {
     "team_id":"lyon",
     "full_team":"Lyon",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"lyon",
-    "full_team":"Lyon",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"lyon",
-    "full_team":"Lyon",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"lyon",
-    "full_team":"Lyon",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"lyon",
-    "full_team":"Lyon",
-    "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"lyon",
-    "full_team":"Lyon",
-    "season":2017,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"lyon",
-    "full_team":"Lyon",
-    "season":2018,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"lyon",
-    "full_team":"Lyon",
-    "season":2019,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"lyon",
-    "full_team":"Lyon",
-    "season":2020,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"lyon",
-    "full_team":"Lyon",
-    "season":2022,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"lyon",
-    "full_team":"Lyon",
-    "season":2023,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"lyon",
-    "full_team":"Lyon",
     "season":2024,
     "off":101.19,
     "def":106.05,
@@ -26318,6 +27318,96 @@
     "rating":-7.04,
     "pace":73.91,
     "wab":-12.211
+  },
+  {
+    "team_id":"macmurray",
+    "full_team":"MacMurray",
+    "season":2012,
+    "off":98.38,
+    "def":106.09,
+    "rating":-7.72,
+    "pace":71.93,
+    "wab":-6.479
+  },
+  {
+    "team_id":"macmurray",
+    "full_team":"MacMurray",
+    "season":2013,
+    "off":102.74,
+    "def":103.14,
+    "rating":-0.39,
+    "pace":69.83,
+    "wab":-6.845
+  },
+  {
+    "team_id":"macmurray",
+    "full_team":"MacMurray",
+    "season":2014,
+    "off":107.19,
+    "def":103.63,
+    "rating":3.57,
+    "pace":69.97,
+    "wab":-2.24
+  },
+  {
+    "team_id":"macmurray",
+    "full_team":"MacMurray",
+    "season":2015,
+    "off":103.67,
+    "def":105.11,
+    "rating":-1.44,
+    "pace":74.18,
+    "wab":-7.731
+  },
+  {
+    "team_id":"macmurray",
+    "full_team":"MacMurray",
+    "season":2016,
+    "off":103.95,
+    "def":109.01,
+    "rating":-5.06,
+    "pace":74.24,
+    "wab":-7.805
+  },
+  {
+    "team_id":"macmurray",
+    "full_team":"MacMurray",
+    "season":2017,
+    "off":95.69,
+    "def":111.16,
+    "rating":-15.47,
+    "pace":73.06,
+    "wab":-15.645
+  },
+  {
+    "team_id":"macmurray",
+    "full_team":"MacMurray",
+    "season":2018,
+    "off":101.96,
+    "def":111.93,
+    "rating":-9.97,
+    "pace":72.95,
+    "wab":-8.907
+  },
+  {
+    "team_id":"macmurray",
+    "full_team":"MacMurray",
+    "season":2019,
+    "off":94.04,
+    "def":109.42,
+    "rating":-15.38,
+    "pace":74.98,
+    "wab":-14.491
+  },
+  {
+    "team_id":"macmurray",
+    "full_team":"MacMurray",
+    "season":2020,
+    "off":96.01,
+    "def":110.7,
+    "rating":-14.69,
+    "pace":77.35,
+    "wab":-13.101
   },
   {
     "team_id":"maine-farmington",
@@ -27578,96 +28668,6 @@
     "rating":-9.53,
     "pace":73.83,
     "wab":-11.018
-  },
-  {
-    "team_id":"mary-baldwin",
-    "full_team":"Mary Baldwin",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"mary-baldwin",
-    "full_team":"Mary Baldwin",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"mary-baldwin",
-    "full_team":"Mary Baldwin",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"mary-baldwin",
-    "full_team":"Mary Baldwin",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"mary-baldwin",
-    "full_team":"Mary Baldwin",
-    "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"mary-baldwin",
-    "full_team":"Mary Baldwin",
-    "season":2017,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"mary-baldwin",
-    "full_team":"Mary Baldwin",
-    "season":2018,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"mary-baldwin",
-    "full_team":"Mary Baldwin",
-    "season":2019,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"mary-baldwin",
-    "full_team":"Mary Baldwin",
-    "season":2020,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
   },
   {
     "team_id":"mary-baldwin",
@@ -28992,36 +29992,6 @@
   {
     "team_id":"mcmurry",
     "full_team":"McMurry",
-    "season":2013,
-    "off":109.45,
-    "def":102.7,
-    "rating":6.76,
-    "pace":74.82,
-    "wab":null
-  },
-  {
-    "team_id":"mcmurry",
-    "full_team":"McMurry",
-    "season":2014,
-    "off":109.94,
-    "def":101.72,
-    "rating":8.22,
-    "pace":74.82,
-    "wab":null
-  },
-  {
-    "team_id":"mcmurry",
-    "full_team":"McMurry",
-    "season":2015,
-    "off":110.17,
-    "def":101.53,
-    "rating":8.64,
-    "pace":74.82,
-    "wab":null
-  },
-  {
-    "team_id":"mcmurry",
-    "full_team":"McMurry",
     "season":2016,
     "off":97.63,
     "def":106.95,
@@ -29118,6 +30088,116 @@
     "rating":-1.81,
     "pace":74.66,
     "wab":-10.764
+  },
+  {
+    "team_id":"medaille",
+    "full_team":"Medaille",
+    "season":2012,
+    "off":108.48,
+    "def":102.34,
+    "rating":6.14,
+    "pace":67.47,
+    "wab":-0.774
+  },
+  {
+    "team_id":"medaille",
+    "full_team":"Medaille",
+    "season":2013,
+    "off":105.14,
+    "def":104.15,
+    "rating":0.99,
+    "pace":69.69,
+    "wab":-8.275
+  },
+  {
+    "team_id":"medaille",
+    "full_team":"Medaille",
+    "season":2014,
+    "off":108.33,
+    "def":109.64,
+    "rating":-1.32,
+    "pace":69.97,
+    "wab":-8.827
+  },
+  {
+    "team_id":"medaille",
+    "full_team":"Medaille",
+    "season":2015,
+    "off":103.37,
+    "def":104.47,
+    "rating":-1.1,
+    "pace":72.07,
+    "wab":-3.811
+  },
+  {
+    "team_id":"medaille",
+    "full_team":"Medaille",
+    "season":2016,
+    "off":98.84,
+    "def":106.04,
+    "rating":-7.2,
+    "pace":73.87,
+    "wab":-12.003
+  },
+  {
+    "team_id":"medaille",
+    "full_team":"Medaille",
+    "season":2017,
+    "off":103.49,
+    "def":98.88,
+    "rating":4.61,
+    "pace":75.28,
+    "wab":-3.198
+  },
+  {
+    "team_id":"medaille",
+    "full_team":"Medaille",
+    "season":2018,
+    "off":103.84,
+    "def":104.51,
+    "rating":-0.67,
+    "pace":75.29,
+    "wab":-7.484
+  },
+  {
+    "team_id":"medaille",
+    "full_team":"Medaille",
+    "season":2019,
+    "off":100.14,
+    "def":106.83,
+    "rating":-6.7,
+    "pace":74.21,
+    "wab":-10.529
+  },
+  {
+    "team_id":"medaille",
+    "full_team":"Medaille",
+    "season":2020,
+    "off":102.94,
+    "def":109.42,
+    "rating":-6.48,
+    "pace":75.56,
+    "wab":-11.389
+  },
+  {
+    "team_id":"medaille",
+    "full_team":"Medaille",
+    "season":2022,
+    "off":100.19,
+    "def":105.48,
+    "rating":-5.28,
+    "pace":73.64,
+    "wab":-9.165
+  },
+  {
+    "team_id":"medaille",
+    "full_team":"Medaille",
+    "season":2023,
+    "off":90.15,
+    "def":104.39,
+    "rating":-14.24,
+    "pace":72.38,
+    "wab":-13.283
   },
   {
     "team_id":"medgar-evers",
@@ -30380,6 +31460,36 @@
     "wab":-5.683
   },
   {
+    "team_id":"mississippi-col",
+    "full_team":"Mississippi Col.",
+    "season":2012,
+    "off":103.47,
+    "def":101.13,
+    "rating":2.34,
+    "pace":72.71,
+    "wab":-9.483
+  },
+  {
+    "team_id":"mississippi-col",
+    "full_team":"Mississippi Col.",
+    "season":2013,
+    "off":105.21,
+    "def":99.05,
+    "rating":6.16,
+    "pace":71.65,
+    "wab":-5.401
+  },
+  {
+    "team_id":"mississippi-col",
+    "full_team":"Mississippi Col.",
+    "season":2014,
+    "off":103.99,
+    "def":100.19,
+    "rating":3.8,
+    "pace":71.08,
+    "wab":-8.481
+  },
+  {
     "team_id":"mit",
     "full_team":"MIT",
     "season":2012,
@@ -31358,6 +32468,76 @@
     "rating":-22.81,
     "pace":73.93,
     "wab":-15.753
+  },
+  {
+    "team_id":"mount-ida",
+    "full_team":"Mount Ida",
+    "season":2012,
+    "off":88.74,
+    "def":105.97,
+    "rating":-17.23,
+    "pace":71.61,
+    "wab":-15.147
+  },
+  {
+    "team_id":"mount-ida",
+    "full_team":"Mount Ida",
+    "season":2013,
+    "off":94.09,
+    "def":107.53,
+    "rating":-13.44,
+    "pace":74.46,
+    "wab":-16.561
+  },
+  {
+    "team_id":"mount-ida",
+    "full_team":"Mount Ida",
+    "season":2014,
+    "off":80.74,
+    "def":108.17,
+    "rating":-27.43,
+    "pace":72.89,
+    "wab":-16.439
+  },
+  {
+    "team_id":"mount-ida",
+    "full_team":"Mount Ida",
+    "season":2015,
+    "off":89.09,
+    "def":108.29,
+    "rating":-19.2,
+    "pace":72.24,
+    "wab":-13.446
+  },
+  {
+    "team_id":"mount-ida",
+    "full_team":"Mount Ida",
+    "season":2016,
+    "off":96.04,
+    "def":107.64,
+    "rating":-11.6,
+    "pace":74.85,
+    "wab":-12.031
+  },
+  {
+    "team_id":"mount-ida",
+    "full_team":"Mount Ida",
+    "season":2017,
+    "off":99.05,
+    "def":107.5,
+    "rating":-8.44,
+    "pace":76.29,
+    "wab":-7.901
+  },
+  {
+    "team_id":"mount-ida",
+    "full_team":"Mount Ida",
+    "season":2018,
+    "off":95.12,
+    "def":107.12,
+    "rating":-12.0,
+    "pace":79.43,
+    "wab":-13.033
   },
   {
     "team_id":"mount-st-joseph",
@@ -32342,96 +33522,6 @@
   {
     "team_id":"muw",
     "full_team":"MUW",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"muw",
-    "full_team":"MUW",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"muw",
-    "full_team":"MUW",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"muw",
-    "full_team":"MUW",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"muw",
-    "full_team":"MUW",
-    "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"muw",
-    "full_team":"MUW",
-    "season":2017,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"muw",
-    "full_team":"MUW",
-    "season":2018,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"muw",
-    "full_team":"MUW",
-    "season":2019,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"muw",
-    "full_team":"MUW",
-    "season":2020,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"muw",
-    "full_team":"MUW",
     "season":2022,
     "off":92.2,
     "def":111.87,
@@ -32798,16 +33888,6 @@
     "rating":10.74,
     "pace":75.42,
     "wab":-0.442
-  },
-  {
-    "team_id":"nebraska-wesleyan",
-    "full_team":"Nebraska Wesleyan",
-    "season":2016,
-    "off":109.41,
-    "def":97.14,
-    "rating":12.27,
-    "pace":75.42,
-    "wab":null
   },
   {
     "team_id":"nebraska-wesleyan",
@@ -33180,6 +34260,176 @@
     "wab":-14.74
   },
   {
+    "team_id":"new-jersey-city",
+    "full_team":"New Jersey City",
+    "season":2012,
+    "off":101.15,
+    "def":93.91,
+    "rating":7.24,
+    "pace":69.22,
+    "wab":-3.078
+  },
+  {
+    "team_id":"new-jersey-city",
+    "full_team":"New Jersey City",
+    "season":2013,
+    "off":95.83,
+    "def":88.74,
+    "rating":7.09,
+    "pace":67.23,
+    "wab":-7.87
+  },
+  {
+    "team_id":"new-jersey-city",
+    "full_team":"New Jersey City",
+    "season":2014,
+    "off":94.62,
+    "def":90.82,
+    "rating":3.8,
+    "pace":68.75,
+    "wab":-7.122
+  },
+  {
+    "team_id":"new-jersey-city",
+    "full_team":"New Jersey City",
+    "season":2015,
+    "off":100.01,
+    "def":93.14,
+    "rating":6.87,
+    "pace":69.59,
+    "wab":-7.804
+  },
+  {
+    "team_id":"new-jersey-city",
+    "full_team":"New Jersey City",
+    "season":2016,
+    "off":105.16,
+    "def":92.65,
+    "rating":12.51,
+    "pace":73.22,
+    "wab":-2.474
+  },
+  {
+    "team_id":"new-jersey-city",
+    "full_team":"New Jersey City",
+    "season":2017,
+    "off":102.29,
+    "def":89.5,
+    "rating":12.79,
+    "pace":72.5,
+    "wab":-1.814
+  },
+  {
+    "team_id":"new-jersey-city",
+    "full_team":"New Jersey City",
+    "season":2018,
+    "off":107.87,
+    "def":100.33,
+    "rating":7.54,
+    "pace":71.23,
+    "wab":-2.655
+  },
+  {
+    "team_id":"new-jersey-city",
+    "full_team":"New Jersey City",
+    "season":2019,
+    "off":108.25,
+    "def":94.9,
+    "rating":13.35,
+    "pace":72.84,
+    "wab":-2.772
+  },
+  {
+    "team_id":"new-jersey-city",
+    "full_team":"New Jersey City",
+    "season":2020,
+    "off":104.55,
+    "def":98.73,
+    "rating":5.82,
+    "pace":74.31,
+    "wab":-7.77
+  },
+  {
+    "team_id":"new-jersey-city",
+    "full_team":"New Jersey City",
+    "season":2022,
+    "off":103.59,
+    "def":97.63,
+    "rating":5.97,
+    "pace":73.74,
+    "wab":-9.05
+  },
+  {
+    "team_id":"new-jersey-city",
+    "full_team":"New Jersey City",
+    "season":2023,
+    "off":99.32,
+    "def":95.87,
+    "rating":3.45,
+    "pace":70.84,
+    "wab":-8.443
+  },
+  {
+    "team_id":"new-jersey-city",
+    "full_team":"New Jersey City",
+    "season":2024,
+    "off":102.7,
+    "def":103.28,
+    "rating":-0.58,
+    "pace":72.89,
+    "wab":-12.331
+  },
+  {
+    "team_id":"new-jersey-city",
+    "full_team":"New Jersey City",
+    "season":2025,
+    "off":101.97,
+    "def":99.09,
+    "rating":2.88,
+    "pace":71.11,
+    "wab":-7.561
+  },
+  {
+    "team_id":"new-jersey-city",
+    "full_team":"New Jersey City",
+    "season":2026,
+    "off":99.34,
+    "def":97.53,
+    "rating":1.81,
+    "pace":70.09,
+    "wab":-7.393
+  },
+  {
+    "team_id":"new-rochelle",
+    "full_team":"New Rochelle",
+    "season":2017,
+    "off":92.67,
+    "def":103.02,
+    "rating":-10.35,
+    "pace":78.27,
+    "wab":-7.866
+  },
+  {
+    "team_id":"new-rochelle",
+    "full_team":"New Rochelle",
+    "season":2018,
+    "off":97.11,
+    "def":108.23,
+    "rating":-11.12,
+    "pace":80.64,
+    "wab":-4.782
+  },
+  {
+    "team_id":"new-rochelle",
+    "full_team":"New Rochelle",
+    "season":2019,
+    "off":97.64,
+    "def":103.55,
+    "rating":-5.91,
+    "pace":82.45,
+    "wab":-5.383
+  },
+  {
     "team_id":"new-york-university",
     "full_team":"New York University",
     "season":2012,
@@ -33318,6 +34568,86 @@
     "rating":20.2,
     "pace":67.22,
     "wab":1.071
+  },
+  {
+    "team_id":"newbury",
+    "full_team":"Newbury",
+    "season":2012,
+    "off":93.65,
+    "def":109.63,
+    "rating":-15.98,
+    "pace":69.67,
+    "wab":-11.648
+  },
+  {
+    "team_id":"newbury",
+    "full_team":"Newbury",
+    "season":2013,
+    "off":97.04,
+    "def":103.62,
+    "rating":-6.59,
+    "pace":70.87,
+    "wab":-9.024
+  },
+  {
+    "team_id":"newbury",
+    "full_team":"Newbury",
+    "season":2014,
+    "off":82.85,
+    "def":107.63,
+    "rating":-24.78,
+    "pace":70.57,
+    "wab":-18.322
+  },
+  {
+    "team_id":"newbury",
+    "full_team":"Newbury",
+    "season":2015,
+    "off":86.3,
+    "def":109.77,
+    "rating":-23.47,
+    "pace":73.12,
+    "wab":-16.103
+  },
+  {
+    "team_id":"newbury",
+    "full_team":"Newbury",
+    "season":2016,
+    "off":87.95,
+    "def":112.98,
+    "rating":-25.03,
+    "pace":74.22,
+    "wab":-18.459
+  },
+  {
+    "team_id":"newbury",
+    "full_team":"Newbury",
+    "season":2017,
+    "off":91.16,
+    "def":115.53,
+    "rating":-24.37,
+    "pace":76.19,
+    "wab":-18.486
+  },
+  {
+    "team_id":"newbury",
+    "full_team":"Newbury",
+    "season":2018,
+    "off":91.91,
+    "def":113.87,
+    "rating":-21.96,
+    "pace":80.22,
+    "wab":-18.059
+  },
+  {
+    "team_id":"newbury",
+    "full_team":"Newbury",
+    "season":2019,
+    "off":98.21,
+    "def":112.72,
+    "rating":-14.51,
+    "pace":79.39,
+    "wab":-13.395
   },
   {
     "team_id":"nichols",
@@ -33880,6 +35210,136 @@
     "wab":-1.732
   },
   {
+    "team_id":"northland",
+    "full_team":"Northland",
+    "season":2012,
+    "off":88.65,
+    "def":110.0,
+    "rating":-21.34,
+    "pace":70.05,
+    "wab":-16.201
+  },
+  {
+    "team_id":"northland",
+    "full_team":"Northland",
+    "season":2013,
+    "off":89.08,
+    "def":116.77,
+    "rating":-27.69,
+    "pace":69.32,
+    "wab":-16.361
+  },
+  {
+    "team_id":"northland",
+    "full_team":"Northland",
+    "season":2014,
+    "off":86.47,
+    "def":117.16,
+    "rating":-30.69,
+    "pace":64.52,
+    "wab":-15.204
+  },
+  {
+    "team_id":"northland",
+    "full_team":"Northland",
+    "season":2015,
+    "off":87.47,
+    "def":109.29,
+    "rating":-21.82,
+    "pace":65.81,
+    "wab":-12.235
+  },
+  {
+    "team_id":"northland",
+    "full_team":"Northland",
+    "season":2016,
+    "off":92.15,
+    "def":106.79,
+    "rating":-14.65,
+    "pace":68.28,
+    "wab":-11.443
+  },
+  {
+    "team_id":"northland",
+    "full_team":"Northland",
+    "season":2017,
+    "off":101.35,
+    "def":109.44,
+    "rating":-8.1,
+    "pace":69.1,
+    "wab":-8.606
+  },
+  {
+    "team_id":"northland",
+    "full_team":"Northland",
+    "season":2018,
+    "off":98.53,
+    "def":106.45,
+    "rating":-7.92,
+    "pace":66.84,
+    "wab":-8.495
+  },
+  {
+    "team_id":"northland",
+    "full_team":"Northland",
+    "season":2019,
+    "off":95.64,
+    "def":107.12,
+    "rating":-11.48,
+    "pace":70.75,
+    "wab":-11.491
+  },
+  {
+    "team_id":"northland",
+    "full_team":"Northland",
+    "season":2020,
+    "off":88.04,
+    "def":113.27,
+    "rating":-25.22,
+    "pace":71.19,
+    "wab":-13.946
+  },
+  {
+    "team_id":"northland",
+    "full_team":"Northland",
+    "season":2022,
+    "off":89.85,
+    "def":115.6,
+    "rating":-25.75,
+    "pace":72.29,
+    "wab":-15.025
+  },
+  {
+    "team_id":"northland",
+    "full_team":"Northland",
+    "season":2023,
+    "off":90.22,
+    "def":113.29,
+    "rating":-23.07,
+    "pace":73.11,
+    "wab":-14.173
+  },
+  {
+    "team_id":"northland",
+    "full_team":"Northland",
+    "season":2024,
+    "off":88.6,
+    "def":114.63,
+    "rating":-26.03,
+    "pace":73.51,
+    "wab":-18.917
+  },
+  {
+    "team_id":"northland",
+    "full_team":"Northland",
+    "season":2025,
+    "off":80.5,
+    "def":113.2,
+    "rating":-32.7,
+    "pace":73.34,
+    "wab":-18.863
+  },
+  {
     "team_id":"northwestern-minn",
     "full_team":"Northwestern (Minn.)",
     "season":2012,
@@ -34158,116 +35618,6 @@
     "rating":-7.96,
     "pace":70.17,
     "wab":-13.153
-  },
-  {
-    "team_id":"notre-dame-md",
-    "full_team":"Notre Dame (Md.)",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"notre-dame-md",
-    "full_team":"Notre Dame (Md.)",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"notre-dame-md",
-    "full_team":"Notre Dame (Md.)",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"notre-dame-md",
-    "full_team":"Notre Dame (Md.)",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"notre-dame-md",
-    "full_team":"Notre Dame (Md.)",
-    "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"notre-dame-md",
-    "full_team":"Notre Dame (Md.)",
-    "season":2017,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"notre-dame-md",
-    "full_team":"Notre Dame (Md.)",
-    "season":2018,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"notre-dame-md",
-    "full_team":"Notre Dame (Md.)",
-    "season":2019,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"notre-dame-md",
-    "full_team":"Notre Dame (Md.)",
-    "season":2020,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"notre-dame-md",
-    "full_team":"Notre Dame (Md.)",
-    "season":2022,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"notre-dame-md",
-    "full_team":"Notre Dame (Md.)",
-    "season":2023,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
   },
   {
     "team_id":"notre-dame-md",
@@ -35982,36 +37332,6 @@
   {
     "team_id":"penn-college",
     "full_team":"Penn College",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"penn-college",
-    "full_team":"Penn College",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"penn-college",
-    "full_team":"Penn College",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"penn-college",
-    "full_team":"Penn College",
     "season":2015,
     "off":86.46,
     "def":109.23,
@@ -36682,126 +38002,6 @@
   {
     "team_id":"penn-state-brandywine",
     "full_team":"Penn State-Brandywine",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"penn-state-brandywine",
-    "full_team":"Penn State-Brandywine",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"penn-state-brandywine",
-    "full_team":"Penn State-Brandywine",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"penn-state-brandywine",
-    "full_team":"Penn State-Brandywine",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"penn-state-brandywine",
-    "full_team":"Penn State-Brandywine",
-    "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"penn-state-brandywine",
-    "full_team":"Penn State-Brandywine",
-    "season":2017,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"penn-state-brandywine",
-    "full_team":"Penn State-Brandywine",
-    "season":2018,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"penn-state-brandywine",
-    "full_team":"Penn State-Brandywine",
-    "season":2019,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"penn-state-brandywine",
-    "full_team":"Penn State-Brandywine",
-    "season":2020,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"penn-state-brandywine",
-    "full_team":"Penn State-Brandywine",
-    "season":2022,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"penn-state-brandywine",
-    "full_team":"Penn State-Brandywine",
-    "season":2023,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"penn-state-brandywine",
-    "full_team":"Penn State-Brandywine",
-    "season":2024,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"penn-state-brandywine",
-    "full_team":"Penn State-Brandywine",
     "season":2025,
     "off":83.49,
     "def":108.94,
@@ -36958,66 +38158,6 @@
     "rating":5.88,
     "pace":66.28,
     "wab":-5.076
-  },
-  {
-    "team_id":"pfeiffer",
-    "full_team":"Pfeiffer",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"pfeiffer",
-    "full_team":"Pfeiffer",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"pfeiffer",
-    "full_team":"Pfeiffer",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"pfeiffer",
-    "full_team":"Pfeiffer",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"pfeiffer",
-    "full_team":"Pfeiffer",
-    "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"pfeiffer",
-    "full_team":"Pfeiffer",
-    "season":2017,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
   },
   {
     "team_id":"pfeiffer",
@@ -37238,6 +38378,66 @@
     "rating":-2.56,
     "pace":75.4,
     "wab":-9.481
+  },
+  {
+    "team_id":"pine-manor",
+    "full_team":"Pine Manor",
+    "season":2015,
+    "off":91.7,
+    "def":105.07,
+    "rating":-13.37,
+    "pace":81.59,
+    "wab":-5.619
+  },
+  {
+    "team_id":"pine-manor",
+    "full_team":"Pine Manor",
+    "season":2016,
+    "off":97.35,
+    "def":103.72,
+    "rating":-6.37,
+    "pace":83.34,
+    "wab":-7.313
+  },
+  {
+    "team_id":"pine-manor",
+    "full_team":"Pine Manor",
+    "season":2017,
+    "off":99.08,
+    "def":99.39,
+    "rating":-0.31,
+    "pace":84.22,
+    "wab":-4.626
+  },
+  {
+    "team_id":"pine-manor",
+    "full_team":"Pine Manor",
+    "season":2018,
+    "off":92.15,
+    "def":98.42,
+    "rating":-6.27,
+    "pace":80.39,
+    "wab":-9.865
+  },
+  {
+    "team_id":"pine-manor",
+    "full_team":"Pine Manor",
+    "season":2019,
+    "off":92.18,
+    "def":104.2,
+    "rating":-12.02,
+    "pace":80.53,
+    "wab":-10.734
+  },
+  {
+    "team_id":"pine-manor",
+    "full_team":"Pine Manor",
+    "season":2020,
+    "off":89.91,
+    "def":111.78,
+    "rating":-21.86,
+    "pace":77.82,
+    "wab":-13.401
   },
   {
     "team_id":"pitt-bradford",
@@ -37800,6 +39000,36 @@
     "wab":-13.842
   },
   {
+    "team_id":"polytechnic-ny",
+    "full_team":"Polytechnic (NY)",
+    "season":2012,
+    "off":78.79,
+    "def":108.2,
+    "rating":-29.41,
+    "pace":71.51,
+    "wab":-17.978
+  },
+  {
+    "team_id":"polytechnic-ny",
+    "full_team":"Polytechnic (NY)",
+    "season":2013,
+    "off":82.76,
+    "def":110.17,
+    "rating":-27.41,
+    "pace":72.98,
+    "wab":-16.197
+  },
+  {
+    "team_id":"polytechnic-ny",
+    "full_team":"Polytechnic (NY)",
+    "season":2014,
+    "off":84.81,
+    "def":116.3,
+    "rating":-31.49,
+    "pace":73.06,
+    "wab":-17.117
+  },
+  {
     "team_id":"pomona-pitzer",
     "full_team":"Pomona-Pitzer",
     "season":2012,
@@ -37942,76 +39172,6 @@
   {
     "team_id":"pratt",
     "full_team":"Pratt",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"pratt",
-    "full_team":"Pratt",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"pratt",
-    "full_team":"Pratt",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"pratt",
-    "full_team":"Pratt",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"pratt",
-    "full_team":"Pratt",
-    "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"pratt",
-    "full_team":"Pratt",
-    "season":2017,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"pratt",
-    "full_team":"Pratt",
-    "season":2018,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"pratt",
-    "full_team":"Pratt",
     "season":2019,
     "off":85.51,
     "def":114.61,
@@ -38078,6 +39238,26 @@
     "rating":-15.59,
     "pace":72.55,
     "wab":-11.374
+  },
+  {
+    "team_id":"presentation",
+    "full_team":"Presentation",
+    "season":2012,
+    "off":91.02,
+    "def":115.92,
+    "rating":-24.9,
+    "pace":71.31,
+    "wab":-11.258
+  },
+  {
+    "team_id":"presentation",
+    "full_team":"Presentation",
+    "season":2013,
+    "off":96.56,
+    "def":110.24,
+    "rating":-13.68,
+    "pace":71.57,
+    "wab":-2.298
   },
   {
     "team_id":"principia",
@@ -38918,136 +40098,6 @@
     "rating":24.39,
     "pace":79.63,
     "wab":1.942
-  },
-  {
-    "team_id":"regent",
-    "full_team":"Regent",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"regent",
-    "full_team":"Regent",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"regent",
-    "full_team":"Regent",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"regent",
-    "full_team":"Regent",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"regent",
-    "full_team":"Regent",
-    "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"regent",
-    "full_team":"Regent",
-    "season":2017,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"regent",
-    "full_team":"Regent",
-    "season":2018,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"regent",
-    "full_team":"Regent",
-    "season":2019,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"regent",
-    "full_team":"Regent",
-    "season":2020,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"regent",
-    "full_team":"Regent",
-    "season":2022,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"regent",
-    "full_team":"Regent",
-    "season":2023,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"regent",
-    "full_team":"Regent",
-    "season":2024,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"regent",
-    "full_team":"Regent",
-    "season":2025,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
   },
   {
     "team_id":"regent",
@@ -40600,6 +41650,146 @@
     "wab":-4.34
   },
   {
+    "team_id":"rosemont",
+    "full_team":"Rosemont",
+    "season":2012,
+    "off":92.05,
+    "def":103.31,
+    "rating":-11.26,
+    "pace":69.77,
+    "wab":-10.039
+  },
+  {
+    "team_id":"rosemont",
+    "full_team":"Rosemont",
+    "season":2013,
+    "off":97.25,
+    "def":109.89,
+    "rating":-12.64,
+    "pace":72.88,
+    "wab":-11.915
+  },
+  {
+    "team_id":"rosemont",
+    "full_team":"Rosemont",
+    "season":2014,
+    "off":100.81,
+    "def":108.96,
+    "rating":-8.14,
+    "pace":71.66,
+    "wab":-10.735
+  },
+  {
+    "team_id":"rosemont",
+    "full_team":"Rosemont",
+    "season":2015,
+    "off":102.77,
+    "def":105.89,
+    "rating":-3.12,
+    "pace":68.24,
+    "wab":-9.273
+  },
+  {
+    "team_id":"rosemont",
+    "full_team":"Rosemont",
+    "season":2016,
+    "off":106.03,
+    "def":110.97,
+    "rating":-4.94,
+    "pace":72.07,
+    "wab":-10.237
+  },
+  {
+    "team_id":"rosemont",
+    "full_team":"Rosemont",
+    "season":2017,
+    "off":106.99,
+    "def":106.62,
+    "rating":0.37,
+    "pace":73.75,
+    "wab":-6.537
+  },
+  {
+    "team_id":"rosemont",
+    "full_team":"Rosemont",
+    "season":2018,
+    "off":108.1,
+    "def":101.0,
+    "rating":7.09,
+    "pace":69.95,
+    "wab":-5.598
+  },
+  {
+    "team_id":"rosemont",
+    "full_team":"Rosemont",
+    "season":2019,
+    "off":103.65,
+    "def":102.67,
+    "rating":0.98,
+    "pace":74.26,
+    "wab":-8.233
+  },
+  {
+    "team_id":"rosemont",
+    "full_team":"Rosemont",
+    "season":2020,
+    "off":98.06,
+    "def":107.72,
+    "rating":-9.66,
+    "pace":74.29,
+    "wab":-14.172
+  },
+  {
+    "team_id":"rosemont",
+    "full_team":"Rosemont",
+    "season":2022,
+    "off":92.37,
+    "def":102.45,
+    "rating":-10.08,
+    "pace":70.7,
+    "wab":-10.029
+  },
+  {
+    "team_id":"rosemont",
+    "full_team":"Rosemont",
+    "season":2023,
+    "off":91.98,
+    "def":105.02,
+    "rating":-13.04,
+    "pace":74.44,
+    "wab":-11.594
+  },
+  {
+    "team_id":"rosemont",
+    "full_team":"Rosemont",
+    "season":2024,
+    "off":90.14,
+    "def":111.36,
+    "rating":-21.22,
+    "pace":71.77,
+    "wab":-16.904
+  },
+  {
+    "team_id":"rosemont",
+    "full_team":"Rosemont",
+    "season":2025,
+    "off":83.59,
+    "def":108.4,
+    "rating":-24.81,
+    "pace":71.28,
+    "wab":-18.462
+  },
+  {
+    "team_id":"rosemont",
+    "full_team":"Rosemont",
+    "season":2026,
+    "off":79.62,
+    "def":111.38,
+    "rating":-31.76,
+    "pace":67.3,
+    "wab":-14.15
+  },
+  {
     "team_id":"rowan",
     "full_team":"Rowan",
     "season":2012,
@@ -40878,6 +42068,66 @@
     "rating":14.08,
     "pace":63.78,
     "wab":-1.896
+  },
+  {
+    "team_id":"rust",
+    "full_team":"Rust",
+    "season":2012,
+    "off":103.23,
+    "def":107.03,
+    "rating":-3.79,
+    "pace":76.9,
+    "wab":-6.162
+  },
+  {
+    "team_id":"rust",
+    "full_team":"Rust",
+    "season":2013,
+    "off":102.94,
+    "def":107.29,
+    "rating":-4.34,
+    "pace":74.45,
+    "wab":-6.553
+  },
+  {
+    "team_id":"rust",
+    "full_team":"Rust",
+    "season":2014,
+    "off":101.96,
+    "def":107.61,
+    "rating":-5.65,
+    "pace":75.06,
+    "wab":-9.017
+  },
+  {
+    "team_id":"rust",
+    "full_team":"Rust",
+    "season":2015,
+    "off":99.85,
+    "def":103.85,
+    "rating":-4.0,
+    "pace":75.96,
+    "wab":-3.488
+  },
+  {
+    "team_id":"rust",
+    "full_team":"Rust",
+    "season":2016,
+    "off":98.54,
+    "def":106.86,
+    "rating":-8.32,
+    "pace":77.42,
+    "wab":-10.598
+  },
+  {
+    "team_id":"rust",
+    "full_team":"Rust",
+    "season":2017,
+    "off":98.84,
+    "def":110.43,
+    "rating":-11.59,
+    "pace":74.63,
+    "wab":-11.853
   },
   {
     "team_id":"rutgers-camden",
@@ -41718,26 +42968,6 @@
     "rating":4.4,
     "pace":67.71,
     "wab":-1.981
-  },
-  {
-    "team_id":"sarah-lawrence",
-    "full_team":"Sarah Lawrence",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"sarah-lawrence",
-    "full_team":"Sarah Lawrence",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
   },
   {
     "team_id":"sarah-lawrence",
@@ -42842,26 +44072,6 @@
   {
     "team_id":"southern-virginia",
     "full_team":"Southern Virginia",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"southern-virginia",
-    "full_team":"Southern Virginia",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"southern-virginia",
-    "full_team":"Southern Virginia",
     "season":2014,
     "off":99.73,
     "def":108.91,
@@ -42978,6 +44188,86 @@
     "rating":1.35,
     "pace":72.22,
     "wab":-7.219
+  },
+  {
+    "team_id":"southern-vt",
+    "full_team":"Southern Vt.",
+    "season":2012,
+    "off":90.92,
+    "def":119.69,
+    "rating":-28.77,
+    "pace":73.92,
+    "wab":-17.43
+  },
+  {
+    "team_id":"southern-vt",
+    "full_team":"Southern Vt.",
+    "season":2013,
+    "off":84.8,
+    "def":115.48,
+    "rating":-30.68,
+    "pace":73.98,
+    "wab":-19.73
+  },
+  {
+    "team_id":"southern-vt",
+    "full_team":"Southern Vt.",
+    "season":2014,
+    "off":98.78,
+    "def":106.83,
+    "rating":-8.05,
+    "pace":74.64,
+    "wab":-7.399
+  },
+  {
+    "team_id":"southern-vt",
+    "full_team":"Southern Vt.",
+    "season":2015,
+    "off":104.7,
+    "def":98.74,
+    "rating":5.95,
+    "pace":72.32,
+    "wab":-0.814
+  },
+  {
+    "team_id":"southern-vt",
+    "full_team":"Southern Vt.",
+    "season":2016,
+    "off":106.2,
+    "def":92.82,
+    "rating":13.38,
+    "pace":75.52,
+    "wab":0.403
+  },
+  {
+    "team_id":"southern-vt",
+    "full_team":"Southern Vt.",
+    "season":2017,
+    "off":100.42,
+    "def":101.79,
+    "rating":-1.38,
+    "pace":76.53,
+    "wab":-6.207
+  },
+  {
+    "team_id":"southern-vt",
+    "full_team":"Southern Vt.",
+    "season":2018,
+    "off":99.41,
+    "def":99.6,
+    "rating":-0.2,
+    "pace":74.44,
+    "wab":-3.284
+  },
+  {
+    "team_id":"southern-vt",
+    "full_team":"Southern Vt.",
+    "season":2019,
+    "off":97.34,
+    "def":102.65,
+    "rating":-5.31,
+    "pace":70.95,
+    "wab":-6.88
   },
   {
     "team_id":"southwestern",
@@ -43402,56 +44692,6 @@
   {
     "team_id":"st-elizabeth",
     "full_team":"St. Elizabeth",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-elizabeth",
-    "full_team":"St. Elizabeth",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-elizabeth",
-    "full_team":"St. Elizabeth",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-elizabeth",
-    "full_team":"St. Elizabeth",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-elizabeth",
-    "full_team":"St. Elizabeth",
-    "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-elizabeth",
-    "full_team":"St. Elizabeth",
     "season":2017,
     "off":86.83,
     "def":110.22,
@@ -43538,146 +44778,6 @@
     "rating":-19.87,
     "pace":76.92,
     "wab":-15.384
-  },
-  {
-    "team_id":"st-francis",
-    "full_team":"St. Francis",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-francis",
-    "full_team":"St. Francis",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-francis",
-    "full_team":"St. Francis",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-francis",
-    "full_team":"St. Francis",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-francis",
-    "full_team":"St. Francis",
-    "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-francis",
-    "full_team":"St. Francis",
-    "season":2017,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-francis",
-    "full_team":"St. Francis",
-    "season":2018,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-francis",
-    "full_team":"St. Francis",
-    "season":2019,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-francis",
-    "full_team":"St. Francis",
-    "season":2020,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-francis",
-    "full_team":"St. Francis",
-    "season":2022,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-francis",
-    "full_team":"St. Francis",
-    "season":2023,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-francis",
-    "full_team":"St. Francis",
-    "season":2024,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-francis",
-    "full_team":"St. Francis",
-    "season":2025,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-francis",
-    "full_team":"St. Francis",
-    "season":2026,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
   },
   {
     "team_id":"st-john-fisher",
@@ -43958,76 +45058,6 @@
     "rating":13.81,
     "pace":69.51,
     "wab":-3.255
-  },
-  {
-    "team_id":"st-joseph-conn",
-    "full_team":"St. Joseph (Conn.)",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-joseph-conn",
-    "full_team":"St. Joseph (Conn.)",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-joseph-conn",
-    "full_team":"St. Joseph (Conn.)",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-joseph-conn",
-    "full_team":"St. Joseph (Conn.)",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-joseph-conn",
-    "full_team":"St. Joseph (Conn.)",
-    "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-joseph-conn",
-    "full_team":"St. Joseph (Conn.)",
-    "season":2017,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"st-joseph-conn",
-    "full_team":"St. Joseph (Conn.)",
-    "season":2018,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
   },
   {
     "team_id":"st-joseph-conn",
@@ -45360,84 +46390,94 @@
     "wab":-12.489
   },
   {
-    "team_id":"st-thomas-texas",
-    "full_team":"St. Thomas (Texas)",
+    "team_id":"st-thomas-mn",
+    "full_team":"St. Thomas (MN)",
     "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":120.97,
+    "def":96.42,
+    "rating":24.55,
+    "pace":66.58,
+    "wab":4.885
   },
   {
-    "team_id":"st-thomas-texas",
-    "full_team":"St. Thomas (Texas)",
+    "team_id":"st-thomas-mn",
+    "full_team":"St. Thomas (MN)",
     "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":126.44,
+    "def":89.34,
+    "rating":37.1,
+    "pace":67.33,
+    "wab":9.374
   },
   {
-    "team_id":"st-thomas-texas",
-    "full_team":"St. Thomas (Texas)",
+    "team_id":"st-thomas-mn",
+    "full_team":"St. Thomas (MN)",
     "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":123.16,
+    "def":95.25,
+    "rating":27.92,
+    "pace":66.04,
+    "wab":3.637
   },
   {
-    "team_id":"st-thomas-texas",
-    "full_team":"St. Thomas (Texas)",
+    "team_id":"st-thomas-mn",
+    "full_team":"St. Thomas (MN)",
     "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":123.59,
+    "def":94.53,
+    "rating":29.06,
+    "pace":66.39,
+    "wab":6.915
   },
   {
-    "team_id":"st-thomas-texas",
-    "full_team":"St. Thomas (Texas)",
+    "team_id":"st-thomas-mn",
+    "full_team":"St. Thomas (MN)",
     "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":124.45,
+    "def":93.4,
+    "rating":31.06,
+    "pace":67.31,
+    "wab":11.67
   },
   {
-    "team_id":"st-thomas-texas",
-    "full_team":"St. Thomas (Texas)",
+    "team_id":"st-thomas-mn",
+    "full_team":"St. Thomas (MN)",
     "season":2017,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":114.94,
+    "def":96.18,
+    "rating":18.76,
+    "pace":68.39,
+    "wab":0.638
   },
   {
-    "team_id":"st-thomas-texas",
-    "full_team":"St. Thomas (Texas)",
+    "team_id":"st-thomas-mn",
+    "full_team":"St. Thomas (MN)",
     "season":2018,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":110.78,
+    "def":92.82,
+    "rating":17.96,
+    "pace":68.85,
+    "wab":-1.482
   },
   {
-    "team_id":"st-thomas-texas",
-    "full_team":"St. Thomas (Texas)",
+    "team_id":"st-thomas-mn",
+    "full_team":"St. Thomas (MN)",
     "season":2019,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":120.02,
+    "def":93.17,
+    "rating":26.85,
+    "pace":71.14,
+    "wab":3.602
+  },
+  {
+    "team_id":"st-thomas-mn",
+    "full_team":"St. Thomas (MN)",
+    "season":2020,
+    "off":120.37,
+    "def":90.56,
+    "rating":29.81,
+    "pace":70.25,
+    "wab":6.93
   },
   {
     "team_id":"st-thomas-texas",
@@ -45638,6 +46678,96 @@
     "rating":5.58,
     "pace":71.27,
     "wab":-5.218
+  },
+  {
+    "team_id":"staten-island",
+    "full_team":"Staten Island",
+    "season":2012,
+    "off":112.24,
+    "def":100.31,
+    "rating":11.92,
+    "pace":69.83,
+    "wab":0.4
+  },
+  {
+    "team_id":"staten-island",
+    "full_team":"Staten Island",
+    "season":2013,
+    "off":103.21,
+    "def":99.23,
+    "rating":3.99,
+    "pace":69.65,
+    "wab":-3.797
+  },
+  {
+    "team_id":"staten-island",
+    "full_team":"Staten Island",
+    "season":2014,
+    "off":110.79,
+    "def":96.6,
+    "rating":14.19,
+    "pace":73.41,
+    "wab":1.048
+  },
+  {
+    "team_id":"staten-island",
+    "full_team":"Staten Island",
+    "season":2015,
+    "off":104.61,
+    "def":100.04,
+    "rating":4.56,
+    "pace":73.28,
+    "wab":-4.769
+  },
+  {
+    "team_id":"staten-island",
+    "full_team":"Staten Island",
+    "season":2016,
+    "off":106.86,
+    "def":102.02,
+    "rating":4.84,
+    "pace":72.09,
+    "wab":-3.424
+  },
+  {
+    "team_id":"staten-island",
+    "full_team":"Staten Island",
+    "season":2017,
+    "off":105.61,
+    "def":99.73,
+    "rating":5.88,
+    "pace":73.51,
+    "wab":-2.042
+  },
+  {
+    "team_id":"staten-island",
+    "full_team":"Staten Island",
+    "season":2018,
+    "off":100.81,
+    "def":101.72,
+    "rating":-0.91,
+    "pace":75.28,
+    "wab":-7.821
+  },
+  {
+    "team_id":"staten-island",
+    "full_team":"Staten Island",
+    "season":2019,
+    "off":98.6,
+    "def":98.26,
+    "rating":0.34,
+    "pace":76.34,
+    "wab":-6.892
+  },
+  {
+    "team_id":"staten-island",
+    "full_team":"Staten Island",
+    "season":2020,
+    "off":91.67,
+    "def":103.33,
+    "rating":-11.67,
+    "pace":74.42,
+    "wab":-10.101
   },
   {
     "team_id":"stevens",
@@ -46200,84 +47330,124 @@
     "wab":-5.818
   },
   {
-    "team_id":"suny-canton",
-    "full_team":"SUNY-Canton",
+    "team_id":"sul-ross-st",
+    "full_team":"Sul Ross St.",
     "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":96.66,
+    "def":97.79,
+    "rating":-1.13,
+    "pace":67.56,
+    "wab":-9.178
   },
   {
-    "team_id":"suny-canton",
-    "full_team":"SUNY-Canton",
+    "team_id":"sul-ross-st",
+    "full_team":"Sul Ross St.",
     "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":96.11,
+    "def":103.26,
+    "rating":-7.15,
+    "pace":70.83,
+    "wab":-10.836
   },
   {
-    "team_id":"suny-canton",
-    "full_team":"SUNY-Canton",
+    "team_id":"sul-ross-st",
+    "full_team":"Sul Ross St.",
     "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":102.83,
+    "def":104.3,
+    "rating":-1.47,
+    "pace":72.19,
+    "wab":-7.135
   },
   {
-    "team_id":"suny-canton",
-    "full_team":"SUNY-Canton",
+    "team_id":"sul-ross-st",
+    "full_team":"Sul Ross St.",
     "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":100.84,
+    "def":104.27,
+    "rating":-3.43,
+    "pace":71.93,
+    "wab":-11.552
   },
   {
-    "team_id":"suny-canton",
-    "full_team":"SUNY-Canton",
+    "team_id":"sul-ross-st",
+    "full_team":"Sul Ross St.",
     "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":106.56,
+    "def":100.5,
+    "rating":6.06,
+    "pace":71.71,
+    "wab":-1.352
   },
   {
-    "team_id":"suny-canton",
-    "full_team":"SUNY-Canton",
+    "team_id":"sul-ross-st",
+    "full_team":"Sul Ross St.",
     "season":2017,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":102.75,
+    "def":94.83,
+    "rating":7.93,
+    "pace":70.78,
+    "wab":-4.659
   },
   {
-    "team_id":"suny-canton",
-    "full_team":"SUNY-Canton",
+    "team_id":"sul-ross-st",
+    "full_team":"Sul Ross St.",
     "season":2018,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":107.56,
+    "def":92.45,
+    "rating":15.11,
+    "pace":72.62,
+    "wab":0.895
   },
   {
-    "team_id":"suny-canton",
-    "full_team":"SUNY-Canton",
+    "team_id":"sul-ross-st",
+    "full_team":"Sul Ross St.",
     "season":2019,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
+    "off":102.72,
+    "def":98.93,
+    "rating":3.78,
+    "pace":74.66,
+    "wab":-7.588
+  },
+  {
+    "team_id":"sul-ross-st",
+    "full_team":"Sul Ross St.",
+    "season":2020,
+    "off":108.71,
+    "def":97.68,
+    "rating":11.04,
+    "pace":74.36,
+    "wab":-4.024
+  },
+  {
+    "team_id":"sul-ross-st",
+    "full_team":"Sul Ross St.",
+    "season":2022,
+    "off":99.93,
+    "def":99.16,
+    "rating":0.77,
+    "pace":73.31,
+    "wab":-11.322
+  },
+  {
+    "team_id":"sul-ross-st",
+    "full_team":"Sul Ross St.",
+    "season":2023,
+    "off":101.94,
+    "def":101.56,
+    "rating":0.38,
+    "pace":73.57,
+    "wab":-10.455
+  },
+  {
+    "team_id":"sul-ross-st",
+    "full_team":"Sul Ross St.",
+    "season":2024,
+    "off":99.95,
+    "def":101.44,
+    "rating":-1.49,
+    "pace":71.54,
+    "wab":-9.667
   },
   {
     "team_id":"suny-canton",
@@ -46478,76 +47648,6 @@
     "rating":-17.39,
     "pace":74.22,
     "wab":-12.5
-  },
-  {
-    "team_id":"suny-delhi",
-    "full_team":"SUNY Delhi",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"suny-delhi",
-    "full_team":"SUNY Delhi",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"suny-delhi",
-    "full_team":"SUNY Delhi",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"suny-delhi",
-    "full_team":"SUNY Delhi",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"suny-delhi",
-    "full_team":"SUNY Delhi",
-    "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"suny-delhi",
-    "full_team":"SUNY Delhi",
-    "season":2017,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"suny-delhi",
-    "full_team":"SUNY Delhi",
-    "season":2018,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
   },
   {
     "team_id":"suny-delhi",
@@ -48160,6 +49260,126 @@
     "wab":0.63
   },
   {
+    "team_id":"texas-dallas",
+    "full_team":"Texas-Dallas",
+    "season":2012,
+    "off":111.88,
+    "def":94.34,
+    "rating":17.54,
+    "pace":66.3,
+    "wab":-0.025
+  },
+  {
+    "team_id":"texas-dallas",
+    "full_team":"Texas-Dallas",
+    "season":2013,
+    "off":112.46,
+    "def":93.87,
+    "rating":18.6,
+    "pace":64.6,
+    "wab":-1.703
+  },
+  {
+    "team_id":"texas-dallas",
+    "full_team":"Texas-Dallas",
+    "season":2014,
+    "off":119.66,
+    "def":96.6,
+    "rating":23.05,
+    "pace":66.52,
+    "wab":3.442
+  },
+  {
+    "team_id":"texas-dallas",
+    "full_team":"Texas-Dallas",
+    "season":2015,
+    "off":111.85,
+    "def":100.79,
+    "rating":11.07,
+    "pace":66.93,
+    "wab":-3.95
+  },
+  {
+    "team_id":"texas-dallas",
+    "full_team":"Texas-Dallas",
+    "season":2016,
+    "off":110.12,
+    "def":100.59,
+    "rating":9.52,
+    "pace":67.81,
+    "wab":-3.146
+  },
+  {
+    "team_id":"texas-dallas",
+    "full_team":"Texas-Dallas",
+    "season":2017,
+    "off":106.22,
+    "def":96.39,
+    "rating":9.84,
+    "pace":69.59,
+    "wab":-7.798
+  },
+  {
+    "team_id":"texas-dallas",
+    "full_team":"Texas-Dallas",
+    "season":2018,
+    "off":111.72,
+    "def":96.06,
+    "rating":15.66,
+    "pace":69.55,
+    "wab":-1.588
+  },
+  {
+    "team_id":"texas-dallas",
+    "full_team":"Texas-Dallas",
+    "season":2019,
+    "off":113.46,
+    "def":93.3,
+    "rating":20.15,
+    "pace":70.69,
+    "wab":0.511
+  },
+  {
+    "team_id":"texas-dallas",
+    "full_team":"Texas-Dallas",
+    "season":2020,
+    "off":110.51,
+    "def":95.2,
+    "rating":15.31,
+    "pace":68.81,
+    "wab":0.28
+  },
+  {
+    "team_id":"texas-dallas",
+    "full_team":"Texas-Dallas",
+    "season":2022,
+    "off":106.33,
+    "def":99.43,
+    "rating":6.9,
+    "pace":69.6,
+    "wab":-3.992
+  },
+  {
+    "team_id":"texas-dallas",
+    "full_team":"Texas-Dallas",
+    "season":2023,
+    "off":110.03,
+    "def":93.46,
+    "rating":16.57,
+    "pace":70.9,
+    "wab":0.065
+  },
+  {
+    "team_id":"texas-dallas",
+    "full_team":"Texas-Dallas",
+    "season":2024,
+    "off":110.31,
+    "def":99.32,
+    "rating":10.99,
+    "pace":72.32,
+    "wab":-3.971
+  },
+  {
     "team_id":"texas-lutheran",
     "full_team":"Texas Lutheran",
     "season":2012,
@@ -48578,6 +49798,86 @@
     "rating":-17.88,
     "pace":75.31,
     "wab":-12.12
+  },
+  {
+    "team_id":"thomas-more",
+    "full_team":"Thomas More",
+    "season":2012,
+    "off":106.97,
+    "def":101.01,
+    "rating":5.97,
+    "pace":71.83,
+    "wab":-3.297
+  },
+  {
+    "team_id":"thomas-more",
+    "full_team":"Thomas More",
+    "season":2013,
+    "off":106.94,
+    "def":98.17,
+    "rating":8.76,
+    "pace":73.3,
+    "wab":-0.058
+  },
+  {
+    "team_id":"thomas-more",
+    "full_team":"Thomas More",
+    "season":2014,
+    "off":111.57,
+    "def":105.64,
+    "rating":5.93,
+    "pace":71.61,
+    "wab":-6.472
+  },
+  {
+    "team_id":"thomas-more",
+    "full_team":"Thomas More",
+    "season":2015,
+    "off":111.62,
+    "def":104.52,
+    "rating":7.11,
+    "pace":71.07,
+    "wab":-3.872
+  },
+  {
+    "team_id":"thomas-more",
+    "full_team":"Thomas More",
+    "season":2016,
+    "off":106.82,
+    "def":101.22,
+    "rating":5.6,
+    "pace":70.19,
+    "wab":-6.364
+  },
+  {
+    "team_id":"thomas-more",
+    "full_team":"Thomas More",
+    "season":2017,
+    "off":110.98,
+    "def":101.39,
+    "rating":9.59,
+    "pace":69.55,
+    "wab":-3.511
+  },
+  {
+    "team_id":"thomas-more",
+    "full_team":"Thomas More",
+    "season":2018,
+    "off":111.51,
+    "def":101.42,
+    "rating":10.09,
+    "pace":66.57,
+    "wab":-2.211
+  },
+  {
+    "team_id":"thomas-more",
+    "full_team":"Thomas More",
+    "season":2019,
+    "off":112.51,
+    "def":97.9,
+    "rating":14.61,
+    "pace":66.51,
+    "wab":-4.311
   },
   {
     "team_id":"transylvania",
@@ -50120,6 +51420,86 @@
     "wab":-4.591
   },
   {
+    "team_id":"ut-tyler",
+    "full_team":"UT Tyler",
+    "season":2012,
+    "off":96.42,
+    "def":99.31,
+    "rating":-2.89,
+    "pace":70.17,
+    "wab":-10.744
+  },
+  {
+    "team_id":"ut-tyler",
+    "full_team":"UT Tyler",
+    "season":2013,
+    "off":108.19,
+    "def":100.27,
+    "rating":7.92,
+    "pace":69.16,
+    "wab":-2.864
+  },
+  {
+    "team_id":"ut-tyler",
+    "full_team":"UT Tyler",
+    "season":2014,
+    "off":111.04,
+    "def":104.53,
+    "rating":6.51,
+    "pace":71.53,
+    "wab":-4.585
+  },
+  {
+    "team_id":"ut-tyler",
+    "full_team":"UT Tyler",
+    "season":2015,
+    "off":101.06,
+    "def":105.74,
+    "rating":-4.68,
+    "pace":71.47,
+    "wab":-14.711
+  },
+  {
+    "team_id":"ut-tyler",
+    "full_team":"UT Tyler",
+    "season":2016,
+    "off":108.87,
+    "def":107.42,
+    "rating":1.45,
+    "pace":71.12,
+    "wab":-6.289
+  },
+  {
+    "team_id":"ut-tyler",
+    "full_team":"UT Tyler",
+    "season":2017,
+    "off":107.19,
+    "def":102.49,
+    "rating":4.71,
+    "pace":71.05,
+    "wab":-5.965
+  },
+  {
+    "team_id":"ut-tyler",
+    "full_team":"UT Tyler",
+    "season":2018,
+    "off":112.2,
+    "def":103.18,
+    "rating":9.03,
+    "pace":73.04,
+    "wab":-3.514
+  },
+  {
+    "team_id":"ut-tyler",
+    "full_team":"UT Tyler",
+    "season":2019,
+    "off":101.07,
+    "def":105.09,
+    "rating":-4.02,
+    "pace":73.6,
+    "wab":-12.203
+  },
+  {
     "team_id":"utica",
     "full_team":"Utica",
     "season":2012,
@@ -51520,6 +52900,116 @@
     "wab":2.541
   },
   {
+    "team_id":"valley-forge",
+    "full_team":"Valley Forge",
+    "season":2015,
+    "off":91.24,
+    "def":103.78,
+    "rating":-12.54,
+    "pace":74.27,
+    "wab":-5.355
+  },
+  {
+    "team_id":"valley-forge",
+    "full_team":"Valley Forge",
+    "season":2016,
+    "off":88.25,
+    "def":107.52,
+    "rating":-19.27,
+    "pace":74.55,
+    "wab":-6.759
+  },
+  {
+    "team_id":"valley-forge",
+    "full_team":"Valley Forge",
+    "season":2017,
+    "off":92.59,
+    "def":103.05,
+    "rating":-10.46,
+    "pace":74.02,
+    "wab":-3.562
+  },
+  {
+    "team_id":"valley-forge",
+    "full_team":"Valley Forge",
+    "season":2018,
+    "off":95.82,
+    "def":110.42,
+    "rating":-14.61,
+    "pace":73.14,
+    "wab":-9.6
+  },
+  {
+    "team_id":"valley-forge",
+    "full_team":"Valley Forge",
+    "season":2019,
+    "off":81.31,
+    "def":112.05,
+    "rating":-30.74,
+    "pace":74.19,
+    "wab":-13.536
+  },
+  {
+    "team_id":"valley-forge",
+    "full_team":"Valley Forge",
+    "season":2020,
+    "off":90.08,
+    "def":117.24,
+    "rating":-27.16,
+    "pace":80.23,
+    "wab":-10.307
+  },
+  {
+    "team_id":"valley-forge",
+    "full_team":"Valley Forge",
+    "season":2022,
+    "off":89.19,
+    "def":117.75,
+    "rating":-28.56,
+    "pace":79.78,
+    "wab":-15.017
+  },
+  {
+    "team_id":"valley-forge",
+    "full_team":"Valley Forge",
+    "season":2023,
+    "off":80.49,
+    "def":119.14,
+    "rating":-38.65,
+    "pace":77.63,
+    "wab":-20.04
+  },
+  {
+    "team_id":"valley-forge",
+    "full_team":"Valley Forge",
+    "season":2024,
+    "off":83.41,
+    "def":108.28,
+    "rating":-24.87,
+    "pace":76.48,
+    "wab":-17.041
+  },
+  {
+    "team_id":"valley-forge",
+    "full_team":"Valley Forge",
+    "season":2025,
+    "off":83.31,
+    "def":108.38,
+    "rating":-25.07,
+    "pace":77.12,
+    "wab":-13.166
+  },
+  {
+    "team_id":"valley-forge",
+    "full_team":"Valley Forge",
+    "season":2026,
+    "off":88.72,
+    "def":111.54,
+    "rating":-22.82,
+    "pace":75.41,
+    "wab":-9.955
+  },
+  {
     "team_id":"vassar",
     "full_team":"Vassar",
     "season":2012,
@@ -51798,96 +53288,6 @@
     "rating":12.58,
     "pace":68.65,
     "wab":-3.154
-  },
-  {
-    "team_id":"warren-wilson",
-    "full_team":"Warren Wilson",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"warren-wilson",
-    "full_team":"Warren Wilson",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"warren-wilson",
-    "full_team":"Warren Wilson",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"warren-wilson",
-    "full_team":"Warren Wilson",
-    "season":2015,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"warren-wilson",
-    "full_team":"Warren Wilson",
-    "season":2016,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"warren-wilson",
-    "full_team":"Warren Wilson",
-    "season":2017,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"warren-wilson",
-    "full_team":"Warren Wilson",
-    "season":2018,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"warren-wilson",
-    "full_team":"Warren Wilson",
-    "season":2019,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"warren-wilson",
-    "full_team":"Warren Wilson",
-    "season":2020,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
   },
   {
     "team_id":"warren-wilson",
@@ -52920,6 +54320,126 @@
     "wab":-1.726
   },
   {
+    "team_id":"wells",
+    "full_team":"Wells",
+    "season":2012,
+    "off":94.29,
+    "def":103.3,
+    "rating":-9.02,
+    "pace":70.53,
+    "wab":-9.204
+  },
+  {
+    "team_id":"wells",
+    "full_team":"Wells",
+    "season":2013,
+    "off":90.95,
+    "def":103.66,
+    "rating":-12.71,
+    "pace":72.2,
+    "wab":-11.853
+  },
+  {
+    "team_id":"wells",
+    "full_team":"Wells",
+    "season":2014,
+    "off":89.24,
+    "def":106.99,
+    "rating":-17.75,
+    "pace":72.97,
+    "wab":-15.414
+  },
+  {
+    "team_id":"wells",
+    "full_team":"Wells",
+    "season":2015,
+    "off":90.4,
+    "def":111.2,
+    "rating":-20.8,
+    "pace":69.45,
+    "wab":-14.517
+  },
+  {
+    "team_id":"wells",
+    "full_team":"Wells",
+    "season":2016,
+    "off":94.26,
+    "def":112.4,
+    "rating":-18.14,
+    "pace":70.26,
+    "wab":-10.79
+  },
+  {
+    "team_id":"wells",
+    "full_team":"Wells",
+    "season":2017,
+    "off":98.7,
+    "def":111.6,
+    "rating":-12.91,
+    "pace":71.06,
+    "wab":-7.416
+  },
+  {
+    "team_id":"wells",
+    "full_team":"Wells",
+    "season":2018,
+    "off":97.27,
+    "def":113.12,
+    "rating":-15.85,
+    "pace":70.61,
+    "wab":-16.076
+  },
+  {
+    "team_id":"wells",
+    "full_team":"Wells",
+    "season":2019,
+    "off":89.36,
+    "def":110.58,
+    "rating":-21.22,
+    "pace":70.06,
+    "wab":-16.022
+  },
+  {
+    "team_id":"wells",
+    "full_team":"Wells",
+    "season":2020,
+    "off":86.6,
+    "def":110.72,
+    "rating":-24.12,
+    "pace":69.31,
+    "wab":-18.19
+  },
+  {
+    "team_id":"wells",
+    "full_team":"Wells",
+    "season":2022,
+    "off":98.09,
+    "def":105.5,
+    "rating":-7.41,
+    "pace":72.65,
+    "wab":-7.264
+  },
+  {
+    "team_id":"wells",
+    "full_team":"Wells",
+    "season":2023,
+    "off":93.27,
+    "def":103.78,
+    "rating":-10.51,
+    "pace":73.92,
+    "wab":-10.106
+  },
+  {
+    "team_id":"wells",
+    "full_team":"Wells",
+    "season":2024,
+    "off":88.75,
+    "def":109.99,
+    "rating":-21.24,
+    "pace":72.89,
+    "wab":-17.977
+  },
+  {
     "team_id":"wentworth",
     "full_team":"Wentworth",
     "season":2012,
@@ -53058,6 +54578,96 @@
     "rating":-12.96,
     "pace":71.95,
     "wab":-14.532
+  },
+  {
+    "team_id":"wesley",
+    "full_team":"Wesley",
+    "season":2012,
+    "off":104.13,
+    "def":99.39,
+    "rating":4.74,
+    "pace":73.81,
+    "wab":-6.805
+  },
+  {
+    "team_id":"wesley",
+    "full_team":"Wesley",
+    "season":2013,
+    "off":104.53,
+    "def":91.89,
+    "rating":12.64,
+    "pace":70.46,
+    "wab":-1.004
+  },
+  {
+    "team_id":"wesley",
+    "full_team":"Wesley",
+    "season":2014,
+    "off":107.71,
+    "def":90.91,
+    "rating":16.81,
+    "pace":70.74,
+    "wab":3.546
+  },
+  {
+    "team_id":"wesley",
+    "full_team":"Wesley",
+    "season":2015,
+    "off":98.32,
+    "def":96.93,
+    "rating":1.39,
+    "pace":72.22,
+    "wab":-8.31
+  },
+  {
+    "team_id":"wesley",
+    "full_team":"Wesley",
+    "season":2016,
+    "off":107.75,
+    "def":101.26,
+    "rating":6.49,
+    "pace":71.35,
+    "wab":-7.551
+  },
+  {
+    "team_id":"wesley",
+    "full_team":"Wesley",
+    "season":2017,
+    "off":103.87,
+    "def":104.87,
+    "rating":-0.99,
+    "pace":72.25,
+    "wab":-9.034
+  },
+  {
+    "team_id":"wesley",
+    "full_team":"Wesley",
+    "season":2018,
+    "off":107.26,
+    "def":103.05,
+    "rating":4.21,
+    "pace":72.07,
+    "wab":-6.056
+  },
+  {
+    "team_id":"wesley",
+    "full_team":"Wesley",
+    "season":2019,
+    "off":107.95,
+    "def":106.64,
+    "rating":1.31,
+    "pace":72.89,
+    "wab":-9.379
+  },
+  {
+    "team_id":"wesley",
+    "full_team":"Wesley",
+    "season":2020,
+    "off":112.42,
+    "def":106.26,
+    "rating":6.15,
+    "pace":72.86,
+    "wab":-4.125
   },
   {
     "team_id":"wesleyan",
@@ -54180,6 +55790,76 @@
     "wab":-4.985
   },
   {
+    "team_id":"wheelock",
+    "full_team":"Wheelock",
+    "season":2012,
+    "off":91.13,
+    "def":99.87,
+    "rating":-8.74,
+    "pace":70.25,
+    "wab":-11.149
+  },
+  {
+    "team_id":"wheelock",
+    "full_team":"Wheelock",
+    "season":2013,
+    "off":83.21,
+    "def":112.35,
+    "rating":-29.14,
+    "pace":71.36,
+    "wab":-20.005
+  },
+  {
+    "team_id":"wheelock",
+    "full_team":"Wheelock",
+    "season":2014,
+    "off":89.07,
+    "def":112.73,
+    "rating":-23.66,
+    "pace":72.0,
+    "wab":-18.941
+  },
+  {
+    "team_id":"wheelock",
+    "full_team":"Wheelock",
+    "season":2015,
+    "off":95.73,
+    "def":115.08,
+    "rating":-19.35,
+    "pace":73.76,
+    "wab":-16.135
+  },
+  {
+    "team_id":"wheelock",
+    "full_team":"Wheelock",
+    "season":2016,
+    "off":88.6,
+    "def":111.18,
+    "rating":-22.58,
+    "pace":75.35,
+    "wab":-14.357
+  },
+  {
+    "team_id":"wheelock",
+    "full_team":"Wheelock",
+    "season":2017,
+    "off":100.56,
+    "def":112.32,
+    "rating":-11.76,
+    "pace":72.01,
+    "wab":-11.453
+  },
+  {
+    "team_id":"wheelock",
+    "full_team":"Wheelock",
+    "season":2018,
+    "off":88.12,
+    "def":112.11,
+    "rating":-23.98,
+    "pace":74.38,
+    "wab":-18.614
+  },
+  {
     "team_id":"whitman",
     "full_team":"Whitman",
     "season":2012,
@@ -55162,26 +56842,6 @@
   {
     "team_id":"william-peace",
     "full_team":"William Peace",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"william-peace",
-    "full_team":"William Peace",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"william-peace",
-    "full_team":"William Peace",
     "season":2014,
     "off":97.97,
     "def":110.99,
@@ -55578,36 +57238,6 @@
     "rating":6.96,
     "pace":75.52,
     "wab":-7.621
-  },
-  {
-    "team_id":"wilson",
-    "full_team":"Wilson",
-    "season":2012,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"wilson",
-    "full_team":"Wilson",
-    "season":2013,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
-  },
-  {
-    "team_id":"wilson",
-    "full_team":"Wilson",
-    "season":2014,
-    "off":90.51,
-    "def":104.91,
-    "rating":-14.4,
-    "pace":73.66,
-    "wab":null
   },
   {
     "team_id":"wilson",
