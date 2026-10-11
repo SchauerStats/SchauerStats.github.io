@@ -221,6 +221,17 @@
     .gopp:hover { color:var(--accent); text-decoration:underline; }
     .gsc  { font-family:'IBM Plex Mono',monospace; font-size:.77rem; text-align:right; white-space:nowrap; min-width:55px; }
     .gwab { font-family:'IBM Plex Mono',monospace; font-size:.7rem; text-align:right; min-width:48px; white-space:nowrap; }
+    .gstats { display:contents; } /* desktop: children flow inline as if unwrapped */
+    @media(max-width:680px) {
+      .grow { flex-wrap:wrap; padding:.55rem .85rem; gap:.25rem .4rem; }
+      .gdate { width:auto; flex-shrink:0; }
+      .gha   { width:18px; }
+      .gopp  { flex:1; min-width:120px; }
+      .gsc   { font-size:.72rem; min-width:auto; }
+      .gwab  { font-size:.68rem; min-width:auto; }
+      /* Stats row drops to second line and right-aligns */
+      .gstats { display:flex !important; gap:.75rem; width:100%; justify-content:flex-end; padding-left:calc(58px + 18px + .8rem); box-sizing:border-box; }
+    }
     .muted-c { color:var(--muted); }
     .empty { padding:1.2rem 1rem; color:var(--muted); font-size:.81rem; }
     .sbtn { font-size:.68rem; padding:.15rem .45rem; border-radius:3px; border:1px solid var(--border); cursor:pointer; background:transparent; color:var(--muted); }
@@ -900,19 +911,21 @@ function TeamPage({ teamId, nav }) {
         <span className="gdate">{fmtS(g.date)}</span>
         <span className="gha" style={{color:haColor}}>{ha}</span>
         <span className="gopp" onClick={() => nav(`#/team/${oppId}`)}>{opp}</span>
-        {fut
-          ? <span className="gsc muted-c" style={{fontSize:'.75rem'}}>{mp != null && op != null ? mp.toFixed(1)+'–'+op.toFixed(1) : '-'}</span>
-          : <span className={`gsc ${won?'win':lost?'loss':''}`}>{ms}-{os}</span>}
-        {fut
-          ? <span className="gwab" style={{fontWeight:600}}>
-              {mySpread != null ? (mySpread > 0 ? '+' : '') + mySpread.toFixed(1) : '-'}
-            </span>
-          : null}
-        {fut
-          ? <span className="gwab muted-c">{wp != null ? wp+'%' : '-'}</span>
-          : <span className="gwab" style={{color:wab==null?'var(--muted)':wab>=0?'var(--win)':'var(--loss)'}}>
-              {wab!=null ? (wab>=0?'+':'') + wab.toFixed(2) : '-'}
-            </span>}
+        <div className="gstats">
+          {fut
+            ? <span className="gsc muted-c" style={{fontSize:'.75rem'}}>{mp != null && op != null ? mp.toFixed(1)+'–'+op.toFixed(1) : '-'}</span>
+            : <span className={`gsc ${won?'win':lost?'loss':''}`}>{ms}-{os}</span>}
+          {fut
+            ? <span className="gwab" style={{fontWeight:600}}>
+                {mySpread != null ? (mySpread > 0 ? '+' : '') + mySpread.toFixed(1) : '-'}
+              </span>
+            : null}
+          {fut
+            ? <span className="gwab muted-c">{wp != null ? wp+'%' : '-'}</span>
+            : <span className="gwab" style={{color:wab==null?'var(--muted)':wab>=0?'var(--win)':'var(--loss)'}}>
+                {wab!=null ? (wab>=0?'+':'') + wab.toFixed(2) : '-'}
+              </span>}
+        </div>
       </div>
     );
   }
