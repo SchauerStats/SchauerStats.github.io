@@ -630,7 +630,7 @@ function PredictionsPage({ nav }) {
                 const hfa = g.hfa === 'vs' ? 'vs' : g.hfa === '@' ? '@' : 'neu';
                 const t2spread = g.spread != null ? g.spread : null; // Vegas: team 2's spread (positive = underdog)
                 // Win% for team 2: team 2 is favored when g.spread < 0 (team 1 margin is negative)
-                const t2wp = g.spread != null ? Math.round(1 / (1 + Math.exp(-0.152 * (-g.spread))) * 100) : null;
+                const t2wp = g.team_2_win_prob != null ? Math.round(g.team_2_win_prob * 100) : null;
                 return (
                   <tr key={i}>
                     <td className="mono" style={{whiteSpace:'nowrap'}}>{fmtS(g.date)}</td>
@@ -961,7 +961,8 @@ function TeamPage({ teamId, nav }) {
     // For upcoming: compute spread and win probability from team perspective
     const margin   = fut ? (it1 ? g.spread : -g.spread) : null;  // positive = my team favored
     const mySpread = margin != null ? -margin : null;             // Vegas: favored = negative
-    const wp = fut && margin != null ? Math.round(1 / (1 + Math.exp(-0.152 * margin)) * 100) : null;
+    const winProb = fut ? (it1 ? g.team_1_win_prob : g.team_2_win_prob) : null;
+    const wp = winProb != null ? Math.round(winProb * 100) : null;
     return (
       <div className="grow">
         <span className="gdate">{fmtS(g.date)}</span>
