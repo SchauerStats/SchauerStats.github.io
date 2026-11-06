@@ -534,7 +534,7 @@ function RatingsPage({ nav }) {
   return (
     <div className="page">
       <h1 className="page-title">D3 Men's Basketball Ratings</h1>
-      <p className="page-sub">Predictive ratings and resume quality (wins above bubble) for all D3 teams &middot; Click a team name for their full profile &middot; Data from stats.ncaa.org</p>
+      <p className="page-sub">Predictive ratings and resume quality (wins above bubble) for all D3 teams &middot; Click a team name for their full profile</p>
       <div className="table-wrap">
         <div className="toolbar">
           <input className="srch" placeholder="Search teams..." value={search} onChange={e => setSearch(e.target.value)} />
@@ -911,7 +911,7 @@ function TeamPage({ teamId, nav }) {
         <div className="gstats">
           {fut
             ? <span className="gsc muted-c" style={{fontSize:'.75rem'}}>{mp != null && op != null ? mp.toFixed(1)+'–'+op.toFixed(1) : '-'}</span>
-            : <span className="gsc" style={{fontWeight:600,color:won?'var(--cyan)':lost?'var(--navy2)':'var(--muted)'}}>{ms}-{os}</span>}
+            : <span className="gsc" style={{fontWeight:600,color:won?'var(--navy)':lost?'var(--cyan)':'var(--muted)'}}>{ms}-{os}</span>}
           {fut
             ? <span className="gwab" style={{color: mySpread < 0 ? 'var(--cyan)' : 'var(--muted)', fontWeight:600}}>
                 {mySpread > 0 ? '+' : ''}{mySpread != null ? mySpread.toFixed(1) : '-'}
@@ -919,7 +919,7 @@ function TeamPage({ teamId, nav }) {
             : null}
           {fut
             ? <span className="gwab muted-c">{wp != null ? wp+'%' : '-'}</span>
-            : <span className="gwab" style={{color:wab==null?'var(--muted)':wab>=0?'var(--cyan)':'var(--navy2)'}}>
+            : <span className="gwab" style={{color:wab==null?'var(--muted)':wab>=0?'var(--navy)':'var(--cyan)'}}>
                 {wab!=null ? (wab>=0?'+':'') + wab.toFixed(2) : '-'}
               </span>}
         </div>
@@ -1063,7 +1063,7 @@ function ConferencesPage({ nav }) {
                   <td className="hc" style={hs(c.avg_off,    oLo, oHi)}>{c.avg_off    ?? '-'}</td>
                   <td className="hc" style={hs(c.avg_def,    dLo, dHi, true)}>{c.avg_def ?? '-'}</td>
                   <td className="mono">{c.avg_tempo ?? '-'}</td>
-                  <td className="hc" style={c.avg_resume != null ? hs(c.avg_resume, resLo, resHi) : {}}>{c.avg_resume ?? '-'}</td>
+                  <td className="hc" style={c.avg_resume != null ? wabHs(c.avg_resume, resLo, resHi) : {}}>{c.avg_resume != null ? (c.avg_resume >= 0 ? '+' : '') + c.avg_resume : '-'}</td>
                 </tr>
               ))}
             </tbody>
