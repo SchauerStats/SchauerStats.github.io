@@ -221,6 +221,12 @@
     .gsc  { font-family:'IBM Plex Mono',monospace; font-size:.77rem; text-align:right; white-space:nowrap; min-width:55px; }
     .gwab { font-family:'IBM Plex Mono',monospace; font-size:.7rem; text-align:right; min-width:48px; white-space:nowrap; }
     .muted-c { color:var(--muted); }
+    .gstats { display:contents; }
+    @media(max-width:680px) {
+      .grow { flex-wrap:wrap; padding:.55rem .85rem; gap:.25rem .4rem; }
+      .gstats { display:flex !important; gap:.75rem; width:100%; justify-content:flex-end;
+                padding-left:calc(58px + 20px + .8rem); box-sizing:border-box; }
+    }
     .empty { padding:1.2rem 1rem; color:var(--muted); font-size:.81rem; }
     .sbtn { font-size:.68rem; padding:.15rem .45rem; border-radius:3px; border:1px solid var(--border); cursor:pointer; background:transparent; color:var(--muted); }
     .sbtn.active { background:var(--cyan); color:var(--navy); border-color:var(--cyan); font-weight:600; }
@@ -897,19 +903,21 @@ function TeamPage({ teamId, nav }) {
         <span className="gdate">{fmtS(g.date)}</span>
         <span className="gha" style={{color:haColor}}>{ha}</span>
         <span className="gopp" onClick={() => nav(`#/team/${oppId}`)}>{opp}</span>
-        {fut
-          ? <span className="gsc muted-c" style={{fontSize:'.75rem'}}>{mp != null && op != null ? mp.toFixed(1)+'–'+op.toFixed(1) : '-'}</span>
-          : <span className="gsc" style={{fontWeight:600,color:won?'var(--cyan)':lost?'var(--navy2)':'var(--muted)'}}>{ms}-{os}</span>}
-        {fut
-          ? <span className="gwab" style={{color: mySpread < 0 ? 'var(--cyan)' : mySpread > 0 ? 'var(--muted)' : 'var(--muted)', fontWeight:600}}>
-              {mySpread > 0 ? '+' : ''}{mySpread != null ? mySpread.toFixed(1) : '-'}
-            </span>
-          : null}
-        {fut
-          ? <span className="gwab muted-c">{wp != null ? wp+'%' : '-'}</span>
-          : <span className="gwab" style={{color:wab==null?'var(--muted)':wab>=0?'var(--cyan)':'var(--navy2)'}}>
-              {wab!=null ? (wab>=0?'+':'') + wab.toFixed(2) : '-'}
-            </span>}
+        <div className="gstats">
+          {fut
+            ? <span className="gsc muted-c" style={{fontSize:'.75rem'}}>{mp != null && op != null ? mp.toFixed(1)+'–'+op.toFixed(1) : '-'}</span>
+            : <span className="gsc" style={{fontWeight:600,color:won?'var(--cyan)':lost?'var(--navy2)':'var(--muted)'}}>{ms}-{os}</span>}
+          {fut
+            ? <span className="gwab" style={{color: mySpread < 0 ? 'var(--cyan)' : 'var(--muted)', fontWeight:600}}>
+                {mySpread > 0 ? '+' : ''}{mySpread != null ? mySpread.toFixed(1) : '-'}
+              </span>
+            : null}
+          {fut
+            ? <span className="gwab muted-c">{wp != null ? wp+'%' : '-'}</span>
+            : <span className="gwab" style={{color:wab==null?'var(--muted)':wab>=0?'var(--cyan)':'var(--navy2)'}}>
+                {wab!=null ? (wab>=0?'+':'') + wab.toFixed(2) : '-'}
+              </span>}
+        </div>
       </div>
     );
   }
@@ -947,6 +955,13 @@ function TeamPage({ teamId, nav }) {
         <div className="scard">
           <div className="box-hdr">
             <span>Games ({upcoming.length + past.length})</span>
+            {past.length > 0 && (
+              <div style={{display:'flex',alignItems:'center',gap:'.4rem'}}>
+                <span style={{color:'var(--muted)',fontSize:'.7rem',fontWeight:400}}>Sort:</span>
+                <button className={`sbtn${gameSort==='date'?' active':''}`} onClick={() => setGameSort('date')}>Date</button>
+                <button className={`sbtn${gameSort==='wab'?' active':''}`}  onClick={() => setGameSort('wab')}>WAB</button>
+              </div>
+            )}
           </div>
           {(sortedPast.length === 0 && upcoming.length === 0)
             ? <div className="empty">No games yet.</div>
