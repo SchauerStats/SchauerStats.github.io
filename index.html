@@ -127,6 +127,20 @@
       .page-title  { font-size:1.25rem; }
       .team-banner h1 { font-size:1.25rem; }
       .sbox .val   { font-size:.95rem; }
+
+      /* Predictions & Accuracy: two-line mobile rows */
+      .pred-tbl thead { display:none; }
+      .pred-tbl tbody tr { display:flex; flex-wrap:wrap; align-items:center;
+                           padding:.5rem .85rem; gap:.2rem .4rem; border-bottom:1px solid var(--border); }
+      .pred-tbl tbody tr:last-child { border-bottom:none; }
+      .pred-tbl td { padding:0 !important; font-size:.74rem; border:none; }
+      .pred-tbl .p-date  { color:var(--muted); font-family:'IBM Plex Mono',monospace; font-size:.68rem; width:50px; flex-shrink:0; }
+      .pred-tbl .p-ha    { font-size:.64rem; width:22px; flex-shrink:0; text-align:center; color:var(--muted); }
+      .pred-tbl .p-t1    { font-weight:600; flex:1; min-width:60px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+      .pred-tbl .p-t2    { font-weight:600; flex:1; min-width:60px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+      .pred-tbl .p-stats { display:flex; gap:.6rem; width:100%; justify-content:flex-end;
+                           padding-left:calc(50px + 22px + .8rem); box-sizing:border-box; }
+      .pred-tbl .p-vs    { color:var(--muted); font-size:.64rem; flex-shrink:0; align-self:center; }
     }
 
     /* Team page: games left, charts stacked right */
@@ -342,9 +356,11 @@ function wabHs(val, min, max) {
   return { background: `rgb(${r},${g},${b})`, color: t > .5 ? '#fff' : '#0D1B26' };
 }
 function errHs(val, max) {
-  // low error (good) = cyan, high error (bad) = navy
+  // high error = cyan (stands out), low error = navy (subtle), matching ratings table scale
   const t = Math.min(val / (max||1), 1);
-  const r = Math.round(0 + (8-0)*t), g2 = Math.round(174 + (31-174)*t), b = Math.round(239 + (44-239)*t);
+  const r = Math.round(8   + (0-8)   * (1-t));
+  const g2= Math.round(31  + (174-31)* (1-t));
+  const b = Math.round(44  + (239-44)* (1-t));
   return { background: `rgb(${r},${g2},${b})`, color: '#fff' };
 }
 function useSort(c0, d0 = 'asc') {
@@ -612,33 +628,36 @@ function PredictionsPage({ nav }) {
         </div>
         <div className="shint">Scroll right to see all columns &rarr;</div>
         <div className="tscroll">
-          <table>
+          <table className="pred-tbl">
             <thead><tr>
               <Th col="date"   sc={sc} ico={ico} tog={tog}>Date</Th>
               <Th col="team_1" sc={sc} ico={ico} tog={tog}>Team 1</Th>
               <th style={{color:'rgba(255,255,255,.7)',fontSize:'.6rem',letterSpacing:'.06em',textTransform:'uppercase',padding:'.58rem .5rem'}}>HA</th>
               <Th col="team_2" sc={sc} ico={ico} tog={tog}>Team 2</Th>
               <th style={{color:'rgba(255,255,255,.78)',fontSize:'.63rem',letterSpacing:'.07em',textTransform:'uppercase',padding:'.58rem .85rem'}}>Pred Score</th>
-              <Th col="spread" sc={sc} ico={ico} tog={tog}>T2 Spread</Th>
+              <Th col="spread" sc={sc} ico={ico} tog={tog}>Spread</Th>
+              <th style={{color:'rgba(255,255,255,.78)',fontSize:'.63rem',letterSpacing:'.07em',textTransform:'uppercase',padding:'.58rem .85rem'}}>T2 Win%</th>
             </tr></thead>
             <tbody>
               {filtered.map((g,i) => {
                 const hfa = g.hfa === 'vs' ? 'vs' : g.hfa === '@' ? '@' : 'neu';
                 const t2spread = g.spread != null ? -g.spread : null;
+                const t2wp = g.team_2_win_prob != null ? Math.round(g.team_2_win_prob * 100) : null;
                 return (
                   <tr key={i}>
-                    <td className="mono" style={{whiteSpace:'nowrap'}}>{fmtS(g.date)}</td>
-                    <td><span className="tl" onClick={() => nav(`#/team/${g.team_1_id}`)}>{g.team_1}</span></td>
-                    <td style={{textAlign:'center',color:'var(--muted)',fontSize:'.7rem',padding:'.52rem .5rem'}}>{hfa}</td>
-                    <td><span className="tl" onClick={() => nav(`#/team/${g.team_2_id}`)}>{g.team_2}</span></td>
-                    <td className="mono" style={{whiteSpace:'nowrap'}}>
+                    <td className="p-date mono">{fmtS(g.date)}</td>
+                    <td className="p-t1"><span className="tl" onClick={() => nav(`#/team/${g.team_1_id}`)}>{g.team_1}</span></td>
+                    <td className="p-ha">{hfa}</td>
+                    <td className="p-t2"><span className="tl" onClick={() => nav(`#/team/${g.team_2_id}`)}>{g.team_2}</span></td>
+                    <td className="p-stats mono" style={{whiteSpace:'nowrap'}}>
                       {g.team_1_pred_score != null && g.team_2_pred_score != null
                         ? g.team_1_pred_score.toFixed(1) + '–' + g.team_2_pred_score.toFixed(1)
                         : '-'}
                     </td>
-                    <td className="mono" style={{whiteSpace:'nowrap',color:t2spread>0?'var(--win)':t2spread<0?'var(--loss)':'var(--muted)',fontWeight:600}}>
+                    <td className="mono" style={{whiteSpace:'nowrap',color:t2spread<0?'var(--cyan)':'var(--muted)',fontWeight:600}}>
                       {t2spread != null ? (t2spread > 0 ? '+' : '') + t2spread.toFixed(1) : '-'}
                     </td>
+                    <td className="mono">{t2wp != null ? t2wp + '%' : '-'}</td>
                   </tr>
                 );
               })}
@@ -695,7 +714,7 @@ function AccuracyPage({ nav }) {
         </div>
         <div className="shint">Scroll right to see all columns &rarr;</div>
         <div className="tscroll">
-          <table>
+          <table className="pred-tbl">
             <thead><tr>
               <Th col="date"   sc={sc} ico={ico} tog={tog}>Date</Th>
               <Th col="team_1" sc={sc} ico={ico} tog={tog}>Team 1</Th>
@@ -708,17 +727,15 @@ function AccuracyPage({ nav }) {
             <tbody>
               {filtered.map((g,i) => {
                 const hfa  = g.team_1_hfa === 1 ? 'vs' : g.team_1_hfa === -1 ? '@' : 'neu';
-                const t1w  = g.team_1_score > g.team_2_score;
-                const t2w  = g.team_2_score > g.team_1_score;
                 const ps   = ((g.pred_score_1||0) - (g.pred_score_2||0)).toFixed(1);
                 const as_  = g.team_1_score - g.team_2_score;
                 return (
                   <tr key={i}>
-                    <td className="mono" style={{whiteSpace:'nowrap'}}>{fmtS(g.date)}</td>
-                    <td><span className="tl" onClick={() => nav(`#/team/${g.team_1_id}`)}>{g.team_1}</span></td>
-                    <td style={{textAlign:'center',color:'var(--muted)',fontSize:'.7rem',padding:'.52rem .5rem'}}>{hfa}</td>
-                    <td><span className="tl" onClick={() => nav(`#/team/${g.team_2_id}`)}>{g.team_2}</span></td>
-                    <td className="mono" style={{whiteSpace:'nowrap'}}>{Math.round(g.pred_score_1)}-{Math.round(g.pred_score_2)} <span style={{color:'var(--muted)',fontSize:'.69rem'}}>({+ps>0?'+':''}{ps})</span></td>
+                    <td className="p-date mono">{fmtS(g.date)}</td>
+                    <td className="p-t1"><span className="tl" onClick={() => nav(`#/team/${g.team_1_id}`)}>{g.team_1}</span></td>
+                    <td className="p-ha">{hfa}</td>
+                    <td className="p-t2"><span className="tl" onClick={() => nav(`#/team/${g.team_2_id}`)}>{g.team_2}</span></td>
+                    <td className="p-stats mono" style={{whiteSpace:'nowrap'}}>{Math.round(g.pred_score_1)}-{Math.round(g.pred_score_2)} <span style={{color:'var(--muted)',fontSize:'.69rem'}}>({+ps>0?'+':''}{ps})</span></td>
                     <td className="mono" style={{whiteSpace:'nowrap'}}>{g.team_1_score}-{g.team_2_score} <span style={{color:'var(--muted)',fontSize:'.69rem'}}>({as_>0?'+':''}{as_})</span></td>
                     <td><span className="hc" style={{...errHs(g.error,stats.maxErr),padding:'.19rem .44rem',borderRadius:3,fontSize:'.74rem'}}>{g.error!=null?(+g.error).toFixed(1):'-'}</span></td>
                   </tr>
