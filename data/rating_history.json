@@ -18580,6 +18580,16 @@
     "wab":-10.567
   },
   {
+    "team_id":"greenville",
+    "full_team":"Greenville",
+    "season":2027,
+    "off":103.59,
+    "def":113.01,
+    "rating":-9.42,
+    "pace":102.98,
+    "wab":-0.73
+  },
+  {
     "team_id":"grinnell",
     "full_team":"Grinnell",
     "season":2012,
@@ -18718,6 +18728,16 @@
     "rating":15.33,
     "pace":91.21,
     "wab":-0.62
+  },
+  {
+    "team_id":"grinnell",
+    "full_team":"Grinnell",
+    "season":2027,
+    "off":109.66,
+    "def":98.32,
+    "rating":11.34,
+    "pace":90.45,
+    "wab":0.074
   },
   {
     "team_id":"grove-city",
@@ -23698,6 +23718,16 @@
     "rating":3.51,
     "pace":69.72,
     "wab":-8.696
+  },
+  {
+    "team_id":"kean",
+    "full_team":"Kean",
+    "season":2027,
+    "off":104.52,
+    "def":96.28,
+    "rating":8.24,
+    "pace":70.26,
+    "wab":0.024
   },
   {
     "team_id":"keene-state",
@@ -48700,6 +48730,16 @@
     "wab":-12.131
   },
   {
+    "team_id":"suny-purchase",
+    "full_team":"SUNY-Purchase",
+    "season":2027,
+    "off":91.13,
+    "def":104.37,
+    "rating":-13.25,
+    "pace":73.01,
+    "wab":-0.643
+  },
+  {
     "team_id":"sunyit",
     "full_team":"SUNYIT",
     "season":2012,
@@ -49658,6 +49698,16 @@
     "rating":-14.97,
     "pace":68.78,
     "wab":-14.559
+  },
+  {
+    "team_id":"thiel",
+    "full_team":"Thiel",
+    "season":2027,
+    "off":91.15,
+    "def":106.55,
+    "rating":-15.4,
+    "pace":69.35,
+    "wab":-0.536
   },
   {
     "team_id":"thomas",
@@ -52198,6 +52248,16 @@
     "rating":20.55,
     "pace":67.46,
     "wab":1.096
+  },
+  {
+    "team_id":"uw-platteville",
+    "full_team":"UW-Platteville",
+    "season":2027,
+    "off":114.28,
+    "def":98.61,
+    "rating":15.67,
+    "pace":68.03,
+    "wab":0.028
   },
   {
     "team_id":"uw-river-falls",

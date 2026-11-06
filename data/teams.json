@@ -757,6 +757,24 @@
   },
   {
     "rank":43,
+    "full_team":"UW-Platteville",
+    "conference":"WIAC",
+    "record":"1-0",
+    "rating":15.666,
+    "off":114.277,
+    "def":98.611,
+    "pace":68.028,
+    "resume_rank":2.0,
+    "wab":0.028,
+    "win_qual":0.028,
+    "loss_qual":0.0,
+    "exp_bub_wins":0.972,
+    "team_id":"uw-platteville",
+    "conference_id":"wiac",
+    "massey_name":"Wis.-Platteville"
+  },
+  {
+    "rank":44,
     "full_team":"Guilford",
     "conference":"ODAC",
     "record":"0-0",
@@ -774,7 +792,7 @@
     "massey_name":"Guilford"
   },
   {
-    "rank":44,
+    "rank":45,
     "full_team":"Keene State",
     "conference":"LEC",
     "record":"0-0",
@@ -792,7 +810,7 @@
     "massey_name":"Keene St."
   },
   {
-    "rank":45,
+    "rank":46,
     "full_team":"Bates",
     "conference":"NESCAC",
     "record":"0-0",
@@ -810,7 +828,7 @@
     "massey_name":"Bates"
   },
   {
-    "rank":46,
+    "rank":47,
     "full_team":"Rose-Hulman",
     "conference":"HCAC",
     "record":"0-0",
@@ -828,7 +846,7 @@
     "massey_name":"Rose-Hulman"
   },
   {
-    "rank":47,
+    "rank":48,
     "full_team":"St. Joseph's (Maine)",
     "conference":"GNAC",
     "record":"0-0",
@@ -846,7 +864,7 @@
     "massey_name":"St. Joseph's (ME)"
   },
   {
-    "rank":48,
+    "rank":49,
     "full_team":"Otterbein",
     "conference":"OAC",
     "record":"0-0",
@@ -864,7 +882,7 @@
     "massey_name":"Otterbein"
   },
   {
-    "rank":49,
+    "rank":50,
     "full_team":"Transylvania",
     "conference":"HCAC",
     "record":"0-0",
@@ -882,7 +900,7 @@
     "massey_name":"Transylvania"
   },
   {
-    "rank":50,
+    "rank":51,
     "full_team":"Stockton",
     "conference":"NJAC",
     "record":"0-0",
@@ -900,7 +918,7 @@
     "massey_name":"Stockton"
   },
   {
-    "rank":51,
+    "rank":52,
     "full_team":"Olivet",
     "conference":"MIAA",
     "record":"0-0",
@@ -918,7 +936,7 @@
     "massey_name":"Olivet"
   },
   {
-    "rank":52,
+    "rank":53,
     "full_team":"Aurora",
     "conference":"NACC",
     "record":"0-0",
@@ -936,7 +954,7 @@
     "massey_name":"Aurora"
   },
   {
-    "rank":53,
+    "rank":54,
     "full_team":"New York University",
     "conference":"UAA",
     "record":"0-0",
@@ -954,7 +972,7 @@
     "massey_name":"NYU"
   },
   {
-    "rank":54,
+    "rank":55,
     "full_team":"Carthage",
     "conference":"CCIW",
     "record":"0-0",
@@ -972,7 +990,7 @@
     "massey_name":"Carthage"
   },
   {
-    "rank":55,
+    "rank":56,
     "full_team":"Vassar",
     "conference":"LL",
     "record":"0-0",
@@ -990,7 +1008,7 @@
     "massey_name":"Vassar"
   },
   {
-    "rank":56,
+    "rank":57,
     "full_team":"Hope",
     "conference":"MIAA",
     "record":"0-0",
@@ -1006,24 +1024,6 @@
     "team_id":"hope",
     "conference_id":"miaa",
     "massey_name":"Hope"
-  },
-  {
-    "rank":57,
-    "full_team":"UW-Platteville",
-    "conference":"WIAC",
-    "record":"0-0",
-    "rating":13.958,
-    "off":111.589,
-    "def":97.632,
-    "pace":67.455,
-    "resume_rank":null,
-    "wab":null,
-    "win_qual":null,
-    "loss_qual":null,
-    "exp_bub_wins":null,
-    "team_id":"uw-platteville",
-    "conference_id":"wiac",
-    "massey_name":"Wis.-Platteville"
   },
   {
     "rank":58,
@@ -1081,24 +1081,6 @@
   },
   {
     "rank":61,
-    "full_team":"Grinnell",
-    "conference":"MWC",
-    "record":"0-0",
-    "rating":13.868,
-    "off":112.469,
-    "def":98.6,
-    "pace":91.215,
-    "resume_rank":null,
-    "wab":null,
-    "win_qual":null,
-    "loss_qual":null,
-    "exp_bub_wins":null,
-    "team_id":"grinnell",
-    "conference_id":"mwc",
-    "massey_name":"Grinnell"
-  },
-  {
-    "rank":62,
     "full_team":"Drew",
     "conference":"LAND",
     "record":"0-0",
@@ -1116,7 +1098,7 @@
     "massey_name":"Drew"
   },
   {
-    "rank":63,
+    "rank":62,
     "full_team":"Wittenberg",
     "conference":"NCAC",
     "record":"0-0",
@@ -1134,7 +1116,7 @@
     "massey_name":"Wittenberg"
   },
   {
-    "rank":64,
+    "rank":63,
     "full_team":"Loras",
     "conference":"ARC",
     "record":"0-0",
@@ -1152,7 +1134,7 @@
     "massey_name":"Loras"
   },
   {
-    "rank":65,
+    "rank":64,
     "full_team":"Calvin",
     "conference":"MIAA",
     "record":"0-0",
@@ -1170,7 +1152,7 @@
     "massey_name":"Calvin"
   },
   {
-    "rank":66,
+    "rank":65,
     "full_team":"DePauw",
     "conference":"NCAC",
     "record":"0-0",
@@ -1188,7 +1170,7 @@
     "massey_name":"DePauw"
   },
   {
-    "rank":67,
+    "rank":66,
     "full_team":"St. Joseph (Conn.)",
     "conference":"GNAC",
     "record":"0-0",
@@ -1206,7 +1188,7 @@
     "massey_name":"Saint Joseph (CT)"
   },
   {
-    "rank":68,
+    "rank":67,
     "full_team":"Montclair State",
     "conference":"NJAC",
     "record":"0-0",
@@ -1224,7 +1206,7 @@
     "massey_name":"Montclair St."
   },
   {
-    "rank":69,
+    "rank":68,
     "full_team":"Averett",
     "conference":"ODAC",
     "record":"0-0",
@@ -1242,7 +1224,7 @@
     "massey_name":"Averett"
   },
   {
-    "rank":70,
+    "rank":69,
     "full_team":"Trine",
     "conference":"MIAA",
     "record":"0-0",
@@ -1260,7 +1242,7 @@
     "massey_name":"Trine"
   },
   {
-    "rank":71,
+    "rank":70,
     "full_team":"Anderson",
     "conference":"HCAC",
     "record":"0-0",
@@ -1278,7 +1260,7 @@
     "massey_name":"Anderson (IN)"
   },
   {
-    "rank":72,
+    "rank":71,
     "full_team":"Western Connecticut",
     "conference":"LEC",
     "record":"0-0",
@@ -1296,7 +1278,7 @@
     "massey_name":"WestConn"
   },
   {
-    "rank":73,
+    "rank":72,
     "full_team":"Nebraska Wesleyan",
     "conference":"ARC",
     "record":"0-0",
@@ -1314,7 +1296,7 @@
     "massey_name":"Neb. Wesleyan"
   },
   {
-    "rank":74,
+    "rank":73,
     "full_team":"Carroll",
     "conference":"CCIW",
     "record":"0-0",
@@ -1332,7 +1314,7 @@
     "massey_name":"Carroll (WI)"
   },
   {
-    "rank":75,
+    "rank":74,
     "full_team":"Albertus Magnus",
     "conference":"GNAC",
     "record":"0-0",
@@ -1350,7 +1332,7 @@
     "massey_name":"Albertus Magnus"
   },
   {
-    "rank":76,
+    "rank":75,
     "full_team":"North Central (Ill.)",
     "conference":"CCIW",
     "record":"0-0",
@@ -1368,7 +1350,7 @@
     "massey_name":"North Central (IL)"
   },
   {
-    "rank":77,
+    "rank":76,
     "full_team":"Hamline",
     "conference":"MIAC",
     "record":"0-0",
@@ -1386,7 +1368,7 @@
     "massey_name":"Hamline"
   },
   {
-    "rank":78,
+    "rank":77,
     "full_team":"Franklin and Marshall",
     "conference":"CC",
     "record":"0-0",
@@ -1404,7 +1386,7 @@
     "massey_name":"Franklin & Marshall"
   },
   {
-    "rank":79,
+    "rank":78,
     "full_team":"UW-Eau Claire",
     "conference":"WIAC",
     "record":"0-0",
@@ -1422,7 +1404,7 @@
     "massey_name":"Wis.-Eau Claire"
   },
   {
-    "rank":80,
+    "rank":79,
     "full_team":"Carleton",
     "conference":"MIAC",
     "record":"0-0",
@@ -1438,6 +1420,24 @@
     "team_id":"carleton",
     "conference_id":"miac",
     "massey_name":"Carleton"
+  },
+  {
+    "rank":80,
+    "full_team":"Grinnell",
+    "conference":"MWC",
+    "record":"1-0",
+    "rating":11.339,
+    "off":109.662,
+    "def":98.324,
+    "pace":90.447,
+    "resume_rank":1.0,
+    "wab":0.074,
+    "win_qual":0.074,
+    "loss_qual":0.0,
+    "exp_bub_wins":0.926,
+    "team_id":"grinnell",
+    "conference_id":"mwc",
+    "massey_name":"Grinnell"
   },
   {
     "rank":81,
@@ -2017,6 +2017,24 @@
   },
   {
     "rank":113,
+    "full_team":"Kean",
+    "conference":"NJAC",
+    "record":"1-0",
+    "rating":8.235,
+    "off":104.517,
+    "def":96.282,
+    "pace":70.259,
+    "resume_rank":3.0,
+    "wab":0.024,
+    "win_qual":0.024,
+    "loss_qual":0.0,
+    "exp_bub_wins":0.976,
+    "team_id":"kean",
+    "conference_id":"njac",
+    "massey_name":"Kean"
+  },
+  {
+    "rank":114,
     "full_team":"Capital",
     "conference":"OAC",
     "record":"0-0",
@@ -2034,7 +2052,7 @@
     "massey_name":"Capital"
   },
   {
-    "rank":114,
+    "rank":115,
     "full_team":"Puget Sound",
     "conference":"NWC",
     "record":"0-0",
@@ -2052,7 +2070,7 @@
     "massey_name":"Puget Sound"
   },
   {
-    "rank":115,
+    "rank":116,
     "full_team":"UW-Stout",
     "conference":"WIAC",
     "record":"0-0",
@@ -2070,7 +2088,7 @@
     "massey_name":"Wis.-Stout"
   },
   {
-    "rank":116,
+    "rank":117,
     "full_team":"Farmingdale State",
     "conference":"SKY",
     "record":"0-0",
@@ -2088,7 +2106,7 @@
     "massey_name":"Farmingdale St."
   },
   {
-    "rank":117,
+    "rank":118,
     "full_team":"Bethany Lutheran",
     "conference":"UMAC",
     "record":"0-0",
@@ -2106,7 +2124,7 @@
     "massey_name":"Bethany Lutheran"
   },
   {
-    "rank":118,
+    "rank":119,
     "full_team":"Brandeis",
     "conference":"UAA",
     "record":"0-0",
@@ -2124,7 +2142,7 @@
     "massey_name":"Brandeis"
   },
   {
-    "rank":119,
+    "rank":120,
     "full_team":"Southern Maine",
     "conference":"LEC",
     "record":"0-0",
@@ -2142,7 +2160,7 @@
     "massey_name":"Southern Me."
   },
   {
-    "rank":120,
+    "rank":121,
     "full_team":"Augustana",
     "conference":"CCIW",
     "record":"0-0",
@@ -2160,7 +2178,7 @@
     "massey_name":"Augustana (IL)"
   },
   {
-    "rank":121,
+    "rank":122,
     "full_team":"Stevens",
     "conference":"MACF",
     "record":"0-0",
@@ -2178,7 +2196,7 @@
     "massey_name":"Stevens"
   },
   {
-    "rank":122,
+    "rank":123,
     "full_team":"TCNJ",
     "conference":"NJAC",
     "record":"0-0",
@@ -2196,7 +2214,7 @@
     "massey_name":"TCNJ"
   },
   {
-    "rank":123,
+    "rank":124,
     "full_team":"Millikin",
     "conference":"CCIW",
     "record":"0-0",
@@ -2214,7 +2232,7 @@
     "massey_name":"Millikin"
   },
   {
-    "rank":124,
+    "rank":125,
     "full_team":"Illinois College",
     "conference":"MWC",
     "record":"0-0",
@@ -2232,7 +2250,7 @@
     "massey_name":"Illinois Col."
   },
   {
-    "rank":125,
+    "rank":126,
     "full_team":"Heidelberg",
     "conference":"OAC",
     "record":"0-0",
@@ -2250,7 +2268,7 @@
     "massey_name":"Heidelberg"
   },
   {
-    "rank":126,
+    "rank":127,
     "full_team":"Willamette",
     "conference":"NWC",
     "record":"0-0",
@@ -2268,7 +2286,7 @@
     "massey_name":"Willamette"
   },
   {
-    "rank":127,
+    "rank":128,
     "full_team":"Whitworth",
     "conference":"NWC",
     "record":"0-0",
@@ -2286,7 +2304,7 @@
     "massey_name":"Whitworth"
   },
   {
-    "rank":128,
+    "rank":129,
     "full_team":"Lasell",
     "conference":"GNAC",
     "record":"0-0",
@@ -2304,7 +2322,7 @@
     "massey_name":"Lasell"
   },
   {
-    "rank":129,
+    "rank":130,
     "full_team":"Franciscan (Ohio)",
     "conference":"PAC",
     "record":"0-0",
@@ -2320,24 +2338,6 @@
     "team_id":"franciscan-ohio",
     "conference_id":"pac",
     "massey_name":"Franciscan"
-  },
-  {
-    "rank":130,
-    "full_team":"Kean",
-    "conference":"NJAC",
-    "record":"0-0",
-    "rating":7.117,
-    "off":103.533,
-    "def":96.416,
-    "pace":69.716,
-    "resume_rank":null,
-    "wab":null,
-    "win_qual":null,
-    "loss_qual":null,
-    "exp_bub_wins":null,
-    "team_id":"kean",
-    "conference_id":"njac",
-    "massey_name":"Kean"
   },
   {
     "rank":131,
@@ -5527,6 +5527,24 @@
   },
   {
     "rank":308,
+    "full_team":"Greenville",
+    "conference":"SLIAC",
+    "record":"0-1",
+    "rating":-9.417,
+    "off":103.591,
+    "def":113.008,
+    "pace":102.98,
+    "resume_rank":6.0,
+    "wab":-0.73,
+    "win_qual":0.0,
+    "loss_qual":-0.73,
+    "exp_bub_wins":0.73,
+    "team_id":"greenville",
+    "conference_id":"sliac",
+    "massey_name":"Greenville"
+  },
+  {
+    "rank":309,
     "full_team":"Washington College",
     "conference":"CC",
     "record":"0-0",
@@ -5544,7 +5562,7 @@
     "massey_name":"Washington Col."
   },
   {
-    "rank":309,
+    "rank":310,
     "full_team":"Piedmont",
     "conference":"CCS",
     "record":"0-0",
@@ -5562,7 +5580,7 @@
     "massey_name":"Piedmont"
   },
   {
-    "rank":310,
+    "rank":311,
     "full_team":"SUNY-Maritime",
     "conference":"SKY",
     "record":"0-0",
@@ -5580,7 +5598,7 @@
     "massey_name":"SUNY Maritime"
   },
   {
-    "rank":311,
+    "rank":312,
     "full_team":"Mary Baldwin",
     "conference":"USAC",
     "record":"0-0",
@@ -5598,7 +5616,7 @@
     "massey_name":"Mary Baldwin"
   },
   {
-    "rank":312,
+    "rank":313,
     "full_team":"Hartwick",
     "conference":"E8",
     "record":"0-0",
@@ -5616,7 +5634,7 @@
     "massey_name":"Hartwick"
   },
   {
-    "rank":313,
+    "rank":314,
     "full_team":"Framingham State",
     "conference":"MASCAC",
     "record":"0-0",
@@ -5634,7 +5652,7 @@
     "massey_name":"Framingham St."
   },
   {
-    "rank":314,
+    "rank":315,
     "full_team":"FDU-Florham",
     "conference":"MACF",
     "record":"0-0",
@@ -5652,7 +5670,7 @@
     "massey_name":"FDU-Florham"
   },
   {
-    "rank":315,
+    "rank":316,
     "full_team":"Wentworth",
     "conference":"CNE",
     "record":"0-0",
@@ -5670,7 +5688,7 @@
     "massey_name":"Wentworth"
   },
   {
-    "rank":316,
+    "rank":317,
     "full_team":"William Paterson",
     "conference":"NJAC",
     "record":"0-0",
@@ -5688,7 +5706,7 @@
     "massey_name":"Wm. Paterson"
   },
   {
-    "rank":317,
+    "rank":318,
     "full_team":"St. Mary's (Md.)",
     "conference":"UEC",
     "record":"0-0",
@@ -5706,7 +5724,7 @@
     "massey_name":"St. Mary's (MD)"
   },
   {
-    "rank":318,
+    "rank":319,
     "full_team":"St. Joseph's (L.I.)",
     "conference":"SKY",
     "record":"0-0",
@@ -5724,7 +5742,7 @@
     "massey_name":"St. Joseph's (L.I.)"
   },
   {
-    "rank":319,
+    "rank":320,
     "full_team":"Alfred",
     "conference":"E8",
     "record":"0-0",
@@ -5742,7 +5760,7 @@
     "massey_name":"Alfred"
   },
   {
-    "rank":320,
+    "rank":321,
     "full_team":"Houghton",
     "conference":"E8",
     "record":"0-0",
@@ -5760,7 +5778,7 @@
     "massey_name":"Houghton"
   },
   {
-    "rank":321,
+    "rank":322,
     "full_team":"Bridgewater State",
     "conference":"MASCAC",
     "record":"0-0",
@@ -5778,7 +5796,7 @@
     "massey_name":"Bridgewater St."
   },
   {
-    "rank":322,
+    "rank":323,
     "full_team":"Maine Maritime",
     "conference":"NAC",
     "record":"0-0",
@@ -5796,7 +5814,7 @@
     "massey_name":"Maine Maritime"
   },
   {
-    "rank":323,
+    "rank":324,
     "full_team":"Marywood",
     "conference":"MACF",
     "record":"0-0",
@@ -5814,7 +5832,7 @@
     "massey_name":"Marywood"
   },
   {
-    "rank":324,
+    "rank":325,
     "full_team":"Hiram",
     "conference":"PAC",
     "record":"0-0",
@@ -5832,7 +5850,7 @@
     "massey_name":"Hiram"
   },
   {
-    "rank":325,
+    "rank":326,
     "full_team":"Dean",
     "conference":"GNAC",
     "record":"0-0",
@@ -5850,7 +5868,7 @@
     "massey_name":"Dean"
   },
   {
-    "rank":326,
+    "rank":327,
     "full_team":"Coast Guard",
     "conference":"NEWMAC",
     "record":"0-0",
@@ -5868,7 +5886,7 @@
     "massey_name":"Coast Guard"
   },
   {
-    "rank":327,
+    "rank":328,
     "full_team":"Adrian",
     "conference":"MIAA",
     "record":"0-0",
@@ -5886,7 +5904,7 @@
     "massey_name":"Adrian"
   },
   {
-    "rank":328,
+    "rank":329,
     "full_team":"Manchester",
     "conference":"HCAC",
     "record":"0-0",
@@ -5904,7 +5922,7 @@
     "massey_name":"Manchester"
   },
   {
-    "rank":329,
+    "rank":330,
     "full_team":"Baruch",
     "conference":"CUNYAC",
     "record":"0-0",
@@ -5922,7 +5940,7 @@
     "massey_name":"Baruch"
   },
   {
-    "rank":330,
+    "rank":331,
     "full_team":"Gordon",
     "conference":"CNE",
     "record":"0-0",
@@ -5940,7 +5958,7 @@
     "massey_name":"Gordon"
   },
   {
-    "rank":331,
+    "rank":332,
     "full_team":"Fitchburg State",
     "conference":"MASCAC",
     "record":"0-0",
@@ -5956,24 +5974,6 @@
     "team_id":"fitchburg-state",
     "conference_id":"mascac",
     "massey_name":"Fitchburg St."
-  },
-  {
-    "rank":332,
-    "full_team":"Greenville",
-    "conference":"SLIAC",
-    "record":"0-0",
-    "rating":-11.523,
-    "off":103.911,
-    "def":115.435,
-    "pace":103.747,
-    "resume_rank":null,
-    "wab":null,
-    "win_qual":null,
-    "loss_qual":null,
-    "exp_bub_wins":null,
-    "team_id":"greenville",
-    "conference_id":"sliac",
-    "massey_name":"Greenville"
   },
   {
     "rank":333,
@@ -6013,24 +6013,6 @@
   },
   {
     "rank":335,
-    "full_team":"SUNY-Purchase",
-    "conference":"SKY",
-    "record":"0-0",
-    "rating":-12.275,
-    "off":91.291,
-    "def":103.565,
-    "pace":72.464,
-    "resume_rank":null,
-    "wab":null,
-    "win_qual":null,
-    "loss_qual":null,
-    "exp_bub_wins":null,
-    "team_id":"suny-purchase",
-    "conference_id":"sky",
-    "massey_name":"Purchase"
-  },
-  {
-    "rank":336,
     "full_team":"Regis (Mass.)",
     "conference":"GNAC",
     "record":"0-0",
@@ -6048,7 +6030,7 @@
     "massey_name":"Regis (MA)"
   },
   {
-    "rank":337,
+    "rank":336,
     "full_team":"Dominican",
     "conference":"NACC",
     "record":"0-0",
@@ -6066,7 +6048,7 @@
     "massey_name":"Dominican (IL)"
   },
   {
-    "rank":338,
+    "rank":337,
     "full_team":"Martin Luther",
     "conference":"UMAC",
     "record":"0-0",
@@ -6084,7 +6066,7 @@
     "massey_name":"Martin Luther"
   },
   {
-    "rank":339,
+    "rank":338,
     "full_team":"Beloit",
     "conference":"MWC",
     "record":"0-0",
@@ -6102,7 +6084,7 @@
     "massey_name":"Beloit"
   },
   {
-    "rank":340,
+    "rank":339,
     "full_team":"Edgewood",
     "conference":"NACC",
     "record":"0-0",
@@ -6120,7 +6102,7 @@
     "massey_name":"Edgewood"
   },
   {
-    "rank":341,
+    "rank":340,
     "full_team":"Earlham",
     "conference":"HCAC",
     "record":"0-0",
@@ -6136,6 +6118,24 @@
     "team_id":"earlham",
     "conference_id":"hcac",
     "massey_name":"Earlham"
+  },
+  {
+    "rank":341,
+    "full_team":"SUNY-Purchase",
+    "conference":"SKY",
+    "record":"0-1",
+    "rating":-13.247,
+    "off":91.128,
+    "def":104.374,
+    "pace":73.008,
+    "resume_rank":5.0,
+    "wab":-0.643,
+    "win_qual":0.0,
+    "loss_qual":-0.643,
+    "exp_bub_wins":0.643,
+    "team_id":"suny-purchase",
+    "conference_id":"sky",
+    "massey_name":"Purchase"
   },
   {
     "rank":342,
@@ -6265,24 +6265,6 @@
   },
   {
     "rank":349,
-    "full_team":"Azusa Pacific",
-    "conference":"SCIAC",
-    "record":"0-0",
-    "rating":-14.17,
-    "off":90.626,
-    "def":104.796,
-    "pace":73.664,
-    "resume_rank":null,
-    "wab":null,
-    "win_qual":null,
-    "loss_qual":null,
-    "exp_bub_wins":null,
-    "team_id":"azusa-pacific",
-    "conference_id":"sciac",
-    "massey_name":"Azusa Pacific"
-  },
-  {
-    "rank":350,
     "full_team":"St. Francis",
     "conference":"PAC",
     "record":"0-0",
@@ -6298,6 +6280,24 @@
     "team_id":"st-francis",
     "conference_id":"pac",
     "massey_name":"Saint Francis"
+  },
+  {
+    "rank":350,
+    "full_team":"Azusa Pacific",
+    "conference":"SCIAC",
+    "record":"0-0",
+    "rating":-14.17,
+    "off":90.626,
+    "def":104.796,
+    "pace":73.664,
+    "resume_rank":null,
+    "wab":null,
+    "win_qual":null,
+    "loss_qual":null,
+    "exp_bub_wins":null,
+    "team_id":"azusa-pacific",
+    "conference_id":"sciac",
+    "massey_name":"Azusa Pacific"
   },
   {
     "rank":351,
@@ -6337,24 +6337,6 @@
   },
   {
     "rank":353,
-    "full_team":"Thiel",
-    "conference":"PAC",
-    "record":"0-0",
-    "rating":-14.402,
-    "off":89.953,
-    "def":104.355,
-    "pace":68.779,
-    "resume_rank":null,
-    "wab":null,
-    "win_qual":null,
-    "loss_qual":null,
-    "exp_bub_wins":null,
-    "team_id":"thiel",
-    "conference_id":"pac",
-    "massey_name":"Thiel"
-  },
-  {
-    "rank":354,
     "full_team":"Illinois Tech",
     "conference":"NACC",
     "record":"0-0",
@@ -6372,7 +6354,7 @@
     "massey_name":"Illinois Tech"
   },
   {
-    "rank":355,
+    "rank":354,
     "full_team":"Maine-Presque Isle",
     "conference":"NAC",
     "record":"0-0",
@@ -6390,7 +6372,7 @@
     "massey_name":"Me.-Presque Isle"
   },
   {
-    "rank":356,
+    "rank":355,
     "full_team":"Buffalo State",
     "conference":"SUNYAC",
     "record":"0-0",
@@ -6408,7 +6390,7 @@
     "massey_name":"Buffalo St."
   },
   {
-    "rank":357,
+    "rank":356,
     "full_team":"Thomas",
     "conference":"NAC",
     "record":"0-0",
@@ -6426,7 +6408,7 @@
     "massey_name":"Thomas (ME)"
   },
   {
-    "rank":358,
+    "rank":357,
     "full_team":"Johnson and Wales (N.C.)",
     "conference":"C2C",
     "record":"0-0",
@@ -6444,7 +6426,7 @@
     "massey_name":"JWU Charlotte"
   },
   {
-    "rank":359,
+    "rank":358,
     "full_team":"Kalamazoo",
     "conference":"MIAA",
     "record":"0-0",
@@ -6462,7 +6444,7 @@
     "massey_name":"Kalamazoo"
   },
   {
-    "rank":360,
+    "rank":359,
     "full_team":"Westminster (Mo.)",
     "conference":"SLIAC",
     "record":"0-0",
@@ -6480,7 +6462,7 @@
     "massey_name":"Westminster (MO)"
   },
   {
-    "rank":361,
+    "rank":360,
     "full_team":"Wilson",
     "conference":"UEC",
     "record":"0-0",
@@ -6498,7 +6480,7 @@
     "massey_name":"Wilson"
   },
   {
-    "rank":362,
+    "rank":361,
     "full_team":"Curry",
     "conference":"CNE",
     "record":"0-0",
@@ -6514,6 +6496,24 @@
     "team_id":"curry",
     "conference_id":"cne",
     "massey_name":"Curry"
+  },
+  {
+    "rank":362,
+    "full_team":"Thiel",
+    "conference":"PAC",
+    "record":"0-1",
+    "rating":-15.398,
+    "off":91.152,
+    "def":106.55,
+    "pace":69.352,
+    "resume_rank":4.0,
+    "wab":-0.537,
+    "win_qual":0.0,
+    "loss_qual":-0.537,
+    "exp_bub_wins":0.537,
+    "team_id":"thiel",
+    "conference_id":"pac",
+    "massey_name":"Thiel"
   },
   {
     "rank":363,
