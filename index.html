@@ -112,7 +112,7 @@
       .hide-mob    { display:none !important; }
       .hide-mob-sm { display:none !important; }
       /* Team: single line, truncate only the longest names */
-      .sticky-team { left:26px !important; white-space:nowrap; max-width:120px;
+      .sticky-team { left:24px !important; white-space:nowrap; max-width:120px;
                      overflow:hidden; text-overflow:ellipsis; }
       /* Rank: as narrow as possible */
       .sticky-rank { width:24px; min-width:24px; }
@@ -146,9 +146,10 @@
     .sticky-rank {
       position: sticky; left: 0; z-index: 1;
       background: var(--white);
+      padding-left: 0; padding-right: 0;
     }
     .sticky-team {
-      position: sticky; left: 42px; z-index: 1;
+      position: sticky; left: 24px; z-index: 1;
       background: var(--white);
       /* subtle right shadow to show content is scrolling under */
       box-shadow: 2px 0 4px rgba(8,31,44,.06);
