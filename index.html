@@ -573,7 +573,7 @@ function RatingsPage({ nav }) {
                   <td className="hc" style={hs(+t.def,    dn, dx, true)}>{(+t.def).toFixed(1)}</td>
                   <td className="mono">{(+t.pace).toFixed(1)}</td>
                   <td className="hc" style={t.wab != null ? wabHs(+t.wab, wn, wx) : {}}>
-                    {t.wab != null ? (t.wab >= 0 ? '+' : '') + (+t.wab).toFixed(1) : '-'}
+                    {t.wab != null ? (+t.wab).toFixed(1) : '-'}
                   </td>
                   <td className="hc" style={t.win_qual  != null ? hs(+t.win_qual,  wqn, wqx)       : {}}>{t.win_qual  != null ? (+t.win_qual).toFixed(1)  : '-'}</td>
                   <td className="hc" style={t.loss_qual != null ? hs(+t.loss_qual, lqn, lqx)       : {}}>{t.loss_qual != null ? (+t.loss_qual).toFixed(1) : '-'}</td>
@@ -920,7 +920,7 @@ function TeamPage({ teamId, nav }) {
           {fut
             ? <span className="gwab muted-c">{wp != null ? wp+'%' : '-'}</span>
             : <span className="gwab" style={{color:wab==null?'var(--muted)':wab>=0?'var(--navy)':'var(--cyan)'}}>
-                {wab!=null ? (wab>=0?'+':'') + wab.toFixed(2) : '-'}
+                {wab!=null ? wab.toFixed(2) : '-'}
               </span>}
         </div>
       </div>
@@ -931,7 +931,7 @@ function TeamPage({ teamId, nav }) {
     { val: (+team.off).toFixed(1),  lbl: 'Off Rating' },
     { val: (+team.def).toFixed(1),  lbl: 'Def Rating' },
     { val: (+team.pace).toFixed(1), lbl: 'Tempo' },
-    team.wab       != null && { val: (team.wab>=0?'+':'')     + (+team.wab).toFixed(2), lbl: 'Wins Above Bubble' },
+    team.wab       != null && { val: (+team.wab).toFixed(2), lbl: 'Wins Above Bubble' },
     team.win_qual  != null && { val: (+team.win_qual).toFixed(2),                        lbl: 'Win Quality' },
     team.loss_qual != null && { val: (+team.loss_qual).toFixed(2),                       lbl: 'Loss Quality' },
   ].filter(Boolean);
@@ -1063,7 +1063,7 @@ function ConferencesPage({ nav }) {
                   <td className="hc" style={hs(c.avg_off,    oLo, oHi)}>{c.avg_off    ?? '-'}</td>
                   <td className="hc" style={hs(c.avg_def,    dLo, dHi, true)}>{c.avg_def ?? '-'}</td>
                   <td className="mono">{c.avg_tempo ?? '-'}</td>
-                  <td className="hc" style={c.avg_resume != null ? wabHs(c.avg_resume, resLo, resHi) : {}}>{c.avg_resume != null ? (c.avg_resume >= 0 ? '+' : '') + c.avg_resume : '-'}</td>
+                  <td className="hc" style={c.avg_resume != null ? wabHs(c.avg_resume, resLo, resHi) : {}}>{c.avg_resume ?? '-'}</td>
                 </tr>
               ))}
             </tbody>
@@ -1100,13 +1100,11 @@ function ConferencePage({ confId, nav }) {
   const ra = rows.map(t => +t.rating).filter(isFinite);
   const of = rows.map(t => +t.off).filter(isFinite);
   const df = rows.map(t => +t.def).filter(isFinite);
-  // WAB scale uses all teams globally so single-conference range isn't too narrow
-  const allTeams = data ? (data[0]||[]) : [];
-  const wbAll = allTeams.map(t => t.wab!=null?+t.wab:null).filter(v => v!=null&&isFinite(v));
+  const wb = rows.map(t => t.wab!=null?+t.wab:null).filter(v => v!=null&&isFinite(v));
   const [rn,rx] = ra.length>1?[Math.min(...ra),Math.max(...ra)]:[0,1];
   const [on,ox] = of.length>1?[Math.min(...of),Math.max(...of)]:[0,1];
   const [dn,dx] = df.length>1?[Math.min(...df),Math.max(...df)]:[0,1];
-  const [wn,wx] = wbAll.length?[Math.min(...wbAll),Math.max(...wbAll)]:[-1,1];
+  const [wn,wx] = wb.length  ?[Math.min(...wb),Math.max(...wb)]:[-1,1];
 
   if (loading) return <Spin />;
   if (error)   return <ErrMsg m={error} />;
@@ -1152,7 +1150,7 @@ function ConferencePage({ confId, nav }) {
                   <td className="hc" style={hs(+t.off,    on, ox)}>{(+t.off).toFixed(1)}</td>
                   <td className="hc" style={hs(+t.def,    dn, dx, true)}>{(+t.def).toFixed(1)}</td>
                   <td className="mono">{(+t.pace).toFixed(1)}</td>
-                  <td className="hc" style={t.wab!=null?wabHs(+t.wab,wn,wx):{}}>{t.wab!=null?(t.wab>=0?'+':'')+(+t.wab).toFixed(1):'-'}</td>
+                  <td className="hc" style={t.wab!=null?wabHs(+t.wab,wn,wx):{}}>{t.wab!=null?(+t.wab).toFixed(1):'-'}</td>
                   <td className="rc">#{t.rank}</td>
                   <td className="rc">{t.resume_rank ? `#${t.resume_rank}` : '-'}</td>
                 </tr>
