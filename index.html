@@ -634,7 +634,7 @@ function PredictionsPage({ nav }) {
                 const t2wp = g.team_2_win_prob != null ? Math.round(g.team_2_win_prob * 100) : null;
                 return (
                   <tr key={i}>
-                    <td className="mono">{fmtS(g.date)}</td>
+                    <td>{fmtS(g.date)}</td>
                     <td><span className="tl" onClick={() => nav(`#/team/${g.team_1_id}`)}>{g.team_1}</span></td>
                     <td style={{textAlign:'center'}}>{hfa}</td>
                     <td><span className="tl" onClick={() => nav(`#/team/${g.team_2_id}`)}>{g.team_2}</span></td>
@@ -720,7 +720,7 @@ function AccuracyPage({ nav }) {
                 const as_  = g.team_1_score - g.team_2_score;
                 return (
                   <tr key={i}>
-                    <td className="mono">{fmtS(g.date)}</td>
+                    <td>{fmtS(g.date)}</td>
                     <td><span className="tl" onClick={() => nav(`#/team/${g.team_1_id}`)}>{g.team_1}</span></td>
                     <td style={{textAlign:'center'}}>{hfa}</td>
                     <td><span className="tl" onClick={() => nav(`#/team/${g.team_2_id}`)}>{g.team_2}</span></td>
