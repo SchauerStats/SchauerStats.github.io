@@ -630,7 +630,7 @@ function PredictionsPage({ nav }) {
             <tbody>
               {filtered.map((g,i) => {
                 const hfa = g.hfa === 'vs' ? 'vs' : g.hfa === '@' ? '@' : 'neu';
-                const t2spread = g.spread != null ? -g.spread : null;
+                const t2spread = g.spread != null ? g.spread : null;
                 const t2wp = g.team_2_win_prob != null ? Math.round(g.team_2_win_prob * 100) : null;
                 return (
                   <tr key={i}>
