@@ -444,8 +444,8 @@
     "pred_score_1":78.624,
     "pred_score_2":68.293,
     "error":2.331,
-    "t1_wab":0.05,
-    "t2_wab":-0.866
+    "t1_wab":null,
+    "t2_wab":null
   },
   {
     "game_key":"2026-11-06_SUNY Potsdam_UMass Dartmouth",
@@ -892,8 +892,8 @@
     "pred_score_1":77.299,
     "pred_score_2":64.833,
     "error":6.465,
-    "t1_wab":0.029,
-    "t2_wab":-0.802
+    "t1_wab":null,
+    "t2_wab":null
   },
   {
     "game_key":"2026-11-06_Augsburg_Puget Sound",
@@ -2540,8 +2540,8 @@
     "pred_score_1":80.663,
     "pred_score_2":64.001,
     "error":6.662,
-    "t1_wab":0.029,
-    "t2_wab":-0.693
+    "t1_wab":null,
+    "t2_wab":null
   },
   {
     "game_key":"2026-11-07_Austin_Rhodes",

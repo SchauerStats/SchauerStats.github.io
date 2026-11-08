@@ -857,7 +857,7 @@
     "def":105.87,
     "rating":-14.22,
     "pace":73.4,
-    "wab":0.024
+    "wab":0.039
   },
   {
     "team_id":"allegheny",
@@ -2667,7 +2667,7 @@
     "def":107.9,
     "rating":-11.69,
     "pace":72.13,
-    "wab":-1.495
+    "wab":null
   },
   {
     "team_id":"babson",
@@ -7587,7 +7587,7 @@
     "def":114.21,
     "rating":-21.37,
     "pace":71.15,
-    "wab":null
+    "wab":-1.959
   },
   {
     "team_id":"carnegie-mellon",
@@ -24367,7 +24367,7 @@
     "def":109.87,
     "rating":-10.05,
     "pace":73.79,
-    "wab":null
+    "wab":-0.729
   },
   {
     "team_id":"juniata",
@@ -34747,7 +34747,7 @@
     "def":96.82,
     "rating":20.25,
     "pace":71.11,
-    "wab":0.226
+    "wab":0.267
   },
   {
     "team_id":"msoe",
@@ -35197,7 +35197,7 @@
     "def":97.63,
     "rating":8.79,
     "pace":72.81,
-    "wab":0.297
+    "wab":0.357
   },
   {
     "team_id":"muw",
@@ -35397,7 +35397,7 @@
     "def":108.18,
     "rating":5.79,
     "pace":70.08,
-    "wab":-0.304
+    "wab":-0.256
   },
   {
     "team_id":"nazareth",
@@ -39197,7 +39197,7 @@
     "def":107.68,
     "rating":0.84,
     "pace":68.36,
-    "wab":0.261
+    "wab":0.232
   },
   {
     "team_id":"penn-college",
@@ -39917,7 +39917,7 @@
     "def":113.27,
     "rating":-25.24,
     "pace":77.02,
-    "wab":-0.951
+    "wab":-0.936
   },
   {
     "team_id":"penn-state-brandywine",
@@ -39947,7 +39947,7 @@
     "def":101.42,
     "rating":-8.19,
     "pace":70.12,
-    "wab":null
+    "wab":-1.037
   },
   {
     "team_id":"penn-state-harrisburg",
@@ -41557,7 +41557,7 @@
     "def":98.66,
     "rating":6.17,
     "pace":70.28,
-    "wab":-0.739
+    "wab":-0.768
   },
   {
     "team_id":"ramapo",
@@ -47037,7 +47037,7 @@
     "def":106.16,
     "rating":-13.32,
     "pace":75.02,
-    "wab":-0.866
+    "wab":null
   },
   {
     "team_id":"st-john-fisher",
@@ -51427,7 +51427,7 @@
     "def":107.27,
     "rating":3.38,
     "pace":70.74,
-    "wab":0.05
+    "wab":null
   },
   {
     "team_id":"swarthmore",
@@ -59737,7 +59737,7 @@
     "def":106.7,
     "rating":-14.27,
     "pace":70.02,
-    "wab":-0.389
+    "wab":-1.354
   },
   {
     "team_id":"williams",
