@@ -840,10 +840,114 @@ function WABChart({ history }) {
   );
 }
 
+// NATIONAL RANK HISTORY
+// Past seasons: every team in rating_history.json is ranked within its season (ties share a rank).
+// Current season: uses rank and resume_rank from teams.json, since rating_history.json only
+// includes teams that have played so far and would otherwise disagree with the rest of the site.
+function buildHistoryRanks(hd, teams) {
+  const out = {};
+  if (!hd || !hd.length) return out;
+  const currentSeason = Math.max(...hd.map(h => h.season));
+  const teamById = new Map(teams.map(t => [t.team_id, t]));
+  const bySeason = new Map();
+  hd.forEach(h => {
+    if (!bySeason.has(h.season)) bySeason.set(h.season, []);
+    bySeason.get(h.season).push(h);
+  });
+  const ranker = (rows, key) => {
+    const vals = rows.map(r => r[key]).filter(v => v != null).sort((a,b) => b-a);
+    const first = new Map();
+    vals.forEach((v,i) => { if (!first.has(v)) first.set(v, i+1); });
+    return { field: vals.length, rankOf: v => v == null ? null : first.get(v) };
+  };
+  const currentRatingField = teams.length;
+  const currentWabField = teams.filter(t => t.resume_rank != null).length;
+  bySeason.forEach((rows, season) => {
+    const rating = ranker(rows, 'rating');
+    const wab = ranker(rows, 'wab');
+    rows.forEach(h => {
+      const key = season + '|' + h.team_id;
+      if (season === currentSeason) {
+        const t = teamById.get(h.team_id);
+        out[key] = {
+          ratingRank: t ? t.rank : null, ratingField: currentRatingField,
+          wabRank: t ? t.resume_rank : null, wabField: currentWabField,
+        };
+      } else {
+        out[key] = {
+          ratingRank: rating.rankOf(h.rating), ratingField: rating.field,
+          wabRank: wab.rankOf(h.wab), wabField: wab.field,
+        };
+      }
+    });
+  });
+  return out;
+}
+
+// NATIONAL RANK CHART
+// y-axis runs #1 (top) to #430 so all teams are on the same scale
+function RankChart({ rows, H, P, emptyMsg }) {
+  if (!rows || rows.length < 2) return <div className="empty">{emptyMsg}</div>;
+  const W=560;
+  const iW=W-P.l-P.r, iH=H-P.t-P.b;
+  const seas = rows.map(r => r.season);
+  const minS=Math.min(...seas), maxS=Math.max(...seas);
+  const maxRank = Math.max(430, ...rows.map(r => r.rank));
+  const xS = s => P.l + ((s-minS)/(maxS-minS||1))*iW;
+  const yS = r => P.t + ((r-1)/(maxRank-1))*iH;
+  const pts = rows.map(r => [xS(r.season), yS(r.rank)]);
+  const yTicks = [1];
+  for (let v=100; v<=maxRank; v+=100) yTicks.push(v);
+  return (
+    <svg viewBox={`0 0 ${W} ${H}`} style={{width:'100%',display:'block'}} xmlns="http://www.w3.org/2000/svg">
+      {yTicks.map(v => (
+        <g key={v}>
+          <line x1={P.l-3} y1={yS(v)} x2={P.l} y2={yS(v)} stroke="#DDE1EA" strokeWidth="1"/>
+          <text x={P.l-5} y={yS(v)+3.5} textAnchor="end" fontSize="9" fill="#9CA3AF">{'#' + v}</text>
+        </g>
+      ))}
+      {rows.map(r => {
+        const y1 = String(r.season-1).slice(2);
+        const y2 = String(r.season).slice(2);
+        return (
+          <g key={r.season}>
+            <line x1={xS(r.season)} y1={H-P.b} x2={xS(r.season)} y2={H-P.b+3} stroke="#DDE1EA" strokeWidth="1"/>
+            <text x={xS(r.season)} y={H-P.b+13} textAnchor="middle" fontSize="7.5" fill="#9CA3AF">{y1 + '-' + y2}</text>
+          </g>
+        );
+      })}
+      <line x1={P.l} y1={P.t} x2={P.l} y2={H-P.b} stroke="#DDE1EA" strokeWidth="1"/>
+      <line x1={P.l} y1={H-P.b} x2={W-P.r} y2={H-P.b} stroke="#DDE1EA" strokeWidth="1"/>
+      <path d={'M ' + pts.map(p => p.join(',')).join(' L ')} fill="none" stroke="#081F2C" strokeWidth="2" strokeLinejoin="round"/>
+      {pts.map(([x,y],i) => (
+        <g key={i}>
+          <circle cx={x} cy={y} r="4" fill="#00AEEF" stroke="#fff" strokeWidth="1.5"/>
+          <title>{rows[i].season}: #{rows[i].rank} of {rows[i].field} ({rows[i].note})</title>
+        </g>
+      ))}
+    </svg>
+  );
+}
+
+// VALUE / NATIONAL RANK TOGGLE for the chart headers
+function ChartViewToggle({ view, setView, valueLabel }) {
+  return (
+    <div style={{display:'flex',alignItems:'center',gap:'.4rem'}}>
+      <span style={{color:'var(--muted)',fontSize:'.7rem',fontWeight:400}}>View:</span>
+      <button className={`sbtn${view==='value'?' active':''}`} onClick={() => setView('value')}>{valueLabel}</button>
+      <button className={`sbtn${view==='rank'?' active':''}`} onClick={() => setView('rank')}>Natl. Rank</button>
+    </div>
+  );
+}
+
 // TEAM PAGE
 function TeamPage({ teamId, nav }) {
   const { data, loading, error } = useData('teams.json','games_2026.json','future_games.json','rating_history.json');
   const [gameSort, setGameSort] = useState('date');
+  const [ratingView, setRatingView] = useState('value');
+  const [wabView, setWabView] = useState('value');
+
+  const historyRanks = useMemo(() => data ? buildHistoryRanks(data[3] || [], data[0] || []) : {}, [data]);
 
   // Off rank and def rank computed before early returns (hooks must be unconditional)
   const offRank = useMemo(() => {
@@ -873,9 +977,14 @@ function TeamPage({ teamId, nav }) {
     </div>
   );
 
-  const hist     = hd.filter(h => h.team_id === teamId).sort((a,b) => a.season-b.season);
+  const hist     = hd.filter(h => h.team_id === teamId).sort((a,b) => a.season-b.season)
+    .map(h => ({ ...h, ...(historyRanks[h.season + '|' + teamId] || {}) }));
+  const ratingRankRows = hist.filter(h => h.ratingRank != null)
+    .map(h => ({ season:h.season, rank:h.ratingRank, field:h.ratingField, note:'Rating ' + h.rating }));
+  const wabRankRows = hist.filter(h => h.wab != null && h.wabRank != null)
+    .map(h => ({ season:h.season, rank:h.wabRank, field:h.wabField, note:(h.wab > 0 ? '+' : '') + h.wab + ' WAB' }));
   const pastBase = g26.filter(g => g.team_1_id===teamId || g.team_2_id===teamId);
-  const past     = pastBase.slice().sort((a,b) => b.date.localeCompare(a.date));
+  const past     = pastBase.slice().sort((a,b) => a.date.localeCompare(b.date));
   const sortedPast = gameSort === 'wab'
     ? pastBase.slice().sort((a,b) => {
         const wa = teamId===a.team_1_id ? a.t1_wab : a.t2_wab;
@@ -981,12 +1090,26 @@ function TeamPage({ teamId, nav }) {
         {/* RIGHT: charts stacked */}
         <div className="team-charts-col">
           <div className="cbox">
-            <div className="box-hdr">Rating History</div>
-            <div className="box-body"><RHChart history={hist} /></div>
+            <div className="box-hdr">
+              <span>Rating History</span>
+              <ChartViewToggle view={ratingView} setView={setRatingView} valueLabel="Rating" />
+            </div>
+            <div className="box-body">
+              {ratingView === 'rank'
+                ? <RankChart rows={ratingRankRows} H={190} P={{t:14,r:16,b:28,l:40}} emptyMsg="Not enough history to display." />
+                : <RHChart history={hist} />}
+            </div>
           </div>
           <div className="cbox">
-            <div className="box-hdr">Wins Above Bubble History</div>
-            <div className="box-body"><WABChart history={hist} /></div>
+            <div className="box-hdr">
+              <span>Wins Above Bubble History</span>
+              <ChartViewToggle view={wabView} setView={setWabView} valueLabel="WAB" />
+            </div>
+            <div className="box-body">
+              {wabView === 'rank'
+                ? <RankChart rows={wabRankRows} H={170} P={{t:12,r:16,b:28,l:46}} emptyMsg="Not enough WAB history to display." />
+                : <WABChart history={hist} />}
+            </div>
           </div>
         </div>
       </div>
