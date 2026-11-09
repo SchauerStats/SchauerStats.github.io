@@ -175,21 +175,21 @@
     .loss { color:var(--loss); font-weight:600; }
 
     /* HOME */
-    .home-wrap { padding:2.5rem 1.5rem 3rem; max-width:1200px; margin:0 auto; width:100%; box-sizing:border-box; flex:1; }
-    .home-title { font-family:'Outfit',sans-serif; font-size:2rem; font-weight:800; color:var(--navy); margin-bottom:.4rem; padding-bottom:.5rem; border-bottom:3px solid var(--cyan); display:inline-block; }
+    .home-wrap { padding:2.5rem 1.5rem 1.5rem; max-width:1200px; margin:0 auto; width:100%; box-sizing:border-box; flex:1; display:flex; flex-direction:column; align-items:stretch; }
+    .home-title { font-family:'Outfit',sans-serif; font-size:2rem; font-weight:800; color:var(--navy); margin-bottom:.4rem; padding-bottom:.5rem; border-bottom:3px solid var(--cyan); align-self:flex-start; }
     .home-sub { color:var(--muted); margin-bottom:2.25rem; font-size:.9rem; }
     /* Desktop: 4 cards in one row. Mobile: 2x2. Cards fill available height. */
-    .card-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1.25rem; align-items:stretch; }
+    .card-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1.25rem; align-items:stretch; flex:1; }
     @media(max-width:680px) { .card-grid { grid-template-columns:repeat(2,1fr); } }
     .card { background:var(--white); border-radius:10px; border:1px solid var(--border); overflow:hidden;
             cursor:pointer; transition:transform .15s, box-shadow .15s;
-            display:flex; flex-direction:column; }
+            display:flex; flex-direction:column; min-width:0; }
     .card-body { flex:1; display:flex; flex-direction:column; padding:.875rem 1rem 1.1rem; }
     .card-body p { flex:1; color:var(--muted); font-size:.76rem; line-height:1.5; margin-bottom:.875rem; }
     .card:hover { transform:translateY(-2px); box-shadow:0 6px 20px rgba(8,31,44,.1); border-color:var(--cyan); }
     /* Icon area: solid navy panel, centered white icon */
-    .card-icon { height:100px; background:var(--navy); display:flex; align-items:center; justify-content:center; border-bottom:2px solid var(--cyan); }
-    .card-icon svg { width:44px; height:44px; }
+    .card-icon { flex:none; height:clamp(100px,20vh,180px); background:var(--navy); display:flex; align-items:center; justify-content:center; border-bottom:2px solid var(--cyan); }
+    .card-icon svg { width:clamp(44px,6vh,60px); height:clamp(44px,6vh,60px); }
     @media(max-width:680px) { .card-icon { height:80px; } .card-icon svg { width:36px; height:36px; } }
     .card-body h3 { font-family:'Outfit',sans-serif; font-weight:700; font-size:.88rem; color:var(--navy); margin-bottom:.25rem; }
     .card-btn { background:var(--navy); color:#fff; border:none; border-radius:7px; padding:.52rem .875rem;
@@ -1024,7 +1024,7 @@ function TeamPage({ teamId, nav }) {
             : <span className="gsc" style={{fontWeight:600,color:won?'var(--navy)':lost?'var(--cyan)':'var(--muted)'}}>{ms}-{os}</span>}
           {fut
             ? <span className="gwab" style={{color: mySpread < 0 ? 'var(--cyan)' : 'var(--muted)', fontWeight:600}}>
-                {mySpread > 0 ? '+' : ''}{mySpread != null ? mySpread.toFixed(1) : '-'}
+                {mySpread < 0 ? '+' : ''}{mySpread != null ? (-mySpread).toFixed(1) : '-'}
               </span>
             : null}
           {fut
