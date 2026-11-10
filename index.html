@@ -673,6 +673,16 @@ function AccuracyPage({ nav }) {
   const filtered = useMemo(() => {
     let r = allGames;
     if (search) { const q = search.toLowerCase(); r = r.filter(g => g.team_1.toLowerCase().includes(q) || g.team_2.toLowerCase().includes(q)); }
+    // When sorting by date, games on the same day go from lowest to highest error
+    if (sc === 'date') {
+      return [...r].sort((a,b) => {
+        const d = sd === 'asc' ? a.date.localeCompare(b.date) : b.date.localeCompare(a.date);
+        if (d) return d;
+        if (a.error == null) return b.error == null ? 0 : 1;
+        if (b.error == null) return -1;
+        return a.error - b.error;
+      });
+    }
     return srt(r, sc, sd);
   }, [allGames, search, sc, sd]);
 
