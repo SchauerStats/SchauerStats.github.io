@@ -3,7 +3,7 @@
     "conference_id":"odac",
     "conference":"ODAC",
     "team_count":12,
-    "avg_rating":12.3,
+    "avg_rating":12.0,
     "best_rank":1,
     "team_ids":[
       "randolph-macon",
@@ -24,7 +24,7 @@
     "conference_id":"c2c",
     "conference":"C2C",
     "team_count":7,
-    "avg_rating":2.8,
+    "avg_rating":2.6,
     "best_rank":2,
     "team_ids":[
       "mary-washington",
@@ -40,7 +40,7 @@
     "conference_id":"miac",
     "conference":"MIAC",
     "team_count":11,
-    "avg_rating":6.0,
+    "avg_rating":6.2,
     "best_rank":3,
     "team_ids":[
       "gustavus-adolphus",
@@ -60,8 +60,8 @@
     "conference_id":"nescac",
     "conference":"NESCAC",
     "team_count":11,
-    "avg_rating":15.1,
-    "best_rank":6,
+    "avg_rating":14.9,
+    "best_rank":5,
     "team_ids":[
       "trinity-conn",
       "wesleyan",
@@ -69,10 +69,10 @@
       "amherst",
       "williams",
       "bates",
-      "colby",
       "connecticut-college",
-      "bowdoin",
+      "colby",
       "hamilton",
+      "bowdoin",
       "middlebury"
     ]
   },
@@ -80,14 +80,14 @@
     "conference_id":"uaa",
     "conference":"UAA",
     "team_count":8,
-    "avg_rating":15.1,
+    "avg_rating":15.8,
     "best_rank":7,
     "team_ids":[
       "washington-u",
       "emory",
+      "new-york-university",
       "chicago",
       "case-western-reserve",
-      "new-york-university",
       "carnegie-mellon",
       "rochester",
       "brandeis"
@@ -98,13 +98,13 @@
     "conference":"CC",
     "team_count":10,
     "avg_rating":5.8,
-    "best_rank":10,
+    "best_rank":9,
     "team_ids":[
       "johns-hopkins",
       "gettysburg",
       "ursinus",
-      "franklin-and-marshall",
       "swarthmore",
+      "franklin-and-marshall",
       "muhlenberg",
       "haverford",
       "dickinson",
@@ -116,8 +116,8 @@
     "conference_id":"scac",
     "conference":"SCAC",
     "team_count":10,
-    "avg_rating":0.2,
-    "best_rank":12,
+    "avg_rating":0.5,
+    "best_rank":11,
     "team_ids":[
       "st-thomas-texas",
       "concordia-texas",
@@ -125,9 +125,9 @@
       "colorado-college",
       "centenary-la",
       "university-of-dallas",
-      "texas-lutheran",
       "austin",
       "university-of-the-ozarks",
+      "texas-lutheran",
       "hendrix"
     ]
   },
@@ -135,24 +135,24 @@
     "conference_id":"wiac",
     "conference":"WIAC",
     "team_count":8,
-    "avg_rating":15.8,
+    "avg_rating":15.7,
     "best_rank":13,
     "team_ids":[
       "uw-stevens-point",
       "uw-la-crosse",
       "uw-whitewater",
-      "uw-oshkosh",
       "uw-platteville",
+      "uw-oshkosh",
       "uw-eau-claire",
-      "uw-stout",
-      "uw-river-falls"
+      "uw-river-falls",
+      "uw-stout"
     ]
   },
   {
     "conference_id":"saa",
     "conference":"SAA",
     "team_count":9,
-    "avg_rating":5.6,
+    "avg_rating":6.0,
     "best_rank":14,
     "team_ids":[
       "trinity-texas",
@@ -167,28 +167,10 @@
     ]
   },
   {
-    "conference_id":"newmac",
-    "conference":"NEWMAC",
-    "team_count":9,
-    "avg_rating":4.2,
-    "best_rank":16,
-    "team_ids":[
-      "babson",
-      "wpi",
-      "wheaton-mass",
-      "salve-regina",
-      "springfield",
-      "clark",
-      "emerson",
-      "mit",
-      "coast-guard"
-    ]
-  },
-  {
     "conference_id":"cciw",
     "conference":"CCIW",
     "team_count":9,
-    "avg_rating":14.7,
+    "avg_rating":14.4,
     "best_rank":17,
     "team_ids":[
       "illinois-wesleyan",
@@ -196,18 +178,54 @@
       "wheaton-ill",
       "millikin",
       "carthage",
-      "carroll",
       "north-central-ill",
+      "carroll",
       "augustana",
       "north-park"
+    ]
+  },
+  {
+    "conference_id":"newmac",
+    "conference":"NEWMAC",
+    "team_count":9,
+    "avg_rating":3.8,
+    "best_rank":18,
+    "team_ids":[
+      "babson",
+      "wpi",
+      "wheaton-mass",
+      "salve-regina",
+      "clark",
+      "springfield",
+      "emerson",
+      "mit",
+      "coast-guard"
+    ]
+  },
+  {
+    "conference_id":"ncac",
+    "conference":"NCAC",
+    "team_count":9,
+    "avg_rating":8.6,
+    "best_rank":20,
+    "team_ids":[
+      "john-carroll",
+      "denison",
+      "depauw",
+      "wittenberg",
+      "wabash",
+      "wooster",
+      "ohio-wesleyan",
+      "oberlin",
+      "kenyon"
     ]
   },
   {
     "conference_id":"macc",
     "conference":"MACC",
     "team_count":9,
-    "avg_rating":1.4,
-    "best_rank":21,
+    "avg_rating":1.2,
+    "best_rank":22,
     "team_ids":[
       "hood",
       "york-pa",
@@ -221,36 +239,18 @@
     ]
   },
   {
-    "conference_id":"ncac",
-    "conference":"NCAC",
-    "team_count":9,
-    "avg_rating":8.9,
-    "best_rank":22,
-    "team_ids":[
-      "john-carroll",
-      "denison",
-      "depauw",
-      "wittenberg",
-      "wabash",
-      "wooster",
-      "oberlin",
-      "ohio-wesleyan",
-      "kenyon"
-    ]
-  },
-  {
     "conference_id":"sciac",
     "conference":"SCIAC",
     "team_count":10,
     "avg_rating":2.2,
-    "best_rank":24,
+    "best_rank":23,
     "team_ids":[
       "claremont-mudd-scripps",
       "redlands",
       "chapman",
       "cal-lutheran",
-      "whittier",
       "pomona-pitzer",
+      "whittier",
       "occidental",
       "la-verne",
       "azusa-pacific",
@@ -261,16 +261,16 @@
     "conference_id":"oac",
     "conference":"OAC",
     "team_count":9,
-    "avg_rating":8.9,
-    "best_rank":25,
+    "avg_rating":9.1,
+    "best_rank":26,
     "team_ids":[
       "mount-union",
       "ohio-northern",
       "otterbein",
       "muskingum",
       "baldwin-wallace",
-      "capital",
       "heidelberg",
+      "capital",
       "wilmington",
       "marietta"
     ]
@@ -279,7 +279,7 @@
     "conference_id":"miaa",
     "conference":"MIAA",
     "team_count":8,
-    "avg_rating":4.2,
+    "avg_rating":4.4,
     "best_rank":27,
     "team_ids":[
       "hope",
@@ -293,18 +293,37 @@
     ]
   },
   {
+    "conference_id":"land",
+    "conference":"LAND",
+    "team_count":10,
+    "avg_rating":3.5,
+    "best_rank":29,
+    "team_ids":[
+      "catholic",
+      "drew",
+      "wilkes",
+      "elizabethtown",
+      "susquehanna",
+      "juniata",
+      "scranton",
+      "moravian",
+      "goucher",
+      "lycoming"
+    ]
+  },
+  {
     "conference_id":"nacc",
     "conference":"NACC",
     "team_count":13,
     "avg_rating":-3.8,
-    "best_rank":28,
+    "best_rank":30,
     "team_ids":[
       "st-norbert",
       "aurora",
-      "marian",
       "concordia-wis",
-      "wisconsin-lutheran",
+      "marian",
       "benedictine",
+      "wisconsin-lutheran",
       "msoe",
       "rockford",
       "concordia-chicago",
@@ -315,51 +334,11 @@
     ]
   },
   {
-    "conference_id":"land",
-    "conference":"LAND",
-    "team_count":10,
-    "avg_rating":3.3,
-    "best_rank":29,
-    "team_ids":[
-      "catholic",
-      "drew",
-      "wilkes",
-      "elizabethtown",
-      "susquehanna",
-      "scranton",
-      "juniata",
-      "moravian",
-      "lycoming",
-      "goucher"
-    ]
-  },
-  {
-    "conference_id":"sunyac",
-    "conference":"SUNYAC",
-    "team_count":12,
-    "avg_rating":-7.8,
-    "best_rank":30,
-    "team_ids":[
-      "oswego-state",
-      "cortland",
-      "suny-oneonta",
-      "morrisville-state",
-      "suny-canton",
-      "plattsburgh-state",
-      "suny-potsdam",
-      "alfred-state",
-      "suny-cobleskill",
-      "suny-delhi",
-      "buffalo-state",
-      "fredonia"
-    ]
-  },
-  {
     "conference_id":"asc",
     "conference":"ASC",
     "team_count":6,
-    "avg_rating":4.6,
-    "best_rank":32,
+    "avg_rating":5.5,
+    "best_rank":31,
     "team_ids":[
       "hardin-simmons",
       "schreiner",
@@ -370,11 +349,32 @@
     ]
   },
   {
+    "conference_id":"sunyac",
+    "conference":"SUNYAC",
+    "team_count":12,
+    "avg_rating":-7.9,
+    "best_rank":35,
+    "team_ids":[
+      "oswego-state",
+      "suny-oneonta",
+      "cortland",
+      "morrisville-state",
+      "suny-canton",
+      "alfred-state",
+      "suny-potsdam",
+      "plattsburgh-state",
+      "suny-cobleskill",
+      "suny-delhi",
+      "buffalo-state",
+      "fredonia"
+    ]
+  },
+  {
     "conference_id":"uec",
     "conference":"UEC",
     "team_count":12,
-    "avg_rating":-10.7,
-    "best_rank":43,
+    "avg_rating":-10.8,
+    "best_rank":41,
     "team_ids":[
       "lancaster-bible",
       "penn-state-harrisburg",
@@ -382,8 +382,8 @@
       "penn-state-brandywine",
       "cairn",
       "st-mary-s-md",
-      "keystone",
       "penn-college",
+      "keystone",
       "wilson",
       "penn-state-abington",
       "penn-state-berks",
@@ -394,12 +394,12 @@
     "conference_id":"gnac",
     "conference":"GNAC",
     "team_count":13,
-    "avg_rating":-5.1,
-    "best_rank":44,
+    "avg_rating":-5.6,
+    "best_rank":46,
     "team_ids":[
       "st-joseph-s-maine",
-      "st-joseph-conn",
       "albertus-magnus",
+      "st-joseph-conn",
       "lasell",
       "emmanuel",
       "mitchell",
@@ -416,15 +416,15 @@
     "conference_id":"hcac",
     "conference":"HCAC",
     "team_count":10,
-    "avg_rating":2.6,
-    "best_rank":45,
+    "avg_rating":1.8,
+    "best_rank":49,
     "team_ids":[
       "rose-hulman",
       "transylvania",
-      "hanover",
       "mount-st-joseph",
       "anderson",
       "franklin",
+      "hanover",
       "berea",
       "bluffton",
       "manchester",
@@ -435,17 +435,17 @@
     "conference_id":"lec",
     "conference":"LEC",
     "team_count":9,
-    "avg_rating":2.4,
-    "best_rank":48,
+    "avg_rating":2.1,
+    "best_rank":50,
     "team_ids":[
       "keene-state",
       "western-connecticut",
       "southern-maine",
       "mass-dartmouth",
       "rhode-island-college",
+      "plymouth-state",
       "eastern-connecticut",
       "mass-boston",
-      "plymouth-state",
       "castleton"
     ]
   },
@@ -453,8 +453,8 @@
     "conference_id":"njac",
     "conference":"NJAC",
     "team_count":10,
-    "avg_rating":2.1,
-    "best_rank":52,
+    "avg_rating":2.5,
+    "best_rank":51,
     "team_ids":[
       "stockton",
       "montclair-state",
@@ -472,8 +472,8 @@
     "conference_id":"arc",
     "conference":"ARC",
     "team_count":8,
-    "avg_rating":8.9,
-    "best_rank":58,
+    "avg_rating":9.5,
+    "best_rank":55,
     "team_ids":[
       "dubuque",
       "loras",
@@ -494,11 +494,11 @@
     "team_ids":[
       "vassar",
       "union",
+      "ithaca",
       "hobart",
       "rpi",
-      "ithaca",
-      "clarkson",
       "skidmore",
+      "clarkson",
       "st-lawrence",
       "rochester-tech",
       "bard"
@@ -508,8 +508,8 @@
     "conference_id":"cne",
     "conference":"CNE",
     "team_count":11,
-    "avg_rating":-5.5,
-    "best_rank":70,
+    "avg_rating":-5.6,
+    "best_rank":65,
     "team_ids":[
       "endicott",
       "western-new-england",
@@ -517,11 +517,28 @@
       "roger-williams",
       "nichols",
       "hartford",
-      "gordon",
       "wentworth",
+      "gordon",
       "university-of-new-england",
       "curry",
       "johnson-and-wales"
+    ]
+  },
+  {
+    "conference_id":"nac",
+    "conference":"NAC",
+    "team_count":8,
+    "avg_rating":-14.9,
+    "best_rank":96,
+    "team_ids":[
+      "maine-farmington",
+      "husson",
+      "maine-presque-isle",
+      "maine-maritime",
+      "thomas",
+      "lesley",
+      "nvu-lyndon",
+      "nvu-johnson"
     ]
   },
   {
@@ -529,7 +546,7 @@
     "conference":"MWC",
     "team_count":10,
     "avg_rating":-0.1,
-    "best_rank":87,
+    "best_rank":98,
     "team_ids":[
       "grinnell",
       "illinois-college",
@@ -544,28 +561,11 @@
     ]
   },
   {
-    "conference_id":"nac",
-    "conference":"NAC",
-    "team_count":8,
-    "avg_rating":-15.0,
-    "best_rank":101,
-    "team_ids":[
-      "maine-farmington",
-      "husson",
-      "maine-presque-isle",
-      "maine-maritime",
-      "thomas",
-      "lesley",
-      "nvu-lyndon",
-      "nvu-johnson"
-    ]
-  },
-  {
     "conference_id":"amcc",
     "conference":"AMCC",
     "team_count":8,
-    "avg_rating":-6.4,
-    "best_rank":102,
+    "avg_rating":-7.1,
+    "best_rank":103,
     "team_ids":[
       "penn-state-behrend",
       "pitt-greensburg",
@@ -582,7 +582,7 @@
     "conference":"MACF",
     "team_count":9,
     "avg_rating":-2.7,
-    "best_rank":115,
+    "best_rank":112,
     "team_ids":[
       "stevens",
       "desales",
@@ -596,33 +596,11 @@
     ]
   },
   {
-    "conference_id":"pac",
-    "conference":"PAC",
-    "team_count":13,
-    "avg_rating":-6.3,
-    "best_rank":127,
-    "team_ids":[
-      "franciscan-ohio",
-      "chatham",
-      "washington-and-jefferson",
-      "st-vincent",
-      "westminster-pa",
-      "grove-city",
-      "bethany",
-      "allegheny",
-      "hiram",
-      "st-francis",
-      "geneva",
-      "thiel",
-      "waynesburg"
-    ]
-  },
-  {
     "conference_id":"aec",
     "conference":"AEC",
     "team_count":6,
-    "avg_rating":-10.7,
-    "best_rank":130,
+    "avg_rating":-10.6,
+    "best_rank":124,
     "team_ids":[
       "marymount",
       "gwynedd-mercy",
@@ -633,11 +611,33 @@
     ]
   },
   {
+    "conference_id":"pac",
+    "conference":"PAC",
+    "team_count":13,
+    "avg_rating":-6.3,
+    "best_rank":127,
+    "team_ids":[
+      "franciscan-ohio",
+      "chatham",
+      "st-vincent",
+      "washington-and-jefferson",
+      "westminster-pa",
+      "grove-city",
+      "bethany",
+      "allegheny",
+      "hiram",
+      "geneva",
+      "st-francis",
+      "waynesburg",
+      "thiel"
+    ]
+  },
+  {
     "conference_id":"nwc",
     "conference":"NWC",
     "team_count":9,
-    "avg_rating":0.6,
-    "best_rank":131,
+    "avg_rating":1.0,
+    "best_rank":128,
     "team_ids":[
       "puget-sound",
       "willamette",
@@ -651,11 +651,26 @@
     ]
   },
   {
+    "conference_id":"ccs",
+    "conference":"CCS",
+    "team_count":6,
+    "avg_rating":-3.5,
+    "best_rank":140,
+    "team_ids":[
+      "belhaven",
+      "lagrange",
+      "asbury",
+      "covenant",
+      "huntingdon",
+      "piedmont"
+    ]
+  },
+  {
     "conference_id":"usac",
     "conference":"USAC",
     "team_count":8,
-    "avg_rating":-5.7,
-    "best_rank":136,
+    "avg_rating":-6.1,
+    "best_rank":148,
     "team_ids":[
       "n-c-wesleyan",
       "pfeiffer",
@@ -668,27 +683,11 @@
     ]
   },
   {
-    "conference_id":"umac",
-    "conference":"UMAC",
-    "team_count":7,
-    "avg_rating":-5.2,
-    "best_rank":141,
-    "team_ids":[
-      "bethany-lutheran",
-      "minnesota-morris",
-      "north-central-minn",
-      "crown",
-      "northwestern-minn",
-      "uw-superior",
-      "martin-luther"
-    ]
-  },
-  {
     "conference_id":"sliac",
     "conference":"SLIAC",
     "team_count":9,
-    "avg_rating":-10.3,
-    "best_rank":143,
+    "avg_rating":-9.8,
+    "best_rank":149,
     "team_ids":[
       "webster",
       "lyon",
@@ -702,32 +701,11 @@
     ]
   },
   {
-    "conference_id":"e8",
-    "conference":"E8",
-    "team_count":12,
-    "avg_rating":-4.6,
-    "best_rank":145,
-    "team_ids":[
-      "suny-geneseo",
-      "brockport",
-      "st-john-fisher",
-      "sunyit",
-      "nazareth",
-      "utica",
-      "sage",
-      "keuka",
-      "houghton",
-      "alfred",
-      "hartwick",
-      "elmira"
-    ]
-  },
-  {
     "conference_id":"sky",
     "conference":"SKY",
     "team_count":12,
-    "avg_rating":-12.3,
-    "best_rank":146,
+    "avg_rating":-11.8,
+    "best_rank":151,
     "team_ids":[
       "farmingdale-state",
       "yeshiva",
@@ -744,26 +722,48 @@
     ]
   },
   {
-    "conference_id":"ccs",
-    "conference":"CCS",
-    "team_count":6,
-    "avg_rating":-4.0,
-    "best_rank":152,
+    "conference_id":"e8",
+    "conference":"E8",
+    "team_count":12,
+    "avg_rating":-5.0,
+    "best_rank":153,
     "team_ids":[
-      "belhaven",
-      "lagrange",
-      "asbury",
-      "covenant",
-      "huntingdon",
-      "piedmont"
+      "suny-geneseo",
+      "brockport",
+      "st-john-fisher",
+      "sunyit",
+      "nazareth",
+      "utica",
+      "sage",
+      "keuka",
+      "houghton",
+      "alfred",
+      "elmira",
+      "hartwick"
+    ]
+  },
+  {
+    "conference_id":"umac",
+    "conference":"UMAC",
+    "team_count":7,
+    "avg_rating":-5.2,
+    "best_rank":155,
+    "team_ids":[
+      "bethany-lutheran",
+      "minnesota-morris",
+      "north-central-minn",
+      "crown",
+      "northwestern-minn",
+      "uw-superior",
+      "martin-luther"
     ]
   },
   {
     "conference_id":"mascac",
     "conference":"MASCAC",
     "team_count":7,
-    "avg_rating":-7.3,
-    "best_rank":200,
+    "avg_rating":-8.0,
+    "best_rank":197,
     "team_ids":[
       "westfield-state",
       "worcester-state",
@@ -778,8 +778,8 @@
     "conference_id":"cunyac",
     "conference":"CUNYAC",
     "team_count":8,
-    "avg_rating":-20.9,
-    "best_rank":264,
+    "avg_rating":-20.0,
+    "best_rank":256,
     "team_ids":[
       "lehman",
       "baruch",
@@ -795,7 +795,7 @@
     "conference_id":"ind",
     "conference":"IND",
     "team_count":1,
-    "avg_rating":-40.5,
+    "avg_rating":-40.1,
     "best_rank":405,
     "team_ids":[
       "maranatha-baptist"
