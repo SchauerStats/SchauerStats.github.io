@@ -1022,7 +1022,9 @@ function TeamPage({ teamId, nav }) {
     const haColor = ha==='vs'?'#2563eb':ha==='@'?'#7c3aed':'var(--muted)';
     // For upcoming: compute spread and win probability from team perspective
     const mySpread = fut ? (it1 ? g.spread : -g.spread) : null;
-    const wp = fut && mySpread != null ? Math.round(1 / (1 + Math.exp(-0.152 * mySpread)) * 100) : null;
+    // Win probability straight from future_games.json, from this team's side
+    const myProb = fut ? (it1 ? g.team_1_win_prob : g.team_2_win_prob) : null;
+    const wp = myProb != null ? Math.round(myProb * 100) : null;
     return (
       <div className="grow">
         <span className="gdate">{fmtS(g.date)}</span>
