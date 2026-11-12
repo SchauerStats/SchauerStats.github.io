@@ -503,6 +503,8 @@ function HomePage({ nav }) {
 // ALL hooks run unconditionally before any early return
 function RatingsPage({ nav }) {
   const { data, loading, error } = useData('teams.json');
+  // Loaded separately so the table still works if this file is missing
+  const { data: updated } = useData('last_updated.json');
   const [search, setSearch] = useState('');
   const [cf, setCf] = useState('All');
   const { sc, sd, tog, ico } = useSort('rank', 'asc');
@@ -542,7 +544,7 @@ function RatingsPage({ nav }) {
           <select className="csel" value={cf} onChange={e => setCf(e.target.value)}>
             {confs.map(c => <option key={c} value={c}>{c}</option>)}
           </select>
-          <span className="rcount">{rows.length} teams</span>
+          <span className="rcount">{updated && updated[0].scraper_last_run_display ? 'Updated ' + updated[0].scraper_last_run_display : ''}</span>
         </div>
         <div className="shint">Scroll right to see all columns &rarr;</div>
         <div className="tscroll">
