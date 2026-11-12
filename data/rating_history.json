@@ -143,11 +143,11 @@
     "team_id":"adrian",
     "full_team":"Adrian",
     "season":2027,
-    "off":102.05,
-    "def":111.47,
-    "rating":-9.41,
-    "pace":72.39,
-    "wab":-1.231
+    "off":102.12,
+    "def":111.46,
+    "rating":-9.34,
+    "pace":72.36,
+    "wab":-1.214
   },
   {
     "team_id":"albertus-magnus",
@@ -433,7 +433,7 @@
     "team_id":"albion",
     "full_team":"Albion",
     "season":2027,
-    "off":105.91,
+    "off":105.9,
     "def":105.32,
     "rating":0.58,
     "pace":69.69,
@@ -583,11 +583,11 @@
     "team_id":"albright",
     "full_team":"Albright",
     "season":2027,
-    "off":103.16,
-    "def":105.67,
-    "rating":-2.51,
-    "pace":72.77,
-    "wab":-0.945
+    "off":105.54,
+    "def":109.33,
+    "rating":-3.79,
+    "pace":72.38,
+    "wab":-0.928
   },
   {
     "team_id":"alfred",
@@ -733,11 +733,11 @@
     "team_id":"alfred",
     "full_team":"Alfred",
     "season":2027,
-    "off":90.57,
-    "def":103.67,
-    "rating":-13.1,
+    "off":90.52,
+    "def":103.42,
+    "rating":-12.9,
     "pace":67.47,
-    "wab":-0.948
+    "wab":-0.94
   },
   {
     "team_id":"alfred-state",
@@ -863,11 +863,11 @@
     "team_id":"alfred-state",
     "full_team":"Alfred State",
     "season":2027,
-    "off":91.69,
-    "def":105.85,
-    "rating":-14.16,
-    "pace":72.67,
-    "wab":0.037
+    "off":91.43,
+    "def":104.37,
+    "rating":-12.95,
+    "pace":72.89,
+    "wab":0.069
   },
   {
     "team_id":"allegheny",
@@ -1603,11 +1603,11 @@
     "team_id":"anderson",
     "full_team":"Anderson",
     "season":2027,
-    "off":109.18,
-    "def":101.0,
-    "rating":8.18,
-    "pace":74.17,
-    "wab":-0.752
+    "off":105.18,
+    "def":96.91,
+    "rating":8.27,
+    "pace":74.06,
+    "wab":-1.376
   },
   {
     "team_id":"anna-maria",
@@ -1893,11 +1893,11 @@
     "team_id":"arcadia",
     "full_team":"Arcadia",
     "season":2027,
-    "off":103.1,
-    "def":106.46,
-    "rating":-3.37,
-    "pace":69.94,
-    "wab":0.019
+    "off":105.47,
+    "def":104.61,
+    "rating":0.86,
+    "pace":70.77,
+    "wab":0.099
   },
   {
     "team_id":"asbury",
@@ -2093,11 +2093,11 @@
     "team_id":"augsburg",
     "full_team":"Augsburg",
     "season":2027,
-    "off":108.74,
-    "def":99.26,
-    "rating":9.48,
-    "pace":72.84,
-    "wab":-0.495
+    "off":110.86,
+    "def":98.57,
+    "rating":12.29,
+    "pace":73.13,
+    "wab":-0.408
   },
   {
     "team_id":"augustana",
@@ -2393,11 +2393,11 @@
     "team_id":"aurora",
     "full_team":"Aurora",
     "season":2027,
-    "off":112.93,
-    "def":105.54,
-    "rating":7.39,
-    "pace":72.25,
-    "wab":-0.596
+    "off":113.11,
+    "def":105.04,
+    "rating":8.07,
+    "pace":72.3,
+    "wab":-0.322
   },
   {
     "team_id":"austin",
@@ -2543,11 +2543,11 @@
     "team_id":"austin",
     "full_team":"Austin",
     "season":2027,
-    "off":94.27,
-    "def":100.08,
-    "rating":-5.81,
-    "pace":71.85,
-    "wab":-1.444
+    "off":94.24,
+    "def":100.06,
+    "rating":-5.82,
+    "pace":71.87,
+    "wab":-1.445
   },
   {
     "team_id":"averett",
@@ -2693,19 +2693,19 @@
     "team_id":"averett",
     "full_team":"Averett",
     "season":2027,
-    "off":106.78,
-    "def":96.96,
-    "rating":9.82,
-    "pace":67.74,
-    "wab":0.033
+    "off":105.16,
+    "def":97.38,
+    "rating":7.78,
+    "pace":67.77,
+    "wab":-0.842
   },
   {
     "team_id":"azusa-pacific",
     "full_team":"Azusa Pacific",
     "season":2027,
-    "off":96.76,
-    "def":108.32,
-    "rating":-11.56,
+    "off":96.83,
+    "def":108.3,
+    "rating":-11.47,
     "pace":71.82,
     "wab":null
   },
@@ -2853,11 +2853,11 @@
     "team_id":"babson",
     "full_team":"Babson",
     "season":2027,
-    "off":118.48,
-    "def":95.94,
-    "rating":22.54,
-    "pace":68.1,
-    "wab":0.176
+    "off":119.69,
+    "def":97.55,
+    "rating":22.14,
+    "pace":67.29,
+    "wab":0.503
   },
   {
     "team_id":"baldwin-wallace",
@@ -3003,11 +3003,11 @@
     "team_id":"baldwin-wallace",
     "full_team":"Baldwin Wallace",
     "season":2027,
-    "off":107.84,
-    "def":100.15,
-    "rating":7.69,
-    "pace":69.14,
-    "wab":0.14
+    "off":110.09,
+    "def":97.61,
+    "rating":12.48,
+    "pace":68.86,
+    "wab":0.309
   },
   {
     "team_id":"bard",
@@ -3153,11 +3153,11 @@
     "team_id":"bard",
     "full_team":"Bard",
     "season":2027,
-    "off":90.99,
-    "def":111.53,
-    "rating":-20.54,
-    "pace":72.0,
-    "wab":-1.872
+    "off":90.89,
+    "def":111.55,
+    "rating":-20.66,
+    "pace":71.97,
+    "wab":-1.881
   },
   {
     "team_id":"baruch",
@@ -3303,11 +3303,11 @@
     "team_id":"baruch",
     "full_team":"Baruch",
     "season":2027,
-    "off":96.9,
-    "def":107.47,
-    "rating":-10.58,
-    "pace":69.57,
-    "wab":-1.672
+    "off":97.42,
+    "def":106.35,
+    "rating":-8.93,
+    "pace":69.95,
+    "wab":-2.474
   },
   {
     "team_id":"bates",
@@ -3593,11 +3593,11 @@
     "team_id":"batten",
     "full_team":"Batten",
     "season":2027,
-    "off":110.63,
-    "def":96.67,
-    "rating":13.96,
-    "pace":68.21,
-    "wab":-0.462
+    "off":110.88,
+    "def":96.75,
+    "rating":14.14,
+    "pace":68.22,
+    "wab":-0.432
   },
   {
     "team_id":"becker",
@@ -3795,7 +3795,7 @@
     "season":2027,
     "off":100.7,
     "def":95.35,
-    "rating":5.35,
+    "rating":5.34,
     "pace":81.18,
     "wab":0.088
   },
@@ -4173,11 +4173,11 @@
     "team_id":"berea",
     "full_team":"Berea",
     "season":2027,
-    "off":105.51,
-    "def":110.06,
-    "rating":-4.55,
-    "pace":70.03,
-    "wab":-0.488
+    "off":105.56,
+    "def":110.24,
+    "rating":-4.68,
+    "pace":70.07,
+    "wab":-0.529
   },
   {
     "team_id":"berry",
@@ -4323,11 +4323,11 @@
     "team_id":"berry",
     "full_team":"Berry",
     "season":2027,
-    "off":107.43,
-    "def":99.29,
-    "rating":8.14,
-    "pace":69.07,
-    "wab":0.137
+    "off":107.45,
+    "def":99.24,
+    "rating":8.21,
+    "pace":69.11,
+    "wab":0.141
   },
   {
     "team_id":"bethany",
@@ -4473,11 +4473,11 @@
     "team_id":"bethany",
     "full_team":"Bethany",
     "season":2027,
-    "off":102.72,
-    "def":107.86,
-    "rating":-5.14,
-    "pace":77.29,
-    "wab":-0.794
+    "off":102.65,
+    "def":110.55,
+    "rating":-7.9,
+    "pace":76.4,
+    "wab":-1.349
   },
   {
     "team_id":"bethany-lutheran",
@@ -4623,11 +4623,11 @@
     "team_id":"bethany-lutheran",
     "full_team":"Bethany Lutheran",
     "season":2027,
-    "off":105.79,
-    "def":101.19,
-    "rating":4.6,
-    "pace":75.75,
-    "wab":-0.829
+    "off":105.74,
+    "def":101.08,
+    "rating":4.67,
+    "pace":75.76,
+    "wab":-0.81
   },
   {
     "team_id":"bethel",
@@ -4773,11 +4773,11 @@
     "team_id":"bethel",
     "full_team":"Bethel",
     "season":2027,
-    "off":107.86,
-    "def":109.51,
-    "rating":-1.64,
-    "pace":70.25,
-    "wab":-0.822
+    "off":107.65,
+    "def":109.32,
+    "rating":-1.68,
+    "pace":70.14,
+    "wab":-0.825
   },
   {
     "team_id":"birmingham-so",
@@ -5193,11 +5193,11 @@
     "team_id":"bluffton",
     "full_team":"Bluffton",
     "season":2027,
-    "off":101.86,
-    "def":110.05,
-    "rating":-8.19,
-    "pace":72.57,
-    "wab":-0.428
+    "off":102.06,
+    "def":110.48,
+    "rating":-8.42,
+    "pace":72.66,
+    "wab":-0.502
   },
   {
     "team_id":"bob-jones",
@@ -5513,11 +5513,11 @@
     "team_id":"brandeis",
     "full_team":"Brandeis",
     "season":2027,
-    "off":108.59,
-    "def":102.82,
-    "rating":5.77,
-    "pace":69.76,
-    "wab":-0.747
+    "off":110.7,
+    "def":103.74,
+    "rating":6.96,
+    "pace":69.03,
+    "wab":-1.074
   },
   {
     "team_id":"brevard",
@@ -5607,7 +5607,7 @@
     "def":114.26,
     "rating":-13.26,
     "pace":69.55,
-    "wab":-0.787
+    "wab":-0.786
   },
   {
     "team_id":"bridgewater-state",
@@ -5753,11 +5753,11 @@
     "team_id":"bridgewater-state",
     "full_team":"Bridgewater State",
     "season":2027,
-    "off":103.19,
-    "def":111.63,
-    "rating":-8.44,
-    "pace":77.45,
-    "wab":0.058
+    "off":103.6,
+    "def":110.5,
+    "rating":-6.9,
+    "pace":78.89,
+    "wab":0.084
   },
   {
     "team_id":"bridgewater-va",
@@ -5903,10 +5903,10 @@
     "team_id":"bridgewater-va",
     "full_team":"Bridgewater (Va.)",
     "season":2027,
-    "off":105.86,
-    "def":103.39,
+    "off":105.88,
+    "def":103.42,
     "rating":2.46,
-    "pace":69.46,
+    "pace":69.47,
     "wab":0.006
   },
   {
@@ -6193,11 +6193,11 @@
     "team_id":"brooklyn",
     "full_team":"Brooklyn",
     "season":2027,
-    "off":88.3,
-    "def":105.13,
-    "rating":-16.83,
-    "pace":70.75,
-    "wab":-0.77
+    "off":87.34,
+    "def":105.41,
+    "rating":-18.07,
+    "pace":71.5,
+    "wab":-1.658
   },
   {
     "team_id":"bryn-athyn",
@@ -6603,11 +6603,11 @@
     "team_id":"buffalo-state",
     "full_team":"Buffalo State",
     "season":2027,
-    "off":93.69,
-    "def":110.88,
-    "rating":-17.19,
-    "pace":67.73,
-    "wab":-1.836
+    "off":93.67,
+    "def":111.17,
+    "rating":-17.5,
+    "pace":67.77,
+    "wab":-1.882
   },
   {
     "team_id":"cabrini",
@@ -6868,6 +6868,16 @@
     "rating":0.31,
     "pace":74.38,
     "wab":-3.999
+  },
+  {
+    "team_id":"cairn",
+    "full_team":"Cairn",
+    "season":2027,
+    "off":98.65,
+    "def":111.6,
+    "rating":-12.95,
+    "pace":76.06,
+    "wab":-0.441
   },
   {
     "team_id":"cal-lutheran",
@@ -7313,11 +7323,11 @@
     "team_id":"calvin",
     "full_team":"Calvin",
     "season":2027,
-    "off":106.14,
-    "def":97.3,
-    "rating":8.84,
-    "pace":70.67,
-    "wab":-0.238
+    "off":106.41,
+    "def":97.25,
+    "rating":9.16,
+    "pace":70.7,
+    "wab":-0.158
   },
   {
     "team_id":"capital",
@@ -7463,11 +7473,11 @@
     "team_id":"capital",
     "full_team":"Capital",
     "season":2027,
-    "off":109.19,
-    "def":104.16,
-    "rating":5.02,
-    "pace":71.71,
-    "wab":0.028
+    "off":110.52,
+    "def":103.04,
+    "rating":7.47,
+    "pace":71.39,
+    "wab":0.137
   },
   {
     "team_id":"carleton",
@@ -7653,11 +7663,11 @@
     "team_id":"carlow",
     "full_team":"Carlow",
     "season":2027,
-    "off":90.86,
-    "def":113.79,
-    "rating":-22.93,
+    "off":90.8,
+    "def":113.54,
+    "rating":-22.74,
     "pace":73.22,
-    "wab":-2.932
+    "wab":-2.925
   },
   {
     "team_id":"carnegie-mellon",
@@ -7803,11 +7813,11 @@
     "team_id":"carnegie-mellon",
     "full_team":"Carnegie Mellon",
     "season":2027,
-    "off":109.31,
-    "def":99.13,
-    "rating":10.18,
-    "pace":71.69,
-    "wab":0.085
+    "off":111.45,
+    "def":98.87,
+    "rating":12.58,
+    "pace":71.14,
+    "wab":0.403
   },
   {
     "team_id":"carroll",
@@ -8103,11 +8113,11 @@
     "team_id":"carthage",
     "full_team":"Carthage",
     "season":2027,
-    "off":111.54,
-    "def":96.78,
-    "rating":14.77,
-    "pace":71.68,
-    "wab":0.015
+    "off":111.91,
+    "def":94.58,
+    "rating":17.34,
+    "pace":71.05,
+    "wab":0.23
   },
   {
     "team_id":"case-western-reserve",
@@ -8253,11 +8263,11 @@
     "team_id":"case-western-reserve",
     "full_team":"Case Western Reserve",
     "season":2027,
-    "off":114.81,
-    "def":100.08,
-    "rating":14.73,
-    "pace":72.09,
-    "wab":-0.506
+    "off":115.32,
+    "def":99.73,
+    "rating":15.59,
+    "pace":71.01,
+    "wab":-0.308
   },
   {
     "team_id":"castleton",
@@ -9103,11 +9113,11 @@
     "team_id":"centenary-n-j",
     "full_team":"Centenary (N.J.)",
     "season":2027,
-    "off":96.73,
-    "def":107.17,
-    "rating":-10.44,
-    "pace":73.5,
-    "wab":-0.803
+    "off":94.93,
+    "def":106.94,
+    "rating":-12.01,
+    "pace":74.11,
+    "wab":-1.785
   },
   {
     "team_id":"central",
@@ -9400,6 +9410,16 @@
     "wab":-7.018
   },
   {
+    "team_id":"centre",
+    "full_team":"Centre",
+    "season":2027,
+    "off":107.37,
+    "def":102.38,
+    "rating":4.98,
+    "pace":71.45,
+    "wab":-0.691
+  },
+  {
     "team_id":"chapman",
     "full_team":"Chapman",
     "season":2012,
@@ -9653,11 +9673,11 @@
     "team_id":"chatham",
     "full_team":"Chatham",
     "season":2027,
-    "off":107.84,
-    "def":104.67,
-    "rating":3.17,
-    "pace":72.47,
-    "wab":0.037
+    "off":105.29,
+    "def":106.58,
+    "rating":-1.29,
+    "pace":72.19,
+    "wab":-0.669
   },
   {
     "team_id":"chicago",
@@ -9943,11 +9963,11 @@
     "team_id":"christopher-newport",
     "full_team":"Christopher Newport",
     "season":2027,
-    "off":112.15,
-    "def":86.27,
-    "rating":25.87,
-    "pace":71.9,
-    "wab":0.028
+    "off":110.03,
+    "def":88.74,
+    "rating":21.29,
+    "pace":71.19,
+    "wab":-0.019
   },
   {
     "team_id":"claremont-mudd-scripps",
@@ -10233,11 +10253,11 @@
     "team_id":"clark",
     "full_team":"Clark",
     "season":2027,
-    "off":105.91,
-    "def":105.1,
-    "rating":0.82,
-    "pace":68.96,
-    "wab":-0.337
+    "off":102.35,
+    "def":101.01,
+    "rating":1.34,
+    "pace":68.16,
+    "wab":-0.233
   },
   {
     "team_id":"clarks-summit",
@@ -10503,11 +10523,11 @@
     "team_id":"clarkson",
     "full_team":"Clarkson",
     "season":2027,
-    "off":111.52,
-    "def":107.51,
-    "rating":4.01,
-    "pace":69.52,
-    "wab":-1.302
+    "off":111.51,
+    "def":107.52,
+    "rating":3.99,
+    "pace":69.54,
+    "wab":-1.303
   },
   {
     "team_id":"coast-guard",
@@ -10653,11 +10673,11 @@
     "team_id":"coast-guard",
     "full_team":"Coast Guard",
     "season":2027,
-    "off":101.17,
-    "def":113.24,
-    "rating":-12.07,
-    "pace":72.2,
-    "wab":-0.759
+    "off":102.8,
+    "def":113.62,
+    "rating":-10.82,
+    "pace":72.64,
+    "wab":-1.639
   },
   {
     "team_id":"coe",
@@ -10803,11 +10823,11 @@
     "team_id":"coe",
     "full_team":"Coe",
     "season":2027,
-    "off":109.58,
-    "def":97.06,
-    "rating":12.51,
-    "pace":71.64,
-    "wab":0.062
+    "off":107.74,
+    "def":96.85,
+    "rating":10.89,
+    "pace":71.14,
+    "wab":0.105
   },
   {
     "team_id":"colby",
@@ -11093,11 +11113,11 @@
     "team_id":"colby-sawyer",
     "full_team":"Colby-Sawyer",
     "season":2027,
-    "off":93.87,
-    "def":114.34,
-    "rating":-20.48,
-    "pace":72.33,
-    "wab":-0.981
+    "off":93.94,
+    "def":117.03,
+    "rating":-23.09,
+    "pace":72.7,
+    "wab":-1.971
   },
   {
     "team_id":"colorado-college",
@@ -11383,11 +11403,11 @@
     "team_id":"concordia-chicago",
     "full_team":"Concordia-Chicago",
     "season":2027,
-    "off":91.96,
-    "def":99.68,
-    "rating":-7.73,
-    "pace":74.86,
-    "wab":-1.391
+    "off":94.33,
+    "def":101.73,
+    "rating":-7.4,
+    "pace":76.07,
+    "wab":-1.337
   },
   {
     "team_id":"concordia-moorhead",
@@ -11533,11 +11553,11 @@
     "team_id":"concordia-moorhead",
     "full_team":"Concordia-Moorhead",
     "season":2027,
-    "off":110.41,
-    "def":103.33,
-    "rating":7.08,
-    "pace":70.29,
-    "wab":0.07
+    "off":110.61,
+    "def":103.02,
+    "rating":7.59,
+    "pace":69.72,
+    "wab":0.149
   },
   {
     "team_id":"concordia-texas",
@@ -11683,11 +11703,11 @@
     "team_id":"concordia-texas",
     "full_team":"Concordia (Texas)",
     "season":2027,
-    "off":110.58,
-    "def":97.28,
-    "rating":13.29,
+    "off":110.56,
+    "def":97.25,
+    "rating":13.31,
     "pace":83.91,
-    "wab":0.145
+    "wab":0.146
   },
   {
     "team_id":"concordia-wis",
@@ -12123,11 +12143,11 @@
     "team_id":"cornell",
     "full_team":"Cornell",
     "season":2027,
-    "off":101.79,
-    "def":106.14,
-    "rating":-4.35,
-    "pace":72.77,
-    "wab":-0.529
+    "off":101.81,
+    "def":106.33,
+    "rating":-4.52,
+    "pace":72.83,
+    "wab":-0.573
   },
   {
     "team_id":"cortland",
@@ -12423,11 +12443,11 @@
     "team_id":"covenant",
     "full_team":"Covenant",
     "season":2027,
-    "off":104.51,
-    "def":108.16,
-    "rating":-3.65,
-    "pace":82.53,
-    "wab":-0.648
+    "off":104.13,
+    "def":108.11,
+    "rating":-3.99,
+    "pace":82.41,
+    "wab":-0.717
   },
   {
     "team_id":"crown",
@@ -12568,6 +12588,16 @@
     "rating":-6.52,
     "pace":70.66,
     "wab":-11.433
+  },
+  {
+    "team_id":"crown",
+    "full_team":"Crown",
+    "season":2027,
+    "off":97.57,
+    "def":106.21,
+    "rating":-8.64,
+    "pace":70.83,
+    "wab":-0.708
   },
   {
     "team_id":"curry",
@@ -12713,11 +12743,11 @@
     "team_id":"curry",
     "full_team":"Curry",
     "season":2027,
-    "off":94.61,
-    "def":113.51,
-    "rating":-18.9,
-    "pace":74.54,
-    "wab":-0.992
+    "off":93.82,
+    "def":111.74,
+    "rating":-17.92,
+    "pace":74.28,
+    "wab":-0.968
   },
   {
     "team_id":"d-youville",
@@ -12963,9 +12993,9 @@
     "team_id":"dean",
     "full_team":"Dean",
     "season":2027,
-    "off":94.62,
+    "off":94.61,
     "def":109.1,
-    "rating":-14.48,
+    "rating":-14.49,
     "pace":74.29,
     "wab":-0.969
   },
@@ -13233,11 +13263,11 @@
     "team_id":"delaware-valley",
     "full_team":"Delaware Valley",
     "season":2027,
-    "off":98.52,
-    "def":102.91,
-    "rating":-4.38,
-    "pace":71.53,
-    "wab":-1.445
+    "off":98.26,
+    "def":100.64,
+    "rating":-2.39,
+    "pace":71.86,
+    "wab":-1.423
   },
   {
     "team_id":"denison",
@@ -13523,11 +13553,11 @@
     "team_id":"depauw",
     "full_team":"DePauw",
     "season":2027,
-    "off":114.35,
-    "def":100.35,
-    "rating":14.0,
-    "pace":70.28,
-    "wab":0.061
+    "off":112.51,
+    "def":99.97,
+    "rating":12.54,
+    "pace":70.01,
+    "wab":-0.193
   },
   {
     "team_id":"desales",
@@ -13810,6 +13840,16 @@
     "wab":-11.142
   },
   {
+    "team_id":"dickinson",
+    "full_team":"Dickinson",
+    "season":2027,
+    "off":104.62,
+    "def":100.67,
+    "rating":3.95,
+    "pace":69.38,
+    "wab":0.081
+  },
+  {
     "team_id":"dominican",
     "full_team":"Dominican",
     "season":2012,
@@ -13953,11 +13993,11 @@
     "team_id":"dominican",
     "full_team":"Dominican",
     "season":2027,
-    "off":93.49,
-    "def":106.88,
-    "rating":-13.39,
-    "pace":72.34,
-    "wab":0.011
+    "off":93.58,
+    "def":106.6,
+    "rating":-13.02,
+    "pace":72.33,
+    "wab":0.016
   },
   {
     "team_id":"drew",
@@ -14103,11 +14143,11 @@
     "team_id":"drew",
     "full_team":"Drew",
     "season":2027,
-    "off":112.01,
-    "def":100.26,
-    "rating":11.75,
-    "pace":76.31,
-    "wab":0.27
+    "off":109.48,
+    "def":99.22,
+    "rating":10.25,
+    "pace":77.11,
+    "wab":-0.333
   },
   {
     "team_id":"dubuque",
@@ -14253,11 +14293,11 @@
     "team_id":"dubuque",
     "full_team":"Dubuque",
     "season":2027,
-    "off":107.68,
-    "def":93.14,
-    "rating":14.54,
-    "pace":71.74,
-    "wab":-0.489
+    "off":107.57,
+    "def":93.05,
+    "rating":14.52,
+    "pace":72.11,
+    "wab":-0.431
   },
   {
     "team_id":"earlham",
@@ -14403,11 +14443,11 @@
     "team_id":"earlham",
     "full_team":"Earlham",
     "season":2027,
-    "off":91.09,
-    "def":106.42,
-    "rating":-15.33,
-    "pace":71.1,
-    "wab":-0.736
+    "off":91.18,
+    "def":106.31,
+    "rating":-15.13,
+    "pace":71.06,
+    "wab":-0.687
   },
   {
     "team_id":"east-texas-baptist",
@@ -14553,11 +14593,11 @@
     "team_id":"east-texas-baptist",
     "full_team":"East Texas Baptist",
     "season":2027,
-    "off":101.12,
-    "def":102.61,
-    "rating":-1.49,
-    "pace":69.92,
-    "wab":-0.934
+    "off":105.73,
+    "def":105.35,
+    "rating":0.39,
+    "pace":70.36,
+    "wab":-0.854
   },
   {
     "team_id":"eastern",
@@ -14703,11 +14743,11 @@
     "team_id":"eastern",
     "full_team":"Eastern",
     "season":2027,
-    "off":105.72,
-    "def":102.51,
-    "rating":3.21,
-    "pace":71.31,
-    "wab":-0.591
+    "off":105.65,
+    "def":101.24,
+    "rating":4.4,
+    "pace":71.46,
+    "wab":-0.326
   },
   {
     "team_id":"eastern-connecticut",
@@ -14853,11 +14893,11 @@
     "team_id":"eastern-connecticut",
     "full_team":"Eastern Connecticut",
     "season":2027,
-    "off":100.9,
-    "def":101.36,
-    "rating":-0.47,
-    "pace":71.34,
-    "wab":-0.876
+    "off":101.93,
+    "def":103.96,
+    "rating":-2.03,
+    "pace":71.56,
+    "wab":-0.864
   },
   {
     "team_id":"eastern-mennonite",
@@ -15003,11 +15043,11 @@
     "team_id":"eastern-mennonite",
     "full_team":"Eastern Mennonite",
     "season":2027,
-    "off":100.46,
-    "def":100.53,
-    "rating":-0.07,
-    "pace":70.19,
-    "wab":0.066
+    "off":99.02,
+    "def":101.07,
+    "rating":-2.05,
+    "pace":69.25,
+    "wab":-0.824
   },
   {
     "team_id":"eastern-nazarene",
@@ -15268,6 +15308,16 @@
     "rating":-12.25,
     "pace":70.72,
     "wab":-14.62
+  },
+  {
+    "team_id":"edgewood",
+    "full_team":"Edgewood",
+    "season":2027,
+    "off":97.81,
+    "def":110.02,
+    "rating":-12.21,
+    "pace":71.39,
+    "wab":-0.656
   },
   {
     "team_id":"elizabethtown",
@@ -15563,11 +15613,11 @@
     "team_id":"elmhurst",
     "full_team":"Elmhurst",
     "season":2027,
-    "off":115.28,
-    "def":93.17,
-    "rating":22.11,
-    "pace":70.03,
-    "wab":0.11
+    "off":114.93,
+    "def":91.47,
+    "rating":23.46,
+    "pace":69.76,
+    "wab":0.426
   },
   {
     "team_id":"elmira",
@@ -15713,11 +15763,11 @@
     "team_id":"elmira",
     "full_team":"Elmira",
     "season":2027,
-    "off":96.57,
-    "def":115.06,
-    "rating":-18.5,
-    "pace":73.43,
-    "wab":-1.774
+    "off":96.82,
+    "def":114.45,
+    "rating":-17.63,
+    "pace":73.55,
+    "wab":-1.751
   },
   {
     "team_id":"elms",
@@ -15858,6 +15908,16 @@
     "rating":-18.53,
     "pace":71.78,
     "wab":-11.266
+  },
+  {
+    "team_id":"elms",
+    "full_team":"Elms",
+    "season":2027,
+    "off":84.48,
+    "def":109.51,
+    "rating":-25.03,
+    "pace":71.59,
+    "wab":-0.916
   },
   {
     "team_id":"emerson",
@@ -16003,11 +16063,11 @@
     "team_id":"emerson",
     "full_team":"Emerson",
     "season":2027,
-    "off":105.8,
-    "def":106.45,
-    "rating":-0.65,
-    "pace":71.28,
-    "wab":0.077
+    "off":107.27,
+    "def":105.98,
+    "rating":1.3,
+    "pace":71.2,
+    "wab":0.169
   },
   {
     "team_id":"emmanuel",
@@ -16305,7 +16365,7 @@
     "season":2027,
     "off":115.23,
     "def":92.33,
-    "rating":22.9,
+    "rating":22.89,
     "pace":76.19,
     "wab":0.031
   },
@@ -16545,7 +16605,7 @@
     "season":2027,
     "off":113.07,
     "def":99.75,
-    "rating":13.32,
+    "rating":13.31,
     "pace":70.26,
     "wab":0.768
   },
@@ -16693,11 +16753,11 @@
     "team_id":"eureka",
     "full_team":"Eureka",
     "season":2027,
-    "off":89.46,
-    "def":112.22,
-    "rating":-22.76,
-    "pace":73.19,
-    "wab":-1.444
+    "off":88.1,
+    "def":111.15,
+    "rating":-23.05,
+    "pace":73.7,
+    "wab":-2.41
   },
   {
     "team_id":"farmingdale-state",
@@ -16843,11 +16903,11 @@
     "team_id":"farmingdale-state",
     "full_team":"Farmingdale State",
     "season":2027,
-    "off":106.77,
-    "def":102.0,
-    "rating":4.77,
-    "pace":72.19,
-    "wab":-0.9
+    "off":105.43,
+    "def":102.67,
+    "rating":2.76,
+    "pace":72.68,
+    "wab":-0.873
   },
   {
     "team_id":"fdu-florham",
@@ -16993,11 +17053,11 @@
     "team_id":"fdu-florham",
     "full_team":"FDU-Florham",
     "season":2027,
-    "off":96.26,
-    "def":106.21,
-    "rating":-9.95,
-    "pace":72.33,
-    "wab":-1.561
+    "off":96.36,
+    "def":106.5,
+    "rating":-10.15,
+    "pace":72.22,
+    "wab":-1.608
   },
   {
     "team_id":"ferrum",
@@ -17383,11 +17443,11 @@
     "team_id":"fitchburg-state",
     "full_team":"Fitchburg State",
     "season":2027,
-    "off":100.01,
-    "def":107.4,
-    "rating":-7.39,
-    "pace":74.12,
-    "wab":-0.317
+    "off":98.33,
+    "def":108.5,
+    "rating":-10.17,
+    "pace":73.55,
+    "wab":-1.262
   },
   {
     "team_id":"fontbonne",
@@ -17663,7 +17723,7 @@
     "team_id":"framingham-state",
     "full_team":"Framingham State",
     "season":2027,
-    "off":93.28,
+    "off":93.27,
     "def":107.53,
     "rating":-14.26,
     "pace":71.46,
@@ -17813,11 +17873,11 @@
     "team_id":"franciscan-ohio",
     "full_team":"Franciscan (Ohio)",
     "season":2027,
-    "off":106.1,
-    "def":100.1,
-    "rating":5.99,
-    "pace":71.34,
-    "wab":-0.323
+    "off":108.99,
+    "def":99.23,
+    "rating":9.76,
+    "pace":70.67,
+    "wab":0.061
   },
   {
     "team_id":"franklin",
@@ -17963,11 +18023,11 @@
     "team_id":"franklin",
     "full_team":"Franklin",
     "season":2027,
-    "off":104.78,
-    "def":98.06,
-    "rating":6.72,
+    "off":104.67,
+    "def":97.94,
+    "rating":6.73,
     "pace":71.42,
-    "wab":-0.752
+    "wab":-0.75
   },
   {
     "team_id":"franklin-and-marshall",
@@ -18113,11 +18173,11 @@
     "team_id":"franklin-and-marshall",
     "full_team":"Franklin and Marshall",
     "season":2027,
-    "off":106.68,
-    "def":98.28,
-    "rating":8.4,
-    "pace":66.65,
-    "wab":-1.041
+    "off":106.27,
+    "def":98.42,
+    "rating":7.85,
+    "pace":66.72,
+    "wab":-1.192
   },
   {
     "team_id":"fredonia",
@@ -18263,11 +18323,11 @@
     "team_id":"fredonia",
     "full_team":"Fredonia",
     "season":2027,
-    "off":90.76,
-    "def":114.53,
-    "rating":-23.78,
-    "pace":71.46,
-    "wab":-0.783
+    "off":92.48,
+    "def":115.72,
+    "rating":-23.24,
+    "pace":71.3,
+    "wab":-1.607
   },
   {
     "team_id":"frostburg-st",
@@ -18493,11 +18553,11 @@
     "team_id":"gallaudet",
     "full_team":"Gallaudet",
     "season":2027,
-    "off":84.7,
-    "def":117.65,
+    "off":84.56,
+    "def":117.52,
     "rating":-32.95,
-    "pace":74.2,
-    "wab":-1.828
+    "pace":74.14,
+    "wab":-1.827
   },
   {
     "team_id":"geneva",
@@ -18643,9 +18703,9 @@
     "team_id":"geneva",
     "full_team":"Geneva",
     "season":2027,
-    "off":98.53,
-    "def":110.94,
-    "rating":-12.41,
+    "off":98.58,
+    "def":110.95,
+    "rating":-12.37,
     "pace":70.16,
     "wab":0.018
   },
@@ -18794,8 +18854,8 @@
     "full_team":"George Fox",
     "season":2027,
     "off":105.29,
-    "def":108.43,
-    "rating":-3.14,
+    "def":108.41,
+    "rating":-3.12,
     "pace":76.62,
     "wab":-0.64
   },
@@ -18943,11 +19003,11 @@
     "team_id":"gettysburg",
     "full_team":"Gettysburg",
     "season":2027,
-    "off":105.55,
-    "def":89.56,
-    "rating":15.99,
+    "off":105.63,
+    "def":89.88,
+    "rating":15.75,
     "pace":68.08,
-    "wab":-0.329
+    "wab":-0.397
   },
   {
     "team_id":"gordon",
@@ -19093,11 +19153,11 @@
     "team_id":"gordon",
     "full_team":"Gordon",
     "season":2027,
-    "off":96.92,
-    "def":108.75,
-    "rating":-11.84,
-    "pace":71.37,
-    "wab":0.011
+    "off":98.19,
+    "def":107.03,
+    "rating":-8.84,
+    "pace":71.02,
+    "wab":0.079
   },
   {
     "team_id":"goucher",
@@ -19460,6 +19520,16 @@
     "wab":-11.005
   },
   {
+    "team_id":"greensboro",
+    "full_team":"Greensboro",
+    "season":2027,
+    "off":101.9,
+    "def":106.52,
+    "rating":-4.62,
+    "pace":71.42,
+    "wab":0.2
+  },
+  {
     "team_id":"greenville",
     "full_team":"Greenville",
     "season":2012,
@@ -19603,11 +19673,11 @@
     "team_id":"greenville",
     "full_team":"Greenville",
     "season":2027,
-    "off":102.59,
-    "def":114.34,
-    "rating":-11.76,
-    "pace":99.12,
-    "wab":-1.711
+    "off":104.48,
+    "def":116.75,
+    "rating":-12.28,
+    "pace":100.25,
+    "wab":-2.722
   },
   {
     "team_id":"grinnell",
@@ -19753,11 +19823,11 @@
     "team_id":"grinnell",
     "full_team":"Grinnell",
     "season":2027,
-    "off":110.5,
-    "def":101.51,
-    "rating":8.99,
-    "pace":86.29,
-    "wab":0.152
+    "off":109.34,
+    "def":103.5,
+    "rating":5.84,
+    "pace":85.99,
+    "wab":0.163
   },
   {
     "team_id":"grove-city",
@@ -19903,11 +19973,11 @@
     "team_id":"grove-city",
     "full_team":"Grove City",
     "season":2027,
-    "off":98.12,
-    "def":103.0,
-    "rating":-4.88,
-    "pace":69.24,
-    "wab":-0.744
+    "off":98.16,
+    "def":102.96,
+    "rating":-4.8,
+    "pace":69.23,
+    "wab":-0.735
   },
   {
     "team_id":"guilford",
@@ -20053,11 +20123,11 @@
     "team_id":"guilford",
     "full_team":"Guilford",
     "season":2027,
-    "off":111.8,
-    "def":95.27,
-    "rating":16.53,
-    "pace":81.82,
-    "wab":0.16
+    "off":112.75,
+    "def":95.05,
+    "rating":17.7,
+    "pace":82.11,
+    "wab":0.259
   },
   {
     "team_id":"gustavus-adolphus",
@@ -20203,11 +20273,11 @@
     "team_id":"gustavus-adolphus",
     "full_team":"Gustavus Adolphus",
     "season":2027,
-    "off":120.59,
-    "def":90.42,
-    "rating":30.16,
-    "pace":69.55,
-    "wab":0.171
+    "off":120.54,
+    "def":90.32,
+    "rating":30.22,
+    "pace":69.56,
+    "wab":0.19
   },
   {
     "team_id":"gwynedd-mercy",
@@ -20348,6 +20418,16 @@
     "rating":-0.28,
     "pace":74.6,
     "wab":-5.972
+  },
+  {
+    "team_id":"gwynedd-mercy",
+    "full_team":"Gwynedd Mercy",
+    "season":2027,
+    "off":96.94,
+    "def":105.14,
+    "rating":-8.2,
+    "pace":75.09,
+    "wab":-0.895
   },
   {
     "team_id":"hamilton",
@@ -20633,11 +20713,11 @@
     "team_id":"hamline",
     "full_team":"Hamline",
     "season":2027,
-    "off":104.6,
-    "def":94.66,
-    "rating":9.95,
-    "pace":70.59,
-    "wab":0.046
+    "off":106.06,
+    "def":93.71,
+    "rating":12.35,
+    "pace":70.55,
+    "wab":0.128
   },
   {
     "team_id":"hampden-sydney",
@@ -20783,11 +20863,11 @@
     "team_id":"hampden-sydney",
     "full_team":"Hampden-Sydney",
     "season":2027,
-    "off":115.32,
-    "def":91.2,
-    "rating":24.12,
-    "pace":70.37,
-    "wab":0.252
+    "off":115.27,
+    "def":91.25,
+    "rating":24.02,
+    "pace":70.32,
+    "wab":0.23
   },
   {
     "team_id":"hanover",
@@ -21123,11 +21203,11 @@
     "team_id":"hartford",
     "full_team":"Hartford",
     "season":2027,
-    "off":95.71,
-    "def":101.24,
-    "rating":-5.53,
-    "pace":71.16,
-    "wab":-1.317
+    "off":95.77,
+    "def":101.31,
+    "rating":-5.55,
+    "pace":70.96,
+    "wab":-1.301
   },
   {
     "team_id":"hartwick",
@@ -21273,11 +21353,11 @@
     "team_id":"hartwick",
     "full_team":"Hartwick",
     "season":2027,
-    "off":94.14,
-    "def":113.66,
-    "rating":-19.53,
-    "pace":73.28,
-    "wab":-2.356
+    "off":93.99,
+    "def":113.84,
+    "rating":-19.85,
+    "pace":73.31,
+    "wab":-2.436
   },
   {
     "team_id":"haverford",
@@ -21423,11 +21503,11 @@
     "team_id":"haverford",
     "full_team":"Haverford",
     "season":2027,
-    "off":100.61,
-    "def":101.76,
-    "rating":-1.15,
-    "pace":71.63,
-    "wab":0.123
+    "off":100.82,
+    "def":101.78,
+    "rating":-0.96,
+    "pace":71.6,
+    "wab":0.137
   },
   {
     "team_id":"heidelberg",
@@ -21723,11 +21803,11 @@
     "team_id":"hendrix",
     "full_team":"Hendrix",
     "season":2027,
-    "off":87.66,
-    "def":107.29,
-    "rating":-19.64,
-    "pace":74.16,
-    "wab":-0.91
+    "off":87.18,
+    "def":106.98,
+    "rating":-19.8,
+    "pace":74.13,
+    "wab":-0.921
   },
   {
     "team_id":"hilbert",
@@ -21873,11 +21953,11 @@
     "team_id":"hilbert",
     "full_team":"Hilbert",
     "season":2027,
-    "off":102.81,
-    "def":107.7,
-    "rating":-4.89,
-    "pace":73.8,
-    "wab":-0.883
+    "off":104.11,
+    "def":109.2,
+    "rating":-5.08,
+    "pace":73.56,
+    "wab":-0.909
   },
   {
     "team_id":"hiram",
@@ -22173,11 +22253,11 @@
     "team_id":"hobart",
     "full_team":"Hobart",
     "season":2027,
-    "off":105.98,
-    "def":95.17,
-    "rating":10.81,
-    "pace":73.29,
-    "wab":0.381
+    "off":102.63,
+    "def":94.36,
+    "rating":8.27,
+    "pace":73.16,
+    "wab":-0.462
   },
   {
     "team_id":"hood",
@@ -22473,11 +22553,11 @@
     "team_id":"hope",
     "full_team":"Hope",
     "season":2027,
-    "off":111.0,
-    "def":91.12,
-    "rating":19.88,
-    "pace":71.49,
-    "wab":0.389
+    "off":111.37,
+    "def":91.44,
+    "rating":19.92,
+    "pace":71.5,
+    "wab":0.391
   },
   {
     "team_id":"houghton",
@@ -22613,11 +22693,11 @@
     "team_id":"houghton",
     "full_team":"Houghton",
     "season":2027,
-    "off":96.55,
-    "def":106.48,
-    "rating":-9.94,
-    "pace":72.8,
-    "wab":-1.675
+    "off":95.02,
+    "def":105.98,
+    "rating":-10.96,
+    "pace":73.06,
+    "wab":-2.542
   },
   {
     "team_id":"howard-payne",
@@ -22900,6 +22980,16 @@
     "wab":-17.924
   },
   {
+    "team_id":"hunter",
+    "full_team":"Hunter",
+    "season":2027,
+    "off":83.58,
+    "def":110.22,
+    "rating":-26.63,
+    "pace":70.63,
+    "wab":-0.957
+  },
+  {
     "team_id":"huntingdon",
     "full_team":"Huntingdon",
     "season":2012,
@@ -23043,11 +23133,11 @@
     "team_id":"huntingdon",
     "full_team":"Huntingdon",
     "season":2027,
-    "off":96.75,
-    "def":105.76,
-    "rating":-9.02,
-    "pace":75.69,
-    "wab":-0.645
+    "off":97.15,
+    "def":105.29,
+    "rating":-8.14,
+    "pace":75.12,
+    "wab":-0.595
   },
   {
     "team_id":"husson",
@@ -23193,11 +23283,11 @@
     "team_id":"husson",
     "full_team":"Husson",
     "season":2027,
-    "off":101.0,
-    "def":106.66,
-    "rating":-5.66,
-    "pace":73.14,
-    "wab":-0.896
+    "off":103.97,
+    "def":107.83,
+    "rating":-3.85,
+    "pace":74.48,
+    "wab":-1.373
   },
   {
     "team_id":"illinois-college",
@@ -23343,7 +23433,7 @@
     "team_id":"illinois-college",
     "full_team":"Illinois College",
     "season":2027,
-    "off":104.25,
+    "off":104.24,
     "def":96.48,
     "rating":7.76,
     "pace":71.38,
@@ -23448,6 +23538,16 @@
     "rating":-13.16,
     "pace":72.51,
     "wab":-13.399
+  },
+  {
+    "team_id":"illinois-tech",
+    "full_team":"Illinois Tech",
+    "season":2027,
+    "off":91.79,
+    "def":108.53,
+    "rating":-16.74,
+    "pace":73.47,
+    "wab":-0.319
   },
   {
     "team_id":"illinois-wesleyan",
@@ -23733,11 +23833,11 @@
     "team_id":"immaculata",
     "full_team":"Immaculata",
     "season":2027,
-    "off":92.09,
-    "def":105.03,
-    "rating":-12.94,
-    "pace":77.42,
-    "wab":-0.591
+    "off":93.35,
+    "def":105.69,
+    "rating":-12.34,
+    "pace":76.65,
+    "wab":-0.548
   },
   {
     "team_id":"iowa-wesleyan",
@@ -24103,11 +24203,11 @@
     "team_id":"john-carroll",
     "full_team":"John Carroll",
     "season":2027,
-    "off":118.04,
-    "def":96.3,
-    "rating":21.74,
-    "pace":77.51,
-    "wab":0.325
+    "off":118.09,
+    "def":96.06,
+    "rating":22.03,
+    "pace":77.58,
+    "wab":0.406
   },
   {
     "team_id":"john-jay",
@@ -24253,11 +24353,11 @@
     "team_id":"john-jay",
     "full_team":"John Jay",
     "season":2027,
-    "off":90.26,
-    "def":110.23,
-    "rating":-19.96,
-    "pace":72.48,
-    "wab":-1.895
+    "off":90.22,
+    "def":110.21,
+    "rating":-19.99,
+    "pace":72.5,
+    "wab":-1.896
   },
   {
     "team_id":"johns-hopkins",
@@ -24553,11 +24653,11 @@
     "team_id":"johnson-and-wales",
     "full_team":"Johnson and Wales",
     "season":2027,
-    "off":84.35,
-    "def":111.24,
-    "rating":-26.89,
-    "pace":71.45,
-    "wab":-0.992
+    "off":87.23,
+    "def":111.78,
+    "rating":-24.55,
+    "pace":71.63,
+    "wab":-1.911
   },
   {
     "team_id":"johnson-and-wales-n-c",
@@ -24573,10 +24673,10 @@
     "team_id":"johnson-and-wales-n-c",
     "full_team":"Johnson and Wales (N.C.)",
     "season":2027,
-    "off":99.9,
-    "def":110.22,
-    "rating":-10.32,
-    "pace":73.64,
+    "off":99.85,
+    "def":110.26,
+    "rating":-10.42,
+    "pace":73.59,
     "wab":null
   },
   {
@@ -24893,11 +24993,11 @@
     "team_id":"kalamazoo",
     "full_team":"Kalamazoo",
     "season":2027,
-    "off":97.57,
-    "def":109.51,
-    "rating":-11.94,
-    "pace":72.4,
-    "wab":-0.719
+    "off":97.69,
+    "def":109.37,
+    "rating":-11.67,
+    "pace":72.44,
+    "wab":-0.661
   },
   {
     "team_id":"kean",
@@ -25043,11 +25143,11 @@
     "team_id":"kean",
     "full_team":"Kean",
     "season":2027,
-    "off":104.07,
-    "def":97.11,
-    "rating":6.95,
-    "pace":70.98,
-    "wab":0.049
+    "off":104.21,
+    "def":97.29,
+    "rating":6.92,
+    "pace":71.01,
+    "wab":0.048
   },
   {
     "team_id":"keene-state",
@@ -25193,11 +25293,11 @@
     "team_id":"keene-state",
     "full_team":"Keene State",
     "season":2027,
-    "off":109.48,
-    "def":94.33,
-    "rating":15.15,
+    "off":109.39,
+    "def":94.16,
+    "rating":15.23,
     "pace":75.7,
-    "wab":0.062
+    "wab":0.068
   },
   {
     "team_id":"kenyon",
@@ -25343,11 +25443,11 @@
     "team_id":"kenyon",
     "full_team":"Kenyon",
     "season":2027,
-    "off":96.41,
-    "def":100.18,
-    "rating":-3.77,
-    "pace":70.1,
-    "wab":-0.991
+    "off":95.49,
+    "def":101.16,
+    "rating":-5.67,
+    "pace":69.91,
+    "wab":-1.776
   },
   {
     "team_id":"keuka",
@@ -25488,6 +25588,16 @@
     "rating":-5.16,
     "pace":71.15,
     "wab":-10.671
+  },
+  {
+    "team_id":"keuka",
+    "full_team":"Keuka",
+    "season":2027,
+    "off":98.04,
+    "def":107.36,
+    "rating":-9.32,
+    "pace":73.15,
+    "wab":-0.923
   },
   {
     "team_id":"keystone",
@@ -25633,11 +25743,11 @@
     "team_id":"keystone",
     "full_team":"Keystone",
     "season":2027,
-    "off":94.92,
-    "def":110.18,
-    "rating":-15.26,
-    "pace":74.38,
-    "wab":-2.41
+    "off":94.86,
+    "def":110.26,
+    "rating":-15.4,
+    "pace":74.29,
+    "wab":-2.444
   },
   {
     "team_id":"king-s",
@@ -25778,6 +25888,16 @@
     "rating":-11.42,
     "pace":72.57,
     "wab":-14.8
+  },
+  {
+    "team_id":"king-s",
+    "full_team":"King's",
+    "season":2027,
+    "off":98.48,
+    "def":108.54,
+    "rating":-10.07,
+    "pace":72.11,
+    "wab":-0.831
   },
   {
     "team_id":"knox",
@@ -25923,11 +26043,11 @@
     "team_id":"knox",
     "full_team":"Knox",
     "season":2027,
-    "off":93.99,
-    "def":104.17,
-    "rating":-10.17,
-    "pace":73.31,
-    "wab":-0.715
+    "off":92.85,
+    "def":102.72,
+    "rating":-9.88,
+    "pace":73.89,
+    "wab":-0.696
   },
   {
     "team_id":"la-roche",
@@ -26073,11 +26193,11 @@
     "team_id":"la-roche",
     "full_team":"La Roche",
     "season":2027,
-    "off":103.53,
-    "def":104.79,
-    "rating":-1.25,
-    "pace":71.83,
-    "wab":-0.592
+    "off":103.56,
+    "def":104.57,
+    "rating":-1.02,
+    "pace":71.88,
+    "wab":-0.527
   },
   {
     "team_id":"la-verne",
@@ -26373,11 +26493,11 @@
     "team_id":"lagrange",
     "full_team":"LaGrange",
     "season":2027,
-    "off":101.36,
+    "off":101.37,
     "def":101.07,
-    "rating":0.29,
-    "pace":74.16,
-    "wab":-0.621
+    "rating":0.3,
+    "pace":74.15,
+    "wab":-0.619
   },
   {
     "team_id":"lake-forest",
@@ -26523,11 +26643,11 @@
     "team_id":"lake-forest",
     "full_team":"Lake Forest",
     "season":2027,
-    "off":114.18,
-    "def":109.57,
-    "rating":4.61,
-    "pace":73.21,
-    "wab":0.296
+    "off":111.73,
+    "def":109.95,
+    "rating":1.78,
+    "pace":72.59,
+    "wab":-0.295
   },
   {
     "team_id":"lakeland",
@@ -26973,11 +27093,11 @@
     "team_id":"lasell",
     "full_team":"Lasell",
     "season":2027,
-    "off":106.17,
-    "def":99.81,
-    "rating":6.36,
-    "pace":74.37,
-    "wab":-0.272
+    "off":106.55,
+    "def":100.15,
+    "rating":6.4,
+    "pace":74.75,
+    "wab":-0.967
   },
   {
     "team_id":"lawrence",
@@ -27123,11 +27243,11 @@
     "team_id":"lawrence",
     "full_team":"Lawrence",
     "season":2027,
-    "off":103.23,
-    "def":100.83,
-    "rating":2.4,
-    "pace":69.64,
-    "wab":-0.466
+    "off":103.07,
+    "def":100.81,
+    "rating":2.27,
+    "pace":69.66,
+    "wab":-0.505
   },
   {
     "team_id":"lebanon-valley",
@@ -27273,11 +27393,11 @@
     "team_id":"lebanon-valley",
     "full_team":"Lebanon Valley",
     "season":2027,
-    "off":98.38,
-    "def":103.83,
-    "rating":-5.45,
-    "pace":72.15,
-    "wab":0.146
+    "off":97.96,
+    "def":103.56,
+    "rating":-5.6,
+    "pace":72.18,
+    "wab":0.13
   },
   {
     "team_id":"lehman",
@@ -27423,11 +27543,11 @@
     "team_id":"lehman",
     "full_team":"Lehman",
     "season":2027,
-    "off":98.83,
-    "def":103.2,
-    "rating":-4.37,
-    "pace":73.0,
-    "wab":-0.457
+    "off":100.46,
+    "def":103.97,
+    "rating":-3.51,
+    "pace":72.86,
+    "wab":-0.447
   },
   {
     "team_id":"lesley",
@@ -27573,11 +27693,11 @@
     "team_id":"lesley",
     "full_team":"Lesley",
     "season":2027,
-    "off":89.98,
-    "def":113.94,
-    "rating":-23.96,
-    "pace":75.43,
-    "wab":0.039
+    "off":92.78,
+    "def":113.99,
+    "rating":-21.21,
+    "pace":75.77,
+    "wab":0.063
   },
   {
     "team_id":"letourneau",
@@ -27723,11 +27843,11 @@
     "team_id":"letourneau",
     "full_team":"LeTourneau",
     "season":2027,
-    "off":108.91,
-    "def":101.34,
-    "rating":7.57,
-    "pace":73.43,
-    "wab":0.091
+    "off":106.92,
+    "def":100.28,
+    "rating":6.64,
+    "pace":73.23,
+    "wab":-0.595
   },
   {
     "team_id":"lewis-and-clark",
@@ -28163,11 +28283,11 @@
     "team_id":"loras",
     "full_team":"Loras",
     "season":2027,
-    "off":112.94,
-    "def":99.58,
-    "rating":13.36,
-    "pace":72.59,
-    "wab":0.126
+    "off":112.73,
+    "def":99.4,
+    "rating":13.33,
+    "pace":72.48,
+    "wab":0.124
   },
   {
     "team_id":"louisiana-col",
@@ -28403,11 +28523,11 @@
     "team_id":"luther",
     "full_team":"Luther",
     "season":2027,
-    "off":101.93,
+    "off":101.97,
     "def":105.05,
-    "rating":-3.12,
-    "pace":65.92,
-    "wab":-0.671
+    "rating":-3.08,
+    "pace":65.98,
+    "wab":-0.659
   },
   {
     "team_id":"lycoming",
@@ -28553,11 +28673,11 @@
     "team_id":"lycoming",
     "full_team":"Lycoming",
     "season":2027,
-    "off":98.12,
-    "def":102.85,
-    "rating":-4.73,
-    "pace":70.87,
-    "wab":0.095
+    "off":98.17,
+    "def":106.68,
+    "rating":-8.51,
+    "pace":70.65,
+    "wab":-0.739
   },
   {
     "team_id":"lynchburg",
@@ -28700,6 +28820,16 @@
     "wab":-3.936
   },
   {
+    "team_id":"lynchburg",
+    "full_team":"Lynchburg",
+    "season":2027,
+    "off":109.15,
+    "def":92.33,
+    "rating":16.82,
+    "pace":75.01,
+    "wab":0.12
+  },
+  {
     "team_id":"lyon",
     "full_team":"Lyon",
     "season":2024,
@@ -28733,11 +28863,11 @@
     "team_id":"lyon",
     "full_team":"Lyon",
     "season":2027,
-    "off":97.21,
-    "def":97.86,
-    "rating":-0.65,
-    "pace":72.9,
-    "wab":0.025
+    "off":100.2,
+    "def":102.18,
+    "rating":-1.98,
+    "pace":73.29,
+    "wab":-0.785
   },
   {
     "team_id":"macalester",
@@ -28883,11 +29013,11 @@
     "team_id":"macalester",
     "full_team":"Macalester",
     "season":2027,
-    "off":104.29,
+    "off":104.3,
     "def":107.71,
-    "rating":-3.41,
+    "rating":-3.4,
     "pace":75.9,
-    "wab":-0.416
+    "wab":-0.415
   },
   {
     "team_id":"macmurray",
@@ -29123,11 +29253,11 @@
     "team_id":"maine-farmington",
     "full_team":"Maine-Farmington",
     "season":2027,
-    "off":109.73,
-    "def":100.39,
-    "rating":9.34,
-    "pace":71.53,
-    "wab":0.314
+    "off":109.67,
+    "def":100.32,
+    "rating":9.35,
+    "pace":71.5,
+    "wab":0.315
   },
   {
     "team_id":"maine-maritime",
@@ -29274,7 +29404,7 @@
     "full_team":"Maine Maritime",
     "season":2027,
     "off":93.52,
-    "def":105.48,
+    "def":105.49,
     "rating":-11.97,
     "pace":71.35,
     "wab":-0.968
@@ -29575,7 +29705,7 @@
     "season":2027,
     "off":106.05,
     "def":118.18,
-    "rating":-12.12,
+    "rating":-12.13,
     "pace":70.5,
     "wab":-0.898
   },
@@ -29723,11 +29853,11 @@
     "team_id":"manhattanville",
     "full_team":"Manhattanville",
     "season":2027,
-    "off":94.73,
-    "def":107.26,
-    "rating":-12.53,
-    "pace":70.46,
-    "wab":-1.562
+    "off":92.61,
+    "def":105.56,
+    "rating":-12.95,
+    "pace":70.09,
+    "wab":-2.082
   },
   {
     "team_id":"maranatha-baptist",
@@ -30023,11 +30153,11 @@
     "team_id":"marian",
     "full_team":"Marian",
     "season":2027,
-    "off":100.47,
-    "def":100.2,
-    "rating":0.27,
-    "pace":68.77,
-    "wab":-0.857
+    "off":99.81,
+    "def":102.16,
+    "rating":-2.34,
+    "pace":69.1,
+    "wab":-1.392
   },
   {
     "team_id":"marietta",
@@ -30173,11 +30303,11 @@
     "team_id":"marietta",
     "full_team":"Marietta",
     "season":2027,
-    "off":108.23,
+    "off":107.92,
     "def":106.95,
-    "rating":1.28,
-    "pace":73.93,
-    "wab":0.057
+    "rating":0.97,
+    "pace":74.04,
+    "wab":0.043
   },
   {
     "team_id":"martin-luther",
@@ -30373,11 +30503,11 @@
     "team_id":"mary-baldwin",
     "full_team":"Mary Baldwin",
     "season":2027,
-    "off":97.33,
-    "def":107.84,
-    "rating":-10.51,
-    "pace":70.59,
-    "wab":-1.506
+    "off":99.27,
+    "def":108.18,
+    "rating":-8.91,
+    "pace":71.05,
+    "wab":-1.576
   },
   {
     "team_id":"mary-hardin-baylor",
@@ -30523,11 +30653,11 @@
     "team_id":"mary-hardin-baylor",
     "full_team":"Mary Hardin-Baylor",
     "season":2027,
-    "off":110.78,
-    "def":105.09,
-    "rating":5.69,
-    "pace":73.42,
-    "wab":0.145
+    "off":109.62,
+    "def":103.13,
+    "rating":6.49,
+    "pace":73.23,
+    "wab":0.327
   },
   {
     "team_id":"mary-washington",
@@ -30674,7 +30804,7 @@
     "full_team":"Mary Washington",
     "season":2027,
     "off":121.52,
-    "def":88.38,
+    "def":88.39,
     "rating":33.13,
     "pace":69.05,
     "wab":0.281
@@ -30825,7 +30955,7 @@
     "season":2027,
     "off":102.21,
     "def":95.92,
-    "rating":6.3,
+    "rating":6.29,
     "pace":67.74,
     "wab":-0.19
   },
@@ -30973,11 +31103,11 @@
     "team_id":"maryville-tenn",
     "full_team":"Maryville (Tenn.)",
     "season":2027,
-    "off":112.69,
-    "def":95.86,
-    "rating":16.83,
-    "pace":67.96,
-    "wab":0.652
+    "off":112.66,
+    "def":95.78,
+    "rating":16.89,
+    "pace":67.95,
+    "wab":0.659
   },
   {
     "team_id":"marywood",
@@ -31124,8 +31254,8 @@
     "full_team":"Marywood",
     "season":2027,
     "off":101.48,
-    "def":110.7,
-    "rating":-9.22,
+    "def":110.71,
+    "rating":-9.23,
     "pace":71.04,
     "wab":-0.987
   },
@@ -31274,10 +31404,10 @@
     "full_team":"Mass-Boston",
     "season":2027,
     "off":100.43,
-    "def":102.22,
-    "rating":-1.79,
-    "pace":72.54,
-    "wab":0.028
+    "def":102.2,
+    "rating":-1.77,
+    "pace":72.57,
+    "wab":0.029
   },
   {
     "team_id":"mass-dartmouth",
@@ -31423,11 +31553,11 @@
     "team_id":"mass-dartmouth",
     "full_team":"Mass-Dartmouth",
     "season":2027,
-    "off":107.2,
-    "def":106.13,
-    "rating":1.07,
-    "pace":73.84,
-    "wab":-0.946
+    "off":104.79,
+    "def":107.75,
+    "rating":-2.96,
+    "pace":74.17,
+    "wab":-1.572
   },
   {
     "team_id":"massachusetts-college",
@@ -31573,11 +31703,11 @@
     "team_id":"massachusetts-college",
     "full_team":"Massachusetts College",
     "season":2027,
-    "off":93.91,
-    "def":113.09,
-    "rating":-19.18,
-    "pace":75.48,
-    "wab":-2.09
+    "off":94.01,
+    "def":113.02,
+    "rating":-19.02,
+    "pace":75.43,
+    "wab":-2.065
   },
   {
     "team_id":"mcdaniel",
@@ -31843,11 +31973,11 @@
     "team_id":"mcmurry",
     "full_team":"McMurry",
     "season":2027,
-    "off":106.0,
-    "def":106.6,
-    "rating":-0.6,
+    "off":106.12,
+    "def":106.8,
+    "rating":-0.69,
     "pace":72.89,
-    "wab":-0.659
+    "wab":-0.682
   },
   {
     "team_id":"medaille",
@@ -32103,9 +32233,9 @@
     "team_id":"medgar-evers",
     "full_team":"Medgar Evers",
     "season":2027,
-    "off":76.54,
-    "def":117.62,
-    "rating":-41.08,
+    "off":76.53,
+    "def":117.63,
+    "rating":-41.09,
     "pace":75.92,
     "wab":-1.966
   },
@@ -32248,6 +32378,16 @@
     "rating":-22.09,
     "pace":70.52,
     "wab":-16.124
+  },
+  {
+    "team_id":"merchant-marine",
+    "full_team":"Merchant Marine",
+    "season":2027,
+    "off":88.9,
+    "def":102.96,
+    "rating":-14.07,
+    "pace":71.51,
+    "wab":0.057
   },
   {
     "team_id":"messiah",
@@ -32393,10 +32533,10 @@
     "team_id":"messiah",
     "full_team":"Messiah",
     "season":2027,
-    "off":93.12,
-    "def":106.52,
-    "rating":-13.4,
-    "pace":76.48,
+    "off":94.79,
+    "def":108.0,
+    "rating":-13.21,
+    "pace":77.11,
     "wab":0.003
   },
   {
@@ -32543,11 +32683,11 @@
     "team_id":"methodist",
     "full_team":"Methodist",
     "season":2027,
-    "off":97.26,
-    "def":101.06,
-    "rating":-3.8,
-    "pace":70.04,
-    "wab":0.054
+    "off":97.2,
+    "def":101.12,
+    "rating":-3.91,
+    "pace":70.03,
+    "wab":0.052
   },
   {
     "team_id":"middlebury",
@@ -32833,11 +32973,11 @@
     "team_id":"millikin",
     "full_team":"Millikin",
     "season":2027,
-    "off":112.03,
+    "off":112.1,
     "def":96.55,
-    "rating":15.47,
-    "pace":69.22,
-    "wab":0.769
+    "rating":15.55,
+    "pace":69.19,
+    "wab":0.786
   },
   {
     "team_id":"millsaps",
@@ -32983,10 +33123,10 @@
     "team_id":"millsaps",
     "full_team":"Millsaps",
     "season":2027,
-    "off":97.45,
-    "def":92.31,
-    "rating":5.14,
-    "pace":73.46,
+    "off":97.53,
+    "def":92.41,
+    "rating":5.12,
+    "pace":73.41,
     "wab":0.088
   },
   {
@@ -33133,11 +33273,11 @@
     "team_id":"minnesota-morris",
     "full_team":"Minnesota-Morris",
     "season":2027,
-    "off":105.65,
-    "def":107.19,
-    "rating":-1.54,
-    "pace":72.64,
-    "wab":-0.392
+    "off":105.47,
+    "def":107.51,
+    "rating":-2.04,
+    "pace":72.17,
+    "wab":-1.051
   },
   {
     "team_id":"misericordia",
@@ -33283,11 +33423,11 @@
     "team_id":"misericordia",
     "full_team":"Misericordia",
     "season":2027,
-    "off":105.42,
-    "def":101.57,
-    "rating":3.85,
-    "pace":71.46,
-    "wab":-0.557
+    "off":105.54,
+    "def":101.47,
+    "rating":4.07,
+    "pace":71.5,
+    "wab":-0.491
   },
   {
     "team_id":"mississippi-col",
@@ -33613,11 +33753,11 @@
     "team_id":"mitchell",
     "full_team":"Mitchell",
     "season":2027,
-    "off":100.64,
-    "def":105.96,
-    "rating":-5.32,
-    "pace":75.07,
-    "wab":0.026
+    "off":100.82,
+    "def":106.17,
+    "rating":-5.35,
+    "pace":75.11,
+    "wab":0.025
   },
   {
     "team_id":"monmouth",
@@ -33903,11 +34043,11 @@
     "team_id":"montclair-state",
     "full_team":"Montclair State",
     "season":2027,
-    "off":113.24,
-    "def":99.65,
-    "rating":13.58,
-    "pace":77.01,
-    "wab":0.142
+    "off":113.71,
+    "def":97.98,
+    "rating":15.73,
+    "pace":78.67,
+    "wab":0.151
   },
   {
     "team_id":"moravian",
@@ -34048,6 +34188,16 @@
     "rating":1.91,
     "pace":76.07,
     "wab":-5.343
+  },
+  {
+    "team_id":"moravian",
+    "full_team":"Moravian",
+    "season":2027,
+    "off":104.19,
+    "def":109.81,
+    "rating":-5.62,
+    "pace":76.07,
+    "wab":-0.894
   },
   {
     "team_id":"morrisville-state",
@@ -34193,11 +34343,11 @@
     "team_id":"morrisville-state",
     "full_team":"Morrisville State",
     "season":2027,
-    "off":94.07,
-    "def":104.49,
-    "rating":-10.43,
-    "pace":79.09,
-    "wab":-0.875
+    "off":95.74,
+    "def":104.85,
+    "rating":-9.12,
+    "pace":80.7,
+    "wab":-0.8
   },
   {
     "team_id":"mount-aloysius",
@@ -34563,11 +34713,11 @@
     "team_id":"mount-st-joseph",
     "full_team":"Mount St. Joseph",
     "season":2027,
-    "off":107.18,
-    "def":97.79,
-    "rating":9.39,
-    "pace":66.72,
-    "wab":0.239
+    "off":105.54,
+    "def":99.13,
+    "rating":6.41,
+    "pace":66.12,
+    "wab":-0.244
   },
   {
     "team_id":"mount-st-mary",
@@ -34713,11 +34863,11 @@
     "team_id":"mount-st-mary",
     "full_team":"Mount St. Mary",
     "season":2027,
-    "off":84.69,
-    "def":117.64,
-    "rating":-32.95,
-    "pace":75.36,
-    "wab":-0.956
+    "off":84.66,
+    "def":117.68,
+    "rating":-33.02,
+    "pace":75.35,
+    "wab":-0.96
   },
   {
     "team_id":"mount-st-vincent",
@@ -34858,6 +35008,16 @@
     "rating":-26.48,
     "pace":76.92,
     "wab":-19.974
+  },
+  {
+    "team_id":"mount-st-vincent",
+    "full_team":"Mount St. Vincent",
+    "season":2027,
+    "off":87.94,
+    "def":111.01,
+    "rating":-23.06,
+    "pace":75.8,
+    "wab":-0.867
   },
   {
     "team_id":"mount-union",
@@ -35003,11 +35163,11 @@
     "team_id":"mount-union",
     "full_team":"Mount Union",
     "season":2027,
-    "off":117.6,
-    "def":97.6,
-    "rating":20.0,
-    "pace":70.96,
-    "wab":0.255
+    "off":116.41,
+    "def":100.36,
+    "rating":16.05,
+    "pace":70.39,
+    "wab":-0.363
   },
   {
     "team_id":"msoe",
@@ -35153,11 +35313,11 @@
     "team_id":"msoe",
     "full_team":"MSOE",
     "season":2027,
-    "off":108.03,
-    "def":112.72,
-    "rating":-4.69,
-    "pace":71.86,
-    "wab":-0.37
+    "off":108.17,
+    "def":112.65,
+    "rating":-4.48,
+    "pace":71.76,
+    "wab":-0.319
   },
   {
     "team_id":"muhlenberg",
@@ -35303,11 +35463,11 @@
     "team_id":"muhlenberg",
     "full_team":"Muhlenberg",
     "season":2027,
-    "off":98.59,
-    "def":98.76,
-    "rating":-0.17,
-    "pace":65.09,
-    "wab":-0.925
+    "off":98.48,
+    "def":97.53,
+    "rating":0.95,
+    "pace":65.73,
+    "wab":-0.818
   },
   {
     "team_id":"muskingum",
@@ -35453,11 +35613,11 @@
     "team_id":"muskingum",
     "full_team":"Muskingum",
     "season":2027,
-    "off":106.2,
-    "def":97.34,
-    "rating":8.85,
-    "pace":72.47,
-    "wab":0.342
+    "off":105.84,
+    "def":99.29,
+    "rating":6.55,
+    "pace":72.03,
+    "wab":-0.379
   },
   {
     "team_id":"muw",
@@ -35508,6 +35668,16 @@
     "rating":0.06,
     "pace":69.57,
     "wab":-7.806
+  },
+  {
+    "team_id":"muw",
+    "full_team":"MUW",
+    "season":2027,
+    "off":100.41,
+    "def":107.22,
+    "rating":-6.82,
+    "pace":69.21,
+    "wab":-0.915
   },
   {
     "team_id":"n-c-wesleyan",
@@ -35653,11 +35823,11 @@
     "team_id":"n-c-wesleyan",
     "full_team":"N.C. Wesleyan",
     "season":2027,
-    "off":113.86,
-    "def":108.89,
-    "rating":4.97,
-    "pace":69.84,
-    "wab":-0.314
+    "off":113.29,
+    "def":109.58,
+    "rating":3.72,
+    "pace":70.22,
+    "wab":-0.706
   },
   {
     "team_id":"nazareth",
@@ -35803,11 +35973,11 @@
     "team_id":"nazareth",
     "full_team":"Nazareth",
     "season":2027,
-    "off":107.32,
-    "def":106.26,
-    "rating":1.06,
-    "pace":68.61,
-    "wab":0.052
+    "off":105.9,
+    "def":108.2,
+    "rating":-2.31,
+    "pace":69.22,
+    "wab":-0.854
   },
   {
     "team_id":"nebraska-wesleyan",
@@ -36243,11 +36413,11 @@
     "team_id":"new-england-college",
     "full_team":"New England College",
     "season":2027,
-    "off":91.12,
-    "def":111.93,
-    "rating":-20.81,
-    "pace":70.17,
-    "wab":-0.942
+    "off":89.84,
+    "def":111.02,
+    "rating":-21.19,
+    "pace":70.04,
+    "wab":-1.906
   },
   {
     "team_id":"new-jersey-city",
@@ -36793,11 +36963,11 @@
     "team_id":"nichols",
     "full_team":"Nichols",
     "season":2027,
-    "off":102.89,
-    "def":105.49,
-    "rating":-2.6,
-    "pace":72.94,
-    "wab":-0.611
+    "off":101.95,
+    "def":102.55,
+    "rating":-0.59,
+    "pace":72.74,
+    "wab":-0.447
   },
   {
     "team_id":"north-central-ill",
@@ -36938,6 +37108,16 @@
     "rating":8.38,
     "pace":67.01,
     "wab":-8.095
+  },
+  {
+    "team_id":"north-central-ill",
+    "full_team":"North Central (Ill.)",
+    "season":2027,
+    "off":108.86,
+    "def":97.46,
+    "rating":11.39,
+    "pace":67.88,
+    "wab":-0.647
   },
   {
     "team_id":"north-central-minn",
@@ -37083,11 +37263,11 @@
     "team_id":"north-central-minn",
     "full_team":"North Central (Minn.)",
     "season":2027,
-    "off":100.73,
-    "def":105.56,
-    "rating":-4.84,
-    "pace":74.98,
-    "wab":0.02
+    "off":97.88,
+    "def":106.01,
+    "rating":-8.14,
+    "pace":74.63,
+    "wab":-0.738
   },
   {
     "team_id":"north-park",
@@ -37233,11 +37413,11 @@
     "team_id":"north-park",
     "full_team":"North Park",
     "season":2027,
-    "off":109.06,
-    "def":103.36,
-    "rating":5.7,
-    "pace":74.11,
-    "wab":-0.85
+    "off":109.0,
+    "def":103.64,
+    "rating":5.37,
+    "pace":74.18,
+    "wab":-0.885
   },
   {
     "team_id":"northland",
@@ -37513,11 +37693,11 @@
     "team_id":"northwestern-minn",
     "full_team":"Northwestern (Minn.)",
     "season":2027,
-    "off":100.64,
-    "def":107.85,
-    "rating":-7.21,
-    "pace":73.37,
-    "wab":-0.598
+    "off":100.74,
+    "def":107.69,
+    "rating":-6.95,
+    "pace":73.38,
+    "wab":-0.534
   },
   {
     "team_id":"norwich",
@@ -37663,11 +37843,11 @@
     "team_id":"norwich",
     "full_team":"Norwich",
     "season":2027,
-    "off":95.97,
-    "def":104.62,
-    "rating":-8.65,
-    "pace":70.44,
-    "wab":0.033
+    "off":95.9,
+    "def":103.02,
+    "rating":-7.12,
+    "pace":70.22,
+    "wab":-0.745
   },
   {
     "team_id":"notre-dame-md",
@@ -37853,11 +38033,11 @@
     "team_id":"nvu-johnson",
     "full_team":"NVU-Johnson",
     "season":2027,
-    "off":88.48,
-    "def":122.85,
-    "rating":-34.37,
-    "pace":73.21,
-    "wab":-0.984
+    "off":88.2,
+    "def":122.86,
+    "rating":-34.65,
+    "pace":73.16,
+    "wab":-0.988
   },
   {
     "team_id":"nvu-lyndon",
@@ -38003,11 +38183,11 @@
     "team_id":"nvu-lyndon",
     "full_team":"NVU-Lyndon",
     "season":2027,
-    "off":91.92,
-    "def":116.33,
-    "rating":-24.42,
-    "pace":80.91,
-    "wab":0.011
+    "off":91.63,
+    "def":116.34,
+    "rating":-24.7,
+    "pace":80.86,
+    "wab":0.008
   },
   {
     "team_id":"oberlin",
@@ -38593,11 +38773,11 @@
     "team_id":"ohio-northern",
     "full_team":"Ohio Northern",
     "season":2027,
-    "off":109.24,
-    "def":93.0,
-    "rating":16.24,
-    "pace":68.59,
-    "wab":0.042
+    "off":104.62,
+    "def":91.11,
+    "rating":13.51,
+    "pace":67.91,
+    "wab":-0.652
   },
   {
     "team_id":"ohio-wesleyan",
@@ -38738,6 +38918,16 @@
     "rating":3.85,
     "pace":67.58,
     "wab":-9.85
+  },
+  {
+    "team_id":"ohio-wesleyan",
+    "full_team":"Ohio Wesleyan",
+    "season":2027,
+    "off":105.69,
+    "def":99.52,
+    "rating":6.17,
+    "pace":67.47,
+    "wab":0.319
   },
   {
     "team_id":"olivet",
@@ -38883,11 +39073,11 @@
     "team_id":"olivet",
     "full_team":"Olivet",
     "season":2027,
-    "off":111.2,
-    "def":94.63,
-    "rating":16.58,
-    "pace":71.91,
-    "wab":0.389
+    "off":111.58,
+    "def":94.95,
+    "rating":16.63,
+    "pace":71.92,
+    "wab":0.391
   },
   {
     "team_id":"oswego-state",
@@ -39034,10 +39224,10 @@
     "full_team":"Oswego State",
     "season":2027,
     "off":113.07,
-    "def":95.3,
-    "rating":17.77,
-    "pace":71.25,
-    "wab":1.263
+    "def":95.26,
+    "rating":17.81,
+    "pace":71.32,
+    "wab":1.283
   },
   {
     "team_id":"otterbein",
@@ -39183,11 +39373,11 @@
     "team_id":"otterbein",
     "full_team":"Otterbein",
     "season":2027,
-    "off":109.37,
-    "def":95.95,
-    "rating":13.42,
-    "pace":68.27,
-    "wab":0.226
+    "off":110.56,
+    "def":94.73,
+    "rating":15.83,
+    "pace":67.8,
+    "wab":0.407
   },
   {
     "team_id":"pacific",
@@ -39473,11 +39663,11 @@
     "team_id":"pacific-lutheran",
     "full_team":"Pacific Lutheran",
     "season":2027,
-    "off":108.85,
-    "def":107.8,
-    "rating":1.04,
-    "pace":69.09,
-    "wab":0.232
+    "off":108.91,
+    "def":107.59,
+    "rating":1.31,
+    "pace":69.07,
+    "wab":0.291
   },
   {
     "team_id":"penn-college",
@@ -39593,11 +39783,11 @@
     "team_id":"penn-college",
     "full_team":"Penn College",
     "season":2027,
-    "off":98.97,
-    "def":113.62,
-    "rating":-14.64,
-    "pace":76.13,
-    "wab":-0.86
+    "off":98.32,
+    "def":111.96,
+    "rating":-13.65,
+    "pace":75.79,
+    "wab":-0.815
   },
   {
     "team_id":"penn-state-abington",
@@ -39743,11 +39933,11 @@
     "team_id":"penn-state-abington",
     "full_team":"Penn State-Abington",
     "season":2027,
-    "off":97.48,
-    "def":113.17,
-    "rating":-15.69,
-    "pace":73.39,
-    "wab":-0.865
+    "off":94.75,
+    "def":112.66,
+    "rating":-17.91,
+    "pace":73.7,
+    "wab":-1.654
   },
   {
     "team_id":"penn-state-altoona",
@@ -39893,11 +40083,11 @@
     "team_id":"penn-state-altoona",
     "full_team":"Penn State-Altoona",
     "season":2027,
-    "off":97.81,
-    "def":109.68,
-    "rating":-11.87,
-    "pace":75.27,
-    "wab":-0.206
+    "off":95.81,
+    "def":109.44,
+    "rating":-13.63,
+    "pace":74.94,
+    "wab":-1.277
   },
   {
     "team_id":"penn-state-behrend",
@@ -40043,11 +40233,11 @@
     "team_id":"penn-state-behrend",
     "full_team":"Penn State-Behrend",
     "season":2027,
-    "off":107.86,
-    "def":99.14,
-    "rating":8.72,
-    "pace":61.79,
-    "wab":0.016
+    "off":110.72,
+    "def":98.95,
+    "rating":11.76,
+    "pace":60.97,
+    "wab":0.06
   },
   {
     "team_id":"penn-state-berks",
@@ -40193,11 +40383,11 @@
     "team_id":"penn-state-berks",
     "full_team":"Penn State-Berks",
     "season":2027,
-    "off":88.09,
-    "def":112.87,
-    "rating":-24.77,
-    "pace":76.02,
-    "wab":-0.937
+    "off":91.64,
+    "def":114.83,
+    "rating":-23.19,
+    "pace":75.67,
+    "wab":-1.87
   },
   {
     "team_id":"penn-state-brandywine",
@@ -40223,11 +40413,11 @@
     "team_id":"penn-state-brandywine",
     "full_team":"Penn State-Brandywine",
     "season":2027,
-    "off":93.32,
-    "def":101.06,
-    "rating":-7.74,
-    "pace":70.57,
-    "wab":-1.041
+    "off":93.59,
+    "def":102.42,
+    "rating":-8.83,
+    "pace":69.89,
+    "wab":-2.137
   },
   {
     "team_id":"penn-state-harrisburg",
@@ -40373,11 +40563,11 @@
     "team_id":"penn-state-harrisburg",
     "full_team":"Penn State-Harrisburg",
     "season":2027,
-    "off":105.33,
-    "def":95.85,
-    "rating":9.48,
-    "pace":67.09,
-    "wab":0.157
+    "off":105.38,
+    "def":95.75,
+    "rating":9.63,
+    "pace":67.12,
+    "wab":0.174
   },
   {
     "team_id":"pfeiffer",
@@ -40463,11 +40653,11 @@
     "team_id":"pfeiffer",
     "full_team":"Pfeiffer",
     "season":2027,
-    "off":106.07,
-    "def":107.59,
-    "rating":-1.52,
-    "pace":74.8,
-    "wab":-0.605
+    "off":103.34,
+    "def":107.89,
+    "rating":-4.54,
+    "pace":75.32,
+    "wab":-1.171
   },
   {
     "team_id":"piedmont",
@@ -40614,7 +40804,7 @@
     "full_team":"Piedmont",
     "season":2027,
     "off":99.43,
-    "def":110.28,
+    "def":110.29,
     "rating":-10.86,
     "pace":75.97,
     "wab":-0.265
@@ -40823,11 +41013,11 @@
     "team_id":"pitt-bradford",
     "full_team":"Pitt-Bradford",
     "season":2027,
-    "off":102.77,
-    "def":109.79,
-    "rating":-7.02,
-    "pace":82.04,
-    "wab":-0.429
+    "off":102.87,
+    "def":109.9,
+    "rating":-7.03,
+    "pace":82.0,
+    "wab":-0.425
   },
   {
     "team_id":"pitt-greensburg",
@@ -40973,11 +41163,11 @@
     "team_id":"pitt-greensburg",
     "full_team":"Pitt-Greensburg",
     "season":2027,
-    "off":104.37,
-    "def":100.51,
-    "rating":3.87,
-    "pace":73.75,
-    "wab":-0.598
+    "off":104.6,
+    "def":100.31,
+    "rating":4.29,
+    "pace":73.78,
+    "wab":-0.471
   },
   {
     "team_id":"plattsburgh-state",
@@ -41123,11 +41313,11 @@
     "team_id":"plattsburgh-state",
     "full_team":"Plattsburgh State",
     "season":2027,
-    "off":98.68,
-    "def":113.23,
-    "rating":-14.56,
-    "pace":73.4,
-    "wab":-0.856
+    "off":97.54,
+    "def":112.49,
+    "rating":-14.95,
+    "pace":74.34,
+    "wab":-1.382
   },
   {
     "team_id":"plymouth-state",
@@ -41455,7 +41645,7 @@
     "season":2027,
     "off":109.47,
     "def":104.65,
-    "rating":4.82,
+    "rating":4.81,
     "pace":69.55,
     "wab":0.158
   },
@@ -41533,9 +41723,9 @@
     "team_id":"pratt",
     "full_team":"Pratt",
     "season":2027,
-    "off":90.36,
+    "off":90.38,
     "def":107.02,
-    "rating":-16.66,
+    "rating":-16.65,
     "pace":71.75,
     "wab":-0.96
   },
@@ -41703,11 +41893,11 @@
     "team_id":"principia",
     "full_team":"Principia",
     "season":2027,
-    "off":88.46,
-    "def":109.03,
-    "rating":-20.57,
-    "pace":72.15,
-    "wab":-0.951
+    "off":91.11,
+    "def":108.03,
+    "rating":-16.92,
+    "pace":71.98,
+    "wab":-1.649
   },
   {
     "team_id":"puget-sound",
@@ -41853,11 +42043,11 @@
     "team_id":"puget-sound",
     "full_team":"Puget Sound",
     "season":2027,
-    "off":104.64,
-    "def":98.66,
-    "rating":5.99,
-    "pace":70.15,
-    "wab":-0.768
+    "off":104.7,
+    "def":98.45,
+    "rating":6.25,
+    "pace":70.13,
+    "wab":-0.709
   },
   {
     "team_id":"ramapo",
@@ -41998,6 +42188,16 @@
     "rating":-5.11,
     "pace":69.61,
     "wab":-12.388
+  },
+  {
+    "team_id":"ramapo",
+    "full_team":"Ramapo",
+    "season":2027,
+    "off":92.69,
+    "def":95.35,
+    "rating":-2.65,
+    "pace":70.65,
+    "wab":0.06
   },
   {
     "team_id":"randolph",
@@ -42280,6 +42480,16 @@
     "wab":6.228
   },
   {
+    "team_id":"randolph-macon",
+    "full_team":"Randolph-Macon",
+    "season":2027,
+    "off":126.03,
+    "def":83.91,
+    "rating":42.12,
+    "pace":65.09,
+    "wab":0.524
+  },
+  {
     "team_id":"redlands",
     "full_team":"Redlands",
     "season":2012,
@@ -42443,10 +42653,10 @@
     "team_id":"regent",
     "full_team":"Regent",
     "season":2027,
-    "off":93.18,
-    "def":109.67,
-    "rating":-16.49,
-    "pace":74.08,
+    "off":93.31,
+    "def":112.03,
+    "rating":-18.72,
+    "pace":74.51,
     "wab":null
   },
   {
@@ -42593,11 +42803,11 @@
     "team_id":"regis-mass",
     "full_team":"Regis (Mass.)",
     "season":2027,
-    "off":93.08,
-    "def":110.41,
-    "rating":-17.34,
-    "pace":70.48,
-    "wab":-1.819
+    "off":92.97,
+    "def":110.43,
+    "rating":-17.46,
+    "pace":70.46,
+    "wab":-1.831
   },
   {
     "team_id":"rhode-island-college",
@@ -42738,6 +42948,16 @@
     "rating":1.02,
     "pace":71.88,
     "wab":-9.281
+  },
+  {
+    "team_id":"rhode-island-college",
+    "full_team":"Rhode Island College",
+    "season":2027,
+    "off":99.23,
+    "def":100.89,
+    "rating":-1.66,
+    "pace":71.6,
+    "wab":-0.909
   },
   {
     "team_id":"rhodes",
@@ -42883,10 +43103,10 @@
     "team_id":"rhodes",
     "full_team":"Rhodes",
     "season":2027,
-    "off":106.64,
-    "def":99.02,
-    "rating":7.61,
-    "pace":73.19,
+    "off":106.72,
+    "def":99.13,
+    "rating":7.6,
+    "pace":73.14,
     "wab":0.062
   },
   {
@@ -43033,11 +43253,11 @@
     "team_id":"ripon",
     "full_team":"Ripon",
     "season":2027,
-    "off":95.46,
-    "def":100.98,
-    "rating":-5.52,
-    "pace":70.14,
-    "wab":-0.454
+    "off":97.47,
+    "def":101.22,
+    "rating":-3.75,
+    "pace":70.07,
+    "wab":-0.992
   },
   {
     "team_id":"rivier",
@@ -43183,11 +43403,11 @@
     "team_id":"rivier",
     "full_team":"Rivier",
     "season":2027,
-    "off":97.75,
-    "def":108.84,
-    "rating":-11.1,
-    "pace":72.13,
-    "wab":-0.803
+    "off":96.61,
+    "def":109.53,
+    "rating":-12.92,
+    "pace":73.54,
+    "wab":-1.744
   },
   {
     "team_id":"roanoke",
@@ -43623,11 +43843,11 @@
     "team_id":"rochester-tech",
     "full_team":"Rochester Tech",
     "season":2027,
-    "off":96.95,
-    "def":107.02,
-    "rating":-10.08,
-    "pace":71.12,
-    "wab":-0.928
+    "off":98.7,
+    "def":105.69,
+    "rating":-7.0,
+    "pace":71.71,
+    "wab":-0.87
   },
   {
     "team_id":"rockford",
@@ -43913,11 +44133,11 @@
     "team_id":"roger-williams",
     "full_team":"Roger Williams",
     "season":2027,
-    "off":109.35,
-    "def":106.25,
-    "rating":3.1,
-    "pace":71.71,
-    "wab":0.028
+    "off":104.83,
+    "def":102.49,
+    "rating":2.34,
+    "pace":71.06,
+    "wab":-0.762
   },
   {
     "team_id":"rose-hulman",
@@ -44063,11 +44283,11 @@
     "team_id":"rose-hulman",
     "full_team":"Rose-Hulman",
     "season":2027,
-    "off":111.72,
-    "def":96.49,
+    "off":112.22,
+    "def":96.99,
     "rating":15.23,
-    "pace":68.57,
-    "wab":0.226
+    "pace":68.58,
+    "wab":0.221
   },
   {
     "team_id":"rosemont",
@@ -44353,11 +44573,11 @@
     "team_id":"rowan",
     "full_team":"Rowan",
     "season":2027,
-    "off":109.21,
-    "def":103.83,
-    "rating":5.38,
-    "pace":73.03,
-    "wab":0.149
+    "off":107.97,
+    "def":103.88,
+    "rating":4.09,
+    "pace":73.24,
+    "wab":-0.684
   },
   {
     "team_id":"rpi",
@@ -44713,11 +44933,11 @@
     "team_id":"rutgers-camden",
     "full_team":"Rutgers-Camden",
     "season":2027,
-    "off":96.64,
-    "def":104.55,
-    "rating":-7.91,
+    "off":96.63,
+    "def":104.49,
+    "rating":-7.86,
     "pace":68.41,
-    "wab":-1.575
+    "wab":-1.569
   },
   {
     "team_id":"rutgers-newark",
@@ -45013,11 +45233,11 @@
     "team_id":"sage",
     "full_team":"Sage",
     "season":2027,
-    "off":99.28,
-    "def":103.4,
-    "rating":-4.11,
-    "pace":78.35,
-    "wab":0.033
+    "off":99.51,
+    "def":100.87,
+    "rating":-1.36,
+    "pace":77.96,
+    "wab":0.052
   },
   {
     "team_id":"salem-state",
@@ -45158,6 +45378,16 @@
     "rating":-6.45,
     "pace":73.67,
     "wab":-8.37
+  },
+  {
+    "team_id":"salem-state",
+    "full_team":"Salem State",
+    "season":2027,
+    "off":99.48,
+    "def":107.7,
+    "rating":-8.22,
+    "pace":73.23,
+    "wab":-0.891
   },
   {
     "team_id":"salisbury",
@@ -45304,7 +45534,7 @@
     "full_team":"Salisbury",
     "season":2027,
     "off":100.28,
-    "def":100.8,
+    "def":100.81,
     "rating":-0.53,
     "pace":71.11,
     "wab":-0.772
@@ -45450,6 +45680,16 @@
     "wab":-1.995
   },
   {
+    "team_id":"salve-regina",
+    "full_team":"Salve Regina",
+    "season":2027,
+    "off":107.9,
+    "def":99.25,
+    "rating":8.65,
+    "pace":69.02,
+    "wab":0.071
+  },
+  {
     "team_id":"sarah-lawrence",
     "full_team":"Sarah Lawrence",
     "season":2014,
@@ -45573,11 +45813,11 @@
     "team_id":"sarah-lawrence",
     "full_team":"Sarah Lawrence",
     "season":2027,
-    "off":101.12,
-    "def":103.27,
-    "rating":-2.15,
-    "pace":69.13,
-    "wab":0.046
+    "off":101.07,
+    "def":104.37,
+    "rating":-3.3,
+    "pace":69.42,
+    "wab":0.077
   },
   {
     "team_id":"schreiner",
@@ -45875,7 +46115,7 @@
     "season":2027,
     "off":105.69,
     "def":103.22,
-    "rating":2.47,
+    "rating":2.46,
     "pace":67.98,
     "wab":-1.084
   },
@@ -46173,11 +46413,11 @@
     "team_id":"shenandoah",
     "full_team":"Shenandoah",
     "season":2027,
-    "off":102.35,
-    "def":98.97,
-    "rating":3.37,
+    "off":102.28,
+    "def":98.96,
+    "rating":3.33,
     "pace":67.87,
-    "wab":-0.619
+    "wab":-0.625
   },
   {
     "team_id":"simpson",
@@ -46323,11 +46563,11 @@
     "team_id":"simpson",
     "full_team":"Simpson",
     "season":2027,
-    "off":103.09,
-    "def":97.88,
-    "rating":5.21,
-    "pace":72.59,
-    "wab":0.034
+    "off":103.24,
+    "def":97.97,
+    "rating":5.27,
+    "pace":72.53,
+    "wab":0.035
   },
   {
     "team_id":"skidmore",
@@ -46473,11 +46713,11 @@
     "team_id":"skidmore",
     "full_team":"Skidmore",
     "season":2027,
-    "off":102.92,
-    "def":98.78,
-    "rating":4.14,
-    "pace":70.93,
-    "wab":0.044
+    "off":101.17,
+    "def":98.88,
+    "rating":2.29,
+    "pace":70.56,
+    "wab":0.088
   },
   {
     "team_id":"southern-maine",
@@ -46623,11 +46863,11 @@
     "team_id":"southern-maine",
     "full_team":"Southern Maine",
     "season":2027,
-    "off":107.7,
-    "def":98.94,
-    "rating":8.75,
-    "pace":74.91,
-    "wab":0.034
+    "off":107.68,
+    "def":97.99,
+    "rating":9.68,
+    "pace":74.3,
+    "wab":0.064
   },
   {
     "team_id":"southern-virginia",
@@ -46748,6 +46988,16 @@
     "rating":0.93,
     "pace":72.25,
     "wab":-7.203
+  },
+  {
+    "team_id":"southern-virginia",
+    "full_team":"Southern Virginia",
+    "season":2027,
+    "off":107.32,
+    "def":107.14,
+    "rating":0.19,
+    "pace":71.11,
+    "wab":0.153
   },
   {
     "team_id":"southern-vt",
@@ -46973,11 +47223,11 @@
     "team_id":"southwestern",
     "full_team":"Southwestern",
     "season":2027,
-    "off":99.92,
-    "def":103.67,
-    "rating":-3.76,
-    "pace":70.43,
-    "wab":0.161
+    "off":99.6,
+    "def":103.16,
+    "rating":-3.56,
+    "pace":70.39,
+    "wab":0.19
   },
   {
     "team_id":"spalding",
@@ -47273,11 +47523,11 @@
     "team_id":"springfield",
     "full_team":"Springfield",
     "season":2027,
-    "off":99.87,
-    "def":99.9,
-    "rating":-0.03,
-    "pace":70.85,
-    "wab":0.14
+    "off":97.29,
+    "def":102.04,
+    "rating":-4.75,
+    "pace":70.66,
+    "wab":-0.485
   },
   {
     "team_id":"st-elizabeth",
@@ -47373,20 +47623,20 @@
     "team_id":"st-elizabeth",
     "full_team":"St. Elizabeth",
     "season":2027,
-    "off":87.27,
-    "def":114.28,
-    "rating":-27.01,
-    "pace":76.97,
-    "wab":-0.894
+    "off":87.34,
+    "def":114.26,
+    "rating":-26.92,
+    "pace":76.9,
+    "wab":-0.884
   },
   {
     "team_id":"st-francis",
     "full_team":"St. Francis",
     "season":2027,
-    "off":93.11,
-    "def":106.48,
-    "rating":-13.37,
-    "pace":75.15,
+    "off":94.57,
+    "def":108.08,
+    "rating":-13.51,
+    "pace":75.79,
     "wab":null
   },
   {
@@ -47533,11 +47783,11 @@
     "team_id":"st-john-fisher",
     "full_team":"St. John Fisher",
     "season":2027,
-    "off":104.09,
-    "def":100.64,
-    "rating":3.45,
-    "pace":72.17,
-    "wab":-0.348
+    "off":103.25,
+    "def":97.74,
+    "rating":5.51,
+    "pace":72.03,
+    "wab":0.018
   },
   {
     "team_id":"st-john-s",
@@ -47683,10 +47933,10 @@
     "team_id":"st-john-s",
     "full_team":"St. John's",
     "season":2027,
-    "off":123.93,
-    "def":97.24,
+    "off":123.87,
+    "def":97.18,
     "rating":26.69,
-    "pace":69.92,
+    "pace":69.91,
     "wab":0.69
   },
   {
@@ -47913,11 +48163,11 @@
     "team_id":"st-joseph-s-bklyn",
     "full_team":"St. Joseph's (Bklyn.)",
     "season":2027,
-    "off":92.45,
-    "def":111.1,
-    "rating":-18.65,
-    "pace":72.57,
-    "wab":-1.767
+    "off":92.48,
+    "def":111.0,
+    "rating":-18.53,
+    "pace":72.6,
+    "wab":-1.744
   },
   {
     "team_id":"st-joseph-s-l-i",
@@ -48063,11 +48313,11 @@
     "team_id":"st-joseph-s-l-i",
     "full_team":"St. Joseph's (L.I.)",
     "season":2027,
-    "off":95.6,
-    "def":101.47,
-    "rating":-5.87,
-    "pace":71.91,
-    "wab":0.005
+    "off":95.81,
+    "def":100.71,
+    "rating":-4.9,
+    "pace":72.65,
+    "wab":0.02
   },
   {
     "team_id":"st-joseph-s-maine",
@@ -48213,11 +48463,11 @@
     "team_id":"st-joseph-s-maine",
     "full_team":"St. Joseph's (Maine)",
     "season":2027,
-    "off":113.51,
-    "def":97.92,
-    "rating":15.59,
-    "pace":73.91,
-    "wab":0.104
+    "off":114.63,
+    "def":100.43,
+    "rating":14.2,
+    "pace":75.23,
+    "wab":0.175
   },
   {
     "team_id":"st-lawrence",
@@ -48363,11 +48613,11 @@
     "team_id":"st-lawrence",
     "full_team":"St. Lawrence",
     "season":2027,
-    "off":99.08,
+    "off":99.09,
     "def":95.34,
-    "rating":3.74,
-    "pace":68.3,
-    "wab":-0.572
+    "rating":3.75,
+    "pace":68.29,
+    "wab":-0.571
   },
   {
     "team_id":"st-mary-s-md",
@@ -48513,11 +48763,11 @@
     "team_id":"st-mary-s-md",
     "full_team":"St. Mary's (Md.)",
     "season":2027,
-    "off":91.47,
-    "def":104.53,
-    "rating":-13.06,
-    "pace":71.91,
-    "wab":-1.665
+    "off":91.3,
+    "def":104.73,
+    "rating":-13.43,
+    "pace":71.94,
+    "wab":-1.745
   },
   {
     "team_id":"st-mary-s-minn",
@@ -48663,11 +48913,11 @@
     "team_id":"st-mary-s-minn",
     "full_team":"St. Mary's (Minn.)",
     "season":2027,
-    "off":95.86,
-    "def":111.1,
-    "rating":-15.23,
-    "pace":72.14,
-    "wab":-1.784
+    "off":95.48,
+    "def":109.97,
+    "rating":-14.49,
+    "pace":71.72,
+    "wab":-2.579
   },
   {
     "team_id":"st-norbert",
@@ -48813,11 +49063,11 @@
     "team_id":"st-norbert",
     "full_team":"St. Norbert",
     "season":2027,
-    "off":113.94,
-    "def":94.85,
-    "rating":19.09,
-    "pace":67.57,
-    "wab":0.227
+    "off":114.15,
+    "def":96.49,
+    "rating":17.66,
+    "pace":67.48,
+    "wab":0.354
   },
   {
     "team_id":"st-olaf",
@@ -48963,11 +49213,11 @@
     "team_id":"st-olaf",
     "full_team":"St. Olaf",
     "season":2027,
-    "off":109.4,
-    "def":107.26,
-    "rating":2.14,
-    "pace":69.21,
-    "wab":-1.31
+    "off":106.95,
+    "def":104.97,
+    "rating":1.99,
+    "pace":68.91,
+    "wab":-1.566
   },
   {
     "team_id":"st-scholastica",
@@ -49113,11 +49363,11 @@
     "team_id":"st-scholastica",
     "full_team":"St. Scholastica",
     "season":2027,
-    "off":96.74,
-    "def":103.0,
-    "rating":-6.26,
-    "pace":73.35,
-    "wab":0.099
+    "off":96.5,
+    "def":103.06,
+    "rating":-6.56,
+    "pace":73.32,
+    "wab":0.076
   },
   {
     "team_id":"st-thomas-mn",
@@ -49410,6 +49660,16 @@
     "wab":-5.221
   },
   {
+    "team_id":"st-vincent",
+    "full_team":"St. Vincent",
+    "season":2027,
+    "off":108.09,
+    "def":106.63,
+    "rating":1.46,
+    "pace":69.84,
+    "wab":-0.629
+  },
+  {
     "team_id":"staten-island",
     "full_team":"Staten Island",
     "season":2012,
@@ -49645,7 +49905,7 @@
     "season":2027,
     "off":108.67,
     "def":101.05,
-    "rating":7.63,
+    "rating":7.62,
     "pace":70.91,
     "wab":0.141
   },
@@ -49940,6 +50200,16 @@
     "wab":-4.823
   },
   {
+    "team_id":"stockton",
+    "full_team":"Stockton",
+    "season":2027,
+    "off":110.27,
+    "def":93.47,
+    "rating":16.8,
+    "pace":73.83,
+    "wab":0.41
+  },
+  {
     "team_id":"suffolk",
     "full_team":"Suffolk",
     "season":2012,
@@ -50083,11 +50353,11 @@
     "team_id":"suffolk",
     "full_team":"Suffolk",
     "season":2027,
-    "off":101.82,
-    "def":95.38,
-    "rating":6.44,
-    "pace":66.93,
-    "wab":-0.771
+    "off":102.42,
+    "def":95.93,
+    "rating":6.49,
+    "pace":67.24,
+    "wab":-0.594
   },
   {
     "team_id":"sul-ross-st",
@@ -50273,11 +50543,11 @@
     "team_id":"suny-canton",
     "full_team":"SUNY-Canton",
     "season":2027,
-    "off":99.53,
-    "def":109.98,
-    "rating":-10.45,
-    "pace":72.67,
-    "wab":-1.407
+    "off":99.46,
+    "def":110.07,
+    "rating":-10.62,
+    "pace":72.58,
+    "wab":-1.446
   },
   {
     "team_id":"suny-cobleskill",
@@ -50423,11 +50693,11 @@
     "team_id":"suny-cobleskill",
     "full_team":"SUNY-Cobleskill",
     "season":2027,
-    "off":92.46,
-    "def":107.21,
-    "rating":-14.75,
-    "pace":76.03,
-    "wab":0.003
+    "off":91.81,
+    "def":107.46,
+    "rating":-15.65,
+    "pace":76.13,
+    "wab":-0.966
   },
   {
     "team_id":"suny-delhi",
@@ -50503,11 +50773,11 @@
     "team_id":"suny-delhi",
     "full_team":"SUNY Delhi",
     "season":2027,
-    "off":92.19,
-    "def":108.37,
-    "rating":-16.18,
-    "pace":76.22,
-    "wab":-0.897
+    "off":91.88,
+    "def":108.34,
+    "rating":-16.46,
+    "pace":76.25,
+    "wab":-0.924
   },
   {
     "team_id":"suny-geneseo",
@@ -50790,6 +51060,16 @@
     "wab":-10.976
   },
   {
+    "team_id":"suny-maritime",
+    "full_team":"SUNY-Maritime",
+    "season":2027,
+    "off":89.83,
+    "def":101.3,
+    "rating":-11.47,
+    "pace":74.03,
+    "wab":-0.926
+  },
+  {
     "team_id":"suny-new-paltz",
     "full_team":"SUNY New Paltz",
     "season":2012,
@@ -50933,11 +51213,11 @@
     "team_id":"suny-new-paltz",
     "full_team":"SUNY New Paltz",
     "season":2027,
-    "off":98.5,
-    "def":95.92,
-    "rating":2.57,
-    "pace":76.14,
-    "wab":0.24
+    "off":98.26,
+    "def":95.9,
+    "rating":2.36,
+    "pace":76.08,
+    "wab":0.214
   },
   {
     "team_id":"suny-old-westbury",
@@ -51083,11 +51363,11 @@
     "team_id":"suny-old-westbury",
     "full_team":"SUNY-Old Westbury",
     "season":2027,
-    "off":92.88,
-    "def":108.11,
-    "rating":-15.23,
-    "pace":71.85,
-    "wab":0.008
+    "off":92.11,
+    "def":106.81,
+    "rating":-14.7,
+    "pace":71.95,
+    "wab":0.014
   },
   {
     "team_id":"suny-oneonta",
@@ -51233,11 +51513,11 @@
     "team_id":"suny-oneonta",
     "full_team":"SUNY Oneonta",
     "season":2027,
-    "off":109.46,
-    "def":96.34,
-    "rating":13.12,
-    "pace":70.15,
-    "wab":0.026
+    "off":109.43,
+    "def":96.37,
+    "rating":13.06,
+    "pace":70.14,
+    "wab":0.025
   },
   {
     "team_id":"suny-potsdam",
@@ -51383,11 +51663,11 @@
     "team_id":"suny-potsdam",
     "full_team":"SUNY Potsdam",
     "season":2027,
-    "off":94.84,
-    "def":109.23,
-    "rating":-14.4,
-    "pace":75.56,
-    "wab":-1.443
+    "off":94.75,
+    "def":109.29,
+    "rating":-14.53,
+    "pace":75.55,
+    "wab":-1.481
   },
   {
     "team_id":"suny-purchase",
@@ -51533,11 +51813,11 @@
     "team_id":"suny-purchase",
     "full_team":"SUNY-Purchase",
     "season":2027,
-    "off":91.94,
-    "def":105.76,
-    "rating":-13.83,
+    "off":91.92,
+    "def":105.78,
+    "rating":-13.86,
     "pace":72.76,
-    "wab":-1.55
+    "wab":-1.554
   },
   {
     "team_id":"sunyit",
@@ -51683,9 +51963,9 @@
     "team_id":"sunyit",
     "full_team":"SUNYIT",
     "season":2027,
-    "off":106.11,
-    "def":103.63,
-    "rating":2.48,
+    "off":106.1,
+    "def":103.65,
+    "rating":2.45,
     "pace":69.88,
     "wab":0.021
   },
@@ -51833,10 +52113,10 @@
     "team_id":"susquehanna",
     "full_team":"Susquehanna",
     "season":2027,
-    "off":110.75,
-    "def":107.74,
-    "rating":3.01,
-    "pace":71.49,
+    "off":110.58,
+    "def":107.6,
+    "rating":2.98,
+    "pace":71.42,
     "wab":null
   },
   {
@@ -51983,11 +52263,11 @@
     "team_id":"swarthmore",
     "full_team":"Swarthmore",
     "season":2027,
-    "off":106.66,
-    "def":97.18,
-    "rating":9.48,
-    "pace":72.35,
-    "wab":0.123
+    "off":106.86,
+    "def":97.2,
+    "rating":9.66,
+    "pace":72.32,
+    "wab":0.137
   },
   {
     "team_id":"tcnj",
@@ -52133,11 +52413,11 @@
     "team_id":"tcnj",
     "full_team":"TCNJ",
     "season":2027,
-    "off":108.42,
-    "def":102.94,
-    "rating":5.48,
-    "pace":72.23,
-    "wab":-0.573
+    "off":108.54,
+    "def":103.29,
+    "rating":5.25,
+    "pace":72.1,
+    "wab":-0.62
   },
   {
     "team_id":"texas-dallas",
@@ -52405,7 +52685,7 @@
     "season":2027,
     "off":98.48,
     "def":108.33,
-    "rating":-9.84,
+    "rating":-9.85,
     "pace":72.59,
     "wab":-0.608
   },
@@ -52553,11 +52833,11 @@
     "team_id":"thiel",
     "full_team":"Thiel",
     "season":2027,
-    "off":89.53,
-    "def":107.26,
-    "rating":-17.73,
-    "pace":71.44,
-    "wab":-1.875
+    "off":89.69,
+    "def":107.23,
+    "rating":-17.54,
+    "pace":71.49,
+    "wab":-1.804
   },
   {
     "team_id":"thomas",
@@ -52703,11 +52983,11 @@
     "team_id":"thomas",
     "full_team":"Thomas",
     "season":2027,
-    "off":89.17,
+    "off":89.27,
     "def":106.18,
-    "rating":-17.01,
-    "pace":74.34,
-    "wab":-0.782
+    "rating":-16.91,
+    "pace":74.39,
+    "wab":-0.764
   },
   {
     "team_id":"thomas-more",
@@ -52933,11 +53213,11 @@
     "team_id":"transylvania",
     "full_team":"Transylvania",
     "season":2027,
-    "off":107.13,
-    "def":94.76,
-    "rating":12.37,
-    "pace":71.21,
-    "wab":0.013
+    "off":108.39,
+    "def":95.33,
+    "rating":13.06,
+    "pace":71.26,
+    "wab":0.296
   },
   {
     "team_id":"trine",
@@ -53083,11 +53363,11 @@
     "team_id":"trine",
     "full_team":"Trine",
     "season":2027,
-    "off":110.6,
-    "def":94.42,
-    "rating":16.19,
-    "pace":71.49,
-    "wab":-0.386
+    "off":110.53,
+    "def":94.47,
+    "rating":16.06,
+    "pace":71.5,
+    "wab":-0.401
   },
   {
     "team_id":"trinity-conn",
@@ -53233,10 +53513,10 @@
     "team_id":"trinity-conn",
     "full_team":"Trinity (Conn.)",
     "season":2027,
-    "off":114.03,
-    "def":86.94,
-    "rating":27.09,
-    "pace":70.69,
+    "off":114.04,
+    "def":86.92,
+    "rating":27.12,
+    "pace":70.7,
     "wab":0.013
   },
   {
@@ -53530,6 +53810,16 @@
     "wab":4.89
   },
   {
+    "team_id":"tufts",
+    "full_team":"Tufts",
+    "season":2027,
+    "off":113.68,
+    "def":88.76,
+    "rating":24.92,
+    "pace":70.39,
+    "wab":0.287
+  },
+  {
     "team_id":"uc-santa-cruz",
     "full_team":"UC Santa Cruz",
     "season":2012,
@@ -53820,6 +54110,16 @@
     "wab":-1.852
   },
   {
+    "team_id":"union",
+    "full_team":"Union",
+    "season":2027,
+    "off":111.47,
+    "def":97.97,
+    "rating":13.5,
+    "pace":71.09,
+    "wab":0.02
+  },
+  {
     "team_id":"university-of-dallas",
     "full_team":"University of Dallas",
     "season":2012,
@@ -54103,11 +54403,11 @@
     "team_id":"university-of-new-england",
     "full_team":"University of New England",
     "season":2027,
-    "off":95.6,
-    "def":112.76,
-    "rating":-17.16,
-    "pace":76.41,
-    "wab":-0.96
+    "off":94.66,
+    "def":112.72,
+    "rating":-18.06,
+    "pace":75.84,
+    "wab":-1.718
   },
   {
     "team_id":"university-of-the-ozarks",
@@ -54763,11 +55063,11 @@
     "team_id":"uw-eau-claire",
     "full_team":"UW-Eau Claire",
     "season":2027,
-    "off":111.03,
-    "def":99.66,
-    "rating":11.37,
+    "off":111.04,
+    "def":99.62,
+    "rating":11.42,
     "pace":70.07,
-    "wab":-0.712
+    "wab":-0.706
   },
   {
     "team_id":"uw-la-crosse",
@@ -54913,11 +55213,11 @@
     "team_id":"uw-la-crosse",
     "full_team":"UW-La Crosse",
     "season":2027,
-    "off":120.78,
-    "def":99.78,
+    "off":120.99,
+    "def":99.98,
     "rating":21.01,
-    "pace":70.74,
-    "wab":-0.093
+    "pace":70.78,
+    "wab":-0.095
   },
   {
     "team_id":"uw-oshkosh",
@@ -55203,9 +55503,9 @@
     "team_id":"uw-platteville",
     "full_team":"UW-Platteville",
     "season":2027,
-    "off":115.83,
-    "def":98.0,
-    "rating":17.84,
+    "off":115.84,
+    "def":97.97,
+    "rating":17.86,
     "pace":68.69,
     "wab":0.131
   },
@@ -55500,6 +55800,16 @@
     "wab":1.549
   },
   {
+    "team_id":"uw-stevens-point",
+    "full_team":"UW-Stevens Point",
+    "season":2027,
+    "off":114.03,
+    "def":90.72,
+    "rating":23.31,
+    "pace":67.47,
+    "wab":0.117
+  },
+  {
     "team_id":"uw-stout",
     "full_team":"UW-Stout",
     "season":2012,
@@ -55643,11 +55953,11 @@
     "team_id":"uw-stout",
     "full_team":"UW-Stout",
     "season":2027,
-    "off":103.09,
-    "def":96.28,
-    "rating":6.81,
-    "pace":70.17,
-    "wab":-0.781
+    "off":103.52,
+    "def":93.57,
+    "rating":9.95,
+    "pace":69.8,
+    "wab":-0.69
   },
   {
     "team_id":"uw-superior",
@@ -55793,11 +56103,11 @@
     "team_id":"uw-superior",
     "full_team":"UW-Superior",
     "season":2027,
-    "off":98.41,
-    "def":106.85,
-    "rating":-8.44,
-    "pace":68.92,
-    "wab":-0.216
+    "off":98.63,
+    "def":107.07,
+    "rating":-8.45,
+    "pace":68.95,
+    "wab":-0.218
   },
   {
     "team_id":"uw-whitewater",
@@ -56343,11 +56653,11 @@
     "team_id":"wabash",
     "full_team":"Wabash",
     "season":2027,
-    "off":116.62,
-    "def":107.42,
-    "rating":9.2,
-    "pace":69.53,
-    "wab":-0.455
+    "off":111.88,
+    "def":102.97,
+    "rating":8.91,
+    "pace":69.41,
+    "wab":-0.246
   },
   {
     "team_id":"warren-wilson",
@@ -56853,11 +57163,11 @@
     "team_id":"washington-and-lee",
     "full_team":"Washington and Lee",
     "season":2027,
-    "off":103.65,
-    "def":103.06,
-    "rating":0.59,
-    "pace":68.19,
-    "wab":-1.32
+    "off":103.92,
+    "def":103.14,
+    "rating":0.77,
+    "pace":68.2,
+    "wab":-1.282
   },
   {
     "team_id":"washington-college",
@@ -57004,10 +57314,10 @@
     "full_team":"Washington College",
     "season":2027,
     "off":98.1,
-    "def":104.43,
-    "rating":-6.33,
-    "pace":71.93,
-    "wab":0.046
+    "def":104.46,
+    "rating":-6.37,
+    "pace":71.94,
+    "wab":0.045
   },
   {
     "team_id":"washington-u",
@@ -57153,11 +57463,11 @@
     "team_id":"washington-u",
     "full_team":"Washington U.",
     "season":2027,
-    "off":116.86,
-    "def":90.88,
-    "rating":25.98,
+    "off":116.9,
+    "def":90.9,
+    "rating":26.0,
     "pace":70.38,
-    "wab":0.894
+    "wab":0.897
   },
   {
     "team_id":"waynesburg",
@@ -57303,11 +57613,11 @@
     "team_id":"waynesburg",
     "full_team":"Waynesburg",
     "season":2027,
-    "off":90.89,
-    "def":107.75,
-    "rating":-16.86,
-    "pace":71.33,
-    "wab":-0.669
+    "off":91.03,
+    "def":107.62,
+    "rating":-16.59,
+    "pace":71.37,
+    "wab":-0.608
   },
   {
     "team_id":"webster",
@@ -57713,11 +58023,11 @@
     "team_id":"wentworth",
     "full_team":"Wentworth",
     "season":2027,
-    "off":93.2,
-    "def":105.01,
-    "rating":-11.81,
-    "pace":72.98,
-    "wab":-1.803
+    "off":93.3,
+    "def":104.98,
+    "rating":-11.68,
+    "pace":72.84,
+    "wab":-1.796
   },
   {
     "team_id":"wesley",
@@ -58090,6 +58400,16 @@
     "wab":-2.192
   },
   {
+    "team_id":"western-connecticut",
+    "full_team":"Western Connecticut",
+    "season":2027,
+    "off":103.06,
+    "def":90.15,
+    "rating":12.91,
+    "pace":73.02,
+    "wab":0.025
+  },
+  {
     "team_id":"western-new-england",
     "full_team":"Western New England",
     "season":2012,
@@ -58233,11 +58553,11 @@
     "team_id":"western-new-england",
     "full_team":"Western New England",
     "season":2027,
-    "off":103.7,
-    "def":93.14,
-    "rating":10.57,
-    "pace":69.45,
-    "wab":0.298
+    "off":106.43,
+    "def":90.53,
+    "rating":15.91,
+    "pace":69.3,
+    "wab":0.444
   },
   {
     "team_id":"westfield-state",
@@ -58813,11 +59133,11 @@
     "team_id":"wheaton-ill",
     "full_team":"Wheaton (Ill.)",
     "season":2027,
-    "off":116.04,
-    "def":97.62,
-    "rating":18.42,
-    "pace":72.3,
-    "wab":0.06
+    "off":116.7,
+    "def":96.21,
+    "rating":20.49,
+    "pace":73.24,
+    "wab":0.078
   },
   {
     "team_id":"wheaton-mass",
@@ -58963,11 +59283,11 @@
     "team_id":"wheaton-mass",
     "full_team":"Wheaton (Mass.)",
     "season":2027,
-    "off":105.57,
-    "def":97.98,
-    "rating":7.59,
-    "pace":70.26,
-    "wab":0.063
+    "off":102.19,
+    "def":96.89,
+    "rating":5.3,
+    "pace":70.62,
+    "wab":-0.327
   },
   {
     "team_id":"wheelock",
@@ -59473,11 +59793,11 @@
     "team_id":"whitworth",
     "full_team":"Whitworth",
     "season":2027,
-    "off":106.29,
-    "def":102.07,
-    "rating":4.22,
+    "off":106.48,
+    "def":102.18,
+    "rating":4.3,
     "pace":73.27,
-    "wab":-1.212
+    "wab":-1.193
   },
   {
     "team_id":"widener",
@@ -59773,11 +60093,11 @@
     "team_id":"wilkes",
     "full_team":"Wilkes",
     "season":2027,
-    "off":108.18,
-    "def":103.65,
-    "rating":4.53,
-    "pace":70.01,
-    "wab":-0.711
+    "off":107.63,
+    "def":101.76,
+    "rating":5.87,
+    "pace":69.74,
+    "wab":-0.669
   },
   {
     "team_id":"willamette",
@@ -59923,7 +60243,7 @@
     "team_id":"willamette",
     "full_team":"Willamette",
     "season":2027,
-    "off":103.59,
+    "off":103.58,
     "def":98.42,
     "rating":5.17,
     "pace":77.01,
@@ -60193,11 +60513,11 @@
     "team_id":"william-peace",
     "full_team":"William Peace",
     "season":2027,
-    "off":91.51,
-    "def":106.57,
-    "rating":-15.05,
-    "pace":70.92,
-    "wab":-0.4
+    "off":91.5,
+    "def":106.58,
+    "rating":-15.08,
+    "pace":70.93,
+    "wab":-0.403
   },
   {
     "team_id":"williams",
@@ -60483,11 +60803,11 @@
     "team_id":"wilmington",
     "full_team":"Wilmington",
     "season":2027,
-    "off":106.7,
-    "def":102.46,
-    "rating":4.24,
-    "pace":75.46,
-    "wab":0.019
+    "off":107.82,
+    "def":101.4,
+    "rating":6.41,
+    "pace":75.87,
+    "wab":0.214
   },
   {
     "team_id":"wilson",
@@ -60753,11 +61073,11 @@
     "team_id":"wisconsin-lutheran",
     "full_team":"Wisconsin Lutheran",
     "season":2027,
-    "off":102.92,
-    "def":106.07,
-    "rating":-3.14,
+    "off":102.93,
+    "def":106.1,
+    "rating":-3.17,
     "pace":71.92,
-    "wab":-0.773
+    "wab":-0.776
   },
   {
     "team_id":"wittenberg",
@@ -60903,11 +61223,11 @@
     "team_id":"wittenberg",
     "full_team":"Wittenberg",
     "season":2027,
-    "off":102.69,
-    "def":92.81,
-    "rating":9.88,
-    "pace":68.11,
-    "wab":-0.613
+    "off":101.45,
+    "def":94.0,
+    "rating":7.45,
+    "pace":68.63,
+    "wab":-1.374
   },
   {
     "team_id":"wooster",
@@ -61343,11 +61663,11 @@
     "team_id":"wpi",
     "full_team":"WPI",
     "season":2027,
-    "off":107.5,
-    "def":91.2,
-    "rating":16.3,
-    "pace":68.54,
-    "wab":0.145
+    "off":107.79,
+    "def":91.28,
+    "rating":16.52,
+    "pace":68.55,
+    "wab":0.174
   },
   {
     "team_id":"yeshiva",
@@ -61643,11 +61963,11 @@
     "team_id":"york-n-y",
     "full_team":"York (N.Y.)",
     "season":2027,
-    "off":85.68,
-    "def":108.95,
-    "rating":-23.28,
+    "off":85.81,
+    "def":109.03,
+    "rating":-23.22,
     "pace":77.34,
-    "wab":-0.959
+    "wab":-0.957
   },
   {
     "team_id":"york-pa",
@@ -61795,8 +62115,8 @@
     "season":2027,
     "off":109.99,
     "def":101.22,
-    "rating":8.76,
+    "rating":8.77,
     "pace":68.77,
-    "wab":0.113
+    "wab":0.114
   }
 ]
