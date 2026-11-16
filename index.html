@@ -256,6 +256,15 @@
     .chdr h1 { font-family:'Outfit',sans-serif; font-size:1.4rem; font-weight:800; flex:1; }
     .cbs .val { font-family:'IBM Plex Mono',monospace; font-size:1.25rem; color:var(--cyan); line-height:1; }
     .cbs .lbl { font-size:.62rem; color:rgba(255,255,255,.55); text-transform:uppercase; letter-spacing:.07em; margin-top:.18rem; }
+    /* Phones: keep the conference name and all three stats on one row */
+    @media(max-width:680px) {
+      .chdr { flex-wrap:nowrap; gap:.9rem; padding:1.1rem 1rem; }
+      .chdr h1 { font-size:1.15rem; white-space:nowrap; }
+      .cbs { flex:none; }
+      .cbs .val { font-size:1.05rem; }
+      .cbs .lbl { font-size:.55rem; letter-spacing:.04em; white-space:nowrap; }
+    }
+    @media(max-width:360px) { .chdr { gap:.6rem; padding:1rem .8rem; } .chdr h1 { font-size:1rem; } .cbs .val { font-size:.95rem; } .cbs .lbl { letter-spacing:.02em; } }
 
     /* MISC */
     footer {
@@ -1269,7 +1278,7 @@ function ConferencePage({ confId, nav }) {
             <thead><tr>
               <Th col="rank"        sc={sc} ico={ico} tog={tog} style={{position:'sticky',left:0,zIndex:2,background:'var(--navy)',textAlign:'center'}} tip="This team's rank within this conference for the current sort column">Rank</Th>
               <Th col="full_team"   sc={sc} ico={ico} tog={tog} className="sticky-team" style={{zIndex:2,background:'var(--navy)',boxShadow:'2px 0 4px rgba(8,31,44,.12)'}} tip="Team name">Team</Th>
-              <Th col="record"      sc={sc} ico={ico} tog={tog} tip="Win-loss record for D3 games this season">Record</Th>
+              <Th col="record"      sc={sc} ico={ico} tog={tog} style={{textAlign:'center'}} tip="Win-loss record for D3 games this season">Record</Th>
               <Th col="rating"      sc={sc} ico={ico} tog={tog} tip="Predictive rating: opponent-adjusted net points per 100 possessions. Higher is better.">Rating</Th>
               <Th col="off"         sc={sc} ico={ico} tog={tog} tip="Offensive rating: opponent-adjusted points scored per 100 possessions. Higher is better.">Off</Th>
               <Th col="def"         sc={sc} ico={ico} tog={tog} tip="Defensive rating: opponent-adjusted points allowed per 100 possessions. Lower is better.">Def</Th>
@@ -1283,7 +1292,7 @@ function ConferencePage({ confId, nav }) {
                 <tr key={t.team_id}>
                   <td className="rc sticky-rank">{idx + 1}</td>
                   <td className="sticky-team"><span className="tl" onClick={() => nav(`#/team/${t.team_id}`)}>{t.full_team}</span></td>
-                  <td className="mono">{t.record}</td>
+                  <td className="mono" style={{textAlign:'center'}}>{t.record}</td>
                   <td className="hc" style={hs(+t.rating, rn, rx)}>{(+t.rating).toFixed(1)}</td>
                   <td className="hc" style={hs(+t.off,    on, ox)}>{(+t.off).toFixed(1)}</td>
                   <td className="hc" style={hs(+t.def,    dn, dx, true)}>{(+t.def).toFixed(1)}</td>
