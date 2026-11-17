@@ -1255,6 +1255,10 @@ function ConferencePage({ confId, nav }) {
   const [on,ox] = of.length>1?[Math.min(...of),Math.max(...of)]:[0,1];
   const [dn,dx] = df.length>1?[Math.min(...df),Math.max(...df)]:[0,1];
   const [wn,wx] = wb.length  ?[Math.min(...wb),Math.max(...wb)]:[-1,1];
+  const wqa = rows.map(t => t.win_qual  != null ? +t.win_qual  : null).filter(v => v != null && isFinite(v));
+  const lqa = rows.map(t => t.loss_qual != null ? +t.loss_qual : null).filter(v => v != null && isFinite(v));
+  const [wqn,wqx] = wqa.length ? [Math.min(...wqa), Math.max(...wqa)] : [0,1];
+  const [lqn,lqx] = lqa.length ? [Math.min(...lqa), Math.max(...lqa)] : [-1,0];
 
   if (loading) return <Spin />;
   if (error)   return <ErrMsg m={error} />;
@@ -1287,6 +1291,8 @@ function ConferencePage({ confId, nav }) {
               <Th col="def"         sc={sc} ico={ico} tog={tog} tip="Defensive rating: opponent-adjusted points allowed per 100 possessions. Lower is better.">Def</Th>
               <Th col="pace"        sc={sc} ico={ico} tog={tog} className="tempo-col" tip="Tempo: estimated possessions per 40 minutes">Tempo</Th>
               <Th col="wab"         sc={sc} ico={ico} tog={tog} tip="Wins Above Bubble: how many more wins this team has than a hypothetical bubble-caliber team would earn against the same schedule">WAB</Th>
+              <Th col="win_qual"    sc={sc} ico={ico} tog={tog} tip="Win Quality: total WAB credit earned from wins only">Win Qual</Th>
+              <Th col="loss_qual"   sc={sc} ico={ico} tog={tog} tip="Loss Quality: total WAB penalty from losses (negative values are worse)">Loss Qual</Th>
               <Th col="rank"        sc={sc} ico={ico} tog={tog} tip="National predictive rating rank among all D3 teams">Natl. Rtg</Th>
               <Th col="resume_rank" sc={sc} ico={ico} tog={tog} tip="National resume rank (Wins Above Bubble) among all D3 teams">Natl. Res.</Th>
             </tr></thead>
@@ -1301,6 +1307,8 @@ function ConferencePage({ confId, nav }) {
                   <td className="hc" style={hs(+t.def,    dn, dx, true)}>{(+t.def).toFixed(1)}</td>
                   <td className="mono">{(+t.pace).toFixed(1)}</td>
                   <td className="hc" style={t.wab!=null?wabHs(+t.wab,wn,wx):{}}>{t.wab!=null?(+t.wab).toFixed(1):'-'}</td>
+                  <td className="hc" style={t.win_qual  != null ? hs(+t.win_qual,  wqn, wqx) : {}}>{t.win_qual  != null ? (+t.win_qual).toFixed(1)  : '-'}</td>
+                  <td className="hc" style={t.loss_qual != null ? hs(+t.loss_qual, lqn, lqx) : {}}>{t.loss_qual != null ? (+t.loss_qual).toFixed(1) : '-'}</td>
                   <td className="rc">#{t.rank}</td>
                   <td className="rc">{t.resume_rank ? `#${t.resume_rank}` : '-'}</td>
                 </tr>
