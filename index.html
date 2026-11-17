@@ -1145,6 +1145,13 @@ function TeamPage({ teamId, nav }) {
 
 
 // CONFERENCES INDEX — sortable table with full avg stats computed from teams
+// One decimal with trailing zero kept (109 -> 109.0); avoids showing -0.0
+function f1(v) {
+  if (v == null || !isFinite(v)) return '-';
+  const t = (+v).toFixed(1);
+  return t === '-0.0' ? '0.0' : t;
+}
+
 function ConferencesPage({ nav }) {
   const { data, loading, error } = useData('conferences.json', 'teams.json');
   const { sc, sd, tog, ico } = useSort('avg_rating', 'desc');
@@ -1171,7 +1178,6 @@ function ConferencesPage({ nav }) {
         avg_def:    avg(ct.map(t => +t.def)),
         avg_tempo:  avg(ct.map(t => +t.pace)),
         avg_resume: avg(ct.map(t => t.wab != null ? +t.wab : null)),
-        // Two decimals: these averages are small, so one decimal would make most conferences look tied
         avg_win_qual:  avg2(ct.map(t => t.win_qual  != null ? +t.win_qual  : null)),
         avg_loss_qual: avg2(ct.map(t => t.loss_qual != null ? +t.loss_qual : null)),
       };
@@ -1222,13 +1228,13 @@ function ConferencesPage({ nav }) {
                 <tr key={c.conference_id} style={{cursor:'pointer'}} onClick={() => nav(`#/conference/${c.conference_id}`)}>
                   <td><span className="tl">{c.conference}</span></td>
                   <td className="mono">{c.team_count}</td>
-                  <td className="hc" style={hs(c.avg_rating, rLo, rHi)}>{c.avg_rating ?? '-'}</td>
-                  <td className="hc" style={hs(c.avg_off,    oLo, oHi)}>{c.avg_off    ?? '-'}</td>
-                  <td className="hc" style={hs(c.avg_def,    dLo, dHi, true)}>{c.avg_def ?? '-'}</td>
-                  <td className="mono">{c.avg_tempo ?? '-'}</td>
-                  <td className="hc" style={c.avg_resume != null ? wabHs(c.avg_resume, resLo, resHi) : {}}>{c.avg_resume ?? '-'}</td>
-                  <td className="hc" style={c.avg_win_qual  != null ? hs(c.avg_win_qual,  wqLo, wqHi) : {}}>{c.avg_win_qual  != null ? c.avg_win_qual.toFixed(2)  : '-'}</td>
-                  <td className="hc" style={c.avg_loss_qual != null ? hs(c.avg_loss_qual, lqLo, lqHi) : {}}>{c.avg_loss_qual != null ? c.avg_loss_qual.toFixed(2) : '-'}</td>
+                  <td className="hc" style={hs(c.avg_rating, rLo, rHi)}>{f1(c.avg_rating)}</td>
+                  <td className="hc" style={hs(c.avg_off,    oLo, oHi)}>{f1(c.avg_off)}</td>
+                  <td className="hc" style={hs(c.avg_def,    dLo, dHi, true)}>{f1(c.avg_def)}</td>
+                  <td className="mono">{f1(c.avg_tempo)}</td>
+                  <td className="hc" style={c.avg_resume != null ? wabHs(c.avg_resume, resLo, resHi) : {}}>{f1(c.avg_resume)}</td>
+                  <td className="hc" style={c.avg_win_qual  != null ? hs(c.avg_win_qual,  wqLo, wqHi) : {}}>{f1(c.avg_win_qual)}</td>
+                  <td className="hc" style={c.avg_loss_qual != null ? hs(c.avg_loss_qual, lqLo, lqHi) : {}}>{f1(c.avg_loss_qual)}</td>
                 </tr>
               ))}
             </tbody>
@@ -1291,7 +1297,7 @@ function ConferencePage({ confId, nav }) {
         <h1>{conf.conference}</h1>
         <div className="cbs"><div className="val">{conf.team_count}</div><div className="lbl">Teams</div></div>
         <div className="cbs"><div className="val">#{confRank}</div><div className="lbl">Conf. Rank</div></div>
-        <div className="cbs"><div className="val">{conf.avg_rating}</div><div className="lbl">Avg Rating</div></div>
+        <div className="cbs"><div className="val">{f1(conf.avg_rating)}</div><div className="lbl">Avg Rating</div></div>
       </div>
       <div className="table-wrap">
         <div className="shint">Scroll right to see all columns &rarr;</div>
