@@ -258,7 +258,7 @@
     .cbs .lbl { font-size:.62rem; color:rgba(255,255,255,.55); text-transform:uppercase; letter-spacing:.07em; margin-top:.18rem; }
     /* Conference page record column: centered on phones only */
     @media(max-width:680px) { .rec-col { text-align:center !important; } }
-    @media(min-width:681px) { th.rec-col { width:6rem; } }
+    @media(min-width:681px) { th.rec-col { width:6rem; } th.tempo-col { width:6rem; } }
     /* Phones: keep the conference name and all three stats on one row */
     @media(max-width:680px) {
       .chdr { flex-wrap:nowrap; gap:.9rem; padding:1.1rem 1rem; }
@@ -1285,7 +1285,7 @@ function ConferencePage({ confId, nav }) {
               <Th col="rating"      sc={sc} ico={ico} tog={tog} tip="Predictive rating: opponent-adjusted net points per 100 possessions. Higher is better.">Rating</Th>
               <Th col="off"         sc={sc} ico={ico} tog={tog} tip="Offensive rating: opponent-adjusted points scored per 100 possessions. Higher is better.">Off</Th>
               <Th col="def"         sc={sc} ico={ico} tog={tog} tip="Defensive rating: opponent-adjusted points allowed per 100 possessions. Lower is better.">Def</Th>
-              <Th col="pace"        sc={sc} ico={ico} tog={tog} tip="Tempo: estimated possessions per 40 minutes">Tempo</Th>
+              <Th col="pace"        sc={sc} ico={ico} tog={tog} className="tempo-col" tip="Tempo: estimated possessions per 40 minutes">Tempo</Th>
               <Th col="wab"         sc={sc} ico={ico} tog={tog} tip="Wins Above Bubble: how many more wins this team has than a hypothetical bubble-caliber team would earn against the same schedule">WAB</Th>
               <Th col="rank"        sc={sc} ico={ico} tog={tog} tip="National predictive rating rank among all D3 teams">Natl. Rtg</Th>
               <Th col="resume_rank" sc={sc} ico={ico} tog={tog} tip="National resume rank (Wins Above Bubble) among all D3 teams">Natl. Res.</Th>
