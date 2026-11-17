@@ -1161,12 +1161,19 @@ function ConferencesPage({ nav }) {
         const vals = arr.filter(v => v != null && isFinite(v));
         return vals.length ? +(vals.reduce((s,v) => s+v, 0) / vals.length).toFixed(1) : null;
       };
+      const avg2 = arr => {
+        const vals = arr.filter(v => v != null && isFinite(v));
+        return vals.length ? vals.reduce((s,v) => s+v, 0) / vals.length : null;
+      };
       return {
         ...c,
         avg_off:    avg(ct.map(t => +t.off)),
         avg_def:    avg(ct.map(t => +t.def)),
         avg_tempo:  avg(ct.map(t => +t.pace)),
         avg_resume: avg(ct.map(t => t.wab != null ? +t.wab : null)),
+        // Two decimals: these averages are small, so one decimal would make most conferences look tied
+        avg_win_qual:  avg2(ct.map(t => t.win_qual  != null ? +t.win_qual  : null)),
+        avg_loss_qual: avg2(ct.map(t => t.loss_qual != null ? +t.loss_qual : null)),
       };
     });
     return srt(enriched, sc, sd);
@@ -1186,6 +1193,10 @@ function ConferencesPage({ nav }) {
   const [rLo,rHi]   = avgRat.length   ? [Math.min(...avgRat),   Math.max(...avgRat)]   : [0,1];
   // tLo/tHi removed — tempo column no longer uses conditional formatting
   const [resLo,resHi] = avgRes.length ? [Math.min(...avgRes),   Math.max(...avgRes)]   : [0,1];
+  const avgWq = rows.map(r => r.avg_win_qual).filter(v => v != null && isFinite(v));
+  const avgLq = rows.map(r => r.avg_loss_qual).filter(v => v != null && isFinite(v));
+  const [wqLo,wqHi] = avgWq.length ? [Math.min(...avgWq), Math.max(...avgWq)] : [0,1];
+  const [lqLo,lqHi] = avgLq.length ? [Math.min(...avgLq), Math.max(...avgLq)] : [-1,0];
 
   return (
     <div className="page">
@@ -1203,6 +1214,8 @@ function ConferencesPage({ nav }) {
               <Th col="avg_def"     sc={sc} ico={ico} tog={tog} tip="Average defensive rating: opponent-adjusted points allowed per 100 possessions (lower is better)">Avg Def</Th>
               <Th col="avg_tempo"   sc={sc} ico={ico} tog={tog} tip="Average tempo: estimated possessions per 40 minutes">Avg Tempo</Th>
               <Th col="avg_resume"  sc={sc} ico={ico} tog={tog} tip="Average Wins Above Bubble across all teams in the conference">Avg WAB</Th>
+              <Th col="avg_win_qual"  sc={sc} ico={ico} tog={tog} tip="Average Win Quality (WAB credit earned from wins) across teams that have played">Avg Win Qual</Th>
+              <Th col="avg_loss_qual" sc={sc} ico={ico} tog={tog} tip="Average Loss Quality (WAB penalty from losses, negative is worse) across teams that have played">Avg Loss Qual</Th>
             </tr></thead>
             <tbody>
               {rows.map(c => (
@@ -1214,6 +1227,8 @@ function ConferencesPage({ nav }) {
                   <td className="hc" style={hs(c.avg_def,    dLo, dHi, true)}>{c.avg_def ?? '-'}</td>
                   <td className="mono">{c.avg_tempo ?? '-'}</td>
                   <td className="hc" style={c.avg_resume != null ? wabHs(c.avg_resume, resLo, resHi) : {}}>{c.avg_resume ?? '-'}</td>
+                  <td className="hc" style={c.avg_win_qual  != null ? hs(c.avg_win_qual,  wqLo, wqHi) : {}}>{c.avg_win_qual  != null ? c.avg_win_qual.toFixed(2)  : '-'}</td>
+                  <td className="hc" style={c.avg_loss_qual != null ? hs(c.avg_loss_qual, lqLo, lqHi) : {}}>{c.avg_loss_qual != null ? c.avg_loss_qual.toFixed(2) : '-'}</td>
                 </tr>
               ))}
             </tbody>
