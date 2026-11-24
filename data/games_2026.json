@@ -13,39 +13,7 @@
     "pred_score_2":114.332,
     "error":20.807,
     "t1_wab":0.066,
-    "t2_wab":-0.826
-  },
-  {
-    "game_key":"2026-11-06_Lake Forest_North Park",
-    "date":"2026-11-06",
-    "team_1":"Lake Forest",
-    "team_1_id":"lake-forest",
-    "team_1_hfa":-1.0,
-    "team_2":"North Park",
-    "team_2_id":"north-park",
-    "team_1_score":88.0,
-    "team_2_score":79.0,
-    "pred_score_1":85.039,
-    "pred_score_2":94.123,
-    "error":18.084,
-    "t1_wab":0.182,
-    "t2_wab":-0.945
-  },
-  {
-    "game_key":"2026-11-06_La Verne_Lewis & Clark",
-    "date":"2026-11-06",
-    "team_1":"Lewis and Clark",
-    "team_1_id":"lewis-and-clark",
-    "team_1_hfa":-1.0,
-    "team_2":"La Verne",
-    "team_2_id":"la-verne",
-    "team_1_score":87.0,
-    "team_2_score":75.0,
-    "pred_score_1":76.237,
-    "pred_score_2":75.822,
-    "error":11.585,
-    "t1_wab":0.182,
-    "t2_wab":-0.926
+    "t2_wab":-0.827
   },
   {
     "game_key":"2026-11-06_LeTourneau_McMurry",
@@ -64,20 +32,36 @@
     "t2_wab":-0.714
   },
   {
-    "game_key":"2026-11-06_Maine Maritime_Medgar Evers",
+    "game_key":"2026-11-06_La Verne_Lewis & Clark",
     "date":"2026-11-06",
-    "team_1":"Maine Maritime",
-    "team_1_id":"maine-maritime",
+    "team_1":"Lewis and Clark",
+    "team_1_id":"lewis-and-clark",
     "team_1_hfa":-1.0,
-    "team_2":"Medgar Evers",
-    "team_2_id":"medgar-evers",
-    "team_1_score":84.0,
-    "team_2_score":55.0,
-    "pred_score_1":78.091,
-    "pred_score_2":59.727,
-    "error":10.636,
-    "t1_wab":0.002,
-    "t2_wab":-0.978
+    "team_2":"La Verne",
+    "team_2_id":"la-verne",
+    "team_1_score":87.0,
+    "team_2_score":75.0,
+    "pred_score_1":76.237,
+    "pred_score_2":75.822,
+    "error":11.585,
+    "t1_wab":0.186,
+    "t2_wab":-0.913
+  },
+  {
+    "game_key":"2026-11-06_Lake Forest_North Park",
+    "date":"2026-11-06",
+    "team_1":"Lake Forest",
+    "team_1_id":"lake-forest",
+    "team_1_hfa":-1.0,
+    "team_2":"North Park",
+    "team_2_id":"north-park",
+    "team_1_score":88.0,
+    "team_2_score":79.0,
+    "pred_score_1":85.039,
+    "pred_score_2":94.123,
+    "error":18.084,
+    "t1_wab":0.182,
+    "t2_wab":-0.945
   },
   {
     "game_key":"2026-11-06_MCLA_RIT",
@@ -94,6 +78,22 @@
     "error":7.644,
     "t1_wab":0.014,
     "t2_wab":-0.907
+  },
+  {
+    "game_key":"2026-11-06_Maine Maritime_Medgar Evers",
+    "date":"2026-11-06",
+    "team_1":"Maine Maritime",
+    "team_1_id":"maine-maritime",
+    "team_1_hfa":-1.0,
+    "team_2":"Medgar Evers",
+    "team_2_id":"medgar-evers",
+    "team_1_score":84.0,
+    "team_2_score":55.0,
+    "pred_score_1":78.091,
+    "pred_score_2":59.727,
+    "error":10.636,
+    "t1_wab":0.002,
+    "t2_wab":-0.978
   },
   {
     "game_key":"2026-11-06_Marian (WI)_Saint Mary's (MN)",
@@ -124,7 +124,7 @@
     "pred_score_1":81.518,
     "pred_score_2":70.298,
     "error":10.22,
-    "t1_wab":0.014,
+    "t1_wab":0.013,
     "t2_wab":-0.845
   },
   {
@@ -157,23 +157,23 @@
     "pred_score_2":59.653,
     "error":8.059,
     "t1_wab":0.034,
-    "t2_wab":-0.648
+    "t2_wab":-0.661
   },
   {
-    "game_key":"2026-11-06_Hartford_Montclair St.",
+    "game_key":"2026-11-06_Hampden-Sydney_William Peace",
     "date":"2026-11-06",
-    "team_1":"Montclair State",
-    "team_1_id":"montclair-state",
-    "team_1_hfa":0.0,
-    "team_2":"Hartford",
-    "team_2_id":"hartford",
-    "team_1_score":79.0,
-    "team_2_score":62.0,
-    "pred_score_1":90.134,
-    "pred_score_2":77.283,
-    "error":4.149,
-    "t1_wab":0.088,
-    "t2_wab":-0.479
+    "team_1":"Hampden-Sydney",
+    "team_1_id":"hampden-sydney",
+    "team_1_hfa":-1.0,
+    "team_2":"William Peace",
+    "team_2_id":"william-peace",
+    "team_1_score":91.0,
+    "team_2_score":58.0,
+    "pred_score_1":75.817,
+    "pred_score_2":58.797,
+    "error":15.98,
+    "t1_wab":0.019,
+    "t2_wab":-0.539
   },
   {
     "game_key":"2026-11-06_John Jay_Pratt",
@@ -188,8 +188,8 @@
     "pred_score_1":72.061,
     "pred_score_2":67.862,
     "error":6.801,
-    "t1_wab":0.008,
-    "t2_wab":-0.969
+    "t1_wab":0.012,
+    "t2_wab":-0.968
   },
   {
     "game_key":"2026-11-06_JWU Charlotte_N.C. Wesleyan",
@@ -221,7 +221,7 @@
     "pred_score_2":78.984,
     "error":25.243,
     "t1_wab":0.02,
-    "t2_wab":-0.988
+    "t2_wab":-0.991
   },
   {
     "game_key":"2026-11-06_Houghton_Pitt.-Bradford",
@@ -256,6 +256,22 @@
     "t2_wab":-0.28
   },
   {
+    "game_key":"2026-11-06_Hiram_Oberlin",
+    "date":"2026-11-06",
+    "team_1":"Oberlin",
+    "team_1_id":"oberlin",
+    "team_1_hfa":1.0,
+    "team_2":"Hiram",
+    "team_2_id":"hiram",
+    "team_1_score":77.0,
+    "team_2_score":58.0,
+    "pred_score_1":76.312,
+    "pred_score_2":62.682,
+    "error":5.37,
+    "t1_wab":0.018,
+    "t2_wab":-0.804
+  },
+  {
     "game_key":"2026-11-06_Hilbert_Penn College",
     "date":"2026-11-06",
     "team_1":"Hilbert",
@@ -269,7 +285,7 @@
     "pred_score_2":68.901,
     "error":10.373,
     "t1_wab":0.033,
-    "t2_wab":-0.844
+    "t2_wab":-0.843
   },
   {
     "game_key":"2026-11-06_Mary Hardin-Baylor_Whitworth",
@@ -288,22 +304,6 @@
     "t2_wab":-0.627
   },
   {
-    "game_key":"2026-11-06_Hampden-Sydney_William Peace",
-    "date":"2026-11-06",
-    "team_1":"Hampden-Sydney",
-    "team_1_id":"hampden-sydney",
-    "team_1_hfa":-1.0,
-    "team_2":"William Peace",
-    "team_2_id":"william-peace",
-    "team_1_score":91.0,
-    "team_2_score":58.0,
-    "pred_score_1":75.817,
-    "pred_score_2":58.797,
-    "error":15.98,
-    "t1_wab":0.019,
-    "t2_wab":-0.539
-  },
-  {
     "game_key":"2026-11-06_Johns Hopkins_Marymount (VA)",
     "date":"2026-11-06",
     "team_1":"Johns Hopkins",
@@ -316,7 +316,7 @@
     "pred_score_1":68.033,
     "pred_score_2":63.642,
     "error":21.608,
-    "t1_wab":0.443,
+    "t1_wab":0.442,
     "t2_wab":-0.412
   },
   {
@@ -332,24 +332,24 @@
     "pred_score_1":90.551,
     "pred_score_2":58.635,
     "error":9.915,
-    "t1_wab":0.058,
-    "t2_wab":-0.229
+    "t1_wab":0.057,
+    "t2_wab":-0.23
   },
   {
-    "game_key":"2026-11-06_Plattsburgh St._Skidmore",
+    "game_key":"2026-11-06_Redlands_UC Santa Cruz",
     "date":"2026-11-06",
-    "team_1":"Skidmore",
-    "team_1_id":"skidmore",
-    "team_1_hfa":-1.0,
-    "team_2":"Plattsburgh State",
-    "team_2_id":"plattsburgh-state",
-    "team_1_score":87.0,
-    "team_2_score":65.0,
-    "pred_score_1":79.626,
-    "pred_score_2":72.521,
-    "error":14.895,
-    "t1_wab":0.062,
-    "t2_wab":-0.881
+    "team_1":"Redlands",
+    "team_1_id":"redlands",
+    "team_1_hfa":1.0,
+    "team_2":"UC Santa Cruz",
+    "team_2_id":"uc-santa-cruz",
+    "team_1_score":96.0,
+    "team_2_score":83.0,
+    "pred_score_1":87.527,
+    "pred_score_2":76.809,
+    "error":2.282,
+    "t1_wab":0.176,
+    "t2_wab":-0.405
   },
   {
     "game_key":"2026-11-06_Misericordia_Otterbein",
@@ -381,7 +381,7 @@
     "pred_score_2":56.2,
     "error":9.311,
     "t1_wab":0.013,
-    "t2_wab":-0.503
+    "t2_wab":-0.504
   },
   {
     "game_key":"2026-11-06_St. Olaf_Wis.-Superior",
@@ -413,7 +413,7 @@
     "pred_score_2":71.821,
     "error":10.541,
     "t1_wab":0.028,
-    "t2_wab":-0.781
+    "t2_wab":-0.78
   },
   {
     "game_key":"2026-11-06_Scranton_Widener",
@@ -428,7 +428,7 @@
     "pred_score_1":72.187,
     "pred_score_2":79.516,
     "error":14.329,
-    "t1_wab":0.23,
+    "t1_wab":0.229,
     "t2_wab":-0.872
   },
   {
@@ -492,8 +492,8 @@
     "pred_score_1":69.495,
     "pred_score_2":62.941,
     "error":23.446,
-    "t1_wab":0.088,
-    "t2_wab":-0.694
+    "t1_wab":0.085,
+    "t2_wab":-0.696
   },
   {
     "game_key":"2026-11-06_Methodist_St. Mary's (MD)",
@@ -524,7 +524,7 @@
     "pred_score_1":80.349,
     "pred_score_2":80.757,
     "error":11.408,
-    "t1_wab":0.126,
+    "t1_wab":0.13,
     "t2_wab":-0.661
   },
   {
@@ -541,23 +541,7 @@
     "pred_score_2":64.361,
     "error":11.211,
     "t1_wab":0.046,
-    "t2_wab":-0.916
-  },
-  {
-    "game_key":"2026-11-06_Redlands_UC Santa Cruz",
-    "date":"2026-11-06",
-    "team_1":"Redlands",
-    "team_1_id":"redlands",
-    "team_1_hfa":1.0,
-    "team_2":"UC Santa Cruz",
-    "team_2_id":"uc-santa-cruz",
-    "team_1_score":96.0,
-    "team_2_score":83.0,
-    "pred_score_1":87.527,
-    "pred_score_2":76.809,
-    "error":2.282,
-    "t1_wab":0.177,
-    "t2_wab":-0.409
+    "t2_wab":-0.918
   },
   {
     "game_key":"2026-11-06_Gustavus Adolphus_Transylvania",
@@ -576,6 +560,22 @@
     "t2_wab":-0.172
   },
   {
+    "game_key":"2026-11-06_Plattsburgh St._Skidmore",
+    "date":"2026-11-06",
+    "team_1":"Skidmore",
+    "team_1_id":"skidmore",
+    "team_1_hfa":-1.0,
+    "team_2":"Plattsburgh State",
+    "team_2_id":"plattsburgh-state",
+    "team_1_score":87.0,
+    "team_2_score":65.0,
+    "pred_score_1":79.626,
+    "pred_score_2":72.521,
+    "error":14.895,
+    "t1_wab":0.062,
+    "t2_wab":-0.881
+  },
+  {
     "game_key":"2026-11-06_Oswego St._Trine",
     "date":"2026-11-06",
     "team_1":"Oswego State",
@@ -589,7 +589,7 @@
     "pred_score_2":72.48,
     "error":0.455,
     "t1_wab":0.448,
-    "t2_wab":-0.448
+    "t2_wab":-0.447
   },
   {
     "game_key":"2026-11-06_Neumann_Ursinus",
@@ -621,7 +621,7 @@
     "pred_score_2":65.822,
     "error":7.43,
     "t1_wab":0.033,
-    "t2_wab":-0.68
+    "t2_wab":-0.683
   },
   {
     "game_key":"2026-11-06_Muhlenberg_SUNY Canton",
@@ -636,7 +636,7 @@
     "pred_score_1":67.523,
     "pred_score_2":73.507,
     "error":8.984,
-    "t1_wab":0.116,
+    "t1_wab":0.115,
     "t2_wab":-0.968
   },
   {
@@ -653,7 +653,7 @@
     "pred_score_2":64.199,
     "error":15.831,
     "t1_wab":0.101,
-    "t2_wab":-0.68
+    "t2_wab":-0.681
   },
   {
     "game_key":"2026-11-06_Rivier_Wheaton (MA)",
@@ -684,24 +684,24 @@
     "pred_score_1":79.484,
     "pred_score_2":70.131,
     "error":2.354,
-    "t1_wab":0.011,
-    "t2_wab":-0.943
+    "t1_wab":0.015,
+    "t2_wab":-0.942
   },
   {
-    "game_key":"2026-11-06_Hiram_Oberlin",
+    "game_key":"2026-11-06_Hartford_Montclair St.",
     "date":"2026-11-06",
-    "team_1":"Oberlin",
-    "team_1_id":"oberlin",
-    "team_1_hfa":1.0,
-    "team_2":"Hiram",
-    "team_2_id":"hiram",
-    "team_1_score":77.0,
-    "team_2_score":58.0,
-    "pred_score_1":76.312,
-    "pred_score_2":62.682,
-    "error":5.37,
-    "t1_wab":0.018,
-    "t2_wab":-0.804
+    "team_1":"Montclair State",
+    "team_1_id":"montclair-state",
+    "team_1_hfa":0.0,
+    "team_2":"Hartford",
+    "team_2_id":"hartford",
+    "team_1_score":79.0,
+    "team_2_score":62.0,
+    "pred_score_1":90.134,
+    "pred_score_2":77.283,
+    "error":4.149,
+    "t1_wab":0.088,
+    "t2_wab":-0.479
   },
   {
     "game_key":"2026-11-06_Gallaudet_Messiah",
@@ -732,7 +732,7 @@
     "pred_score_1":79.019,
     "pred_score_2":72.653,
     "error":17.634,
-    "t1_wab":0.129,
+    "t1_wab":0.131,
     "t2_wab":-0.424
   },
   {
@@ -749,7 +749,7 @@
     "pred_score_2":74.861,
     "error":25.956,
     "t1_wab":0.056,
-    "t2_wab":-0.558
+    "t2_wab":-0.556
   },
   {
     "game_key":"2026-11-06_Buffalo St._Springfield",
@@ -764,7 +764,7 @@
     "pred_score_1":71.165,
     "pred_score_2":61.278,
     "error":5.887,
-    "t1_wab":0.024,
+    "t1_wab":0.025,
     "t2_wab":-0.872
   },
   {
@@ -893,7 +893,7 @@
     "pred_score_2":78.029,
     "error":6.306,
     "t1_wab":0.086,
-    "t2_wab":-0.714
+    "t2_wab":-0.715
   },
   {
     "game_key":"2026-11-06_Bard_Washington Col.",
@@ -909,7 +909,7 @@
     "pred_score_2":67.348,
     "error":4.113,
     "t1_wab":0.023,
-    "t2_wab":-0.958
+    "t2_wab":-0.961
   },
   {
     "game_key":"2026-11-06_Azusa Pacific_Pacific Lutheran",
@@ -957,7 +957,7 @@
     "pred_score_2":67.093,
     "error":10.094,
     "t1_wab":0.017,
-    "t2_wab":-0.666
+    "t2_wab":-0.662
   },
   {
     "game_key":"2026-11-06_Anderson (IN)_Hope",
@@ -988,7 +988,7 @@
     "pred_score_1":79.222,
     "pred_score_2":64.139,
     "error":5.083,
-    "t1_wab":0.006,
+    "t1_wab":0.007,
     "t2_wab":-0.944
   },
   {
@@ -1084,8 +1084,24 @@
     "pred_score_1":81.032,
     "pred_score_2":68.664,
     "error":5.368,
-    "t1_wab":0.057,
-    "t2_wab":-0.903
+    "t1_wab":0.038,
+    "t2_wab":-0.926
+  },
+  {
+    "game_key":"2026-11-06_Catholic_Schreiner",
+    "date":"2026-11-06",
+    "team_1":"Catholic",
+    "team_1_id":"catholic",
+    "team_1_hfa":0.0,
+    "team_2":"Schreiner",
+    "team_2_id":"schreiner",
+    "team_1_score":94.0,
+    "team_2_score":75.0,
+    "pred_score_1":81.301,
+    "pred_score_2":74.112,
+    "error":11.811,
+    "t1_wab":0.216,
+    "t2_wab":-0.592
   },
   {
     "game_key":"2026-11-06_Franklin_Olivet",
@@ -1133,23 +1149,7 @@
     "pred_score_2":76.336,
     "error":8.373,
     "t1_wab":0.282,
-    "t2_wab":-0.441
-  },
-  {
-    "game_key":"2026-11-06_Farmingdale St._Fitchburg St.",
-    "date":"2026-11-06",
-    "team_1":"Fitchburg State",
-    "team_1_id":"fitchburg-state",
-    "team_1_hfa":-1.0,
-    "team_2":"Farmingdale State",
-    "team_2_id":"farmingdale-state",
-    "team_1_score":88.0,
-    "team_2_score":84.0,
-    "pred_score_1":69.971,
-    "pred_score_2":86.738,
-    "error":20.767,
-    "t1_wab":0.289,
-    "t2_wab":-0.955
+    "t2_wab":-0.444
   },
   {
     "game_key":"2026-11-06_Endicott_Rensselaer",
@@ -1164,7 +1164,7 @@
     "pred_score_1":66.713,
     "pred_score_2":71.174,
     "error":19.461,
-    "t1_wab":0.168,
+    "t1_wab":0.171,
     "t2_wab":-0.679
   },
   {
@@ -1184,20 +1184,20 @@
     "t2_wab":-0.976
   },
   {
-    "game_key":"2026-11-06_Catholic_Schreiner",
+    "game_key":"2026-11-06_Elizabethtown_McDaniel",
     "date":"2026-11-06",
-    "team_1":"Catholic",
-    "team_1_id":"catholic",
+    "team_1":"Elizabethtown",
+    "team_1_id":"elizabethtown",
     "team_1_hfa":0.0,
-    "team_2":"Schreiner",
-    "team_2_id":"schreiner",
-    "team_1_score":94.0,
-    "team_2_score":75.0,
-    "pred_score_1":81.301,
-    "pred_score_2":74.112,
-    "error":11.811,
-    "t1_wab":0.216,
-    "t2_wab":-0.592
+    "team_2":"McDaniel",
+    "team_2_id":"mcdaniel",
+    "team_1_score":81.0,
+    "team_2_score":79.0,
+    "pred_score_1":72.361,
+    "pred_score_2":67.573,
+    "error":2.788,
+    "t1_wab":0.05,
+    "t2_wab":-0.891
   },
   {
     "game_key":"2026-11-06_East. Mennonite_Mary Baldwin",
@@ -1232,20 +1232,20 @@
     "t2_wab":-0.732
   },
   {
-    "game_key":"2026-11-06_Elizabethtown_McDaniel",
+    "game_key":"2026-11-06_Farmingdale St._Fitchburg St.",
     "date":"2026-11-06",
-    "team_1":"Elizabethtown",
-    "team_1_id":"elizabethtown",
-    "team_1_hfa":0.0,
-    "team_2":"McDaniel",
-    "team_2_id":"mcdaniel",
-    "team_1_score":81.0,
-    "team_2_score":79.0,
-    "pred_score_1":72.361,
-    "pred_score_2":67.573,
-    "error":2.788,
-    "t1_wab":0.049,
-    "t2_wab":-0.891
+    "team_1":"Fitchburg State",
+    "team_1_id":"fitchburg-state",
+    "team_1_hfa":-1.0,
+    "team_2":"Farmingdale State",
+    "team_2_id":"farmingdale-state",
+    "team_1_score":88.0,
+    "team_2_score":84.0,
+    "pred_score_1":69.971,
+    "pred_score_2":86.738,
+    "error":20.767,
+    "t1_wab":0.289,
+    "t2_wab":-0.955
   },
   {
     "game_key":"2026-11-06_Delaware Valley_Haverford",
@@ -1357,23 +1357,7 @@
     "pred_score_2":72.21,
     "error":17.425,
     "t1_wab":0.013,
-    "t2_wab":-0.864
-  },
-  {
-    "game_key":"2026-11-06_Chapman_Trinity (TX)",
-    "date":"2026-11-06",
-    "team_1":"Trinity (Texas)",
-    "team_1_id":"trinity-texas",
-    "team_1_hfa":0.0,
-    "team_2":"Chapman",
-    "team_2_id":"chapman",
-    "team_1_score":86.0,
-    "team_2_score":84.0,
-    "pred_score_1":77.573,
-    "pred_score_2":68.07,
-    "error":7.503,
-    "t1_wab":0.362,
-    "t2_wab":-0.517
+    "t2_wab":-0.865
   },
   {
     "game_key":"2026-11-06_Drew_FDU-Florham",
@@ -1389,7 +1373,23 @@
     "pred_score_2":72.276,
     "error":16.811,
     "t1_wab":0.041,
-    "t2_wab":-0.775
+    "t2_wab":-0.777
+  },
+  {
+    "game_key":"2026-11-06_Chapman_Trinity (TX)",
+    "date":"2026-11-06",
+    "team_1":"Trinity (Texas)",
+    "team_1_id":"trinity-texas",
+    "team_1_hfa":0.0,
+    "team_2":"Chapman",
+    "team_2_id":"chapman",
+    "team_1_score":86.0,
+    "team_2_score":84.0,
+    "pred_score_1":77.573,
+    "pred_score_2":68.07,
+    "error":7.503,
+    "t1_wab":0.364,
+    "t2_wab":-0.517
   },
   {
     "game_key":"2026-11-07_Hilbert_Springfield",
@@ -1404,7 +1404,7 @@
     "pred_score_1":73.613,
     "pred_score_2":74.574,
     "error":8.961,
-    "t1_wab":0.156,
+    "t1_wab":0.157,
     "t2_wab":-0.908
   },
   {
@@ -1421,7 +1421,7 @@
     "pred_score_2":61.978,
     "error":2.203,
     "t1_wab":0.018,
-    "t2_wab":-0.605
+    "t2_wab":-0.61
   },
   {
     "game_key":"2026-11-07_JWU Charlotte_William Peace",
@@ -1453,7 +1453,7 @@
     "pred_score_2":87.092,
     "error":23.63,
     "t1_wab":0.061,
-    "t2_wab":-0.534
+    "t2_wab":-0.538
   },
   {
     "game_key":"2026-11-07_Keene St._Lehman",
@@ -1468,40 +1468,8 @@
     "pred_score_1":84.157,
     "pred_score_2":67.06,
     "error":1.902,
-    "t1_wab":0.046,
+    "t1_wab":0.045,
     "t2_wab":-0.628
-  },
-  {
-    "game_key":"2026-11-07_Lawrence_St. Norbert",
-    "date":"2026-11-07",
-    "team_1":"St. Norbert",
-    "team_1_id":"st-norbert",
-    "team_1_hfa":-1.0,
-    "team_2":"Lawrence",
-    "team_2_id":"lawrence",
-    "team_1_score":75.0,
-    "team_2_score":65.0,
-    "pred_score_1":72.228,
-    "pred_score_2":62.493,
-    "error":0.265,
-    "t1_wab":0.335,
-    "t2_wab":-0.538
-  },
-  {
-    "game_key":"2026-11-07_Keystone_Muhlenberg",
-    "date":"2026-11-07",
-    "team_1":"Muhlenberg",
-    "team_1_id":"muhlenberg",
-    "team_1_hfa":0.0,
-    "team_2":"Keystone",
-    "team_2_id":"keystone",
-    "team_1_score":75.0,
-    "team_2_score":55.0,
-    "pred_score_1":69.385,
-    "pred_score_2":63.058,
-    "error":13.673,
-    "t1_wab":0.02,
-    "t2_wab":-0.884
   },
   {
     "game_key":"2026-11-07_Knox_Simpson",
@@ -1520,6 +1488,22 @@
     "t2_wab":-0.759
   },
   {
+    "game_key":"2026-11-07_Keystone_Muhlenberg",
+    "date":"2026-11-07",
+    "team_1":"Muhlenberg",
+    "team_1_id":"muhlenberg",
+    "team_1_hfa":0.0,
+    "team_2":"Keystone",
+    "team_2_id":"keystone",
+    "team_1_score":75.0,
+    "team_2_score":55.0,
+    "pred_score_1":69.385,
+    "pred_score_2":63.058,
+    "error":13.673,
+    "t1_wab":0.019,
+    "t2_wab":-0.885
+  },
+  {
     "game_key":"2026-11-07_Lancaster Bible_Wash. & Jeff.",
     "date":"2026-11-07",
     "team_1":"Lancaster Bible",
@@ -1532,8 +1516,24 @@
     "pred_score_1":80.222,
     "pred_score_2":81.68,
     "error":37.458,
-    "t1_wab":0.156,
+    "t1_wab":0.155,
     "t2_wab":-0.619
+  },
+  {
+    "game_key":"2026-11-07_Lawrence_St. Norbert",
+    "date":"2026-11-07",
+    "team_1":"St. Norbert",
+    "team_1_id":"st-norbert",
+    "team_1_hfa":-1.0,
+    "team_2":"Lawrence",
+    "team_2_id":"lawrence",
+    "team_1_score":75.0,
+    "team_2_score":65.0,
+    "pred_score_1":72.228,
+    "pred_score_2":62.493,
+    "error":0.265,
+    "t1_wab":0.335,
+    "t2_wab":-0.538
   },
   {
     "game_key":"2026-11-07_Hendrix_Lyon",
@@ -1580,7 +1580,7 @@
     "pred_score_1":70.663,
     "pred_score_2":66.361,
     "error":0.698,
-    "t1_wab":0.088,
+    "t1_wab":0.085,
     "t2_wab":-0.84
   },
   {
@@ -1613,7 +1613,7 @@
     "pred_score_2":71.965,
     "error":11.486,
     "t1_wab":0.166,
-    "t2_wab":-0.445
+    "t2_wab":-0.446
   },
   {
     "game_key":"2026-11-07_Hamline_Northwestern-St. Paul",
@@ -1677,7 +1677,7 @@
     "pred_score_2":70.889,
     "error":2.219,
     "t1_wab":0.012,
-    "t2_wab":-0.908
+    "t2_wab":-0.909
   },
   {
     "game_key":"2026-11-07_Gettysburg_Hobart",
@@ -1693,7 +1693,7 @@
     "pred_score_2":69.492,
     "error":4.058,
     "t1_wab":0.386,
-    "t2_wab":-0.748
+    "t2_wab":-0.747
   },
   {
     "game_key":"2026-11-07_George Fox_Hiram",
@@ -1740,8 +1740,8 @@
     "pred_score_1":71.779,
     "pred_score_2":73.899,
     "error":9.12,
-    "t1_wab":0.306,
-    "t2_wab":-0.68
+    "t1_wab":0.305,
+    "t2_wab":-0.683
   },
   {
     "game_key":"2026-11-07_Franciscan_Houghton",
@@ -1773,7 +1773,7 @@
     "pred_score_2":68.046,
     "error":19.27,
     "t1_wab":0.03,
-    "t2_wab":-0.943
+    "t2_wab":-0.944
   },
   {
     "game_key":"2026-11-07_Loras_Minn.-Morris",
@@ -1856,6 +1856,22 @@
     "t2_wab":-0.307
   },
   {
+    "game_key":"2026-11-07_Whittier_Willamette",
+    "date":"2026-11-07",
+    "team_1":"Whittier",
+    "team_1_id":"whittier",
+    "team_1_hfa":1.0,
+    "team_2":"Willamette",
+    "team_2_id":"willamette",
+    "team_1_score":80.0,
+    "team_2_score":79.0,
+    "pred_score_1":81.09,
+    "pred_score_2":81.383,
+    "error":1.293,
+    "t1_wab":0.117,
+    "t2_wab":-0.813
+  },
+  {
     "game_key":"2026-11-07_St. Olaf_Wis.-La Crosse",
     "date":"2026-11-07",
     "team_1":"UW-La Crosse",
@@ -1885,7 +1901,7 @@
     "pred_score_2":69.807,
     "error":15.193,
     "t1_wab":0.051,
-    "t2_wab":-0.833
+    "t2_wab":-0.832
   },
   {
     "game_key":"2026-11-07_Saint John's (MN)_Wis.-Superior",
@@ -1917,7 +1933,7 @@
     "pred_score_2":68.134,
     "error":26.824,
     "t1_wab":0.008,
-    "t2_wab":-0.903
+    "t2_wab":-0.899
   },
   {
     "game_key":"2026-11-07_Russell Sage_SUNY Morrisville",
@@ -1933,7 +1949,7 @@
     "pred_score_2":81.791,
     "error":18.492,
     "t1_wab":0.023,
-    "t2_wab":-0.85
+    "t2_wab":-0.849
   },
   {
     "game_key":"2026-11-07_Rose-Hulman_Wabash",
@@ -1949,7 +1965,7 @@
     "pred_score_2":69.1,
     "error":2.403,
     "t1_wab":0.306,
-    "t2_wab":-0.405
+    "t2_wab":-0.404
   },
   {
     "game_key":"2026-11-07_Regis (MA)_Washington Col.",
@@ -1965,7 +1981,7 @@
     "pred_score_2":68.201,
     "error":18.21,
     "t1_wab":0.046,
-    "t2_wab":-0.94
+    "t2_wab":-0.944
   },
   {
     "game_key":"2026-11-07_Otterbein_Waynesburg",
@@ -1996,8 +2012,8 @@
     "pred_score_1":76.218,
     "pred_score_2":70.418,
     "error":12.2,
-    "t1_wab":0.009,
-    "t2_wab":-0.948
+    "t1_wab":0.01,
+    "t2_wab":-0.947
   },
   {
     "game_key":"2026-11-07_Oberlin_York (PA)",
@@ -2013,7 +2029,7 @@
     "pred_score_2":71.835,
     "error":24.591,
     "t1_wab":0.196,
-    "t2_wab":-0.784
+    "t2_wab":-0.785
   },
   {
     "game_key":"2026-11-07_North Central (MN)_Saint Mary's (MN)",
@@ -2044,7 +2060,7 @@
     "pred_score_1":82.527,
     "pred_score_2":70.578,
     "error":3.949,
-    "t1_wab":0.16,
+    "t1_wab":0.159,
     "t2_wab":-0.641
   },
   {
@@ -2077,7 +2093,7 @@
     "pred_score_2":61.92,
     "error":0.684,
     "t1_wab":0.031,
-    "t2_wab":-0.598
+    "t2_wab":-0.6
   },
   {
     "game_key":"2026-11-07_Nazareth_SUNY Canton",
@@ -2109,7 +2125,7 @@
     "pred_score_2":64.878,
     "error":2.027,
     "t1_wab":0.003,
-    "t2_wab":-0.969
+    "t2_wab":-0.97
   },
   {
     "game_key":"2026-11-07_Mount Union_Penn St. Brandywine",
@@ -2144,22 +2160,6 @@
     "t2_wab":-0.848
   },
   {
-    "game_key":"2026-11-07_Whittier_Willamette",
-    "date":"2026-11-07",
-    "team_1":"Whittier",
-    "team_1_id":"whittier",
-    "team_1_hfa":1.0,
-    "team_2":"Willamette",
-    "team_2_id":"willamette",
-    "team_1_score":80.0,
-    "team_2_score":79.0,
-    "pred_score_1":81.09,
-    "pred_score_2":81.383,
-    "error":1.293,
-    "t1_wab":0.118,
-    "t2_wab":-0.813
-  },
-  {
     "game_key":"2026-11-07_McDaniel_Notre Dame (MD)",
     "date":"2026-11-07",
     "team_1":"McDaniel",
@@ -2172,8 +2172,8 @@
     "pred_score_1":74.045,
     "pred_score_2":76.462,
     "error":5.417,
-    "t1_wab":0.058,
-    "t2_wab":-0.966
+    "t1_wab":0.057,
+    "t2_wab":-0.965
   },
   {
     "game_key":"2026-11-07_Marywood_Widener",
@@ -2188,7 +2188,7 @@
     "pred_score_1":84.714,
     "pred_score_2":76.911,
     "error":0.197,
-    "t1_wab":0.058,
+    "t1_wab":0.057,
     "t2_wab":-0.824
   },
   {
@@ -2204,7 +2204,7 @@
     "pred_score_1":72.565,
     "pred_score_2":72.009,
     "error":18.444,
-    "t1_wab":0.131,
+    "t1_wab":0.13,
     "t2_wab":-0.536
   },
   {
@@ -2220,7 +2220,7 @@
     "pred_score_1":77.903,
     "pred_score_2":59.835,
     "error":1.069,
-    "t1_wab":0.23,
+    "t1_wab":0.229,
     "t2_wab":-0.302
   },
   {
@@ -2288,20 +2288,20 @@
     "t2_wab":-0.711
   },
   {
-    "game_key":"2026-11-07_Bethel (MN)_Concordia Chicago",
+    "game_key":"2026-11-07_Beloit_Maranatha Baptist",
     "date":"2026-11-07",
-    "team_1":"Bethel",
-    "team_1_id":"bethel",
-    "team_1_hfa":0.0,
-    "team_2":"Concordia-Chicago",
-    "team_2_id":"concordia-chicago",
-    "team_1_score":80.0,
-    "team_2_score":72.0,
-    "pred_score_1":77.404,
-    "pred_score_2":72.583,
-    "error":3.179,
-    "t1_wab":0.069,
-    "t2_wab":-0.944
+    "team_1":"Beloit",
+    "team_1_id":"beloit",
+    "team_1_hfa":1.0,
+    "team_2":"Maranatha Baptist",
+    "team_2_id":"maranatha-baptist",
+    "team_1_score":85.0,
+    "team_2_score":48.0,
+    "pred_score_1":77.844,
+    "pred_score_2":55.645,
+    "error":14.8,
+    "t1_wab":0.001,
+    "t2_wab":-0.949
   },
   {
     "game_key":"2026-11-07_Emmanuel (MA)_Rensselaer",
@@ -2316,7 +2316,7 @@
     "pred_score_1":63.209,
     "pred_score_2":67.111,
     "error":12.902,
-    "t1_wab":0.122,
+    "t1_wab":0.124,
     "t2_wab":-0.778
   },
   {
@@ -2332,7 +2332,7 @@
     "pred_score_1":81.558,
     "pred_score_2":72.409,
     "error":15.851,
-    "t1_wab":0.178,
+    "t1_wab":0.179,
     "t2_wab":-0.517
   },
   {
@@ -2348,8 +2348,8 @@
     "pred_score_1":78.138,
     "pred_score_2":78.916,
     "error":1.778,
-    "t1_wab":0.442,
-    "t2_wab":-0.541
+    "t1_wab":0.444,
+    "t2_wab":-0.54
   },
   {
     "game_key":"2026-11-07_Buffalo St._Penn College",
@@ -2364,8 +2364,8 @@
     "pred_score_1":73.063,
     "pred_score_2":77.0,
     "error":19.937,
-    "t1_wab":0.024,
-    "t2_wab":-0.953
+    "t1_wab":0.025,
+    "t2_wab":-0.952
   },
   {
     "game_key":"2026-11-07_Brevard_LaGrange",
@@ -2416,6 +2416,22 @@
     "t2_wab":-0.582
   },
   {
+    "game_key":"2026-11-07_Bethel (MN)_Concordia Chicago",
+    "date":"2026-11-07",
+    "team_1":"Bethel",
+    "team_1_id":"bethel",
+    "team_1_hfa":0.0,
+    "team_2":"Concordia-Chicago",
+    "team_2_id":"concordia-chicago",
+    "team_1_score":80.0,
+    "team_2_score":72.0,
+    "pred_score_1":77.404,
+    "pred_score_2":72.583,
+    "error":3.179,
+    "t1_wab":0.069,
+    "t2_wab":-0.944
+  },
+  {
     "game_key":"2026-11-07_Bethany Lutheran_Transylvania",
     "date":"2026-11-07",
     "team_1":"Transylvania",
@@ -2448,20 +2464,20 @@
     "t2_wab":-0.755
   },
   {
-    "game_key":"2026-11-07_Batten_St. John Fisher",
+    "game_key":"2026-11-07_Eureka_Millsaps",
     "date":"2026-11-07",
-    "team_1":"Batten",
-    "team_1_id":"batten",
-    "team_1_hfa":1.0,
-    "team_2":"St. John Fisher",
-    "team_2_id":"st-john-fisher",
-    "team_1_score":88.0,
-    "team_2_score":77.0,
-    "pred_score_1":77.16,
-    "pred_score_2":61.58,
-    "error":4.58,
-    "t1_wab":0.138,
-    "t2_wab":-0.516
+    "team_1":"Millsaps",
+    "team_1_id":"millsaps",
+    "team_1_hfa":0.0,
+    "team_2":"Eureka",
+    "team_2_id":"eureka",
+    "team_1_score":76.0,
+    "team_2_score":48.0,
+    "pred_score_1":81.32,
+    "pred_score_2":66.791,
+    "error":13.472,
+    "t1_wab":0.011,
+    "t2_wab":-0.789
   },
   {
     "game_key":"2026-11-07_Baruch_UMass Dartmouth",
@@ -2480,6 +2496,22 @@
     "t2_wab":-0.904
   },
   {
+    "game_key":"2026-11-07_Caltech_Occidental",
+    "date":"2026-11-07",
+    "team_1":"Occidental",
+    "team_1_id":"occidental",
+    "team_1_hfa":1.0,
+    "team_2":"Caltech",
+    "team_2_id":"caltech",
+    "team_1_score":76.0,
+    "team_2_score":62.0,
+    "pred_score_1":90.363,
+    "pred_score_2":69.033,
+    "error":7.33,
+    "t1_wab":0.007,
+    "t2_wab":-0.792
+  },
+  {
     "game_key":"2026-11-07_Bard_Sarah Lawrence",
     "date":"2026-11-07",
     "team_1":"Sarah Lawrence",
@@ -2493,39 +2525,23 @@
     "pred_score_2":67.323,
     "error":21.726,
     "t1_wab":0.023,
-    "t2_wab":-0.94
+    "t2_wab":-0.942
   },
   {
-    "game_key":"2026-11-07_Caltech_Occidental",
+    "game_key":"2026-11-07_Babson_Lasell",
     "date":"2026-11-07",
-    "team_1":"Occidental",
-    "team_1_id":"occidental",
+    "team_1":"Babson",
+    "team_1_id":"babson",
     "team_1_hfa":1.0,
-    "team_2":"Caltech",
-    "team_2_id":"caltech",
-    "team_1_score":76.0,
-    "team_2_score":62.0,
-    "pred_score_1":90.363,
-    "pred_score_2":69.033,
-    "error":7.33,
-    "t1_wab":0.009,
-    "t2_wab":-0.793
-  },
-  {
-    "game_key":"2026-11-07_Baldwin Wallace_Pitt.-Greensburg",
-    "date":"2026-11-07",
-    "team_1":"Baldwin Wallace",
-    "team_1_id":"baldwin-wallace",
-    "team_1_hfa":1.0,
-    "team_2":"Pitt-Greensburg",
-    "team_2_id":"pitt-greensburg",
-    "team_1_score":73.0,
-    "team_2_score":65.0,
-    "pred_score_1":78.206,
-    "pred_score_2":73.983,
-    "error":3.777,
-    "t1_wab":0.075,
-    "t2_wab":-0.437
+    "team_2":"Lasell",
+    "team_2_id":"lasell",
+    "team_1_score":94.0,
+    "team_2_score":77.0,
+    "pred_score_1":79.683,
+    "pred_score_2":66.95,
+    "error":4.267,
+    "t1_wab":0.123,
+    "t2_wab":-0.36
   },
   {
     "game_key":"2026-11-07_Azusa Pacific_Puget Sound",
@@ -2605,7 +2621,7 @@
     "pred_score_2":79.973,
     "error":6.839,
     "t1_wab":0.262,
-    "t2_wab":-0.807
+    "t2_wab":-0.808
   },
   {
     "game_key":"2026-11-07_Anderson (IN)_Olivet",
@@ -2688,36 +2704,20 @@
     "t2_wab":-0.595
   },
   {
-    "game_key":"2026-11-07_Eureka_Millsaps",
+    "game_key":"2026-11-07_Baldwin Wallace_Pitt.-Greensburg",
     "date":"2026-11-07",
-    "team_1":"Millsaps",
-    "team_1_id":"millsaps",
-    "team_1_hfa":0.0,
-    "team_2":"Eureka",
-    "team_2_id":"eureka",
-    "team_1_score":76.0,
-    "team_2_score":48.0,
-    "pred_score_1":81.32,
-    "pred_score_2":66.791,
-    "error":13.472,
-    "t1_wab":0.011,
-    "t2_wab":-0.789
-  },
-  {
-    "game_key":"2026-11-07_Babson_Lasell",
-    "date":"2026-11-07",
-    "team_1":"Babson",
-    "team_1_id":"babson",
+    "team_1":"Baldwin Wallace",
+    "team_1_id":"baldwin-wallace",
     "team_1_hfa":1.0,
-    "team_2":"Lasell",
-    "team_2_id":"lasell",
-    "team_1_score":94.0,
-    "team_2_score":77.0,
-    "pred_score_1":79.683,
-    "pred_score_2":66.95,
-    "error":4.267,
-    "t1_wab":0.123,
-    "t2_wab":-0.36
+    "team_2":"Pitt-Greensburg",
+    "team_2_id":"pitt-greensburg",
+    "team_1_score":73.0,
+    "team_2_score":65.0,
+    "pred_score_1":78.206,
+    "pred_score_2":73.983,
+    "error":3.777,
+    "t1_wab":0.075,
+    "t2_wab":-0.437
   },
   {
     "game_key":"2026-11-07_Calvin_Wis.-Stout",
@@ -2736,20 +2736,20 @@
     "t2_wab":-0.758
   },
   {
-    "game_key":"2026-11-07_Beloit_Maranatha Baptist",
+    "game_key":"2026-11-07_Batten_St. John Fisher",
     "date":"2026-11-07",
-    "team_1":"Beloit",
-    "team_1_id":"beloit",
+    "team_1":"Batten",
+    "team_1_id":"batten",
     "team_1_hfa":1.0,
-    "team_2":"Maranatha Baptist",
-    "team_2_id":"maranatha-baptist",
-    "team_1_score":85.0,
-    "team_2_score":48.0,
-    "pred_score_1":77.844,
-    "pred_score_2":55.645,
-    "error":14.8,
-    "t1_wab":0.001,
-    "t2_wab":-0.949
+    "team_2":"St. John Fisher",
+    "team_2_id":"st-john-fisher",
+    "team_1_score":88.0,
+    "team_2_score":77.0,
+    "pred_score_1":77.16,
+    "pred_score_2":61.58,
+    "error":4.58,
+    "t1_wab":0.14,
+    "t2_wab":-0.515
   },
   {
     "game_key":"2026-11-07_Carlow_Penn St.-Berks",
@@ -2768,20 +2768,20 @@
     "t2_wab":-0.991
   },
   {
-    "game_key":"2026-11-07_Emerson_SUNY Potsdam",
+    "game_key":"2026-11-07_Capital_Kalamazoo",
     "date":"2026-11-07",
-    "team_1":"Emerson",
-    "team_1_id":"emerson",
-    "team_1_hfa":0.0,
-    "team_2":"SUNY Potsdam",
-    "team_2_id":"suny-potsdam",
-    "team_1_score":95.0,
-    "team_2_score":82.0,
-    "pred_score_1":80.404,
-    "pred_score_2":71.705,
-    "error":4.301,
-    "t1_wab":0.033,
-    "t2_wab":-0.873
+    "team_1":"Capital",
+    "team_1_id":"capital",
+    "team_1_hfa":1.0,
+    "team_2":"Kalamazoo",
+    "team_2_id":"kalamazoo",
+    "team_1_score":78.0,
+    "team_2_score":74.0,
+    "pred_score_1":88.801,
+    "pred_score_2":69.77,
+    "error":15.031,
+    "t1_wab":0.04,
+    "t2_wab":-0.601
   },
   {
     "game_key":"2026-11-07_Elmira_Misericordia",
@@ -2892,8 +2892,24 @@
     "pred_score_1":84.46,
     "pred_score_2":81.142,
     "error":6.682,
-    "t1_wab":0.135,
-    "t2_wab":-0.775
+    "t1_wab":0.104,
+    "t2_wab":-0.777
+  },
+  {
+    "game_key":"2026-11-07_Dominican (IL)_Principia",
+    "date":"2026-11-07",
+    "team_1":"Dominican",
+    "team_1_id":"dominican",
+    "team_1_hfa":1.0,
+    "team_2":"Principia",
+    "team_2_id":"principia",
+    "team_1_score":70.0,
+    "team_2_score":67.0,
+    "pred_score_1":76.204,
+    "pred_score_2":66.548,
+    "error":6.655,
+    "t1_wab":0.013,
+    "t2_wab":-0.973
   },
   {
     "game_key":"2026-11-07_Delaware Valley_Swarthmore",
@@ -2909,7 +2925,7 @@
     "pred_score_2":65.148,
     "error":7.242,
     "t1_wab":0.096,
-    "t2_wab":-0.61
+    "t2_wab":-0.611
   },
   {
     "game_key":"2026-11-07_Dean_Me.-Presque Isle",
@@ -2924,7 +2940,7 @@
     "pred_score_1":70.485,
     "pred_score_2":75.86,
     "error":19.375,
-    "t1_wab":0.096,
+    "t1_wab":0.095,
     "t2_wab":-0.963
   },
   {
@@ -2960,132 +2976,20 @@
     "t2_wab":-0.77
   },
   {
-    "game_key":"2026-11-07_Dominican (IL)_Principia",
+    "game_key":"2026-11-07_Emerson_SUNY Potsdam",
     "date":"2026-11-07",
-    "team_1":"Dominican",
-    "team_1_id":"dominican",
-    "team_1_hfa":1.0,
-    "team_2":"Principia",
-    "team_2_id":"principia",
-    "team_1_score":70.0,
-    "team_2_score":67.0,
-    "pred_score_1":76.204,
-    "pred_score_2":66.548,
-    "error":6.655,
-    "t1_wab":0.013,
-    "t2_wab":-0.973
-  },
-  {
-    "game_key":"2026-11-07_Colby-Sawyer_VTSU-Johnson",
-    "date":"2026-11-07",
-    "team_1":"Colby-Sawyer",
-    "team_1_id":"colby-sawyer",
+    "team_1":"Emerson",
+    "team_1_id":"emerson",
     "team_1_hfa":0.0,
-    "team_2":"NVU-Johnson",
-    "team_2_id":"nvu-johnson",
-    "team_1_score":103.0,
-    "team_2_score":70.0,
-    "pred_score_1":76.979,
-    "pred_score_2":76.069,
-    "error":32.091,
-    "t1_wab":0.002,
-    "t2_wab":-0.984
-  },
-  {
-    "game_key":"2026-11-07_Carnegie Mellon_La Roche",
-    "date":"2026-11-07",
-    "team_1":"Carnegie Mellon",
-    "team_1_id":"carnegie-mellon",
-    "team_1_hfa":1.0,
-    "team_2":"La Roche",
-    "team_2_id":"la-roche",
-    "team_1_score":90.0,
-    "team_2_score":67.0,
-    "pred_score_1":78.357,
-    "pred_score_2":72.673,
-    "error":17.316,
-    "t1_wab":0.047,
-    "t2_wab":-0.433
-  },
-  {
-    "game_key":"2026-11-07_Concordia (TX)_Whitworth",
-    "date":"2026-11-07",
-    "team_1":"Concordia (Texas)",
-    "team_1_id":"concordia-texas",
-    "team_1_hfa":1.0,
-    "team_2":"Whitworth",
-    "team_2_id":"whitworth",
-    "team_1_score":109.0,
-    "team_2_score":87.0,
-    "pred_score_1":91.263,
-    "pred_score_2":84.14,
-    "error":14.876,
-    "t1_wab":0.205,
-    "t2_wab":-0.586
-  },
-  {
-    "game_key":"2026-11-07_Carthage_Thiel",
-    "date":"2026-11-07",
-    "team_1":"Carthage",
-    "team_1_id":"carthage",
-    "team_1_hfa":1.0,
-    "team_2":"Thiel",
-    "team_2_id":"thiel",
-    "team_1_score":85.0,
-    "team_2_score":56.0,
-    "pred_score_1":82.172,
-    "pred_score_2":59.097,
-    "error":5.925,
-    "t1_wab":0.009,
-    "t2_wab":-0.299
-  },
-  {
-    "game_key":"2026-11-07_Catholic_Ursinus",
-    "date":"2026-11-07",
-    "team_1":"Catholic",
-    "team_1_id":"catholic",
-    "team_1_hfa":-1.0,
-    "team_2":"Ursinus",
-    "team_2_id":"ursinus",
-    "team_1_score":75.0,
-    "team_2_score":70.0,
-    "pred_score_1":79.739,
-    "pred_score_2":77.822,
-    "error":3.083,
-    "t1_wab":0.376,
-    "t2_wab":-0.678
-  },
-  {
-    "game_key":"2026-11-07_Centenary (NJ)_FDU-Florham",
-    "date":"2026-11-07",
-    "team_1":"Centenary (N.J.)",
-    "team_1_id":"centenary-n-j",
-    "team_1_hfa":1.0,
-    "team_2":"FDU-Florham",
-    "team_2_id":"fdu-florham",
-    "team_1_score":78.0,
-    "team_2_score":69.0,
-    "pred_score_1":75.126,
-    "pred_score_2":75.931,
-    "error":9.805,
-    "t1_wab":0.029,
-    "t2_wab":-0.943
-  },
-  {
-    "game_key":"2026-11-07_Chapman_Hardin-Simmons",
-    "date":"2026-11-07",
-    "team_1":"Hardin-Simmons",
-    "team_1_id":"hardin-simmons",
-    "team_1_hfa":1.0,
-    "team_2":"Chapman",
-    "team_2_id":"chapman",
-    "team_1_score":81.0,
-    "team_2_score":73.0,
-    "pred_score_1":80.1,
-    "pred_score_2":70.936,
-    "error":1.163,
-    "t1_wab":0.281,
-    "t2_wab":-0.424
+    "team_2":"SUNY Potsdam",
+    "team_2_id":"suny-potsdam",
+    "team_1_score":95.0,
+    "team_2_score":82.0,
+    "pred_score_1":80.404,
+    "pred_score_2":71.705,
+    "error":4.301,
+    "t1_wab":0.033,
+    "t2_wab":-0.873
   },
   {
     "game_key":"2026-11-07_Carroll (WI)_Wis.-Whitewater",
@@ -3104,52 +3008,20 @@
     "t2_wab":-0.645
   },
   {
-    "game_key":"2026-11-07_Chris. Newport_Penn St.-Altoona",
+    "game_key":"2026-11-07_Colby-Sawyer_VTSU-Johnson",
     "date":"2026-11-07",
-    "team_1":"Christopher Newport",
-    "team_1_id":"christopher-newport",
-    "team_1_hfa":1.0,
-    "team_2":"Penn State-Altoona",
-    "team_2_id":"penn-state-altoona",
-    "team_1_score":97.0,
-    "team_2_score":59.0,
-    "pred_score_1":87.895,
-    "pred_score_2":61.313,
-    "error":11.419,
-    "t1_wab":0.035,
-    "t2_wab":-0.261
-  },
-  {
-    "game_key":"2026-11-07_Clark (MA)_St. Joseph's (ME)",
-    "date":"2026-11-07",
-    "team_1":"St. Joseph's (Maine)",
-    "team_1_id":"st-joseph-s-maine",
-    "team_1_hfa":1.0,
-    "team_2":"Clark",
-    "team_2_id":"clark",
-    "team_1_score":94.0,
-    "team_2_score":78.0,
-    "pred_score_1":84.482,
-    "pred_score_2":72.625,
-    "error":4.144,
-    "t1_wab":0.075,
-    "t2_wab":-0.553
-  },
-  {
-    "game_key":"2026-11-07_Capital_Kalamazoo",
-    "date":"2026-11-07",
-    "team_1":"Capital",
-    "team_1_id":"capital",
-    "team_1_hfa":1.0,
-    "team_2":"Kalamazoo",
-    "team_2_id":"kalamazoo",
-    "team_1_score":78.0,
-    "team_2_score":74.0,
-    "pred_score_1":88.801,
-    "pred_score_2":69.77,
-    "error":15.031,
-    "t1_wab":0.04,
-    "t2_wab":-0.601
+    "team_1":"Colby-Sawyer",
+    "team_1_id":"colby-sawyer",
+    "team_1_hfa":0.0,
+    "team_2":"NVU-Johnson",
+    "team_2_id":"nvu-johnson",
+    "team_1_score":103.0,
+    "team_2_score":70.0,
+    "pred_score_1":76.979,
+    "pred_score_2":76.069,
+    "error":32.091,
+    "t1_wab":0.002,
+    "t2_wab":-0.984
   },
   {
     "game_key":"2026-11-07_Clarkson_Endicott",
@@ -3168,6 +3040,38 @@
     "t2_wab":-0.679
   },
   {
+    "game_key":"2026-11-07_Clark (MA)_St. Joseph's (ME)",
+    "date":"2026-11-07",
+    "team_1":"St. Joseph's (Maine)",
+    "team_1_id":"st-joseph-s-maine",
+    "team_1_hfa":1.0,
+    "team_2":"Clark",
+    "team_2_id":"clark",
+    "team_1_score":94.0,
+    "team_2_score":78.0,
+    "pred_score_1":84.482,
+    "pred_score_2":72.625,
+    "error":4.144,
+    "t1_wab":0.075,
+    "t2_wab":-0.553
+  },
+  {
+    "game_key":"2026-11-07_Chris. Newport_Penn St.-Altoona",
+    "date":"2026-11-07",
+    "team_1":"Christopher Newport",
+    "team_1_id":"christopher-newport",
+    "team_1_hfa":1.0,
+    "team_2":"Penn State-Altoona",
+    "team_2_id":"penn-state-altoona",
+    "team_1_score":97.0,
+    "team_2_score":59.0,
+    "pred_score_1":87.895,
+    "pred_score_2":61.313,
+    "error":11.419,
+    "t1_wab":0.035,
+    "t2_wab":-0.261
+  },
+  {
     "game_key":"2026-11-07_Chatham_St. Mary's (MD)",
     "date":"2026-11-07",
     "team_1":"Chatham",
@@ -3181,119 +3085,103 @@
     "pred_score_2":68.089,
     "error":14.696,
     "t1_wab":0.032,
-    "t2_wab":-0.864
+    "t2_wab":-0.865
   },
   {
-    "game_key":"2026-11-08_Immaculata_St. Joseph's (Brkln)",
-    "date":"2026-11-08",
-    "team_1":"Immaculata",
-    "team_1_id":"immaculata",
-    "team_1_hfa":0.0,
-    "team_2":"St. Joseph's (Bklyn.)",
-    "team_2_id":"st-joseph-s-bklyn",
-    "team_1_score":84.0,
-    "team_2_score":80.0,
-    "pred_score_1":80.131,
-    "pred_score_2":74.33,
-    "error":1.8,
-    "t1_wab":0.024,
-    "t2_wab":-0.974
-  },
-  {
-    "game_key":"2026-11-08_St. John Fisher_Wash. & Lee",
-    "date":"2026-11-08",
-    "team_1":"St. John Fisher",
-    "team_1_id":"st-john-fisher",
-    "team_1_hfa":0.0,
-    "team_2":"Washington and Lee",
-    "team_2_id":"washington-and-lee",
-    "team_1_score":81.0,
-    "team_2_score":62.0,
-    "pred_score_1":68.937,
-    "pred_score_2":72.66,
-    "error":22.722,
-    "t1_wab":0.131,
-    "t2_wab":-0.812
-  },
-  {
-    "game_key":"2026-11-08_Sewanee_Spalding",
-    "date":"2026-11-08",
-    "team_1":"Sewanee",
-    "team_1_id":"sewanee",
-    "team_1_hfa":-1.0,
-    "team_2":"Spalding",
-    "team_2_id":"spalding",
-    "team_1_score":66.0,
-    "team_2_score":42.0,
-    "pred_score_1":69.769,
-    "pred_score_2":68.06,
-    "error":22.292,
-    "t1_wab":0.088,
-    "t2_wab":-0.896
-  },
-  {
-    "game_key":"2026-11-08_Saint Joseph (CT)_Yeshiva",
-    "date":"2026-11-08",
-    "team_1":"St. Joseph (Conn.)",
-    "team_1_id":"st-joseph-conn",
+    "game_key":"2026-11-07_Chapman_Hardin-Simmons",
+    "date":"2026-11-07",
+    "team_1":"Hardin-Simmons",
+    "team_1_id":"hardin-simmons",
     "team_1_hfa":1.0,
-    "team_2":"Yeshiva",
-    "team_2_id":"yeshiva",
-    "team_1_score":83.0,
+    "team_2":"Chapman",
+    "team_2_id":"chapman",
+    "team_1_score":81.0,
+    "team_2_score":73.0,
+    "pred_score_1":80.1,
+    "pred_score_2":70.936,
+    "error":1.163,
+    "t1_wab":0.282,
+    "t2_wab":-0.424
+  },
+  {
+    "game_key":"2026-11-07_Centenary (NJ)_FDU-Florham",
+    "date":"2026-11-07",
+    "team_1":"Centenary (N.J.)",
+    "team_1_id":"centenary-n-j",
+    "team_1_hfa":1.0,
+    "team_2":"FDU-Florham",
+    "team_2_id":"fdu-florham",
+    "team_1_score":78.0,
+    "team_2_score":69.0,
+    "pred_score_1":75.126,
+    "pred_score_2":75.931,
+    "error":9.805,
+    "t1_wab":0.029,
+    "t2_wab":-0.962
+  },
+  {
+    "game_key":"2026-11-07_Catholic_Ursinus",
+    "date":"2026-11-07",
+    "team_1":"Catholic",
+    "team_1_id":"catholic",
+    "team_1_hfa":-1.0,
+    "team_2":"Ursinus",
+    "team_2_id":"ursinus",
+    "team_1_score":75.0,
     "team_2_score":70.0,
-    "pred_score_1":81.32,
-    "pred_score_2":71.936,
-    "error":3.616,
-    "t1_wab":0.069,
-    "t2_wab":-0.79
+    "pred_score_1":79.739,
+    "pred_score_2":77.822,
+    "error":3.083,
+    "t1_wab":0.376,
+    "t2_wab":-0.678
   },
   {
-    "game_key":"2026-11-08_Pomona-Pitzer_Willamette",
-    "date":"2026-11-08",
-    "team_1":"Pomona-Pitzer",
-    "team_1_id":"pomona-pitzer",
+    "game_key":"2026-11-07_Carthage_Thiel",
+    "date":"2026-11-07",
+    "team_1":"Carthage",
+    "team_1_id":"carthage",
     "team_1_hfa":1.0,
-    "team_2":"Willamette",
-    "team_2_id":"willamette",
-    "team_1_score":94.0,
-    "team_2_score":83.0,
-    "pred_score_1":75.738,
-    "pred_score_2":76.448,
-    "error":11.71,
-    "t1_wab":0.118,
-    "t2_wab":-0.838
+    "team_2":"Thiel",
+    "team_2_id":"thiel",
+    "team_1_score":85.0,
+    "team_2_score":56.0,
+    "pred_score_1":82.172,
+    "pred_score_2":59.097,
+    "error":5.925,
+    "t1_wab":0.009,
+    "t2_wab":-0.299
   },
   {
-    "game_key":"2026-11-08_Penn St.-Altoona_Regent",
-    "date":"2026-11-08",
-    "team_1":"Regent",
-    "team_1_id":"regent",
+    "game_key":"2026-11-07_Carnegie Mellon_La Roche",
+    "date":"2026-11-07",
+    "team_1":"Carnegie Mellon",
+    "team_1_id":"carnegie-mellon",
     "team_1_hfa":1.0,
-    "team_2":"Penn State-Altoona",
-    "team_2_id":"penn-state-altoona",
-    "team_1_score":88.0,
-    "team_2_score":81.0,
-    "pred_score_1":76.423,
-    "pred_score_2":80.438,
-    "error":11.016,
-    "t1_wab":null,
-    "t2_wab":null
+    "team_2":"La Roche",
+    "team_2_id":"la-roche",
+    "team_1_score":90.0,
+    "team_2_score":67.0,
+    "pred_score_1":78.357,
+    "pred_score_2":72.673,
+    "error":17.316,
+    "t1_wab":0.047,
+    "t2_wab":-0.484
   },
   {
-    "game_key":"2026-11-08_Norwich_U New England",
-    "date":"2026-11-08",
-    "team_1":"Norwich",
-    "team_1_id":"norwich",
-    "team_1_hfa":-1.0,
-    "team_2":"University of New England",
-    "team_2_id":"university-of-new-england",
-    "team_1_score":81.0,
-    "team_2_score":75.0,
-    "pred_score_1":77.978,
-    "pred_score_2":75.066,
-    "error":3.088,
-    "t1_wab":0.019,
-    "t2_wab":-0.963
+    "game_key":"2026-11-07_Concordia (TX)_Whitworth",
+    "date":"2026-11-07",
+    "team_1":"Concordia (Texas)",
+    "team_1_id":"concordia-texas",
+    "team_1_hfa":1.0,
+    "team_2":"Whitworth",
+    "team_2_id":"whitworth",
+    "team_1_score":109.0,
+    "team_2_score":87.0,
+    "pred_score_1":91.263,
+    "pred_score_2":84.14,
+    "error":14.876,
+    "t1_wab":0.205,
+    "t2_wab":-0.586
   },
   {
     "game_key":"2026-11-08_Medgar Evers_Mt. St. Mary (NY)",
@@ -3312,6 +3200,102 @@
     "t2_wab":-0.995
   },
   {
+    "game_key":"2026-11-08_Norwich_U New England",
+    "date":"2026-11-08",
+    "team_1":"Norwich",
+    "team_1_id":"norwich",
+    "team_1_hfa":-1.0,
+    "team_2":"University of New England",
+    "team_2_id":"university-of-new-england",
+    "team_1_score":81.0,
+    "team_2_score":75.0,
+    "pred_score_1":77.978,
+    "pred_score_2":75.066,
+    "error":3.088,
+    "t1_wab":0.019,
+    "t2_wab":-0.963
+  },
+  {
+    "game_key":"2026-11-08_Penn St.-Altoona_Regent",
+    "date":"2026-11-08",
+    "team_1":"Regent",
+    "team_1_id":"regent",
+    "team_1_hfa":1.0,
+    "team_2":"Penn State-Altoona",
+    "team_2_id":"penn-state-altoona",
+    "team_1_score":88.0,
+    "team_2_score":81.0,
+    "pred_score_1":76.423,
+    "pred_score_2":80.438,
+    "error":11.016,
+    "t1_wab":null,
+    "t2_wab":null
+  },
+  {
+    "game_key":"2026-11-08_Carleton_UW-River Falls",
+    "date":"2026-11-08",
+    "team_1":"UW-River Falls",
+    "team_1_id":"uw-river-falls",
+    "team_1_hfa":-1.0,
+    "team_2":"Carleton",
+    "team_2_id":"carleton",
+    "team_1_score":81.0,
+    "team_2_score":75.0,
+    "pred_score_1":65.709,
+    "pred_score_2":73.301,
+    "error":13.592,
+    "t1_wab":0.386,
+    "t2_wab":-0.721
+  },
+  {
+    "game_key":"2026-11-08_Saint Joseph (CT)_Yeshiva",
+    "date":"2026-11-08",
+    "team_1":"St. Joseph (Conn.)",
+    "team_1_id":"st-joseph-conn",
+    "team_1_hfa":1.0,
+    "team_2":"Yeshiva",
+    "team_2_id":"yeshiva",
+    "team_1_score":83.0,
+    "team_2_score":70.0,
+    "pred_score_1":81.32,
+    "pred_score_2":71.936,
+    "error":3.616,
+    "t1_wab":0.069,
+    "t2_wab":-0.79
+  },
+  {
+    "game_key":"2026-11-08_Sewanee_Spalding",
+    "date":"2026-11-08",
+    "team_1":"Sewanee",
+    "team_1_id":"sewanee",
+    "team_1_hfa":-1.0,
+    "team_2":"Spalding",
+    "team_2_id":"spalding",
+    "team_1_score":66.0,
+    "team_2_score":42.0,
+    "pred_score_1":69.769,
+    "pred_score_2":68.06,
+    "error":22.292,
+    "t1_wab":0.088,
+    "t2_wab":-0.896
+  },
+  {
+    "game_key":"2026-11-08_St. John Fisher_Wash. & Lee",
+    "date":"2026-11-08",
+    "team_1":"St. John Fisher",
+    "team_1_id":"st-john-fisher",
+    "team_1_hfa":0.0,
+    "team_2":"Washington and Lee",
+    "team_2_id":"washington-and-lee",
+    "team_1_score":81.0,
+    "team_2_score":62.0,
+    "pred_score_1":68.937,
+    "pred_score_2":72.66,
+    "error":22.722,
+    "t1_wab":0.13,
+    "t2_wab":-0.809
+  },
+  {
     "game_key":"2026-11-08_Lewis & Clark_Redlands",
     "date":"2026-11-08",
     "team_1":"Redlands",
@@ -3324,24 +3308,56 @@
     "pred_score_1":92.809,
     "pred_score_2":76.723,
     "error":13.086,
-    "t1_wab":0.074,
-    "t2_wab":-0.409
+    "t1_wab":0.087,
+    "t2_wab":-0.405
   },
   {
-    "game_key":"2026-11-08_Eureka_Rhodes",
+    "game_key":"2026-11-08_Pomona-Pitzer_Willamette",
     "date":"2026-11-08",
-    "team_1":"Rhodes",
-    "team_1_id":"rhodes",
+    "team_1":"Pomona-Pitzer",
+    "team_1_id":"pomona-pitzer",
     "team_1_hfa":1.0,
-    "team_2":"Eureka",
-    "team_2_id":"eureka",
-    "team_1_score":96.0,
-    "team_2_score":66.0,
-    "pred_score_1":86.02,
-    "pred_score_2":61.748,
-    "error":5.729,
-    "t1_wab":0.007,
-    "t2_wab":-0.601
+    "team_2":"Willamette",
+    "team_2_id":"willamette",
+    "team_1_score":94.0,
+    "team_2_score":83.0,
+    "pred_score_1":75.738,
+    "pred_score_2":76.448,
+    "error":11.71,
+    "t1_wab":0.117,
+    "t2_wab":-0.838
+  },
+  {
+    "game_key":"2026-11-08_Immaculata_St. Joseph's (Brkln)",
+    "date":"2026-11-08",
+    "team_1":"Immaculata",
+    "team_1_id":"immaculata",
+    "team_1_hfa":0.0,
+    "team_2":"St. Joseph's (Bklyn.)",
+    "team_2_id":"st-joseph-s-bklyn",
+    "team_1_score":84.0,
+    "team_2_score":80.0,
+    "pred_score_1":80.131,
+    "pred_score_2":74.33,
+    "error":1.8,
+    "t1_wab":0.024,
+    "t2_wab":-0.974
+  },
+  {
+    "game_key":"2026-11-08_Buena Vista_Wis.-Platteville",
+    "date":"2026-11-08",
+    "team_1":"UW-Platteville",
+    "team_1_id":"uw-platteville",
+    "team_1_hfa":1.0,
+    "team_2":"Buena Vista",
+    "team_2_id":"buena-vista",
+    "team_1_score":88.0,
+    "team_2_score":65.0,
+    "pred_score_1":79.615,
+    "pred_score_2":69.021,
+    "error":12.406,
+    "t1_wab":0.087,
+    "t2_wab":-0.411
   },
   {
     "game_key":"2026-11-08_Eastern_Penn St. Harrisburg",
@@ -3357,7 +3373,7 @@
     "pred_score_2":65.217,
     "error":0.718,
     "t1_wab":0.14,
-    "t2_wab":-0.605
+    "t2_wab":-0.61
   },
   {
     "game_key":"2026-11-08_Concordia Chicago_Loras",
@@ -3392,22 +3408,6 @@
     "t2_wab":-0.925
   },
   {
-    "game_key":"2026-11-08_Carleton_UW-River Falls",
-    "date":"2026-11-08",
-    "team_1":"UW-River Falls",
-    "team_1_id":"uw-river-falls",
-    "team_1_hfa":-1.0,
-    "team_2":"Carleton",
-    "team_2_id":"carleton",
-    "team_1_score":81.0,
-    "team_2_score":75.0,
-    "pred_score_1":65.709,
-    "pred_score_2":73.301,
-    "error":13.592,
-    "t1_wab":0.386,
-    "t2_wab":-0.721
-  },
-  {
     "game_key":"2026-11-08_CCNY_Maine Maritime",
     "date":"2026-11-08",
     "team_1":"CCNY",
@@ -3421,23 +3421,7 @@
     "pred_score_2":71.132,
     "error":13.823,
     "t1_wab":0.022,
-    "t2_wab":-0.96
-  },
-  {
-    "game_key":"2026-11-08_Buena Vista_Wis.-Platteville",
-    "date":"2026-11-08",
-    "team_1":"UW-Platteville",
-    "team_1_id":"uw-platteville",
-    "team_1_hfa":1.0,
-    "team_2":"Buena Vista",
-    "team_2_id":"buena-vista",
-    "team_1_score":88.0,
-    "team_2_score":65.0,
-    "pred_score_1":79.615,
-    "pred_score_2":69.021,
-    "error":12.406,
-    "t1_wab":0.087,
-    "t2_wab":-0.411
+    "t2_wab":-0.951
   },
   {
     "game_key":"2026-11-08_Bethel (MN)_Minn.-Morris",
@@ -3484,7 +3468,7 @@
     "pred_score_1":69.565,
     "pred_score_2":73.379,
     "error":13.814,
-    "t1_wab":0.484,
+    "t1_wab":0.485,
     "t2_wab":-0.627
   },
   {
@@ -3504,36 +3488,36 @@
     "t2_wab":-0.789
   },
   {
-    "game_key":"2026-11-09_Macalester_Wis.-Eau Claire",
-    "date":"2026-11-09",
-    "team_1":"Macalester",
-    "team_1_id":"macalester",
-    "team_1_hfa":-1.0,
-    "team_2":"UW-Eau Claire",
-    "team_2_id":"uw-eau-claire",
-    "team_1_score":90.0,
-    "team_2_score":83.0,
-    "pred_score_1":69.354,
-    "pred_score_2":89.563,
-    "error":27.209,
-    "t1_wab":0.432,
-    "t2_wab":-0.961
+    "game_key":"2026-11-08_Eureka_Rhodes",
+    "date":"2026-11-08",
+    "team_1":"Rhodes",
+    "team_1_id":"rhodes",
+    "team_1_hfa":1.0,
+    "team_2":"Eureka",
+    "team_2_id":"eureka",
+    "team_1_score":96.0,
+    "team_2_score":66.0,
+    "pred_score_1":86.02,
+    "pred_score_2":61.748,
+    "error":5.729,
+    "t1_wab":0.007,
+    "t2_wab":-0.601
   },
   {
-    "game_key":"2026-11-09_Kean_Manhattanville",
+    "game_key":"2026-11-09_Grove City_Pitt.-Greensburg",
     "date":"2026-11-09",
-    "team_1":"Kean",
-    "team_1_id":"kean",
+    "team_1":"Pitt-Greensburg",
+    "team_1_id":"pitt-greensburg",
     "team_1_hfa":1.0,
-    "team_2":"Manhattanville",
-    "team_2_id":"manhattanville",
-    "team_1_score":76.0,
+    "team_2":"Grove City",
+    "team_2_id":"grove-city",
+    "team_1_score":79.0,
     "team_2_score":67.0,
-    "pred_score_1":78.155,
-    "pred_score_2":59.788,
-    "error":9.368,
-    "t1_wab":0.017,
-    "t2_wab":-0.648
+    "pred_score_1":75.057,
+    "pred_score_2":67.498,
+    "error":4.441,
+    "t1_wab":0.078,
+    "t2_wab":-0.854
   },
   {
     "game_key":"2026-11-09_Juniata_Mount Aloysius",
@@ -3568,6 +3552,38 @@
     "t2_wab":-0.939
   },
   {
+    "game_key":"2026-11-09_Macalester_Wis.-Eau Claire",
+    "date":"2026-11-09",
+    "team_1":"Macalester",
+    "team_1_id":"macalester",
+    "team_1_hfa":-1.0,
+    "team_2":"UW-Eau Claire",
+    "team_2_id":"uw-eau-claire",
+    "team_1_score":90.0,
+    "team_2_score":83.0,
+    "pred_score_1":69.354,
+    "pred_score_2":89.563,
+    "error":27.209,
+    "t1_wab":0.432,
+    "t2_wab":-0.961
+  },
+  {
+    "game_key":"2026-11-09_Kean_Manhattanville",
+    "date":"2026-11-09",
+    "team_1":"Kean",
+    "team_1_id":"kean",
+    "team_1_hfa":1.0,
+    "team_2":"Manhattanville",
+    "team_2_id":"manhattanville",
+    "team_1_score":76.0,
+    "team_2_score":67.0,
+    "pred_score_1":78.155,
+    "pred_score_2":59.788,
+    "error":9.368,
+    "t1_wab":0.017,
+    "t2_wab":-0.661
+  },
+  {
     "game_key":"2026-11-09_Emory_Piedmont",
     "date":"2026-11-09",
     "team_1":"Emory",
@@ -3584,20 +3600,20 @@
     "t2_wab":-0.302
   },
   {
-    "game_key":"2026-11-09_Grove City_Pitt.-Greensburg",
+    "game_key":"2026-11-09_Brevard_Warren Wilson",
     "date":"2026-11-09",
-    "team_1":"Pitt-Greensburg",
-    "team_1_id":"pitt-greensburg",
-    "team_1_hfa":1.0,
-    "team_2":"Grove City",
-    "team_2_id":"grove-city",
-    "team_1_score":79.0,
-    "team_2_score":67.0,
-    "pred_score_1":75.057,
-    "pred_score_2":67.498,
-    "error":4.441,
-    "t1_wab":0.078,
-    "t2_wab":-0.854
+    "team_1":"Brevard",
+    "team_1_id":"brevard",
+    "team_1_hfa":-1.0,
+    "team_2":"Warren Wilson",
+    "team_2_id":"warren-wilson",
+    "team_1_score":82.0,
+    "team_2_score":75.0,
+    "pred_score_1":79.113,
+    "pred_score_2":78.919,
+    "error":6.806,
+    "t1_wab":0.022,
+    "t2_wab":-0.979
   },
   {
     "game_key":"2026-11-09_Curry_Lesley",
@@ -3612,8 +3628,8 @@
     "pred_score_1":73.608,
     "pred_score_2":84.904,
     "error":17.296,
-    "t1_wab":0.031,
-    "t2_wab":-0.988
+    "t1_wab":0.029,
+    "t2_wab":-0.991
   },
   {
     "game_key":"2026-11-09_Bridgewater (VA)_Gallaudet",
@@ -3632,20 +3648,20 @@
     "t2_wab":-0.889
   },
   {
-    "game_key":"2026-11-09_Brevard_Warren Wilson",
+    "game_key":"2026-11-09_Earlham_Wilmington (OH)",
     "date":"2026-11-09",
-    "team_1":"Brevard",
-    "team_1_id":"brevard",
-    "team_1_hfa":-1.0,
-    "team_2":"Warren Wilson",
-    "team_2_id":"warren-wilson",
-    "team_1_score":82.0,
-    "team_2_score":75.0,
-    "pred_score_1":79.113,
-    "pred_score_2":78.919,
-    "error":6.806,
-    "t1_wab":0.022,
-    "t2_wab":-0.979
+    "team_1":"Wilmington",
+    "team_1_id":"wilmington",
+    "team_1_hfa":1.0,
+    "team_2":"Earlham",
+    "team_2_id":"earlham",
+    "team_1_score":90.0,
+    "team_2_score":62.0,
+    "pred_score_1":82.296,
+    "pred_score_2":68.843,
+    "error":14.547,
+    "t1_wab":0.015,
+    "t2_wab":-0.784
   },
   {
     "game_key":"2026-11-09_Averett_Mary Baldwin",
@@ -3678,22 +3694,6 @@
     "error":11.978,
     "t1_wab":0.081,
     "t2_wab":-0.731
-  },
-  {
-    "game_key":"2026-11-09_Earlham_Wilmington (OH)",
-    "date":"2026-11-09",
-    "team_1":"Wilmington",
-    "team_1_id":"wilmington",
-    "team_1_hfa":1.0,
-    "team_2":"Earlham",
-    "team_2_id":"earlham",
-    "team_1_score":90.0,
-    "team_2_score":62.0,
-    "pred_score_1":82.296,
-    "pred_score_2":68.843,
-    "error":14.547,
-    "t1_wab":0.015,
-    "t2_wab":-0.784
   },
   {
     "game_key":"2026-11-10_Lawrence_Wis. Lutheran",
@@ -3741,7 +3741,7 @@
     "pred_score_2":70.608,
     "error":2.823,
     "t1_wab":0.065,
-    "t2_wab":-0.887
+    "t2_wab":-0.888
   },
   {
     "game_key":"2026-11-10_Marian (WI)_St. Scholastica",
@@ -3760,22 +3760,6 @@
     "t2_wab":-0.888
   },
   {
-    "game_key":"2026-11-10_Marymount (VA)_Salisbury",
-    "date":"2026-11-10",
-    "team_1":"Marymount",
-    "team_1_id":"marymount",
-    "team_1_hfa":-1.0,
-    "team_2":"Salisbury",
-    "team_2_id":"salisbury",
-    "team_1_score":66.0,
-    "team_2_score":61.0,
-    "pred_score_1":66.762,
-    "pred_score_2":65.732,
-    "error":3.97,
-    "t1_wab":0.167,
-    "t2_wab":-0.727
-  },
-  {
     "game_key":"2026-11-10_NYU_Saint Joseph (CT)",
     "date":"2026-11-10",
     "team_1":"New York University",
@@ -3789,7 +3773,23 @@
     "pred_score_2":74.255,
     "error":32.391,
     "t1_wab":0.112,
-    "t2_wab":-0.337
+    "t2_wab":-0.341
+  },
+  {
+    "game_key":"2026-11-10_Oswego St._St. Lawrence",
+    "date":"2026-11-10",
+    "team_1":"Oswego State",
+    "team_1_id":"oswego-state",
+    "team_1_hfa":-1.0,
+    "team_2":"St. Lawrence",
+    "team_2_id":"st-lawrence",
+    "team_1_score":74.0,
+    "team_2_score":72.0,
+    "pred_score_1":69.977,
+    "pred_score_2":60.898,
+    "error":7.079,
+    "t1_wab":0.138,
+    "t2_wab":-0.54
   },
   {
     "game_key":"2026-11-10_Purchase_SUNY New Paltz",
@@ -3808,20 +3808,20 @@
     "t2_wab":-0.861
   },
   {
-    "game_key":"2026-11-10_Pratt_St. Joseph's (Brkln)",
+    "game_key":"2026-11-10_Keystone_Misericordia",
     "date":"2026-11-10",
-    "team_1":"St. Joseph's (Bklyn.)",
-    "team_1_id":"st-joseph-s-bklyn",
+    "team_1":"Misericordia",
+    "team_1_id":"misericordia",
     "team_1_hfa":1.0,
-    "team_2":"Pratt",
-    "team_2_id":"pratt",
-    "team_1_score":87.0,
-    "team_2_score":82.0,
-    "pred_score_1":69.661,
-    "pred_score_2":69.934,
-    "error":5.273,
-    "t1_wab":0.015,
-    "t2_wab":-0.966
+    "team_2":"Keystone",
+    "team_2_id":"keystone",
+    "team_1_score":102.0,
+    "team_2_score":77.0,
+    "pred_score_1":80.914,
+    "pred_score_2":66.444,
+    "error":10.53,
+    "t1_wab":0.013,
+    "t2_wab":-0.764
   },
   {
     "game_key":"2026-11-10_Rutgers-Newark_Stevens",
@@ -3836,8 +3836,8 @@
     "pred_score_1":71.667,
     "pred_score_2":66.719,
     "error":0.052,
-    "t1_wab":0.171,
-    "t2_wab":-0.794
+    "t1_wab":0.172,
+    "t2_wab":-0.793
   },
   {
     "game_key":"2026-11-10_SUNY Poly_SUNY Potsdam",
@@ -3888,36 +3888,20 @@
     "t2_wab":-0.864
   },
   {
-    "game_key":"2026-11-10_Keystone_Misericordia",
+    "game_key":"2026-11-10_Pratt_St. Joseph's (Brkln)",
     "date":"2026-11-10",
-    "team_1":"Misericordia",
-    "team_1_id":"misericordia",
+    "team_1":"St. Joseph's (Bklyn.)",
+    "team_1_id":"st-joseph-s-bklyn",
     "team_1_hfa":1.0,
-    "team_2":"Keystone",
-    "team_2_id":"keystone",
-    "team_1_score":102.0,
-    "team_2_score":77.0,
-    "pred_score_1":80.914,
-    "pred_score_2":66.444,
-    "error":10.53,
-    "t1_wab":0.014,
-    "t2_wab":-0.764
-  },
-  {
-    "game_key":"2026-11-10_Oswego St._St. Lawrence",
-    "date":"2026-11-10",
-    "team_1":"Oswego State",
-    "team_1_id":"oswego-state",
-    "team_1_hfa":-1.0,
-    "team_2":"St. Lawrence",
-    "team_2_id":"st-lawrence",
-    "team_1_score":74.0,
-    "team_2_score":72.0,
-    "pred_score_1":69.977,
-    "pred_score_2":60.898,
-    "error":7.079,
-    "t1_wab":0.138,
-    "t2_wab":-0.541
+    "team_2":"Pratt",
+    "team_2_id":"pratt",
+    "team_1_score":87.0,
+    "team_2_score":82.0,
+    "pred_score_1":69.661,
+    "pred_score_2":69.934,
+    "error":5.273,
+    "t1_wab":0.015,
+    "t2_wab":-0.966
   },
   {
     "game_key":"2026-11-10_Johns Hopkins_York (PA)",
@@ -3932,24 +3916,24 @@
     "pred_score_1":77.321,
     "pred_score_2":64.197,
     "error":0.875,
-    "t1_wab":0.216,
+    "t1_wab":0.215,
     "t2_wab":-0.249
   },
   {
-    "game_key":"2026-11-10_Bowdoin_Endicott",
+    "game_key":"2026-11-10_Marymount (VA)_Salisbury",
     "date":"2026-11-10",
-    "team_1":"Endicott",
-    "team_1_id":"endicott",
+    "team_1":"Marymount",
+    "team_1_id":"marymount",
     "team_1_hfa":-1.0,
-    "team_2":"Bowdoin",
-    "team_2_id":"bowdoin",
-    "team_1_score":71.0,
-    "team_2_score":66.0,
-    "pred_score_1":74.381,
-    "pred_score_2":72.054,
-    "error":2.673,
-    "t1_wab":0.232,
-    "t2_wab":-0.755
+    "team_2":"Salisbury",
+    "team_2_id":"salisbury",
+    "team_1_score":66.0,
+    "team_2_score":61.0,
+    "pred_score_1":66.762,
+    "pred_score_2":65.732,
+    "error":3.97,
+    "t1_wab":0.168,
+    "t2_wab":-0.727
   },
   {
     "game_key":"2026-11-10_Hartwick_SUNY Oneonta",
@@ -3965,7 +3949,7 @@
     "pred_score_2":66.154,
     "error":31.21,
     "t1_wab":0.027,
-    "t2_wab":-0.704
+    "t2_wab":-0.701
   },
   {
     "game_key":"2026-11-10_Huntingdon_MUW",
@@ -4013,7 +3997,7 @@
     "pred_score_2":75.917,
     "error":2.539,
     "t1_wab":0.012,
-    "t2_wab":-0.789
+    "t2_wab":-0.82
   },
   {
     "game_key":"2026-11-10_Augustana (IL)_Central (IA)",
@@ -4030,6 +4014,22 @@
     "error":10.453,
     "t1_wab":0.304,
     "t2_wab":-0.728
+  },
+  {
+    "game_key":"2026-11-10_Bowdoin_Endicott",
+    "date":"2026-11-10",
+    "team_1":"Endicott",
+    "team_1_id":"endicott",
+    "team_1_hfa":-1.0,
+    "team_2":"Bowdoin",
+    "team_2_id":"bowdoin",
+    "team_1_score":71.0,
+    "team_2_score":66.0,
+    "pred_score_1":74.381,
+    "pred_score_2":72.054,
+    "error":2.673,
+    "t1_wab":0.232,
+    "t2_wab":-0.754
   },
   {
     "game_key":"2026-11-10_Carlow_Geneva",
@@ -4108,7 +4108,7 @@
     "pred_score_1":77.878,
     "pred_score_2":66.838,
     "error":5.04,
-    "t1_wab":0.008,
+    "t1_wab":0.012,
     "t2_wab":-0.941
   },
   {
@@ -4141,7 +4141,7 @@
     "pred_score_2":70.223,
     "error":14.062,
     "t1_wab":0.051,
-    "t2_wab":-0.908
+    "t2_wab":-0.909
   },
   {
     "game_key":"2026-11-10_Hanover_Spalding",
@@ -4173,7 +4173,7 @@
     "pred_score_2":73.065,
     "error":11.352,
     "t1_wab":0.091,
-    "t2_wab":-0.599
+    "t2_wab":-0.597
   },
   {
     "game_key":"2026-11-11_Lehman_UMSV",
@@ -4189,23 +4189,23 @@
     "pred_score_2":66.769,
     "error":4.457,
     "t1_wab":0.011,
-    "t2_wab":-0.908
+    "t2_wab":-0.909
   },
   {
-    "game_key":"2026-11-11_Immaculata_Penn St. Brandywine",
+    "game_key":"2026-11-11_Illinois Tech_Wheaton (IL)",
     "date":"2026-11-11",
-    "team_1":"Immaculata",
-    "team_1_id":"immaculata",
+    "team_1":"Wheaton (Ill.)",
+    "team_1_id":"wheaton-ill",
     "team_1_hfa":1.0,
-    "team_2":"Penn State-Brandywine",
-    "team_2_id":"penn-state-brandywine",
-    "team_1_score":80.0,
-    "team_2_score":78.0,
-    "pred_score_1":70.847,
-    "pred_score_2":72.212,
-    "error":3.366,
-    "t1_wab":0.023,
-    "t2_wab":-0.962
+    "team_2":"Illinois Tech",
+    "team_2_id":"illinois-tech",
+    "team_1_score":104.0,
+    "team_2_score":60.0,
+    "pred_score_1":90.204,
+    "pred_score_2":63.906,
+    "error":17.702,
+    "t1_wab":0.016,
+    "t2_wab":-0.307
   },
   {
     "game_key":"2026-11-11_LeTourneau_Mary Hardin-Baylor",
@@ -4252,8 +4252,8 @@
     "pred_score_1":80.37,
     "pred_score_2":73.818,
     "error":8.448,
-    "t1_wab":0.054,
-    "t2_wab":-0.874
+    "t1_wab":0.063,
+    "t2_wab":-0.87
   },
   {
     "game_key":"2026-11-11_Keuka_SUNY Morrisville",
@@ -4268,56 +4268,56 @@
     "pred_score_1":78.336,
     "pred_score_2":77.329,
     "error":6.993,
-    "t1_wab":0.027,
+    "t1_wab":0.029,
     "t2_wab":-0.952
   },
   {
-    "game_key":"2026-11-11_Illinois Tech_Wheaton (IL)",
+    "game_key":"2026-11-11_Immaculata_Penn St. Brandywine",
     "date":"2026-11-11",
-    "team_1":"Wheaton (Ill.)",
-    "team_1_id":"wheaton-ill",
+    "team_1":"Immaculata",
+    "team_1_id":"immaculata",
     "team_1_hfa":1.0,
-    "team_2":"Illinois Tech",
-    "team_2_id":"illinois-tech",
-    "team_1_score":104.0,
-    "team_2_score":60.0,
-    "pred_score_1":90.204,
-    "pred_score_2":63.906,
-    "error":17.702,
+    "team_2":"Penn State-Brandywine",
+    "team_2_id":"penn-state-brandywine",
+    "team_1_score":80.0,
+    "team_2_score":78.0,
+    "pred_score_1":70.847,
+    "pred_score_2":72.212,
+    "error":3.366,
+    "t1_wab":0.023,
+    "t2_wab":-0.962
+  },
+  {
+    "game_key":"2026-11-11_Husson_St. Joseph's (ME)",
+    "date":"2026-11-11",
+    "team_1":"St. Joseph's (Maine)",
+    "team_1_id":"st-joseph-s-maine",
+    "team_1_hfa":1.0,
+    "team_2":"Husson",
+    "team_2_id":"husson",
+    "team_1_score":108.0,
+    "team_2_score":98.0,
+    "pred_score_1":90.368,
+    "pred_score_2":71.759,
+    "error":8.609,
+    "t1_wab":0.053,
+    "t2_wab":-0.553
+  },
+  {
+    "game_key":"2026-11-11_Eureka_Knox",
+    "date":"2026-11-11",
+    "team_1":"Knox",
+    "team_1_id":"knox",
+    "team_1_hfa":-1.0,
+    "team_2":"Eureka",
+    "team_2_id":"eureka",
+    "team_1_score":74.0,
+    "team_2_score":65.0,
+    "pred_score_1":76.68,
+    "pred_score_2":69.813,
+    "error":2.133,
     "t1_wab":0.016,
-    "t2_wab":-0.307
-  },
-  {
-    "game_key":"2026-11-11_Franciscan_Mount Union",
-    "date":"2026-11-11",
-    "team_1":"Franciscan (Ohio)",
-    "team_1_id":"franciscan-ohio",
-    "team_1_hfa":1.0,
-    "team_2":"Mount Union",
-    "team_2_id":"mount-union",
-    "team_1_score":82.0,
-    "team_2_score":69.0,
-    "pred_score_1":73.021,
-    "pred_score_2":80.506,
-    "error":20.485,
-    "t1_wab":0.425,
-    "t2_wab":-0.636
-  },
-  {
-    "game_key":"2026-11-11_Hunter_Old Westbury",
-    "date":"2026-11-11",
-    "team_1":"SUNY-Old Westbury",
-    "team_1_id":"suny-old-westbury",
-    "team_1_hfa":1.0,
-    "team_2":"Hunter",
-    "team_2_id":"hunter",
-    "team_1_score":70.0,
-    "team_2_score":56.0,
-    "pred_score_1":73.2,
-    "pred_score_2":63.356,
-    "error":4.156,
-    "t1_wab":0.007,
-    "t2_wab":-0.948
+    "t2_wab":-0.954
   },
   {
     "game_key":"2026-11-11_Hobart_St. John Fisher",
@@ -4332,8 +4332,8 @@
     "pred_score_1":70.489,
     "pred_score_2":78.453,
     "error":12.964,
-    "t1_wab":0.252,
-    "t2_wab":-0.862
+    "t1_wab":0.253,
+    "t2_wab":-0.86
   },
   {
     "game_key":"2026-11-11_Guilford_N.C. Wesleyan",
@@ -4365,7 +4365,7 @@
     "pred_score_2":74.786,
     "error":24.67,
     "t1_wab":0.013,
-    "t2_wab":-0.692
+    "t2_wab":-0.693
   },
   {
     "game_key":"2026-11-11_Fredonia_Hilbert",
@@ -4381,23 +4381,23 @@
     "pred_score_2":69.704,
     "error":1.43,
     "t1_wab":0.009,
-    "t2_wab":-0.844
+    "t2_wab":-0.843
   },
   {
-    "game_key":"2026-11-11_Lynchburg_Pfeiffer",
+    "game_key":"2026-11-11_Franciscan_Mount Union",
     "date":"2026-11-11",
-    "team_1":"Lynchburg",
-    "team_1_id":"lynchburg",
-    "team_1_hfa":-1.0,
-    "team_2":"Pfeiffer",
-    "team_2_id":"pfeiffer",
-    "team_1_score":95.0,
-    "team_2_score":65.0,
-    "pred_score_1":87.111,
-    "pred_score_2":78.173,
-    "error":21.061,
-    "t1_wab":0.1,
-    "t2_wab":-0.612
+    "team_1":"Franciscan (Ohio)",
+    "team_1_id":"franciscan-ohio",
+    "team_1_hfa":1.0,
+    "team_2":"Mount Union",
+    "team_2_id":"mount-union",
+    "team_1_score":82.0,
+    "team_2_score":69.0,
+    "pred_score_1":73.021,
+    "pred_score_2":80.506,
+    "error":20.485,
+    "t1_wab":0.425,
+    "t2_wab":-0.637
   },
   {
     "game_key":"2026-11-11_Fitchburg St._Gordon",
@@ -4416,36 +4416,36 @@
     "t2_wab":-0.972
   },
   {
-    "game_key":"2026-11-11_Eureka_Knox",
+    "game_key":"2026-11-11_Lynchburg_Pfeiffer",
     "date":"2026-11-11",
-    "team_1":"Knox",
-    "team_1_id":"knox",
+    "team_1":"Lynchburg",
+    "team_1_id":"lynchburg",
     "team_1_hfa":-1.0,
-    "team_2":"Eureka",
-    "team_2_id":"eureka",
-    "team_1_score":74.0,
+    "team_2":"Pfeiffer",
+    "team_2_id":"pfeiffer",
+    "team_1_score":95.0,
     "team_2_score":65.0,
-    "pred_score_1":76.68,
-    "pred_score_2":69.813,
-    "error":2.133,
-    "t1_wab":0.016,
-    "t2_wab":-0.954
+    "pred_score_1":87.111,
+    "pred_score_2":78.173,
+    "error":21.061,
+    "t1_wab":0.1,
+    "t2_wab":-0.612
   },
   {
-    "game_key":"2026-11-11_Husson_St. Joseph's (ME)",
+    "game_key":"2026-11-11_Hunter_Old Westbury",
     "date":"2026-11-11",
-    "team_1":"St. Joseph's (Maine)",
-    "team_1_id":"st-joseph-s-maine",
+    "team_1":"SUNY-Old Westbury",
+    "team_1_id":"suny-old-westbury",
     "team_1_hfa":1.0,
-    "team_2":"Husson",
-    "team_2_id":"husson",
-    "team_1_score":108.0,
-    "team_2_score":98.0,
-    "pred_score_1":90.368,
-    "pred_score_2":71.759,
-    "error":8.609,
-    "t1_wab":0.053,
-    "t2_wab":-0.553
+    "team_2":"Hunter",
+    "team_2_id":"hunter",
+    "team_1_score":70.0,
+    "team_2_score":56.0,
+    "pred_score_1":73.2,
+    "pred_score_2":63.356,
+    "error":4.156,
+    "t1_wab":0.007,
+    "t2_wab":-0.947
   },
   {
     "game_key":"2026-11-11_Manhattanville_WestConn",
@@ -4464,20 +4464,20 @@
     "t2_wab":-0.595
   },
   {
-    "game_key":"2026-11-11_Nichols_Rhode Island Col.",
+    "game_key":"2026-11-11_St. Olaf_Wis.-Stevens Point",
     "date":"2026-11-11",
-    "team_1":"Nichols",
-    "team_1_id":"nichols",
-    "team_1_hfa":-1.0,
-    "team_2":"Rhode Island College",
-    "team_2_id":"rhode-island-college",
-    "team_1_score":67.0,
-    "team_2_score":61.0,
-    "pred_score_1":73.976,
-    "pred_score_2":78.925,
-    "error":10.949,
-    "t1_wab":0.189,
-    "t2_wab":-0.918
+    "team_1":"UW-Stevens Point",
+    "team_1_id":"uw-stevens-point",
+    "team_1_hfa":1.0,
+    "team_2":"St. Olaf",
+    "team_2_id":"st-olaf",
+    "team_1_score":64.0,
+    "team_2_score":49.0,
+    "pred_score_1":81.302,
+    "pred_score_2":64.872,
+    "error":1.43,
+    "t1_wab":0.068,
+    "t2_wab":-0.282
   },
   {
     "game_key":"2026-11-11_Messiah_Saint Francis",
@@ -4508,40 +4508,8 @@
     "pred_score_1":78.729,
     "pred_score_2":77.43,
     "error":11.701,
-    "t1_wab":0.141,
+    "t1_wab":0.14,
     "t2_wab":-0.909
-  },
-  {
-    "game_key":"2026-11-11_St. Olaf_Wis.-Stevens Point",
-    "date":"2026-11-11",
-    "team_1":"UW-Stevens Point",
-    "team_1_id":"uw-stevens-point",
-    "team_1_hfa":1.0,
-    "team_2":"St. Olaf",
-    "team_2_id":"st-olaf",
-    "team_1_score":64.0,
-    "team_2_score":49.0,
-    "pred_score_1":81.302,
-    "pred_score_2":64.872,
-    "error":1.43,
-    "t1_wab":0.068,
-    "t2_wab":-0.282
-  },
-  {
-    "game_key":"2026-11-11_Springfield_Western New Eng.",
-    "date":"2026-11-11",
-    "team_1":"Western New England",
-    "team_1_id":"western-new-england",
-    "team_1_hfa":-1.0,
-    "team_2":"Springfield",
-    "team_2_id":"springfield",
-    "team_1_score":81.0,
-    "team_2_score":48.0,
-    "pred_score_1":68.547,
-    "pred_score_2":63.608,
-    "error":28.061,
-    "t1_wab":0.176,
-    "t2_wab":-0.499
   },
   {
     "game_key":"2026-11-11_Tufts_Wheaton (MA)",
@@ -4560,6 +4528,38 @@
     "t2_wab":-0.247
   },
   {
+    "game_key":"2026-11-11_Wilmington (OH)_Wittenberg",
+    "date":"2026-11-11",
+    "team_1":"Wilmington",
+    "team_1_id":"wilmington",
+    "team_1_hfa":1.0,
+    "team_2":"Wittenberg",
+    "team_2_id":"wittenberg",
+    "team_1_score":81.0,
+    "team_2_score":70.0,
+    "pred_score_1":71.333,
+    "pred_score_2":72.933,
+    "error":12.599,
+    "t1_wab":0.101,
+    "t2_wab":-0.784
+  },
+  {
+    "game_key":"2026-11-11_Springfield_Western New Eng.",
+    "date":"2026-11-11",
+    "team_1":"Western New England",
+    "team_1_id":"western-new-england",
+    "team_1_hfa":-1.0,
+    "team_2":"Springfield",
+    "team_2_id":"springfield",
+    "team_1_score":81.0,
+    "team_2_score":48.0,
+    "pred_score_1":68.547,
+    "pred_score_2":63.608,
+    "error":28.061,
+    "t1_wab":0.176,
+    "t2_wab":-0.499
+  },
+  {
     "game_key":"2026-11-11_Southern Me._U New England",
     "date":"2026-11-11",
     "team_1":"Southern Maine",
@@ -4573,7 +4573,7 @@
     "pred_score_2":75.043,
     "error":5.071,
     "t1_wab":0.019,
-    "t2_wab":-0.781
+    "t2_wab":-0.78
   },
   {
     "game_key":"2026-11-11_Salve Regina_UMass Dartmouth",
@@ -4637,7 +4637,7 @@
     "pred_score_2":67.528,
     "error":3.417,
     "t1_wab":0.03,
-    "t2_wab":-0.628
+    "t2_wab":-0.629
   },
   {
     "game_key":"2026-11-11_Penn College_Penn St.-Altoona",
@@ -4704,6 +4704,22 @@
     "t2_wab":-0.681
   },
   {
+    "game_key":"2026-11-11_Nichols_Rhode Island Col.",
+    "date":"2026-11-11",
+    "team_1":"Nichols",
+    "team_1_id":"nichols",
+    "team_1_hfa":-1.0,
+    "team_2":"Rhode Island College",
+    "team_2_id":"rhode-island-college",
+    "team_1_score":67.0,
+    "team_2_score":61.0,
+    "pred_score_1":73.976,
+    "pred_score_2":78.925,
+    "error":10.949,
+    "t1_wab":0.189,
+    "t2_wab":-0.918
+  },
+  {
     "game_key":"2026-11-11_Nazareth_RIT",
     "date":"2026-11-11",
     "team_1":"Rochester Tech",
@@ -4748,24 +4764,8 @@
     "pred_score_1":71.979,
     "pred_score_2":71.719,
     "error":7.74,
-    "t1_wab":0.103,
-    "t2_wab":-0.917
-  },
-  {
-    "game_key":"2026-11-11_Wilmington (OH)_Wittenberg",
-    "date":"2026-11-11",
-    "team_1":"Wilmington",
-    "team_1_id":"wilmington",
-    "team_1_hfa":1.0,
-    "team_2":"Wittenberg",
-    "team_2_id":"wittenberg",
-    "team_1_score":81.0,
-    "team_2_score":70.0,
-    "pred_score_1":71.333,
-    "pred_score_2":72.933,
-    "error":12.599,
-    "t1_wab":0.101,
-    "t2_wab":-0.784
+    "t1_wab":0.142,
+    "t2_wab":-0.918
   },
   {
     "game_key":"2026-11-11_Mary Baldwin_Regent",
@@ -4797,23 +4797,23 @@
     "pred_score_2":71.139,
     "error":17.936,
     "t1_wab":0.02,
-    "t2_wab":-0.923
+    "t2_wab":-0.922
   },
   {
-    "game_key":"2026-11-11_Carnegie Mellon_Muskingum",
+    "game_key":"2026-11-11_Anderson (IN)_Wabash",
     "date":"2026-11-11",
-    "team_1":"Carnegie Mellon",
-    "team_1_id":"carnegie-mellon",
-    "team_1_hfa":-1.0,
-    "team_2":"Muskingum",
-    "team_2_id":"muskingum",
-    "team_1_score":81.0,
-    "team_2_score":70.0,
-    "pred_score_1":74.608,
-    "pred_score_2":76.126,
-    "error":12.519,
-    "t1_wab":0.406,
-    "t2_wab":-0.618
+    "team_1":"Wabash",
+    "team_1_id":"wabash",
+    "team_1_hfa":1.0,
+    "team_2":"Anderson",
+    "team_2_id":"anderson",
+    "team_1_score":59.0,
+    "team_2_score":58.0,
+    "pred_score_1":84.508,
+    "pred_score_2":81.311,
+    "error":2.197,
+    "t1_wab":0.194,
+    "t2_wab":-0.518
   },
   {
     "game_key":"2026-11-11_Eastern_Rowan",
@@ -4844,7 +4844,7 @@
     "pred_score_1":74.096,
     "pred_score_2":70.318,
     "error":12.222,
-    "t1_wab":0.111,
+    "t1_wab":0.112,
     "t2_wab":-0.761
   },
   {
@@ -4876,8 +4876,8 @@
     "pred_score_1":83.959,
     "pred_score_2":77.903,
     "error":4.944,
-    "t1_wab":0.269,
-    "t2_wab":-0.728
+    "t1_wab":0.314,
+    "t2_wab":-0.726
   },
   {
     "game_key":"2026-11-11_Brooklyn_St. Joseph's (L.I.)",
@@ -4893,7 +4893,7 @@
     "pred_score_2":61.062,
     "error":7.782,
     "t1_wab":0.016,
-    "t2_wab":-0.903
+    "t2_wab":-0.899
   },
   {
     "game_key":"2026-11-11_Bridgewater St._Rivier",
@@ -4944,20 +4944,20 @@
     "t2_wab":-0.711
   },
   {
-    "game_key":"2026-11-11_Carthage_Lake Forest",
+    "game_key":"2026-11-11_Carnegie Mellon_Muskingum",
     "date":"2026-11-11",
-    "team_1":"Carthage",
-    "team_1_id":"carthage",
+    "team_1":"Carnegie Mellon",
+    "team_1_id":"carnegie-mellon",
     "team_1_hfa":-1.0,
-    "team_2":"Lake Forest",
-    "team_2_id":"lake-forest",
-    "team_1_score":82.0,
-    "team_2_score":63.0,
-    "pred_score_1":85.952,
-    "pred_score_2":81.015,
-    "error":14.063,
-    "t1_wab":0.11,
-    "t2_wab":-0.475
+    "team_2":"Muskingum",
+    "team_2_id":"muskingum",
+    "team_1_score":81.0,
+    "team_2_score":70.0,
+    "pred_score_1":74.608,
+    "pred_score_2":76.126,
+    "error":12.519,
+    "t1_wab":0.403,
+    "t2_wab":-0.665
   },
   {
     "game_key":"2026-11-11_Baldwin Wallace_Chatham",
@@ -4972,7 +4972,7 @@
     "pred_score_1":76.073,
     "pred_score_2":75.297,
     "error":25.223,
-    "t1_wab":0.136,
+    "t1_wab":0.135,
     "t2_wab":-0.622
   },
   {
@@ -5036,8 +5036,8 @@
     "pred_score_1":73.72,
     "pred_score_2":76.376,
     "error":26.656,
-    "t1_wab":0.049,
-    "t2_wab":-0.809
+    "t1_wab":0.065,
+    "t2_wab":-0.805
   },
   {
     "game_key":"2026-11-11_Alfred St._Houghton",
@@ -5068,7 +5068,7 @@
     "pred_score_1":86.61,
     "pred_score_2":72.055,
     "error":9.555,
-    "t1_wab":0.013,
+    "t1_wab":0.014,
     "t2_wab":-0.956
   },
   {
@@ -5116,24 +5116,24 @@
     "pred_score_1":67.205,
     "pred_score_2":73.628,
     "error":7.422,
-    "t1_wab":0.057,
-    "t2_wab":-0.984
+    "t1_wab":0.038,
+    "t2_wab":-0.988
   },
   {
-    "game_key":"2026-11-11_Anderson (IN)_Wabash",
+    "game_key":"2026-11-11_Carthage_Lake Forest",
     "date":"2026-11-11",
-    "team_1":"Wabash",
-    "team_1_id":"wabash",
-    "team_1_hfa":1.0,
-    "team_2":"Anderson",
-    "team_2_id":"anderson",
-    "team_1_score":59.0,
-    "team_2_score":58.0,
-    "pred_score_1":84.508,
-    "pred_score_2":81.311,
-    "error":2.197,
-    "t1_wab":0.194,
-    "t2_wab":-0.518
+    "team_1":"Carthage",
+    "team_1_id":"carthage",
+    "team_1_hfa":-1.0,
+    "team_2":"Lake Forest",
+    "team_2_id":"lake-forest",
+    "team_1_score":82.0,
+    "team_2_score":63.0,
+    "pred_score_1":85.952,
+    "pred_score_2":81.015,
+    "error":14.063,
+    "t1_wab":0.11,
+    "t2_wab":-0.475
   },
   {
     "game_key":"2026-11-11_Chris. Newport_Randolph-Macon",
@@ -5149,7 +5149,7 @@
     "pred_score_2":62.588,
     "error":21.363,
     "t1_wab":0.572,
-    "t2_wab":-0.109
+    "t2_wab":-0.11
   },
   {
     "game_key":"2026-11-11_Eastern Conn. St._JWU (Providence)",
@@ -5168,22 +5168,6 @@
     "t2_wab":-0.93
   },
   {
-    "game_key":"2026-11-11_Centre_Transylvania",
-    "date":"2026-11-11",
-    "team_1":"Transylvania",
-    "team_1_id":"transylvania",
-    "team_1_hfa":-1.0,
-    "team_2":"Centre",
-    "team_2_id":"centre",
-    "team_1_score":82.0,
-    "team_2_score":76.0,
-    "pred_score_1":73.893,
-    "pred_score_2":71.631,
-    "error":3.738,
-    "t1_wab":0.198,
-    "t2_wab":-0.667
-  },
-  {
     "game_key":"2026-11-11_East. Mennonite_Southern Va.",
     "date":"2026-11-11",
     "team_1":"Southern Virginia",
@@ -5196,7 +5180,7 @@
     "pred_score_1":72.958,
     "pred_score_2":76.839,
     "error":9.881,
-    "t1_wab":0.196,
+    "t1_wab":0.195,
     "t2_wab":-0.905
   },
   {
@@ -5244,8 +5228,8 @@
     "pred_score_1":83.71,
     "pred_score_2":83.781,
     "error":10.071,
-    "t1_wab":0.297,
-    "t2_wab":-0.609
+    "t1_wab":0.294,
+    "t2_wab":-0.61
   },
   {
     "game_key":"2026-11-11_Dickinson_Lycoming",
@@ -5261,7 +5245,55 @@
     "pred_score_2":67.832,
     "error":24.187,
     "t1_wab":0.073,
-    "t2_wab":-0.899
+    "t2_wab":-0.912
+  },
+  {
+    "game_key":"2026-11-11_Delaware Valley_Penn St.-Abington",
+    "date":"2026-11-11",
+    "team_1":"Delaware Valley",
+    "team_1_id":"delaware-valley",
+    "team_1_hfa":1.0,
+    "team_2":"Penn State-Abington",
+    "team_2_id":"penn-state-abington",
+    "team_1_score":83.0,
+    "team_2_score":57.0,
+    "pred_score_1":81.594,
+    "pred_score_2":70.798,
+    "error":15.204,
+    "t1_wab":0.017,
+    "t2_wab":-0.816
+  },
+  {
+    "game_key":"2026-11-11_Centre_Transylvania",
+    "date":"2026-11-11",
+    "team_1":"Transylvania",
+    "team_1_id":"transylvania",
+    "team_1_hfa":-1.0,
+    "team_2":"Centre",
+    "team_2_id":"centre",
+    "team_1_score":82.0,
+    "team_2_score":76.0,
+    "pred_score_1":73.893,
+    "pred_score_2":71.631,
+    "error":3.738,
+    "t1_wab":0.198,
+    "t2_wab":-0.667
+  },
+  {
+    "game_key":"2026-11-11_Curry_New England Col.",
+    "date":"2026-11-11",
+    "team_1":"Curry",
+    "team_1_id":"curry",
+    "team_1_hfa":-1.0,
+    "team_2":"New England College",
+    "team_2_id":"new-england-college",
+    "team_1_score":69.0,
+    "team_2_score":67.0,
+    "pred_score_1":75.095,
+    "pred_score_2":76.195,
+    "error":3.1,
+    "t1_wab":0.03,
+    "t2_wab":-0.986
   },
   {
     "game_key":"2026-11-11_DePauw_Elmhurst",
@@ -5278,38 +5310,6 @@
     "error":7.076,
     "t1_wab":0.299,
     "t2_wab":-0.282
-  },
-  {
-    "game_key":"2026-11-11_Delaware Valley_Penn St.-Abington",
-    "date":"2026-11-11",
-    "team_1":"Delaware Valley",
-    "team_1_id":"delaware-valley",
-    "team_1_hfa":1.0,
-    "team_2":"Penn State-Abington",
-    "team_2_id":"penn-state-abington",
-    "team_1_score":83.0,
-    "team_2_score":57.0,
-    "pred_score_1":81.594,
-    "pred_score_2":70.798,
-    "error":15.204,
-    "t1_wab":0.017,
-    "t2_wab":-0.817
-  },
-  {
-    "game_key":"2026-11-11_Crown (MN)_Hamline",
-    "date":"2026-11-11",
-    "team_1":"Hamline",
-    "team_1_id":"hamline",
-    "team_1_hfa":-1.0,
-    "team_2":"Crown",
-    "team_2_id":"crown",
-    "team_1_score":81.0,
-    "team_2_score":59.0,
-    "pred_score_1":73.725,
-    "pred_score_2":64.985,
-    "error":13.261,
-    "t1_wab":0.083,
-    "t2_wab":-0.742
   },
   {
     "game_key":"2026-11-11_Concordia-M'head_Minn.-Morris",
@@ -5356,8 +5356,8 @@
     "pred_score_1":76.534,
     "pred_score_2":81.79,
     "error":16.256,
-    "t1_wab":0.024,
-    "t2_wab":-0.988
+    "t1_wab":0.023,
+    "t2_wab":-0.991
   },
   {
     "game_key":"2026-11-11_Coe_Saint Mary's (MN)",
@@ -5389,7 +5389,7 @@
     "pred_score_2":70.156,
     "error":6.296,
     "t1_wab":0.028,
-    "t2_wab":-0.882
+    "t2_wab":-0.884
   },
   {
     "game_key":"2026-11-11_Clark (MA)_Roger Williams",
@@ -5421,39 +5421,23 @@
     "pred_score_2":63.683,
     "error":19.37,
     "t1_wab":0.169,
-    "t2_wab":-0.13
+    "t2_wab":-0.131
   },
   {
-    "game_key":"2026-11-11_Curry_New England Col.",
+    "game_key":"2026-11-11_Crown (MN)_Hamline",
     "date":"2026-11-11",
-    "team_1":"Curry",
-    "team_1_id":"curry",
+    "team_1":"Hamline",
+    "team_1_id":"hamline",
     "team_1_hfa":-1.0,
-    "team_2":"New England College",
-    "team_2_id":"new-england-college",
-    "team_1_score":69.0,
-    "team_2_score":67.0,
-    "pred_score_1":75.095,
-    "pred_score_2":76.195,
-    "error":3.1,
-    "t1_wab":0.023,
-    "t2_wab":-0.985
-  },
-  {
-    "game_key":"2026-11-12_Me.-Farmington_UMass Boston",
-    "date":"2026-11-12",
-    "team_1":"Mass-Boston",
-    "team_1_id":"mass-boston",
-    "team_1_hfa":1.0,
-    "team_2":"Maine-Farmington",
-    "team_2_id":"maine-farmington",
-    "team_1_score":76.0,
-    "team_2_score":73.0,
-    "pred_score_1":72.72,
-    "pred_score_2":78.3,
-    "error":8.579,
-    "t1_wab":0.152,
-    "t2_wab":-0.864
+    "team_2":"Crown",
+    "team_2_id":"crown",
+    "team_1_score":81.0,
+    "team_2_score":59.0,
+    "pred_score_1":73.725,
+    "pred_score_2":64.985,
+    "error":13.261,
+    "t1_wab":0.083,
+    "t2_wab":-0.742
   },
   {
     "game_key":"2026-11-12_Southwestern (TX)_Texas Lutheran",
@@ -5469,7 +5453,7 @@
     "pred_score_2":69.816,
     "error":6.071,
     "t1_wab":0.038,
-    "t2_wab":-0.831
+    "t2_wab":-0.832
   },
   {
     "game_key":"2026-11-12_SUNY New Paltz_Utica",
@@ -5486,6 +5470,22 @@
     "error":12.573,
     "t1_wab":0.16,
     "t2_wab":-0.861
+  },
+  {
+    "game_key":"2026-11-12_Me.-Farmington_UMass Boston",
+    "date":"2026-11-12",
+    "team_1":"Mass-Boston",
+    "team_1_id":"mass-boston",
+    "team_1_hfa":1.0,
+    "team_2":"Maine-Farmington",
+    "team_2_id":"maine-farmington",
+    "team_1_score":76.0,
+    "team_2_score":73.0,
+    "pred_score_1":72.72,
+    "pred_score_2":78.3,
+    "error":8.579,
+    "t1_wab":0.152,
+    "t2_wab":-0.864
   },
   {
     "game_key":"2026-11-12_Mitchell_Purchase",
@@ -5517,7 +5517,7 @@
     "pred_score_2":71.089,
     "error":12.409,
     "t1_wab":0.003,
-    "t2_wab":-0.971
+    "t2_wab":-0.973
   },
   {
     "game_key":"2026-11-12_Concordia (TX)_McMurry",
@@ -5549,7 +5549,7 @@
     "pred_score_2":82.789,
     "error":19.353,
     "t1_wab":0.029,
-    "t2_wab":-0.983
+    "t2_wab":-0.982
   },
   {
     "game_key":"2026-11-12_Alvernia_Rutgers-Camden",
@@ -5564,8 +5564,8 @@
     "pred_score_1":68.627,
     "pred_score_2":75.402,
     "error":18.774,
-    "t1_wab":0.112,
-    "t2_wab":-0.877
+    "t1_wab":0.094,
+    "t2_wab":-0.881
   },
   {
     "game_key":"2026-11-12_Hartford_Springfield",
@@ -5596,24 +5596,24 @@
     "pred_score_1":87.595,
     "pred_score_2":64.045,
     "error":12.55,
-    "t1_wab":0.018,
-    "t2_wab":-0.76
+    "t1_wab":0.022,
+    "t2_wab":-0.758
   },
   {
-    "game_key":"2026-11-13_Heidelberg_Wash. & Jeff.",
+    "game_key":"2026-11-13_WPI_Worcester St.",
     "date":"2026-11-13",
-    "team_1":"Heidelberg",
-    "team_1_id":"heidelberg",
+    "team_1":"WPI",
+    "team_1_id":"wpi",
     "team_1_hfa":1.0,
-    "team_2":"Washington and Jefferson",
-    "team_2_id":"washington-and-jefferson",
-    "team_1_score":71.0,
-    "team_2_score":65.0,
-    "pred_score_1":81.974,
-    "pred_score_2":77.136,
-    "error":1.162,
-    "t1_wab":0.081,
-    "t2_wab":-0.731
+    "team_2":"Worcester State",
+    "team_2_id":"worcester-state",
+    "team_1_score":76.0,
+    "team_2_score":61.0,
+    "pred_score_1":77.648,
+    "pred_score_2":62.199,
+    "error":0.448,
+    "t1_wab":0.091,
+    "t2_wab":-0.458
   },
   {
     "game_key":"2026-11-13_Hendrix_Rhodes",
@@ -5693,7 +5693,7 @@
     "pred_score_2":76.104,
     "error":8.464,
     "t1_wab":0.165,
-    "t2_wab":-0.796
+    "t2_wab":-0.805
   },
   {
     "game_key":"2026-11-13_McDaniel_Shenandoah",
@@ -5708,7 +5708,7 @@
     "pred_score_1":66.3,
     "pred_score_2":59.813,
     "error":10.513,
-    "t1_wab":0.034,
+    "t1_wab":0.035,
     "t2_wab":-0.806
   },
   {
@@ -5724,8 +5724,8 @@
     "pred_score_1":76.891,
     "pred_score_2":84.668,
     "error":16.777,
-    "t1_wab":0.118,
-    "t2_wab":-0.818
+    "t1_wab":0.117,
+    "t2_wab":-0.814
   },
   {
     "game_key":"2026-11-13_Lakeland_Northwestern-St. Paul",
@@ -5788,7 +5788,7 @@
     "pred_score_1":79.049,
     "pred_score_2":73.534,
     "error":6.486,
-    "t1_wab":0.074,
+    "t1_wab":0.087,
     "t2_wab":-0.688
   },
   {
@@ -5837,7 +5837,7 @@
     "pred_score_2":71.755,
     "error":10.884,
     "t1_wab":0.067,
-    "t2_wab":-0.527
+    "t2_wab":-0.528
   },
   {
     "game_key":"2026-11-13_Minn.-Morris_St. Scholastica",
@@ -5869,7 +5869,7 @@
     "pred_score_2":71.824,
     "error":7.201,
     "t1_wab":0.013,
-    "t2_wab":-0.812
+    "t2_wab":-0.811
   },
   {
     "game_key":"2026-11-13_Haverford_Widener",
@@ -5885,7 +5885,7 @@
     "pred_score_2":72.156,
     "error":3.799,
     "t1_wab":0.116,
-    "t2_wab":-0.762
+    "t2_wab":-0.763
   },
   {
     "game_key":"2026-11-13_UMSV_York (NY)",
@@ -5900,23 +5900,23 @@
     "pred_score_1":76.717,
     "pred_score_2":75.284,
     "error":2.567,
-    "t1_wab":0.009,
+    "t1_wab":0.01,
     "t2_wab":-0.978
   },
   {
-    "game_key":"2026-11-13_WPI_Worcester St.",
+    "game_key":"2026-11-13_Trine_Wis.-Eau Claire",
     "date":"2026-11-13",
-    "team_1":"WPI",
-    "team_1_id":"wpi",
+    "team_1":"Trine",
+    "team_1_id":"trine",
     "team_1_hfa":1.0,
-    "team_2":"Worcester State",
-    "team_2_id":"worcester-state",
-    "team_1_score":76.0,
-    "team_2_score":61.0,
-    "pred_score_1":77.648,
-    "pred_score_2":62.199,
-    "error":0.448,
-    "t1_wab":0.091,
+    "team_2":"UW-Eau Claire",
+    "team_2_id":"uw-eau-claire",
+    "team_1_score":86.0,
+    "team_2_score":65.0,
+    "pred_score_1":76.766,
+    "pred_score_2":71.133,
+    "error":15.367,
+    "t1_wab":0.264,
     "t2_wab":-0.458
   },
   {
@@ -5996,7 +5996,7 @@
     "pred_score_1":54.793,
     "pred_score_2":62.168,
     "error":8.375,
-    "t1_wab":0.168,
+    "t1_wab":0.171,
     "t2_wab":-0.875
   },
   {
@@ -6013,7 +6013,7 @@
     "pred_score_2":65.596,
     "error":1.104,
     "t1_wab":0.015,
-    "t2_wab":-0.915
+    "t2_wab":-0.921
   },
   {
     "game_key":"2026-11-13_Pitt.-Greensburg_Roanoke",
@@ -6077,7 +6077,7 @@
     "pred_score_2":75.09,
     "error":10.269,
     "t1_wab":0.028,
-    "t2_wab":-0.898
+    "t2_wab":-0.899
   },
   {
     "game_key":"2026-11-13_Neb. Wesleyan_Occidental",
@@ -6092,8 +6092,8 @@
     "pred_score_1":70.315,
     "pred_score_2":75.347,
     "error":13.032,
-    "t1_wab":0.402,
-    "t2_wab":-0.793
+    "t1_wab":0.4,
+    "t2_wab":-0.792
   },
   {
     "game_key":"2026-11-13_Ramapo_Westfield St.",
@@ -6112,36 +6112,36 @@
     "t2_wab":-0.887
   },
   {
-    "game_key":"2026-11-13_Trine_Wis.-Eau Claire",
+    "game_key":"2026-11-13_Hanover_Wabash",
     "date":"2026-11-13",
-    "team_1":"Trine",
-    "team_1_id":"trine",
+    "team_1":"Wabash",
+    "team_1_id":"wabash",
     "team_1_hfa":1.0,
-    "team_2":"UW-Eau Claire",
-    "team_2_id":"uw-eau-claire",
-    "team_1_score":86.0,
-    "team_2_score":65.0,
-    "pred_score_1":76.766,
-    "pred_score_2":71.133,
-    "error":15.367,
-    "t1_wab":0.264,
-    "t2_wab":-0.458
+    "team_2":"Hanover",
+    "team_2_id":"hanover",
+    "team_1_score":72.0,
+    "team_2_score":63.0,
+    "pred_score_1":75.974,
+    "pred_score_2":71.669,
+    "error":4.695,
+    "t1_wab":0.197,
+    "t2_wab":-0.518
   },
   {
-    "game_key":"2026-11-13_Gwynedd Mercy_Ursinus",
+    "game_key":"2026-11-13_Heidelberg_Wash. & Jeff.",
     "date":"2026-11-13",
-    "team_1":"Ursinus",
-    "team_1_id":"ursinus",
-    "team_1_hfa":0.0,
-    "team_2":"Gwynedd Mercy",
-    "team_2_id":"gwynedd-mercy",
-    "team_1_score":90.0,
-    "team_2_score":61.0,
-    "pred_score_1":87.984,
-    "pred_score_2":73.041,
-    "error":14.057,
-    "t1_wab":0.034,
-    "t2_wab":-0.707
+    "team_1":"Heidelberg",
+    "team_1_id":"heidelberg",
+    "team_1_hfa":1.0,
+    "team_2":"Washington and Jefferson",
+    "team_2_id":"washington-and-jefferson",
+    "team_1_score":71.0,
+    "team_2_score":65.0,
+    "pred_score_1":81.974,
+    "pred_score_2":77.136,
+    "error":1.162,
+    "t1_wab":0.08,
+    "t2_wab":-0.731
   },
   {
     "game_key":"2026-11-13_Gustavus Adolphus_Howard Payne",
@@ -6189,7 +6189,7 @@
     "pred_score_2":68.436,
     "error":5.045,
     "t1_wab":0.046,
-    "t2_wab":-0.71
+    "t2_wab":-0.709
   },
   {
     "game_key":"2026-11-13_Alma_Dominican (IL)",
@@ -6316,8 +6316,8 @@
     "pred_score_1":65.99,
     "pred_score_2":85.85,
     "error":26.86,
-    "t1_wab":0.184,
-    "t2_wab":-0.981
+    "t1_wab":0.144,
+    "t2_wab":-0.976
   },
   {
     "game_key":"2026-11-13_Cairn_Grove City",
@@ -6348,8 +6348,8 @@
     "pred_score_1":75.665,
     "pred_score_2":76.618,
     "error":7.953,
-    "t1_wab":0.239,
-    "t2_wab":-0.794
+    "t1_wab":0.241,
+    "t2_wab":-0.793
   },
   {
     "game_key":"2026-11-13_Carleton_Wis.-Platteville",
@@ -6380,8 +6380,8 @@
     "pred_score_1":79.964,
     "pred_score_2":89.877,
     "error":15.913,
-    "t1_wab":0.648,
-    "t2_wab":-0.618
+    "t1_wab":0.645,
+    "t2_wab":-0.665
   },
   {
     "game_key":"2026-11-13_Carroll (WI)_Loras",
@@ -6400,20 +6400,20 @@
     "t2_wab":-0.644
   },
   {
-    "game_key":"2026-11-13_Hanover_Wabash",
+    "game_key":"2026-11-13_Gwynedd Mercy_Ursinus",
     "date":"2026-11-13",
-    "team_1":"Wabash",
-    "team_1_id":"wabash",
-    "team_1_hfa":1.0,
-    "team_2":"Hanover",
-    "team_2_id":"hanover",
-    "team_1_score":72.0,
-    "team_2_score":63.0,
-    "pred_score_1":75.974,
-    "pred_score_2":71.669,
-    "error":4.695,
-    "t1_wab":0.197,
-    "t2_wab":-0.518
+    "team_1":"Ursinus",
+    "team_1_id":"ursinus",
+    "team_1_hfa":0.0,
+    "team_2":"Gwynedd Mercy",
+    "team_2_id":"gwynedd-mercy",
+    "team_1_score":90.0,
+    "team_2_score":61.0,
+    "pred_score_1":87.984,
+    "pred_score_2":73.041,
+    "error":14.057,
+    "t1_wab":0.046,
+    "t2_wab":-0.707
   },
   {
     "game_key":"2026-11-13_Central (IA)_Illinois Tech",
@@ -6445,7 +6445,7 @@
     "pred_score_2":71.335,
     "error":25.097,
     "t1_wab":0.065,
-    "t2_wab":-0.879
+    "t2_wab":-0.878
   },
   {
     "game_key":"2026-11-13_Goucher_Penn St.-Abington",
@@ -6460,7 +6460,7 @@
     "pred_score_1":79.766,
     "pred_score_2":69.699,
     "error":6.067,
-    "t1_wab":0.024,
+    "t1_wab":0.025,
     "t2_wab":-0.935
   },
   {
@@ -6541,7 +6541,7 @@
     "pred_score_2":62.491,
     "error":9.053,
     "t1_wab":0.138,
-    "t2_wab":-0.268
+    "t2_wab":-0.267
   },
   {
     "game_key":"2026-11-13_Endicott_Regis (MA)",
@@ -6557,7 +6557,7 @@
     "pred_score_2":61.446,
     "error":14.627,
     "t1_wab":0.032,
-    "t2_wab":-0.593
+    "t2_wab":-0.592
   },
   {
     "game_key":"2026-11-13_Dallas_Schreiner",
@@ -6572,7 +6572,7 @@
     "pred_score_1":80.08,
     "pred_score_2":74.843,
     "error":3.237,
-    "t1_wab":0.135,
+    "t1_wab":0.134,
     "t2_wab":-0.841
   },
   {
@@ -6637,7 +6637,7 @@
     "pred_score_2":85.856,
     "error":14.928,
     "t1_wab":0.132,
-    "t2_wab":-0.864
+    "t2_wab":-0.865
   },
   {
     "game_key":"2026-11-13_Chapman_Puget Sound",
@@ -6653,7 +6653,7 @@
     "pred_score_2":67.276,
     "error":2.18,
     "t1_wab":0.169,
-    "t2_wab":-0.548
+    "t2_wab":-0.546
   },
   {
     "game_key":"2026-11-13_Denison_Vassar",
@@ -6685,7 +6685,7 @@
     "pred_score_2":73.421,
     "error":1.123,
     "t1_wab":0.036,
-    "t2_wab":-0.944
+    "t2_wab":-0.941
   },
   {
     "game_key":"2026-11-14_Keystone_SUNY Potsdam",
@@ -6700,7 +6700,7 @@
     "pred_score_1":81.102,
     "pred_score_2":76.471,
     "error":15.369,
-    "t1_wab":0.014,
+    "t1_wab":0.013,
     "t2_wab":-0.953
   },
   {
@@ -6716,8 +6716,8 @@
     "pred_score_1":83.373,
     "pred_score_2":82.589,
     "error":4.216,
-    "t1_wab":0.054,
-    "t2_wab":-0.948
+    "t1_wab":0.063,
+    "t2_wab":-0.928
   },
   {
     "game_key":"2026-11-14_Knox_Rockford",
@@ -6812,8 +6812,8 @@
     "pred_score_1":92.731,
     "pred_score_2":79.032,
     "error":8.301,
-    "t1_wab":0.074,
-    "t2_wab":-0.409
+    "t1_wab":0.087,
+    "t2_wab":-0.405
   },
   {
     "game_key":"2026-11-14_Luther_Macalester",
@@ -6876,7 +6876,7 @@
     "pred_score_1":73.572,
     "pred_score_2":70.354,
     "error":16.782,
-    "t1_wab":0.219,
+    "t1_wab":0.218,
     "t2_wab":-0.32
   },
   {
@@ -6908,7 +6908,7 @@
     "pred_score_1":74.131,
     "pred_score_2":64.56,
     "error":1.429,
-    "t1_wab":0.272,
+    "t1_wab":0.261,
     "t2_wab":-0.408
   },
   {
@@ -6924,7 +6924,7 @@
     "pred_score_1":79.408,
     "pred_score_2":71.38,
     "error":24.972,
-    "t1_wab":0.137,
+    "t1_wab":0.138,
     "t2_wab":-0.39
   },
   {
@@ -6940,8 +6940,8 @@
     "pred_score_1":81.189,
     "pred_score_2":62.421,
     "error":10.232,
-    "t1_wab":0.011,
-    "t2_wab":-0.812
+    "t1_wab":0.017,
+    "t2_wab":-0.809
   },
   {
     "game_key":"2026-11-14_Illinois Tech_Westminster (MO)",
@@ -7005,7 +7005,7 @@
     "pred_score_2":70.718,
     "error":2.922,
     "t1_wab":0.007,
-    "t2_wab":-0.987
+    "t2_wab":-0.986
   },
   {
     "game_key":"2026-11-14_Houghton_SUNY Morrisville",
@@ -7052,7 +7052,7 @@
     "pred_score_1":59.638,
     "pred_score_2":64.782,
     "error":17.143,
-    "t1_wab":0.168,
+    "t1_wab":0.171,
     "t2_wab":-0.84
   },
   {
@@ -7069,7 +7069,7 @@
     "pred_score_2":65.066,
     "error":5.927,
     "t1_wab":0.013,
-    "t2_wab":-0.77
+    "t2_wab":-0.771
   },
   {
     "game_key":"2026-11-14_Hartford_Saint John's (MN)",
@@ -7165,7 +7165,7 @@
     "pred_score_2":72.769,
     "error":4.164,
     "t1_wab":0.588,
-    "t2_wab":-0.337
+    "t2_wab":-0.341
   },
   {
     "game_key":"2026-11-14_Maranatha Baptist_Principia",
@@ -7277,7 +7277,7 @@
     "pred_score_2":71.139,
     "error":9.44,
     "t1_wab":0.02,
-    "t2_wab":-0.973
+    "t2_wab":-0.971
   },
   {
     "game_key":"2026-11-14_TCNJ_Ursinus",
@@ -7292,7 +7292,7 @@
     "pred_score_1":82.986,
     "pred_score_2":76.43,
     "error":3.555,
-    "t1_wab":0.184,
+    "t1_wab":0.144,
     "t2_wab":-0.778
   },
   {
@@ -7340,8 +7340,8 @@
     "pred_score_1":78.007,
     "pred_score_2":63.04,
     "error":8.034,
-    "t1_wab":0.049,
-    "t2_wab":-0.53
+    "t1_wab":0.05,
+    "t2_wab":-0.526
   },
   {
     "game_key":"2026-11-14_SUNY Geneseo_Susquehanna",
@@ -7389,7 +7389,7 @@
     "pred_score_2":66.878,
     "error":1.404,
     "t1_wab":0.089,
-    "t2_wab":-0.762
+    "t2_wab":-0.763
   },
   {
     "game_key":"2026-11-14_Russell Sage_SUNY Cobleskill",
@@ -7405,7 +7405,7 @@
     "pred_score_2":73.518,
     "error":9.526,
     "t1_wab":0.015,
-    "t2_wab":-0.85
+    "t2_wab":-0.849
   },
   {
     "game_key":"2026-11-14_Rochester (NY)_Vassar",
@@ -7421,7 +7421,7 @@
     "pred_score_2":74.97,
     "error":15.433,
     "t1_wab":0.334,
-    "t2_wab":-0.71
+    "t2_wab":-0.709
   },
   {
     "game_key":"2026-11-14_Roanoke_Salisbury",
@@ -7436,7 +7436,7 @@
     "pred_score_1":78.631,
     "pred_score_2":59.56,
     "error":12.929,
-    "t1_wab":0.121,
+    "t1_wab":0.122,
     "t2_wab":-0.139
   },
   {
@@ -7517,7 +7517,7 @@
     "pred_score_2":77.249,
     "error":5.168,
     "t1_wab":0.035,
-    "t2_wab":-0.812
+    "t2_wab":-0.811
   },
   {
     "game_key":"2026-11-14_Penn St.-Abington_Pratt",
@@ -7532,7 +7532,7 @@
     "pred_score_1":76.468,
     "pred_score_2":76.34,
     "error":0.873,
-    "t1_wab":0.024,
+    "t1_wab":0.025,
     "t2_wab":-0.978
   },
   {
@@ -7548,7 +7548,7 @@
     "pred_score_1":72.695,
     "pred_score_2":66.601,
     "error":21.906,
-    "t1_wab":0.025,
+    "t1_wab":0.026,
     "t2_wab":-0.94
   },
   {
@@ -7613,7 +7613,7 @@
     "pred_score_2":72.727,
     "error":19.56,
     "t1_wab":0.063,
-    "t2_wab":-0.594
+    "t2_wab":-0.597
   },
   {
     "game_key":"2026-11-14_Mount Aloysius_Thiel",
@@ -7645,7 +7645,7 @@
     "pred_score_2":85.935,
     "error":13.415,
     "t1_wab":0.127,
-    "t2_wab":-0.933
+    "t2_wab":-0.932
   },
   {
     "game_key":"2026-11-14_Methodist_Regent",
@@ -7677,7 +7677,7 @@
     "pred_score_2":63.96,
     "error":4.263,
     "t1_wab":0.037,
-    "t2_wab":-0.628
+    "t2_wab":-0.626
   },
   {
     "game_key":"2026-11-14_Marywood_Wilson",
@@ -7693,7 +7693,7 @@
     "pred_score_2":80.31,
     "error":5.213,
     "t1_wab":0.012,
-    "t2_wab":-0.917
+    "t2_wab":-0.919
   },
   {
     "game_key":"2026-11-14_Rhode Island Col._Salve Regina",
@@ -7740,7 +7740,7 @@
     "pred_score_1":71.42,
     "pred_score_2":63.077,
     "error":0.343,
-    "t1_wab":0.144,
+    "t1_wab":0.143,
     "t2_wab":-0.497
   },
   {
@@ -7965,7 +7965,7 @@
     "pred_score_2":72.871,
     "error":5.451,
     "t1_wab":0.067,
-    "t2_wab":-0.833
+    "t2_wab":-0.835
   },
   {
     "game_key":"2026-11-14_Bard_Suffolk",
@@ -7981,7 +7981,7 @@
     "pred_score_2":57.326,
     "error":5.831,
     "t1_wab":0.016,
-    "t2_wab":-0.741
+    "t2_wab":-0.742
   },
   {
     "game_key":"2026-11-14_Buena Vista_Howard Payne",
@@ -8092,8 +8092,8 @@
     "pred_score_1":71.16,
     "pred_score_2":77.024,
     "error":27.863,
-    "t1_wab":0.234,
-    "t2_wab":-0.809
+    "t1_wab":0.24,
+    "t2_wab":-0.805
   },
   {
     "game_key":"2026-11-14_Amherst_Lesley",
@@ -8108,8 +8108,8 @@
     "pred_score_1":87.607,
     "pred_score_2":54.176,
     "error":23.431,
-    "t1_wab":0.012,
-    "t2_wab":-0.405
+    "t1_wab":0.009,
+    "t2_wab":-0.409
   },
   {
     "game_key":"2026-11-14_Alma_Concordia Chicago",
@@ -8189,7 +8189,7 @@
     "pred_score_2":74.341,
     "error":8.199,
     "t1_wab":0.089,
-    "t2_wab":-0.768
+    "t2_wab":-0.769
   },
   {
     "game_key":"2026-11-14_Albion_Wash. & Jeff.",
@@ -8204,7 +8204,7 @@
     "pred_score_1":74.988,
     "pred_score_2":76.393,
     "error":10.405,
-    "t1_wab":0.113,
+    "t1_wab":0.112,
     "t2_wab":-0.85
   },
   {
@@ -8220,8 +8220,8 @@
     "pred_score_1":86.632,
     "pred_score_2":71.815,
     "error":24.183,
-    "t1_wab":0.046,
-    "t2_wab":-0.531
+    "t1_wab":0.045,
+    "t2_wab":-0.532
   },
   {
     "game_key":"2026-11-14_Adrian_Wittenberg",
@@ -8237,7 +8237,7 @@
     "pred_score_2":64.034,
     "error":3.022,
     "t1_wab":0.034,
-    "t2_wab":-0.807
+    "t2_wab":-0.808
   },
   {
     "game_key":"2026-11-14_Babson_UMass Dartmouth",
@@ -8268,8 +8268,8 @@
     "pred_score_1":72.453,
     "pred_score_2":75.0,
     "error":7.547,
-    "t1_wab":0.034,
-    "t2_wab":-0.972
+    "t1_wab":0.046,
+    "t2_wab":-0.966
   },
   {
     "game_key":"2026-11-14_Beloit_Blackburn",
@@ -8333,7 +8333,7 @@
     "pred_score_2":78.981,
     "error":12.593,
     "t1_wab":0.045,
-    "t2_wab":-0.904
+    "t2_wab":-0.905
   },
   {
     "game_key":"2026-11-14_Dickinson_York (PA)",
@@ -8348,8 +8348,8 @@
     "pred_score_1":71.093,
     "pred_score_2":70.179,
     "error":15.086,
-    "t1_wab":0.193,
-    "t2_wab":-0.784
+    "t1_wab":0.169,
+    "t2_wab":-0.785
   },
   {
     "game_key":"2026-11-14_Eastern_Muhlenberg",
@@ -8365,7 +8365,7 @@
     "pred_score_2":65.339,
     "error":1.038,
     "t1_wab":0.14,
-    "t2_wab":-0.84
+    "t2_wab":-0.841
   },
   {
     "game_key":"2026-11-14_Elizabethtown_Franklin & Marshall",
@@ -8429,7 +8429,7 @@
     "pred_score_2":76.845,
     "error":16.702,
     "t1_wab":0.01,
-    "t2_wab":-0.844
+    "t2_wab":-0.843
   },
   {
     "game_key":"2026-11-14_Framingham St._WPI",
@@ -8493,7 +8493,7 @@
     "pred_score_2":69.685,
     "error":0.164,
     "t1_wab":0.081,
-    "t2_wab":-0.728
+    "t2_wab":-0.726
   },
   {
     "game_key":"2026-11-14_Gettysburg_Wash. & Lee",
@@ -8508,7 +8508,7 @@
     "pred_score_1":69.94,
     "pred_score_2":57.966,
     "error":9.026,
-    "t1_wab":0.094,
+    "t1_wab":0.093,
     "t2_wab":-0.429
   },
   {
@@ -8524,7 +8524,7 @@
     "pred_score_1":72.295,
     "pred_score_2":74.166,
     "error":5.871,
-    "t1_wab":0.085,
+    "t1_wab":0.079,
     "t2_wab":-0.955
   },
   {
@@ -8604,7 +8604,7 @@
     "pred_score_1":80.32,
     "pred_score_2":72.527,
     "error":3.207,
-    "t1_wab":0.024,
+    "t1_wab":0.023,
     "t2_wab":-0.972
   },
   {
@@ -8620,8 +8620,8 @@
     "pred_score_1":84.652,
     "pred_score_2":64.979,
     "error":7.327,
-    "t1_wab":0.018,
-    "t2_wab":-0.598
+    "t1_wab":0.015,
+    "t2_wab":-0.6
   },
   {
     "game_key":"2026-11-14_Carleton_North Park",
@@ -8653,7 +8653,7 @@
     "pred_score_2":66.817,
     "error":14.281,
     "t1_wab":0.006,
-    "t2_wab":-0.731
+    "t2_wab":-0.686
   },
   {
     "game_key":"2026-11-14_Carnegie Mellon_Penn St. Harrisburg",
@@ -8668,8 +8668,8 @@
     "pred_score_1":65.667,
     "pred_score_2":69.33,
     "error":5.662,
-    "t1_wab":0.474,
-    "t2_wab":-0.69
+    "t1_wab":0.423,
+    "t2_wab":-0.695
   },
   {
     "game_key":"2026-11-14_Carthage_Wis.-Stout",
@@ -8749,7 +8749,7 @@
     "pred_score_2":67.767,
     "error":10.827,
     "t1_wab":0.105,
-    "t2_wab":-0.68
+    "t2_wab":-0.681
   },
   {
     "game_key":"2026-11-14_Claremont-M-S_Willamette",
@@ -8764,8 +8764,8 @@
     "pred_score_1":85.371,
     "pred_score_2":65.974,
     "error":13.603,
-    "t1_wab":0.118,
-    "t2_wab":-0.13
+    "t1_wab":0.117,
+    "t2_wab":-0.131
   },
   {
     "game_key":"2026-11-14_Clark (MA)_Nichols",
@@ -8780,7 +8780,7 @@
     "pred_score_1":69.935,
     "pred_score_2":70.979,
     "error":7.044,
-    "t1_wab":0.16,
+    "t1_wab":0.159,
     "t2_wab":-0.925
   },
   {
@@ -8812,8 +8812,8 @@
     "pred_score_1":77.561,
     "pred_score_2":68.325,
     "error":4.235,
-    "t1_wab":0.028,
-    "t2_wab":-0.882
+    "t1_wab":0.018,
+    "t2_wab":-0.884
   },
   {
     "game_key":"2026-11-15_Manhattanville_Penn St. Brandywine",
@@ -8828,7 +8828,7 @@
     "pred_score_1":62.307,
     "pred_score_2":67.917,
     "error":9.61,
-    "t1_wab":0.048,
+    "t1_wab":0.047,
     "t2_wab":-0.983
   },
   {
@@ -8860,8 +8860,8 @@
     "pred_score_1":83.583,
     "pred_score_2":72.342,
     "error":7.241,
-    "t1_wab":0.219,
-    "t2_wab":-0.337
+    "t1_wab":0.218,
+    "t2_wab":-0.341
   },
   {
     "game_key":"2026-11-15_Norwich_Thomas (ME)",
@@ -8924,8 +8924,8 @@
     "pred_score_1":74.938,
     "pred_score_2":67.231,
     "error":7.293,
-    "t1_wab":0.138,
-    "t2_wab":-0.53
+    "t1_wab":0.14,
+    "t2_wab":-0.526
   },
   {
     "game_key":"2026-11-15_Saint John's (MN)_WestConn",
@@ -8956,7 +8956,7 @@
     "pred_score_1":75.976,
     "pred_score_2":74.78,
     "error":0.196,
-    "t1_wab":0.206,
+    "t1_wab":0.207,
     "t2_wab":-0.688
   },
   {
@@ -9020,7 +9020,7 @@
     "pred_score_1":72.896,
     "pred_score_2":66.41,
     "error":7.514,
-    "t1_wab":0.031,
+    "t1_wab":0.032,
     "t2_wab":-0.908
   },
   {
@@ -9068,8 +9068,8 @@
     "pred_score_1":75.979,
     "pred_score_2":64.148,
     "error":5.17,
-    "t1_wab":0.011,
-    "t2_wab":-0.931
+    "t1_wab":0.017,
+    "t2_wab":-0.928
   },
   {
     "game_key":"2026-11-15_John Carroll_Penn St. Harrisburg",
@@ -9084,8 +9084,8 @@
     "pred_score_1":77.991,
     "pred_score_2":69.331,
     "error":4.34,
-    "t1_wab":0.236,
-    "t2_wab":-0.352
+    "t1_wab":0.232,
+    "t2_wab":-0.355
   },
   {
     "game_key":"2026-11-15_Ithaca_SUNY Maritime",
@@ -9101,7 +9101,7 @@
     "pred_score_2":67.676,
     "error":1.179,
     "t1_wab":0.047,
-    "t2_wab":-0.619
+    "t2_wab":-0.62
   },
   {
     "game_key":"2026-11-15_Ill. Wesleyan_Trinity (TX)",
@@ -9148,8 +9148,8 @@
     "pred_score_1":70.514,
     "pred_score_2":69.508,
     "error":3.994,
-    "t1_wab":0.069,
-    "t2_wab":-0.831
+    "t1_wab":0.068,
+    "t2_wab":-0.832
   },
   {
     "game_key":"2026-11-15_Chatham_Dickinson",
@@ -9165,7 +9165,7 @@
     "pred_score_2":74.063,
     "error":6.901,
     "t1_wab":0.069,
-    "t2_wab":-0.807
+    "t2_wab":-0.831
   },
   {
     "game_key":"2026-11-15_Bowdoin_Rose-Hulman",
@@ -9276,7 +9276,7 @@
     "pred_score_1":77.138,
     "pred_score_2":80.494,
     "error":4.356,
-    "t1_wab":0.018,
+    "t1_wab":0.022,
     "t2_wab":-0.992
   },
   {
@@ -9308,8 +9308,8 @@
     "pred_score_1":82.551,
     "pred_score_2":73.552,
     "error":19.001,
-    "t1_wab":0.074,
-    "t2_wab":-0.548
+    "t1_wab":0.087,
+    "t2_wab":-0.546
   },
   {
     "game_key":"2026-11-16_Colby_Southern Me.",
@@ -9324,8 +9324,8 @@
     "pred_score_1":78.813,
     "pred_score_2":82.946,
     "error":8.133,
-    "t1_wab":0.358,
-    "t2_wab":-0.781
+    "t1_wab":0.381,
+    "t2_wab":-0.78
   },
   {
     "game_key":"2026-11-17_Hardin-Simmons_LeTourneau",
@@ -9372,8 +9372,8 @@
     "pred_score_1":77.598,
     "pred_score_2":69.833,
     "error":1.235,
-    "t1_wab":0.056,
-    "t2_wab":-0.863
+    "t1_wab":0.059,
+    "t2_wab":-0.862
   },
   {
     "game_key":"2026-11-17_Hope_North Central (IL)",
@@ -9437,7 +9437,7 @@
     "pred_score_2":77.447,
     "error":1.253,
     "t1_wab":0.015,
-    "t2_wab":-0.971
+    "t2_wab":-0.973
   },
   {
     "game_key":"2026-11-17_Knox_Principia",
@@ -9468,8 +9468,8 @@
     "pred_score_1":80.351,
     "pred_score_2":73.465,
     "error":10.115,
-    "t1_wab":0.095,
-    "t2_wab":-0.756
+    "t1_wab":0.094,
+    "t2_wab":-0.758
   },
   {
     "game_key":"2026-11-17_LaGrange_Oglethorpe",
@@ -9517,7 +9517,7 @@
     "pred_score_2":75.761,
     "error":8.649,
     "t1_wab":0.014,
-    "t2_wab":-0.977
+    "t2_wab":-0.97
   },
   {
     "game_key":"2026-11-17_Macalester_Wis.-Stout",
@@ -9628,7 +9628,7 @@
     "pred_score_1":69.206,
     "pred_score_2":82.32,
     "error":26.114,
-    "t1_wab":0.113,
+    "t1_wab":0.112,
     "t2_wab":-0.968
   },
   {
@@ -9645,7 +9645,7 @@
     "pred_score_2":70.088,
     "error":0.307,
     "t1_wab":0.046,
-    "t2_wab":-0.71
+    "t2_wab":-0.709
   },
   {
     "game_key":"2026-11-17_SUNY Morrisville_Utica",
@@ -9740,8 +9740,8 @@
     "pred_score_1":93.47,
     "pred_score_2":91.131,
     "error":18.661,
-    "t1_wab":0.308,
-    "t2_wab":-0.598
+    "t1_wab":0.307,
+    "t2_wab":-0.6
   },
   {
     "game_key":"2026-11-17_Hamilton_Ithaca",
@@ -9772,8 +9772,8 @@
     "pred_score_1":84.396,
     "pred_score_2":79.803,
     "error":13.406,
-    "t1_wab":0.058,
-    "t2_wab":-0.888
+    "t1_wab":0.057,
+    "t2_wab":-0.906
   },
   {
     "game_key":"2026-11-17_Amherst_Springfield",
@@ -9789,7 +9789,7 @@
     "pred_score_2":57.288,
     "error":7.823,
     "t1_wab":0.092,
-    "t2_wab":-0.405
+    "t2_wab":-0.409
   },
   {
     "game_key":"2026-11-17_Azusa Pacific_Caltech",
@@ -9900,8 +9900,8 @@
     "pred_score_1":78.1,
     "pred_score_2":60.611,
     "error":12.511,
-    "t1_wab":0.019,
-    "t2_wab":-0.648
+    "t1_wab":0.024,
+    "t2_wab":-0.661
   },
   {
     "game_key":"2026-11-17_Capital_Denison",
@@ -9948,8 +9948,8 @@
     "pred_score_1":73.735,
     "pred_score_2":78.994,
     "error":10.259,
-    "t1_wab":0.083,
-    "t2_wab":-0.972
+    "t1_wab":0.081,
+    "t2_wab":-0.982
   },
   {
     "game_key":"2026-11-17_Centenary (LA)_East Tex. Baptist",
@@ -9981,7 +9981,7 @@
     "pred_score_2":70.169,
     "error":5.968,
     "t1_wab":0.035,
-    "t2_wab":-0.636
+    "t2_wab":-0.637
   },
   {
     "game_key":"2026-11-17_Fitchburg St._UMass Boston",
@@ -10045,7 +10045,7 @@
     "pred_score_2":77.513,
     "error":37.084,
     "t1_wab":0.017,
-    "t2_wab":-0.904
+    "t2_wab":-0.905
   },
   {
     "game_key":"2026-11-17_Concordia (TX)_Mary Hardin-Baylor",
@@ -10077,7 +10077,7 @@
     "pred_score_2":71.111,
     "error":9.537,
     "t1_wab":0.057,
-    "t2_wab":-0.76
+    "t2_wab":-0.758
   },
   {
     "game_key":"2026-11-17_Clark (MA)_WestConn",
@@ -10108,7 +10108,7 @@
     "pred_score_1":90.06,
     "pred_score_2":66.851,
     "error":8.209,
-    "t1_wab":0.006,
+    "t1_wab":0.007,
     "t2_wab":-0.744
   },
   {
@@ -10140,8 +10140,8 @@
     "pred_score_1":85.174,
     "pred_score_2":63.931,
     "error":6.243,
-    "t1_wab":0.027,
-    "t2_wab":-0.53
+    "t1_wab":0.031,
+    "t2_wab":-0.526
   },
   {
     "game_key":"2026-11-18_Hood_Muhlenberg",
@@ -10156,7 +10156,7 @@
     "pred_score_1":79.461,
     "pred_score_2":68.687,
     "error":0.225,
-    "t1_wab":0.16,
+    "t1_wab":0.159,
     "t2_wab":-0.451
   },
   {
@@ -10172,7 +10172,7 @@
     "pred_score_1":71.247,
     "pred_score_2":59.147,
     "error":11.101,
-    "t1_wab":0.111,
+    "t1_wab":0.112,
     "t2_wab":-0.695
   },
   {
@@ -10188,7 +10188,7 @@
     "pred_score_1":68.399,
     "pred_score_2":73.595,
     "error":10.196,
-    "t1_wab":0.241,
+    "t1_wab":0.24,
     "t2_wab":-0.914
   },
   {
@@ -10205,7 +10205,7 @@
     "pred_score_2":72.448,
     "error":3.267,
     "t1_wab":0.008,
-    "t2_wab":-0.984
+    "t2_wab":-0.975
   },
   {
     "game_key":"2026-11-18_JWU (Providence)_Suffolk",
@@ -10253,7 +10253,7 @@
     "pred_score_2":64.15,
     "error":1.518,
     "t1_wab":0.014,
-    "t2_wab":-0.958
+    "t2_wab":-0.961
   },
   {
     "game_key":"2026-11-18_Gwynedd Mercy_Wilson",
@@ -10269,23 +10269,7 @@
     "pred_score_2":78.116,
     "error":6.21,
     "t1_wab":0.012,
-    "t2_wab":-0.951
-  },
-  {
-    "game_key":"2026-11-18_Hilbert_Houghton",
-    "date":"2026-11-18",
-    "team_1":"Hilbert",
-    "team_1_id":"hilbert",
-    "team_1_hfa":-1.0,
-    "team_2":"Houghton",
-    "team_2_id":"houghton",
-    "team_1_score":85.0,
-    "team_2_score":74.0,
-    "pred_score_1":80.297,
-    "pred_score_2":77.488,
-    "error":8.191,
-    "t1_wab":0.064,
-    "t2_wab":-0.919
+    "t2_wab":-0.935
   },
   {
     "game_key":"2026-11-18_Hartford_Wentworth",
@@ -10317,7 +10301,23 @@
     "pred_score_2":62.556,
     "error":8.112,
     "t1_wab":0.461,
-    "t2_wab":-0.109
+    "t2_wab":-0.11
+  },
+  {
+    "game_key":"2026-11-18_Warren Wilson_William Peace",
+    "date":"2026-11-18",
+    "team_1":"Warren Wilson",
+    "team_1_id":"warren-wilson",
+    "team_1_hfa":1.0,
+    "team_2":"William Peace",
+    "team_2_id":"william-peace",
+    "team_1_score":73.0,
+    "team_2_score":63.0,
+    "pred_score_1":74.025,
+    "pred_score_2":74.967,
+    "error":10.942,
+    "t1_wab":0.009,
+    "t2_wab":-0.978
   },
   {
     "game_key":"2026-11-18_Greenville_North Park",
@@ -10365,7 +10365,7 @@
     "pred_score_2":72.63,
     "error":10.169,
     "t1_wab":0.009,
-    "t2_wab":-0.943
+    "t2_wab":-0.942
   },
   {
     "game_key":"2026-11-18_Gettysburg_Lancaster Bible",
@@ -10400,20 +10400,20 @@
     "t2_wab":-0.317
   },
   {
-    "game_key":"2026-11-18_Warren Wilson_William Peace",
+    "game_key":"2026-11-18_Hilbert_Houghton",
     "date":"2026-11-18",
-    "team_1":"Warren Wilson",
-    "team_1_id":"warren-wilson",
-    "team_1_hfa":1.0,
-    "team_2":"William Peace",
-    "team_2_id":"william-peace",
-    "team_1_score":73.0,
-    "team_2_score":63.0,
-    "pred_score_1":74.025,
-    "pred_score_2":74.967,
-    "error":10.942,
-    "t1_wab":0.009,
-    "t2_wab":-0.978
+    "team_1":"Hilbert",
+    "team_1_id":"hilbert",
+    "team_1_hfa":-1.0,
+    "team_2":"Houghton",
+    "team_2_id":"houghton",
+    "team_1_score":85.0,
+    "team_2_score":74.0,
+    "pred_score_1":80.297,
+    "pred_score_2":77.488,
+    "error":8.191,
+    "t1_wab":0.064,
+    "t2_wab":-0.919
   },
   {
     "game_key":"2026-11-18_Lakeland_Ripon",
@@ -10445,7 +10445,7 @@
     "pred_score_2":56.194,
     "error":9.379,
     "t1_wab":0.021,
-    "t2_wab":-0.773
+    "t2_wab":-0.769
   },
   {
     "game_key":"2026-11-18_Lehman_Merchant Marine",
@@ -10460,8 +10460,8 @@
     "pred_score_1":71.349,
     "pred_score_2":68.725,
     "error":2.375,
-    "t1_wab":0.034,
-    "t2_wab":-0.954
+    "t1_wab":0.026,
+    "t2_wab":-0.955
   },
   {
     "game_key":"2026-11-18_Geneva_Mount Aloysius",
@@ -10572,8 +10572,8 @@
     "pred_score_1":76.055,
     "pred_score_2":85.745,
     "error":16.689,
-    "t1_wab":0.077,
-    "t2_wab":-0.962
+    "t1_wab":0.078,
+    "t2_wab":-0.958
   },
   {
     "game_key":"2026-11-18_Rivier_Salve Regina",
@@ -10620,8 +10620,8 @@
     "pred_score_1":62.257,
     "pred_score_2":64.246,
     "error":8.989,
-    "t1_wab":0.076,
-    "t2_wab":-0.94
+    "t1_wab":0.075,
+    "t2_wab":-0.942
   },
   {
     "game_key":"2026-11-18_Pratt_Wm. Paterson",
@@ -10637,7 +10637,7 @@
     "pred_score_2":73.134,
     "error":9.419,
     "t1_wab":0.029,
-    "t2_wab":-0.969
+    "t2_wab":-0.968
   },
   {
     "game_key":"2026-11-18_Pitt.-Greensburg_Waynesburg",
@@ -10669,7 +10669,7 @@
     "pred_score_2":84.815,
     "error":12.454,
     "t1_wab":0.03,
-    "t2_wab":-0.812
+    "t2_wab":-0.811
   },
   {
     "game_key":"2026-11-18_Penn St. Harrisburg_Swarthmore",
@@ -10684,8 +10684,8 @@
     "pred_score_1":65.974,
     "pred_score_2":62.771,
     "error":2.203,
-    "t1_wab":0.236,
-    "t2_wab":-0.61
+    "t1_wab":0.232,
+    "t2_wab":-0.611
   },
   {
     "game_key":"2026-11-18_Millikin_Wabash",
@@ -10717,7 +10717,7 @@
     "pred_score_2":60.496,
     "error":24.952,
     "t1_wab":0.001,
-    "t2_wab":-0.948
+    "t2_wab":-0.947
   },
   {
     "game_key":"2026-11-18_Mary Baldwin_Wash. & Lee",
@@ -10733,7 +10733,7 @@
     "pred_score_2":66.641,
     "error":5.395,
     "t1_wab":0.031,
-    "t2_wab":-0.821
+    "t2_wab":-0.822
   },
   {
     "game_key":"2026-11-18_Lycoming_Wilkes",
@@ -10749,7 +10749,7 @@
     "pred_score_2":68.324,
     "error":9.581,
     "t1_wab":0.073,
-    "t2_wab":-0.874
+    "t2_wab":-0.87
   },
   {
     "game_key":"2026-11-18_Purchase_Westfield St.",
@@ -10784,20 +10784,20 @@
     "t2_wab":-0.727
   },
   {
-    "game_key":"2026-11-18_Curry_Nichols",
+    "game_key":"2026-11-18_Dominican (IL)_Kalamazoo",
     "date":"2026-11-18",
-    "team_1":"Nichols",
-    "team_1_id":"nichols",
-    "team_1_hfa":1.0,
-    "team_2":"Curry",
-    "team_2_id":"curry",
-    "team_1_score":87.0,
-    "team_2_score":72.0,
-    "pred_score_1":83.669,
-    "pred_score_2":69.435,
-    "error":0.766,
-    "t1_wab":0.015,
-    "t2_wab":-0.84
+    "team_1":"Kalamazoo",
+    "team_1_id":"kalamazoo",
+    "team_1_hfa":-1.0,
+    "team_2":"Dominican",
+    "team_2_id":"dominican",
+    "team_1_score":96.0,
+    "team_2_score":81.0,
+    "pred_score_1":72.666,
+    "pred_score_2":71.422,
+    "error":13.756,
+    "t1_wab":0.027,
+    "t2_wab":-0.96
   },
   {
     "game_key":"2026-11-18_FDU-Florham_Rutgers-Newark",
@@ -10813,7 +10813,7 @@
     "pred_score_2":62.749,
     "error":5.402,
     "t1_wab":0.029,
-    "t2_wab":-0.829
+    "t2_wab":-0.828
   },
   {
     "game_key":"2026-11-18_Bridgewater St._Wheaton (MA)",
@@ -10988,8 +10988,8 @@
     "pred_score_1":72.227,
     "pred_score_2":73.895,
     "error":7.668,
-    "t1_wab":0.216,
-    "t2_wab":-0.666
+    "t1_wab":0.215,
+    "t2_wab":-0.662
   },
   {
     "game_key":"2026-11-18_Anderson (IN)_Trine",
@@ -11165,7 +11165,7 @@
     "pred_score_2":75.243,
     "error":6.089,
     "t1_wab":0.099,
-    "t2_wab":-0.593
+    "t2_wab":-0.592
   },
   {
     "game_key":"2026-11-18_Emmanuel (MA)_Southern Me.",
@@ -11181,7 +11181,7 @@
     "pred_score_2":79.714,
     "error":0.383,
     "t1_wab":0.119,
-    "t2_wab":-0.628
+    "t2_wab":-0.626
   },
   {
     "game_key":"2026-11-18_Elms_Lesley",
@@ -11196,7 +11196,7 @@
     "pred_score_1":74.415,
     "pred_score_2":74.846,
     "error":5.431,
-    "t1_wab":0.012,
+    "t1_wab":0.009,
     "t2_wab":-0.98
   },
   {
@@ -11228,7 +11228,7 @@
     "pred_score_1":80.645,
     "pred_score_2":56.691,
     "error":20.953,
-    "t1_wab":0.196,
+    "t1_wab":0.195,
     "t2_wab":-0.302
   },
   {
@@ -11244,8 +11244,8 @@
     "pred_score_1":71.059,
     "pred_score_2":79.843,
     "error":11.784,
-    "t1_wab":0.297,
-    "t2_wab":-0.876
+    "t1_wab":0.294,
+    "t2_wab":-0.877
   },
   {
     "game_key":"2026-11-18_CWRU_Hiram",
@@ -11261,23 +11261,7 @@
     "pred_score_2":63.139,
     "error":7.308,
     "t1_wab":0.018,
-    "t2_wab":-0.558
-  },
-  {
-    "game_key":"2026-11-18_Delaware Valley_Rowan",
-    "date":"2026-11-18",
-    "team_1":"Rowan",
-    "team_1_id":"rowan",
-    "team_1_hfa":1.0,
-    "team_2":"Delaware Valley",
-    "team_2_id":"delaware-valley",
-    "team_1_score":79.0,
-    "team_2_score":75.0,
-    "pred_score_1":79.476,
-    "pred_score_2":72.938,
-    "error":2.539,
-    "t1_wab":0.096,
-    "t2_wab":-0.661
+    "t2_wab":-0.556
   },
   {
     "game_key":"2026-11-18_DePauw_Franklin",
@@ -11296,20 +11280,36 @@
     "t2_wab":-0.701
   },
   {
-    "game_key":"2026-11-18_Dominican (IL)_Kalamazoo",
+    "game_key":"2026-11-18_Curry_Nichols",
     "date":"2026-11-18",
-    "team_1":"Kalamazoo",
-    "team_1_id":"kalamazoo",
-    "team_1_hfa":-1.0,
-    "team_2":"Dominican",
-    "team_2_id":"dominican",
-    "team_1_score":96.0,
-    "team_2_score":81.0,
-    "pred_score_1":72.666,
-    "pred_score_2":71.422,
-    "error":13.756,
-    "t1_wab":0.027,
-    "t2_wab":-0.96
+    "team_1":"Nichols",
+    "team_1_id":"nichols",
+    "team_1_hfa":1.0,
+    "team_2":"Curry",
+    "team_2_id":"curry",
+    "team_1_score":87.0,
+    "team_2_score":72.0,
+    "pred_score_1":83.669,
+    "pred_score_2":69.435,
+    "error":0.766,
+    "t1_wab":0.014,
+    "t2_wab":-0.841
+  },
+  {
+    "game_key":"2026-11-18_Delaware Valley_Rowan",
+    "date":"2026-11-18",
+    "team_1":"Rowan",
+    "team_1_id":"rowan",
+    "team_1_hfa":1.0,
+    "team_2":"Delaware Valley",
+    "team_2_id":"delaware-valley",
+    "team_1_score":79.0,
+    "team_2_score":75.0,
+    "pred_score_1":79.476,
+    "pred_score_2":72.938,
+    "error":2.539,
+    "t1_wab":0.096,
+    "t2_wab":-0.661
   },
   {
     "game_key":"2026-11-18_Cornell College_Dubuque",
@@ -11340,8 +11340,8 @@
     "pred_score_1":80.674,
     "pred_score_2":67.402,
     "error":0.728,
-    "t1_wab":0.044,
-    "t2_wab":-0.791
+    "t1_wab":0.045,
+    "t2_wab":-0.775
   },
   {
     "game_key":"2026-11-18_Chris. Newport_N.C. Wesleyan",
@@ -11373,7 +11373,7 @@
     "pred_score_2":75.158,
     "error":3.928,
     "t1_wab":0.069,
-    "t2_wab":-0.762
+    "t2_wab":-0.763
   },
   {
     "game_key":"2026-11-18_Catholic_Goucher",
@@ -11436,8 +11436,8 @@
     "pred_score_1":80.037,
     "pred_score_2":67.426,
     "error":26.389,
-    "t1_wab":0.081,
-    "t2_wab":-0.433
+    "t1_wab":0.08,
+    "t2_wab":-0.484
   },
   {
     "game_key":"2026-11-18_Crown (MN)_St. Olaf",
@@ -11469,7 +11469,7 @@
     "pred_score_2":76.476,
     "error":13.351,
     "t1_wab":0.22,
-    "t2_wab":-0.812
+    "t2_wab":-0.809
   },
   {
     "game_key":"2026-11-19_Norwich_Plymouth St.",
@@ -11485,7 +11485,7 @@
     "pred_score_2":73.128,
     "error":4.567,
     "t1_wab":0.076,
-    "t2_wab":-0.943
+    "t2_wab":-0.944
   },
   {
     "game_key":"2026-11-19_Nazareth_Oswego St.",
@@ -11501,7 +11501,7 @@
     "pred_score_2":67.208,
     "error":2.992,
     "t1_wab":0.08,
-    "t2_wab":-0.358
+    "t2_wab":-0.357
   },
   {
     "game_key":"2026-11-19_McDaniel_Penn St.-Berks",
@@ -11516,8 +11516,8 @@
     "pred_score_1":81.16,
     "pred_score_2":72.096,
     "error":3.936,
-    "t1_wab":0.013,
-    "t2_wab":-0.966
+    "t1_wab":0.014,
+    "t2_wab":-0.965
   },
   {
     "game_key":"2026-11-19_Lasell_Tufts",
@@ -11549,7 +11549,7 @@
     "pred_score_2":73.068,
     "error":10.926,
     "t1_wab":0.023,
-    "t2_wab":-0.971
+    "t2_wab":-0.973
   },
   {
     "game_key":"2026-11-19_Colby-Sawyer_Framingham St.",
@@ -11565,7 +11565,7 @@
     "pred_score_2":78.818,
     "error":30.7,
     "t1_wab":0.014,
-    "t2_wab":-0.976
+    "t2_wab":-0.977
   },
   {
     "game_key":"2026-11-19_Clark (MA)_Rhode Island Col.",
@@ -11597,7 +11597,7 @@
     "pred_score_2":64.566,
     "error":3.114,
     "t1_wab":0.057,
-    "t2_wab":-0.548
+    "t2_wab":-0.546
   },
   {
     "game_key":"2026-11-19_Babson_Worcester St.",
@@ -11612,7 +11612,7 @@
     "pred_score_1":82.045,
     "pred_score_2":68.512,
     "error":8.533,
-    "t1_wab":0.174,
+    "t1_wab":0.175,
     "t2_wab":-0.543
   },
   {
@@ -11628,8 +11628,8 @@
     "pred_score_1":69.26,
     "pred_score_2":59.608,
     "error":9.349,
-    "t1_wab":0.118,
-    "t2_wab":-0.59
+    "t1_wab":0.116,
+    "t2_wab":-0.594
   },
   {
     "game_key":"2026-11-19_Colorado Col._UC Santa Cruz",
@@ -11644,7 +11644,7 @@
     "pred_score_1":74.473,
     "pred_score_2":70.405,
     "error":7.932,
-    "t1_wab":0.087,
+    "t1_wab":0.071,
     "t2_wab":-0.688
   },
   {
@@ -11660,8 +11660,8 @@
     "pred_score_1":75.746,
     "pred_score_2":67.219,
     "error":6.527,
-    "t1_wab":0.044,
-    "t2_wab":-0.793
+    "t1_wab":0.056,
+    "t2_wab":-0.792
   },
   {
     "game_key":"2026-11-20_Lyon_Ozarks (AR)",
@@ -11821,7 +11821,7 @@
     "pred_score_2":83.788,
     "error":0.12,
     "t1_wab":0.005,
-    "t2_wab":-0.969
+    "t2_wab":-0.97
   },
   {
     "game_key":"2026-11-20_Salisbury_St. Joseph's (Brkln)",
@@ -11837,7 +11837,7 @@
     "pred_score_2":63.433,
     "error":8.147,
     "t1_wab":0.017,
-    "t2_wab":-0.833
+    "t2_wab":-0.832
   },
   {
     "game_key":"2026-11-20_St. Joseph's (L.I.)_York (NY)",
@@ -11852,8 +11852,8 @@
     "pred_score_1":76.504,
     "pred_score_2":65.658,
     "error":4.846,
-    "t1_wab":0.018,
-    "t2_wab":-0.951
+    "t1_wab":0.022,
+    "t2_wab":-0.95
   },
   {
     "game_key":"2026-11-20_Trinity (CT)_WestConn",
@@ -11869,7 +11869,7 @@
     "pred_score_2":61.773,
     "error":8.511,
     "t1_wab":0.319,
-    "t2_wab":-0.201
+    "t2_wab":-0.2
   },
   {
     "game_key":"2026-11-20_Whitman_Whittier",
@@ -11932,7 +11932,7 @@
     "pred_score_1":72.245,
     "pred_score_2":78.863,
     "error":9.617,
-    "t1_wab":0.056,
+    "t1_wab":0.059,
     "t2_wab":-0.979
   },
   {
@@ -11965,7 +11965,7 @@
     "pred_score_2":88.519,
     "error":15.695,
     "t1_wab":0.675,
-    "t2_wab":-0.502
+    "t2_wab":-0.498
   },
   {
     "game_key":"2026-11-20_Kalamazoo_Messiah",
@@ -12205,7 +12205,7 @@
     "pred_score_2":71.872,
     "error":17.451,
     "t1_wab":0.013,
-    "t2_wab":-0.917
+    "t2_wab":-0.919
   },
   {
     "game_key":"2026-11-20_Heidelberg_Thiel",
@@ -12252,8 +12252,8 @@
     "pred_score_1":92.011,
     "pred_score_2":78.566,
     "error":7.445,
-    "t1_wab":0.16,
-    "t2_wab":-0.441
+    "t1_wab":0.159,
+    "t2_wab":-0.444
   },
   {
     "game_key":"2026-11-21_Me.-Presque Isle_U New England",
@@ -12285,7 +12285,7 @@
     "pred_score_2":74.294,
     "error":3.85,
     "t1_wab":0.069,
-    "t2_wab":-0.908
+    "t2_wab":-0.909
   },
   {
     "game_key":"2026-11-21_MCLA_Norwich",
@@ -12336,6 +12336,22 @@
     "t2_wab":-0.845
   },
   {
+    "game_key":"2026-11-21_Wash. & Jeff._Waynesburg",
+    "date":"2026-11-21",
+    "team_1":"Washington and Jefferson",
+    "team_1_id":"washington-and-jefferson",
+    "team_1_hfa":-1.0,
+    "team_2":"Waynesburg",
+    "team_2_id":"waynesburg",
+    "team_1_score":98.0,
+    "team_2_score":70.0,
+    "pred_score_1":80.086,
+    "pred_score_2":71.675,
+    "error":19.589,
+    "t1_wab":0.024,
+    "t2_wab":-0.92
+  },
+  {
     "game_key":"2026-11-21_Manchester_Wabash",
     "date":"2026-11-21",
     "team_1":"Wabash",
@@ -12350,22 +12366,6 @@
     "error":7.949,
     "t1_wab":0.049,
     "t2_wab":-0.694
-  },
-  {
-    "game_key":"2026-11-21_Manhattanville_Utica",
-    "date":"2026-11-21",
-    "team_1":"Utica",
-    "team_1_id":"utica",
-    "team_1_hfa":-1.0,
-    "team_2":"Manhattanville",
-    "team_2_id":"manhattanville",
-    "team_1_score":96.0,
-    "team_2_score":80.0,
-    "pred_score_1":75.588,
-    "pred_score_2":69.55,
-    "error":9.962,
-    "t1_wab":0.036,
-    "t2_wab":-0.918
   },
   {
     "game_key":"2026-11-21_Mary Washington_Rowan",
@@ -12384,20 +12384,20 @@
     "t2_wab":-0.661
   },
   {
-    "game_key":"2026-11-21_Wash. & Jeff._Waynesburg",
+    "game_key":"2026-11-21_Maranatha Baptist_Marian (WI)",
     "date":"2026-11-21",
-    "team_1":"Washington and Jefferson",
-    "team_1_id":"washington-and-jefferson",
-    "team_1_hfa":-1.0,
-    "team_2":"Waynesburg",
-    "team_2_id":"waynesburg",
-    "team_1_score":98.0,
-    "team_2_score":70.0,
-    "pred_score_1":80.086,
-    "pred_score_2":71.675,
-    "error":19.589,
-    "t1_wab":0.024,
-    "t2_wab":-0.919
+    "team_1":"Marian",
+    "team_1_id":"marian",
+    "team_1_hfa":1.0,
+    "team_2":"Maranatha Baptist",
+    "team_2_id":"maranatha-baptist",
+    "team_1_score":100.0,
+    "team_2_score":53.0,
+    "pred_score_1":85.423,
+    "pred_score_2":55.07,
+    "error":16.647,
+    "t1_wab":0.001,
+    "t2_wab":-0.843
   },
   {
     "game_key":"2026-11-21_Maryville (TN)_Westminster (MO)",
@@ -12445,7 +12445,7 @@
     "pred_score_2":68.895,
     "error":14.646,
     "t1_wab":0.152,
-    "t2_wab":-0.498
+    "t2_wab":-0.497
   },
   {
     "game_key":"2026-11-21_Lasell_Wentworth",
@@ -12464,20 +12464,20 @@
     "t2_wab":-0.877
   },
   {
-    "game_key":"2026-11-21_Maranatha Baptist_Marian (WI)",
+    "game_key":"2026-11-21_Manhattanville_Utica",
     "date":"2026-11-21",
-    "team_1":"Marian",
-    "team_1_id":"marian",
-    "team_1_hfa":1.0,
-    "team_2":"Maranatha Baptist",
-    "team_2_id":"maranatha-baptist",
-    "team_1_score":100.0,
-    "team_2_score":53.0,
-    "pred_score_1":85.423,
-    "pred_score_2":55.07,
-    "error":16.647,
-    "t1_wab":0.001,
-    "t2_wab":-0.843
+    "team_1":"Utica",
+    "team_1_id":"utica",
+    "team_1_hfa":-1.0,
+    "team_2":"Manhattanville",
+    "team_2_id":"manhattanville",
+    "team_1_score":96.0,
+    "team_2_score":80.0,
+    "pred_score_1":75.588,
+    "pred_score_2":69.55,
+    "error":9.962,
+    "t1_wab":0.036,
+    "t2_wab":-0.918
   },
   {
     "game_key":"2026-11-21_Lake Forest_Luther",
@@ -12525,7 +12525,7 @@
     "pred_score_2":66.051,
     "error":1.043,
     "t1_wab":0.047,
-    "t2_wab":-0.68
+    "t2_wab":-0.681
   },
   {
     "game_key":"2026-11-21_Hampden-Sydney_JWU (Providence)",
@@ -12636,7 +12636,7 @@
     "pred_score_1":82.28,
     "pred_score_2":76.925,
     "error":0.355,
-    "t1_wab":0.056,
+    "t1_wab":0.059,
     "t2_wab":-0.919
   },
   {
@@ -12668,8 +12668,8 @@
     "pred_score_1":80.236,
     "pred_score_2":59.661,
     "error":12.425,
-    "t1_wab":0.034,
-    "t2_wab":-0.518
+    "t1_wab":0.026,
+    "t2_wab":-0.523
   },
   {
     "game_key":"2026-11-21_Ill. Wesleyan_St. Joseph's (ME)",
@@ -12732,8 +12732,8 @@
     "pred_score_1":66.851,
     "pred_score_2":52.948,
     "error":2.096,
-    "t1_wab":0.016,
-    "t2_wab":-0.878
+    "t1_wab":0.025,
+    "t2_wab":-0.876
   },
   {
     "game_key":"2026-11-21_Johns Hopkins_Ohio Wesleyan",
@@ -12764,7 +12764,7 @@
     "pred_score_1":80.027,
     "pred_score_2":83.685,
     "error":10.658,
-    "t1_wab":0.054,
+    "t1_wab":0.063,
     "t2_wab":-0.967
   },
   {
@@ -12780,8 +12780,8 @@
     "pred_score_1":70.859,
     "pred_score_2":70.329,
     "error":19.47,
-    "t1_wab":0.044,
-    "t2_wab":-0.818
+    "t1_wab":0.056,
+    "t2_wab":-0.814
   },
   {
     "game_key":"2026-11-21_Middlebury_Stevens",
@@ -12797,7 +12797,7 @@
     "pred_score_2":73.155,
     "error":1.049,
     "t1_wab":0.206,
-    "t2_wab":-0.794
+    "t2_wab":-0.793
   },
   {
     "game_key":"2026-11-21_Old Westbury_WestConn",
@@ -12860,7 +12860,7 @@
     "pred_score_1":74.342,
     "pred_score_2":68.819,
     "error":3.477,
-    "t1_wab":0.017,
+    "t1_wab":0.018,
     "t2_wab":-0.971
   },
   {
@@ -12893,7 +12893,7 @@
     "pred_score_2":70.772,
     "error":2.786,
     "t1_wab":0.08,
-    "t2_wab":-0.845
+    "t2_wab":-0.846
   },
   {
     "game_key":"2026-11-21_Saint Mary's (MN)_Wis.-Superior",
@@ -12925,7 +12925,7 @@
     "pred_score_2":64.793,
     "error":9.237,
     "t1_wab":0.072,
-    "t2_wab":-0.321
+    "t2_wab":-0.322
   },
   {
     "game_key":"2026-11-21_SUNY Maritime_SUNY New Paltz",
@@ -12957,7 +12957,7 @@
     "pred_score_2":66.821,
     "error":1.357,
     "t1_wab":0.216,
-    "t2_wab":-0.284
+    "t2_wab":-0.283
   },
   {
     "game_key":"2026-11-21_Skidmore_VTSU Lyndon",
@@ -13053,7 +13053,7 @@
     "pred_score_2":75.532,
     "error":4.018,
     "t1_wab":0.017,
-    "t2_wab":-0.951
+    "t2_wab":-0.935
   },
   {
     "game_key":"2026-11-21_Shenandoah_St. Mary's (MD)",
@@ -13100,7 +13100,7 @@
     "pred_score_1":77.189,
     "pred_score_2":65.25,
     "error":14.061,
-    "t1_wab":0.379,
+    "t1_wab":0.383,
     "t2_wab":-0.139
   },
   {
@@ -13116,7 +13116,7 @@
     "pred_score_1":80.529,
     "pred_score_2":76.115,
     "error":11.586,
-    "t1_wab":0.019,
+    "t1_wab":0.02,
     "t2_wab":-0.935
   },
   {
@@ -13133,7 +13133,7 @@
     "pred_score_2":76.913,
     "error":24.408,
     "t1_wab":0.404,
-    "t2_wab":-0.413
+    "t2_wab":-0.415
   },
   {
     "game_key":"2026-11-21_Nichols_SUNY Canton",
@@ -13149,7 +13149,7 @@
     "pred_score_2":73.395,
     "error":19.857,
     "t1_wab":0.032,
-    "t2_wab":-0.884
+    "t2_wab":-0.885
   },
   {
     "game_key":"2026-11-21_North Central (IL)_Webster",
@@ -13244,8 +13244,8 @@
     "pred_score_1":77.526,
     "pred_score_2":68.202,
     "error":26.676,
-    "t1_wab":0.138,
-    "t2_wab":-0.358
+    "t1_wab":0.14,
+    "t2_wab":-0.357
   },
   {
     "game_key":"2026-11-21_Penn St.-Altoona_Wooster",
@@ -13276,7 +13276,7 @@
     "pred_score_1":84.231,
     "pred_score_2":82.316,
     "error":25.085,
-    "t1_wab":0.006,
+    "t1_wab":0.007,
     "t2_wab":-0.978
   },
   {
@@ -13340,8 +13340,8 @@
     "pred_score_1":84.011,
     "pred_score_2":76.812,
     "error":15.8,
-    "t1_wab":0.031,
-    "t2_wab":-0.923
+    "t1_wab":0.032,
+    "t2_wab":-0.922
   },
   {
     "game_key":"2026-11-21_Randolph_Regent",
@@ -13372,8 +13372,8 @@
     "pred_score_1":82.276,
     "pred_score_2":74.039,
     "error":0.763,
-    "t1_wab":0.052,
-    "t2_wab":-0.766
+    "t1_wab":0.072,
+    "t2_wab":-0.76
   },
   {
     "game_key":"2026-11-21_Grove City_Hiram",
@@ -13392,20 +13392,20 @@
     "t2_wab":-0.922
   },
   {
-    "game_key":"2026-11-21_Concordia-M'head_Wis.-Stout",
+    "game_key":"2026-11-21_Covenant_Lynchburg",
     "date":"2026-11-21",
-    "team_1":"UW-Stout",
-    "team_1_id":"uw-stout",
-    "team_1_hfa":0.0,
-    "team_2":"Concordia-Moorhead",
-    "team_2_id":"concordia-moorhead",
-    "team_1_score":92.0,
-    "team_2_score":57.0,
-    "pred_score_1":73.8,
-    "pred_score_2":73.713,
-    "error":34.913,
-    "t1_wab":0.17,
-    "t2_wab":-0.595
+    "team_1":"Lynchburg",
+    "team_1_id":"lynchburg",
+    "team_1_hfa":-1.0,
+    "team_2":"Covenant",
+    "team_2_id":"covenant",
+    "team_1_score":93.0,
+    "team_2_score":76.0,
+    "pred_score_1":98.568,
+    "pred_score_2":83.995,
+    "error":2.426,
+    "t1_wab":0.119,
+    "t2_wab":-0.612
   },
   {
     "game_key":"2026-11-21_Gordon_Trinity (CT)",
@@ -13420,8 +13420,8 @@
     "pred_score_1":78.617,
     "pred_score_2":56.268,
     "error":11.651,
-    "t1_wab":0.057,
-    "t2_wab":-0.268
+    "t1_wab":0.058,
+    "t2_wab":-0.267
   },
   {
     "game_key":"2026-11-21_Blackburn_Loras",
@@ -13548,8 +13548,8 @@
     "pred_score_1":70.033,
     "pred_score_2":79.722,
     "error":19.689,
-    "t1_wab":0.272,
-    "t2_wab":-0.812
+    "t1_wab":0.274,
+    "t2_wab":-0.811
   },
   {
     "game_key":"2026-11-21_Caltech_Dallas",
@@ -13564,8 +13564,8 @@
     "pred_score_1":65.021,
     "pred_score_2":78.841,
     "error":15.82,
-    "t1_wab":0.069,
-    "t2_wab":-0.982
+    "t1_wab":0.068,
+    "t2_wab":-0.985
   },
   {
     "game_key":"2026-11-21_Calvin_Messiah",
@@ -13596,7 +13596,7 @@
     "pred_score_1":74.228,
     "pred_score_2":71.429,
     "error":6.201,
-    "t1_wab":0.193,
+    "t1_wab":0.192,
     "t2_wab":-0.761
   },
   {
@@ -13661,7 +13661,7 @@
     "pred_score_2":65.175,
     "error":24.68,
     "t1_wab":0.007,
-    "t2_wab":-0.557
+    "t2_wab":-0.558
   },
   {
     "game_key":"2026-11-21_Catholic_Lycoming",
@@ -13680,20 +13680,20 @@
     "t2_wab":-0.499
   },
   {
-    "game_key":"2026-11-21_Goucher_Scranton",
+    "game_key":"2026-11-21_Bethany (WV)_Oberlin",
     "date":"2026-11-21",
-    "team_1":"Scranton",
-    "team_1_id":"scranton",
-    "team_1_hfa":-1.0,
-    "team_2":"Goucher",
-    "team_2_id":"goucher",
-    "team_1_score":74.0,
+    "team_1":"Oberlin",
+    "team_1_id":"oberlin",
+    "team_1_hfa":1.0,
+    "team_2":"Bethany",
+    "team_2_id":"bethany",
+    "team_1_score":69.0,
     "team_2_score":68.0,
-    "pred_score_1":70.208,
-    "pred_score_2":65.846,
-    "error":1.637,
-    "t1_wab":0.092,
-    "t2_wab":-0.876
+    "pred_score_1":78.927,
+    "pred_score_2":71.933,
+    "error":5.995,
+    "t1_wab":0.061,
+    "t2_wab":-0.804
   },
   {
     "game_key":"2026-11-21_Berea_Franklin",
@@ -13725,7 +13725,7 @@
     "pred_score_2":78.711,
     "error":16.297,
     "t1_wab":0.294,
-    "t2_wab":-0.829
+    "t2_wab":-0.828
   },
   {
     "game_key":"2026-11-21_Albion_Wilmington (OH)",
@@ -13788,8 +13788,8 @@
     "pred_score_1":72.02,
     "pred_score_2":65.331,
     "error":5.312,
-    "t1_wab":0.112,
-    "t2_wab":-0.605
+    "t1_wab":0.094,
+    "t2_wab":-0.61
   },
   {
     "game_key":"2026-11-21_Amherst_Swarthmore",
@@ -13804,8 +13804,8 @@
     "pred_score_1":66.578,
     "pred_score_2":61.932,
     "error":11.355,
-    "t1_wab":0.306,
-    "t2_wab":-0.498
+    "t1_wab":0.304,
+    "t2_wab":-0.502
   },
   {
     "game_key":"2026-11-21_Berry_Marietta",
@@ -13837,7 +13837,7 @@
     "pred_score_2":67.313,
     "error":13.796,
     "t1_wab":0.038,
-    "t2_wab":-0.809
+    "t2_wab":-0.805
   },
   {
     "game_key":"2026-11-21_Augsburg_Simpson",
@@ -13885,7 +13885,7 @@
     "pred_score_2":62.662,
     "error":2.047,
     "t1_wab":0.067,
-    "t2_wab":-0.796
+    "t2_wab":-0.805
   },
   {
     "game_key":"2026-11-21_Bates_Chris. Newport",
@@ -13920,20 +13920,20 @@
     "t2_wab":-0.841
   },
   {
-    "game_key":"2026-11-21_Beloit_Ripon",
+    "game_key":"2026-11-21_Goucher_Scranton",
     "date":"2026-11-21",
-    "team_1":"Ripon",
-    "team_1_id":"ripon",
+    "team_1":"Scranton",
+    "team_1_id":"scranton",
     "team_1_hfa":-1.0,
-    "team_2":"Beloit",
-    "team_2_id":"beloit",
-    "team_1_score":69.0,
-    "team_2_score":66.0,
-    "pred_score_1":67.254,
-    "pred_score_2":62.535,
-    "error":1.718,
-    "t1_wab":0.051,
-    "t2_wab":-0.928
+    "team_2":"Goucher",
+    "team_2_id":"goucher",
+    "team_1_score":74.0,
+    "team_2_score":68.0,
+    "pred_score_1":70.208,
+    "pred_score_2":65.846,
+    "error":1.637,
+    "t1_wab":0.091,
+    "t2_wab":-0.877
   },
   {
     "game_key":"2026-11-21_Asbury_Spalding",
@@ -13964,24 +13964,24 @@
     "pred_score_1":71.896,
     "pred_score_2":69.896,
     "error":4.0,
-    "t1_wab":0.057,
-    "t2_wab":-0.938
+    "t1_wab":0.038,
+    "t2_wab":-0.94
   },
   {
-    "game_key":"2026-11-21_Bethany (WV)_Oberlin",
+    "game_key":"2026-11-21_Beloit_Ripon",
     "date":"2026-11-21",
-    "team_1":"Oberlin",
-    "team_1_id":"oberlin",
-    "team_1_hfa":1.0,
-    "team_2":"Bethany",
-    "team_2_id":"bethany",
+    "team_1":"Ripon",
+    "team_1_id":"ripon",
+    "team_1_hfa":-1.0,
+    "team_2":"Beloit",
+    "team_2_id":"beloit",
     "team_1_score":69.0,
-    "team_2_score":68.0,
-    "pred_score_1":78.927,
-    "pred_score_2":71.933,
-    "error":5.995,
-    "t1_wab":0.061,
-    "t2_wab":-0.804
+    "team_2_score":66.0,
+    "pred_score_1":67.254,
+    "pred_score_2":62.535,
+    "error":1.718,
+    "t1_wab":0.051,
+    "t2_wab":-0.928
   },
   {
     "game_key":"2026-11-21_Chatham_Franciscan",
@@ -13997,7 +13997,7 @@
     "pred_score_2":70.103,
     "error":2.319,
     "t1_wab":0.069,
-    "t2_wab":-0.636
+    "t2_wab":-0.637
   },
   {
     "game_key":"2026-11-21_Earlham_Muskingum",
@@ -14013,7 +14013,7 @@
     "pred_score_2":62.844,
     "error":0.59,
     "t1_wab":0.03,
-    "t2_wab":-0.756
+    "t2_wab":-0.758
   },
   {
     "game_key":"2026-11-21_East. Mennonite_Greensboro",
@@ -14029,7 +14029,7 @@
     "pred_score_2":66.46,
     "error":3.429,
     "t1_wab":0.045,
-    "t2_wab":-0.804
+    "t2_wab":-0.805
   },
   {
     "game_key":"2026-11-21_Eastern_Franklin & Marshall",
@@ -14080,20 +14080,20 @@
     "t2_wab":-0.923
   },
   {
-    "game_key":"2026-11-21_Elms_Framingham St.",
+    "game_key":"2026-11-21_Elmira_Penn St. Brandywine",
     "date":"2026-11-21",
-    "team_1":"Framingham State",
-    "team_1_id":"framingham-state",
+    "team_1":"Penn State-Brandywine",
+    "team_1_id":"penn-state-brandywine",
     "team_1_hfa":1.0,
-    "team_2":"Elms",
-    "team_2_id":"elms",
-    "team_1_score":66.0,
-    "team_2_score":63.0,
-    "pred_score_1":72.113,
-    "pred_score_2":66.19,
-    "error":2.923,
-    "t1_wab":0.009,
-    "t2_wab":-0.97
+    "team_2":"Elmira",
+    "team_2_id":"elmira",
+    "team_1_score":83.0,
+    "team_2_score":82.0,
+    "pred_score_1":77.466,
+    "pred_score_2":68.01,
+    "error":8.455,
+    "t1_wab":0.01,
+    "t2_wab":-0.953
   },
   {
     "game_key":"2026-11-21_Drew_Juniata",
@@ -14108,7 +14108,7 @@
     "pred_score_1":68.037,
     "pred_score_2":76.824,
     "error":17.787,
-    "t1_wab":0.297,
+    "t1_wab":0.294,
     "t2_wab":-0.87
   },
   {
@@ -14125,7 +14125,7 @@
     "pred_score_2":78.617,
     "error":5.805,
     "t1_wab":0.119,
-    "t2_wab":-0.593
+    "t2_wab":-0.592
   },
   {
     "game_key":"2026-11-21_Fitchburg St._Keene St.",
@@ -14173,7 +14173,7 @@
     "pred_score_2":60.459,
     "error":7.82,
     "t1_wab":0.002,
-    "t2_wab":-0.898
+    "t2_wab":-0.899
   },
   {
     "game_key":"2026-11-21_Gettysburg_Stockton",
@@ -14189,7 +14189,7 @@
     "pred_score_2":67.726,
     "error":4.52,
     "t1_wab":0.386,
-    "t2_wab":-0.424
+    "t2_wab":-0.425
   },
   {
     "game_key":"2026-11-21_Gordon_Old Westbury",
@@ -14204,8 +14204,8 @@
     "pred_score_1":65.249,
     "pred_score_2":73.06,
     "error":19.811,
-    "t1_wab":0.057,
-    "t2_wab":-0.975
+    "t1_wab":0.058,
+    "t2_wab":-0.974
   },
   {
     "game_key":"2026-11-21_Central (IA)_Piedmont",
@@ -14236,7 +14236,7 @@
     "pred_score_1":69.889,
     "pred_score_2":65.188,
     "error":13.299,
-    "t1_wab":0.076,
+    "t1_wab":0.075,
     "t2_wab":-0.839
   },
   {
@@ -14256,20 +14256,20 @@
     "t2_wab":-0.987
   },
   {
-    "game_key":"2026-11-21_Elmira_Penn St. Brandywine",
+    "game_key":"2026-11-21_Elms_Framingham St.",
     "date":"2026-11-21",
-    "team_1":"Penn State-Brandywine",
-    "team_1_id":"penn-state-brandywine",
+    "team_1":"Framingham State",
+    "team_1_id":"framingham-state",
     "team_1_hfa":1.0,
-    "team_2":"Elmira",
-    "team_2_id":"elmira",
-    "team_1_score":83.0,
-    "team_2_score":82.0,
-    "pred_score_1":77.466,
-    "pred_score_2":68.01,
-    "error":8.455,
-    "t1_wab":0.01,
-    "t2_wab":-0.952
+    "team_2":"Elms",
+    "team_2_id":"elms",
+    "team_1_score":66.0,
+    "team_2_score":63.0,
+    "pred_score_1":72.113,
+    "pred_score_2":66.19,
+    "error":2.923,
+    "t1_wab":0.009,
+    "t2_wab":-0.97
   },
   {
     "game_key":"2026-11-21_Denison_Redlands",
@@ -14285,7 +14285,7 @@
     "pred_score_2":85.147,
     "error":1.776,
     "t1_wab":0.445,
-    "t2_wab":-0.502
+    "t2_wab":-0.498
   },
   {
     "game_key":"2026-11-21_Claremont-M-S_Trinity (TX)",
@@ -14301,7 +14301,7 @@
     "pred_score_2":73.498,
     "error":16.837,
     "t1_wab":0.576,
-    "t2_wab":-0.24
+    "t2_wab":-0.241
   },
   {
     "game_key":"2026-11-21_Dickinson_Wash. & Lee",
@@ -14316,8 +14316,8 @@
     "pred_score_1":68.922,
     "pred_score_2":67.919,
     "error":3.997,
-    "t1_wab":0.101,
-    "t2_wab":-0.821
+    "t1_wab":0.088,
+    "t2_wab":-0.822
   },
   {
     "game_key":"2026-11-21_Coast Guard_Eastern Conn. St.",
@@ -14364,8 +14364,8 @@
     "pred_score_1":82.121,
     "pred_score_2":73.523,
     "error":0.598,
-    "t1_wab":0.024,
-    "t2_wab":-0.943
+    "t1_wab":0.023,
+    "t2_wab":-0.944
   },
   {
     "game_key":"2026-11-21_Concordia Wisconsin_John Carroll",
@@ -14380,24 +14380,24 @@
     "pred_score_1":90.297,
     "pred_score_2":77.657,
     "error":11.36,
-    "t1_wab":0.136,
-    "t2_wab":-0.441
+    "t1_wab":0.135,
+    "t2_wab":-0.444
   },
   {
-    "game_key":"2026-11-21_Cornell College_Grinnell",
+    "game_key":"2026-11-21_Concordia-M'head_Wis.-Stout",
     "date":"2026-11-21",
-    "team_1":"Grinnell",
-    "team_1_id":"grinnell",
-    "team_1_hfa":1.0,
-    "team_2":"Cornell",
-    "team_2_id":"cornell",
-    "team_1_score":120.0,
-    "team_2_score":87.0,
-    "pred_score_1":103.738,
-    "pred_score_2":92.876,
-    "error":22.139,
-    "t1_wab":0.043,
-    "t2_wab":-0.692
+    "team_1":"UW-Stout",
+    "team_1_id":"uw-stout",
+    "team_1_hfa":0.0,
+    "team_2":"Concordia-Moorhead",
+    "team_2_id":"concordia-moorhead",
+    "team_1_score":92.0,
+    "team_2_score":57.0,
+    "pred_score_1":73.8,
+    "pred_score_2":73.713,
+    "error":34.913,
+    "t1_wab":0.17,
+    "t2_wab":-0.595
   },
   {
     "game_key":"2026-11-21_Concordia (TX)_East Tex. Baptist",
@@ -14416,20 +14416,20 @@
     "t2_wab":-0.749
   },
   {
-    "game_key":"2026-11-21_Covenant_Lynchburg",
+    "game_key":"2026-11-21_Cortland_Montclair St.",
     "date":"2026-11-21",
-    "team_1":"Lynchburg",
-    "team_1_id":"lynchburg",
+    "team_1":"Montclair State",
+    "team_1_id":"montclair-state",
     "team_1_hfa":-1.0,
-    "team_2":"Covenant",
-    "team_2_id":"covenant",
-    "team_1_score":93.0,
-    "team_2_score":76.0,
-    "pred_score_1":98.568,
-    "pred_score_2":83.995,
-    "error":2.426,
-    "t1_wab":0.119,
-    "t2_wab":-0.612
+    "team_2":"Cortland",
+    "team_2_id":"cortland",
+    "team_1_score":92.0,
+    "team_2_score":67.0,
+    "pred_score_1":78.498,
+    "pred_score_2":77.804,
+    "error":24.306,
+    "t1_wab":0.306,
+    "t2_wab":-0.573
   },
   {
     "game_key":"2026-11-21_Crown (MN)_St. Scholastica",
@@ -14461,7 +14461,7 @@
     "pred_score_2":80.769,
     "error":5.811,
     "t1_wab":0.02,
-    "t2_wab":-0.978
+    "t2_wab":-0.98
   },
   {
     "game_key":"2026-11-21_DeSales_Muhlenberg",
@@ -14476,8 +14476,8 @@
     "pred_score_1":64.615,
     "pred_score_2":60.224,
     "error":11.608,
-    "t1_wab":0.083,
-    "t2_wab":-0.681
+    "t1_wab":0.082,
+    "t2_wab":-0.769
   },
   {
     "game_key":"2026-11-21_Dean_Lesley",
@@ -14492,8 +14492,8 @@
     "pred_score_1":84.692,
     "pred_score_2":75.078,
     "error":2.386,
-    "t1_wab":0.018,
-    "t2_wab":-0.932
+    "t1_wab":0.014,
+    "t2_wab":-0.933
   },
   {
     "game_key":"2026-11-21_Delaware Valley_Wilson",
@@ -14509,23 +14509,23 @@
     "pred_score_2":69.647,
     "error":23.047,
     "t1_wab":0.012,
-    "t2_wab":-0.817
+    "t2_wab":-0.816
   },
   {
-    "game_key":"2026-11-21_Cortland_Montclair St.",
+    "game_key":"2026-11-21_Cornell College_Grinnell",
     "date":"2026-11-21",
-    "team_1":"Montclair State",
-    "team_1_id":"montclair-state",
-    "team_1_hfa":-1.0,
-    "team_2":"Cortland",
-    "team_2_id":"cortland",
-    "team_1_score":92.0,
-    "team_2_score":67.0,
-    "pred_score_1":78.498,
-    "pred_score_2":77.804,
-    "error":24.306,
-    "t1_wab":0.306,
-    "t2_wab":-0.573
+    "team_1":"Grinnell",
+    "team_1_id":"grinnell",
+    "team_1_hfa":1.0,
+    "team_2":"Cornell",
+    "team_2_id":"cornell",
+    "team_1_score":120.0,
+    "team_2_score":87.0,
+    "pred_score_1":103.738,
+    "pred_score_2":92.876,
+    "error":22.139,
+    "t1_wab":0.043,
+    "t2_wab":-0.693
   },
   {
     "game_key":"2026-11-22_Keene St._Westfield St.",
@@ -14544,20 +14544,20 @@
     "t2_wab":-0.628
   },
   {
-    "game_key":"2026-11-22_Mount Union_Transylvania",
+    "game_key":"2026-11-22_Mt. St. Joseph_WashU",
     "date":"2026-11-22",
-    "team_1":"Transylvania",
-    "team_1_id":"transylvania",
-    "team_1_hfa":1.0,
-    "team_2":"Mount Union",
-    "team_2_id":"mount-union",
-    "team_1_score":57.0,
-    "team_2_score":53.0,
-    "pred_score_1":73.981,
-    "pred_score_2":75.488,
-    "error":5.507,
-    "t1_wab":0.425,
-    "t2_wab":-0.486
+    "team_1":"Washington U.",
+    "team_1_id":"washington-u",
+    "team_1_hfa":-1.0,
+    "team_2":"Mount St. Joseph",
+    "team_2_id":"mount-st-joseph",
+    "team_1_score":75.0,
+    "team_2_score":71.0,
+    "pred_score_1":72.824,
+    "pred_score_2":63.129,
+    "error":5.696,
+    "t1_wab":0.319,
+    "t2_wab":-0.437
   },
   {
     "game_key":"2026-11-22_La Verne_Whitman",
@@ -14573,7 +14573,7 @@
     "pred_score_2":72.153,
     "error":18.584,
     "t1_wab":0.057,
-    "t2_wab":-0.818
+    "t2_wab":-0.814
   },
   {
     "game_key":"2026-11-22_LeTourneau_Millsaps",
@@ -14624,52 +14624,52 @@
     "t2_wab":-0.793
   },
   {
-    "game_key":"2026-11-22_Mt. St. Joseph_WashU",
+    "game_key":"2026-11-22_Mount Union_Transylvania",
     "date":"2026-11-22",
-    "team_1":"Washington U.",
-    "team_1_id":"washington-u",
-    "team_1_hfa":-1.0,
-    "team_2":"Mount St. Joseph",
-    "team_2_id":"mount-st-joseph",
-    "team_1_score":75.0,
-    "team_2_score":71.0,
-    "pred_score_1":72.824,
-    "pred_score_2":63.129,
-    "error":5.696,
-    "t1_wab":0.32,
-    "t2_wab":-0.437
-  },
-  {
-    "game_key":"2026-11-22_SUNY Oneonta_Salisbury",
-    "date":"2026-11-22",
-    "team_1":"SUNY Oneonta",
-    "team_1_id":"suny-oneonta",
-    "team_1_hfa":-1.0,
-    "team_2":"Salisbury",
-    "team_2_id":"salisbury",
-    "team_1_score":77.0,
-    "team_2_score":65.0,
-    "pred_score_1":74.419,
-    "pred_score_2":68.504,
-    "error":6.085,
-    "t1_wab":0.167,
-    "t2_wab":-0.704
-  },
-  {
-    "game_key":"2026-11-22_Nichols_Williams",
-    "date":"2026-11-22",
-    "team_1":"Williams",
-    "team_1_id":"williams",
+    "team_1":"Transylvania",
+    "team_1_id":"transylvania",
     "team_1_hfa":1.0,
-    "team_2":"Nichols",
-    "team_2_id":"nichols",
-    "team_1_score":78.0,
-    "team_2_score":55.0,
-    "pred_score_1":77.032,
-    "pred_score_2":66.019,
-    "error":11.987,
-    "t1_wab":0.082,
-    "t2_wab":-0.498
+    "team_2":"Mount Union",
+    "team_2_id":"mount-union",
+    "team_1_score":57.0,
+    "team_2_score":53.0,
+    "pred_score_1":73.981,
+    "pred_score_2":75.488,
+    "error":5.507,
+    "t1_wab":0.425,
+    "t2_wab":-0.486
+  },
+  {
+    "game_key":"2026-11-22_Muskingum_Rockford",
+    "date":"2026-11-22",
+    "team_1":"Muskingum",
+    "team_1_id":"muskingum",
+    "team_1_hfa":0.0,
+    "team_2":"Rockford",
+    "team_2_id":"rockford",
+    "team_1_score":87.0,
+    "team_2_score":72.0,
+    "pred_score_1":85.41,
+    "pred_score_2":71.4,
+    "error":0.99,
+    "t1_wab":0.051,
+    "t2_wab":-0.683
+  },
+  {
+    "game_key":"2026-11-22_St. Thomas (TX)_Trinity (TX)",
+    "date":"2026-11-22",
+    "team_1":"St. Thomas (Texas)",
+    "team_1_id":"st-thomas-texas",
+    "team_1_hfa":-1.0,
+    "team_2":"Trinity (Texas)",
+    "team_2_id":"trinity-texas",
+    "team_1_score":71.0,
+    "team_2_score":50.0,
+    "pred_score_1":70.208,
+    "pred_score_2":70.679,
+    "error":21.471,
+    "t1_wab":0.576,
+    "t2_wab":-0.365
   },
   {
     "game_key":"2026-11-22_Oglethorpe_William Peace",
@@ -14736,6 +14736,38 @@
     "t2_wab":-0.935
   },
   {
+    "game_key":"2026-11-22_SUNY Oneonta_Salisbury",
+    "date":"2026-11-22",
+    "team_1":"SUNY Oneonta",
+    "team_1_id":"suny-oneonta",
+    "team_1_hfa":-1.0,
+    "team_2":"Salisbury",
+    "team_2_id":"salisbury",
+    "team_1_score":77.0,
+    "team_2_score":65.0,
+    "pred_score_1":74.419,
+    "pred_score_2":68.504,
+    "error":6.085,
+    "t1_wab":0.168,
+    "t2_wab":-0.701
+  },
+  {
+    "game_key":"2026-11-22_Wesleyan (CT)_Yeshiva",
+    "date":"2026-11-22",
+    "team_1":"Wesleyan",
+    "team_1_id":"wesleyan",
+    "team_1_hfa":-1.0,
+    "team_2":"Yeshiva",
+    "team_2_id":"yeshiva",
+    "team_1_score":89.0,
+    "team_2_score":79.0,
+    "pred_score_1":82.972,
+    "pred_score_2":67.628,
+    "error":5.343,
+    "t1_wab":0.136,
+    "t2_wab":-0.501
+  },
+  {
     "game_key":"2026-11-22_JWU (Providence)_Pfeiffer",
     "date":"2026-11-22",
     "team_1":"Pfeiffer",
@@ -14752,20 +14784,20 @@
     "t2_wab":-0.929
   },
   {
-    "game_key":"2026-11-22_Muskingum_Rockford",
+    "game_key":"2026-11-22_Nichols_Williams",
     "date":"2026-11-22",
-    "team_1":"Muskingum",
-    "team_1_id":"muskingum",
-    "team_1_hfa":0.0,
-    "team_2":"Rockford",
-    "team_2_id":"rockford",
-    "team_1_score":87.0,
-    "team_2_score":72.0,
-    "pred_score_1":85.41,
-    "pred_score_2":71.4,
-    "error":0.99,
-    "t1_wab":0.051,
-    "t2_wab":-0.68
+    "team_1":"Williams",
+    "team_1_id":"williams",
+    "team_1_hfa":1.0,
+    "team_2":"Nichols",
+    "team_2_id":"nichols",
+    "team_1_score":78.0,
+    "team_2_score":55.0,
+    "pred_score_1":77.032,
+    "pred_score_2":66.019,
+    "error":11.987,
+    "t1_wab":0.082,
+    "t2_wab":-0.497
   },
   {
     "game_key":"2026-11-22_Hood_St. Joseph's (Brkln)",
@@ -14784,20 +14816,20 @@
     "t2_wab":-0.361
   },
   {
-    "game_key":"2026-11-22_Alma_Earlham",
+    "game_key":"2026-11-22_Babson_Tufts",
     "date":"2026-11-22",
-    "team_1":"Alma",
-    "team_1_id":"alma",
-    "team_1_hfa":-1.0,
-    "team_2":"Earlham",
-    "team_2_id":"earlham",
-    "team_1_score":69.0,
-    "team_2_score":68.0,
-    "pred_score_1":78.468,
-    "pred_score_2":67.261,
-    "error":10.207,
-    "t1_wab":0.03,
-    "t2_wab":-0.919
+    "team_1":"Tufts",
+    "team_1_id":"tufts",
+    "team_1_hfa":1.0,
+    "team_2":"Babson",
+    "team_2_id":"babson",
+    "team_1_score":73.0,
+    "team_2_score":57.0,
+    "pred_score_1":76.875,
+    "pred_score_2":67.856,
+    "error":6.982,
+    "t1_wab":0.457,
+    "t2_wab":-0.134
   },
   {
     "game_key":"2026-11-22_Hampden-Sydney_Sewanee",
@@ -14816,20 +14848,20 @@
     "t2_wab":-0.356
   },
   {
-    "game_key":"2026-11-22_St. Thomas (TX)_Trinity (TX)",
+    "game_key":"2026-11-22_Alma_Earlham",
     "date":"2026-11-22",
-    "team_1":"St. Thomas (Texas)",
-    "team_1_id":"st-thomas-texas",
+    "team_1":"Alma",
+    "team_1_id":"alma",
     "team_1_hfa":-1.0,
-    "team_2":"Trinity (Texas)",
-    "team_2_id":"trinity-texas",
-    "team_1_score":71.0,
-    "team_2_score":50.0,
-    "pred_score_1":70.208,
-    "pred_score_2":70.679,
-    "error":21.471,
-    "t1_wab":0.576,
-    "t2_wab":-0.365
+    "team_2":"Earlham",
+    "team_2_id":"earlham",
+    "team_1_score":69.0,
+    "team_2_score":68.0,
+    "pred_score_1":78.468,
+    "pred_score_2":67.261,
+    "error":10.207,
+    "t1_wab":0.03,
+    "t2_wab":-0.919
   },
   {
     "game_key":"2026-11-22_Amherst_Marymount (VA)",
@@ -14844,8 +14876,8 @@
     "pred_score_1":58.728,
     "pred_score_2":62.17,
     "error":10.442,
-    "t1_wab":0.41,
-    "t2_wab":-0.557
+    "t1_wab":0.406,
+    "t2_wab":-0.558
   },
   {
     "game_key":"2026-11-22_Aurora_Mary Hardin-Baylor",
@@ -14862,22 +14894,6 @@
     "error":6.209,
     "t1_wab":0.229,
     "t2_wab":-0.71
-  },
-  {
-    "game_key":"2026-11-22_Babson_Tufts",
-    "date":"2026-11-22",
-    "team_1":"Tufts",
-    "team_1_id":"tufts",
-    "team_1_hfa":1.0,
-    "team_2":"Babson",
-    "team_2_id":"babson",
-    "team_1_score":73.0,
-    "team_2_score":57.0,
-    "pred_score_1":76.875,
-    "pred_score_2":67.856,
-    "error":6.982,
-    "t1_wab":0.457,
-    "t2_wab":-0.134
   },
   {
     "game_key":"2026-11-22_Bates_Plattsburgh St.",
@@ -14909,23 +14925,23 @@
     "pred_score_2":69.297,
     "error":10.909,
     "t1_wab":0.011,
-    "t2_wab":-0.694
+    "t2_wab":-0.696
   },
   {
-    "game_key":"2026-11-22_Cal Lutheran_Lewis & Clark",
+    "game_key":"2026-11-22_Hanover_La Roche",
     "date":"2026-11-22",
-    "team_1":"Cal Lutheran",
-    "team_1_id":"cal-lutheran",
-    "team_1_hfa":-1.0,
-    "team_2":"Lewis and Clark",
-    "team_2_id":"lewis-and-clark",
-    "team_1_score":76.0,
-    "team_2_score":74.0,
-    "pred_score_1":76.885,
-    "pred_score_2":75.371,
-    "error":0.486,
-    "t1_wab":0.145,
-    "t2_wab":-0.871
+    "team_1":"Hanover",
+    "team_1_id":"hanover",
+    "team_1_hfa":0.0,
+    "team_2":"La Roche",
+    "team_2_id":"la-roche",
+    "team_1_score":83.0,
+    "team_2_score":61.0,
+    "pred_score_1":79.442,
+    "pred_score_2":71.703,
+    "error":14.26,
+    "t1_wab":0.067,
+    "t2_wab":-0.737
   },
   {
     "game_key":"2026-11-22_Centre_Wis.-Stevens Point",
@@ -14944,20 +14960,20 @@
     "t2_wab":-0.364
   },
   {
-    "game_key":"2026-11-22_Chris. Newport_Western New Eng.",
+    "game_key":"2026-11-22_Cal Lutheran_Lewis & Clark",
     "date":"2026-11-22",
-    "team_1":"Western New England",
-    "team_1_id":"western-new-england",
-    "team_1_hfa":1.0,
-    "team_2":"Christopher Newport",
-    "team_2_id":"christopher-newport",
-    "team_1_score":87.0,
-    "team_2_score":73.0,
-    "pred_score_1":66.326,
-    "pred_score_2":68.731,
-    "error":16.405,
-    "t1_wab":0.572,
-    "t2_wab":-0.32
+    "team_1":"Cal Lutheran",
+    "team_1_id":"cal-lutheran",
+    "team_1_hfa":-1.0,
+    "team_2":"Lewis and Clark",
+    "team_2_id":"lewis-and-clark",
+    "team_1_score":76.0,
+    "team_2_score":74.0,
+    "pred_score_1":76.885,
+    "pred_score_2":75.371,
+    "error":0.486,
+    "t1_wab":0.168,
+    "t2_wab":-0.869
   },
   {
     "game_key":"2026-11-22_Claremont-M-S_Schreiner",
@@ -14973,7 +14989,7 @@
     "pred_score_2":68.678,
     "error":10.127,
     "t1_wab":0.216,
-    "t2_wab":-0.178
+    "t2_wab":-0.179
   },
   {
     "game_key":"2026-11-22_Coe_Hamilton",
@@ -15004,8 +15020,24 @@
     "pred_score_1":76.681,
     "pred_score_2":76.642,
     "error":22.961,
-    "t1_wab":0.087,
-    "t2_wab":-0.78
+    "t1_wab":0.071,
+    "t2_wab":-0.781
+  },
+  {
+    "game_key":"2026-11-22_Curry_VTSU Castleton",
+    "date":"2026-11-22",
+    "team_1":"Castleton",
+    "team_1_id":"castleton",
+    "team_1_hfa":0.0,
+    "team_2":"Curry",
+    "team_2_id":"curry",
+    "team_1_score":103.0,
+    "team_2_score":95.0,
+    "pred_score_1":85.437,
+    "pred_score_2":83.975,
+    "error":6.539,
+    "t1_wab":0.02,
+    "t2_wab":-0.971
   },
   {
     "game_key":"2026-11-22_Dallas_Occidental",
@@ -15020,8 +15052,8 @@
     "pred_score_1":70.609,
     "pred_score_2":78.301,
     "error":9.692,
-    "t1_wab":0.207,
-    "t2_wab":-0.931
+    "t1_wab":0.208,
+    "t2_wab":-0.932
   },
   {
     "game_key":"2026-11-22_Emory_Guilford",
@@ -15052,39 +15084,231 @@
     "pred_score_1":71.083,
     "pred_score_2":79.998,
     "error":11.916,
-    "t1_wab":0.155,
+    "t1_wab":0.154,
     "t2_wab":-0.936
   },
   {
-    "game_key":"2026-11-22_Hanover_La Roche",
+    "game_key":"2026-11-22_Chris. Newport_Western New Eng.",
     "date":"2026-11-22",
-    "team_1":"Hanover",
-    "team_1_id":"hanover",
-    "team_1_hfa":0.0,
-    "team_2":"La Roche",
-    "team_2_id":"la-roche",
-    "team_1_score":83.0,
-    "team_2_score":61.0,
-    "pred_score_1":79.442,
-    "pred_score_2":71.703,
-    "error":14.26,
-    "t1_wab":0.067,
-    "t2_wab":-0.737
+    "team_1":"Western New England",
+    "team_1_id":"western-new-england",
+    "team_1_hfa":1.0,
+    "team_2":"Christopher Newport",
+    "team_2_id":"christopher-newport",
+    "team_1_score":87.0,
+    "team_2_score":73.0,
+    "pred_score_1":66.326,
+    "pred_score_2":68.731,
+    "error":16.405,
+    "t1_wab":0.572,
+    "t2_wab":-0.32
   },
   {
-    "game_key":"2026-11-22_Wesleyan (CT)_Yeshiva",
-    "date":"2026-11-22",
-    "team_1":"Wesleyan",
-    "team_1_id":"wesleyan",
+    "game_key":"2026-11-23_DeSales_Moravian",
+    "date":"2026-11-23",
+    "team_1":"Moravian",
+    "team_1_id":"moravian",
     "team_1_hfa":-1.0,
-    "team_2":"Yeshiva",
-    "team_2_id":"yeshiva",
-    "team_1_score":89.0,
-    "team_2_score":79.0,
-    "pred_score_1":82.972,
-    "pred_score_2":67.628,
-    "error":5.343,
-    "t1_wab":0.136,
-    "t2_wab":-0.5
+    "team_2":"DeSales",
+    "team_2_id":"desales",
+    "team_1_score":70.0,
+    "team_2_score":62.0,
+    "pred_score_1":72.979,
+    "pred_score_2":84.508,
+    "error":19.529,
+    "t1_wab":0.231,
+    "t2_wab":-0.928
+  },
+  {
+    "game_key":"2026-11-23_Keuka_Keystone",
+    "date":"2026-11-23",
+    "team_1":"Keuka",
+    "team_1_id":"keuka",
+    "team_1_hfa":1.0,
+    "team_2":"Keystone",
+    "team_2_id":"keystone",
+    "team_1_score":72.0,
+    "team_2_score":61.0,
+    "pred_score_1":80.487,
+    "pred_score_2":73.231,
+    "error":3.744,
+    "t1_wab":0.013,
+    "t2_wab":-0.941
+  },
+  {
+    "game_key":"2026-11-23_Gwynedd Mercy_TCNJ",
+    "date":"2026-11-23",
+    "team_1":"Gwynedd Mercy",
+    "team_1_id":"gwynedd-mercy",
+    "team_1_hfa":1.0,
+    "team_2":"TCNJ",
+    "team_2_id":"tcnj",
+    "team_1_score":87.0,
+    "team_2_score":75.0,
+    "pred_score_1":72.716,
+    "pred_score_2":80.323,
+    "error":19.606,
+    "t1_wab":0.074,
+    "t2_wab":-0.935
+  },
+  {
+    "game_key":"2026-11-23_Dickinson_King's (PA)",
+    "date":"2026-11-23",
+    "team_1":"Dickinson",
+    "team_1_id":"dickinson",
+    "team_1_hfa":1.0,
+    "team_2":"King's",
+    "team_2_id":"king-s",
+    "team_1_score":65.0,
+    "team_2_score":63.0,
+    "pred_score_1":79.5,
+    "pred_score_2":68.104,
+    "error":9.396,
+    "t1_wab":0.031,
+    "t2_wab":-0.831
+  },
+  {
+    "game_key":"2026-11-23_Colorado Col._Lewis & Clark",
+    "date":"2026-11-23",
+    "team_1":"Lewis and Clark",
+    "team_1_id":"lewis-and-clark",
+    "team_1_hfa":1.0,
+    "team_2":"Colorado College",
+    "team_2_id":"colorado-college",
+    "team_1_score":106.0,
+    "team_2_score":88.0,
+    "pred_score_1":74.906,
+    "pred_score_2":73.482,
+    "error":16.576,
+    "t1_wab":0.071,
+    "t2_wab":-0.832
+  },
+  {
+    "game_key":"2026-11-23_Lesley_New England Col.",
+    "date":"2026-11-23",
+    "team_1":"New England College",
+    "team_1_id":"new-england-college",
+    "team_1_hfa":1.0,
+    "team_2":"Lesley",
+    "team_2_id":"lesley",
+    "team_1_score":81.0,
+    "team_2_score":61.0,
+    "pred_score_1":77.821,
+    "pred_score_2":76.07,
+    "error":18.248,
+    "t1_wab":0.009,
+    "t2_wab":-0.97
+  },
+  {
+    "game_key":"2026-11-23_Centenary (NJ)_John Jay",
+    "date":"2026-11-23",
+    "team_1":"John Jay",
+    "team_1_id":"john-jay",
+    "team_1_hfa":1.0,
+    "team_2":"Centenary (N.J.)",
+    "team_2_id":"centenary-n-j",
+    "team_1_score":85.0,
+    "team_2_score":61.0,
+    "pred_score_1":68.005,
+    "pred_score_2":74.365,
+    "error":30.36,
+    "t1_wab":0.018,
+    "t2_wab":-0.975
+  },
+  {
+    "game_key":"2026-11-23_Carnegie Mellon_Saint Vincent",
+    "date":"2026-11-23",
+    "team_1":"St. Vincent",
+    "team_1_id":"st-vincent",
+    "team_1_hfa":-1.0,
+    "team_2":"Carnegie Mellon",
+    "team_2_id":"carnegie-mellon",
+    "team_1_score":87.0,
+    "team_2_score":85.0,
+    "pred_score_1":69.012,
+    "pred_score_2":79.598,
+    "error":12.586,
+    "t1_wab":0.516,
+    "t2_wab":-0.822
+  },
+  {
+    "game_key":"2026-11-23_Caltech_Linfield",
+    "date":"2026-11-23",
+    "team_1":"Linfield",
+    "team_1_id":"linfield",
+    "team_1_hfa":-1.0,
+    "team_2":"Caltech",
+    "team_2_id":"caltech",
+    "team_1_score":77.0,
+    "team_2_score":57.0,
+    "pred_score_1":70.298,
+    "pred_score_2":62.497,
+    "error":12.198,
+    "t1_wab":0.015,
+    "t2_wab":-0.944
+  },
+  {
+    "game_key":"2026-11-23_CCNY_Merchant Marine",
+    "date":"2026-11-23",
+    "team_1":"CCNY",
+    "team_1_id":"ccny",
+    "team_1_hfa":-1.0,
+    "team_2":"Merchant Marine",
+    "team_2_id":"merchant-marine",
+    "team_1_score":74.0,
+    "team_2_score":60.0,
+    "pred_score_1":65.685,
+    "pred_score_2":67.046,
+    "error":15.361,
+    "t1_wab":0.026,
+    "t2_wab":-0.976
+  },
+  {
+    "game_key":"2026-11-23_Alvernia_York (NY)",
+    "date":"2026-11-23",
+    "team_1":"Alvernia",
+    "team_1_id":"alvernia",
+    "team_1_hfa":-1.0,
+    "team_2":"York (N.Y.)",
+    "team_2_id":"york-n-y",
+    "team_1_score":67.0,
+    "team_2_score":65.0,
+    "pred_score_1":86.301,
+    "pred_score_2":70.425,
+    "error":13.876,
+    "t1_wab":0.022,
+    "t2_wab":-0.906
+  },
+  {
+    "game_key":"2026-11-23_Colby_Kean",
+    "date":"2026-11-23",
+    "team_1":"Colby",
+    "team_1_id":"colby",
+    "team_1_hfa":-1.0,
+    "team_2":"Kean",
+    "team_2_id":"kean",
+    "team_1_score":69.0,
+    "team_2_score":67.0,
+    "pred_score_1":77.658,
+    "pred_score_2":79.958,
+    "error":4.3,
+    "t1_wab":0.339,
+    "t2_wab":-0.775
+  },
+  {
+    "game_key":"2026-11-23_Penn St.-Berks_Washington Col.",
+    "date":"2026-11-23",
+    "team_1":"Washington College",
+    "team_1_id":"washington-college",
+    "team_1_hfa":1.0,
+    "team_2":"Penn State-Berks",
+    "team_2_id":"penn-state-berks",
+    "team_1_score":74.0,
+    "team_2_score":63.0,
+    "pred_score_1":90.793,
+    "pred_score_2":73.944,
+    "error":5.849,
+    "t1_wab":0.007,
+    "t2_wab":-0.921
   }
 ]
