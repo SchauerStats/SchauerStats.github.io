@@ -1473,9 +1473,9 @@
     "team_id":"amherst",
     "full_team":"Amherst",
     "season":2027,
-    "off":110.77,
-    "def":91.98,
-    "rating":18.79,
+    "off":110.79,
+    "def":91.99,
+    "rating":18.8,
     "pace":66.47,
     "wab":-0.067
   },
@@ -3487,7 +3487,7 @@
     "def":99.05,
     "rating":4.48,
     "pace":72.18,
-    "wab":-2.313
+    "wab":-2.31
   },
   {
     "team_id":"batten",
@@ -10347,7 +10347,7 @@
     "def":100.82,
     "rating":-2.45,
     "pace":67.65,
-    "wab":-2.678
+    "wab":-2.675
   },
   {
     "team_id":"clarks-summit",
@@ -15037,7 +15037,7 @@
     "def":101.5,
     "rating":-2.02,
     "pace":69.89,
-    "wab":-2.867
+    "wab":-2.87
   },
   {
     "team_id":"eastern-mennonite",
@@ -19293,11 +19293,11 @@
     "team_id":"gordon",
     "full_team":"Gordon",
     "season":2027,
-    "off":96.19,
-    "def":107.85,
-    "rating":-11.66,
-    "pace":71.47,
-    "wab":-1.957
+    "off":96.09,
+    "def":107.79,
+    "rating":-11.7,
+    "pace":71.46,
+    "wab":-1.96
   },
   {
     "team_id":"goucher",
@@ -30037,7 +30037,7 @@
     "def":106.64,
     "rating":-15.04,
     "pace":70.46,
-    "wab":-4.063
+    "wab":-4.059
   },
   {
     "team_id":"maranatha-baptist",
@@ -31897,7 +31897,7 @@
     "def":113.25,
     "rating":-18.08,
     "pace":75.46,
-    "wab":-6.442
+    "wab":-6.444
   },
   {
     "team_id":"mcdaniel",
@@ -34107,7 +34107,7 @@
     "def":103.32,
     "rating":7.32,
     "pace":69.78,
-    "wab":0.551
+    "wab":0.55
   },
   {
     "team_id":"montclair-state",
@@ -42424,7 +42424,7 @@
     "full_team":"Ramapo",
     "season":2027,
     "off":89.66,
-    "def":97.88,
+    "def":97.89,
     "rating":-8.22,
     "pace":70.03,
     "wab":-2.619
@@ -45643,8 +45643,8 @@
     "team_id":"salem-state",
     "full_team":"Salem State",
     "season":2027,
-    "off":106.06,
-    "def":106.96,
+    "off":106.07,
+    "def":106.97,
     "rating":-0.9,
     "pace":73.98,
     "wab":-0.8
@@ -48197,7 +48197,7 @@
     "def":98.38,
     "rating":26.63,
     "pace":70.21,
-    "wab":1.265
+    "wab":1.268
   },
   {
     "team_id":"st-joseph-conn",
@@ -48727,7 +48727,7 @@
     "def":100.66,
     "rating":12.62,
     "pace":75.16,
-    "wab":0.67
+    "wab":0.668
   },
   {
     "team_id":"st-lawrence",
@@ -51643,11 +51643,11 @@
     "team_id":"suny-old-westbury",
     "full_team":"SUNY-Old Westbury",
     "season":2027,
-    "off":92.87,
-    "def":105.52,
+    "off":92.77,
+    "def":105.42,
     "rating":-12.65,
-    "pace":72.41,
-    "wab":-2.121
+    "pace":72.4,
+    "wab":-2.118
   },
   {
     "team_id":"suny-oneonta",
@@ -53493,7 +53493,7 @@
     "team_id":"transylvania",
     "full_team":"Transylvania",
     "season":2027,
-    "off":106.59,
+    "off":106.58,
     "def":91.56,
     "rating":15.02,
     "pace":70.28,
@@ -53793,11 +53793,11 @@
     "team_id":"trinity-conn",
     "full_team":"Trinity (Conn.)",
     "season":2027,
-    "off":113.97,
-    "def":83.44,
-    "rating":30.52,
-    "pace":68.97,
-    "wab":0.798
+    "off":113.85,
+    "def":83.47,
+    "rating":30.38,
+    "pace":68.96,
+    "wab":0.8
   },
   {
     "team_id":"trinity-texas",
@@ -58753,11 +58753,11 @@
     "team_id":"western-connecticut",
     "full_team":"Western Connecticut",
     "season":2027,
-    "off":101.33,
-    "def":90.36,
-    "rating":10.97,
-    "pace":73.6,
-    "wab":-0.243
+    "off":101.35,
+    "def":90.26,
+    "rating":11.09,
+    "pace":73.59,
+    "wab":-0.245
   },
   {
     "team_id":"western-new-england",
@@ -60775,7 +60775,7 @@
     "season":2027,
     "off":90.71,
     "def":100.52,
-    "rating":-9.81,
+    "rating":-9.8,
     "pace":71.91,
     "wab":-1.866
   },

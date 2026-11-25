@@ -24,7 +24,7 @@
     "conference_id":"nescac",
     "conference":"NESCAC",
     "team_count":11,
-    "avg_rating":12.78,
+    "avg_rating":12.77,
     "best_rank":3,
     "team_ids":[
       "tufts",
@@ -527,8 +527,8 @@
     "conference_id":"lec",
     "conference":"LEC",
     "team_count":9,
-    "avg_rating":0.64,
-    "best_rank":83,
+    "avg_rating":0.65,
+    "best_rank":81,
     "team_ids":[
       "western-connecticut",
       "southern-maine",
